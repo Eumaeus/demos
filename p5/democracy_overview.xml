@@ -1,0 +1,1741 @@
+﻿<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title>Athenian Democracy: a brief overview</title>
+ <author>Christopher W. Blackwell</author>
+ <sponsor>
+ <persName>Adriaan Lanni, ed.</persName>
+ <name>Athenian Law in its Democratic Context</name>
+ <orgName>Center for Hellenic Studies On-line Discussion Series</orgName>
+ </sponsor>
+ </titleStmt>
+ <publicationStmt>
+ <publisher> The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority>
+ <name>A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt>
+ <title>Dēmos: Classical Athenian Democracy</title>
+ <respStmt>
+ <name>Christopher W. Blackwell</name>
+ <resp>Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc>
+ <p>File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="en">English</language>
+ <language ident="la">Latin</language>
+ <language ident="grc">Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc>
+ <change>
+ <date>April 8, 2003</date>
+ <name>Christopher W. Blackwell</name>
+ <desc>Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text xml:lang="en">
+ <body>
+ <div type="Summary" xml:id="Summary" n="Summary">
+ <head>Summary</head>
+ <p>This article was originally written for the online discussion series <soCalled>Athenian
+ Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by
+ Harvard University’s <ref target="http://chs.harvard.edu">Center for Hellenic
+ Studies</ref>. Its purpose is to introduce, very briefly, the institutions of the
+ Athenian democracy during the <date from="-0430" to="-0399">late 5th century BCE</date>
+ through the end of the radical democracy in the late <date from="-0399" to="-0322">4th
+ century</date>. This is a companion-piece to <term sortKey="democracy_development">
+ <soCalled>The Development of Athenian Democracy,</soCalled>
+ </term> also written for the <ref target="http://chs.harvard.edu">CHS</ref>’s
+ discussion series.</p>
+ </div>
+ <div type="Section" xml:id="introduction" n="introduction">
+ <head>Introduction</head>
+ <p>The city of <placeName key="Athens">Athens</placeName> lived under a radically democratic
+ government from <date when="-0508">508</date> until <date when="-0322">322</date> BCE.
+ Before the earlier date there was democracy to be found here and there in the government
+ of <placeName key="Athens">Athens</placeName>, and democratic institutions survived long
+ after the latter date, but for those 186 years the city of <placeName key="Athens"
+ >Athens</placeName> was self-consciously and decidedly democratic, autonomous,
+ aggressive, and prosperous. Democracy in <placeName key="Athens">Athens</placeName> was
+ not limited to giving citizens the right to vote. <placeName key="Athens"
+ >Athens</placeName> was not a republic, nor were the People governed by a representative
+ body of legislators. In a very real sense, the People governed themselves, debating and
+ voting individually on issues great and small, from matters of war and peace to the proper
+ qualifications for ferry-boat captains (for the latter, see <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:157">Aeschin. 3.157</bibl>).<note place="footnote"
+ resp="cwb" type="reference">From time to time in this introduction, I cite ancient
+ evidence for our knowledge of Athenian democracy and its history. In doing so, I have
+ tried to limit myself to sources I know to be available online, in the original language
+ and in translation.</note> The Athenian democracy was not, of course, a free-for-all of
+ mob rule. The Athenians understood the value of checks and balances and of enforcing time
+ for reflection before acting. They understood that professionalism is necessary in certain
+ jobs, that accountability was necessary of most jobs, and that some jobs required absolute
+ job-security. The system evolved over time, suffered two complete breakdowns in the <date
+ from="-0499" to="-0400">5th century</date>, and is certainly open to criticism at many
+ points during its history. Nevertheless, it was coherent enough during those two centuries
+ that we can describe it, in general terms, without being too far wrong on any point. And
+ despite its moments of imprudence, injustice, and indecision, it was an experiment
+ remarkable enough to deserve our attention.</p>
+ <p>The early history of Athenian Democracy and its development is the subject of <term
+ sortKey="democracy_development">another article</term> in this series. This general
+ description of how the Athenians governed themselves will focus on the <date from="-0399"
+ to="-0300">4th century BCE</date>, both because the democracy was most fully developed
+ during that time and because the majority of our evidence either comes from that period,
+ or describes the the Athenian government during that period.</p>
+ </div>
+ <div type="Section" xml:id="the_demos" n="the_demos">
+ <head>The Demos</head>
+ <p>For the Athenians, <soCalled>democracy</soCalled> (<term>demokratia</term>, <foreign
+ xml:lang="grc">δημοκρατία</foreign>) gave Rule (<term>kratos</term>, <foreign
+ xml:lang="grc">κράτος</foreign>) to the Demos (<foreign xml:lang="grc"
+ >Δῆμος</foreign>). Demos (pronounced <soCalled>day-moss</soCalled>) has several
+ meanings, all of them important for Athenian democracy. Demos is the Greek word for
+ <soCalled>village</soCalled> or, as it is often translated, <soCalled>deme.</soCalled>
+ The deme was the smallest administrative unit of the Athenian state, like a voting
+ precinct or school district. Young men, who were 18 years old presented themselves to
+ officials of their deme and, having proven that they were not slaves, that their parents
+ were Athenian, and that they were 18 years old, were enrolled in the <soCalled><term
+ sortKey="Assembly">Assembly</term> List</soCalled> (the <term>pinax
+ ekklesiastikos</term>, <foreign xml:lang="grc">πίναξ ἐκκλησιαστικός</foreign>) (see
+ <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg044:35">Dem. 44.35</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:42.1">Aristot. <title>Ath. Pol.</title>
+ 42.1</bibl>).</p>
+ <p>Another meaning of Demos, to the Athenians, was <soCalled>People,</soCalled> as in the
+ People of <placeName key="Athens">Athens</placeName>, the body of citizens collectively.
+ So a young man was enrolled in his <soCalled>demos</soCalled> (deme), and thus became a
+ member of the Demos (the People). As a member of the Demos, this young man could
+ participate in the <term sortKey="Assembly">Assembly</term> of Citizens that was the
+ central institution of the democracy. The Greek word for <soCalled>
+ <term sortKey="Assembly">Assembly</term>
+ </soCalled> is <term>ekklesia</term> (<foreign xml:lang="grc">ἐκκλησία</foreign>), but
+ the Athenians generally referred to it as the <soCalled>Demos.</soCalled> Decrees of the
+ <term sortKey="Assembly">Assembly</term> began with the phrase <quote>It seemed best to
+ the Demos…,</quote> very much like the phrase <quote>We the
+ People…</quote> that introduces the Constitution of the United States. In this
+ context, <quote>Demos</quote> was used to make a distinction between the Assembly of all
+ citizens and the Council of 500 citizens, another institution of the democracy (see
+ below). So some decrees might begin <quote>It seemed best to the Demos…</quote>,
+ others might begin <quote>It seemed best to the Council…</quote>, and still
+ others might begin, <quote>It seemed best to the Demos and the
+ Council….</quote></p>
+ <p>So the Athenian Demos was the local village, the population generally, and the assembly
+ of citizens that governed the state.</p>
+ </div>
+ <div type="Section" xml:id="overview" n="overview">
+ <head>Athenian Democracy: an Overview</head>
+ <p>The democratic government of <placeName key="Athens">Athens</placeName> rested on three
+ main institutions, and a few others of lesser importance. The three pillars of democracy
+ were: the <term sortKey="Assembly">Assembly</term> of the Demos, the <term
+ sortKey="Council">Council</term> of 500, and the People’s <term
+ sortKey="lawcourt">Court</term>. These were supplemented by the Council of the <term
+ sortKey="Areopagus">Areopagus</term>, the <term sortKey="Archons">Archons</term>, and
+ the <term sortKey="Generals">Generals</term>. Actual <term sortKey="legislation"
+ >legislation</term> involved both the <term sortKey="Assembly">Assembly</term> and the
+ <term sortKey="Council">Council</term>, and <foreign xml:lang="la">ad hoc</foreign>
+ boards of <soCalled>Lawmakers.</soCalled> This summary will describe the <term
+ sortKey="Assembly">Assembly</term>, the <term sortKey="Council">Council</term>, and the
+ process of <term sortKey="legislation">legislation</term> in the greatest detail, along
+ with a shorter description of the Council of the <term sortKey="Areopagus"
+ >Areopagus</term>. The People’s <term sortKey="lawcourt">Court</term> will be
+ covered briefly and then left for fuller treatment in other resources. While <term
+ sortKey="Generals">Generals</term> and <term sortKey="Archons">Archons</term> will
+ appear here and there in the descriptions of other institutions, they were really servants
+ of the Demos and do not require extensive discussion in this relatively brief introduction
+ to Athenian Democracy.</p>
+ </div>
+ <div type="Section" xml:id="assembly" n="assembly">
+ <head>Athenian Democracy: the <term sortKey="Assembly">Assembly</term></head>
+ <p>The <term sortKey="Assembly">Assembly</term> (<term>Ekklesia</term>, <foreign
+ xml:lang="grc">ἐκκλησία</foreign>) was the regular gathering of male Athenian citizens
+ (women also enjoyed a certain citizen status, but without political rights) to listen to,
+ discuss, and vote on decrees that affected every aspect of Athenian life, both public and
+ private, from financial matters to religious ones, from public festivals to war, from
+ treaties with foreign powers to regulations governing ferry boats.</p>
+ <p>The <term sortKey="Assembly">Assembly</term> was the regular opportunity for all male
+ citizens of <placeName key="Athens">Athens</placeName> to speak their minds and exercise
+ their votes regarding the government of their city. It was the most central and most
+ definitive institution of the Athenian Democracy. Before <date when="-0462">462</date>
+ BCE, the Court of the <term sortKey="Areopagus">Areopagus</term> controlled <term
+ sortKey="legislation">legislation</term> in <placeName key="Athens">Athens</placeName>,
+ but in that year <name type="person">Ephialtes</name> instituted a reform that diminished
+ the power of the <term sortKey="Areopagus">Areopagus</term> and increased the power of the
+ <term sortKey="Assembly">Assembly</term> of the people (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:25.2">Aristot. <title>Ath. Pol.</title> 25.2</bibl>;
+ <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:27.1">Aristot. <title>Ath. Pol.</title>
+ 27.1</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0007.tlg035:15.2">Plut. <title>Cim.</title>
+ 15.2</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0007.tlg012:9.5">Plut. <title>Per.</title>
+ 9.5</bibl>). This <term sortKey="Assembly">Assembly</term> became synonymous with
+ democracy. When <name type="ancientAuthor">Aristotle</name> describes how democratic
+ government was restored, after <placeName key="Sparta">Sparta</placeName> defeated
+ <placeName key="Athens">Athens</placeName> in <date when="-0404">404</date> BCE, he says
+ that this restoration happened when the People (<term>Demos</term>, <foreign
+ xml:lang="grc">Δῆμος</foreign>) became sovereign over affairs (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:41.1">Aristot. <title>Ath. Pol.</title> 41.1</bibl>).
+ Under this government, he says, the People administers all business by decrees and by
+ <term sortKey="lawcourt">law-courts</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:41.2">Aristot. <title>Ath. Pol.</title> 41.2</bibl>).
+ When <name type="ancientAuthor">Aristotle</name> mentions the <term sortKey="Assembly"
+ >People</term> and government by decrees, he is describing the <term sortKey="Assembly"
+ >Assembly</term>.</p>
+ <p>In the <term sortKey="Assembly">Assembly</term> each male citizen of <placeName
+ key="Athens">Athens</placeName> could speak, regardless of his station. The orator <name
+ type="ancientAuthor">Aeschines</name> says that <quote>the herald, acting as a
+ sergeant-at-arms, does not exclude from the platform the man whose ancestors have not
+ held a general’s office, nor even the man who earns his daily bread by working
+ at a trade; nay, these men he most heartily welcomes, and for this reason he repeats
+ again and again the invitation, <quote>Who wishes to address the <term
+ sortKey="Assembly">Assembly</term>?</quote></quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:27">Aeschin. 1.27</bibl>) The orator <name
+ type="ancientAuthor">Demosthenes</name> could scold his fellow Athenians for failing to
+ recollect certain events, because they <quote>were present at every <term
+ sortKey="Assembly">Assembly</term>, as the state proposed a discussion of policy in
+ which every one might join</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:273">Dem.
+ 18.273</bibl>). <quote>Everyone,</quote> in this context, refers to the body of citizens
+ who were registered on the <term sortKey="Assembly">Assembly</term> List for their local
+ Deme (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg044:35">Dem. 44.35</bibl>). Under the Democracy
+ of <name type="ancientAuthor">Aristotle</name>’s time (after <date when="-0330"
+ >330</date> BCE), young men were enrolled on this list when they were 18 years old
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:42.1">Aristot. <title>Ath. Pol.</title>
+ 42.1</bibl>), then spent two years as military cadets, or <term>ephebes</term>, <foreign
+ xml:lang="grc">ἔφηβοι</foreign> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:42.4"
+ >Aristot. <title>Ath. Pol.</title> 42.4</bibl>), after which they were members of the
+ citizen body (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:42.5">Aristot. <title>Ath.
+ Pol.</title> 42.5</bibl>).</p>
+ <p>Of course, some people might be better qualified than others to speak on certain
+ subjects, and the citizens of <placeName key="Athens">Athens</placeName> could be very
+ critical when anyone tried to speak outside of his expertise. The character <name
+ type="person">Socrates</name> in <name type="ancientAuthor">Plato</name>’s
+ <title>Protagoras</title> says that <quote>when the Athenian <term sortKey="Assembly"
+ >Assembly</term> is discussing construction, the citizens call for builders to speak,
+ and when it is discussing the construction of ships they call for shipwrights, but if
+ anyone else, whom the people do not regard as a craftsman, attempts to advise them, no
+ matter how handsome and wealthy and well-born he may be, not one of these things induces
+ them to accept him; they merely laugh him to scorn and shout him down, until either the
+ speaker retires from his attempt, overborne by the clamor, or the <term
+ sortKey="Scythian_Archers">Archers</term> pull him from his place or turn him out
+ altogether by order of the presiding officials</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0059.tlg022:319b">Plat. <title>Prot.</title> 319b</bibl> - <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0059.tlg022:319c">Plat. <title>Prot.</title> 319c</bibl>). But,
+ <name type="person">Socrates</name> continues, when the discussion is not about
+ technical matters but about the governing of the city, the man who rises to advise them on
+ this may equally well be a smith, a shoemaker, a merchant, a sea-captain, a rich man, a
+ poor man, of good family or of none (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0059.tlg022:319d">Plat.
+ <title>Prot.</title> 319d</bibl>).</p>
+ <p>There is the question of participation by Athenians living in the countryside of
+ <placeName key="Attica">Attica</placeName>, outside the city of <placeName key="Athens"
+ >Athens</placeName>. While these people were certainly citizens of <placeName
+ key="Athens">Athens</placeName>, it may often have been difficult for them to attend a
+ meeting of the <term sortKey="Assembly">Assembly</term>. This would have been especially
+ true when emergency meetings were called on short notice, such as the occasion when news
+ of a military disaster came to the city in the evening, and a special <term
+ sortKey="Assembly">Assembly</term> convened the very next morning (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:169">Dem. 18.169</bibl>). This <term
+ sortKey="Assembly">Assembly</term>, and any others like it, must have consisted mainly
+ of citizens living close to the city. And even when there was more warning before a
+ meeting, we have to wonder how many Athenians living in the countryside of <placeName
+ key="Attica">Attica</placeName> would have made a 50 or 60 mile journey to downtown
+ <placeName key="Athens">Athens</placeName> and back. In the <date from="-0499"
+ to="-0400">5th century</date> we can estimate the adult male population of <placeName
+ key="Athens">Athens</placeName>, and thus the number of men eligible to participate in
+ an <term sortKey="Assembly">Assembly</term>, to have been 40,000 - 60,000, and in the
+ <date from="-0399" to="-0300">4th century</date>, 20,000 - 30,000. But the number of
+ Athenians in attendance at a given meeting seems to have been considerably lower. <name
+ type="ancientAuthor">Thucydides</name> makes the statement that during the Peloponnesian
+ War (<date from="-0331" to="-0404">331 - 404 BCE</date>) there were usually only 5000
+ people at a meeting (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0003.tlg001:8.72">Thuc. 8.72</bibl>),
+ although he may be exaggerating downwards; a better measure of regular attendance might be
+ the fact that 6000 citizens were required for a valid vote conferring <term
+ sortKey="citizenship">citizenship</term> on a non-Athenian (the earliest evidence for
+ this rule dates from <date when="-0369">369</date> BCE) (<bibl n="IG 2.2 103"
+ ><title>IG</title> II<edition>2</edition> 103</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:45">Dem. 24.45</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:89">Dem. 59.89</bibl>).</p>
+ <p>When the <term sortKey="Assembly">Assembly</term> met, the male citizens assembled to
+ discuss the affairs of the city, and this discussion required that each citizen have
+ freedom to speak his mind. This freedom was vital to the proper functioning of the <term
+ sortKey="Assembly">Assembly</term>, whether the issue at stake was some important public
+ policy (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg015:1">Dem. 15.1</bibl>), or the rights of a
+ single citizen (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:3">Dem. 18.3</bibl>). In an
+ anecdote from the distant past, <name type="ancientAuthor">Demosthenes</name> suggests
+ that freedom of speech had a long history at <placeName key="Athens">Athens</placeName>,
+ and persisted despite periodic attempts to limit it. He recounts how in the <date
+ from="-0599" to="-0500">6th century</date> BCE the island of <placeName key="Salamis"
+ >Salamis</placeName> had revolted from Athenian control, and the Athenians had forbidden
+ anyone even to propose a war to recover the island; but <name type="person">Solon</name>,
+ a real person whose place in Athenian history became subject of legend, composed a poem on
+ the subject (poetry on the subject was evidently not forbidden), and through this ruse got
+ around the law and convinced <placeName key="Athens">Athens</placeName> to fight for
+ Salamis (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg019:252">Dem. 19.252</bibl>). By the <date
+ from="-0399" to="-0300">4th century</date> BCE, discussions of motions in the <term
+ sortKey="Assembly">Assembly</term> were opened with a general invitation to all the male
+ citizens, as the Herald asked, <quote>Who wishes to speak?</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:191">Dem. 18.191</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:26">Aeschin. 1.26</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0019.tlg001:46">Aristoph. <title>Ach.</title> 46</bibl>). We
+ might note, here, that <name type="ancientAuthor">Demosthenes</name> claims a certain
+ freedom of speech to have extended even to resident foreigners and slaves (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg009:3">Dem. 9.3</bibl>), although he is certainly not
+ talking about participation in the <term sortKey="Assembly">Assembly</term>, and we should
+ wonder how much freedom these people actually enjoyed.</p>
+ <p>This freedom to speak was not absolute or without regulation. <name type="ancientAuthor"
+ >Aeschines</name> tells us, for example, that in the early democracy (before the <date
+ from="-0499" to="-0400">5th century</date>) citizens over 50 years of age could speak
+ first, and only after those had their say could younger men speak (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:23">Aeschin. 1.23</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:2">Aeschin. 3.2</bibl>). Other formal restrictions
+ could apply, such as decrees limiting discussion of certain topics to certain meetings of
+ the <term sortKey="Assembly">Assembly</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:109">Aeschin. 2.109</bibl>), or even laws forbidding
+ discussion of issues already settled in a <term sortKey="lawcourt">court</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:54">Dem. 24.54</bibl>). Other, less legitimate (but
+ perhaps more effective) limits could be imposed: the crowd might raise a clamor and refuse
+ to listen to a speaker advocate an unpopular proposal (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg019:111">Dem. 19.111</bibl>), and this seems to have
+ happened often enough that orators regularly asked, beforehand, not to be shouted down
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg013:14">Dem. 13.14</bibl>).</p>
+ <p>Individual citizens could lose the right to participate in the <term sortKey="Assembly"
+ >Assembly</term> by committing various offenses (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:23">Aeschin. 1.23</bibl>). <name type="ancientAuthor"
+ >Demosthenes</name> mentions legal penalties for people who attend a meeting of the
+ <term sortKey="Assembly">Assembly</term> while owing a debt to the public treasury
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:123">Dem. 24.123</bibl>), or who have been
+ stricken, for some reason or another, from their deme’s register of citizens
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:132">Dem. 18.132</bibl>). Also prohibited from
+ participating were: anyone convicted of prostituting himself (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:72">Aeschin. 1.72</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:21">Aeschin. 1.21</bibl>; and <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:32">Aeschin. 1.32</bibl>, where the orator adds,
+ <quote>however well he speaks</quote>), anyone who beat his father or mother, or failed
+ to support them, or who threw away his shield in battle, or who squandered his inheritance
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:28">Aeschin. 1.28</bibl> - <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:30">Aeschin. 1.30</bibl>). Any citizen who suspected
+ another of being unqualified to participate in the <term sortKey="Assembly"
+ >Assembly</term> could challenge him to <term>dokimasia</term>, or
+ <soCalled>scrutiny</soCalled> (<foreign xml:lang="grc">δοκιμασία</foreign>), whereupon
+ the issue would be decided by a <term sortKey="lawcourt">jury</term> in a <term
+ sortKey="lawcourt">law-court</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:32"
+ >Aeschin. 1.32</bibl>).</p>
+ <p>Citizens were paid for attending the <term sortKey="Assembly">Assembly</term>, to ensure
+ that even the poor could afford to take time from their work to participate in their own
+ government. <name type="ancientAuthor">Aristotle</name> recognized that inclusion of all
+ citizens and freedom to speak are not the only hallmarks of a democratic constitution, but
+ that the most democratic states pay their citizens for attending the <term
+ sortKey="Assembly">Assembly</term>. He claims that in the absence of payment, the <term
+ sortKey="Council">Council</term> (<term>Boule</term>, <foreign xml:lang="grc"
+ >Βουλή</foreign>) is the most democratic of magistracies (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg035:1317b">Aristot. <title>Pol.</title> 1317b</bibl>),
+ but in states that can afford to, and do, pay their citizens for attending meetings of the
+ <term sortKey="Assembly">Assembly</term>, all the citizens actually take part in it and
+ exercise their <term sortKey="citizenship">citizenship</term>, because even the poor are
+ enabled to be at leisure by receiving pay (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg035:1293a"
+ >Aristot. <title>Pol.</title> 1293a</bibl>). A historical anecdote recorded in <name
+ type="ancientAuthor">Aristotle</name>’s <title>Constitution of the
+ Athenians</title> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003">Aristot. <title>Ath.
+ Pol.</title></bibl>) further supports this assertion: In <date when="-0411"
+ >411</date>, when a group of Athenians temporarily overthrew the democracy and established
+ an oligarchy, one of their first acts was to pass a law that no one should receive pay for
+ political activity (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:29.5">Aristot. <title>Ath.
+ Pol.</title> 29.5</bibl>; and <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:33.1">Aristot.
+ <title>Ath. Pol.</title> 33.1</bibl>, referring to the subsequent regime of <date
+ when="-0411">411</date> and <date when="-0410">410</date>). In the <date from="-0399"
+ to="-0300">4th century</date>, when <name type="person">Timocrates</name> had proposed
+ that the Athenians loosen enforcement of penalties against those who owe debts to the
+ state, <name type="ancientAuthor">Demosthenes</name> claimed that there would be no money
+ left in the treasury to pay for attendance at the <term sortKey="Assembly"
+ >Assembly</term>, and he went on to equate that outcome with an end to Democracy (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:99">Dem. 24.99</bibl>).</p>
+ <p>The traditional meeting-place for the <term sortKey="Assembly">Assembly</term> was the
+ open space on top of the hill of the <name type="site" n="Pnyx, Athens">Pnyx</name> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0003.tlg001:8.97">Thuc. 8.97</bibl>). The <name type="site"
+ n="Pnyx, Athens">Pnyx</name> was open to the sky, and thus meetings of the <term
+ sortKey="Assembly">Assembly</term> must have been influenced by the weather; the laws
+ that mandated good weather omens before the election of military officers (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:44.4">Aristot. <title>Ath. Pol.</title> 44.4</bibl>)
+ might have been as interested in ensuring a comfortable day for discussion as in
+ ascertaining divine favor. </p>
+ <p>In the <date from="-0399" to="-0300">4th century</date>, there were 40 regularly
+ scheduled meetings of the <term sortKey="Assembly">Assembly</term> each year, four in each
+ <soCalled>prytany</soCalled> (a <soCalled>prytany</soCalled> was an administrative unit
+ equal to one tenth of the year) (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.3">Aristot.
+ <title>Ath. Pol.</title> 43.3</bibl>).</p>
+ <p>One of the four meetings in each prytany was the Sovereign <term sortKey="Assembly"
+ >Assembly</term> (<term>kuria ekklesia</term>, <foreign xml:lang="grc">κυρία
+ ἐκκλησία</foreign>), the agenda for which included the confirmation of magistrates
+ currently serving, issues of the food supply and defense, announcements of private
+ property to be confiscated, and announcements of lawsuits regarding inheritance (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.4">Aristot. <title>Ath. Pol.</title>
+ 43.4</bibl>).</p>
+ <p>In each prytany, there were three regular assemblies in addition to the Sovereign <term
+ sortKey="Assembly">Assembly</term>; these were simply called Assemblies (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.3">Aristot. <title>Ath. Pol.</title> 43.3</bibl>).
+ It seems likely that in the <date from="-0499" to="-0400">5th century</date> only the
+ Sovereign Assemblies were regularly scheduled, because <name type="ancientAuthor"
+ >Thucydides</name> mentions a period of 40 days in the year <date when="-0431"
+ >431</date> in which there was no <term sortKey="Assembly">Assembly</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0003.tlg001:2.22.1">Thuc. 2.22.1</bibl>); if there were four
+ scheduled assemblies in each prytany at that time, 40 days could not have passed without a
+ meeting.</p>
+ <p>Apart from the Sovereign <term sortKey="Assembly">Assembly</term>, one of the remaining
+ three was an occasion for any citizen who wished to present a suppliant-branch and address
+ his fellow citizens about any public or private matter that concerned him (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.6">Aristot. <title>Ath. Pol.</title> 43.6</bibl>).
+ The ability of citizens to voice complaints in this public forum may have deterred certain
+ bad behavior, or at least made the perpetrators think twice. <name type="ancientAuthor"
+ >Aeschines</name> recounts how on one occasion some men assaulted a man named <name
+ type="person">Pittalacus</name>. On the next day when <name type="person"
+ >Pittalacus</name> was in the marketplace, his attackers came up to him and tried to
+ assuage him; they were afraid that their crime would be published to the whole city, since
+ there was to be an <term sortKey="Assembly">Assembly</term> that day (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:60">Aeschin. 1.60</bibl>).</p>
+ <p>The other two regularly scheduled meetings in each prytany were concerned, according to
+ <name type="ancientAuthor">Aristotle</name>, with other things (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.6">Aristot. <title>Ath. Pol.</title> 43.6</bibl>).
+ Some of this other business was scheduled to happen at particular assemblies during the
+ year. At an <term sortKey="Assembly">Assembly</term> held on the 11th day of the first
+ prytany, the people voted on whether or not to hold an review of all the laws (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:21">Dem. 24.21</bibl>). In the 6th prytany, there was
+ discussion of whether or not to hold an <term sortKey="ostracism">ostracism</term>,
+ discussion of any information against people charged with being informers—in
+ this category, no more than three citizens and three resident foreigners—and
+ discussion of people accused of failing to perform some assigned public service (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.5">Aristot. <title>Ath. Pol.</title> 43.5</bibl>).
+ A meeting during the 6th prytany was also the occasion for election of military officers
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:44.4">Aristot. <title>Ath. Pol.</title>
+ 44.4</bibl>).</p>
+ <p>At least until the middle of the <date from="-0399" to="-0300">4th century</date> the
+ <term sortKey="Assembly">Assembly</term> occasionally met to conduct a trial, most often
+ an <term sortKey="impeachment">impeachment</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg049:10">Dem. 49.10</bibl>).</p>
+ <p>Assemblies do not seem to have taken place on fixed days during each prytany, but they
+ did not happen on days when the <term sortKey="lawcourt">law-courts</term> were in session
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:80">Dem. 24.80</bibl>). They seem also to have
+ been scheduled around other important events, such as religious festivals. <name
+ type="ancientAuthor">Aeschines</name> is highly critical of an <term sortKey="Assembly"
+ >Assembly</term> that was called on the 8th day of the month Elaphobolion, a day of
+ sacrifices to <name type="god">Asclepius</name> (the orator says that this was
+ unprecedented in memory) (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:67">Aeschin.
+ 3.67</bibl>), and <name type="ancientAuthor">Demosthenes</name> criticizes a motion to
+ have the <term sortKey="Assembly">Assembly</term> meet on the 12th of the month
+ Hecatombaion, a festival day for <name type="god">Cronus</name> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:26">Dem. 24.26</bibl>).</p>
+ <p>In addition to Sovereign Assemblies (<term>kuriai ekklesiai</term>) and Assemblies
+ (<term>ekklesiai</term>), there were Called-together Assemblies (<term>sunkletoi
+ ekklesiai</term>, <foreign xml:lang="grc">σύγκλητοι ἐκκλησίαι</foreign>); the term
+ appears only in literary evidence (not in inscriptions) during the <date from="-0399"
+ to="-0300">4th century</date>, and its meaning is not entirely clear. Sometimes our
+ sources seem to use it to refer to extra meetings, in addition to the normal four that
+ happened in each prytany. <name type="ancientAuthor">Aeschines</name> mentions a time when
+ <placeName key="Athens">Athens</placeName> was in such a panic over <name type="person"
+ >Philip</name> of <placeName key="Macedon">Macedon</placeName>’s war against
+ <placeName key="Amphipolis">Amphipolis</placeName>, that there were more Called-together
+ Assemblies than scheduled Assemblies (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:72"
+ >Aeschin. 2.72</bibl>). But at other times the term seems to indicate an <term
+ sortKey="Assembly">Assembly</term> called at short notice, but not necessarily an extra
+ <term sortKey="Assembly">Assembly</term>.</p>
+ <p>Officials of the <term sortKey="Council">Council</term> called together a meeting of the
+ <term sortKey="Assembly">Assembly</term>, which opened with various religious rituals
+ before the citizens were invited to speak and vote on matters of public business.</p>
+ <p>The 50 members of the <term sortKey="Council">Council</term> serving as
+ Prytaneis—the same word, <term>prytaneis</term> (<foreign xml:lang="grc"
+ >πρυτάνεις</foreign>) refers to the governmental months, ten each year, and to the
+ members of the <term sortKey="Council">Council</term> who were presiding during a given
+ prytany—normally called meetings of the <term sortKey="Assembly">Assembly</term>
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.3">Aristot. <title>Ath. Pol.</title>
+ 43.3</bibl>), and posted the agenda beforehand (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.4">Aristot. <title>Ath. Pol.</title> 43.4</bibl>).
+ If the <term sortKey="Assembly">Assembly</term> was to vote on some matter by ballot, the
+ Prytaneis distribute the ballots (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:90">Dem.
+ 59.90</bibl>).</p>
+ <p>In the <date from="-0499" to="-0400">5th century</date>, the Prytaneis actually managed
+ the conduct of a meeting of the <term sortKey="Assembly">Assembly</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg001:1.7.14">Xen. <title>Hell.</title> 1.7.14</bibl>), but
+ in <name type="ancientAuthor">Aristotle</name>’s time (after the middle of the
+ <date from="-0399" to="-0300">4th century</date>), the President of the <term
+ sortKey="Council">Council</term> appointed nine Proedroi for each <term
+ sortKey="Assembly">Assembly</term>; these were chosen from members of the <term
+ sortKey="Council">Council</term> who were not currently serving as Prytaneis (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:44.2">Aristot. <title>Ath. Pol.</title> 44.2</bibl>).
+ These Proedroi managed the conduct of the <term sortKey="Assembly">Assembly</term>;
+ deciding when to put a question to the vote (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:84"
+ >Aeschin. 2.84</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:68">Aeschin.
+ 2.68</bibl>), and deciding when to cut off discussion of a matter (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:67">Aeschin. 2.67</bibl>).</p>
+ <p>The People did, on occasion, override the will of the officials conducting the meetings,
+ as when, in the late <date from="-0499" to="-0400">5th century</date>, the Prytaneis were
+ unwilling to allow a vote, the People overrode them with menacing shouts (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg001:1.7.14">Xen. <title>Hell.</title> 1.7.14</bibl>).</p>
+ <p>The selection or appointment of Proedroi was potentially subject to corruption, which
+ <name type="ancientAuthor">Aeschines</name> hints at on two occasions (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:73">Aeschin. 3.73</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:90">Aeschin. 2.90</bibl>). In addition to these
+ Proedroi, the <term sortKey="Assembly">Assembly</term> elected a clerk
+ (<term>grammateus</term>, <foreign xml:lang="grc">γραμματεύς</foreign>) to read
+ documents aloud (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:54.5">Aristot. <title>Ath.
+ Pol.</title> 54.5</bibl>); the orator <name type="ancientAuthor">Aeschines</name>
+ served as a clerk early in his career, although we do not know whether he was the clerk
+ appointed to read in the <term sortKey="Assembly">Assembly</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg019:79">Dem. 19.79</bibl>).</p>
+ <p>The opening of a meeting of the <term sortKey="Assembly">Assembly</term> was marked by
+ rituals. A sacrifice was made and carried around the area, and there was a prayer, both of
+ these intended to purify the proceedings (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:23"
+ >Aeschin. 1.23</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:158">Aeschin.
+ 2.158</bibl>; a parody of this prayer is found at <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0019.tlg008:314">Aristoph. <title>Thes.</title> 314</bibl>). The
+ heralds offered the prayer (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:23">Aeschin.
+ 1.23</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:20">Dem. 24.20</bibl>). The herald
+ also called down curses (<term>kataratai</term>, <foreign xml:lang="grc"
+ >καταρᾶται</foreign>) on anyone who would mislead the <term sortKey="Assembly"
+ >Assembly</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg019:70">Dem. 19.70</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:97">Dem. 23.97</bibl>; there is a parody of this at
+ <bibl type="cts-urn" n="urn:cts:greekLit:tlg0019.tlg008:335">Aristoph. <title>Thes.</title>
+ 335</bibl>). After these rituals, the Herald asked <quote>Who wishes to speak?,</quote>
+ and the <term sortKey="Assembly">Assembly</term> was opened (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:191">Dem. 18.191</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:26">Aeschin. 1.26</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0019.tlg001:46">Aristoph. <title>Ach.</title> 46</bibl>; cf. a
+ possible parody of this at <bibl type="cts-urn" n="urn:cts:greekLit:tlg0019.tlg010:130">Aristoph.
+ <title>Eccl.</title> 130</bibl>).</p>
+ <p>Most voting in the <term sortKey="Assembly">Assembly</term> was by a show of hands
+ (<term>cheirotonia</term>, <foreign xml:lang="grc">χειροτονία</foreign>), although some
+ votes were conducted by secret ballot (<term>psephos</term>, <foreign xml:lang="grc"
+ >ψῆφος</foreign>, literally <soCalled>pebble</soCalled>). Even the most serious of
+ matters were often decided by show of hands, such as the <term sortKey="impeachment"
+ >impeachment</term> and condemnation of <term sortKey="generals">generals</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:34.1">Aristot. <title>Ath. Pol.</title> 34.1</bibl>)
+ and the approval of formal laws (<term>nomoi</term>, <foreign xml:lang="grc"
+ >νόμοι</foreign>) (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:20">Dem. 24.20</bibl>)
+ (laws were more significant than decrees; see below). This method of voting limited the
+ business of the <term sortKey="Assembly">Assembly</term> to daylight hours, as this
+ anecdote from <name type="ancientAuthor">Xenophon</name> shows: <quote>It was decided,
+ however, that the matter should be postponed to another meeting of the <term
+ sortKey="Assembly">Assembly</term> (for by that time it was late in the day and they
+ could not have distinguished the hands in the voting).</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg001:1.7.7">Xen. <title>Hell.</title> 1.7.7</bibl>). Under
+ certain circumstances, the <term sortKey="Assembly">Assembly</term> would vote by ballot
+ (<term>psephos</term>) (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg001:1.7.9">Xen.
+ <title>Hell.</title> 1.7.9</bibl>). Voting by ballot was limited to issues which had
+ to be decided by a quorum of 6000 citizens (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:89"
+ >Dem. 59.89</bibl> - <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:90">Dem.
+ 59.90</bibl>).</p>
+ <p>Once the <term sortKey="Assembly">Assembly</term> had approved something, the decree, its
+ date, and the names of the officials who put the matter to the vote, were recorded and
+ preserved as a public record of the proceedings of government (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:89">Aeschin. 2.89</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:58">Aeschin. 2.58</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:75">Aeschin. 3.75</bibl>).</p>
+ </div>
+ <div type="Section" xml:id="council" n="council">
+ <head>Athenian Democracy: the <term sortKey="Council">Council</term></head>
+ <p>The <term sortKey="Council">Council</term> of 500 represented the full-time government of
+ <placeName key="Athens">Athens</placeName>. It consisted of 500 citizens, 50 from each
+ of the ten tribes, who served for one year. The <term sortKey="Council">Council</term>
+ could issue decrees on its own, regarding certain matters, but its main function was to
+ prepare the agenda for meetings of the <term sortKey="Assembly">Assembly</term>. The <term
+ sortKey="Council">Council</term> would meet to discuss and vote on <soCalled>Preliminary
+ decrees</soCalled> (<term>probouleumata</term>, <foreign xml:lang="grc"
+ >προβουλεύματα</foreign>), and any of these that passed the <term sortKey="Council"
+ >Council</term>’s vote went on for discussion and voting in the <term
+ sortKey="Assembly">Assembly</term>.</p>
+ <p>Each member of the <term sortKey="Council">Council</term> (<term>boule</term>, <foreign
+ xml:lang="grc">βουλή</foreign>) was a Councilor (<term>bouleutes</term>, <foreign
+ xml:lang="grc">βουλευτής</foreign>, in the plural, <term>bouleutai</term>) (see for
+ example <bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:104">Aeschin. 1.104</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0027.tlg002:14">Andoc. 2.14</bibl>). <name type="ancientAuthor"
+ >Aristotle</name> lists service on the <term sortKey="council">Council</term> among
+ those offices chosen by lot (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:62.1">Aristot.
+ <title>Ath. Pol.</title> 62.1</bibl>). He elsewhere says that in a democratic city,
+ the <term sortKey="Council">Council</term> was the most important board of magistrates
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg035:1322b">Aristot. <title>Pol.</title>
+ 1322b</bibl>). Through most of the <date from="-0499" to="-0400">5th</date> and <date
+ from="-0399" to="-0300">4th</date> centures BCE, citizens were paid for their
+ participation in the <term sortKey="Council">Council</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:62.2">Aristot. <title>Ath. Pol.</title> 62.2</bibl>),
+ and each citizen could serve on the <term sortKey="Council">Council</term> twice in his
+ lifetime (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:62.3">Aristot. <title>Ath. Pol.</title>
+ 62.3</bibl>).</p>
+ <p>Although participation in the <term sortKey="Council">Council</term> was paid, and
+ considered an office, it also seems to have been considered an unexceptional part of a
+ citizen’s life, rather than a part of a political career. In <name
+ type="ancientAuthor">Plato</name>’s <title>Apology of Socrates</title> (an
+ account, perhaps largely fictional, of the speech <name type="person">Socrates</name> gave
+ when on trial for impiety), <name type="person">Socrates</name> says that he served on the
+ <term sortKey="Council">Council</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0059.tlg002:32a-32b">Plat. <title>Apol.</title> 32a-b</bibl>),
+ but also says that he never participated in politics (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0059.tlg002:31c-31d">Plat. <title>Apol.</title> 31c-d</bibl>).
+ So, in <title>Plato</title>’s account, it seems that service on the <term
+ sortKey="Council">Council</term> did not indicate political ambition, or even any
+ special interest in politics.</p>
+ <p>Before taking their seats on the <term sortKey="Council">Council</term>, newly selected
+ Councilors had to undergo scrutiny (<term>dokimasia</term>), an audit of their fitness to
+ serve (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:45.3">Aristot. <title>Ath. Pol.</title>
+ 45.3</bibl>).</p>
+ <p><name type="ancientAuthor">Lysias</name> makes the claim that the law of scrutiny was
+ primarily intended to deny political office to men who had participated in one of the
+ short-lived oligarchic coups of the <date from="-0499" to="-0400">5th century</date> BCE,
+ or the <term sortKey="Thirty_Tyrants">Tyranny of the Thirty</term> (these events are
+ discussed above) (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg026:9-10">Lys. 26.9-10</bibl>). But
+ scrutiny was a broadly important institution in the Athenian democracy, and <name
+ type="ancientAuthor">Lysias</name>’ statement is probably too narrow to
+ reflect strictly historical reality.</p>
+ <p>The Nine <term sortKey="Archons">Archons</term> underwent scrutiny before taking office
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:55.2">Aristot. <title>Ath. Pol.</title>
+ 55.2</bibl>), as did the ten <term sortKey="generals">generals</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg015:1-2">Lys. 15.1-2</bibl>), as did priests, advocates,
+ heralds, and ambassadors (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:19-20">Aeschin.
+ 1.19-20</bibl>). In fact, according to <name type="ancientAuthor">Aeschines</name>, any
+ citizen could call upon any other citizen to undergo scrutiny at any time, to determine
+ whether he deserved the privilege of speaking before the <term sortKey="Assembly"
+ >Assembly</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:32">Aeschin. 1.32</bibl>).
+ Furthermore, every young Athenian man underwent a scrutiny before the members of his deme
+ before he was enrolled in the list of citizens (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg044:41">Dem. 44.41</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg026:21">Lys. 26.21</bibl>).</p>
+ <p>The scrutiny of newly selected Councilors was managed by the Thesmothetae, the lower six
+ of the nine <term sortKey="archons">archons</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:59.4">Aristot. <title>Ath. Pol.</title> 59.4</bibl>),
+ but it was the outgoing <term sortKey="Council">Council</term> that decided whether each
+ of the 500 new Councilors was eligible to take office (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:45.3">Aristot. <title>Ath. Pol.</title>
+ 45.3</bibl>).</p>
+ <p>This scrutiny took into account almost every aspect of a citizen’s life, public
+ and private, and we can learn much about the values of the Athenian democracy from the
+ questions asked during a scrutiny, and grounds for which a candidate could fail his
+ scrutiny. According to <name type="ancientAuthor">Aristotle</name>, a candidate for the
+ <term sortKey="Council">Council</term> was asked, <quote>Who is your father and to what
+ deme does he belong, and who is your father’s father, and who your mother, and
+ who her father and what his deme? Then whether he has a Family <name type="god"
+ >Apollo</name> and Homestead <name type="god">Zeus</name>, and where these shrines
+ are; then whether he has family tombs and where they are; then whether he treats his
+ parents well, and whether he pays his taxes, and whether he has done his military
+ service</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:55.3-55.4">Aristot.
+ <title>Ath. Pol.</title> 55.3-4</bibl>). According to <name type="ancientAuthor"
+ >Xenophon</name>, they were also asked if they honored their family graves (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg002:2.2.13">Xen. <title>Mem.</title> 2.2.13</bibl>).</p>
+ <p>After the candidate answered the questions, and any accusers had come forward, the <term
+ sortKey="Council">Council</term> voted by show of hands (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:55.4">Aristot. <title>Ath. Pol.</title> 55.4</bibl>).
+ According to <name type="ancientAuthor">Aristotle</name>, originally the vote of the <term
+ sortKey="Council">Council</term> was the last word in a scrutiny, but in his time (the
+ middle of the <date from="-0399" to="-0300">4th century</date> BCE) <quote>there is an
+ appeal to the <term sortKey="lawcourt">Jury-court</term>, and with this rests the final
+ decision as to qualification</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:55.2"
+ >Aristot. <title>Ath. Pol.</title> 55.2</bibl>).</p>
+ <p>A passage from a speech by <name type="ancientAuthor">Lysias</name> confirms that a
+ candidate who was rejected by the <term sortKey="Council">Council</term> could appeal to a
+ <term sortKey="lawcourt">jury</term>, while noting that this appeal could take time, and
+ might result in the year beginning without a full body of magistrates in office (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg026:6">Lys. 26.6</bibl>).</p>
+ <p>The newly appointed Councilors swore an oath, the terms of which are preserved by passing
+ mentions in various sources. According to <name type="ancientAuthor">Xenophon</name>, they
+ swore <quote>to advise according to the laws</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg002:1.1.18">Xen. <title>Mem.</title> 1.1.18</bibl>).
+ According to two passages from <name type="ancientAuthor">Lysias</name>, they swore
+ <quote>to advise what was best for the city</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg031:2">Lys. 31.2</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg030:10">Lys. 30.10</bibl>). <name type="ancientAuthor"
+ >Demosthenes</name> mentions Councilors swearing <quote>to advise what was best for the
+ People</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:4">Dem. 59.4</bibl>), and this:
+ <quote>Nor will I imprison any Athenian citizen who provides three people to guarantee
+ his debt, guarantors who are in the same tax-bracket, except anyone found guilty of
+ conspiring to betray the city or to subvert the democracy, or anyone who has contracted
+ to collect taxes, or his guarantor, or his collector who is in default</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:144">Dem. 24.144</bibl>). A passage from a speech
+ attributed to <name type="ancientAuthor">Andocides</name> claims that the <quote>oath of
+ the <term sortKey="Assembly">People</term> and the <term sortKey="Council"
+ >Council</term></quote> included a promise <quote>not to exile, nor imprison, nor
+ execute anyone without a trial</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0027.tlg004:3"
+ >Andoc. 4.3</bibl>). According to <name type="ancientAuthor">Lysias</name>, again,
+ Councilors swore an oath, <quote>to let it be known if he knows of anyone who has been
+ selected by lot but is not fit to serve on the <term sortKey="Council"
+ >Council</term></quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg031:2">Lys. 31.2</bibl>),
+ and <quote>to crown a man as worthy of public office only after scrutinizing him</quote>
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg026:8">Lys. 26.8</bibl>).</p>
+ <p>Five hundred Councilors served on the <term sortKey="Council">Council</term> for the
+ year, but practical concerns required that they be divided into smaller groups.
+ Accordingly, the legislative year was divided into ten parts, each called a
+ <soCalled>prytany</soCalled>; for each prytany, the fifty Councilors from one of the ten
+ tribes served as <soCalled>presidents,</soCalled> or prytanes (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.2-43.3">Aristot. <title>Ath. Pol.</title>
+ 43.2-3</bibl>).</p>
+ <p>The order in which the Councilors from each tribe served as presidents was random,
+ determined by lot (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.2">Aristot. <title>Ath.
+ Pol.</title> 43.2</bibl>). The random determination seems to have taken place at the
+ end of each prytany (rather than all at once at the beginning of the year), so no one
+ could predict which tribe would serve next. An inscription makes reference to <quote>the
+ presidents, whichever ones might hold that position after the tribe of <name
+ type="tribe">Oineis</name></quote> (<bibl n="IG 2.2 553.16-17"><title>IG</title>
+ II<edition>2</edition> 553.16-17</bibl>). When the decree was written, the Councilors
+ from the tribe of <name type="tribe">Oineis</name> were serving as prytanes, or
+ presidents; the decree needed to refer to the next group of presidents, but that group was
+ clearly not known. So, we can infer from this that the selection must have happened toward
+ the end of a prytany. Obviously, during the ninth prytany of the year, it would be obvious
+ that whichever tribe had not yet served would hold the presidency for the final
+ prytany.</p>
+ <p>This elaborate randomization of the presidency was probably intended to limit
+ possibilities for corruption. No one could plan to introduce business to the <term
+ sortKey="Council">Council</term> when a particular tribe held the presidency, and no
+ Councilor could know in advance when he would serve as a president.</p>
+ <p>The presidents ate their meals together in the <name type="site" n="Tholos, Athens"
+ >Tholos</name>, the <soCalled><name type="site" n="Tholos, Athens">Round
+ House</name>.</soCalled> They planned and organized meetings of the <term
+ sortKey="Council">Council</term> and posted an agenda for each meeting beforehand (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.3">Aristot. <title>Ath. Pol.</title>
+ 43.3</bibl>).</p>
+ <p><name type="ancientAuthor">Aristotle</name> tells us that <quote>There is a chairman of
+ the presidents, one man, chosen by lot; this man chairs for a night and a
+ day—no longer—and cannot become chairman a second time</quote>
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:44.1">Aristot. <title>Ath. Pol.</title>
+ 44.1</bibl>). This chairman kept the keys to the treasuries and archives of <placeName
+ key="Athens">Athens</placeName>, as well as the state seal (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:44.1">Aristot. <title>Ath. Pol.</title>
+ 44.1</bibl>).</p>
+ <p>In addition to a daily meeting of all the presidents, the chairman and one third of the
+ presidents were required to be on hand in the <name type="site" n="Tholos, Athens"
+ >Tholos</name> constantly (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:44.1">Aristot.
+ <title>Ath. Pol.</title> 44.1</bibl>); presumably only the chairman was on duty for a
+ full 24 hours, and the other presidents could divide the day into 8 hour shifts. These
+ men, on-call in the <name type="site" n="Tholos, Athens">Tholos</name>, represented the
+ whole government of <placeName key="Athens">Athens</placeName> in a time of crisis, at
+ least until the full <term sortKey="Council">Council</term> or <term sortKey="Assembly"
+ >Assembly</term> could be convened. Heralds and envoys from other states came to the
+ presidents in the <name type="site" n="Tholos, Athens">Tholos</name> first, as did
+ messenger bearing official letters (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.6"
+ >Aristot. <title>Ath. Pol.</title> 43.6</bibl>).</p>
+ <p><name type="ancientAuthor">Demosthenes</name> describes a dramatic scene, that shows
+ clearly the function of the presidents and the chairman. In <date when="-0339">339</date>
+ BCE, <name type="person">Philip</name> of <placeName key="Macedon">Macedon</placeName>
+ marched his army south and captured the city of <placeName key="Elateia"
+ >Elateia</placeName>, thus threatening <placeName key="Thebes">Thebes</placeName> and
+ the Thebans’ southern neighbor, <placeName key="Athens">Athens</placeName>.
+ <name type="ancientAuthor">Demosthenes</name> describes what happened when news of this
+ threat came to <placeName key="Athens">Athens</placeName>:</p>
+ <p><quote>Evening had already fallen when a messenger arrived bringing to the presiding
+ councilors the news that <placeName key="Elateia">Elateia</placeName> had been taken.
+ They were sitting at supper, but they instantly rose from table, cleared the booths in
+ the <name type="site" n="Agora, Athens">marketplace</name> of their occupants, and
+ unfolded the hurdles, while others summoned the commanders and ordered the attendance of
+ the trumpeter. The commotion spread through the whole city. At daybreak on the next day
+ the presidents summoned the <term sortKey="Council">Council</term> to the <name
+ type="site" n="Bouleuterion, Athens">Council House</name>, and the citizens flocked to
+ the place of assembly. Before the <term sortKey="Council">Council</term> could introduce
+ the business and prepare the agenda, the whole body of citizens had taken their places
+ on the <name type="site" n="Pnyx, Athens">hill</name>. The <term sortKey="Council"
+ >Council</term> arrived, the presiding Councilors formally reported the intelligence
+ they had received, and the courier was introduced</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:169-170">Dem. 18.169-170</bibl>).</p>
+ <p>So, in a crisis, the safety of <placeName key="Athens">Athens</placeName> lay first in
+ the hands of the presidents and the chairman. It is worth noting that because there were
+ 354 days in the legislative year (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:43.2">Aristot.
+ <title>Ath. Pol.</title> 43.2</bibl>), more than two thirds of all Councilors would
+ serve as chairman for a night and a day in a given year.</p>
+ <p>There are further implications, if we accept the estimate of two scholars that in <date
+ when="-0400">400</date> BCE there were approximately 22,000 adult male
+ citizens—it is beyond the scope of this article to give evidence and
+ justification for this, but the arguments are presented in <bibl type="secondary"
+ n="Victor Ehrenberg, The Greek State, 2nd English Edition (Methuen, 1969) 31">Victor
+ Ehrenberg, <title>The Greek State</title>, 2nd English Edition (Methuen, 1969)
+ 31</bibl>, whose estimate is 20,000-25,000, and in <bibl type="secondary"
+ n="A.W. Gomme, The Population of Athens in the Fifth and Fourth Centuries BC (Blackwell, 1933) 26"
+ >A.W. Gomme, <title>The Population of <placeName key="Athens">Athens</placeName> in the
+ Fifth and Fourth Centuries BC</title> (Blackwell, 1933) 26</bibl>, whose estimate is
+ 22,000.</p>
+ <p>A citizen had to be 30 years old to serve as a Councilor (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg002:1.2.35">Xen. <title>Mem.</title> 1.2.35</bibl>). For
+ the sake of argument, we might assume that the average citizen would then have an active
+ political life of 30 years, until he was 60. During that time, there would need to be
+ approximately 10,000 chairmen, each controlling the state seal and the treasuries, and
+ presiding over the presidents of the <term sortKey="Council">Council</term> for a day and
+ a night (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:44.1">Aristot. <title>Ath. Pol.</title>
+ 44.1</bibl>). Since no one could serve as chairman twice (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:44.1">Aristot. <title>Ath. Pol.</title> 44.1</bibl>),
+ this office would have to go to 10,000 different Athenians. It follows, then, that
+ approximately one half of all Athenian citizens would, at some point during their lives,
+ have the privilege and responsibility of holding this office, arguably the closest
+ equivalent to a Chief Executive in the Athenian democracy.</p>
+ <p>More important than any other function of the <term sortKey="Council">Council</term> was
+ its role in preparing the agenda for meetings of the <term sortKey="Assembly"
+ >Assembly</term>, where all Athenian citizens gathered to discuss and vote on
+ decrees.</p>
+ <p>While any male citizen was invited to speak in an <term sortKey="Assembly"
+ >Assembly</term> and all male citizens could vote, the topics for discussion and vote
+ were limited by what amounted to a system of checks and balances between the <term
+ sortKey="Assembly">Assembly</term> and the <term sortKey="Council">Council</term>.</p>
+ <p>The <term sortKey="Council">Council</term> would vote on preliminary decrees
+ (<term>probouleumata</term>, or in the singular, <term>probouleuma</term>, <foreign
+ xml:lang="grc">προβούλευμα</foreign>) (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:92"
+ >Dem. 23.92</bibl>). According to the <date from="-0900" to="-0999">10th century
+ CE</date> lexicon of the Greek language, the <title>Suda</title>, a probouleuma was
+ <quote>What has been voted on by the <term sortKey="Council">Council</term> before being
+ presented to the <term sortKey="Assembly">People</term></quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg9010.tlg001:pi.2349">Suda pi,2349</bibl>). A passage from the
+ orator <name type="ancientAuthor">Demosthenes</name>’ speech against <name
+ type="person">Neaira</name> illustrates how a probouleuma worked:</p>
+ <p><quote>You were at that time on the point of sending your entire force to <placeName
+ key="Euboea">Euboea</placeName> and <placeName key="Olynthus">Olynthus</placeName>,
+ and <name type="person">Apollodorus</name>, being one of its members, brought forward in
+ the <term sortKey="Council">Council</term> a motion, and carried it as a preliminary
+ decree (probouleuma) to the <term sortKey="Assembly">Assembly</term>, proposing that the
+ people should decide whether the funds remaining over from the state’s
+ expenditure should be used for military purposes or for public spectacles. For the laws
+ prescribed that, when there was war, the funds remaining over from state expenditures
+ should be devoted to military purposes, and <name type="person">Apollodorus</name>
+ believed that the people ought to have power to do what they pleased with their own; and
+ he had sworn that, as a member of the senate, he would act for the best interests of the
+ Athenian people, as you all bore witness at that crisis</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:4">Dem. 59.4</bibl>).</p>
+ <p>In this case, an existing law required that any surplus funds in the treasury of
+ <placeName key="Athens">Athens</placeName> should be used for military purposes. But
+ despite this law, <name type="person">Apollodorus</name> wanted the <term
+ sortKey="Assembly">Assembly</term> to discuss how to spend the funds. So <name
+ type="person">Apollodorus</name> brought the matter to the <term sortKey="Council"
+ >Council</term>, which voted to create a preliminary decree. The <term sortKey="council"
+ >council</term> approved the preliminary decree. This preliminary decree allowed the
+ <term sortKey="Assembly">Assembly</term> to discuss how to spend the money. <name
+ type="ancientAuthor">Demosthenes</name> goes on to say that the <term sortKey="Assembly"
+ >Assembly</term> voted, unanimously, to spend the money on the military (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:5">Dem. 59.5</bibl>).</p>
+ <p>So, after this lengthy procedure, the Athenian democracy did with its money precisely
+ what an existing law required. But the mechanism of the <term sortKey="Council"
+ >Council</term>, its probouleuma, and the <term sortKey="Assembly">Assembly</term>
+ allowed all of the citizens to deliberate, in an orderly manner, on the extent to which
+ the existing law was appropriate under these circumstances, a war in <placeName
+ key="Euboea">Euboea</placeName> and around <placeName key="Olynthus"
+ >Olynthus</placeName>.</p>
+ <p>An inscription that survives in fairly good condition illustrates vividly the course of
+ an actual motion through the <term sortKey="Council">Council</term>, to the <term
+ sortKey="Assembly">Assembly</term> by means of a preliminary decree, and into the body
+ of Athenian policy as a decree of the Athenian People. This inscription dates from around
+ <date when="-0333">333</date> BCE, and has to do with a request by some merchants from
+ the city of <placeName key="Citium">Citium</placeName> on the island of <placeName
+ key="Cyprus">Cyprus</placeName>; these merchants came to the Athenian <term
+ sortKey="Council">Council</term> to ask for permission to build a temple to <name
+ type="god">Aphrodite</name>, <placeName key="Cyprus">Cyprus</placeName>’
+ patron goddess, where natives of <placeName key="Cyprus">Cyprus</placeName> could worship
+ while they were visiting or living in <placeName key="Athens">Athens</placeName> (<bibl
+ n="IG 2.2 337"><title>IG</title> II<edition>2</edition> 337</bibl>).</p>
+ <p>It is important to note that the text and translation given here omit any indication of
+ how the inscription actually looked, and the extent to which modern editors have filled in
+ missing sections; what appears here is considerably cleaned up. It can serve to illustrate
+ the workings of the <term sortKey="Council">Council</term>, but should not be taken as
+ indicative of the proper way to present and read an inscription.</p>
+ <p>Here is the inscription, <bibl n="IG 2.2 337"><title>IG</title> II<edition>2</edition>
+ 337</bibl> [By the way, it makes reference to <term>Proedroi</term>, <foreign
+ xml:lang="grc">Πρόεδροι</foreign>; these were the Councilors selected to run meetings
+ of either the <term sortKey="Council">Council</term> or the <term sortKey="Assembly"
+ >Assembly</term>]:</p>
+ <p>
+ <quote>Gods. When <name type="person">Nikokratos</name> was archon, in the first prytany
+ (that of the tribe <name type="tribe">Aegeis</name>): <name type="person"
+ >Theophilos</name> from the deme <name type="deme">Phegous</name>, one of the
+ Proedroi, put this matter to the vote: The <term sortKey="Council">Council</term>
+ decided (after <name type="person">Antidotos</name>, son of <name type="person"
+ >Apollodoros</name>, from the deme <name type="deme">Sypalettos</name> made the
+ motion): Concerning the things that the <placeName key="Citium">Citians</placeName> say
+ about the foundation of the temple to <name type="god">Aphrodite</name>, it has been
+ voted by the <term sortKey="Council">Council</term> that the Proedroi, the ones to be
+ chosen by lot to serve as Proedroi at the first <term sortKey="Assembly"
+ >Assembly</term>, should introduce the <placeName key="Citium">Citians</placeName> and
+ allow them to have an audience, and to share with the <term sortKey="Assembly"
+ >People</term> the opinion of the <term sortKey="Council">Council</term>, that the
+ <term sortKey="Assembly">People</term>, having heard from the <placeName key="Citium"
+ >Citians</placeName> concerning the foundation of the temple, and from any other
+ Athenian who wants to speak, decide to do whatever seems best. When <name type="person"
+ >Nikokrates</name> was archon, in the second Prytany (that of the tribe <name
+ type="tribe">Pandionis</name>): <name type="person">Phanostratos</name> from the deme
+ <name type="tribe">Philaidai</name>, one of the Proedroi, put this matter to the vote:
+ The <term sortKey="Assembly">People</term> decided (after <name type="person"
+ >Lykourgos</name>, son of <name type="person">Lykophron</name>, of the deme <name
+ type="deme">Boutadai</name> made the motion): Concerning the things for which the
+ <placeName key="Citium">Citian</placeName> merchants resolved to petition, lawfully,
+ asking the <term sortKey="Assembly">People</term> for the use of a plot of land on which
+ they might build a temple of <name type="god">Aphrodite</name>, it has seemed best to
+ the <term sortKey="Assembly">People</term> to give to the merchants of the <placeName
+ key="Citium">Citians</placeName> the use of a plot of land on which they might build a
+ temple of <name type="god">Aphrodite</name>, just as also the Egyptians built the temple
+ of <name type="god">Isis</name>.</quote>
+ </p>
+ <p>On this one inscription we see the whole legislative process. In the first prytany of the
+ year, <name type="person">Antidotos</name>, a councilor, made a motion before the <term
+ sortKey="Council">Council</term> regarding this request by the Citians. One of the
+ Proedroi in charge of running the meeting of the <term sortKey="Council">Council</term>
+ put the matter to a vote. The <term sortKey="Council">Council</term> voted to send the
+ matter along to the <term sortKey="Assembly">Assembly</term> without making any
+ recommendation to the <term sortKey="Assembly">Assembly</term> for or against the
+ <placeName key="Citium">Citians</placeName>’ request. Then, in the second
+ Prytany, <name type="person">Lykourgos</name>, made a motion in the <term
+ sortKey="Assembly">Assembly</term>. The motion was in favor of the Citians’
+ request, and it was put to the vote by <name type="person">Phanostratos</name>, a
+ Councilor serving as one of the Proedroi who were in charge of running the meeting of the
+ <term sortKey="Assembly">Assembly</term>. The People voted on the matter, and the
+ <placeName key="Citium">Citians</placeName> were allowed to build their temple, just as
+ (evidently) some <placeName key="Egypt">Egyptians</placeName> had been allowed to build a
+ temple to <name type="god">Isis</name>.</p>
+ </div>
+ <div type="Section" xml:id="legislation" n="legislation">
+ <head>Athenian Democracy: <term sortKey="Legislation">Legislation</term></head>
+ <p>Athenians in the <date from="-0399" to="-0300">4th century</date> were governed by laws
+ (<term>nomoi</term> or <term>nomos</term>, <foreign xml:lang="grc">νόμος</foreign>, in
+ the singular) and decrees (<term>psephismata</term>, or <term>psephisma</term>, <foreign
+ xml:lang="grc">ψήφισμα</foreign>, in the singular). Decrees were passed by a vote of
+ the <term sortKey="Assembly">Assembly</term>, of the <term sortKey="Council"
+ >Council</term>, or both. Laws came into being by a more complicated process. Laws took
+ precedence over Decrees. Anyone who proposed a decree in the <term sortKey="Assembly"
+ >Assembly</term> that contradicted an existing law was subject to prosecution on a
+ charge of <soCalled>Illegal Proposal</soCalled> (<term sortKey="law_glossary@paranomon">
+ <term>graphe paranomon</term>
+ </term>, <foreign xml:lang="grc">γραφὴ παρανόμων</foreign>). Laws were passed through a
+ process called <term>nomothesia</term> (<foreign xml:lang="grc">νομοθεσία</foreign>) or
+ <soCalled><term sortKey="legislation">legislation</term>.</soCalled> Each year the
+ <term sortKey="Assembly">Assembly</term> met to discuss the current body of laws. Any
+ citizen could propose a change in the laws, but could only propose the repeal of a law if
+ he suggested another law to replace the repealed law. If the <term sortKey="Assembly"
+ >Assembly</term> decided to change the laws, a board of <soCalled>Nomothetai</soCalled>
+ or <soCalled>legislators</soCalled> was selected to review and revise the laws. The
+ process of <term sortKey="legislation">legislation</term> was like a trial, with advocates
+ speaking in defense of the existing laws, and others speaking against the existing laws.
+ The Nomothetai would vote on changes, and any changes that passed were published on
+ inscriptions near the statues of the <term sortKey="Eponymous_Heroes">Eponymous
+ Heroes</term> and read aloud at the next meeting of the <term sortKey="Assembly"
+ >Assembly</term>. The Nomothetai also undertook an annual review of all existing laws,
+ to make sure that none contradicted others, and that none were redundant.</p>
+ <p>To understand <term sortKey="legislation">legislation</term> under the Athenian
+ democracy, it is necessary to understand some terms. The Athenians of the <date
+ from="-0499" to="-0400">5th century</date> BCE seem to have used two words
+ interchangeably to refer to what we call a <soCalled>law,</soCalled>
+ <term>nomos</term> and <term>psephisma</term>. In the <date from="-0399" to="-0300">4th
+ century</date> these words had two distinct meanings: a <term>nomos</term> was a
+ <soCalled>law,</soCalled> while a <term>psephisma</term> was a
+ <soCalled>decree.</soCalled> For the <date from="-0499" to="-0400">5th century</date>
+ usage, we have the historian <name type="ancientAuthor">Xenophon</name> and his account of
+ a speech that <name type="person">Euryptolemus</name> gave before the <term
+ sortKey="Assembly">Assembly</term> in <date when="-0406">406</date>. The speaker tells
+ his audience that, in a particular case, either the psephisma of <name type="person"
+ >Kannonus</name> applies (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg001:1.7.20">Xen.
+ <title>Hell.</title> 1.7.20</bibl>), or the psephisma regarding temple-robbers and
+ traitors (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg001:1.7.21">Xen. <title>Hell.</title>
+ 1.7.21</bibl>); he then refers to both of these psephismata as
+ <soCalled>nomoi</soCalled> (the plural form of <soCalled>nomos</soCalled>) (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0032.tlg001:1.7.22">Xen. <title>Hell.</title> 1.7.22</bibl>). So
+ it would seem that these two terms were more-or-less equivalent. In the <date from="-0399"
+ to="-0300">4th century</date>, however, these two terms clearly referred to two
+ different things: nomoi were <soCalled>laws</soCalled> enacted through a special process
+ of <term sortKey="legislation">legislation</term>, while psephismata were
+ <soCalled>decrees</soCalled> passed by a vote of the <term sortKey="Assembly"
+ >Assembly</term>. The orator <name type="ancientAuthor">Aeschines</name> in one of his
+ speeches asks, rhetorically, why the laws (<term>nomoi</term>) are good, but the decrees
+ of the <term sortKey="Assembly">Assembly</term> (<term>psephismata</term>) are bad (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:177">Aeschin. 1.177</bibl>). The philosopher <name
+ type="ancientAuthor">Aristotle</name> makes a theoretical distinction between laws and
+ decrees, noting that in certain kinds of democracy the laws rule, but in other kinds of
+ democracies decrees can override laws (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg035:1292a"
+ >Aristot. <title>Pol.</title> 1292a</bibl>). <placeName key="Athens">Athens</placeName>
+ was the former kind of democracy, according to <name type="ancientAuthor"
+ >Demosthenes</name>, who quotes a principle of Athenian governance, that <quote>No
+ decree, either of the <term sortKey="Council">Council</term> or the <term
+ sortKey="Assembly">Assembly</term> shall have more authority than a law</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:87">Dem. 23.87</bibl>).</p>
+ <p>On the other hand, the laws could determine what sorts of decrees the <term
+ sortKey="Assembly">Assembly</term> could pass, such as a law that allows the <term
+ sortKey="Assembly">Assembly</term> to pass a decree honoring a citizen, but that limits
+ the circumstances of such an honor (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:36">Aeschin.
+ 3.36</bibl>). The <term sortKey="lawcourt">courts</term> could nullify a decree, based
+ on the laws (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:96">Dem. 23.96</bibl>). When
+ inscribed on stone for the permanent record, decrees begin with the formula, <quote>It was
+ decided by the People,</quote> or, <quote>It was decided by the <term sortKey="Council"
+ >Council</term> and the People</quote> (<bibl n="IG 2.2 206 4-5"><title>IG</title>
+ II<edition>2</edition> 206 4-5</bibl>, <bibl n="IG 2.2 206 28-30"><title>IG</title>
+ II<edition>2</edition> 206 28-30</bibl>; <bibl n="IG 2.2 237.5"><title>IG</title>
+ II<edition>2</edition> 237.5</bibl>; <bibl n="IG 2.2 237 31"><title>IG</title>
+ II<edition>2</edition> 237 31</bibl>); a law began with the formula, <quote>It was
+ decided by the Lawgivers</quote> (<bibl n="SEG 12 87.607"><title>SEG</title> 12
+ 87.607</bibl>).</p>
+ <p>The Athenians had no <soCalled>consitution</soCalled> such as the United States has, a
+ body of laws that fundamentally define the state. Some laws, however, included additional
+ clauses that made it very difficult to change or revoke the law. One such clause is quoted
+ at <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:62">Dem. 23.62</bibl>: <quote>Whosoever,
+ whether magistrate or private citizen, shall cause this ordinance to be frustrated, or
+ shall alter the same, shall be disfranchised with his children and his property</quote>
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:62">Dem. 23.62</bibl>). </p>
+ <p>A law included as a quotation in a speech by the orator <name type="ancientAuthor"
+ >Andocides</name> says, <quote>In no circumstances shall magistrates enforce a law which
+ has not been inscribed. No decree, whether of the <term sortKey="Council">Council</term>
+ or <term sortKey="Assembly">Assembly</term>, shall override a law. No law shall be
+ directed against an individual without applying to all citizens alike, unless an <term
+ sortKey="Assembly">Assembly</term> of six thousand so resolve by secret ballot</quote>
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0027.tlg001:87">Andoc. 1.87</bibl>). This establishes
+ three important principles of Athenian <term sortKey="legislation">legislation</term>: (in
+ order from last to first) that except under very special circumstances, the laws of
+ <placeName key="Athens">Athens</placeName> were to apply to all citizens equally; that
+ the laws (<term>nomoi</term>) had more authority than the decrees
+ (<term>psephismata</term>) of the <term sortKey="Assembly">Assembly</term> or <term
+ sortKey="Council">Council</term>; and finally that only the written laws were valid.</p>
+ <p>According to <name type="ancientAuthor">Plutarch</name>, when <name type="person"
+ >Solon</name> revised the laws of <placeName key="Athens">Athens</placeName> in the
+ <date from="-0599" to="-0500">6th century BCE</date>, he wrote the new laws on wooden
+ tablets (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0007.tlg007:25.1">Plut. <title>Sol.</title>
+ 25.1</bibl>). By inscribing laws, either on wood or in stone, and setting them in a
+ public place, knowledge of the laws was made available to all citizens, rather than to a
+ small elite.</p>
+ <p>The procedures for making new laws or revising existing laws was complicated, and seems
+ to have been intended to make the process as democratic as possible, and to prevent any
+ hasty or poorly considered changes to the laws.</p>
+ <p><name type="ancientAuthor">Demosthenes</name> describes process of <term
+ sortKey="legislation">legislation</term> in detail in his speech prosecuting <name
+ type="person">Timocrates</name> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024">Dem.
+ 24</bibl>). He reminds the jurors that, <quote>In our laws at present in force, men of
+ <placeName key="Athens">Athens</placeName>, every condition that must be observed when
+ new statutes are to be enacted is laid down clearly and with precision. First of all,
+ there is a prescribed time for <term sortKey="legislation">legislation</term>; but even
+ at the proper time a man is not permitted to propose his law just as he pleases. He is
+ directed, in the first place, to put it in writing and post it in front of the statues
+ of the <term sortKey="Eponymous_Heroes">Eponymous Heroes</term> for everyone to see.
+ Then it is ordained that the law must be of universal application, and also that laws of
+ contrary purpose must be repealed; and there are other directions with which I do not
+ think I need trouble you now</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:17">Dem.
+ 24.17</bibl>-18).</p>
+ <p>While any citizen could suggest changes to the laws, laws were not passed by the <term
+ sortKey="Assembly">Assembly</term> or the <term sortKey="Council">Council</term>, as
+ decrees were, but were passed by a rather prolonged process involving the
+ <soCalled>Lawgivers,</soCalled> the nomothetae (the singular form is
+ <term>nomothete</term>). Panels of Nomothetae were formed for the purposes of creating
+ new laws and reviewing existing laws; the Nomothetae were drawn from Athenians who had
+ sworn the <soCalled>dikastic oath,</soCalled> the oath that jurors swore before entering a
+ courtroom (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:27">Dem. 24.27</bibl>; a passage in
+ <name type="ancientAuthor">Demosthenes</name>, <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:149-151">Dem. 24.149-151</bibl>, purports to be the
+ text of that oath). So these Nomothetae were ordinary citizens assigned the task of
+ creating and revising the laws.</p>
+ <p>These Nomothetae would get together and conduct <term sortKey="legislation"
+ >legislation</term> under three circumstances: if the <term sortKey="Assembly"
+ >Assembly</term> called for revisions to the laws, if an individual Athenian proposed a
+ change in the laws, and if the six <term sortKey="Archons">Archons</term> called the
+ Thesmothetae (see <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:55.1">Aristot. <title>Ath.
+ Pol.</title> 55.1</bibl>) undertook a scrutiny of the laws (respectively: <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:20">Dem. 24.20</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:33">Dem. 24.33</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:38">Aeschin. 3.38</bibl>). </p>
+ <p>At the first meeting of the <term sortKey="Assembly">Assembly</term> for the year, in the
+ month of Hekatombaion, the Athenians held votes on the whole body of laws (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:20">Dem. 24.20</bibl>; see <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:23">Dem. 24.23</bibl> where the month of Hekatombaion
+ is specified). This is how <name type="ancientAuthor">Demosthenes</name> describes the
+ process:</p>
+ <p><quote>In the first presidency and on the eleventh day thereof, in the <term
+ sortKey="Assembly">Assembly</term>, the Herald having read prayers, a vote shall be
+ taken on the laws, to wit, first upon laws respecting the <term sortKey="Council"
+ >Council</term>, and secondly upon general statutes, and then upon statutes enacted
+ for the nine <term sortKey="Archons">Archons</term>, and then upon laws affecting other
+ authorities. Those who are content with the laws respecting the <term sortKey="Council"
+ >Council</term> shall hold up their hands first, and then those who are not content;
+ and in like manner in respect of general statutes. All voting upon laws shall be in
+ accordance with laws already in force</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:20">Dem. 24.20</bibl>).</p>
+ <p>This passage tells us several things. First, it suggests that the laws of <placeName
+ key="Athens">Athens</placeName> were divided into several categories. There were laws
+ concerning the <term sortKey="Council">Council</term>; this presumably included laws
+ governing the Nomothetae and the procedure for <term sortKey="legislation"
+ >legislation</term> itself, since it was the <term sortKey="Council">Council</term> that
+ appointed the panels of Nomothetae (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:27">Dem.
+ 24.27</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:47">Dem. 24.47</bibl>-48). There
+ were laws <soCalled>common</soCalled> to all Athenians. There were laws having to do with
+ the nine <term sortKey="Archons">Archons</term>. And there were laws having to do with
+ <quote>other authorities.</quote> This passage also tells us that the <term
+ sortKey="Assembly">Assembly</term> voted on the existing laws by a show of hands (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:20">Dem. 24.20</bibl>).</p>
+ <p><name type="ancientAuthor">Demosthenes</name> continues his description of the annual
+ review: <quote>If any law already in force be rejected on show of hands, the presidents
+ [the <soCalled>Prytaneis</soCalled> described above in the discussion of the <term
+ sortKey="Council">Council</term>] in whose term of office the voting takes place shall
+ appoint the last of the three meetings of the <term sortKey="Assembly">Assembly</term>
+ for the consideration of laws so rejected. The commissioners [the
+ <soCalled>Proedroi</soCalled>] who preside by lot at the <term sortKey="Assembly"
+ >Assembly</term> are required, immediately after religious observances, to put the
+ question respecting the sessions of the Nomothetae, and respecting the fund from which
+ their fees are to be paid. The Nomothetae shall consist of persons who have taken the
+ judicial oath</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:21">Dem.
+ 24.21</bibl>).</p>
+ <p>Before this meeting of the <term sortKey="Assembly">Assembly</term>, when the Athenians
+ voted on the existing laws, anyone who wanted to change the laws was supposed to make
+ public specific proposals for new laws: <quote>Before the meeting of the <term
+ sortKey="Assembly">Assembly</term> any Athenian citizen who wishes shall write down
+ the laws proposed by him and exhibit the same in front of the <term
+ sortKey="Eponymous_Heroes">Eponymous Heroes</term>, to the end that the People may
+ vote on the question of the time allowed to the Nomothetae with due regard to the total
+ number of laws proposed. Whosoever proposes a new statute shall write it on a white
+ board and exhibit it in front of the statues of the <term sortKey="Eponymous_Heroes"
+ >Eponymous Heroes</term> on every day until the meeting of the <term
+ sortKey="Assembly">Assembly</term></quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:23">Dem. 24.23</bibl>).</p>
+ <p>This must have meant that the vote on the existing laws was equivalent to a vote on the
+ proposed changes. If the citizens liked the suggestions posted beforehand, they could vote
+ against the existing laws, thus starting a process of <term sortKey="legislation"
+ >legislation</term>. If the citizens did not like the posted suggestions, they would
+ vote in favor of the existing laws. Requiring proposed changes before the meeting would
+ allow the <term sortKey="Assembly">Assembly</term> to make an informed decision regarding
+ how long the Nomothetae should take to conduct their business (see also <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg020:94">Dem. 20.94</bibl>, <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:36">Dem. 24.36</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:39">Aeschin. 3.39</bibl>).</p>
+ <p><name type="ancientAuthor">Demosthenes</name> says, elsewhere in his speech against <name
+ type="person">Timocrates</name>, that it was lawful for any citizen to propose changing
+ an existing law, but only if he suggested a new law to take its place (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:33">Dem. 24.33</bibl>).</p>
+ <p>The <term sortKey="Assembly">Assembly</term>, at this first meeting of the year (on the
+ 11th day of the month Hekatombaion), would also choose five citizens to <quote>speak in
+ defence of laws proposed for repeal before the Nomothetae</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:23">Dem. 24.23</bibl>). This suggests that the
+ process of <term sortKey="legislation">legislation</term> was very much like a trial in a
+ courtroom, with some people <soCalled>prosecuting</soCalled> the existing laws (and
+ advocating new laws), and others defending the existing laws (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:23">Dem. 24.23</bibl>, <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:36">Dem. 24.36</bibl>).</p>
+ <p>After this first meeting of the <term sortKey="Assembly">Assembly</term> for the year, if
+ the voting determined that the laws should be reviewed and possibly changed, there was a
+ delay, presumably to let people consider matters. No further action happened at the next
+ meeting of the <term sortKey="Assembly">Assembly</term> in that month, but at the third
+ meeting, the <term sortKey="Assembly">Assembly</term> decided how long the Nomothetae
+ should spend legislating, and details of their pay (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg021:24">Dem. 21.24</bibl>).</p>
+ <p>The Nomothetae were not chosen until the actual day assigned for <term
+ sortKey="legislation">legislation</term>; on the morning of that day they were chosen by
+ lot from those who had sworn the <soCalled>Heliastic oath</soCalled> that all jurors swore
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:27">Dem. 24.27</bibl>). A board of nomothetae
+ could be huge: <name type="ancientAuthor">Demosthenes</name> reports that in <date
+ from="-0354" to="-0353">354/3</date> BCE, <name type="person">Timocrates</name> passed
+ in the <term sortKey="Assembly">Assembly</term> a decree setting up a board of 1001
+ Nomothetae, and ordering the <term sortKey="Council">Council</term> to assist them in
+ their work (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:27">Dem. 24.27</bibl>).</p>
+ <p>The meeting of the Nomothetae was conducted by <soCalled>Proedroi</soCalled> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:33">Dem. 24.33</bibl>). The meeting was conducted
+ like a trial, with advocates speaking in favor of the existing laws (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:23">Dem. 24.23</bibl>), and others speaking in favor
+ of changing the laws (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:36">Dem. 24.36</bibl>).
+ When both parties had spoken, the Nomothetae voted by show of hands (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:33">Dem. 24.33</bibl>).</p>
+ <p>Any new laws proposed by the Nomothetae were published near the statues of the <term
+ sortKey="Eponymous_Heroes">Eponymous Heroes</term> and were also read aloud to the next
+ meeting of the <term sortKey="Assembly">Assembly</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg020:94">Dem. 20.94</bibl>). </p>
+ <p>In addition to this regularly scheduled, annual, opportunity for <term
+ sortKey="legislation">legislation</term>, there were other ways of initiation the
+ process of making changes to the laws of <placeName key="Athens">Athens</placeName>. Any
+ citizen could, at any time, propose a change in the laws (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:33">Dem. 24.33</bibl>). The <term sortKey="Archons"
+ >Archons</term>, specifically the Thesmothetae, were also charged with making an annual
+ review of the existing laws and, if they found contradictory laws or redundant laws, they
+ could arrange for a board of Nomothetae to change the laws (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:38">Aeschin. 3.38</bibl>).</p>
+ <p>In the case of an individual citizen who wanted to change the laws, he could not propose
+ repealing a law without suggesting a new law to take its place (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:33">Dem. 24.33</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg020:89">Dem. 20.89</bibl>-94; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:21">Dem. 24.21</bibl>). The <term sortKey="Assembly"
+ >Assembly</term> would decide whether or not the proposal had sufficient merit to be
+ brought before the Nomothetae (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:21">Dem.
+ 24.21</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg003:10">Dem. 3.10</bibl>-13; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:39">Aeschin. 3.39</bibl>).</p>
+ <p>The <term sortKey="Council">Council</term> had to be involved, too, because it was the
+ <term sortKey="Council">Council</term> that set the agenda for meetings of the <term
+ sortKey="Assembly">Assembly</term>. So once a citizen had posted a proposal for new
+ <term sortKey="legislation">legislation</term>, the <term sortKey="Council"
+ >Council</term> had to put the issue on the agenda for a meeting of the <term
+ sortKey="Assembly">Assembly</term>; this was done by means of a Preliminary Decree, or
+ <term>probouleuma</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:27">Dem.
+ 24.27</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:48">Dem. 24.48</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:39">Aeschin. 3.39</bibl>). <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:27">Dem. 24.27</bibl> contains a decree that orders
+ <quote>the <term sortKey="Council">Council</term> to cooperate in the legislative
+ process</quote> in the matter of convening the Nomothetae, which may mean only that the
+ <term sortKey="Council">Council</term> was to ensure that the business appeared on the
+ agenda for the <term sortKey="Assembly">Assembly</term>. The <term sortKey="Council"
+ >Council</term> did, however, also have a special <soCalled>legislative
+ secretary,</soCalled> who made copies of all laws, and attended all meetings of the
+ <term sortKey="Council">Council</term>; this suggests that the <term sortKey="Council"
+ >Council</term> discussed proposals for <term sortKey="legislation">legislation</term>
+ before sending them on to the <term sortKey="Assembly">Assembly</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:54.4">Aristot. <title>Ath. Pol.</title>
+ 54.4</bibl>).</p>
+ <p>Since laws, passed by the Nomothetae, were more important than decrees of the <term
+ sortKey="Council">Council</term> or <term sortKey="Assembly">Assembly</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0027.tlg001:87">Andoc. 1.87</bibl>), what happened when a decree
+ contradicted a law? Or, what happened when someone proposed a law in a way that violated
+ the laws governing <term sortKey="legislation">legislation</term>?</p>
+ <p>A <soCalled>graphe paranomon,</soCalled> or <soCalled>prosecution for having proposed an
+ unlawful decree</soCalled> was the means by which the Athenians ensured the sovreignty
+ of the laws; any such charge would be tried before the People’s <term
+ sortKey="lawcourt">Court</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:59.2">Aristot.
+ <title>Ath. Pol.</title> 59.2</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:33"
+ >Dem. 24.33</bibl>).</p>
+ <p><name type="ancientAuthor">Demosthenes</name>’ speech against <name
+ type="person">Timocrates</name> focuses on just such a charge; the prosecution claims
+ that <name type="person">Timocrates</name> introduced a new law that contradicted an old
+ law (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:33">Dem. 24.33</bibl>). That doing so was
+ illegal runs contrary to the assumption in American law that newer <term
+ sortKey="legislation">legislation</term> takes precedence over older laws.</p>
+ <p><name type="ancientAuthor">Demosthenes</name> actually claims that <name type="person"
+ >Timocrates</name>’ proposal was illegal for several reasons. First, it
+ contradicted already existing laws (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:33">Dem.
+ 24.33</bibl>). Second, the proposal had not been published by the statues of the <term
+ sortKey="Eponymous_Heroes">Eponymous Heroes</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:18">Dem. 24.18</bibl>). Third, he did not allow the
+ <term sortKey="Council">Council</term> to consider the law before referring it to the
+ <term sortKey="Assembly">Assembly</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:26"
+ >Dem. 24.26</bibl>). Finally, he did not follow the lawful schedule, which would have
+ meant proposing a new law at one meeting of the <term sortKey="Assembly">Assembly</term>,
+ taking no action at the next meeting, and at the third meeting voting on whether or not to
+ convene the Nomothetae (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:21">Dem. 24.21</bibl>);
+ <name type="person">Timocrates</name>, it is alleged, proposed his law at one meeting of
+ the <term sortKey="Assembly">Assembly</term> and moved that it be handed over to the
+ Nomothetae on the very next day (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:28">Dem.
+ 24.28</bibl>).</p>
+ <p><name type="ancientAuthor">Demosthenes</name>’ speech against <name
+ type="person">Leptines</name> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg020">Dem. 20</bibl>)
+ is another example of a <term>graphe paranomon</term>. Here, <name type="ancientAuthor"
+ >Demosthenes</name> claims that <name type="person">Leptines</name> arranged for the
+ Nomothetae to pass a law without repealing any contrary laws (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg020:89">Dem. 20.89</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg020:96">Dem. 20.96</bibl>), publishing the proposal
+ beforehand, or allowing the <term sortKey="Assembly">Assembly</term> to consider the
+ matter before sending it to the Nomothetae (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg020:93"
+ >Dem. 20.93</bibl>).</p>
+ <p><name type="ancientAuthor">Demosthenes</name> himself was once charged with improperly
+ suggesting the emendation of a law governing the maintenance of warships (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:105">Dem. 18.105</bibl>). </p>
+ <p><name type="ancientAuthor">Aristotle</name> criticizes direct democracy on the grounds
+ that in democracy decrees have more authority than laws (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg035:1297a4-1297a7">Aristot. <title>Pol.</title>
+ 1297a4-7</bibl>). But this criticism does not seem to apply to the democracy of <date
+ from="-0399" to="-0300">4th century</date>
+ <placeName key="Athens">Athens</placeName>.</p>
+ <p>We find a more apt criticism in <name type="ancientAuthor">Aristotle</name>’s
+ <title>Constitution of the Athenians</title> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003"
+ >Aristot. <title>Ath. Pol.</title></bibl>), which says that in <placeName key="Athens"
+ >Athens</placeName> everything is decided by <quote>decrees and <term sortKey="lawcourt"
+ >lawcourts</term></quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:41.2">Aristot.
+ <title>Ath. Pol.</title> 41.2</bibl>); since the legislators, the Nomothetae, were
+ chosen from the same pool as potential jurors, and swore the same oaths as jurors (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:27">Dem. 24.27</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:149">Dem. 24.149</bibl>-151), this comment seems
+ fairly accurate. Whether or not we should see this fact as a bad thing is, of course, a
+ matter of opinion.</p>
+ </div>
+ <!-- *** -->
+ <div type="Section" xml:id="areopagus" n="areopagus">
+ <head>Athenian Democracy: the Council of the <term sortKey="Areopagus"
+ >Areopagus</term></head>
+ <p>The <name type="site" n="Areopagus, Athens">Areopagus</name>, or <name type="site"
+ n="Areopagus, Athens">Hill of Ares</name>, in <placeName key="Athens">Athens</placeName>
+ was the site of council that served as an important legal institution under the Athenian
+ democracy. This body, called the Council of the <term sortKey="Areopagus"
+ >Areopagus</term>, or simply the <term sortKey="Areopagus">Areopagus</term>, existed long
+ before the democracy, and its powers and composition changed many times over the
+ centuries. Originally, it was the central governing body of <placeName key="Athens"
+ >Athens</placeName>, but under the democracy, it was primarily the court with
+ jurisdiction over cases of homicide and certain other serious crimes. After an Athenian
+ had served as one of the nine <term sortKey="archons">archons</term>, his conduct in
+ office was investigated, and if he passed that investigation he became a member of the
+ <term sortKey="Areopagus">Areopagus</term>; tenure was for life.</p>
+ <p>The <name type="site" n="Areopagus, Athens">Areopagus</name> (<term>Areios pagos</term>)
+ was a hill in <placeName key="Athens">Athens</placeName>, south of the <name type="site"
+ n="agora, Athens">agora</name>, to the north-west of the <name type="site"
+ n="acropolis, Athens">Acropolis</name> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0016.tlg001:8.52"
+ >Hdt. 8.52</bibl>). The term <term sortKey="Areopagus">Areopagus</term>, however, often
+ refers to the Council of the <term sortKey="Areopagus">Areopagus</term>, a governmental
+ institution that met on that hill (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:92">Aeschin.
+ 1.92</bibl>). This institution was very ancient, existing long before democratic
+ government. Its history, which recedes back into mythological pre-history, follows closely
+ the political history of <placeName key="Athens">Athens</placeName>, and shows the ongoing
+ tension between democratic and anti-democratic forces (see, for example, <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0010.tlg019:316">Isoc. 15.316</bibl>, in which he complains that
+ as the city grew more democratic, the power of the older institutions, such as the <term
+ sortKey="Areopagus">Areopagus</term>, declined). </p>
+ <p>The Council of the <term sortKey="Areopagus">Areopagus</term> functioned as a court under
+ the democracy of <date from="-0399" to="-0300">4th century</date>
+ <placeName key="Athens">Athens</placeName>, and it had a very high reputation (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:65">Dem. 23.65</bibl>). The orator <name
+ type="ancientAuthor">Lycurgus</name> tells his fellow Athenians that they have in the
+ Council of the <term sortKey="Areopagus">Areopagus</term> the finest model in <placeName
+ key="Greece">Greece</placeName>: a court so superior to others that even the men
+ convicted in it admit that its judgements are just (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0034.tlg001:12">Lyc. 1.12</bibl>). </p>
+ <p>The Council of the <term sortKey="Areopagus">Areopagus</term>, as a group, and its
+ individual members were held in high regard and considered to be worthy of respect. <name
+ type="ancientAuthor">Aeschines</name> reports an incident when <name type="person"
+ >Autolycus</name>, a member of the <term sortKey="Areopagus">Areopagus</term>,
+ unwittingly made a sexual pun; when the people laughed, <name type="person"
+ >Pyrrandrus</name> scolded them, asking if they were not ashamed of themselves for
+ laughing in the presence of the Council of the <term sortKey="Areopagus">Areopagus</term>
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:84">Aeschin. 1.84</bibl>). <name
+ type="ancientAuthor">Aeschines</name> is careful to defend <name type="person"
+ >Autolycus</name>, as a man whose life has been good and pious, and so worthy of that
+ body, i.e. the <term sortKey="Areopagus">Areopagus</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:82">Aeschin. 1.82</bibl>).</p>
+ <p>The principle function of the <term sortKey="Areopagus">Areopagus</term>, in the <date
+ from="-0399" to="-0300">4th century</date> BCE, was to try cases of homicide. <name
+ type="ancientAuthor">Demosthenes</name> describes this function and the lengths to which
+ the court ensured that its proceedings were fair and just; this passage, addressed to the
+ Athenians, also suggests that the Athenians saw a strong relationship between human and
+ divine justice: <quote>You are all of course aware that in the <term sortKey="Areopagus"
+ >Areopagus</term>, where the law both permits and enjoins the trial of homicide,
+ first, every man who brings accusation of such a crime must make oath by invoking
+ destruction upon himself, his kindred, and his household; secondly, that he must not
+ treat this oath as an ordinary oath, but as one which no man swears for any other
+ purpose; for he stands over the entrails of a boar, a ram, and a bull, and they must
+ have been slaughtered by the necessary officers and on the days appointed, so that in
+ respect both of the time and of the functionaries every requirement of solemnity has
+ been satisfied. Even then the person who has sworn this tremendous oath does not gain
+ immediate credence; and if any falsehood is brought home to him, he will carry away with
+ him to his children and his kindred the stain of perjury—but gain nothing. If,
+ on the other hand, he is believed to be laying a just charge, and if he proves the
+ accused guilty of murder, even then he has no power over the convicted criminal; only
+ the laws and the appointed officers have power over the man for punishment.</quote>
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:67">Dem. 23.67</bibl>-69). </p>
+ <p>The <term sortKey="Areopagus">Areopagus</term> consisted of former <term
+ sortKey="archons">archons</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0007.tlg007:19.1">Plut.
+ <title>Sol.</title> 19.1</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:22">Dem.
+ 24.22</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:60.3">Aristot. <title>Ath.
+ Pol.</title> 60.3</bibl>). This meant that all members of the <term
+ sortKey="Areopagus">Areopagus</term> had been thoroughly investigated by officials of
+ the democracy. All incoming <term sortKey="archons">archons</term> were subject to
+ scrutiny (<term>dokimasia</term>) by the sitting <term sortKey="archons"
+ >archons</term>—an investigation into their qualifications to
+ serve—before they assumed their office (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg026:9">Lys. 26.9</bibl>). At the end of their year of
+ service, each <term sortKey="archons">archon</term> was investigated by the
+ People’s <term sortKey="lawcourt">Court</term>, the <term sortKey="lawcourt"
+ >Heliaia</term>; only those <term sortKey="archons">archons</term> who passed this
+ public audit (<term>euthuna</term>) could become members of the <term sortKey="Areopagus"
+ >Areopagus</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg026:5">Dem. 26.5</bibl>). An
+ archon could fail this audit (<term>euthuna</term>) by violating any of the laws governing
+ the conduct of his office (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:22">Dem.
+ 24.22</bibl>). For example, the <term sortKey="archons">Eponymous Archon</term> was
+ responsible for collecting and holding the olive oil that was given as a prize at the
+ Panathenaic Games; this archon was not allowed to become a member of the <term
+ sortKey="Areopagus">Areopagus</term> until he had handed all of the oil over to the
+ treasurers on the <name type="site" n="acropolis, athens">Acropolis</name> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:60.3">Aristot. <title>Ath. Pol.</title>
+ 60.3</bibl>).</p>
+ <p>Appointment to the <term sortKey="Areopagus">Areopagus</term> was for life (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:3.6">Aristot. <title>Ath. Pol.</title> 3.6</bibl>;
+ <bibl type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg026:11">Lys. 26.11</bibl>). Nevertheless, members
+ of the <term sortKey="Areopagus">Areopagus</term>, the Areopagites, were still subject to
+ audit (<term>euthuna</term>). <name type="ancientAuthor">Aeschines</name> describes this
+ to his fellow Athenians as a democratic measure: <quote>For, first, the Council of the
+ <term sortKey="Areopagus">Areopagus</term> is required by the law to file its accounts
+ with the Board of Auditors and to submit to their examination; yes, even those men, who
+ sit with solemn aspect yonder as the court of highest competence, are brought under your
+ verdict</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:20">Aeschin. 3.20</bibl>).</p>
+ <p>Members of the <term sortKey="Areopagus">Areopagus</term> seem to have received a free
+ portion of the meat from certain sacrifices, an added benefit of service (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0029.tlg001:56">Din. 1.56</bibl>) </p>
+ <p>The Council of the <term sortKey="Areopagus">Areopagus</term> met generally on the <name
+ type="site" n="Areopagus, Athens">Areopagus</name>, the <name type="site"
+ n="Areopagus, Athens">Hill of Ares</name> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:65"
+ >Dem. 23.65</bibl>-66; Isoc. 7.38). <name type="ancientAuthor">Demosthenes</name>
+ mentions the body meeting in the <name type="site" n="Stoa Basileus, Athens">Stoa
+ Basileus</name> in the <name type="site" n="agora, athens">agora</name>, which was roped
+ off for the occasion, so the court would not be disturbed (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025:23">Dem. 25.23</bibl>).</p>
+ <p>The <term sortKey="Areopagus">Areopagus</term>, functioning as a court of law during the
+ <date from="-0399" to="-0300">4th century</date>, had a reputation for following
+ unimpeachable procedures. In his speech against <name type="person">Aristocrates</name>,
+ <name type="ancientAuthor">Demosthenes</name> describes this procedure at some length,
+ and begins his description with the claim that no convicted defendant and no defeated
+ prosecutor has ever made good any complaint against the justice of the verdict given.
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:66">Dem. 23.66</bibl>). <quote>Anyone who
+ brought an accusation of homicide before the court had to swear an oath invoking
+ destruction upon himself, his kindred, and his household</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:67">Dem. 23.67</bibl>). The swearing of this oath was
+ unique: a boar, a ram, and a bull were to be sacrificed by certain people and on certain
+ days (<name type="ancientAuthor">Demosthenes</name> does not say which people or which
+ days), so that in respect both of the time and of the functionaries every requirement of
+ solemnity has been satisfied; the accuser then stood over the entrails of the sacrificed
+ animals and swore his oath. <name type="ancientAuthor">Demosthenes</name> is careful to
+ add that, even with this tremendous oath, the accuser was not automatically believed, and
+ that if he should be proved to have lied, not only would he bear the stain of perjury
+ himself, but his children and relatives would as well (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:68">Dem. 23.68</bibl>).</p>
+ <p>In this speech and elsewhere, <name type="ancientAuthor">Demosthenes</name> emphasizes
+ the extent to which the rights of the accused were protected by law and procedure.
+ <quote>If the accuser won his case, and the accused was convicted, the accuser had no
+ power of punishment: only the laws and the appointed officer have power over the man for
+ punishment. The prosecutor is permitted to see him suffering the penalty awarded by law,
+ and that is all</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:69">Dem.
+ 23.69</bibl>). If the <term sortKey="Areopagus">Areopagus</term> found a defendant guilty
+ in a case of homicide, the court seems to have had the authority to hand him straight over
+ to the executioner (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0029.tlg001:62">Din. 1.62</bibl>;
+ although this passage refers to powers given to the <term sortKey="Areopagus"
+ >Areopagus</term> by a particular decree in the late <date from="-0399" to="-0300">4th
+ century</date>). In other matters, though the <term sortKey="Areopagus"
+ >Areopagus</term>’ power of punishment was not unlimited. Speaking of a case of
+ impiety, <name type="ancientAuthor">Demosthenes</name> says that the court does not have
+ the power to punish any of the Athenians as they see fit. (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:80">Dem. 59.80</bibl>).</p>
+ <p>Defendants swore the same oath as accusers, but <name type="ancientAuthor"
+ >Demosthenes</name> says that they had an important additional right: <quote>it is
+ permitted to them to depart after giving his first speech, and neither the prosecutor,
+ nor the jurors, nor any other man is authorized to prevent it</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:69">Dem. 23.69</bibl>). We may suppose (although
+ <name type="ancientAuthor">Demosthenes</name> does not make this clear) that the
+ defendant would have had to leave <placeName key="Athens">Athens</placeName> after
+ withdrawing from the trial.</p>
+ <p>The trial would proceed with each side giving one or more speeches (see <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0029.tlg001:1">Din. 1.1</bibl>, where he says that he does not
+ have to give all the details of the case because a fellow-prosecutor, <name type="person"
+ >Stratocles</name>, has already given his speech). <name type="ancientAuthor"
+ >Aeschines</name>, speaking in praise of the <term sortKey="Areopagus">Areopagus</term>,
+ says that this court was different from the other courts of <placeName key="Athens"
+ >Athens</placeName> in that Areopagites were less likely than other jurors to be swayed
+ by skillful speaking alone: <quote>I myself have before now seen many men convicted before
+ this tribunal, though they spoke most eloquently, and presented witnesses; and I know
+ that before now certain men have won their case, although they spoke most feebly, and
+ although no witnesses testified for them. For it is not on the strength of the pleading
+ alone, nor of the testimony alone, that the members of the court give their verdict, but
+ on the strength of their own knowledge and their own investigations. And this is the
+ reason why that tribunal maintains its high repute in the city</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:92">Aeschin. 1.92</bibl>).</p>
+ <p>The <term sortKey="archons">Archon Basileus</term>, or <term sortKey="archons">King
+ Archon</term> served as the introducing official, but it seems that he did not actually
+ participate in deciding the case; only the actual members of the <term sortKey="Areopagus"
+ >Areopagus</term> voted (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:57.4">Aristot.
+ <title>Ath. Pol.</title> 57.4</bibl>). Because members of the <term
+ sortKey="Areopagus">Areopagus</term> had all served as <term sortKey="archons"
+ >archons</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0007.tlg007:19.1">Plut.
+ <title>Sol.</title> 19.1</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024:22">Dem.
+ 24.22</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:60.3">Aristot. <title>Ath.
+ Pol.</title> 60.3</bibl>), and because, as <term sortKey="archons">archons</term>,
+ they would each have had experience presiding over the various courts of <placeName
+ key="Athens">Athens</placeName> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:56.6-56.7"
+ >Aristot. <title>Ath. Pol.</title> 56.6-7</bibl>, <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:57.2-57.4">Aristot. <title>Ath. Pol.</title>
+ 57.2-4</bibl>, <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:58.2">Aristot. <title>Ath.
+ Pol.</title> 58.2</bibl>, <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:59.2-59.6">Aristot.
+ <title>Ath. Pol.</title> 59.2-6</bibl>), and because they served on the <term
+ sortKey="Areopagus">Areopagus</term> for life (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:3.6">Aristot. <title>Ath. Pol.</title> 3.6</bibl>;
+ <bibl type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg026:11">Lys. 26.11</bibl>), they must have had much
+ more experience than the juries of the other courts.</p>
+ <p>According to <name type="ancientAuthor">Aristotle</name>, the <term sortKey="Areopagus"
+ >Areopagus</term> did not allow speakers, either defendants or prosecutors, to introduce
+ irrelevant information into their speeches; in this, he says, the <term
+ sortKey="Areopagus">Areopagus</term> is different from the other <term
+ sortKey="lawcourt">courts</term> at <placeName key="Athens">Athens</placeName> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg038:1354a">Aristot. <title>Rh.</title> 1354a
+ 20</bibl>).</p>
+ <p>If a speaker was accused of perjury (<term>pseudomarturia</term>) before the <term
+ sortKey="Areopagus">Areopagus</term>, he would not be prosecuted by the <term
+ sortKey="Areopagus">Areopagus</term> itself, but by the <term sortKey="Archons"
+ >Archons</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:59.6">Aristot. <title>Ath.
+ Pol.</title> 59.6</bibl>).</p>
+ <p>In the <date from="-0399" to="-0300">4th century</date> BCE, the <term
+ sortKey="Areopagus">Areopagus</term> was responsible for trying cases of the most
+ serious crimes. <name type="ancientAuthor">Aristotle</name> says: <quote>Trials for
+ deliberate murder and wounding are held in the <term sortKey="Areopagus"
+ >Areopagus</term>, and for causing death by poison, and for arson</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:57.3">Aristot. <title>Ath. Pol.</title> 57.3</bibl>;
+ <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:22">Dem. 23.22</bibl>). Other kinds of
+ murder—involuntary homicide, conspiracy to murder, murder of a slave, resident
+ alien, or foreign—were tried at the Palladium (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:57.3">Aristot. <title>Ath. Pol.</title> 57.3</bibl>).
+ Still other kinds of murder—when the accused claimed that the killing was legal,
+ as a matter of self-defense or in a case of adultery, or if someone accidentally killed a
+ fellow citizen in war or during an athletic competition—were tried at the
+ Delphinium (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:57.3">Aristot. <title>Ath.
+ Pol.</title> 57.3</bibl>). In the case of adultery, the orator Lysias says that
+ <quote>the Court of the <term sortKey="Areopagus">Areopagus</term> itself, to which has
+ been assigned, in our own as in our fathers’ time, the trial of suits for
+ murder, has expressly stated that whoever takes this vengeance on an adulterer caught in
+ the act with his spouse shall not be convicted of murder</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg001:30">Lys. 1.30</bibl>).</p>
+ <p>The <term sortKey="Areopagus">Areopagus</term> also heard cases of assault and wounding
+ (<term>trauma</term>) (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg040:32">Dem. 40.32</bibl>;
+ <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:22">Dem. 23.22</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:93">Aeschin. 2.93</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:57.3">Aristot. <title>Ath. Pol.</title> 57.3</bibl>).
+ The <term sortKey="Areopagus">Areopagus</term> did not merely punish the assailants
+ themselves, but also had the power to punish accessories. <name type="ancientAuthor"
+ >Demosthenes</name> mentions a case of assault where the <term sortKey="Areopagus"
+ >Areopagus</term> exiled a man for encouraging the assailant; the defendant in this case
+ was the father of the priestess of <name type="god">Artemis</name> at <placeName
+ key="Brauron">Brauron</placeName>, and therefore an important Athenian, but punished as
+ an accessory nevertheless (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg054:25">Dem.
+ 54.25</bibl>).</p>
+ <p>According to <name type="ancientAuthor">Demosthenes</name>, not only did the <term
+ sortKey="Areopagus">Areopagus</term> permit Athenians to bring cases of homicide before
+ it for judgement, but actually required it (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023:67"
+ >Dem. 23.67</bibl>). <name type="ancientAuthor">Demosthenes</name> himself was fined by
+ the <term sortKey="Areopagus">Areopagus</term>, according to <name type="ancientAuthor"
+ >Aeschines</name>, for failing to pursue a charge of assault against his cousin <name
+ type="person">Demomeles</name> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg002:93">Aeschin.
+ 2.93</bibl>).</p>
+ <p>The members of the <term sortKey="Areopagus">Areopagus</term>, the Areopagites, also seem
+ to have investigated murders and assaults personally. In a speech prosecuting <name
+ type="person">Conon</name>, <name type="ancientAuthor">Demosthenes</name> says that it
+ was possible for members of the <term sortKey="Areopagus">Areopagus</term> to come to the
+ bedside of a victim of assault, because if the victim should eventually die, they would
+ have to try the case of his murder (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg054:28">Dem.
+ 54.28</bibl>).</p>
+ <p>It was a very serious matter to be charged with a crime before the <term
+ sortKey="Areopagus">Areopagus</term>. In a speech written by <name type="ancientAuthor"
+ >Demosthenes</name> for a client the speaker describes how his enemies plotted against
+ him: <quote>When they have thus openly laid a plot, and got up a charge against me before
+ the <term sortKey="Areopagus">Areopagus</term>, do you suppose there is any poisoning or
+ any other such villainy from which they would abstain?</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg040:57">Dem. 40.57</bibl>). This passage compares being
+ charged before the <term sortKey="Areopagus">Areopagus</term> with being poisoned, and
+ gives us an idea of how serious such a charge was. Elsewhere in that same speech, the
+ speaker explains that his enemies hoped that by charging him before the <term
+ sortKey="Areopagus">Areopagus</term>, he would go into exile rather than risk conviction
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg040:32">Dem. 40.32</bibl>).</p>
+ <p>According to the rules of procedure, a defendant charged before the <term
+ sortKey="Areopagus">Areopagus</term> had the option of leaving the city rather than see
+ the trial to its conclusion (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:23.69">Aristot.
+ <title>Ath. Pol.</title> 23.69</bibl>). If the defendant left, then his property was
+ sold off by the Venders (<term>poletai</term>), after the Nine <term sortKey="Archons"
+ >Archons</term> gave their approval for the sale (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:47.2">Aristot. <title>Ath. Pol.</title>
+ 47.2</bibl>).</p>
+ <p>Among the serious crimes that fell to the <term sortKey="Areopagus">Areopagus</term> were
+ certain kinds of sacrilege. One example we know of had to do with a woman who had served
+ as a priestess for the festival of Anthesteria, in honor of the god <name type="god"
+ >Dionysus</name> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:78">Dem. 59.78</bibl>). In
+ this case, the woman was married to an Athenian named <name type="person"
+ >Theogenes</name>, and it became known that she was not herself properly an Athenian
+ citizen (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:81">Dem. 59.81</bibl>). The matter was
+ investigated by the <term sortKey="Areopagus">Areopagus</term> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:80">Dem. 59.80</bibl>). According to <name
+ type="ancientAuthor">Demosthenes</name>, the <term sortKey="Areopagus">Areopagus</term>
+ was initially inclined to impose the highest fine in its power on <name type="person"
+ >Theogenes</name> for allowing his wife to serve as priestess under false pretenses
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:81">Dem. 59.81</bibl>), but they relented
+ because <name type="person">Theogenes</name> convinced them that he had been deceived, and
+ meant no harm (<name type="person">Theogenes</name> immediately expelled his wife from his
+ house) (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059:83">Dem. 59.83</bibl>).</p>
+ <p>The <term sortKey="Areopagus">Areopagus</term> had authority over the sacred olive trees
+ of <placeName key="Attica">Attica</placeName> as well. If anyone was accused of cutting
+ down a sacred olive tree, he was tried before the <term sortKey="Areopagus"
+ >Areopagus</term> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg007:22">Lys. 7.22</bibl>). <name
+ type="ancientAuthor">Aristotle</name> explains that the city of <placeName key="Athens"
+ >Athens</placeName> collected the fruit from the olive trees and pressed it into oil,
+ which would then be stored on the Acropolis or sold; if anyone dug up or cut down one of
+ the trees, he would be tried by the <term sortKey="Areopagus">Areopagus</term>, and if he
+ were found guilty, the penalty used to be death (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:60.1-60.2">Aristot. <title>Ath. Pol.</title>
+ 60.1-2</bibl>). But, <name type="ancientAuthor">Aristotle</name> continues, in his own
+ time (the middle of the <date from="-0399" to="-0300">4th century</date>), while the law
+ still exists, such a trial has fallen out of use (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:60.2">Aristot. <title>Ath. Pol.</title> 60.2</bibl>).
+ Even in the early <date from="-0399" to="-0300">4th century</date>, it seems that the
+ penalty was not death, but exile and confiscation of property (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg007:2">Lys. 7.2</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg007:32">Lys. 7.32</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0540.tlg007:41">Lys. 7.41</bibl>).</p>
+ <p>In the latter part of the <date from="-0399" to="-0300">4th century</date>, the <term
+ sortKey="Areopagus">Areopagus</term> exercised other powers beyond its traditional role
+ as a court. The <term sortKey="Areopagus">Areopagus</term> could be called on, by the
+ <term sortKey="Council">Council</term> or the <term sortKey="Assembly">Assembly</term>,
+ to investigate certain public matters and issue a report to the <term sortKey="Assembly"
+ >People</term>. In one case that we hear of, <name type="person">Timarchus</name> passed
+ a motion in the <term sortKey="Assembly">Assembly</term> to have the <term
+ sortKey="Areopagus">Areopagus</term> investigate and report on some dwellings that had
+ been erected on the hill of the <name type="site" n="pnyx, athens">Pnyx</name> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:81">Aeschin. 1.81</bibl>). A member of the <term
+ sortKey="Areopagus">Areopagus</term>, <name type="person">Autolycus</name>, gave the
+ body’s report to the <term sortKey="Assembly">Assembly</term>, and in doing so
+ reminded the assembled people that, <quote>We Areopagites do not, men of <placeName
+ key="Athens">Athens</placeName>, either accuse or defend, for that is not our
+ tradition</quote> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:83">Aeschin.
+ 1.83</bibl>).</p>
+ </div>
+ <div type="Section" xml:id="court" n="court">
+ <head>Athenian Democracy: the People’s <term sortKey="lawcourt"
+ >Court</term></head>
+ <p>Of almost equal importance to the <term sortKey="Assembly">Assembly</term> and <term
+ sortKey="Council">Council</term>, and probably of greater importance (if not greater
+ prestige) than the <term sortKey="Areopagus">Areopagus</term> was the People’s
+ <term sortKey="lawcourt">Court</term>, the <term sortKey="lawcourt">Heliaea</term> and
+ other <term sortKey="lawcourt">courts</term> where juries of citizens would listen to
+ cases, would vote on the guilt or innocence of their fellow citizens, and vote on
+ punishments for those found guilty.</p>
+ <p>Since Athenian law is the subject of this discussion series, the present introduction to
+ Athenian democracy will not describe the <term sortKey="lawcourt">lawcourts</term> in as
+ much detail as it has given to the <term sortKey="Assembly">Assembly</term> and <term
+ sortKey="Council">Council</term>.</p>
+ <p>Athenians who served on juries received one-half drachma a day, or three obols, for their
+ service (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:62.2">Aristot. <title>Ath. Pol.</title>
+ 62.2</bibl>). Payment for service was a democratic innovation, of course, because it
+ allowed the poorer citizens to participate in the governance of their city. There was no
+ property requirement for service; any citizen who did not owe any debts to the treasury,
+ was at least thirty years old, and had not lost his <term sortKey="citizenship"
+ >citizenship</term> through any legal action could serve as a juror (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:63.3">Aristot. <title>Ath. Pol.</title>
+ 63.3</bibl>).</p>
+ <p><name type="ancientAuthor">Aristotle</name>’s description of the Athenian <term
+ sortKey="lawcourt">lawcourts</term> and the juries that served on them focuses on the
+ elaborate systems that seem to have existed to thwart attempts to bribe juries (this
+ description starts at <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:63.1">Aristot. <title>Ath.
+ Pol.</title> 63.1</bibl>). These anti-bribery measures seem to have focused on making
+ every aspect of <term sortKey="lawcourt">jury</term> selection and allocation among the
+ various <term sortKey="lawcourt">courts</term> as unpredictable as possible. Jurors would
+ be selected, randomly, from the pool of people willing to serve. The would be divided into
+ groups, one group for every active courtroom, randomly and at the last minute. The
+ individual groups would be assigned to individual courtrooms randomly and at the last
+ minute. And there were elaborate checks to ensure that only authorized jurors entered each
+ courtroom.</p>
+ <p>Since the <term sortKey="lawcourt">lawcourts</term> were charged with hearing, not only
+ cases of criminal and civil matters, but appeals on the part of citizens who were
+ unsatisfied with rulings by the <term sortKey="Council">Council</term> or <term
+ sortKey="Assembly">Assembly</term>, this elaborate effort to ensure that the juries were
+ truly honest embodiments of the Demos makes sense. The <term sortKey="lawcourt"
+ >courts</term> were the ultimate guarantor of democratic rule, and so the juries that
+ ruled those <term sortKey="lawcourt">courts</term> had to be as democratic as
+ possible.</p>
+ <p>Timekeeping was also important during the course of trials, to ensure that the plaintiff
+ and the defendant had equal time to speak. <name type="ancientAuthor">Aristotle</name>
+ describes the water-clock (<term>klepsydra</term>) that measured the time for each
+ side’s speeches. One of the jurors, appointed by lot, poured water into a large
+ jar from which the water ran out in a steady stream; when the jar was empty, the speaker’s
+ time was up. The amount of water poured into the clock varied according to the magnitude
+ of issue at stake. For suits involving sums of money up to 2000 drachmas, each side got to
+ speak for seven measures of water, for suites between 2000 and 5000 drachmas, nine
+ measures of water, and for suits of over 5000 drachmas, ten measures. For cases in which
+ the defendant stood to lose all of his property, his <term sortKey="citizenship"
+ >citizenship</term>, or his life, the whole day—eleven measures of
+ water—was given over to the trial. (See <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:67">Aristot. <title>Ath. Pol.</title> 67</bibl>).</p>
+ <p>Juries varied in size from 501 jurors in lesser cases, up to 1500 for the most important
+ matters (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:68.1">Aristot. <title>Ath. Pol.</title>
+ 68.1</bibl>). Decisions did not have to be unanimous; after both sides in the case had
+ given one or two speeches, the jurors voted by dropping ballots into two jars. Each juror
+ had two ballots, one representing the plaintiff and the other representing the defendant.
+ One after another, the jurors inserted their ballots into two urns. The bronze urn was for
+ the vote that counted; the wooden urn was for discarding the unused ballot. As each juror
+ voted, he was given a token which he could redeem for his juror’s fee of 3 obols
+ (one-half a drachma). (See <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:68">Aristot.
+ <title>Ath. Pol.</title> 68</bibl>). After the voting, the courtroom attendants
+ emptied the bronze urn in full view of both parties to the suit and counted the ballots.
+ Whichever side received the most votes won (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:69"
+ >Aristot. <title>Ath. Pol.</title> 69</bibl>).</p>
+ <p>While the <term sortKey="Archons">Archons</term> were responsible for ensuring the proper
+ running of the Athenian <term sortKey="lawcourt">courts</term>, they did not serve as
+ judges. In fact, there was no one in an Athenian courtroom who was a recognized legal
+ authority, except for the several hundred (at least) jurors chosen from the Demos
+ generally. Plaintiffs and defendants, at least those with the laws of <placeName
+ key="Athens">Athens</placeName> on their side, had to rely on the citizens’
+ knowledge of the laws. In a speech before an Athenian <term sortKey="lawcourt"
+ >jury</term>, the orator <name type="ancientAuthor">Demosthenes</name> reminded them that,
+ <quote>You have sworn to give a verdict according to the laws, and to the decrees of the
+ People and of the <term sortKey="Council">Council</term> of Five Hundred</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg019:179">Dem. 19.179</bibl>; note that he mentions the
+ laws before the decrees).</p>
+ <p>But with no presiding judge, plaintiffs and defendant also had to rely on the
+ jurors’ just-mindedness (or susceptibility to rhetoric), especially when the law
+ was obscure or non-existant. During a different trial from the one just mentioned, <name
+ type="ancientAuthor">Demosthenes</name> reminded another Athenian <term
+ sortKey="lawcourt">jury</term> that, <quote>Again, men of <placeName key="Athens"
+ >Athens</placeName>, you must also consider well and carefully the fact that you have
+ come into <term sortKey="lawcourt">court</term> today, sworn to give your verdict
+ according to the laws… and where there are no statutes to guide you, you are
+ sworn to decide according to the best of your judgement</quote> (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg020:118">Dem. 20.118</bibl>). So in the absence of clear
+ laws, jurors were free to vote according to unwritten laws, or their own understanding of
+ justice (or their own prejudices).</p>
+ </div>
+ <div type="Section" xml:id="the_end" n="the_end">
+ <head>The End of Athenian Democracy</head>
+ <p>What happened to Athenian democracy? As with the rise of democratic governance in
+ <placeName key="Athens">Athens</placeName> (described briefly in <term
+ sortKey="democracy_development">another article</term>), its decline was a gradual
+ process, marked by a few dramatic moments and several reversals of fortune.</p>
+ <p>The decline had much to do with the rise of <placeName key="Macedonia"
+ >Macedonia</placeName> as a power in the Greek world, under the leadership first of
+ <name type="person">Philip</name> and then of his son, <name type="person"
+ >Alexander</name>. In <date when="-0338">338</date> BCE, <name type="person"
+ >Philip</name>’s army defeated the allied forces of <placeName key="Athens"
+ >Athens</placeName> and <placeName key="Thebes">Thebes</placeName> in a battle at
+ <placeName key="Chaeronea">Chaeronea</placeName>. This defeat forced <placeName
+ key="Athens">Athens</placeName> to enter into the so-called League of <placeName
+ key="Corinth">Corinth</placeName>, ostensibly a pan-Hellenic alliance aimed at opposing
+ the power of <placeName key="Persia">Persia</placeName>, but actually an organization that
+ gave <name type="person">Philip</name> unprecedented authority over Greek affairs.</p>
+ <p>Upon <name type="person">Philip</name>’s death, <name type="person"
+ >Alexander</name> took over leadership of this League, and used it to help launch his
+ invasion of <placeName key="Asia">Asia</placeName> and his war with the Persian Empire.
+ After <name type="person">Alexander</name>’s departure from <placeName
+ key="Greece">Greece</placeName> in <date when="-0335">335</date> BCE, the Athenians
+ spent the next eleven years in an unsettled state. On the one hand, they were more-or-less
+ entirely free from foreign interference in their domestic affairs; on the other hand,
+ there was a powerful body of Macedonian soldiers under the command of <name type="person"
+ >Antipater</name> waiting in northern <name type="person">Greece</name> to put down any
+ effort at resisting Macedonian will. During <name type="person"
+ >Alexander</name>’s life, the Macedonians did not actually use force against the
+ Athenians at any point, but this was only because the Athenians did not openly act against
+ Macedonian wishes. The <placeName key="Sparta">Spartans</placeName>, under king <name
+ type="person">Agis III</name>, did try to assert their independence and were thoroughly,
+ though not easily, defeated in a battle at <placeName key="Megalopolis"
+ >Megalopolis</placeName> in <date when="-0331">331</date> or <date when="-0330"
+ >330</date> BCE.</p>
+ <p>Things changed in <date when="-0324">324</date> BCE, when <name type="person"
+ >Alexander</name> reappeared in western <placeName key="Asia">Asia</placeName> after his
+ march to <placeName key="India">India</placeName>. In that year he issued the so-called
+ <soCalled>Exiles Decree</soCalled> that commanded every Greek city to readmit any former
+ citizens who had been disenfranchised. <name type="person">Alexander</name> also
+ announced, from <placeName key="Asia">Asia</placeName>, that he intended to end Athenian
+ rule over <placeName key="Samos">Samos</placeName> and to return control of the island to
+ the Samians. This was a heavy-handed and, to many Athenians, unacceptable interference in
+ the sovereignty of <placeName key="Athens">Athens</placeName>. Under the leadership of an
+ Athenian named <name type="person">Leosthenes</name>, <placeName key="Athens"
+ >Athens</placeName> began collecting a mercenary army and forming plans (if vague ones)
+ to do something toward regaining true freedom as an independent polis.</p>
+ <p>Things changed even more dramatically in <date when="-0323">323</date> BCE, when news of
+ <name type="person">Alexander</name>’s death reached the Greeks of <placeName
+ key="Europe">Europe</placeName>. The Athenians turned on any of their fellow citizens
+ who had spoken in favor of cooperating with <placeName key="Macedonia"
+ >Macedonia</placeName>—the orator <name type="ancientAuthor">Demades</name>,
+ who had passed a motion in the <term sortKey="Assembly">Assembly</term> to award divine
+ honors to <name type="person">Alexander</name>, was fined ten talents, and <name
+ type="ancientAuthor">Aristotle</name>, who had been tutor to the young <name
+ type="person">Alexander</name> himself, wisely moved out of <placeName key="Athens"
+ >Athens</placeName>.</p>
+ <p>And as <date when="-0323">323</date> came to a close, <name type="person"
+ >Leosthenes</name>, leading Athenian and allied forces, attacked the Macedonian forces
+ under <name type="person">Antipater</name> in the north. The effort was initially
+ successful, but <name type="person">Leosthenes</name> was killed while besieging the
+ fortress of <placeName key="Lamia">Lamia</placeName>, Macedonian reinforcements arrived
+ during the spring of <date when="-0322">322</date>, and the by summer of that year the
+ Athenians had lost both on land and sea.</p>
+ <p>The Macedonian <name type="person">Antipater</name> imposed a settlement on <placeName
+ key="Athens">Athens</placeName>, which was in no position to resist, that brought about
+ an end of the city’s autonomy in foreign affairs and democratic self-rule at
+ home. The revisions to the Athenian constitution limited <term sortKey="citizenship"
+ >citizenship</term> to those whose wealth amounted to at least 2000 drachmas; there was
+ also to be a garrison of Macedonian forces stationed in the harbor of <placeName
+ key="Piraeus">Piraeus</placeName>.</p>
+ <p>Thereafter, while many of the institutions of the Athenian democracy continued to
+ function, and the constitution underwent further changes, sometimes toward more
+ inclusiveness and freedom, and sometimes toward less, <placeName key="Athens"
+ >Athens</placeName> would never again be completely free in domestic and foreign policy,
+ and would never again be ruled by the will of the Demos, meeting in its <term
+ sortKey="Assembly">Assembly</term>.</p>
+ <p>(The story of the end of Athenian democracy, which is unfortunately missing from many
+ general descriptions of Greek history, is well told in <bibl type="secondary">D.L.
+ Schneider, trans., Christan Habicht, <title><placeName key="Athens">Athens</placeName>
+ from <name type="person">Alexander</name> to <name type="person">Antony</name></title>
+ [Harvard University Press, 1997]</bibl>.)</p>
+ </div>
+ </body>
+ </text>
+</TEI>

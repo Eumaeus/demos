@@ -1,0 +1,69 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+<teiHeader >
+<fileDesc >
+			<titleStmt >
+				<title >Andocides</title>
+				<author >David D. Phillips</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+			<extent >under 1Mb</extent>
+			<publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+				<authority ><name >A. Mahoney and R. Scaife, edd.</name></authority>
+			</publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+			<sourceDesc >
+				<p >File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc></teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Andocides</name></head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p ><name  type='ancientAuthor'>Andocides</name> son of <name  type='person'>Leogoras</name> (ca. <date  from='-0440' to='-0390'>440-post 391</date>) came from a wealthy Athenian family and belonged to a <term ><term  sortKey='hetaireia'>hetaireia</term></term>, an oligarchic political club. <name  type='ancientAuthor'>Andocides</name> and his <term ><term  sortKey='hetaireia'>hetaireia</term></term> attained notoriety as a result of the <term  sortKey='Hermocopidae'>Hermocopid</term> conspiracy of <date  when='-0415'>415</date>. One morning soon before the scheduled departure of the Sicilian expedition, the Athenians awoke to discover that the majority of the herms (ithyphallic stone pillars topped with the head of <name  type='god'>Hermes</name>, god of travelers) in <placeName  key='Athens'>Athens</placeName> had suffered mutilation. This, together with a report of the profanation of the Eleusinian Mysteries, threw <placeName  key='Athens'>Athens</placeName> into an uproar. Among those accused in connection with the two scandals were <name  type='ancientAuthor'>Andocides</name> and some of his relatives, including his father, who were thrown into prison to await condemnation. In return for a grant of immunity, <name  type='ancientAuthor'>Andocides</name> confessed that his <term ><term  sortKey='hetaireia'>hetaireia</term></term> had been responsible for the vandalism. Thus <name  type='ancientAuthor'>Andocides</name> and his relatives were spared, but a number of his friends were executed.</p>
+
+<p ><name  type='ancientAuthor'>Andocides</name>’ subsequent unpopularity led to the passage of the <soCalled ><term >Isotimides</term> decree,</soCalled> which barred anyone who had confessed to an act of impiety from entering the temples and <name  n='agora' type='site'>agora</name> of <placeName  key='Athens'>Athens</placeName>. As a result, <name  type='ancientAuthor'>Andocides</name> went into exile. He twice attempted to return to <placeName  key='Athens'>Athens</placeName> without success: once in <date  when='-0411'>411</date>, during the regime of the <term  sortKey='Four_Hundred'>Four Hundred</term>, and again after the restoration of the democracy. In support of his second attempt he delivered the speech <bibl  n='urn:cts:greekLit:tlg0027.tlg002' type='cts-urn'><soCalled >On his Return</soCalled> (2)</bibl>. The <term  sortKey='Thirty_Tyrants'>Amnesty</term> of <date  when='-0403'>403</date> finally allowed <name  type='ancientAuthor'>Andocides</name> to return home; but in <date  when='-0400'>400</date> he was put on trial for violating the <term >Isotimides</term> decree. He won an acquittal with his defense speech, <bibl  n='urn:cts:greekLit:tlg0027.tlg001' type='cts-urn'><soCalled >On the Mysteries</soCalled> (1)</bibl>, which is one of our most valuable sources of information regarding the scandals of <date  when='-0415'>415</date>.</p>
+
+<p >In <date  from='-0392' to='-0391'>392/1</date> <name  type='ancientAuthor'>Andocides</name> went to <placeName  key='Sparta'>Sparta</placeName> as a member of an Athenian embassy to discuss peace. Upon the return of the ambassadors, he delivered the speech <bibl  n='urn:cts:greekLit:tlg0027.tlg003' type='cts-urn'><soCalled >On the Peace with the Spartans</soCalled> (3)</bibl> in support of <placeName  key='Sparta'>Sparta</placeName>’s offer. The Athenians rejected the offer; the ambassadors, facing accusations of corruption, fled the city. No subsequent details of <name  type='ancientAuthor'>Andocides</name>’ life are known. (See also <name  type='ancientGenre'>Oratory</name>.)</p>
+
+
+
+<byline >David D. Phillips</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

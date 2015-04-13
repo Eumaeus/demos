@@ -1,0 +1,60 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Thucydides</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Thuc.' type='workDescription'>
+
+<head ><name  type='ancientAuthor'>Thucydides</name></head>
+
+<p ><name  type='ancientAuthor'>Thucydides</name> was an Athenian most famous for his history of the war between <placeName  key='Athens'>Athens</placeName> and <placeName  key='Sparta'>Sparta</placeName>, the <soCalled >Peloponnesian War</soCalled> (see also <name  n='History' type='ancientGenre'>History</name>). His life and work are both described briefly in the article <soCalled ><name  type='ancientAuthor'>Thucydides</name>.</soCalled></p>
+
+
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

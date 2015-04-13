@@ -1,0 +1,58 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 7</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg007' type='cts-urn'>Dem. 7</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >On <placeName  key='Halonnesus'>Halonnesus</placeName></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This speech is somewhat controversial. The ancient commentator <name  type='ancientAuthor'>Dionysius of Halicarnassus</name> calls it the <title >Eighth Philippic</title> (<bibl  n='urn:cts:greekLit:tlg0081.tlg008:10.33' type='cts-urn'>Dion. Hal. <title >Ad Amm.</title> 10.33</bibl>; see also, <bibl  n='urn:cts:greekLit:tlg0014.tlg004' type='cts-urn'>Dem. 4</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg006' type='cts-urn'>Dem. 6</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg009' type='cts-urn'>Dem. 9</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg010' type='cts-urn'>Dem. 10</bibl>, the <title >Philippics</title>). But <name  type='ancientAuthor'>Libanius</name>, another ancient commentator, says that this speech is not actually by <name  type='ancientAuthor'>Demosthenes</name>, but by <name  type='person'>Hegesippus</name>, based on its style and subject matter (<bibl  n='Lib. Or. 7.6-8'>Lib. Or. 7.6-8</bibl>; unfortunately, no other speech by <name  type='person'>Hegesippus</name> survive, so we cannot compare the styles for ourselves). The relevant texts from <name  type='ancientAuthor'>Dionysius</name> and <name  type='ancientAuthor'>Libanius</name> are given below. The background to the speech is this: Shortly after <date  when='-0346'>346 BCE</date>, <placeName  key='Halonnesus'>Halonnesus</placeName>, an island in the <placeName  key='Aegean'>Aegean</placeName> that belonged to <placeName  key='Athens'>Athens</placeName>, was captured by a pirate named <name  type='person'>Sostratus</name>. <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName> defeated this pirate and took over control of the island himself. In <date  when='-0343'>343 BCE</date> <placeName  key='Athens'>Athens</placeName> sent an embassy to <name  type='person'>Philip</name> to demand that he return <placeName  key='Halonnesus'>Halonnesus</placeName> to its rightful owner, <placeName  key='Athens'>Athens</placeName>. One of the ambassadors from <placeName  key='Athens'>Athens</placeName> was <name  type='person'>Hegesippus</name>. <name  type='person'>Philip</name> offered, not to return the island to <placeName  key='Athens'>Athens</placeName>, but to give it as a gift. This speech, probably written by <name  type='ancientAuthor'>Demosthenes</name>, but certainly not delivered by him — the speaker says that he was a member of the embassy to <name  type='person'>Philip</name>, which <name  type='ancientAuthor'>Demosthenes</name> was not (see <bibl  n='urn:cts:greekLit:tlg0014.tlg007:2' type='cts-urn'>Dem. 7.2</bibl>) — was probably delivered before the <term  sortKey='Assembly'>Assembly</term> in <date  when='-0342'>342 BCE</date>.</p>
+<p >On the subject of <bibl  n='urn:cts:greekLit:tlg0014.tlg007' type='cts-urn'>Dem. 7</bibl>, <name  type='ancientAuthor'>Dionysius of Halicarnassus</name> says (<bibl  n='urn:cts:greekLit:tlg0081.tlg008:10.33' type='cts-urn'>Dion. Hal. <title >Ad Amm.</title> 10.33</bibl>): <quote >After <name  type='person'>Lykiskon</name> was <term  sortKey='Archons'>archon</term>, <name  type='person'>Pythodotos</name> was <term  sortKey='Archons'>archon</term>, in the year when the eighth of the speeches against <name  type='person'>Philip</name> was composed, the beginning of which is ‘O men of Athens, there is no way that the charges…’</quote> (compare <bibl  n='urn:cts:greekLit:tlg0014.tlg007:1' type='cts-urn'>Dem. 7.1</bibl>) (<quote  xml:lang='grc'>μετὰ Λυκίσκον ἔστιν ἄρχων Πυθόδοτος, ἐφ?Ξλοσε-θυοτε-ς??οὗ ὀγδόην τῶν Φιλιππικῶν δημηγοριῶν διέθετο πρὸς τοὺς Φιλίππου πρέσβεις, ἧς ἐστιν ἀρχή Ὦ ἄνδρες Ἀθηναῖοι, οὐκ ἔστιν, ὅπως αἱ αἰτίαι</quote>…). But <name  type='ancientAuthor'>Libanius</name> says (<bibl  n='Lib. Or. 7.6-7'>Lib. 7.6-7</bibl>): <cit ><bibl  n='Lib. Or. 7.6-7'/><quote >Yes, by <name  type='god'>Zeus</name>, but the speech on the <placeName  key='Halonnesus'>Halonnesus</placeName> advises the Athenians not to take it, but to take it back and it makes a distinction between the words, and regarding these matters, <name  type='ancientAuthor'>Aeschines</name> says that <name  type='ancientAuthor'>Demosthenes</name> advised the Athenians. Then what’s this? For it is possible for this advice to have been given by <name  type='ancientAuthor'>Demosthenes</name> or <name  type='person'>Hegesippus</name>, since in other respects they held the same view and they opposed those orators who were taking <name  type='person'>Philip</name>'s side, and <name  type='ancientAuthor'>Demosthenes</name> mentions that <name  type='person'>Hegesippus</name>, when he was an ambassador with <name  type='ancientAuthor'>Demosthenes</name> and also opposed the Macedonian. And so it is clear that the speech that <name  type='ancientAuthor'>Demosthenes</name> wrote regarding the <name  type='person'>Halonnesus</name> does not survive, but with that speech not in existence, they attributed the one they found to him, having as an excuse the fact that the orator did give a speech on the <placeName  key='Halonnesus'>Halonnesus</placeName>, never examining closely whether, in fact, it seems likely to have been by him.</quote></cit> (<cit ><bibl  n='Lib. Or. 7.6-7'/><quote  xml:lang='grc'>Νὴ Δία, ἀλλ?Ξλοσε-θυοτε-ς??ὁ λόγος συμβουλεύει περὶ τῆς Ἁλοννήσου τοῖς Ἀθηναίοις μὴ λαμβάνειν αὐτήν, ἀλλὰ ἀπολαμβάνειν καὶ διαφέρεται περὶ τῶν ὀνομάτων, ταῦτα δὲ Αἰσχίνης φησὶ τὸν Δημοσθένην συμβεβουλευκέναι τοῖς Ἀθηναίοις. εἶτα τί τοῦτο? δύναται γὰρ τὴν αὐτὴν πεποιῆσθαι συμβουλὴν καὶ Δημοσθένης καὶ Ἡγήσιππος, ἐπεὶ καὶ τἄλλα τῆς αὐτῆς ἦσαν ἐν τῇ πολιτείᾳ προαιρέσεως καὶ τοῖς φιλιππίζουσι τῶν ῥητόρων ἀντέλεγον, καὶ μέμνηται καὶ ὁ Δημοσθένης τοῦ Ἡγησίππου ὡς καὶ πρεσβεύσαντος μεθ?Ξλοσε-θυοτε-ς??ἑαυτοῦ καὶ ἀντιταχθέντος τῷ Μακεδόνι. δῆλον οὖν ὅτι ὁ μὲν τοῦ Δημοσθένους λόγος ὁ περὶ τῆς Ἁλοννήσου ῥηθεὶς οὐ σώζεται, ἐκείνου δὲ οὐκ ὄντος τὸν εὑρεθέντα προσέθεσαν αὐτῷ ἀφορμὴν ἔχοντες τὸ περὶ Ἁλοννήσου λόγον εἰρῆσθαι τῷ ῥήτορι, οὐκέτι δὲ ἐξετάζοντες εἰ τοῦτον εἰκὸς εἶναι τὸν ἐκείνου.</quote></cit>) </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

@@ -1,0 +1,69 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+			<titleStmt >
+				<title >Lycurgus</title>
+				<author >David D. Phillips</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Lycurgus</name></head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p ><name  type='ancientAuthor'>Lycurgus</name> son of <name  type='person'>Lycophron</name> of the deme <name  type='deme'>Boutadae</name> (ca. <date  from='-0390' to='-0324'>390-324</date>) belonged to one of <placeName  key='Athens'>Athens</placeName>’ most distinguished families, the <term  sortKey='Eteoboutadae'>Eteoboutads</term>. Rising to prominence after the battle of <placeName  key='Chaeroneia'>Chaeroneia</placeName>, <name  type='ancientAuthor'>Lycurgus</name> administered the Athenian state treasury from <date  when='-0336'>336</date> until his death. During his tenure he increased revenues, enlarged the fleet and renovated its dockyards, and oversaw a public building program. In addition, he may have reorganized the ephebic system, under which Athenian men in their first two years of adulthood underwent military training and patrolled the border of <placeName  key='Attica'>Attica</placeName>.</p>
+
+<p >An extremely pious man, <name  type='ancientAuthor'>Lycurgus</name> legislated often regarding religious cults and festivals. He also saw himself as a moral reformer; as such he involved himself in numerous prosecutions, favoring especially the procedure of <term ><term  sortKey='law_glossary@eisangelia'>eisangelia</term></term> (impeachment). His sole surviving speech, <bibl  n='urn:cts:greekLit:tlg0034.tlg001' type='cts-urn'><soCalled >Against Leocrates</soCalled></bibl>, was delivered in an impeachment for treason. Some of his contemporaries, including <name  type='ancientAuthor'>Hypereides</name>, objected that <name  type='ancientAuthor'>Lycurgus</name> was overly zealous in his use of <term ><term  sortKey='law_glossary@eisangelia'>eisangelia</term></term> and impeached men for petty offenses. So vigorous was <name  type='ancientAuthor'>Lycurgus</name> in his prosecution of wrongdoers that it was said that he anointed his pen not with ink but with death (<bibl  n='urn:cts:greekLit:tlg0007.tlg121:841e' type='cts-urn'>[Plut.] <title >Moralia</title> 841e (<title >Vit. X Or.</title>)</bibl>). In <date  from='-0307' to='-0306'>307/6</date> the Athenians honored <name  type='ancientAuthor'>Lycurgus</name>’ memory by erecting a bronze statue of him in the <name  n='Ceramicus' type='site'>Ceramicus</name>. (See also <name  type='ancientGenre'>Oratory</name>.)</p>
+
+
+
+<byline >David D. Phillips</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

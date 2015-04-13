@@ -1,0 +1,65 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+			<titleStmt >
+				<title >Isaeus</title>
+				<author >David D. Phillips</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+			 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Isaeus</name></head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p ><name  type='ancientAuthor'>Isaeus</name> son of <name  type='person'>Diagoras</name> (ca. <date  from='-0420' to='-0343'>420-post 344/3</date>) is one of the least well-known Attic orators. The ancients themselves could not agree on whether he was Athenian or <placeName  key='Chalcidice'>Chalcidian</placeName> by birth. A student of <name  type='ancientAuthor'>Isocrates</name>, he worked as a speechwriter and also taught the art of <name  type='ancientGenre'>rhetoric</name>; his most famous student was <name  type='ancientAuthor'>Demosthenes</name>. <name  type='ancientAuthor'>Isaeus</name>’ specialty was inheritance law, a difficult and fruitful area of litigation even by Athenian standards (<bibl  n='urn:cts:greekLit:tlg0086.tlg003:9.2' type='cts-urn'>[Arist.] <title >Ath. Pol.</title> 9.2</bibl>). The eleven speeches of <name  type='ancientAuthor'>Isaeus</name> which survive entire (<bibl  n='urn:cts:greekLit:tlg0017.tlg001' type='cts-urn'>1</bibl>-<bibl  n='urn:cts:greekLit:tlg0017.tlg011' type='cts-urn'>11</bibl>) are all concerned, directly or indirectly, with inheritance disputes; the speech <bibl  n='urn:cts:greekLit:tlg0017.tlg012' type='cts-urn'><soCalled >For Euphiletus</soCalled> (12)</bibl> deals with the restoration of <term  sortKey='citizenship'>citizenship</term>. (See also <name  type='ancientGenre'>Oratory</name>.)</p>
+
+<byline >David D. Phillips</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

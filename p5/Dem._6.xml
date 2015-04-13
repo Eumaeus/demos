@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 6</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg006' type='cts-urn'>Dem. 6</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Second Philippic</title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech that <name  type='ancientAuthor'>Demosthenes</name> gave at a meeting of the <term  sortKey='Assembly'>Assembly</term>, and then published later. He delivered this speech sometime in <date  when='-0344'>344 BCE</date> or shortly afterwards (source for date: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 123</bibl>). In <date  when='-0344'>344 BCE</date>, <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName> had gotten involved in an ongoing conflict in the <placeName  key='Peloponnese'>Peloponnese</placeName>: <placeName  key='Argos'>Argos</placeName>, <placeName  key='Messene'>Messene</placeName>, and <placeName  key='Arcadia'>Arcadia</placeName>, whose principle city was <placeName  key='Megalopolis'>Megalopolis</placeName>, were resisting <placeName  key='Sparta'>Sparta</placeName>, which had traditionally dominated the <placeName  key='Peloponnese'>Peloponnese</placeName>. <name  type='person'>Philip</name> provided those cities with mercenaries and money. <placeName  key='Athens'>Athens</placeName>, which was supportive of <placeName  key='Sparta'>Sparta</placeName>, sent an embassy to the <placeName  key='Peloponnese'>Peloponnese</placeName> to try to counteract <name  type='person'>Philip</name>'s influence. <name  type='ancientAuthor'>Demosthenes</name> was a member of that embassy, which does not seem to have been successful. After the embassy had returned to <placeName  key='Athens'>Athens</placeName>, envoys from <name  type='person'>Philip</name>, <placeName  key='Argos'>Argos</placeName>, and <placeName  key='Messene'>Messene</placeName> came before the Athenian <term  sortKey='Assembly'>Assembly</term> to complain of Athenian interference. This speech is the published version of a speech that <name  type='ancientAuthor'>Demosthenes</name> gave on that occasion, in which he complains of how some of his fellow Athenians have taken <name  type='person'>Philip</name>'s side and advocated a misguided policy. He proposes that <placeName  key='Athens'>Athens</placeName> send a reply to <name  type='person'>Philip</name>'s complaints, but the details of that proposal are lost. (See also, <bibl  n='urn:cts:greekLit:tlg0014.tlg004' type='cts-urn'>Dem. 4</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg009' type='cts-urn'>Dem. 9</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg010' type='cts-urn'>Dem. 10</bibl>—all speeches urging opposition to <name  type='person'>Philip</name>, and <bibl  n='urn:cts:greekLit:tlg0014.tlg016' type='cts-urn'>Dem. 16</bibl>, <title >For the Megalopolitans</title>).</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

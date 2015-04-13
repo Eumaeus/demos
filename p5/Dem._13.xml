@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 13</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg013' type='cts-urn'>Dem. 13</bibl></head><p > (<name  type='ancientAuthor'>Demosthenes</name>, <title >On Organization</title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This speech was delivered before the <term  sortKey='Assembly'>Assembly</term> at <placeName  key='Athens'>Athens</placeName>, some time after <date  when='-0351'>351 BCE</date> (at <bibl  n='urn:cts:greekLit:tlg0014.tlg013:8' type='cts-urn'>Dem. 13.8</bibl> we learn that the speech was written after the democracy on the island of <placeName  key='Rhodes'>Rhodes</placeName> was overthrown, which happened in <date  when='-0351'>351</date>. Source for date: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 352</bibl>). Nowhere in the speech does the speaker say what, precisely, is the issue before the <term  sortKey='Assembly'>Assembly</term>, and the speech argues several points about government, one after another, generally urging the citizens of <placeName  key='Athens'>Athens</placeName> to take part in the city’s affairs and to avoid apathy, otherwise <placeName  key='Athens'>Athens</placeName> will no longer be a leader among the Greek states. This speech is included in the body of <name  type='ancientAuthor'>Demosthenes</name>’ <name  n='oratory' type='ancientGenre'>Oratory</name>, but it is entirely possible that he did not write it. </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 42</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg042' type='cts-urn'>Dem. 42</bibl></head>
+<p ><name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Phaenippus</name></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. Traditionally, this speech has been included among the speeches of <name  type='ancientAuthor'>Demosthenes</name>. However, <name  type='ancientAuthor'>Libanius</name> (a scholar of the <date  from='0300' to='0399'>fourth century CE</date>), in his hypothesis (or summary) of this speech, expresses doubt as to who really wrote it (but summarizes it along with <name  type='ancientAuthor'>Demosthenes</name>’ speeches anyway): <quote >This speech is not attributed by anyone to Demosthenes, but here is its summary.</quote> (<quote  xml:lang='grc'>ὁ μὲν λόγος οὐκ ἀναφέρεται παρά τινων ἐις τὸν Δημοσθένην, ὑπόθεσιν δὲ ἔχει ταύτην</quote>) (<bibl  n='Libanius, Hypothesis to the Speech Against Phaenippus'>Libanius, <title >Hypothesis to the Speech Against Phaenippus</title></bibl>). The speech itself is one composed for a plaintiff (whose name we do not know) who is suing <name  type='person'>Phaenippus</name> in order to make him perform certain <soCalled >liturgies</soCalled>, (<foreign  xml:lang='grc'>λειτουργίαι</foreign>) or public duties, that the plaintiff is unable to fulfill. It appears that both <name  type='person'>Phaenippus</name> and the plaintiff are important and wealthy men in the city of <placeName  key='Athens'>Athens</placeName>. During the year before the trial their fortunes take very different turns. The plaintiff lost 3 talents (see also <term  sortKey='Money'>Money</term>) in a mining investment when the city repossessed the mines. On the other hand, <name  type='person'>Phaenippus</name> acquired two very lucrative farming properties, one from his father <name  type='person'>Callippus</name> and the other from his adoptive father, the orator <name  type='person'>Philostratus</name>. Because of his reverses, the plaintiff claimed to be too poor to perform the liturgy that had been assigned him. Athenian law provided options in this situation. He had the right to nominate someone else who was financially able to take his place. If that person claimed to be too poor, the one originally assigned the liturgy could ask that the two of them exchange property. This exchange was called the <soCalled >antidosis</soCalled> (<foreign  xml:lang='grc'>ἀντιδόσις</foreign>). The procedures of the antidosis were as follows. The generals (<foreign  xml:lang='grc'>οἱ στρατηγοί</foreign>) (<bibl  n='urn:cts:greekLit:tlg0014.tlg042:5' type='cts-urn'>Dem. 42.5</bibl>) appointed a court date at which the plaintiff cited <name  type='person'>Phaenippus</name> for the exchange of property. Before the trial, each party completed an exact inventory of all property owned subject to an inspection by the other party. At this point, according to the plaintiff, <name  type='person'>Phaenippus</name> stated that there were no outstanding debts that he owed and he allowed the plaintiff to tour his extensive and prosperous lands, complete with wine and grain production and a timber industry. But, by the time that the trial arrived, mortgage-pillars appeared on <name  type='person'>Phaenippus</name>’ land and <name  type='person'>Phaenippus</name> had <soCalled >discovered</soCalled> almost three talents of debt that he owed to various parties. Furthermore, two full storerooms of grain had gone missing from <name  type='person'>Phaenippus</name>’ property. All of this was very disturbing to the plaintiff who merely wanted the property to which he was entitled under the provisions of the law. During the trial, the plaintiff produced much evidence which disproved <name  type='person'>Phaenippus</name>’ claims of financial obligations and showed, rather, that <name  type='person'>Phaenippus</name> led a profligate lifestyle, spending all of his money on fast chariots (<bibl  n='urn:cts:greekLit:tlg0014.tlg042:24' type='cts-urn'>Dem. 42.24</bibl>) without any regard for the public good. We have no way of dating this speech more precisely than the <date  from='-0399' to='-0300'>fourth century BCE</date>.</p>
+<byline >Christopher Cotten</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

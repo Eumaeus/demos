@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 20</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg020' type='cts-urn'>Dem. 20</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Leptines</name></title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). <name  type='ancientAuthor'>Demosthenes</name> delivered this speech in <date  when='-0355'>355 BCE</date>, and it is the first speech he made on a public matter (Source for date: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 487</bibl>). The speech was delivered as part of a <quote >prosecution for illegal legislation</quote> (<foreign  xml:lang='grc'>γραφὴ παρανόμων</foreign>). The case was this: the Athenian democracy relied on its wealthy citizens to pay for certain public works; these were called <soCalled ><term  sortKey='Liturgies'>liturgies</term></soCalled> (<foreign  xml:lang='grc'>λειτουγίαι</foreign>) (see the article, <term  sortKey='Liturgies'>Liturgies</term>). Occasionally, too, the democracy would honor one of its citizens by granting him immunity from <term  sortKey='Liturgies'>liturgies</term>—he and his descendants would no longer be called upon to pay for a service. In <date  when='-0357'>357 BCE</date>, a man named <name  type='person'>Leptines</name> had proposed a law that would end all such exceptions from <term  sortKey='Liturgies'>liturgies</term>, thus providing <placeName  key='Athens'>Athens</placeName> with additional sources of funds. The law was approved by the <term  sortKey='Nomothetae'>Nomothetae</term> (see also <term  sortKey='Assembly'>Assembly</term>; at <bibl  n='urn:cts:greekLit:tlg0014.tlg020:144' type='cts-urn'>Dem. 20.144</bibl>, <name  type='ancientAuthor'>Demosthenes</name> says that more than a year had elapsed between the passage of the law and the trial). Two other Athenians had brought a charge of illegal legislation against <name  type='person'>Leptines</name>, but let the case drop (<bibl  n='urn:cts:greekLit:tlg0014.tlg020:145' type='cts-urn'>Dem. 20.145</bibl>). A second charge was brought against the law, and <name  type='ancientAuthor'>Demosthenes</name> gave this speech making the case against it. <name  type='person'>Leptines</name> himself spoke in the law’s defense (<bibl  n='urn:cts:greekLit:tlg0014.tlg020:146' type='cts-urn'>Dem. 20.146</bibl>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

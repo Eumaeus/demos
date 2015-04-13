@@ -1,0 +1,70 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Herodotus</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Herodotus</name></head>
+
+<p ><name  type='ancientAuthor'>Herodotus</name> of <placeName  key='Halicarnassus'>Halicarnassus</placeName> was one of the earliest Greek writers of history in prose (see also <name  n='history' type='ancientGenre'>History</name>). His monumental work begins: <quote >This is the presentation of the inquiries of <name  type='ancientAuthor'>Herodotus</name> of <placeName  key='Halicarnassus'>Halicarnassus</placeName>, in order that neither should the things done by men fade away through time, nor should great and wonderful achievements, some performed by Greeks, some by barbarians, become without renown, not only generally, but particularly for what cause they waged war on each other</quote> (<bibl  n='urn:cts:greekLit:tlg0016.tlg001:1.1' type='cts-urn'>Hdt. 1.1</bibl>). His word, which we translate <soCalled >inquiry,</soCalled> is <term >historia</term>, which gives us the English word <soCalled >history.</soCalled></p>
+
+<p ><name  type='ancientAuthor'>Herodotus</name> lived and during the <date  from='-0499' to='-0400'>5th century BCE</date>, although his dates are unclear. He describes events that happened in the <date  from='-0489' to='-0479'>480s BCE</date> without ever claiming himself to have witness them or even have lived through them (and he <emph >does</emph> mention many things that he saw with his own eyes). On the other hand, the comic poet <name  type='ancientAuthor'>Aristophanes</name> includes a parody of <name  type='ancientAuthor'>Herodotus</name>’ history in a play that was produced in <date  when='-0425'>425</date> BCE (source for date: <bibl  n='OCD3, s.v. Herodotus' type='secondary'><title >OCD</title><edition >3</edition>, <term >s.v.</term> <soCalled >Herodotus</soCalled></bibl>), starting at <bibl  n='urn:cts:greekLit:tlg0019.tlg001:515' type='cts-urn'>Aristoph. <title >Ach.</title> 515</bibl>. So, we can assume that <name  type='ancientAuthor'>Herodotus</name> reached adulthood after the <date  from='-0489' to='-0479'>480s</date> BCE and had written his book well before <date  when='-0425'>425</date> BCE.</p>
+
+<p ><name  type='ancientAuthor'>Herodotus</name>’ history ultimately focuses on the wars between the Greeks and the Persian Empire, starting with the revolt (in <date  when='-0499'>499</date> BCE) of Greek cities of <placeName  key='Ionia'>Ionia</placeName>, which had come under Persian sway in the last quarter of the <date  from='-0599' to='-0500'>6th century</date>, through the Persian invasion of <placeName  key='Attica'>Attica</placeName> in <date  when='-0490'>490</date> BCE, which ended with the battle of <placeName  key='Marathon'>Marathon</placeName>, to <name  type='person'>Xerxes</name>’ invasion of Greece in <date  when='-0480'>480</date> and <date  when='-0479'>479</date> BCE. But <name  type='ancientAuthor'>Herodotus</name> tries to put this conflict in a more universal context and to describe it in terms of some fundamental truths of human affairs. Accordingly, he traces the roots of the wars back into the <date  from='-0599' to='-0500'>6th century</date> and the reign of <name  type='person'>Croesus</name>, king of <placeName  key='Lydia'>Lydia</placeName>. He also describes the geographies, cultures, and mythologies of all of the peoples in and around the Greek world.</p>
+
+<p >Because of this last element in <name  type='ancientAuthor'>Herodotus</name>’ work, he has from time to time throughout history been criticized for a lack of focus, a lack of truthfulness, or a failure to keep his <soCalled >history</soCalled> rational and objective. But in many ways <name  type='ancientAuthor'>Herodotus</name>’ work is more comprehensive and useful than that of his successor <name  type='ancientAuthor'>Thucydides</name>. The latter reports only those <soCalled >facts</soCalled> that he himself believes to be true. <name  type='ancientAuthor'>Herodotus</name>, on the other hand, says that he is obliged to report whatever he has heard, even if he not not obliged to believe it all (<bibl  n='urn:cts:greekLit:tlg0016.tlg001:7.152' type='cts-urn'>Hdt. 7.152</bibl>). For <name  type='ancientAuthor'>Herodotus</name>, it seems, not only are factual accounts valuable for uncovering the past, but false beliefs are also, because they too can influence how human beings interact with each other.</p>
+
+<p ><name  type='ancientAuthor'>Herodotus</name> was born in <placeName  key='Halicarnassus'>Halicarnassus</placeName>, which is modern <placeName  key='Bodrum'>Bodrum</placeName> in what is now <placeName  key='Turkey'>Turkey</placeName>. This city was a melting-pot of Greeks and non-Greeks, which almost certainly contributed to <name  type='ancientAuthor'>Herodotus</name>’ open-minded interest in other cultures. He lived for a number of years in <placeName  key='Athens'>Athens</placeName>, whose history and affairs he describes with admiration—see for example his discussion of <name  type='person'>Pericles</name> at <bibl  n='urn:cts:greekLit:tlg0016.tlg001:6.131' type='cts-urn'>Hdt. 6.131</bibl>, or his praise of Athenian democracy at <bibl  n='urn:cts:greekLit:tlg0016.tlg001:5.78' type='cts-urn'>Hdt. 5.78</bibl>. <name  type='ancientAuthor'>Herodotus</name> spent the last years of his life in the Greek colony of <placeName  key='Thurii'>Thurii</placeName>, in southern <placeName  key='Italy'>Italy</placeName> (see <bibl  n='urn:cts:greekLit:tlg9010.tlg001:eta.536' type='cts-urn'>Suda eta,536</bibl>).</p>
+
+<p >Because <name  type='ancientAuthor'>Herodotus</name> makes no effort to limit his reporting to objectively factual material, any reader should use caution when relying on him as a source for events. But because of his broad appreciation for how culture, legend, personality, and accident can shape history, his work offers insights into ancient history that can be found nowhere else.</p>
+
+
+
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

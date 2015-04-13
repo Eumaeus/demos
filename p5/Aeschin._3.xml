@@ -1,0 +1,58 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Aeschin. 3</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0026.tlg003' type='cts-urn'>Aeschin. 3</bibl></head>
+<p >(<name  type='ancientAuthor'>Aeschines</name>, <title >Against <name  type='person'>Ctesiphon</name></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech that <name  type='ancientAuthor'>Aeschines</name> composed and delivered in a trial before a <term  sortKey='lawcourt'>jury</term>. <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName> defeated <placeName  key='Athens'>Athens</placeName> at the battle of <placeName  key='Chaeronea'>Chaeronea</placeName> in <date  when='-0338'>338 BCE</date> (source for date: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>). Afterwards, the city worked to improve its fortifications, fearing further trouble with <placeName  key='Macedonia'>Macedonia</placeName>. The orator <name  type='ancientAuthor'>Demosthenes</name> was entrusted with managing the fortifications of the <placeName  key='Piraeus'>Piraeus</placeName>, <placeName  key='Athens'>Athens</placeName>' main port, and he even contributed his own money to the project. Because of this, his friend <name  type='person'>Ctesiphon</name> made a motion in the <term  sortKey='Assembly'>Assembly</term> that <name  type='ancientAuthor'>Demosthenes</name> be awarded a crown, which was to be given him in the <placeName  key='Theater of Dionysus'>Theater of Dionysus</placeName>. <name  type='ancientAuthor'>Aeschines</name>, a long-time political rival of <name  type='ancientAuthor'>Demosthenes</name>, brought charges against <name  type='person'>Ctesiphon</name>, arguing that this motion was illegal (see Assembly for discussion of the legal issues). The trial came before a <term  sortKey='lawcourt'>jury</term> in <date  when='-0330'>330 BCE</date> (source: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>). This speech is <name  type='ancientAuthor'>Aeschines</name>' prosecution of <name  type='person'>Ctesiphon</name> for moving an illegal motion, but the real issue in the speech is whether <name  type='ancientAuthor'>Demosthenes</name> had served <placeName  key='Athens'>Athens</placeName> well in previous years, or had led <placeName  key='Athens'>Athens</placeName> to defeat at the hands of <name  type='person'>Philip</name>. <name  type='ancientAuthor'>Demosthenes</name> spoke in defense of <name  type='person'>Ctesiphon</name> (and in the process attacked <name  type='ancientAuthor'>Aeschines</name>' own service to <placeName  key='Athens'>Athens</placeName>). <name  type='ancientAuthor'>Aeschines</name> lost this case (source: <bibl >C.D. Adams, <title >The Speeches of <name  type='ancientAuthor'>Aeschines</name></title> [Harvard: Loeb Classical Library] 306-307</bibl>). (See also, <bibl  n='urn:cts:greekLit:tlg0014.tlg018' type='cts-urn'>Dem. 18</bibl>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

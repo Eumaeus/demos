@@ -1,0 +1,204 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+		<fileDesc >
+			<titleStmt >
+				<title >Women and Family in Athenian Law</title>
+				<author >K. Kapparis</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text  xml:lang='en'>
+<body >
+
+<div  n='Summary' type='Summary' xml:id='Summary'>
+<head >Summary</head>
+
+
+<p >Suggested Reading: <name  type='person'>Apollodoros</name>, <bibl  n='urn:cts:greekLit:tlg0014.tlg059' type='cts-urn'><soCalled >Against Neaira</soCalled></bibl> (transmitted among the speeches of <name  type='ancientAuthor'>Demosthenes</name>, as <bibl  n='urn:cts:greekLit:tlg0014.tlg059' type='cts-urn'>number 59</bibl>); <bibl  n='urn:cts:greekLit:tlg0014.tlg057' type='cts-urn'>Demosthenes 57, <soCalled >Against Euboulides.</soCalled></bibl></p>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+</div>
+
+<div  n='draco' type='Section' xml:id='draco'>
+
+<head >The Laws of <name  type='person'>Drakon</name></head>
+
+<p >Athenian authors of the classical period imagined a mythical past where women were subject to similar restrictions in their legal standing and social roles as in their own timeframe. Greek <name  type='ancientGenre'>Drama</name> amply portrays female characters in the settings of <placeName  key='Mycene'>Mycene</placeName>, prehistoric <placeName  key='Thebes'>Thebes</placeName>, or <placeName  key='Athens'>Athens</placeName> at the time of the kings. Those women resemble Athenian wives, concubines, mothers, sisters, or daughters in their roles and, despite a wide variation of temperament and degrees of conformity with established rules, obey or disobey the same social conventions as <date  from='-0499' to='-0400'>5th</date> or <date  from='-0399' to='-0300'>4th</date> century Athenian women. In reality very little is known about the legal or social position of Athenian women until the time of <name  type='person'>Drakon</name>, the first lawgiver of <placeName  key='Athens'>Athens</placeName>. It is widely agreed that <name  type='person'>Drakon</name> provided <placeName  key='Athens'>Athens</placeName> with its first set of written laws amid widespread social discontent (<date  when='-0621'>621</date> BC). His legislation should probably be seen as an attempt to curb some of the excesses of the ruling aristocracy, and firmly establish the rule of law over the will of powerful families. Much of the legislation of <name  type='person'>Drakon</name> was superceded by later statutes, but his homicide law, which remained valid throughout the classical period and until the end of the Athenian <term >polis</term>, introduces very firm regulations on male conduct towards free females under the authority of another man. The law of <name  type='person'>Drakon</name> on justified homicide permitted a man to kill another man caught with his wife, mother, sister, daughter or concubine, that is, any woman under his legal protection (<bibl  n='urn:cts:greekLit:tlg0014.tlg023:53' type='cts-urn'>Dem. 23.53</bibl>). By doing so this law actually set several important legal definitions which were to remain in force for centuries. </p>
+
+<p >First, the law of <name  type='person'>Drakon</name> probably enshrined into the letter of the law the existing concept of what is a family. By naming the female members of a man’s household this law defined the family as a wider unit encompassing all free females and went as far as to include even slave-concubines. Slaves belonged to the family, if not as persons at least as valuable property. This widely defined entity, consisting of all the persons that lived in a household and all its assets was called <term >oikos</term>. The oikos was probably a very old concept, and despite some changes in its character and legal standing over time, essentially remained a constant in Greek life. <name  type='ancientAuthor'>Aristotle</name> saw the city-state (<term >polis</term>) as a constellation of <term >oikoi</term>, and his remark certainly underlines the importance of the family-unit in Greek public as well as private life (<bibl  n='urn:cts:greekLit:tlg0086.tlg035:1253b' type='cts-urn'>Aristot. <title >Pol.</title> 1253b</bibl>). </p>
+
+<p >The second major implication of <name  type='person'>Drakon</name>’s homicide law was the recognition of the sanctity of the family and family life. No matter how powerful or influential a person was, he still did not have the right to enter someone’s house and seduce or force the women under this man’s authority, for the law provided the most efficient deterrent: self-help. The wronged man would not need to seek justice elsewhere; he could avenge his injured honor there and then. So, it seems that from early times the Athenian state made a firm commitment to protect the family and all individuals in it. The main reason behind it probably was the fact that the state had vested interests in the continuation of the citizen stock and the upholding of traditional values, and saw the family as the custodian of these important matters. </p>
+
+</div>
+
+<div  n='Solon' type='section' xml:id='Solon'>
+
+<head >The Laws of <name  type='person'>Solon</name></head>
+
+<p >The legislation of <name  type='person'>Drakon</name> was largely replaced by that of <name  type='person'>Solon</name> a generation later (<date  when='-0594'>594</date> BC). <name  type='person'>Solon</name> considered carefully the role of the family in the institutions of the state, and was the first to introduce extensive social legislation (<bibl  n='urn:cts:greekLit:tlg0026.tlg001:183' type='cts-urn'>Aeschin. 1.183 ff.</bibl>; <bibl  n='Plu. Sol. 20'>Plu. <title >Sol.</title> 20 ff.</bibl>). He probably introduced laws governing marriage, adoption, inheritance, property transfers, the treatment of orphans, and generally the protection of the weaker members of society, which were legally unable to aid themselves. It is also possible that <name  type='person'>Solon</name> enshrined into law the concept of succession only by legitimate heirs, namely natural sons or daughters properly born in wedlock, or adopted heirs in the absence of natural legitimate sons. Moreover he introduced laws on the orderly conduct of women (<foreign  xml:lang='grc'>περὶ τῆς τῶν γυναικῶν εὐκοσμίας</foreign>), some of which were seemingly not enforced in the classical period. <name  type='person'>Solon</name> probably introduced milder laws regulating cases of adultery, such as permitting the husband to abuse the seducer with impunity or accept financial compensation, in order to provide alternatives for the atonement of the injured man’s honor without the need to resort to murder. In the same spirit, and in order to curb abuses of the <name  type='person'>Drakon</name>ian adultery laws, he introduced a law which stated that if a man is caught with a woman who practices some form of prostitution, either organized or free-lance, he cannot be accused of adultery (<bibl  n='urn:cts:greekLit:tlg0014.tlg059:67' type='cts-urn'>Dem. 59.67</bibl>). By doing so <name  type='person'>Solon</name> perhaps unintentionally legalized and defined prostitution. Any woman who offered sexual favors for money placed herself outside the protective shield of the <term >oikos</term>; she was alone in a world which did not offer many opportunities for single females. </p>
+
+</div>
+
+<div  n='democracy' type='section' xml:id='democracy'>
+
+<head >Pericles’ Law on Citizenship</head>
+
+
+<p >The introduction of the Democratic Constitution in the late <date  from='-0599' to='-0500'>sixth century</date> does not seem to have effected significant change in the role of the family, or the position of women in it. One major change introduced by <name  type='person'>Kleisthenes</name> affected only males of citizen status: now they would need to register with the deme rather than the phratry in order to enter the citizen body. The phratries were traditional institutions with religious connotations. <name  type='person'>Kleisthenes</name> bypassed them when introducing the constitutional reform nowadays known as <soCalled >Moderate Democracy,</soCalled> and set up the deme as the basis of public life, a rather secular and more egalitarian institution. However, women were excluded from the demes, as they did not participate in war and politics, and certainly non-citizens and slaves were also excluded. The democratic constitution was intended to broaden the basis of participation in public life as much as possible, but of course it would be unthinkable for women or slaves to be included in the ancient world, while the exclusion of resident aliens from politics still remains universal practice. </p>
+
+<p >The first major change in the definition of the family under the democratic constitution came in <date  when='-0451'>451</date>, when a law introduced by <name  type='person'>Pericles</name> stated that only the offspring of two Athenian citizens could be citizens (<bibl  n='urn:cts:greekLit:tlg0086.tlg035:1278a' type='cts-urn'>Aristot. <title >Pol.</title> 1278a</bibl>). The actual content and intention of the law have been intensely disputed in recent years; however, <name  type='ancientAuthor'>Aristotle</name> is probably right when he says that <name  type='person'>Pericles</name> wanted to reduce the number of Athenian citizens. This law was introduced in the height of the Athenian empire, when the city was the center of the Hellenic world. It seems only natural that the ruling minority of this empire, namely the citizens of <placeName  key='Athens'>Athens</placeName>, did not want to share their privileges with many others. Being an Athenian citizen meant to participate in decision-making that affected areas as far away as the <placeName  key='Black Sea'>Black Sea</placeName> or the shores of <placeName  key='Italy'>Italy</placeName>. It also came with privileged treatment before the institutions of the state, benefits and handouts. It is no wonder that the Athenians wanted to keep their numbers limited, manageable and functional. </p>
+
+<p >Whatever the intentions of this particular law its implications upon family life were far-reaching. First it practically limited the marriage options of Athenian men to Athenian women, and less than a century later, in the <date  from='-0399' to='-0375'>first quarter of the 4th century</date>, the state went one step further: it prohibited Athenian citizens to marry foreigners and imposed severe penalties for the pretence of lawful marriage between an Athenian and an alien (<bibl  n='urn:cts:greekLit:tlg0014.tlg059:16' type='cts-urn'>Dem. 59.16</bibl>). Second, the Periclean law formally recognized Athenian-born women as citizens in their own right, and sanctioned their role in the continuation of the citizen body. Women until then were participants of the <term >polis</term> only in the sphere of religion, where they could hold priestly offices, and perform ceremonial duties in public gatherings. After the Periclean <term  sortKey='citizenship'>citizenship</term> law Athenian women are recognized as participants in the state, even if not fully, and this comes with certain obligations. Until then only the male party was considered legally responsible for the seduction of a free woman. However, probably not long after the Periclean <term  sortKey='citizenship'>citizenship</term> law another law was introduced requiring the husband of an adulteress to divorce her under penalty of disfranchisement if he disobeyed, and imposing a ban from all public temples upon the adulteress herself. For the first time the woman would be held personally accountable by the law, and deprived from her privileges in public life if she misbehaved. Thus by turning the spotlight on Athenian mothers the state was determined to protect the legitimacy of children born in Athenian families and make sure that those who receive <term  sortKey='citizenship'>citizenship</term> truly are of citizen stock. </p>
+
+</div>
+
+<div  n='citizenship' type='section' xml:id='citizenship'>
+
+<head >Women and Citizenship</head>
+
+
+<p >After the Periclean <term  sortKey='citizenship'>citizenship</term> law a child would be of citizen status only if both parents were citizens. However, since the Athenians did not keep birth records citizen identity was conferred upon the child gradually, and it would mean different things for boys and girls. Traditionally a boy would be presented to the members of the phratry and possibly the genos or other such associations to which his father belonged not long after his birth. After the reforms of <name  type='person'>Kleisthenes</name> membership of these bodies was not an obligatory requirement for <term  sortKey='citizenship'>citizenship</term>, but most Athenians belonged to them, and failure to present a legitimately born citizen boy to these bodies might give rise to questions, and later prejudice his registration with the deme. Thus the presentation to these bodies amounted to an early declaration of the boy’s legitimacy and citizen status by the father to the community. Then the father or legal guardian had the obligation to educate the boy and teach him how to become a good citizen of <placeName  key='Athens'>Athens</placeName>. In adolescence the boy would become a full member of the phratry or genos. When he reached his 18th year he would appear before the deme and seek registration sponsored by his father or legal guardian. Once he was registered with the deme he became a full citizen. If he was rejected by the deme, he could appeal the decision before the court, but this was risky: if he lost, he was sold as a slave (cf. <bibl  n='urn:cts:greekLit:tlg0014.tlg057' type='cts-urn'>Dem. 57</bibl>). Thus the state firmly discouraged frivolous claims of <term  sortKey='citizenship'>citizenship</term>. </p>
+
+<p >For women the process was considerably different. There is some evidence that girls could be presented to the phratry, but this was not obligatory, and some Athenian men might not even bother presenting their daughters, as this had no real legal significance. This is why the evidence for presentation of girls to the phratry is rather sporadic. Girls were educated at home, and were taught how to become good mothers and prudent housewives, how to count, and in some households how to read and write. When time came, ideally while still in adolescence, they were given in marriage to an Athenian man. Girls were not registered with the deme. Their citizen status should be known to family members and other women in the community, but respectability demanded that a woman ought not be discussed in public. In cases of dispute of a woman’s citizen status, as in <bibl  n='urn:cts:greekLit:tlg0017.tlg003' type='cts-urn'>Isaios 3</bibl> <soCalled >On the Estate of <name  type='person'>Pyrrhos</name>,</soCalled> or in <bibl  n='urn:cts:greekLit:tlg0014.tlg059' type='cts-urn'>Dem. 59</bibl> <soCalled >Against <name  type='person'>Neaira</name>,</soCalled> it would be difficult to produce conclusive proof, and it would be up to the jury to believe one side or the other. Precisely because it was not easy to prove or disprove objectively a woman’s <term  sortKey='citizenship'>citizenship</term> status, the state felt the need to introduce some safeguards in the <date  from='-0399' to='-0375'>early 4th century</date>. A law imposed severe penalties upon a man who had tricked another man into marrying an alien woman by assuring him that she was Athenian (<bibl  n='urn:cts:greekLit:tlg0014.tlg059:52' type='cts-urn'>Dem. 59.52</bibl>). </p>
+
+</div>
+
+<div  n='metics' type='section' xml:id='metics'>
+
+<head >Metics and Slaves</head>
+
+
+<p >The numerous aliens living in <placeName  key='Athens'>Athens</placeName> (<soCalled >metics</soCalled>) were in a similar position to that of resident aliens in the US at present. They could not vote or be voted into office, but their property rights were protected and they could represent themselves in court, although in certain procedures they needed to use an Athenian agent (<term >prostates</term>). Marriages between metics were legally valid unions while their person and sanctity of family life were protected by Athenian law. As it happens in several countries today, non-citizens could not own real estate, unless given this right through a special resolution (<term >egtesis</term>) for good service to the state. The most coveted of privileges, Athenian <term  sortKey='citizenship'>citizenship</term>, was only granted to aliens as an exceptional reward for great services to the Athenian people (<term >andragathia</term>). However, in practice this reward rarely went to metics living in <placeName  key='Athens'>Athens</placeName>; in the <date  from='-0399' to='-0300'>4th century</date> in particular it had degenerated into some sort of diplomatic gesture for important foreign leaders and dignitaries, who often had not consistently served the best interests of <placeName  key='Athens'>Athens</placeName>. </p>
+
+<p >The large slave population of Attica was mostly under private ownership, except for a small number of public slaves (<term >demosioi</term>). They had no rights, and only very limited protection against abuse or injury. A mistreated slave could always ask to be sold to someone else, but besides that he or she would be completely at the mercy of the master. Slaves were valuable commodity, and an injured or disabled slave would be no good as he/she could lose much of their value. This financial dimension probably afforded more protection against extreme abuse than the law itself. Attractive female slaves bought for the purposes of practicing prostitution would be groomed and pampered, and could be very expensive. Slaves kept as concubines might be treated with generosity and enjoy certain privileges at the discretion of the master. Unions between slaves and procreation were possible if the master permitted it. A <date  from='-0399' to='-0300'>4th century</date> essay on good household management (<name  type='ancientAuthor'>Xenophon</name>’s <bibl  n='urn:cts:greekLit:tlg0032.tlg003' type='cts-urn'><title >Oeconomicus</title></bibl>) recommends allowing good slaves to have families as this would make them more cautious and more trustworthy. The children of such unions would be slaves owned by the master of the parents (<term >oikogenes</term>). A slave could be set free by the master as a reward for dedicated service, or sometimes he/she might be able to negotiate with a reasonable master a scheme whereby after a number of years of faithful service and hard work they could gain their freedom. Sometimes a slave could be set free under the condition that he/she would stay and work for the master after liberation for a stated period of time (<term >paramone</term>). Slaves were treated as human beings at their death. Religious scruple demanded the punishment of the killer of a slave (unless of course it was the master), and some burial rites were in order even for the most lowly slave. </p>
+
+</div>
+
+<div  n='oikos' type='section' xml:id='oikos'>
+
+<head >Women the <term >Oikos</term></head>
+
+
+<p >A respectable woman’s place was at home. There she should look after her children and her family, take care of the household, delegate duties to her servants, guard the property of the family, and make sure that domestic life run smoothly (<bibl  n='urn:cts:greekLit:tlg0032.tlg003:7-10' type='cts-urn'>Xen. <title >Oec.</title> 7-10</bibl>). If a good wife had performed her duties properly her husband would not have to worry about family matters. Thus he would be free to take care of the affairs of the outside world and act as the representative of his <term >oikos</term> in the <term >polis</term>. Ancient authors frequently state that a man’s domain is outdoors, while a woman’s domain is indoors. The leading male of the household (<term ><term  sortKey='law_glossary@kurios'>kyrios</term></term>) had the legal duty to represent in court-cases the members of his household who could not carry such responsibility themselves, such as women, children and slaves. Other adult males of the household, such as unmarried brothers, a retired father, or an elderly uncle were legally independent, but still under the control of the <term ><term  sortKey='law_glossary@kurios'>kyrios</term></term>, as he was the one in charge of the family property, and this sometimes created friction (see <bibl  n='urn:cts:greekLit:tlg0019.tlg004' type='cts-urn'>Aristophanes Wasps</bibl>). </p>
+
+</div>
+
+<div  n='contraception' type='section' xml:id='contraception'>
+
+<head >Contraception, and Abortion</head>
+
+
+<p >The Athenian <term ><term  sortKey='law_glossary@kurios'>kyrios</term></term> did not have a right of life and death over the free members of his household, with the exception of newborn infants who had not yet been formally acknowledged and thus recognized as free persons with certain rights. Shortly after birth a father still had the right to have a newborn killed. Perhaps with the exception of some infants with severe disabilities infanticide was extremely rare because of religious scruple. The ordinary Athenian would fear the pollution (<term >miasma</term>) which taking a life might bring upon himself and his household, and this is why he would probably choose to expose an unwanted infant, and thus shake off the responsibility. The exposure of infants has been a striking theme of fictional literature (<name  type='ancientGenre'>Tragedy</name>, <name  type='ancientGenre'>New Comedy</name>, <name  type='ancientGenre'>Novel</name>), but in reality it rarely happened. Perhaps its frequency was higher in times of financial crisis (e.g. the final years of the Peloponnesian war), but on the whole the Athenians did not expose their infants more frequently than we do. </p>
+
+<p >Unwanted births could be controlled through contraception and abortion, but both procedures were neither safe nor foolproof. Athenian law said nothing on either contraception or abortion, presumably because <placeName  key='Athens'>Athens</placeName>, like most Greek city-states, preferred a rather limited and manageable population, and therefore had no good reason to resist such practices on a collective scale. In fact <name  type='ancientAuthor'>Plato</name> and <name  type='ancientAuthor'>Aristotle</name> recommend abortion in their utopian states as a method of population control (<bibl  n='urn:cts:greekLit:tlg0059.tlg030:460a-461c' type='cts-urn'>Plat. <title >Rep.</title> 460a-461c</bibl>; <bibl  n='urn:cts:greekLit:tlg0086.tlg035:1335b' type='cts-urn'>Aristot. <title >Pol.</title> 1335b 19-26</bibl>). However, as it happens today, some individuals might feel strongly against such practices. In the <date  from='-0399' to='-0375'>early 4th century</date> one case over an induced abortion ended up in court as a homicide procedure, but it seems that it was a long shot and led to nothing (<bibl  n='Lys. Fr 10 Thalheim'>Lys. Fr 10 Thalheim</bibl>). Athenian women could attempt contraception and abortion without fear of the law. Contraception of course would be safer, but unfortunately, since the ancient world did not exactly understand how the process of conception works, contemporary contraceptive methods often were nothing more than wishful thinking. Abortion might thus appear to be an inescapable necessity and a drastic last resort, especially for prostitutes, unmarried women and women who had conceived outside wedlock or with men other than their husbands. The Hippocratic corpus contains plentiful advice on oral drugs, pessaries, mechanical methods, and even a surgical procedure in order to induce an abortion (see especially the study <bibl  n='Hippocratic Corpus, Diseases of Women'><soCalled >Diseases of Women</soCalled></bibl>). Often this advice was dressed under a thin veil of medical necessity: it was supposed to be used for therapeutic purposes only. However, it is self-evident that once this knowledge was organized in writing it could be used for abortions dictated by a wide range of circumstances. In fact, the author of the Hippocratic study <soCalled >The Nature of the Child</soCalled> (<bibl  n='Hippocratic Corpus 13 = 4,490 Littré'>13 = 4,490 Littré</bibl>) describes how he helped a musician and expensive companion of rich men to have an abortion, and he does so without any concern for the moral implications of the case. The Hippocratic Oath, on the other hand, took a firm stance against abortion and banned it completely, probably because its author felt that a doctor’s primary duty is the preservation of life not its destruction. However, this Oath was not binding for many physicians who operated in <placeName  key='Athens'>Athens</placeName>, and, it seems, it did not carry any legal weight with contemporary medical practice. </p>
+
+<p >Abortions for aesthetic reasons do not seem to be a Greek phenomenon. Athenian women took pride in motherhood as they drew prestige and social status through their role as wives, mothers and matrons of respectable households. Better-off women might enjoy the luxury of a rather leisurely life at home, and were able to dedicate all their energy to the care of their family and household, and socialize with female friends and relatives. On special occasions they would dress up and go into town or to a sanctuary, participate in a festival and celebrate with the rest of the community. Athenian housewives were financially dependent upon their husbands, unless they were widowed with young children. In that case they could choose to remain in the house of their deceased husband, and take on the responsibility for the family assets. Occasionally they might need some help from male relatives in their transactions with the outside world, as respectability would not allow them to go to the financial centers of <placeName  key='Athens'>Athens</placeName> and directly deal with strange men, but some of these independent-minded widows were definitely in charge (see <bibl  n='urn:cts:greekLit:tlg0014.tlg041' type='cts-urn'>Dem. 41</bibl>). </p>
+
+</div>
+
+<div  n='property' type='section' xml:id='property'>
+
+<head >Women and Property</head>
+
+
+<p >Women from rich families would normally bring into their new household a large dowry, which would then be managed by the husband, even though he never owned it, and had to return it in its entirety in case of a divorce (cf. <bibl  n='urn:cts:greekLit:tlg0014.tlg040' type='cts-urn'>Dem. 40</bibl>). The dowry was not a legal requirement, but it was a strong social convention and even poor people would still try to scrape together a small dowry for their daughters. The dowry was the standard route through which a woman inherited part of her father’s property, if he also had male children. If the woman’s father had no male heirs she inherited the whole of his property and thus became an <term ><term  sortKey='law_glossary@epikleros'>epikleros</term></term>. The law of the state intervened in that case and ordered the closest male relative of her father in order of seniority to marry her and take control of the property that came with the woman. If he was already married he could divorce his wife and marry the <term ><term  sortKey='law_glossary@epikleros'>epikleros</term></term>, or pass on the <term ><term  sortKey='law_glossary@epikleros'>epikleros</term></term> to the second closest relative, and so on. Even if the woman had very little or no property the closest male relative of her father still had the legal obligation to marry her or pass her on. If no relative wanted to marry the poor <term ><term  sortKey='law_glossary@epikleros'>epikleros</term></term>, the <term  sortKey='archons'>archon</term>, the senior magistrate of the state in charge of social affairs, was legally bound to compel the closest male relative of her father to provide her with a dowry of his own and find her a husband (cf. <bibl  n='urn:cts:greekLit:tlg0027.tlg001:117-124' type='cts-urn'>Andoc. 1.117-124</bibl>). </p>
+
+<p >The laws regarding an <term ><term  sortKey='law_glossary@epikleros'>epikleros</term></term> have attracted a lot of attention in recent years, and have often been interpreted from a late <date  from='1900' to='1999'>20th century</date> point of view as a demonstration of complete disregard for the woman’s feelings and wishes. Like an object she was to be whisked around until a man was found to take her and her property under his wing. However, this is not how Athenian eyes would have seen it. The Athenian state did not want to have stray, single females around because then someone would need to take over the responsibility of looking after them. Women could not represent themselves in court, most of them did not have sufficient skills to earn a comfortable living independently, and many would be unprepared from their upbringing for the trappings and difficulties of the outside world. This is why the state with firm and clear legislation made certain that no free-born female would be abandoned to fend for herself in a harsh world. The institution of the <term ><term  sortKey='law_glossary@epikleros'>epikleros</term></term>, far from demonstrating disregard for the woman, was established to protect her, and the state trusted that her father’s closest male relative should be the most suitable man to do just that. </p>
+
+<p >The fact that the woman might not love a husband imposed upon her would not be considered as important by most Athenians. Normally, marriages were not based on love but on the prospect of a good partnership for the future (<bibl  n='urn:cts:greekLit:tlg0032.tlg003:7-10' type='cts-urn'>Xen. <title >Oec.</title> 7-10</bibl>). Love and respect between husband and wife were hopefully going to develop as time went by. In some cases, of course, infatuation could be there in the first place and Athenian men sometimes did marry attractive women, simply because they fancied them, but this was not the rule. Now, if we judge from the extremely low divorce rate in <placeName  key='Athens'>Athens</placeName>, compared with the soaring divorce figures of our times, perhaps we may become less critical of this kind of Athenian attitudes towards marriage and family life. </p>
+
+</div>
+
+<div  n='careers' type='section' xml:id='careers'>
+
+<head >Other Careers</head>
+
+
+<p >For less well-off women some of these parameters and moral standards were not applicable, as they often needed to work in harsh conditions in order to support their families. It would be easy for a financially comfortable matron to seek a respectable life away from the crowds, but the poor Athenian woman who had to sell vegetables in the market, just to take one example, spent the whole of her day talking to strange men. Dealing and trading in places where respectable women would not go might be a necessity for a poor woman, and a soft, pale, lady-like skin, fine jewelry and nice clothes would be dreams beyond her reach. If her husband was dead or away on military service and she had no rich relatives to support her, she would need to become the man and the woman of the household, feed her children, take care of their upbringing and face all the pressures that working single parents with a modest income had to face throughout history. Job opportunities for women were limited, and those that existed were to be found mainly in the health sector (nursing and midwifery), small businesses, petty trading, and small-scale manufacturing (<bibl  n='urn:cts:greekLit:tlg0014.tlg057:33-45' type='cts-urn'>Dem. 57.33-45</bibl>). This is why some found it easier to follow the path of prostitution, if their looks allowed it, with its sudden rewards but also its many dangers. Male and female prostitution was permitted by Athenian law, and treated in a similar manner as other disreputable but necessary jobs, such as a sausage-seller or a worker in the public baths. Male prostitutes should refrain from advising the <term  sortKey='assembly'>assembly</term>, accept certain offices or serve as one of the nine archons (because of the extensive religious responsibilities of these offices), but otherwise they could live as they wished (<bibl  n='urn:cts:greekLit:tlg0026.tlg001:19-20' type='cts-urn'>Aeschin. 1.19-20</bibl>). Brothels had to pay taxes, and operated under a fixed ceiling price. Most of the workers in brothels were slaves. Considering that they had a high turnover of low-class clientele, and little or no medical care, their life expectancy would be rather low, and the conditions of their lives often appalling. Free-lance prostitutes had a higher chance of a better life as they could make more money, regulate their working hours, and take control of their lives. High class prostitutes, the famous <term >hetairai</term> of the ancient world, lived a life of wealth and luxury while they were at their prime, and had a much better chance of finding someone willing to take them as concubines and allow them to live their mature years in respectability. Unlike most women in the ancient world these <term >hetairai</term> received an education intended to enhance their seductive prowess, were given long lessons on good social skills, and taught in a manner that would allow them to develop a charming personality (see <bibl  n='urn:cts:greekLit:tlg0008.tlg001:13' type='cts-urn'>Athenaios, book 13</bibl>, and <bibl  n='urn:cts:greekLit:tlg0014.tlg059:18-40' type='cts-urn'>Dem. 59.18-40</bibl>). It is perhaps an irony that those respectable matrons who scrupulously lived a life of virtue behind the walls of their household have been forgotten, while the often despised courtesans of <placeName  key='Athens'>Athens</placeName>, <placeName  key='Corinth'>Corinth</placeName>, <placeName  key='Megara'>Megara</placeName>, and <placeName  key='Ionia'>Ionian Greece</placeName> have secured a personal place in history. Some of these women played an important role at the side of influential men, while some others were the only women in the ancient world who were able and willing to live independently without a man at their side. If they were free-born or already liberated from slavery, they could put aside some of their earnings, amass a large fortune, and then spend it as they fancied, unfettered by the boundaries which respectable women had to observe. <name  type='person'>Lais</name>, <name  type='person'>Neaira</name>, <name  type='person'>Thais</name>, <name  type='person'>Glykera</name>, <name  type='person'>Gnathaina</name>, <name  type='person'>Bacchis</name>, <name  type='person'>Nannion</name>, <name  type='person'>Nikarete</name> of <placeName  key='Megara'>Megara</placeName> and several others have become legends in their own right, and can be viewed as early representatives of feminist assertiveness and independent spirit. </p>
+
+</div>
+
+<div  n='Bibliography' type='section' xml:id='Bibliography'>
+
+<head >Recommended Readings</head>
+
+<p ><bibl  type='secondary'>Dean-Jones, L.A., <title >Women’s Bodies in Classical Greek Science</title>, August 1996.</bibl></p>
+
+<p ><bibl  type='secondary'>Dillon, M., <title >Girls and Women in Classical Greek Religion</title>, London 2001.</bibl></p>
+
+<p ><bibl  type='secondary'>Hunter, V.J., <title >Policing <placeName  key='Athens'>Athens</placeName>: Social Control in Attic Lawsuits</title>, Princeton 1994.</bibl></p>
+
+<p ><bibl  type='secondary'>Just, R., <title >Women in Athenian Law and Life</title>, London 1989.</bibl></p>
+
+<p ><bibl  type='secondary'>Kapparis, K., <title >Abortion in the Ancient World</title>, London 2002.</bibl></p>
+
+<p ><bibl  type='secondary'>Kapparis, K., <soCalled >When were the Athenian adultery laws introduced?,</soCalled> <title >RIDA</title>, 42 (1995) 97-122.</bibl></p>
+
+<p ><bibl  type='secondary'>King, H., <title ><name  type='ancientAuthor'>Hippocrates</name>’ Woman: Reading the Female Body in Ancient Greece</title>, London 1998.</bibl></p>
+
+<p ><bibl  type='secondary'>Lacey, W.K., <title >The Family in Classical Greece</title>, London 1968.</bibl></p>
+
+<p ><bibl  type='secondary'>McClure, L.K., ed., <title >Sexuality and gender in the classical world: readings and sources</title>, Oxford, 2002.</bibl></p>
+
+<p ><bibl  type='secondary'>Ogden, D., <title >Greek Bastardy in the Classical and Hellenistic Periods</title>, Oxford 1996.</bibl></p>
+
+<p ><bibl  type='secondary'>Osborne, M.J., <title >Naturalization in <placeName  key='Athens'>Athens</placeName></title>, (4 volumes), Brussels 1981-3.</bibl></p>
+
+<p ><bibl  type='secondary'>Patterson, C. <soCalled >Not worth the rearing: the causes of infant exposure in ancient Greece</soCalled> <title >TAPhA</title> 115 (1983) 103-23.</bibl></p>
+
+<p ><bibl  type='secondary'>Patterson, C., <title ><name  type='person'>Pericles</name> Citizenship Law of <date  from='-0451' to='-0450'>451-50 BC</date></title>, Salem, NH, 1981.</bibl></p>
+
+<p ><bibl  type='secondary'>Patterson, C., <title >The Family in Greek History</title>, Cambridge, Mass. 1998.</bibl></p>
+
+<p ><bibl  type='secondary'>Pomeroy, S.B., <title ><name  type='ancientAuthor'>Xenophon</name> <title >Oeconomicus</title></title>, Oxford 1994.</bibl></p>
+
+<p ><bibl  type='secondary'>Pomeroy, S.B., <title >Families in Classical and Hellenistic Greece</title>, Oxford 1997.</bibl></p>
+
+<p ><bibl  type='secondary'>Rubinstein, L., <title >Adoption in IV. century <placeName  key='Athens'>Athens</placeName></title>, Copenhagen 1993.</bibl></p>
+
+<p ><bibl  type='secondary'>Schaps, D.M., <title >Economic Rights of Women in Ancient Greece</title>, Edinburgh 1979.</bibl></p>
+
+</div>
+
+</body>
+</text>
+</TEI>

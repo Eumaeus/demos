@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 11</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg011' type='cts-urn'>Dem. 11</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Answer to <name  type='person'>Philip</name>’s Letter</title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). In <date  when='-0340'>340 BCE</date> <name  type='person'>Philip of Macedon</name> sent a letter to <placeName  key='Athens'>Athens</placeName> complaining about Athenian acts of hostility toward him in the immediately preceding years (source for date: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 316</bibl>). This letter arrived while <name  type='person'>Philip</name> was besieging <placeName  key='Perinthus'>Perinthus</placeName>, a coastal town in <placeName  key='Thrace'>Thrace</placeName>. <name  type='person'>Philip</name> had also recently attacked <placeName  key='Byzantium'>Byzantium</placeName> on the <placeName  key='Black Sea'>Black Sea</placeName>, but that city, with help from <placeName  key='Athens'>Athens</placeName>, resisted him. A text of the letter from <name  type='person'>Philip</name> appears in <bibl  n='urn:cts:greekLit:tlg0014.tlg018' type='cts-urn'>Dem. 18</bibl>, but that is widely thought to be a later forgery, rather than the actual text of the letter (source: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 316</bibl>). Another version of the letter from <name  type='person'>Philip</name> has been handed down in the body of <name  type='ancientAuthor'>Demosthenes</name> ’ works—even though it is not, and does not claim to be, by <name  type='ancientAuthor'>Demosthenes</name>, it is knows as <bibl  n='urn:cts:greekLit:tlg0014.tlg012' type='cts-urn'>Dem. 12</bibl>. The present work, <bibl  n='urn:cts:greekLit:tlg0014.tlg011' type='cts-urn'>Dem. 11</bibl>, claims to be represent <name  type='ancientAuthor'>Demosthenes</name> ’ public response to <name  type='person'>Philip</name>’s letter. Because it seems to consist mostly of sentences and phrases that appear in other speeches by <name  type='ancientAuthor'>Demosthenes</name>, many scholars think that this is a forgery (source: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 317</bibl>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

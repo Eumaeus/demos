@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Aristotle, Constitution of the Athenians (Ath. Pol.)</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0086.tlg003' type='cts-urn'>Aristot. <title >Ath. Pol.</title></bibl> </head>
+<p >(<name  type='ancientAuthor'>Aristotle</name>, <title >Constitution of the Athenians</title>; see also <name  n='philosophy' type='ancientGenre'>philosophy</name>). According to <name  type='ancientAuthor'>Hesychius</name>, <name  type='ancientAuthor'>Aristotle</name> wrote <cit ><bibl  n='V. Rose, Teubner ed. of Aristotles fragments, p. 16'/><quote >descriptions of the constitutions of individual cities, democracies, oligarchies, aristocracies, and tyrannies, 158 of them.</quote></cit> (<foreign  xml:lang='grc'>πολιτείας πόλεων ἰδιωτικῶν καὶ δημοκρατικῶν καὶ ὀλιγαρξικῶν καὶ ἀριστροκρατικῶν καὶ τυραννικῶν ρνη</foreign>) (Source, <bibl  n='V. Rose, Teubner ed. of Aristotles fragments, p. 16'>V. Rose, Teubner ed. of Aristotle's fragments, p. 16</bibl>). Of these, only this one, the <title >Constitution of the Athenians</title>, survives today. It comes to us in two major papyrus fragments, the first (P. Berol. 163) was acquired in <date  when='1859'>1859</date>, and the second (P. Lond. 131) in <date  when='1888'>1888</date>. Both papyri date from the <date  from='0100' to='0199'>2nd century CE</date>, although the text they contain was more than four hundred years older. The work itself is a short history of government at <placeName  key='Athens'>Athens</placeName>, followed by a description of how the Athenian democracy operated at the time that the text was originally written. The <title >Constitution of the Athenians</title>, or <bibl  n='urn:cts:greekLit:tlg0086.tlg003' type='cts-urn'><title >Ath. Pol.</title></bibl>, seems to have been written after <date  when='-0334'>334 BCE</date> and before <date  when='-0322'>322 BCE</date>. Scholars do not agree on whether its author was <name  type='ancientAuthor'>Aristotle</name> himself, or a member of <name  type='ancientAuthor'>Aristotle</name>'s school at Athens, but as P.J. Rhodes points out, this question is more important to students of <name  type='ancientAuthor'>Aristotle</name> than it is to students of Athenian history.(Source, <bibl >P.J. Rhodes, <title >A Commentary on the Aristotelian Athenaion Politeia</title> [Oxford, 1981], especially pp. 1-5, 51-53, 58-63</bibl>). For the sake of convenience, we will refer to <name  type='ancientAuthor'>Aristotle</name> as the author of the <title >Constitution of the Athenians</title>.</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

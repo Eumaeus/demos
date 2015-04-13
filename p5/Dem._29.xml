@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 29</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg029' type='cts-urn'>Dem. 29</bibl></head>
+<p > (<name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Aphobus</name> III</title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). <name  type='ancientAuthor'>Demosthenes</name>’ father, who was also named <name  type='person'>Demosthenes</name>, died when his son was seven and left a large estate in the hands of three trustees, <name  type='person'>Aphobus</name>, <name  type='person'>Demophon</name>, and <name  type='person'>Therippides</name>. <name  type='person'>Aphobus</name> was to marry the widow, <name  type='ancientAuthor'>Demosthenes</name>’ mother, and receive 80 minae as a dowry (see <term  sortKey='Money'>Money</term>). <name  type='person'>Demophon</name> was to marry the young daughter, once she came to be old enough (she was only five when her father died); he was to receive a dowry of 2 talents at the time of the marriage. <name  type='person'>Therippides</name> was to manage the estate, earning a salary for his work, until the younger <name  type='ancientAuthor'>Demosthenes</name> came of age. But, it seems, these three men followed none of these instructions, but squandered the money, so that when young <name  type='ancientAuthor'>Demosthenes</name> turned 17 only one tenth of the original estate remained. <name  type='ancientAuthor'>Demosthenes</name> studied for two years under the orator <name  type='ancientAuthor'>Isaeus</name>, and then initiated three lawsuits against the three trustees. The first one, against <name  type='person'>Aphobus</name>, came to trial in <date  when='-0364'>364 BCE</date>. <bibl  n='urn:cts:greekLit:tlg0014.tlg027' type='cts-urn'>Dem. 27</bibl>, the first speech against <name  type='person'>Aphobus</name>, was <name  type='ancientAuthor'>Demosthenes</name>’ initial prosecution of the trustee. <name  type='ancientAuthor'>Demosthenes</name> won this case, and the jury ordered <name  type='person'>Aphobus</name> to pay 10 talents in damages. But <name  type='ancientAuthor'>Demosthenes</name> had difficulty collecting the damages from <name  type='person'>Aphobus</name>. Two subsequent speeches, <bibl  n='urn:cts:greekLit:tlg0014.tlg028' type='cts-urn'>Dem. 28</bibl> and <bibl  n='urn:cts:greekLit:tlg0014.tlg029' type='cts-urn'>Dem. 29</bibl>, were given by <name  type='ancientAuthor'>Demosthenes</name> in his efforts to recover his money (see also <bibl  n='urn:cts:greekLit:tlg0014.tlg030' type='cts-urn'>Dem. 30</bibl> and <bibl  n='urn:cts:greekLit:tlg0014.tlg031' type='cts-urn'>Dem. 31</bibl>, both against <name  type='person'>Onetor</name>, a brother-in-law of <name  type='person'>Aphobus</name>). (Source for dates: <bibl >A.T. Murray, <title >Demosthenes IV</title> [Cambridge, Loeb: 1936] 2-5.</bibl>) </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

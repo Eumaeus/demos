@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Philochorus</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><name  type='ancientAuthor'>Philochorus</name></head>
+<p > <date  from='-0340' to='-0260'>c.340-260 BCE</date> (Source: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>). One of the so-called <soCalled >Atthidographers</soCalled>, the ancient scholars who wrote histories of <placeName  key='Attica'>Attica</placeName> and <placeName  key='Athens'>Athens</placeName> (see <name  n='history' type='ancientGenre'>History</name>). He wrote at least twenty-seven works, including histories of <placeName  key='Delos'>Delos</placeName> and <placeName  key='Salamis'>Salamis</placeName>, works on sacrifice and cults, and studies of Greek poetry. His most famous work was his history of <placeName  key='Athens'>Athens</placeName>, his <bibl  n='Philoch. Atthis'>Atthis</bibl>. This work does not survive, but we do have over 170 <soCalled >fragments</soCalled> of it, quotations from the work in other, surviving, ancient authors. He seems to have exercised critical judgement when choosing his sources; he approved of his predecessor <name  type='ancientAuthor'>Androtion</name>, but was critical of the historian <name  type='ancientAuthor'>Demon</name> and even devoted a book to pointing out <name  type='ancientAuthor'>Demon</name>’s faults. Based on the fragments that survive, we can tell that <name  type='ancientAuthor'>Philochorus</name> was familiar with <name  type='ancientAuthor'>Herodotus</name> and <name  type='ancientAuthor'>Thucydides</name>. He was put to death by <name  type='person'>Antigonus Gonatas</name> around <date  when='-0260'>260 BCE</date>, for supporting <name  type='person'>Ptolemy II Philadelphus</name>. </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

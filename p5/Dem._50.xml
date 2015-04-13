@@ -1,0 +1,66 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 50</title>
+ <author >Hershal Pleasant</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+<div  n='Description' type='Description'>
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg050' type='cts-urn'>Dem. 50</bibl></head>
+
+<p >(<name  type='ancientAuthor'>Demosthenes</name>’ <title >Against <name  type='person'>Polycles</name></title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>) Although this speech comes down to us under the name of <name  type='ancientAuthor'>Demosthenes</name>, it was almost certainly written by <name  type='ancientAuthor'>Apollodorus</name>, who was suing <name  type='person'>Polycles</name>. <name  type='person'>Apollodorus</name> is trying to recover some expenses that he, <name  type='person'>Apollodorus</name>, had incurred after his term of duty as <soCalled >trierarch</soCalled> (<foreign  xml:lang='grc'>τριήραρχος</foreign>), that is, after his service as a private citizen responsible for outfitting a warship for service in the Athenian navy. <name  type='person'>Polycles</name> was the man who was supposed to take over the trierarchy after <name  type='person'>Apollodorus</name>.</p>
+
+<p >The <term  sortKey='Assembly'>Assembly</term> had sent and some other trierarchs to the aid of <placeName  key='Tenos'>Tenos</placeName>, which had been invaded by <name  type='person'>Alexander of Pherae</name>, and to several other Greek cities that were suffering from a scarcity of grain. Because of the urgency of the mission, <name  type='person'>Apollodorus</name> personally provided all the equipment for the ship and lavish salary for the crew. He also paid the troops that were with him because the general on board did not have sufficient funds.</p>
+
+<p >After reaching his destination, <name  type='person'>Apollodorus</name> sent his rowers to search for other employment while he waited for <name  type='person'>Polycles</name> to take over the ship, since his own the term of service as trierarch had expired. <name  type='person'>Polycles</name> never arrived, and in the meantime, the Athenian <term  sortKey='Assembly'>Assembly</term> ordered <name  type='person'>Apollodorus</name> to convey the general <name  type='person'>Menon</name> to the <placeName  key='Hellespont'>Hellespont</placeName>. <name  type='person'>Apollodorus</name> had to hire another crew of sailors, which required him to mortgage his farm.</p>
+
+<p ><name  type='person'>Polycles</name> was not at the <placeName  key='Hellespont'>Hellespont</placeName> to relieve <name  type='person'>Apollodorus</name>. Nevertheless, the Athenian general <name  type='person'>Timomachus</name> ordered <name  type='person'>Apollodorus</name> to to deliver desperately needed to <placeName  key='Hieron'>Hieron</placeName>. <name  type='person'>Timomachus</name> could not pay <name  type='person'>Apollodorus</name>, and there were no other trierarchs to offset the expenses, so Apollodorus had to take out another loan to provide the money. In the meantime, <name  type='person'>Apollodorus</name>’ father-in-law spotted <name  type='person'>Polycles</name> in the market at <placeName  key='Athens'>Athens</placeName> and urged him to finish his appointed duty and to reimburse <name  type='person'>Apollodorus</name> for all of his expenses. <name  type='person'>Polycles</name> refused either to assume the trierarchy or to give any financial assistance to <name  type='person'>Apollodorus</name>.</p>
+
+<p >The speech was more likely given around <date  when='-0359'>359 BCE</date> (source for date: <bibl >A.T. Murray, <title >Demosthenes L</title> [Cambridge, Mass.; Loeb Classical Library; 1943] 3</bibl>).
+</p>
+<byline >Hershal Pleasant</byline>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

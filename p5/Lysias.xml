@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Lysias</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Lysias</name></head>
+<p >Born about <date  when='-0458'>458 BCE</date>, died in <date  when='-0380'>380 BCE</date> (source for dates: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>). He was the son of <name  type='person'>Cephalus</name>, a shield-maker from <placeName  key='Syracuse'>Syracuse</placeName> in <placeName  key='Sicily'>Sicily</placeName>, who was invited by <name  type='person'>Pericles</name> to take up residence in <placeName  key='Athens'>Athens</placeName> around <date  when='-0470'>470 BCE</date> (source for date: <bibl >W.R.M. Lamb, <title >Lysias</title> [Cambridge, Mass.; Loeb Classical Library; 1943] ix</bibl>). Shortly after his father’s death, <name  type='ancientAuthor'>Lysias</name> moved with his older brother <name  type='person'>Polemarchus</name> to <placeName  key='Thurii'>Thurii</placeName>, an Athenian colony in southern <placeName  key='Italy'>Italy</placeName>. After the failure of the Athenian expedition against <placeName  key='Sicily'>Sicily</placeName> (<date  when='-0413'>413 BCE</date>), <name  type='ancientAuthor'>Lysias</name> and <name  type='person'>Polemarchus</name> were expelled from the colony at which time they returned to <placeName  key='Athens'>Athens</placeName> to take up residence. In <date  when='-0403'>403 BCE</date> (source for dates: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>), both <name  type='ancientAuthor'>Lysias</name> and <name  type='person'>Polemarchus</name> were arrested by the <term  sortKey='Thirty_Tyrants'>Thirty Tyrants</term>. <name  type='ancientAuthor'>Lysias</name> escaped to <placeName  key='Megara'>Megara</placeName>; <name  type='person'>Polemarchus</name>, however, was executed. Later, after the overthrow of the <term  sortKey='Thirty_Tyrants'>Thirty Tyrants</term>, <name  type='ancientAuthor'>Lysias</name> returned to <placeName  key='Athens'>Athens</placeName> and was granted <term  sortKey='citizenship'>citizenship</term> on a motion moved by <name  type='person'>Thrasybulus</name>. Due to a technical irregularity in the grant, <name  type='ancientAuthor'>Lysias</name>’ <term  sortKey='citizenship'>citizenship</term> was soon overturned. He spent the remainder of his life writing speeches on behalf of litigants. A total of thirty-five works have survived which are attributed to <name  type='ancientAuthor'>Lysias</name>. (See also the genre of <name  n='oratory' type='ancientGenre'>Oratory</name>.)</p> 
+<byline >Christopher Cotten</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

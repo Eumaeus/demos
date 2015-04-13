@@ -1,0 +1,114 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Demosthenes</title>
+ <author >David D. Phillips</author>
+ <sponsor >
+ <persName >Adriaan Lanni, ed.</persName>
+ <name >Athenian Law in its Democratic Context</name>
+ <orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+ </sponsor>
+ </titleStmt>
+ <publicationStmt >
+ <publisher > The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text >
+ <body >
+ <div  n='Description' type='Description'>
+ <head >
+ <name  type='ancientAuthor'>Demosthenes</name>
+ </head>
+ <p >This article was originally written for the online discussion series <soCalled >Athenian
+ Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by
+ Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic
+ Studies</ref>.</p>
+ <p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0388'>
+ <figure  n='1997.99.0388.jpeg' rend='left'/>
+ </ref><name  type='ancientAuthor'>Demosthenes</name> son of <name  type='person'>Demosthenes</name> of the deme <name  type='deme'>Paeania</name> (<date  from='-0384' to='-0322'>384-322</date>) is generally regarded as the greatest of the Attic orators.
+ At the age of seven he lost his father and was entrusted, along with his inheritance, to
+ guardians. When he turned eighteen, however, he discovered that most of the money was
+ gone; and so, after studying under <name  type='ancientAuthor'>Isaeus</name>, <name  type='ancientAuthor'>Demosthenes</name> took his guardians to court in <date  when='-0364'>364</date>. He delivered his first speeches (<bibl  n='urn:cts:greekLit:tlg0014.tlg027' type='cts-urn'>27</bibl>-<bibl  n='urn:cts:greekLit:tlg0014.tlg031' type='cts-urn'>31</bibl>) in these cases, and their success launched his career as a speechwriter.</p>
+ <p ><name  type='ancientAuthor'>Demosthenes</name>’ long and illustrious political
+ career began in <date  when='-0355'>355</date>, when he composed speeches for the trials of
+ <name  type='person'>Androtion</name> (<bibl  n='urn:cts:greekLit:tlg0014.tlg022' type='cts-urn'>22</bibl>) and <name  type='person'>Leptines</name> (<bibl  n='urn:cts:greekLit:tlg0014.tlg020' type='cts-urn'>20</bibl>). In the latter half of the <date  from='-0355' to='-0350'>350s</date> he continued to write forensic speeches for
+ high-profile cases (<bibl  n='urn:cts:greekLit:tlg0014.tlg024' type='cts-urn'>24 <soCalled >Against
+ Timocrates</soCalled></bibl>, <date  when='-0353'>353</date>; <bibl  n='urn:cts:greekLit:tlg0014.tlg023' type='cts-urn'>23 <soCalled >Against Aristocrates</soCalled></bibl>,
+ <date  when='-0352'>352</date>), and also delivered his first speeches before the
+ Athenian <term  sortKey='Assembly'>Assembly</term>, including <bibl  n='urn:cts:greekLit:tlg0014.tlg014' type='cts-urn'><soCalled >On the Symmories</soCalled> (14)</bibl> in
+ <date  when='-0354'>354</date>, <bibl  n='urn:cts:greekLit:tlg0014.tlg013' type='cts-urn'><soCalled >For
+ the Megalopolitans</soCalled> (13)</bibl> in <date  when='-0353'>353</date>, and <bibl  n='urn:cts:greekLit:tlg0014.tlg015' type='cts-urn'><soCalled >On the Liberty of the Rhodians</soCalled>
+ (15)</bibl> in <date  when='-0351'>351</date>.</p>
+ <p ><name  type='ancientAuthor'>Demosthenes</name> rose to prominence as the foremost Athenian
+ opponent of <name  type='person'>Philip II</name>. In <date  when='-0351'>351</date> he
+ delivered his <bibl  n='urn:cts:greekLit:tlg0014.tlg004' type='cts-urn'><soCalled >First
+ Philippic</soCalled> (4)</bibl>, in which he called for a more aggressive stance
+ toward the rising threat of <placeName  key='Macedon'>Macedon</placeName>. In the three
+ <soCalled >Olynthiacs</soCalled> (<bibl  n='urn:cts:greekLit:tlg0014.tlg001' type='cts-urn'>1</bibl>-<bibl  n='urn:cts:greekLit:tlg0014.tlg003' type='cts-urn'>3</bibl>) of <date  when='-0348'>348</date> he urged his countrymen to send aid to <placeName  key='Olynthus'>Olynthus</placeName>, which was under Macedonian attack; but the auxiliary expeditions
+ sent by <placeName  key='Athens'>Athens</placeName> could not prevent <name  type='person'>Philip</name>’s capture of the city. In <date  when='-0346'>346</date>
+ <name  type='ancientAuthor'>Demosthenes</name> took part in the embassies to <name  type='person'>Philip</name> regarding the <soCalled >Peace of <name  type='person'>Philocrates</name>;</soCalled> on his return from the second embassy he accused
+ several fellow ambassadors, including <name  type='ancientAuthor'>Aeschines</name>, of
+ taking bribes from <name  type='person'>Philip</name>, and he attacked <name  type='person'>Philip</name> for negotiating in bad faith. Despite his dissatisfaction, later in the
+ year he delivered the speech <bibl  n='urn:cts:greekLit:tlg0014.tlg005' type='cts-urn'><soCalled >On the
+ Peace</soCalled> (5)</bibl>, counseling the Athenians to abide by its terms.</p>
+ <p >For the remainder of the decade <name  type='ancientAuthor'>Demosthenes</name> continued
+ to agitate against <name  type='person'>Philip</name> at home and abroad, delivering the
+ <bibl  n='urn:cts:greekLit:tlg0014.tlg006' type='cts-urn'><soCalled >Second Philippic</soCalled>
+ (6)</bibl> in <date  when='-0344'>344</date> and <bibl  n='urn:cts:greekLit:tlg0014.tlg008' type='cts-urn'><soCalled >On the Chersonese</soCalled> (8)</bibl>
+ and the <bibl  n='urn:cts:greekLit:tlg0014.tlg009' type='cts-urn'><soCalled >Third Philippic</soCalled>
+ (9)</bibl> in <date  when='-0341'>341</date>. In <date  when='-0343'>343</date>
+ <name  type='ancientAuthor'>Demosthenes</name> brought <name  type='ancientAuthor'>Aeschines</name> to trial and gave the oration <bibl  n='urn:cts:greekLit:tlg0014.tlg019' type='cts-urn'><soCalled >On the False Embassy</soCalled>
+ (19)</bibl>; <name  type='ancientAuthor'>Aeschines</name> escaped a death sentence by a
+ mere thirty votes. <name  type='ancientAuthor'>Demosthenes</name>’ policy of
+ resistance to <name  type='person'>Philip</name> triumphed, but the resistance itself
+ failed at the battle of <placeName  key='Chaeroneia'>Chaeroneia</placeName> in <date  when='-0338'>338</date>. Nonetheless, <name  type='ancientAuthor'>Demosthenes</name>
+ remained influential at <placeName  key='Athens'>Athens</placeName>. In <date  when='-0336'>336</date>
+ <name  type='person'>Ctesiphon</name> proposed that <name  type='ancientAuthor'>Demosthenes</name> be awarded a gold crown for his public services; <name  type='ancientAuthor'>Aeschines</name> brought an indictment against <name  type='person'>Ctesiphon</name> for making an <term  sortKey='law_glossary@paranomon'>illegal
+ proposal</term>, but the case did not go to trial until <date  when='-0330'>330</date>.
+ At <name  type='person'>Ctesiphon</name>’s trial <name  type='ancientAuthor'>Demosthenes</name> delivered his most famous oration, <bibl  n='urn:cts:greekLit:tlg0014.tlg018' type='cts-urn'><soCalled >On the Crown</soCalled> (18)</bibl>, and
+ <name  type='ancientAuthor'>Aeschines</name> was soundly defeated.</p>
+ <p ><name  type='person'>Philip</name>’s assassination in <date  when='-0336'>336</date> led to an abortive attempt at revolt in which <name  type='ancientAuthor'>Demosthenes</name> played a prominent role. For a while afterwards the Athenians
+ acclimated themselves to Macedonian hegemony. In <date  from='-0343' to='-0343'>324-323</date>, however, <name  type='ancientAuthor'>Demosthenes</name> was implicated
+ in a scandal involving <name  type='person'>Harpalus</name>, the fugitive treasurer of
+ <name  type='person'>Alexander the Great</name>. Accused of appropriating twenty talents
+ of the funds <name  type='person'>Harpalus</name> had brought to <placeName  key='Athens'>Athens</placeName>, <name  type='ancientAuthor'>Demosthenes</name> was convicted, fined,
+ and imprisoned for failure to pay, but escaped and went into exile. Upon <name  type='person'>Alexander</name>’s death in <date  when='-0323'>323</date> he
+ returned to <placeName  key='Athens'>Athens</placeName> and again advised resistance to
+ <placeName  key='Macedon'>Macedon</placeName>. After <name  type='person'>Antipater</name>’s defeat of the Greek rebels in the <soCalled ><placeName  key='Lamia'>Lamian</placeName> War,</soCalled>
+ <name  type='ancientAuthor'>Demosthenes</name>, facing a death sentence, committed suicide
+ by poison. (See also <name  type='ancientGenre'>Oratory</name>.)</p>
+ <byline >David D. Phillips</byline>
+ </div>
+ </body>
+ </text>
+</TEI>

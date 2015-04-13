@@ -1,0 +1,58 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 43</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg043' type='cts-urn'>Dem. 43</bibl></head>
+<p ><name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Macartatus</name></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. This speech is generally not held to be the work of <name  type='ancientAuthor'>Demosthenes</name>, whose speeches are characterised by a less pompous tone. The lawsuit in question is the third in a string of attempts to settle the estate of <name  type='person'>Hagnias</name> of <placeName  key='Oeon'>Oeon</placeName>, an Athenian ambassador who was captured and murdered by <placeName  key='Sparta'>Sparta</placeName>. According to the <title >Hellenica Oxyrhynchia</title>, <name  type='person'>Hagnias</name> and his travelling companion, <name  type='person'>Telesegorus</name>, were sent to <placeName  key='Persia'>Persia</placeName> as ambassadors from <placeName  key='Athens'>Athens</placeName> (<bibl  n='Hell. Oxy. 2.1'><title >Hell. Oxy.</title> 2.1</bibl>). While on their way, they were captured by the Spartan commander <name  type='person'>Pharax</name>, who sent them off to <placeName  key='Sparta'>Sparta</placeName> to be killed. References to other events in the passage from the <title >Hellenica Oxyrhynchia</title> allow the date of <name  type='person'>Hagnias</name>’ death to be placed at <date  when='-0396'>396 BCE</date> (source for date: <bibl >E.S. Forster, <title >Isaeus</title> [Cambridge, Mass.; Loeb Classical Library; 1943] 382</bibl>) during the Corinthian War. (For an ancient account of the Corinthian War, see <bibl  n='urn:cts:greekLit:tlg0032.tlg001:3' type='cts-urn'>Xen. <title >Hell.</title> 3-5</bibl>.) The Corinthian War, erupting less than a decade after the end of the Peloponnesian War, pitted <placeName  key='Sparta'>Sparta</placeName>, on one side, against <placeName  key='Athens'>Athens</placeName>, <placeName  key='Argos'>Argos</placeName>, <placeName  key='Corinth'>Corinth</placeName>, and <placeName  key='Thebes'>Thebes</placeName>, on the other.</p>
+<p >After the death of <name  type='person'>Hagnias</name>, who had no children, two claimants came forth to contend for his estate: <name  type='person'>Glaucus</name> and <name  type='person'>Glaucon</name>, half-brothers of <name  type='person'>Hagnias</name>, and <name  type='person'>Eubulides</name>, <name  type='person'>Hagnias</name>’ first cousin. During the course of the trial, <name  type='person'>Eubulides</name> died and his daughter, <name  type='person'>Phylomache</name>, assumed the suit on his behalf and was awarded the estate. A second lawsuit was then raised contesting the decision of the first one. This new suit involved four parties: <name  type='person'>Phylomache</name>, <name  type='person'>Theopompus</name>, <name  type='person'>Glaucus</name> and <name  type='person'>Glaucon</name>, and <name  type='person'>Eupolemus</name>. The judgement in this case was for <name  type='person'>Theopompus</name>, who apparently proved to the satisfaction of the court that <name  type='person'>Phylomache</name>’s lineage was false and that her grandmother, also named <name  type='person'>Phylomache</name>, never existed and could not, consequently, have been the sister of <name  type='person'>Polemon</name> (<name  type='person'>Hagnias</name>’ father). It was apparently of no concern to the court that <name  type='person'>Theopompus</name> was so distantly related to <name  type='person'>Hagnias</name> that he could only claim kinship through a brother of his grandfather. Nevertheless, the estate of <name  type='person'>Hagnias</name> was awarded to <name  type='person'>Theopompus</name> and, upon <name  type='person'>Theopompus</name>’ death, was passed on to his son <name  type='person'>Macartatus</name>. At this point a third lawsuit was brought before the court with which the present speech has to do. In this instance, <name  type='person'>Sositheus</name> (the husband of <name  type='person'>Phylomache</name>) sues <name  type='person'>Macartatus</name> in the name of his (<name  type='person'>Sositheus</name>’) son, <name  type='person'>Eubulides</name>. In order to do this, <name  type='person'>Sositheus</name> has caused his son to be named the legal heir of the older <name  type='person'>Eubulides</name>, the son’s maternal grandfather, thus taking the place of <name  type='person'>Phylomache</name>. In his speech, <name  type='person'>Sositheus</name> blames the result of the second trial on a conspiracy between the four individuals who contended with his wife (<name  type='person'>Phylomache</name>) for the estate. Because of this conspiracy, <name  type='person'>Sositheus</name> claims that a new trial is necessary. He also goes to great lengths to prove that <name  type='person'>Theopompus</name>’ relation to <name  type='person'>Hagnias</name> was very remote indeed and that <name  type='person'>Theopompus</name> cared nothing for <name  type='person'>Hagnias</name> but instead wanted the estate for the money that its olive trees would yield (<bibl  n='urn:cts:greekLit:tlg0014.tlg043:69' type='cts-urn'>Dem. 43.69</bibl>). As we have seen, the <title >Hellenica Oxyrhynchia</title> has given scholars an independent source wherewith to date the death of <name  type='person'>Hagnias</name> (<bibl  n='Hell. Oxy. 2.1'><title >Hell. Oxy.</title> 2.1</bibl>). Mention of the archonship of <name  type='person'>Nicophemus</name> (<date  from='-0361' to='-0360'>361-360 BCE</date>) in this speech has traditionally allowed it to be given a date of later than <date  when='-0360'>360 BCE</date> (<bibl  n='urn:cts:greekLit:tlg0014.tlg043:31' type='cts-urn'>Dem. 43.31</bibl>) (source for date: <bibl >A.T. Murray, <title >Demosthenes II</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 3</bibl>). It is important to bear in mind, however, that when a speech mentions a <soCalled >deposition</soCalled>, it is very likely that the quotation was not part of the original speech, but was added later; this means that such quotations are not always trustworthy. For further information on this case, see also <bibl  n='urn:cts:greekLit:tlg0017.tlg011' type='cts-urn'>Isaeus 11</bibl>.</p>
+<byline >Christopher Cotten</byline>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

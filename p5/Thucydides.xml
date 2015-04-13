@@ -1,0 +1,70 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Thucydides</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+<div  n='Description' type='Description'>
+
+
+<head ><name  type='ancientAuthor'>Thucydides</name></head>
+
+<p ><name  type='ancientAuthor'>Thucydides</name> was an Athenian most famous for his history of the war between <placeName  key='Athens'>Athens</placeName> and <placeName  key='Sparta'>Sparta</placeName>, the <soCalled >Peloponnesian War</soCalled>. His father was <name  type='person'>Olorus</name> (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:4.10.4' type='cts-urn'>Thuc. 4.10.4</bibl>), and his family was wealthy, owning property and mines in <placeName  key='Thrace'>Thrace</placeName> (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:4.105.1' type='cts-urn'>Thuc. 4.105.1</bibl>). <name  type='ancientAuthor'>Thucydides</name> was an eyewitness to many of the events that he describes, since he <quote >old enough to understand what was happening</quote> in <date  when='-0431'>431 BCE</date>, when the war broke out (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:5.26.5' type='cts-urn'>Thuc. 5.26.5</bibl>), and he held the office of <soCalled >General</soCalled> (<foreign  xml:lang='grc'>στρατηγός</foreign>) in the year <date  when='-0424'>424 BCE</date> (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:4.104' type='cts-urn'>Thuc. 4.104</bibl>; source for dates <bibl  n='OCD3' type='secondary'><title >OCD</title><edition >3</edition></bibl>). He was personally affected by the war, having caught the plague that struck <placeName  key='Athens'>Athens</placeName> in <date  when='-0430'>430</date> (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:2.48' type='cts-urn'>Thuc. 2.48</bibl>), and having been active in the campaign against the Spartan <name  type='person'>Brasidas</name> around <placeName  key='Amphipolis'>Amphipolis</placeName> (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:4.108.5' type='cts-urn'>Thuc. 4.108.5</bibl>) and having organized the defense of Eion (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:4.107.1' type='cts-urn'>Thuc. 4.107.1</bibl>). Because <name  type='person'>Brasidas</name> ultimately defeated the Athenian defenders in the north, <name  type='ancientAuthor'>Thucydides</name> was exiled from <placeName  key='Athens'>Athens</placeName> for twenty years, staring in <date  when='-0424'>424 BCE</date>. He notes this fact briefly in his history, adding that his banishment allowed him easier access to information from both sides of the conflict (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:5.26' type='cts-urn'>Thuc. 5.26</bibl>). From events he mentions in his history, it is clear that he lived beyond <placeName  key='Athens'>Athens</placeName>’ surrender to <placeName  key='Sparta'>Sparta</placeName> in <date  when='-0404'>404 BCE</date>, although his history is incomplete and comes to an abrupt end while he is describing events in the winter of <date  when='-0411'>411</date> (for examples of <name  type='ancientAuthor'>Thucydides</name> mentioning events of <date  when='-0404'>404</date> or later, see <bibl  n='urn:cts:greekLit:tlg0003.tlg001:6.15.3' type='cts-urn'>Thuc. 6.15.3</bibl>; <bibl  n='urn:cts:greekLit:tlg0003.tlg001:7.57.2' type='cts-urn'>Thuc. 7.57.2</bibl>). It seems clear, too, that he did not live much beyond <date  when='-0400'>400 BCE</date>, if at all, since he does not seem aware of any events in the <date  from='-0399' to='-0300'>4th century</date>.</p>
+
+<p ><name  type='ancientAuthor'>Thucydides</name>’ history is notable for its insights into politics, its organization and focus, its lack of any supernatural element, and the utter confidence of its author. For these reasons, he is often held up as the most <soCalled >reliable</soCalled> or <soCalled >objective</soCalled> of the ancient historians. Without detracting from the importance and brillians of his work, however, it is important to distinguish competence from objectivity, and to distinguish clear-thinking from truthfullness. For example, <name  type='ancientAuthor'>Thucydides</name> admired the Athenian <name  type='person'>Pericles</name> very much—he makes this clear throughout the work, but nowhere more explicitly than at <bibl  n='urn:cts:greekLit:tlg0003.tlg001:2.65' type='cts-urn'>Thuc. 2.65</bibl>—and this bias almost certainly determined how he interpreted the historical events he witnessed, what he chose to emphasize or deemphasize, and the kinds of connections of cause and effect he draws between events. Likewise, <name  type='ancientAuthor'>Thucydides</name> inserts many speeches into his historical narrative, and introduced this practice with an explanation that is famous for being difficult to interpret. What follows is <name  type='person'>Rex Warner</name>’s translation, which is clearer in English than <name  type='ancientAuthor'>Thucyides</name>’ Greek is:</p> 
+
+<p ><quote >In this history I have made use of set speeches some of which were delivered just before and others during the war. I have found it difficult to remember the precise words used in the speeches which I listened to myself and my various informants have experienced the same difficulty; so my method has been, while keeping as closely as possible to the general sense of the words that were actually used, to make the speakers say what, in my opinion, was called for by each situation.</quote> (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:1.22' type='cts-urn'>Thuc. 1.22</bibl>)</p>
+
+<p >Most students of <name  type='ancientAuthor'>Thucydides</name> interpret this to mean that the historian did in fact try to ascertain the details of important speeches during the war. But, as he actually wrote his history, trying to make sense of the events that transpired, he used the speeches as occasions to expound on the psychology of the warring parties, to present theoretical discussions of political issues, and to distill fundamental causes and motivations. These speeches, then, are not documents written with an eye to historical accuracy, but dramatic elemenets, aimed illuminating underlying issues that would not otherwise come out of a strictly factual account.</p>
+
+<p >His view of events is also limited by what he thinks important. Unlike his <date  from='-0499' to='-0400'>5th century</date> predecessor <name  type='ancientAuthor'>Herodotus</name>, <name  type='ancientAuthor'>Thucydides</name> includes virtually no women as actors in his history, and is much less concerned with the ways in which customs and mythology can influence political events.</p>
+
+<p >So, while it would be hard to imagine a more brilliant and careful eyewitness to the events of the great war that consumed the last third of the <date  from='-0499' to='-0400'>5th century BCE</date>, <name  type='ancientAuthor'>Thucydides</name>’ history should be read as a work that blends the reporting of historical facts with a liberal measure of selection, synthesis, and interpretation.</p>
+
+
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

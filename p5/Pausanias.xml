@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Pausanias</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+	 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Pausanias</name></head>
+<p >Active c. <date  when='0150'>150 CE</date> (source: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>). <name  type='ancientAuthor'>Pausanias</name> was an author of the most extensive surviving work of <name  n='travel literature' type='ancientGenre'>travel literature</name>, the <bibl  n='urn:cts:greekLit:tlg0525.tlg001' type='cts-urn'>Description of Greece</bibl> (<foreign  xml:lang='grc'>Περιήγησις τῆς Ἑλλάδος</foreign>). This work describes the cities and temples of a portion of much of <placeName  key='Greece'>Greece</placeName>: <placeName  key='Attica'>Attica</placeName>, <placeName  key='Megara'>Megara</placeName>, <placeName  key='Argos'>Argos</placeName>, <placeName  key='Laconia'>Laconia</placeName>, <placeName  key='Messenia'>Messenia</placeName>, <placeName  key='Elis'>Elis</placeName>, <placeName  key='Olympia'>Olympia</placeName>, <placeName  key='Achaea'>Achaea</placeName>, <placeName  key='Arcadia'>Arcadia</placeName>, <placeName  key='Boeotia'>Boeotia</placeName>, <placeName  key='Phocis'>Phocis</placeName>, and <placeName  key='Delphi'>Delphi</placeName>. <name  type='ancientAuthor'>Pausanias</name> was especially interested in the monuments, particularly those dating from the <date  from='-0499' to='-0400'>5th</date>, <date  from='-0399' to='-0300'>4th</date>, and <date  from='-0299' to='-0200'>3rd centuries BCE</date>. His descriptions give us evidence for many buildings and works of art that did not survive to the present day. Modern archaeological excavations have found ancient ruins that match his descriptions well, so, despite some points of confusion or inconsistency in his account, <name  type='ancientAuthor'>Pausanias</name> is seen as a relatively reliable source for the sights of classical <placeName  key='Greece'>Greece</placeName>. <name  type='ancientAuthor'>Pausanias</name> tells stories to accompany his descriptions of buildings and monuments, which are themselves valuable, if somewhat arbitrary, pieces of evidence. </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

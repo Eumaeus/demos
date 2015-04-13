@@ -1,0 +1,156 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >The Evidence for Athenian Democracy</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  type='Summary'><head >Summary</head>
+<p >
+The study of ancient history depends on evidence from archaeology, art, and ancient literature. While there survives a vast body of this evidence that can teach us about classical Athenian democracy, the evidence does not come close to offering a complete understanding of how the democracy came into being, how it developed over time, or how it worked. What evidence we have is usually incomplete, rarely perfectly transparent, and often potentially misleading.</p>
+
+<p >In order to understand and interpret the evidence for Athenian democracy, therefore, it is necessary to understand the different kinds of evidence, what each kind is capable of telling us, and what limitations are inherent in each. This article is a brief introduction to what sources <title >Dēmos: Classical Athenian Democracy</title> 
+uses as evidence and how <title >Dēmos</title> attempts to help readers access and use those sources for themselves.</p>
+</div>
+
+
+<div  n='Introduction' type='Section' xml:id='Introduction'>
+<head >Introduction</head>
+
+<p ><title >Dēmos: Classical Athenian Democracy</title> is a project of <ref  target='http://www.stoa.org'><title >The Stoa</title></ref>, which is a consortium dedicated to promoting electronic publication in the humanities that is at once accessible to a wide audience and that meets the highest standards of quality. The goal of <title >Dēmos</title> is to describe Athenian Democracy of the <date  from='-0499' to='-0400'>5th</date> and <date  from='-0399' to='-0300'>4th</date> centuries BCE, how it worked, its institutions, and its important historical figures. <title >Dēmos</title> intends to allow all of its readers, whatever their background, to have access to the real evidence on which our knowledge of Athenian Democracy is based. In this way we hope to make the study of this important early democracy as democratic as possible.
+</p>
+</div>
+
+<div  n='Sources' type='Section' xml:id='Sources'>
+<head >Sources and the History of Athenian Democracy</head>
+
+<p >The study of ancient history is the study of ancient sources, which are the evidence on which accounts and descriptions are based. All textbooks, scholarly publications, and documentaries in any medium are based on the same body of ancient evidence. Only ancient sources count as evidence; all modern works are interpretation, efforts at explanation, or descriptions of that evidence.
+</p>
+ 
+
+<p >Ancient sources can be difficult to find and difficult to interpret. For this reason, many books on Athenian Democracy that are aimed at a general audience do not refer to the ancient sources, or do so only occasionally. Thus, readers are at the mercy of the professional historians; they must assume that the historians have consulted the sources carefully, and they have little choice but to accept the historians’ interpretations of the evidence.
+</p>
+
+
+<p >Books aimed at an audience of specialists, on the other hand, are more likely to refer to specific sources as they interpret events. The historian might make a statement—<quote >In <date  when='-0324'>324 BCE</date>, <name  type='person'>Philocles</name> was the general in charge of the <placeName  key='Piraeus'>harbor</placeName> at <placeName  key='Athens'>Athens</placeName></quote>—and then cite the ancient source on which this statement is based: <bibl  n='urn:cts:greekLit:tlg0029.tlg003:1' type='cts-urn'>Din. 3.1</bibl>. This allows some readers to be less dependent on the author, but only those readers who are trained in ancient history. The reader must know what <bibl  n='urn:cts:greekLit:tlg0029.tlg003:1' type='cts-urn'>Din. 3.1</bibl> refers to, where to find it, how to read it (especially if the source is an ancient Greek text), and how to interpret it.
+</p>
+ 
+
+<p ><title >Dēmos: Classical Athenian Democracy</title> can help bridge the gap between history written for general audiences and history written for professional specialists. <title >Dēmos</title> will offer all readers an account of Athenian Democracy organized by professional historians, but will also allow readers to access, understand, and interpret the sources for themselves.
+</p>
+
+
+<p >Like a textbook, <title >Dēmos</title> organizes information about its subject and explains it for an educated general audience. Like a scholarly publication, <title >Dēmos</title> cites the ancient sources behind every assertion, so the audience does not have to believe the authors.
+</p>
+
+
+<p >Because <title >Dēmos</title> is an electronic publication, and because many of the ancient sources are available electronically, the citations to ancient sources will lead directly to the sources themselves. To take the example given above, readers do not need to trust a modern historian who says that <quote ><name  type='person'>Philocles</name> was general in charge of the harbor</quote>, because the reference to ancient evidence, <bibl >Din. 3.1</bibl>, is not only a citation of a source, but a link to that text, which is online as part of <ref  target='www.perseus.tufts.edu'><title >Perseus: an Evolving Digital Library</title></ref>. Readers who click on <bibl  n='urn:cts:greekLit:tlg0029.tlg003:1' type='cts-urn'>Din. 3.1</bibl> in their browsers will have instant access to the source, in English translation or in Greek.
+</p>
+
+
+<p >But what is <bibl  n='urn:cts:greekLit:tlg0029.tlg003:1' type='cts-urn'>Din. 3.1</bibl>? It is not enough to look at a piece of evidence without a good idea of the nature and value of that evidence. Professional ancient historians are trained to know what citations like <bibl  n='urn:cts:greekLit:tlg0029.tlg003:1' type='cts-urn'>Din. 3.1</bibl>, or <bibl  n='urn:cts:greekLit:tlg0086.tlg003:4.2' type='cts-urn'>Aristot. <title >Ath. Pol.</title> 4.2</bibl> mean and how to interpret them, but this knowledge is not necessarily widespread. For this reason, <title >Dēmos</title> does not merely produce evidence when readers click on citations; it also offers, wherever possible, brief descriptions of the evidence so readers can put the evidence in context and judge for themselves how accurate and useful a particular piece of evidence might be.
+</p>
+
+<p >Some sources may not be available online, and for some sources the articles describing the source may not yet be available on <title >Dēmos</title>. In these cases, citations will appear in the text, just as they would appear in a book, but without being an active link. When <title >Dēmos</title> cannot provide an article describing an ancient author, it will subsitute a link that will look up that author on the <ref  target='http://www.perseus.tufts.edu'>Perseus</ref> website. In these cases, as texts and articles become available, <title >Dēmos</title>’ articles will automatically generate links to them.</p> 
+
+
+<p ><title >Dēmos</title> offers its readers three things. First, it offers a description of classical Athenian Democracy written by experts and anonymously reviewed by other experts, thus ensuring a standard of quality. Second, it takes advantage of electronic repositories of ancient evidence to give its readers access to the sources behind that description. And third, it gives readers background information to help them interpret the evidence critically and in context for themselves.
+</p>
+
+
+<p >Because publications of <ref  target='http://www.stoa.org'><title >The Stoa</title></ref> are electronic, they will grow and develop over time. As more ancient evidence becomes available electronically, <title >Dēmos</title> will give better and better access to primary sources. Because historians often differ in their interpretation of the evidence, <title >Dēmos</title> will be able to add new articles and essays that reflect these ongoing debates, all the while allowing readers to evaluate the evidence (and take sides!) themselves.
+</p>
+
+
+<p ><ref  target='http://www.stoa.org'><title >The Stoa</title></ref> is dedicated to maintaining the highest standards of traditional scholarly publication, particularly in the two areas in which electronic publication is often weakest: authority and longevity. Print publications, books and journal articles, undergo anonymous review by acknowledged experts; this ensures that the publications are rigorous, accurate, and thus worthy of being seen as authoritative. Likewise, <ref  target='http://www.stoa.org'><title >The Stoa</title></ref> publishes nothing that has not undergone similar review. Print publication is also durable—a citation to a book published in <date  when='1853'>1853</date> is still valid, since that book can be located in one or more of the world’s research libraries. This is the greatest weakness of most electronic publication, many of which either vanish altogether, or have their URL change and thus become inaccessible. <ref  target='http://www.stoa.org'><title >The Stoa</title></ref> is committed to maintaining the durability of its publications, so they can be cited as sources as confidently as any printed work.
+</p>
+</div>
+
+
+<div  n='Challenge' type='Section' xml:id='Challenge'>
+<head >The Challenge of the Sources</head>
+
+
+<p >Describing classical Athenian Democracy is difficult because of certain problems inherent in our sources. First of these is the relatively small number of sources that survive. Many of the literary works produced by the ancient Greeks are lost forever. Of the thousands of inscriptions that the Athenians set up to publish the decrees of the Assembly, archaeologists have found only a fraction. The monuments and buildings of ancient Athens have either disappeared altogether, or stand in ruins. So when we try to reconstruct the history and institutions of classical Athenian Democracy, we must work with the small body of fragmentary evidence that survives.
+</p>
+
+
+<p >Another challenge is the nature of the evidence. Unfortunately, no single source tells us everything we would like to know about the Athenian democracy, which was a complex system of institutions, laws, and practices, and which changed and developed over time. The <title >Constitution of the Athenians</title> (<bibl  n='urn:cts:greekLit:tlg0086.tlg003' type='cts-urn'>Aristot. <title >Ath. Pol.</title></bibl>) comes closest to offering a comprehensive eyewitness account, since this work, by <name  type='ancientAuthor'>Aristotle</name> or his students, was written between <date  from='-0334' to='-0322'>334 and 322 BCE</date> and describes the system of government in <placeName  key='Athens'>Athens</placeName> at the time. But this work is not intact — there are significant portions missing — and its description is limited to one rather late phase of the history of Athenian democracy.
+</p>
+
+
+<p >The Aristotelian <title >Constitution of the Athenians</title> (<bibl  n='urn:cts:greekLit:tlg0086.tlg003' type='cts-urn'>Aristot. <title >Ath. Pol.</title></bibl>) and many of our other sources are not particularly favorable toward democracy, and this raises other problems. Critics of democracy (ancient and modern) tend to emphasize negative reports and to highlight problems. For <name  type='ancientAuthor'>Aristotle</name> and others (see especially <soCalled >Pseudo-Xenophon,</soCalled> <bibl  n='urn:cts:greekLit:tlg0032.tlg015' type='cts-urn'>Ps. Xen. Const. Ath.</bibl>) the Athenian democracy was barely better than <soCalled >mob rule</soCalled>, if it was better at all. We must, therefore, read these sources carefully and critically, to try to see through their bias.
+</p>
+
+
+<p >The works of <name  type='ancientAuthor'>Aristotle</name> and <name  type='ancientAuthor'>Pseudo-Xenophon</name> contain actual descriptions of Athenian democracy, albeit critical ones, but most of our evidence does not come from sources that did not actually set out to describe the government of <placeName >Athens</placeName>. Much of our evidence comes from Athenian <name  type='ancientGenre'>Oratory</name>, speeches written as part of civil or criminal trials or political debates. These contain a large amount of information regarding the working of the democracy, its laws, its customs, and the actions of important historical figures. But they, too, must be read carefully. An orator, like a modern lawyer, aimed to win his case, not to provide us with truthful information, and so we should assume that any speech will contain truths, half-truths, and even outright lies.
+</p>
+
+
+<p ><name  type='ancientAuthor'>Herodotus</name> and <name  type='ancientAuthor'>Thucydides</name>, the two great historians to come out of classical <placeName >Athens</placeName>, did set out to educate readers regarding historical events, and both tell us much about the Athenian democracy. But the evidence that these historians offer is shaped by their specific historical projects — <name  type='ancientAuthor'>Herodotus</name> wrote of the conflict between the <placeName  key='Persia'>Persia</placeName> and the Greeks (including, but not limited to, the Athenians), and <name  type='ancientAuthor'>Thucydides</name> wrote of the period of warfare between <placeName  key='Athens'>Athens</placeName> and <placeName  key='Sparta'>Sparta</placeName> at the <date  from='-0331' to='-0404'>end of the 5th century</date>. So while these sources are invaluable, the information they offer is selective and specific.
+</p>
+
+
+<p ><name  type='ancientGenre'>Comedy</name>, particularly the plays of <name  type='ancientAuthor'>Aristophanes</name>, also provides us with information about the Athenian democracy. Comic plays often dealt with current events and included characters based on contemporary public figures. <name  type='ancientAuthor'>Aristophanes</name>’ <title >Acharnians</title> (<bibl  n='Aristoph. Ach.'>Aristoph. Ach.</bibl>) opens with a dramatization of a meeting of the <term  sortKey='Assembly'>Assembly</term>, from which we can glean valuable insights into how such meetings were conducted. But, of course, comedy is supposed to be funny, and so we must remember that a comedian might exaggerate the truth, or even invert it, for comic effect.
+</p>
+
+
+<p >Archaeological evidence presents its own challenges and possibilities. On the one hand, a temple, sculpture, or painted vase represents a work direct from the hands of the ancient creator (unlike texts, which have been copied and copied, sometimes hundreds of times over thousands of years). Inscriptions record some actual decrees and laws, passed by the Athenian democracy, and inscribed on stone for the benefit of citizens of that democracy. But this evidence also needs to be interpreted. A bust of a historical figure may be idealized; a scene on a painting may represent a scene from daily life or a scene from mythology; an inscribed law may employ euphemistic language (a decree that urges the <soCalled >protection</soCalled> of a city may actually have referred to the conquest of that city), or may record a law that was in effect for a very short time.
+</p>
+
+
+<p >For all of these reasons, it is important to read the ancient evidence with care, with a critical eye, and with an understanding of its context.
+</p>
+
+
+<p >The authors of the articles in <title >Dēmos: Classical Athenian Democracy</title> offer their own interpretations of the evidence, but they also encourage all readers to consult the sources for themselves, to read them, compare them, to arrive at their own interpretations, and to form their own questions.
+</p>
+
+
+<p ><note  place='inline' rend='bracket' resp='CWB'>Note on sources for dates: Precise dates for events in ancient history are very difficult to calculate. Each Greek city had its own calendar, and none of them were particularly precise — at Athens, for example, extra months regularly had to be added to make the calendar keep pace with the seasons. So even when we know when an event happened according to the Athenian calendar, it can be very difficult to assign that to a particular year in our own calendar. For this reason, we generally cannot give a single primary source for a date, but must appeal to the authority of secondary sources. Bear in mind, then, that all of the dates in Dēmos are, first, the product of calculation and argument, and second, not necessarily certain.</note>
+</p>
+
+</div>
+
+</body>
+</text>
+</TEI>

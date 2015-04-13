@@ -1,0 +1,59 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 33</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+<div  n='Description' type='Description'>
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg033' type='cts-urn'>Dem. 33</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Apaturius</name></title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). <name  type='ancientAuthor'>Demosthenes</name> wrote this speech for man, whose name we do not know, who was defending himself in a lawsuit. The plaintiff in the lawsuit was <name  type='person'>Apaturius</name>. The speech does not argue the case itself, but argues a <soCalled >special plea</soCalled>, a <foreign  xml:lang='grc'>παραγραφή</foreign>, essentially a plea that the whole case be thrown out of court (see <bibl  n='urn:cts:greekLit:tlg0014.tlg033:2' type='cts-urn'>Dem. 33.2</bibl>). The speech argues that the lawsuit is baseless and malicious, but to prove that, the speak has to give many details about the history of the business between himself and <name  type='person'>Apaturius</name>, so we know (at least one version of) much of what transpired. For the sake of telling the story, we will name the anonymous defendant, simply, Defendant.</p>
+<p ><name  type='person'>Apaturius</name> owned a shipt and some slaves. At one point he took out a loan for 40 minae, using his ship as collateral, but was unable to pay the loan back on schedule. Faced with having his ship seized in a foreclosure, he went to a man named <name  type='person'>Parmeno</name>, who gave him 10 minae. Then he went to Defendant, who borrowed 30 minae from a bank owned by <name  type='person'>Heracleides</name>. Defendant took the 30 minae he had borrowed and the 10 from <name  type='person'>Parmeno</name> and paid off <name  type='person'>Apaturius</name>’ loan. So now Defendant held a mortgage on <name  type='person'>Apaturius</name>’ ship and slaves for 40 minae, but he also owed the bank of <name  type='person'>Heracleides</name> 30 minae and owed <name  type='person'>Parmeno</name> 10 minae.</p>
+<p >Unfortunately, <name  type='person'>Heracleides</name>’ bank failed, and people to whom the bank owed money demanded the 30 minae that Defendant had owed the bank. Defendant signed his mortgage on <name  type='person'>Apaturius</name>’ ship over to the bank's creditors, but with a lien of 10 minae, so <name  type='person'>Parmeno</name>’s money was still secure. At this point, <name  type='person'>Parmeno</name> caught <name  type='person'>Apaturius</name> trying to sail his ship away from <placeName  key='Athens'>Athens</placeName> in an attempt to avoid losing his ship. Since <name  type='person'>Apaturius</name>’ escape would have cost <name  type='person'>Parmeno</name> his 10 minae, <name  type='person'>Parmeno</name> physically prevented him from taking the ship out of the harbor.</p>
+<p >Eventually, <name  type='person'>Apaturius</name>’ ship was sold for 40 minae, and all the debts were taken care of. But <name  type='person'>Apaturius</name> and <name  type='person'>Parmeno</name> sued each other, each claiming that the other had treated him violently during the confrontation over the ship. For a time it seemed that the matter would not go to trial, but would be handled by arbitration, but that arrangement fell through. But before the case could come to trial, <name  type='person'>Parmeno</name> had to leave <placeName  key='Athens'>Athens</placeName> because his family, living in the <placeName  key='Chersonese'>Chersonese</placeName>, had been killed in an earthquake. While <name  type='person'>Parmeno</name> was away, <name  type='person'>Apaturius</name> came to court and won a default judgement against the absent <name  type='person'>Parmeno</name> for 20 minae in damages.</p>
+<p >Then <name  type='person'>Apaturius</name> sued Defendant for those 20 minae, claiming that Defendant was responsible for <name  type='person'>Parmeno</name>’s debt. That lawsuit is the occasion for this speech. Defendant is arguing that, first, he was not serving as security for Parmeno's debts, and, second, that the award granted to <name  type='person'>Apaturius</name> against <name  type='person'>Parmeno</name> was wrong. As is so often the case, we do not know whether this speech was successful or not.</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

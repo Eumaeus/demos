@@ -1,0 +1,111 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+		<fileDesc >
+			<titleStmt >
+				<title >Scythian Archers</title>
+				<author >Elizabeth Baughman</author>
+			</titleStmt>
+		<publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text  xml:lang='en'>
+<body >
+
+<div  type='Summary'>
+<head >Summary</head>
+<p >In <placeName  key='Athens'>Athens</placeName> the so-called <soCalled >Scythian Archers,</soCalled> who may or may not have been from <placeName  key='Scythia'>Scythia</placeName> and who may or may not have been archers, served as a police force, keeping order in public gatherings (the <term  sortKey='Council'>Council</term>, the <term  sortKey='Assembly'>Assembly</term>, and the <name  n='Agora' type='site'>Agora</name>) and perhaps authorized to use force against <term  sortKey='citizenship'>citizens</term> under certain circumstances.</p>
+</div>
+
+<div  n='Definition' type='Section' xml:id='Definition'>
+<head >Definition</head>
+
+<p >In <placeName  key='Athens'>Athens</placeName> the so-called <soCalled >Scythian Archers</soCalled> served as a police force. They were public<term  sortKey='Slavery'> slaves</term> (<foreign  xml:lang='grc'>δημόσιοι</foreign>) who served as guards (<foreign  xml:lang='grc'>φύλακες</foreign>) or watchmen (<foreign  xml:lang='grc'>ὕποπτοι</foreign>) in the city. There is very little evidence that provides any details about these, and what evidence we have is either from the <date  from='-0499' to='-0400'>5th century</date> <name  type='ancientGenre'>comedy</name> of <name  type='ancientAuthor'>Aristophanes</name>—which is difficult evidence to interpret—or from <name  type='ancientGenre'>ancient scholarship</name> from many centuries later.</p>
+
+<p >The <name  type='ancientAuthor'>Suda</name>, a historical encyclopedia from the <date  from='0900' to='0999'>10th century CE</date> has this to say about the word <soCalled >archers</soCalled> (<foreign  xml:lang='grc'>τοξόται</foreign>), in the context of classical <placeName  key='Athens'>Athens</placeName>: <quote >Archers: The public <term  sortKey='Slavery'>slaves</term>, guards of the city, in number 1000, who formerly lived in the <name  n='agora, Athens' type='site'>Agora</name>, camping out in the middle, but later moved to the <name  n='Areopagus' type='site'>Areopagus</name>. These were called <soCalled >Scythians</soCalled> and <soCalled >Speusinioi,</soCalled> from a certain <name  type='person'>Speusinos</name>, one of the ancient politicians, who organized their affairs</quote> (<foreign  xml:lang='grc'>Τοξόται· οἱ δημόσιοι ὑπηρέται, φύλακες τοῦ ἄστεος, τὸν ἀριθμὸν χίλιοι, οἵτινες πρότερον μὲν ᾤκουν τὴν ἀγορὰν μέσην σκηνοποιησάμενοι, ὕστερον δὲ μετέβησαν εἰς Ἄρειον Πάγον, ἐκαλοῦντο δὲ οὗτοι καὶ Σκύθαι καὶ Σπευσίνιοι; ἀπὸ Σπευσίνου τινὸς τῶν πάλαι πολιτευομένων συντάξαντος τὰ περὶ αὐτούς</foreign>) (<bibl  n='urn:cts:greekLit:tlg9010.tlg001:tau.772' type='cts-urn'>Suda tau,772</bibl>; see also <bibl  n='Schol. In Aristoph. Ach. 54'>Schol. In Aristoph. <title >Ach.</title> 54</bibl>, which is almost identical except for saying <quote >Peusinioi</quote> and <quote ><name  type='person'>Peusinus</name></quote> instead of <quote >Speuninioi</quote> and <quote ><name  type='person'>Speusinos</name></quote>; also <bibl  n='Hescythius, 1137'>Hescythius, 1137</bibl>; <bibl  n='Schol. In Aristoph. Ach. 54'>Schol. In Aristoph. <title >Ach.</title> 54</bibl>; <bibl  n='Schol. In Aristoph. Ach. 707'>Schol. In Aristoph. <title >Ach.</title> 707</bibl>; <bibl  n='Schol. In Aristoph. Lys. 184'>Schol. In Aristoph. <title >Lys.</title> 184</bibl>; <bibl  n='urn:cts:greekLit:tlg9010.tlg001:omega.243' type='cts-urn'>Suda omega,243</bibl>; <bibl  n='urn:cts:greekLit:tlg9010.tlg001:tau.771' type='cts-urn'>Suda tau,771</bibl>).</p>
+</div>
+
+<div  n='Origins' type='Section' xml:id='Origins'>
+<head >Origins of the Scythian Archers in Athens</head>
+
+<p >In nearly identical passages, the orators <name  type='ancientAuthor'>Andocides</name> and <name  type='ancientAuthor'>Aeschines</name> describe the origin of these Scythian Archers in <placeName  key='Athens'>Athens</placeName>. According to <name  type='ancientAuthor'>Aeschines</name>, after the battle of <placeName  key='Salamis'>Salamis</placeName> in <date  when='-0490'>490 BCE</date> (source for date: <bibl  type='secondary'><title >OCD</title><edition >3</edition></bibl>), <placeName  key='Athens'>Athens</placeName> <quote >fortified the <placeName  key='Piraeus'>Piraeus</placeName> and built the <name  n='Long Walls, Athens' type='site'>North Wall</name>…. We also equipped three hundred <term  sortKey='Military'>cavalrymen</term> (<foreign  xml:lang='grc'>ἱππεῖς</foreign>) and bought three hundred Scythians (<foreign  xml:lang='grc'>τριακοσίους Σκύθας ἐπριάμεθα</foreign>)</quote> (<bibl  n='urn:cts:greekLit:tlg0026.tlg002:173' type='cts-urn'>Aeschin. 2.173</bibl>). <name  type='ancientAuthor'>Andocides</name> reports this same event, but specifies that these Scythians were <term  sortKey='Military'>archers</term>: <quote >It was at this time that we first enrolled three hundred <term  sortKey='Military'>cavalry</term> (<foreign  xml:lang='grc'>ἱππέας</foreign>) and purchased three hundred Scythian <term  sortKey='Military'>archers</term> (<foreign  xml:lang='grc'>τοξότας τριακοσίους Σκύθας ἐπριάμεθα</foreign>)</quote> (<bibl  n='urn:cts:greekLit:tlg0027.tlg003:5' type='cts-urn'>Andoc. 3.5</bibl>). Both <name  type='ancientAuthor'>Aeschines</name> and <name  type='ancientAuthor'>Andocides</name> seem to distinguish these Scythian Archers from the <term  sortKey='Military'>archers</term> of the <term  sortKey='Military'>Athenian militia</term>. After mentioning the Scythians, <name  type='ancientAuthor'>Aeschines</name> goes on to say, <quote >We formed a corps of twelve hundred <term  sortKey='Military'>cavalry</term> and a new force of as many <term  sortKey='Military'>bowmen</term></quote> (<foreign  xml:lang='grc'>χιλίους δὲ καὶ διακοσίους ἱππέας κατεστήσαμεν καὶ τοξότας ἑτέρους τοσούτους</foreign>) (<bibl  n='urn:cts:greekLit:tlg0026.tlg002:174' type='cts-urn'>Aeschin. 2.174</bibl>). <name  type='ancientAuthor'>Andocides</name> likewise says, <quote >we enrolled twelve hundred <term  sortKey='Military'>cavalry</term> and as many <term  sortKey='Military'>archers</term></quote> (<foreign  xml:lang='grc'>χιλίους τε καὶ διακοσίους ἱππέας καὶ τοξότας τοσούτους ἑτέρους κατεστήσαμεν</foreign>) (<bibl  n='urn:cts:greekLit:tlg0027.tlg003:7' type='cts-urn'>Andoc. 3.7</bibl>). From this it would seem that the three hundred Scythian archers and the twelve hundred (unspecified) <term  sortKey='Military'>archers</term> were two distinct bodies.</p>
+</div>
+
+
+<div  n='Identity' type='Section' xml:id='Identity'>
+<head >Identity of the Scythian Archers</head>
+
+<p ><name  type='ancientAuthor'>Aeschines</name> and <name  type='ancientAuthor'>Andocides</name> both say that <placeName  key='Athens'>Athens</placeName> originally bought <soCalled >Scythians,</soCalled> people from <placeName  key='Scythia'>Scythia</placeName>, the territory to the north of the <placeName  key='Black Sea'>Black Sea</placeName> (<bibl  n='urn:cts:greekLit:tlg0026.tlg002:173' type='cts-urn'>Aeschin. 2.173</bibl>; <bibl  n='urn:cts:greekLit:tlg0027.tlg003:5' type='cts-urn'>Andoc. 3.5</bibl>). It is possible that the Scythian archers did not always consist entirely of ethnic Scythians. A <soCalled >scholion,</soCalled> or hand-written note in the margins of a manuscript of <name  type='ancientAuthor'>Aristophanes</name>’ <title >Lysistrata</title> says the Athenians <quote >used to call the public <term  sortKey='Slavery'>slaves</term> <soCalled >Scythians</soCalled></quote> (<foreign  xml:lang='grc'>Σκύθας γὰρ καὶ τοξότας ἐκάλουν τοὺς δημοσίους ὑπηρέτας</foreign>), which leaves open the possibility that the name may also have applied to those who were not Scythians (<bibl  n='Schol. In Aristoph. Lys. 184'>Schol. In Aristoph. <title >Lys.</title> 184</bibl>).</p>
+
+<p >It seems clear that the <soCalled >Scythian Archers</soCalled> were at least foreigners, not Athenians. Jokes in <name  type='ancientAuthor'>Aristophanes</name>’ comedies often involve the Scythian Archers’ foreign accents (<bibl  n='urn:cts:greekLit:tlg0019.tlg008:1002' type='cts-urn'>Aristoph. <title >Thes.</title> 1002</bibl>):</p>
+
+<p >Scythian Archer: But what’s your name?
+<lb /><name  type='ancientAuthor'>Euripides</name>: <name  type='person'>Artemisia</name>.
+<lb />Scythian Archer: I will remember it. Artemuxia.</p>
+
+<p >The joke is that the Scythian archer, with his foreign accent, cannot pronounce the Greek name <name  type='person'>Artemisia</name>.</p>
+</div>
+
+<div  n='Function' type='Section' xml:id='Function'>
+<head >The Function of the Scythian Archers</head>
+
+<p >The literary accounts of the Scythian archers come primarily from the <date  from='-0499' to='-0400'>5th century</date> <name  type='ancientGenre'>comedy</name> of <name  type='ancientAuthor'>Aristophanes</name>, and his treatment may be exaggerated or otherwise altered for comic effect. However, certain conclusions can be drawn from his plays. The Scythian Archers’ major role in Athenian society was to act as policemen for <placeName  key='Athens'>Athens</placeName>. In <name  type='ancientAuthor'>Aristophanes</name>’s plays we see them performing crowd control. In <title >Ecclesiazusae</title> a character mentions <quote >the archers dragging more than one uproarious drunkard out of the <name  n='Agora, Athens' type='site'>market-place</name></quote> (<foreign  xml:lang='grc'>ἀγορά</foreign>) (<bibl  n='urn:cts:greekLit:tlg0019.tlg010:143' type='cts-urn'>Aristoph. <title >Eccl.</title> 143</bibl>). In <name  type='ancientAuthor'>Aristophanes</name>’s <title >Knights</title> the <term  sortKey='Council'>Prytaneis</term> (often called <soCalled >magistrates</soCalled> in translations) and the Scythians usher a man out of the <term  sortKey='Council'>Council</term> (<bibl  n='urn:cts:greekLit:tlg0009.tlg010:665' type='cts-urn'>Aristoph. <title >Kn.</title> 665</bibl>). We also find scenes of Scythian archers beating disorderly people, sometimes with whips. In <title >Thesmophoriazusae</title>, the Magistrate (<term  sortKey='Council'><soCalled >Prytanis</soCalled></term>) says to a Scythian archer, <quote >A sound lash with your whip for him who attempts to break the order</quote> (<bibl  n='urn:cts:greekLit:tlg0019.tlg008:923' type='cts-urn'>Aristoph. <title >Thes.</title> 923</bibl>). The <name  type='ancientAuthor'>Suda</name> includes a quotation from Athenian literature that describes an <quote >archer</quote> beating a man: <quote >I was distraught and had to wipe away tears when I saw a old man being beaten by another man, an archer</quote> (<bibl  n='urn:cts:greekLit:tlg9010.tlg001:omega.243' type='cts-urn'>Suda omega,243</bibl>). This last passage comes to us without context, and so we do not know of the victim was being <soCalled >disorderly</soCalled> or not. Although the title <soCalled >Scythian Archer</soCalled> suggests that they carried bows and arrows, there is no literary evidence showing these <term  sortKey='Slavery'>public slaves</term> using such weapons. The only weapons mentioned in the passages above are (non-lethal) whips.</p>
+
+<p ><name  type='ancientAuthor'>Aristophanes</name> also presents several scenes in which Scythian archers arrest people. In the <title >Acharnians</title>, the <term  sortKey='Council'>Magistrates</term> (or <term  sortKey='Council'><soCalled >Prytaneis</soCalled></term>) are attempting to have the character <name  type='god'>Amphitheus</name> (the name is translated <soCalled >Godson</soCalled> in some translations) arrested by the Scythian Archers, (called <quote >Officers</quote> in this translation) (<bibl  n='urn:cts:greekLit:tlg0019.tlg001:54' type='cts-urn'>Aristoph. <title >Ach.</title> 54</bibl>; see also <bibl  n='Schol. In Aristoph. Ach. 54'>Schol. In Aristoph. <title >Ach.</title> 54</bibl>).</p>
+
+<p >Herald: Officers!
+<lb />Godson: <name  type='god'>Triptolemus</name> and <name  type='god'>Celeus</name>, see my plight!
+<lb /><name  type='person'>Dicaeopolis</name>: Oh Magistrates, gentlemen, this is out of line, arresting the man who wanted to help us get a treaty of peace, a chance for armistice!</p>
+
+
+<p >In <title >Lysistrata</title> a Scythian archer confronts the title character, saying, <quote >Arrest this woman! Whoever’s on this outing I’ll arrest</quote> (<bibl  n='urn:cts:greekLit:tlg0019.tlg007:445' type='cts-urn'>Aristoph. <title >Lys.</title> 445</bibl>). We also see the Scythian archers handcuffing or tying up offenders. In <bibl  n='urn:cts:greekLit:tlg0019.tlg007:434' type='cts-urn'><title >Lysistrata</title> line 434</bibl>, the <term  sortKey='Council'>Prytanis</term> calls for the Scythian archers, saying, <quote >I’m calling a policeman. Arrest this woman, put the handcuffs on. ...Go on and grab her. And you there, help him out. Hog-tie this woman!</quote> In the <bibl  n='urn:cts:greekLit:tlg0019.tlg008' type='cts-urn'><title >Thesmophoriazusae</title></bibl>, the <term  sortKey='Council'>Prytanis</term> says, <quote >Officer <note  place='inline' rend='bracket' resp='LB'>in Greek, <soCalled >Archer</soCalled> (<foreign  xml:lang='grc'>τοξότε</foreign>)</note>, arrest him, fasten him to the post, then take up your position there and keep guard over him</quote> (<bibl  n='urn:cts:greekLit:tlg0019.tlg008:923' type='cts-urn'>Aristoph. <title >Thes.</title> 923</bibl>).</p>
+
+<p >Although there is evidence for a <term  sortKey='Jail'>jail</term> (<foreign  xml:lang='grc'>δεσμωτήριον</foreign>) and a jail-warden (<foreign  xml:lang='grc'>ὁ τοῦ δεσμωτηρίου φύλαξ</foreign>) in classical <placeName  key='Athens'>Athens</placeName>, we do not have any evidence connecting the Scythian Archers with it (see, for example, <bibl  n='urn:cts:greekLit:tlg0059.tlg003:43a' type='cts-urn'>Plat. <title >Crito</title> 43a</bibl>).</p>
+
+</div>
+
+<div  n='Bibliography' type='Section' xml:id='Bibliography'><head >Secondary Works Cited</head>
+
+<list  rend='numbered'>
+
+<item ><bibl  type='secondary'>S. Hornblower and A. Spawforth edd., <title >The Oxford Classical Dictionary</title>, 3rd Edition (Oxford, 1996) [<title >OCD</title><edition >3</edition>]</bibl>.</item>
+
+</list>
+
+</div>
+
+
+</body>
+</text>
+</TEI>

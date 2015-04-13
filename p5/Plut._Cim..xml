@@ -1,0 +1,76 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Plutarch’ Life of Cimon</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Plut. Cim.' type='workDescription'>
+
+<head ><name  type='ancientAuthor'>Plutarch</name>’ <title >Cimon</title></head>
+
+<p >For a desription of <name  type='ancientAuthor'>Plutarch</name> generally, and of the nature of his Lives (or <foreign  xml:lang='la'>Vitae</foreign>) of famous Greeks and Romans, see the article <soCalled ><name  type='ancientAuthor'>Plutarch</name>.</soCalled></p>
+
+<p ><name  type='ancientAuthor'>Plutarch</name> organized his biographical sketches into matched pairs, a famous Roman matched with a famous Greek who seemed, to <name  type='ancientAuthor'>Plutarch</name>, alike in some fundamental way, either in character or in the course of his life’s events, or (more often) in both. Obviously, this sort of scheme tended to force the author’s hand as he wrote these <foreign  xml:lang='la'>Vitae</foreign>, leading them to conform to a scheme established at the outset, even (perhaps) at the expense of historical veracity.</p>
+
+<p >For this reason, it is always worth noting, in the case of any one of <name  type='ancientAuthor'>Plutarch</name>’s biographies, with whom the writer paired the subject. Knowing for example that <name  type='ancientAuthor'>Plutarch</name> saw <name  type='ancientAuthor'>Demosthenes</name> as a Greek parallel to the Roman <name  type='ancientAuthor'>Cicero</name>, or that <name  type='person'>Alexander</name>’s life was paired with <name  type='person'>Caesar</name>’s, can be useful in deciding how to approach these biographies.</p>
+
+<p ><name  type='ancientAuthor'>Plutarch</name>’s <title >Life of Cimon</title> (<bibl  n='urn:cts:greekLit:tlg0007.tlg035' type='cts-urn'>Plut. <title >Cim.</title></bibl>), the prominent Athenian of the <date  from='-0499' to='-0400'>5th century BCE</date>, son of <name  type='person'>Miltiades</name> and <name  type='person'>Hegesipyle</name>, and grandson of the <placeName  key='Thrace'>Thracian</placeName> king <name  type='person'>Olorus</name> and cousin of <placeName  key='Thucydides'>Thucydides</placeName> the historian (<bibl  n='urn:cts:greekLit:tlg0007.tlg035:4.1' type='cts-urn'>Plut. <title >Cim.</title> 4.1</bibl>), begins with an anecdote about <name  type='ancientAuthor'>Plutarch</name>’s home town of <placeName  key='Chaeronea'>Chaeronea</placeName> during the <date  from='-0099' to='-0001'>1st century BCE</date> (<bibl  n='urn:cts:greekLit:tlg0007.tlg035:1.1-2.2' type='cts-urn'>Plut. <title >Cim.</title> 1.1-2.2</bibl>). It is a sordid tale that features an ongoing rivalry between the cities of <placeName  key='Chaeronea'>Chaeronea</placeName> and <placeName  key='Orchomenus'>Orchomenus</placeName>, an orphan, a sexually predatory Roman soldier, and a series of betrayals and murders. All ended as well as could be expected, however, because the Roman <name  type='person'>Lucius Licinius Lucullus</name> happened to be nearby with a body of troops and provided an honest appraisal of the situation to the governing Roman praetor. This saved <placeName  key='Chaeronea'>Chaeronea</placeName> from a harsh and unfair judgement.</p>
+
+<p >The anecdote serves to establish a link between the author, <name  type='ancientAuthor'>Plutarch</name> from <placeName  key='Chaeronea'>Chaeronea</placeName>, with <name  type='person'>Lucullus</name>, the Roman whose biography is matched with <name  type='person'>Cimon</name>’s (<bibl  n='urn:cts:greekLit:tlg0007.tlg036' type='cts-urn'>Plut. <title >Luc.</title></bibl>). <name  type='ancientAuthor'>Plutarch</name> describes frankly the nature of this link, and its effect on his biographical treatment of <name  type='person'>Lucullus</name>:</p>
+
+<p ><quote >And we, though many generations removed from him, think that his favour extends even down to us who are now living; and since we believe that a portrait, which reveals character and disposition is far more beautiful than one which merely copies form and feature, we shall incorporate this man’s deeds into our parallel lives, and we shall rehearse them truly. The mere mention of them is sufficient favour to show him; and as a return for his truthful testimony he himself surely would not deign to accept a false and garbled narrative of his career. We demand of those who would paint fair and graceful features that, in case of any slight imperfection therein, they shall neither wholly omit it nor yet emphasize it, because the one course makes the portrait ugly and the other unlike its original. In like manner, since it is difficult, nay rather perhaps impossible, to represent a man’s life as stainless and pure, in its fair chapters we must round out the truth into fullest semblance; but those transgressions and follies by which, owing to passion, perhaps, or political compulsion, a man’s career is sullied, we must regard rather as shortcomings in some particular excellence than as the vile products of positive baseness, and we must not all too zealously delineate them in our history, and superfluously too, but treat them as though we were tenderly defending human nature for producing no character which is absolutely good and indisputably set towards virtue.</quote> (<bibl  n='urn:cts:greekLit:tlg0007.tlg035:2.2-2.5' type='cts-urn'>Plut. <title >Cim.</title> 2.2-2.5</bibl>).</p>
+
+<p >So <name  type='ancientAuthor'>Plutarch</name>’s purpose is to satisfy an inherited debt of gratitude toward <name  type='person'>Lucullus</name>, and although under that imperative he will be obliged to described unflattering aspects of the man’s life as well as flattering ones, he will present the former as incidental to an otherwise noble and virtuous life. While this statement of purpose would not serve a modern, scholarly biographer, it does honestly reflect <name  type='ancientAuthor'>Plutarch</name>’s project and allows us, his modern readers, to interpret his writing resonably and critically and to procede to use it as a source for ancient history.</p>
+
+<p >Regarding his choice to match <name  type='person'>Lucullus</name> with <name  type='person'>Cimon</name>, <name  type='ancientAuthor'>Plutarch</name> says: <quote >On looking about for some one to compare with <name  type='person'>Lucullus</name>, we decided that it must be <name  type='person'>Cimon</name>. Both were men of war, and of brilliant exploits against the Barbarians, and yet they were mild and beneficent statesmen, in that they gave their countries unusual respite from civil strifes, though each one of them set up martial trophies and won victories that were famous. No Hellene before <name  type='person'>Cimon</name> and no Roman before <name  type='person'>Lucullus</name> carried his wars into such remote lands, if we leave out of our account the exploits of <name  type='god'>Heracles</name> and <name  type='god'>Dionysus</name>, and whatever credible deeds of <name  type='person'>Perseus</name> against the <placeName  key='Aethiopia'>Aethiopians</placeName> or <placeName  key='Ecbatana'>Medes</placeName> and <placeName  key='Armenia'>Armenians</placeName>, or of <name  type='person'>Jason</name>, have been brought down in the memory of man from those early times to our own. Common also in a way to both their careers was the incompleteness of their campaigns. Each crushed, but neither gave the death blow to his antagonist. But more than all else, the lavish ease which marked their entertainments and hospitalities, as well as the ardour and laxity of their way of living, was conspicuous alike in both. Possibly we may omit still other resemblances, but it will not be hard to gather them directly from our story</quote> (<bibl  n='urn:cts:greekLit:tlg0007.tlg035:3.1-3.3' type='cts-urn'>Plut. <title >Cim.</title> 3.1-3</bibl>).</p>
+
+<p >Here, too, we can see <name  type='ancientAuthor'>Plutarch</name>’s thesis for these biographies, and to discern that his main motivation is not to set down an exhaustive record of the deeds of <name  type='person'>Cimon</name>, but to place him in a <soCalled >historical</soCalled> context (with includes a large measure of myth) and to establish him as a fitting moral parallel to <name  type='person'>Lucullus</name>.</p>
+
+
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Aristotle</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><name  type='ancientAuthor'>Aristotle</name></head>
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0385'><figure  n='1997.99.0385.jpeg' rend='left'/></ref><date  from='-0384' to='-0322'>384-322 BCE</date> (source: <bibl ><title >OCD</title><edition >3</edition></bibl>). A philosopher, originally from <placeName  key='Stagira'>Stagira</placeName> in <placeName  key='Chalcidice'>Chalcidice</placeName>, who spent much of his career in <placeName  key='Athens'>Athens</placeName>. He was a student of <name  type='ancientAuthor'>Plato</name> for a time, then tutor to <name  type='person'>Philip </name>of <placeName  key='Macedon'>Macedon</placeName>’s son <name  type='person'>Alexander</name> (who would later rule in <placeName  key='Macedonia'>Macedonia</placeName> as <name  type='person'>Alexander III</name> and come to be called <soCalled ><name  type='person'>Alexander the Great</name></soCalled>), then, upon returning to <placeName  key='Athens'>Athens</placeName>, the founder of a school of philosophy at the <placeName  key='Lyceum'>Lyceum</placeName>. <name  type='ancientAuthor'>Aristotle</name>’s works are diverse, including writing in philosophy, natural science, theology, and politics. (see <name  n='philosophy' type='ancientGenre'>philosophy</name>).</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

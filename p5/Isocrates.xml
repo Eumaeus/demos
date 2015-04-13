@@ -1,0 +1,73 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Isocrates</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher > The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text >
+ <body >
+ <div  n='Description' type='Description'>
+ <head >
+ <name  type='ancientAuthor'>Isocrates</name>
+ </head>
+ <p >Born <date  when='-0436'>436 BCE</date>, died <date  when='-0338'>338 BCE</date> (source
+ for date: <bibl  n='OCD3'>
+ <title >OCD</title>
+ <edition >3</edition>
+ </bibl>). <name  type='ancientAuthor'>Isocrates</name> was the child of a wealthy
+ flute-manufacturer who gave him an excellent education. He is said to have studied under
+ <name  type='ancientAuthor'>Prodicus</name>, <name  type='ancientAuthor'>Gorgias</name>,
+ <name  type='person'>Tisias</name>, <name  type='person'>Theramenes</name>, and <name  type='person'>Socrates</name>. <name  type='ancientAuthor'>Isocrates</name> spent the
+ decade of the <date  from='-0399' to='-0390'>390s</date> writing speeches. However, much of
+ the rest of <name  type='ancientAuthor'>Isocrates</name>’ life was dedicated to
+ teaching; he established a school at <placeName  key='Athens'>Athens</placeName> sometime
+ before <date  when='-0386'>386 BCE</date> (source for date: <bibl  n='OCD3'>
+ <title >OCD</title>
+ <edition >3</edition>
+ </bibl>). Among his students were the orators <name  type='ancientAuthor'>Hyperides</name>
+ and <name  type='ancientAuthor'>Isaeus</name>, the historians <name  type='ancientAuthor'>Ephorus</name> and <name  type='ancientAuthor'>Theopompus</name>, and the atthidographer
+ <name  type='ancientAuthor'>Androtion</name>. <name  type='ancientAuthor'>Isocrates</name>’ works are characterised by expressions of great love of
+ <placeName  key='Athens'>Athens</placeName> and by the promotion of ideas of
+ Panhellenism, whereby, in his view, all of the Greek peoples could unite and declare war
+ on the barbarous Persians. Of his works, twenty-one discourses on a wide range of topics
+ and nine letters survive, most of which are considered to be genuine. (See also the genre
+ of <name  n='oratory' type='ancientGenre'>Oratory</name>.)</p>
+ <byline >Christopher Cotten</byline>
+ </div>
+ </body>
+ </text>
+</TEI>

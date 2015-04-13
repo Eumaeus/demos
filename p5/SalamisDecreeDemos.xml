@@ -1,0 +1,357 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+ xmlns:xi="http://www.w3.org/2001/XInclude"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:math="http://www.w3.org/1998/Math/MathML"
+ xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title level="m" type="main">The <placeName key="Salamis">Salamis</placeName> Decree</title>
+ <author>Michael Arnush</author>
+ </titleStmt>
+ <publicationStmt>
+ <publisher>
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority>
+ <name>A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt>
+ <title>Dēmos: Classical Athenian Democracy</title>
+ <respStmt>
+ <name>Christopher W. Blackwell</name>
+ <resp>Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc>
+ <p>File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="en">English</language>
+ <language ident="la">Latin</language>
+ <language ident="grc">Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc>
+ <change>
+ <date>April 8, 2003</date>
+ <name>Christopher W. Blackwell</name>
+ <desc>Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text xml:lang="eng">
+ <body>
+ <div xml:id="title" type="Title">
+ <head>Title</head>
+ <p>
+ <placeName key="Salamis">Salamis</placeName> Decree</p>
+ </div>
+ <div xml:id="findspot" type="section">
+ <head>Find Spot</head>
+ <p>
+ <placeName key="Acropolis, Athens">Acropolis</placeName>
+ </p>
+ </div>
+ <div xml:id="location" type="section">
+ <head>Location</head>
+ <p> Epigraphical Museum, inv. EM 6798+6815+12936, AM 7021</p>
+ </div>
+ <div xml:id="description" type="section">
+ <head>Description</head>
+ <p> Seven marble fragments, five of them conjoined, of a horizontally tapered stele.
+ The text is inscribed on the horizontal face. Min. H. 0.219m. Min. L.
+ 0.976m.</p>
+ </div>
+ <div xml:id="letterforms" type="section">
+ <head>Letter forms:</head>
+ <p> Archaic letters, including tailed rho, three-bar sigma. Stoichedon on ll.
+ 1-6.</p>
+ </div>
+ <div xml:id="images" type="section">
+ <head>Images:</head>
+ <p> Kirchner, IIA.2,13; Austin pl.4; Schweigert, <title>Hesp.</title> 7 (1938) 265
+ (new frag.); Meritt, <title>Hesp.</title> 10 (1941) 305; Matthaiou
+ <title>Horos</title> 8-9 (1990-91) [1993] 11 (facsimile); <title>CSAD</title>
+ <ref target="http://www.csad.ox.ac.uk/CSAD/Images/00/Image07.html">http://www.csad.ox.ac.uk/CSAD/Images/00/Image07.html</ref>
+ </p>
+ </div>
+ <div xml:id="bibliography" type="section">
+ <head>Bibliography:</head>
+ <p>
+ <bibl><title>IG</title> 1 s p.57</bibl>; <bibl><title>IG</title> 1.2.1 +
+ p.302f.</bibl>; <bibl><title>IG</title> 1.3.1 and fasc. 2, 935</bibl>; <bibl>Tod
+ <title>GHI</title> 11</bibl>; <bibl>ML 14; <title>SEG</title>
+ x.1</bibl>; <bibl>Wilhelm, <title>Sitzb. Wien.</title> 217.5 (1939) 5-11</bibl>;
+ <bibl>Meritt, <title>Hesp.</title> 10 (1941) 307-1</bibl>; <bibl>Wade-Gery,
+ <title>CQ</title> 40 (1946) 101-4</bibl>; <bibl>Guarducci,
+ <title>RF</title> 76 (1948) 238-43</bibl>; <bibl>Luria,
+ <title>Kadmos</title>, 3 (1964) 88-107</bibl>; <bibl>Fornara 1983, no.
+ 44</bibl>; <bibl>Hansen, <title>Hermes</title> 115 (1985) 500</bibl>;
+ <bibl>Matthaiou <title>Horos</title> 8-9 (1990-91) [1993] 9-14 (new
+ fragment)</bibl>.</p>
+ </div>
+ <!-- but see below under "unresolved issues" -->
+ <div xml:id="date" type="section">
+ <head>Date:</head>
+ <p>
+ <date from="-0510" to="-0500">ca. 510-500 BCE</date> (Raubitschek,
+ <title>DAA</title>, suggests <date from="-0490" to="-0480">490-480
+ BCE</date>).</p>
+ </div>
+ <div xml:id="translation" type="section">
+ <head>Translation:</head>
+ <p>
+ <lb n="1"/>Decided by the Dēmos. Those in <placeName key="Salamis"
+ >Salamis</placeName> who are cleruchs <lb n="2"/>shall be allowed to reside
+ on <placeName key="Salamis">Salamis</placeName> … at Athens <lb n="3"
+ />to pay taxes and provide military service. But what is theirs on <placeName
+ key="Salamis">Salamis</placeName>
+ <lb n="4"/>shall not be leased, unless a kinsman(?) is the lessor. If <lb n="5"
+ />someone should lease it, the lessee shall pay a penalty, and the lessee, <lb
+ n="6"/>each of them … <lb n="7"/>to the public treasury. And the
+ <term sortKey="archon">archon</term> shall handle by the transaction,
+ <lb n="8"/>if not, he shall be held accountable at his <foreign xml:lang="xgrc">
+ <w xml:lang="xgrc" n="eu)/quna">euthyna</w>
+ </foreign>. <lb n="9"/>They shall furnish the weapons themselves; <lb n="10"
+ />the cost is thirty drachmas. Having been armed <lb n="11"/>the <term sortKey="archon">archon</term> shall inspect their weapons. <lb n="12"
+ />The <term sortKey="Council">boulē</term>, in the year of
+ …</p>
+ <!-- … is the Unicode entity for a three-dot ellipsis. -->
+ </div>
+ <div  xml:lang='grc' n='Text' type='section'>
+ 
+ <l  xml:lang='grc' n='1'>ἔδοχσεν το͂ι δέμοι· τ<add >ὸς ἐ Σ</add>αλαμ<add >ῖνι
+ κλερόχ</add>ος</l>
+ <l  xml:lang='grc' n='2'>οἰκε͂ν ἐᾶ σαλαμῖνι <gap  extent='5' reason='lost'/>λεν
+ <gap  extent='7' reason='lost'/>
+ <add >Ἀθέ]νε-</add>
+ </l>
+ <l  xml:lang='grc' n='3'>σι τελε͂ν καὶ στρατ<add >εύεσθ</add>αι ⋮ τ<add >ὰ
+ δ᾽ ἐ Σαλαμῖνι</add> μ-</l>
+ <l  xml:lang='grc' n='4'>ὲ μι<add >σθ</add>ο͂ν, ἐὰ μὲ οἰκ<gap  extent='7' reason='lost'/>ο<gap  extent='1' reason='lost'/>
+ <add >μισθόμενο</add>
+ <gap  extent='1' reason='lost'/>
+ <add >⋮ ἐ</add>ὰ </l>
+ <l  xml:lang='grc' n='5'>ν δὲ μισθο͂ι, ἀποτί<add >νεν τὸ μισθόμενον καὶ
+ τὸ</add> μ-</l>
+ <l  xml:lang='grc' n='6'>ισθο͂ντα Ηεκάτε<add >ρον </add>
+ <gap  extent='19' reason='lost'/>
+ </l>
+ <l  xml:lang='grc' n='7'>ἐς δεμόσιο<add >ν · ἐσπράτενεν δὲ τὸν ἄ</add>-</l>
+ <l  xml:lang='grc' n='8'>ρχο<add >ν</add>τα, ἐὰν <add >δὲ μέ,
+ εὐθ</add>ύ<add >νεσθαι · τ</add>-</l>
+ <l  xml:lang='grc' n='9'>ὰ δὲ <add > Η</add>όπλα π<add >αρέχες</add>αθα<add >ι
+ αὐτὸς · τ</add>-</l>
+ <l  xml:lang='grc' n='10'>
+ <add >ριάκ</add>οντα · δρ<add >αχμο͂ν ⋮</add>
+ Ηο<add >πλισμένο</add>-</l>
+ <l  xml:lang='grc' n='11'>ν δὲ <add >τ</add>ὸν ἄρχοντ<add >α τὰ Ηόπλα
+ κρίν</add>-</l>
+ <l  xml:lang='grc' n='12'>εν ⋮ <add >ἐπ</add>ὶ τε͂ς
+ β<add >ο</add>λε͂<add >ς</add>
+ <gap  extent='11' reason='lost'/>
+ </l>
+ </div>
+ <div xml:id="apparatus" type="section">
+ <head>Commentary on the Text:</head>
+ <div xml:id="note_line_1" type="note">
+ <p>1: <add>
+ <foreign xml:lang="grc">κλερόχος</foreign>
+ </add> Luria; <add>
+ <foreign xml:lang="grc">Αθεναίος</foreign>
+ </add> Meritt; <add>
+  <foreign xml:lang="grc">οἰκο͂ντας</foreign>
+ </add> Wilhelm; <foreign xml:lang="grc">τ<add>ὸν κτλ. Ἀθηναῖον</add>
+ </foreign> Wade-Gery; <add>
+ <foreign xml:lang="grc">ὁπλίτας</foreign>
+ </add> Hansen. Luria first suggested <foreign xml:lang="grc"
+ >klero/xos</foreign>, <soCalled>cleruchs,</soCalled> citizens of Athens who
+ lived in <quote>an extension of the Athenian state overseas</quote> (Graham
+ 1983, 167ff.). Such a restoration would represent the earliest attestations
+ of a cleruchy, dating to the period of or just after the Cleisthenic
+ reforms. Other restorations suggest <soCalled>Athenians,</soCalled> an
+ individual Athenian, <soCalled>hoplite soldiers</soCalled> or
+ <soCalled>inhabitants,</soCalled> the last side-stepping the issue of
+ the dwellers’ legal status. Matthaiou’s publication of a
+ new fragment confirms an accusative plural, either <foreign xml:lang="grc"
+ >κληρόχος</foreign> or <foreign xml:lang="grc">Ἀθεναίος</foreign>.</p>
+ </div>
+ <div xml:id="note_line_2" type="note">
+ <p>2: <foreign xml:lang="grc"><add>αἰρεὶ π</add>λὲν <add>ὅτι δεῖ0
+ Ἀθέν</add>|σι</foreign> Meritt; <foreign xml:lang="grc"
+  ><add>καὶ τε</add>λε͂ν <add>ἅ ἐστιν ἀστοῖ</add>|σι
+  τελε͂ν</foreign> Wade-Gery; <foreign xml:lang="grc"><add>καὶ τε</add>λε͂ν
+   <add>καθάπερ Ἀθέν</add>|σι τελε͂ν</foreign> Guarducci.
+ The proposed restorations all focus on the same notion: that the cleruchs on
+ <placeName key="Salamis">Salamis</placeName> were subjected to the same
+ taxation and military levy as those residing in <placeName key="Athens"
+ >Athens</placeName>. Financial and military obligations were common for
+ cleruchs, although the land owned in a cleruchy was not part of a
+ citizen’s land-holding assessment for liturgical obligations in
+ <placeName key="Athens">Athens</placeName> (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg014:16">Dem. 14.16</bibl>; M.H. Hansen,
+ <title>Demography and democracy : the number of Athenian citizens in the
+ fourth century B.C.</title> [Herning, Denmark: Systime 1986], n.218). A
+ 4th century BCE inscription, <title>IG</title> 2.2.30, also from the
+ Athenian Acropolis, that deals with land ownership on <placeName
+ key="Lemnos">Lemnos</placeName> probably refers to the cleruchy on
+ <placeName key="Salamis">Salamis</placeName> and may even cite the
+ stipulations in <title>IG</title> 1.3.1 as legal precedents for action taken
+ in <date from="-0387" to="-0386">387/6</date> (Stroud,
+ <title>Hesperia</title> 40 [1971] 172-73). For line 2 here, I prefer
+ Meritt’s restoration, as Fornara has rendered it: <quote>forever,
+ except that they must at <placeName key="Athens">Athens</placeName>
+ ….</quote></p>
+ </div>
+ <div xml:id="note_line_4" type="note">
+  <p>4: <foreign xml:lang="grc">ἐα μὲ οἰκ<add>εῖος ἐ͂ι </add>ὁ
+ <add>μισθόμενος</add></foreign> Wade-Gery; <foreign xml:lang="grc">ἐὰ μὲ
+  οἰκ<add>ο͂σι καὶ </add>ὁ<add>ι μισθόμενοι</add></foreign>
+ Meritt.</p>
+ </div>
+ <div xml:id="note_line_6" type="note">
+ <p>6: <foreign xml:lang="grc">
+  <add>τὸ τριπλάσιον το͂ μισθο͂</add>
+ </foreign> Tod; <foreign xml:lang="grc">δεκάτεν το͂ μισθόματος</foreign>
+ Wade-Gery. The restorations vary widely in the amount of rent tax, from as
+ much as 300% (Tod) of the rent to as little as 10% (Wade-Gery). Surely the
+ latter is more likely, since the exactment of the former for leasing to a
+ relative (l. 4, Wade-Gery) or dweller (Meritt) would be punitive.</p>
+ </div>
+ <div xml:id="note_line_7-8" type="note">
+ <p>7-8: <foreign xml:lang="grc"><add>χσυλέγεν δὲ τὸν ἄ</add>|rxonta,
+ e)a/n <add>ti de/os</add> u(<add>pa/rxei</add></foreign> Wade-Gery. This
+ restoration suggests that the archon will muster troops in the event of an
+ emergency, rather than the more probable reference to the archon’s <foreign
+ xml:lang="xgrc">
+ <w xml:lang="xgrc" n="eu)/quna">euthyna</w>
+ </foreign>, or examination, conducted at the termination of his tenure in
+ office. Public officials were held accountable for their service to the
+ dēmos, including the (mis)management of state funds (<bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:45.2-45.3">Aristot. <title>Ath. Pol.</title> 45.2-45.3</bibl>; <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:48.3-48.4">48.3-48.4</bibl>; <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:54.2">54.2</bibl>); evidence of malfeasance
+ presented at the <foreign xml:lang="xgrc">
+ <w xml:lang="xgrc" n="eu)/quna">euthyna</w>
+ </foreign> could be contested and then resolved in the <foreign xml:lang="xgrc">
+ <w xml:lang="xgrc" n="dikasteri/a">dikasteria</w>
+ </foreign> (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:48.5">Arist. Ath. Pol. 48.5</bibl>; <title>OCD</title> s.v.
+ <foreign xml:lang="xgrc">
+ <w xml:lang="xgrc" n="eu)/quna">euthyna</w>
+ </foreign>).</p>
+ </div>
+ <div xml:id="note_line_12" type="note">
+ <p>12: <foreign xml:lang="grc">
+ <add>tau=t’ e)gno/sqe</add>
+ </foreign> Meritt; <foreign xml:lang="grc">ὁ δεῖνα εἶρε; β<add>ο</add>λε͂<add>ς προεβόλευθε</add></foreign> Wade-Gery;
+  <foreign xml:lang="grc"><add>ἐρ</add>ὶ τε͂ς Β<add>ο</add>λε<add>κλέος
+   ἀρχε͂ς</add></foreign> Luria. Wade-Gery suggested either that the
+ stipulations conclude with a reference to the proposer of an amendment, or
+ that the preceding legislation had been drafted by the <term sortKey="Council">Council</term>, Cleisthenes’ new <term sortKey="Council">boulē</term> of 500 (which replaced the earlier
+ Solonian <term sortKey="Council">boulē</term> of 400). The
+ suggestion that the <term sortKey="archon">archon</term> was <name
+ type="person" n="Bolekles">Boleklēs</name> has not received
+ much support.</p>
+ </div>
+ </div>
+ <div xml:id="commentary" type="section">
+ <head>Historical Commentary</head>
+ <p>In the aftermath of the reforms of <name type="person" n="Cleisthenes"
+ >Cleisthenes</name> of <date from="-0507" to="-0508">508/7
+ BCE</date>, the new Athenian democracy sought to establish a presence in
+ the <placeName key="Saronic Gulf">Saronic Gulf</placeName> against its
+ <placeName key="Peloponnese">Peloponnesian</placeName> (led by <placeName
+ key="Sparta">Sparta</placeName>) and <placeName key="Isthmus"
+ >Isthmian</placeName> (led by <placeName key="Corinth">Corinth</placeName>)
+ opponents. The nearby island of <placeName key="Aegina">Aegina</placeName> and
+ the city-state of <placeName key="Corinth">Corinth</placeName> adjacent to the
+ <placeName key="Isthmus">Isthmus</placeName> both had spheres of interest in
+ the <placeName key="Saronic Gulf">Saronic Gulf</placeName>. These and other
+ <foreign xml:lang="xgrc">
+ <w n="po/leis">poleis</w>
+ </foreign> were active members of the Peloponnesian League, which was led by
+ <placeName key="Sparta">Sparta</placeName> and included <placeName
+ key="Athens">Athens</placeName>. The island of <placeName key="Salamis"
+ >Salamis</placeName>, which <placeName key="Athens">Athens</placeName> had
+ seized in the age of <name type="person" n="Pisistratus">Pisistratus</name> the
+ tyrant <date n="-560">ca. 560 BCE</date> (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0525.tlg001:1.3.3">Paus. 1.3.3</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0525.tlg001:9.6.2">9.6.2</bibl>), provided the ideal base for such a presence. This,
+ the earliest decree of the Athenian <foreign xml:lang="xgrc">
+ <w n="dh=mos">dēmos</w>
+ </foreign>, addresses the rights and responsibilities of <foreign xml:lang="xgrc">
+ <w n="klhrou=xoi">kleruchoi</w>
+ </foreign> or <soCalled>cleruchs</soCalled> (Athenian citizens dwelling outside
+ of <placeName key="Athens">Athens</placeName> who retain their <term sortKey="citizenship">citizenship</term>) settled by <placeName key="Athens"
+ >Athens</placeName> on the island: cleruchs must pay taxes and provide
+ military services to <placeName key="Athens">Athens</placeName>, they may lease
+ the land only to kinsmen (the text here is fragmentary and may refer instead to
+ a dweller) on penalty of a fine, and they must provide their own weapons. The
+ text also refers to an Athenian <term sortKey="archon">archon</term>
+ [here, the local governor, as at <title>LSJ</title> s.v. <foreign xml:lang="grc"
+ >a)/rxon</foreign>, II.2; cf. <bibl type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg003:54.7-54.8">Aristot. <title>Ath. Pol.</title>
+ 54.7-8</bibl>]), whose responsibilities seem to focus on military assessment,
+ and the boulē or <term sortKey="Council">Council</term> of 500
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0525.tlg001:1.3.5">Paus. 1.3.5</bibl>)
+ recently created by <name type="person">Cleisthenes</name>.</p>
+ <p>Who are these settlers, and what does their relocation to <placeName
+ key="Salamis">Salamis</placeName>
+ <date from="-0510" to="-0500">ca. 510-500 BCE</date> tell us about the
+ constitutional reforms of <name type="person">Cleisthenes</name>? The
+ inscription has long been recognized as the first extant Athenian decree and so
+ has undergone considerable scrutiny. Although the various provisions that detail
+ the fiscal and military obligations of those settled on the island have received
+ attention in the scholarship, surely the most controversial passage lies at the
+ end of line 1, and it is here that the identity of the settlers was articulated
+ in this no-longer extant portion of the decree. The new fragment published by
+ Matthaiou confirms the accusative plural <foreign xml:lang="grc">-os</foreign>
+ ending, but does not resolve whether the settlers were referred to as <foreign
+ xml:lang="xgrc">
+ <w xml:lang="xgrc" n="klhrou=xoi">clerouchs</w>
+ </foreign> or as Athenian citizens.</p>
+ <p><foreign xml:lang="xgrc">
+ <w xml:lang="xgrc" n="klhrouxi/a">Cleruchies</w>
+ </foreign> were a phenomenon mostly of <date from="-0499" to="-0400"
+ >5th</date> and <date from="-0399" to="-0300">4th century</date>
+ <placeName key="Athens">Athens</placeName>, and in simplest terms amounted to a
+ community of Athenian colonists inhabiting territory outside of <placeName
+ key="Attica">Attica</placeName> with all of the rights and obligations of
+ Athenian citizens (Graham 1983, 167ff.; the scholiast to <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0033.tlg002:2.19">Pindar 2.19</bibl> refers to <name
+ type="person">Timodemos</name>, of the Attic deme of <name type="deme"
+ n="Acharnai">Acharnai</name> but a clerouch on <placeName key="Salamis"
+ >Salamis</placeName>). With the exception of the cleruchy at <placeName
+ key="Chalcis">Chalcis</placeName> in the aftermath of the conflict with
+ <placeName key="Athens">Athens</placeName> in 506 BCE (where <name
+ type="ancientAuthor">Herodotus</name> refers to the settlement of 4000
+ Athenians on the land of well-to-do Chalcidians: <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0016.tlg001:5.77.2">Hdt. 5.77.2</bibl>, 6.100.1), and <placeName
+ key="Salamis">Salamis</placeName>—if the restoration is
+ correct—<placeName key="Athens">Athens</placeName> dispatched no
+ other cleruchs until the middle of the 5th century (for a list of the cleruchies
+ ca. 450 BCE, see <title>OCD</title> s.v. <soCalled>cleruchy</soCalled>). The
+ restoration of <foreign xml:lang="grc"><add>klero/x</add>os</foreign> supports the
+ interpretation that an Athenian cleruchy on <placeName key="Salamis"
+ >Salamis</placeName> following on the heels of the <placeName key="Chalcidice"
+ >Chalcidian</placeName> settlement would serve as a none-too-subtle
+ challenge to the authority of the Peloponnesian League in the Saronic Gulf
+ (Taylor 1997, 13-15, who with Luria suggests a date as early as 510-508 BCE).
+ These cleruchs on <placeName key="Salamis">Salamis</placeName> will have joined
+ other resident non-native citizens who held deme membership back in <placeName
+ key="Attica">Attica</placeName> but lived on the island. Thus, <name
+ type="person" n="Cleisthenes">Cleisthenes</name>’ political
+ reorganization of <placeName key="Athens">Athens</placeName> and <placeName
+ key="Attica">Attica</placeName> may well have included efforts to create
+ nearby pockets of Athenian <term sortKey="citizens">citizens</term> who
+ could promote <placeName key="Athens">Athens</placeName>’ political
+ agenda, even on the doorstep of her allies and rivals in the <placeName
+ key="Saronic Gulf">Saronic Gulf</placeName> and <placeName key="Chalcis"
+ >Chalcis</placeName>. </p>
+ </div>
+ </body>
+ </text>
+</TEI>

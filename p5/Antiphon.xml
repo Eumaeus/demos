@@ -1,0 +1,66 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+<teiHeader >
+<fileDesc >
+			<titleStmt >
+				<title >Antiphon</title>
+				<author >David D. Phillips</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+			<extent >under 1Mb</extent>
+			<publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+				<authority ><name >A. Mahoney and R. Scaife, edd.</name></authority>
+			</publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+			<sourceDesc >
+				<p >File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc></teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Antiphon</name></head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p ><name  type='ancientAuthor'>Antiphon</name> son of <name  type='person'>Sophilus</name> of the deme <name  type='deme'>Rhamnous</name> (ca. <date  from='-0480' to='-0411'>480-411</date>) is the first of the canonical Attic orators. He was the first Athenian to compose and publish speeches written for delivery by others. <name  type='ancientAuthor'>Antiphon</name> appears not to have taken an active role in Athenian politics until <date  when='-0411'>411</date>, when he masterminded the oligarchic revolution resulting in the brief reign of the <term  sortKey='Four_Hundred'>Four Hundred</term>. When the <term  sortKey='Four_Hundred'>Four Hundred</term> were removed from power, <name  type='ancientAuthor'>Antiphon</name> was tried for treason and condemned to death (<bibl  n='urn:cts:greekLit:tlg0007.tlg121:834a-834b' type='cts-urn'>[Plut.] <title >Moralia</title> 834a-b</bibl>) despite delivering the best defense speech in a capital case which <name  type='ancientAuthor'>Thucydides</name> had ever heard (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:8.68' type='cts-urn'>Thuc. 8.68</bibl>; for fragments of the speech see <bibl  type='secondary'>Gagarin fr. 1</bibl>).</p> 
+
+<p ><name  type='ancientAuthor'>Antiphon</name>’s surviving works include three forensic speeches (<bibl  n='urn:cts:greekLit:tlg0028.tlg001' type='cts-urn'>1</bibl>, <bibl  n='urn:cts:greekLit:tlg0028.tlg005' type='cts-urn'>5</bibl>, <bibl  n='urn:cts:greekLit:tlg0028.tlg006' type='cts-urn'>6</bibl>) and three <title >Tetralogies</title> (<bibl  n='urn:cts:greekLit:tlg0028.tlg002' type='cts-urn'>2</bibl>, <bibl  n='urn:cts:greekLit:tlg0028.tlg003' type='cts-urn'>3</bibl>, <bibl  n='urn:cts:greekLit:tlg0028.tlg004' type='cts-urn'>4</bibl>), all dealing with <term  sortKey='homicide'>homicide</term>. The <title >Tetralogies</title>, perhaps composed as early as the <date  from='-0449' to='-0440'>440s</date>, are sets of model speeches in hypothetical <term  sortKey='homicide'>homicide</term> cases; each consists of two speeches for the prosecution and two for the defense. <name  type='ancientAuthor'>Antiphon</name>’s forensic speeches, written for litigants in actual Athenian homicide trials, can be dated to the decade preceding his death. Although the aforementioned works all concern <term  sortKey='homicide'>homicide</term>, the surviving fragments of <name  type='ancientAuthor'>Antiphon</name> deal with a number of issues, from the tribute of Athenian allies (<bibl  n='Antophon fr. A1-2 Maidment'>fr. A1-2 Maidment</bibl>) to a lawsuit regarding peacocks (<bibl  n='Antiphon fr. B12 Maidment'>fr. B12 Maidment</bibl>). In addition, <soCalled ><name  type='ancientAuthor'>Antiphon</name> the sophist,</soCalled> the author of the works <title >On Truth</title> and <title >On Concord</title>, is probably to be identified with <name  type='ancientAuthor'>Antiphon</name> the orator. (See also <name  type='ancientGenre'>Oratory</name>.)</p> 
+
+
+<byline >David D. Phillips</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

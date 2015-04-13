@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+
+<fileDesc >
+ <titleStmt >
+ <title >Dem. 44</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+</fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg044' type='cts-urn'>Dem. 44</bibl></head>
+<p ><name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Leochares</name></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. This speech was written by <name  type='ancientAuthor'>Demosthenes</name> on behalf of the son of the plaintiff, <name  type='person'>Aristodemus</name>. The son is representing his father in the suit that the father has brought against <name  type='person'>Leochares</name>. The case involves a dispute over the inheritance of the estate of a certain <name  type='person'>Archiades</name>. <name  type='person'>Aristodemus</name>, the great-grandnephew of <name  type='person'>Archiades</name> is suing <name  type='person'>Leochares</name>, the great-great-grandnephew of <name  type='person'>Archiades</name>, who, through a series of three posthumous adoptions, is attempting to have himself declared the legally adopted son of <name  type='person'>Archiades</name>. <name  type='person'>Archiades</name>, who left no heirs, was survived by two male relatives: a brother, <name  type='person'>Meidylides</name>, and the grandson of his sister <name  type='person'>Archidice</name>, whose name was <name  type='person'>Leocrates</name>. According to Athenian law, the brother, <name  type='person'>Meidylides</name>, was designated the heir, being more closely related than <name  type='person'>Leocrates</name>, who was the grandson of a sister (<bibl  n='urn:cts:greekLit:tlg0014.tlg044:2' type='cts-urn'>Dem. 44.2</bibl>). However, at the time of <name  type='person'>Archiades</name>’ death, <name  type='person'>Meidylides</name> was out of the country. <name  type='person'>Leocrates</name>, through posthumous adoption (see also <bibl  n='urn:cts:greekLit:tlg0014.tlg043' type='cts-urn'>Dem. 43</bibl> for another such instance), had himself declared the adopted son of <name  type='person'>Archiades</name> and assumed control of the estate. <name  type='person'>Meidylides</name>, upon his return to the city, was persuaded not to pursue justice on his own behalf but rather to consent to the circumstances. He and his grandson <name  type='person'>Aristodemus</name> (the plaintiff in this case) remained passive while the family of <name  type='person'>Leocrates</name> continued to hold on to the estate of <name  type='person'>Archiades</name>. <name  type='person'>Leocrates</name> transferred the clan and deme membership of his son <name  type='person'>Leostratus</name> to that of <name  type='person'>Archiades</name>, thus giving <name  type='person'>Leostratus</name> the legal status of an adopted son of <name  type='person'>Archiades</name>. <name  type='person'>Leostratus</name>, in turn, did the same for his son <name  type='person'>Leocrates</name> (who was named after his grandfather). <name  type='person'>Leocrates</name>, the grandson, died without heirs, at which time <name  type='person'>Aristodemus</name> stepped forward to claim the estate as the nearest of kin to the deceased <name  type='person'>Archiades</name>. However, <name  type='person'>Leostratus</name> sought to prevent the estate from passing out of his family by attempting to have his younger son, <name  type='person'>Leochares</name>, declared to be the adopted son of <name  type='person'>Archiades</name>. In order to counter this action, <name  type='person'>Aristodemus</name> brought <name  type='person'>Leochares</name> into court by filing an affidavit of objections (<foreign  xml:lang='grc'>διαμαρτυρία</foreign>) (<bibl  n='urn:cts:greekLit:tlg0014.tlg044:1' type='cts-urn'>Dem. 44.1</bibl>; also <bibl  n='urn:cts:greekLit:tlg0014.tlg044:5' type='cts-urn'>Dem. 44.5</bibl>). During the trial, the speaker argues that, by lineage, <name  type='person'>Aristodemus</name> is much more closely related to <name  type='person'>Archiades</name> than is <name  type='person'>Leochares</name>, who is only the great-great-grandson of <name  type='person'>Archiades</name>’ sister. Furthermore, the speaker states that <name  type='person'>Leochares</name>’ <soCalled >adoption</soCalled> as <name  type='person'>Archiades</name>’ son, which only took place after the suit had been filed by <name  type='person'>Aristodemus</name>, could only originate from dishonest motives. (For details of adoption in <placeName  key='Athens'>Athens</placeName>, especially the unusual institution of posthumous adoption, see <bibl >Rubinstein, Lene, <title >Adoption in IV. century Athens</title> [Copenhagen : Museum Tusculanum Press, 1993]</bibl>).</p>
+<byline >Christopher Cotten</byline>
+</div> 
+
+</body>
+</text>
+</TEI>

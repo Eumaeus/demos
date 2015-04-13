@@ -1,0 +1,69 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+			<titleStmt >
+				<title >Lysias</title>
+				<author >David D. Phillips</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Lysias</name></head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p ><name  type='ancientAuthor'>Lysias</name> son of <name  type='person'>Cephalus</name> (<date  from='-0459' to='-0380'>459/8-post 380</date>) was a <term  sortKey='metic'>metic</term> (a resident alien) whose father moved to <placeName  key='Athens'>Athens</placeName> from <placeName  key='Syracuse'>Syracuse</placeName> at the invitation of <name  type='person'>Pericles</name>. As a teenager he moved to <placeName  key='Thurii'>Thurii</placeName>, where he studied rhetoric; he was banished after the Sicilian expedition ended in disaster and returned to <placeName  key='Athens'>Athens</placeName>, where he and his brother <name  type='person'>Polemarchus</name> prospered as owners of a shield-making business.</p>
+
+<p >When the <term  sortKey='Thirty_Tyrants'>Thirty Tyrants</term> came to power in <date  from='-0404' to='-0403'>404/3</date>, they seized the brothers’ assets and put <name  type='person'>Polemarchus</name> to death; <name  type='ancientAuthor'>Lysias</name> barely escaped to <placeName  key='Megara'>Megara</placeName>. Upon the restoration of the democracy in <date  when='-0403'>403</date>, <name  type='ancientAuthor'>Lysias</name> was awarded Athenian <term  sortKey='citizenship'>citizenship</term> by a decree of <name  type='person'>Thrasybulus</name> rewarding <term  sortKey='metics'>metics</term> who had aided the return of the exiled democrats; but the decree was soon repealed, and <name  type='ancientAuthor'>Lysias</name> returned to metic status. Also in <date  when='-0403'>403</date> <name  type='ancientAuthor'>Lysias</name> prosecuted the former tyrant <name  type='person'>Eratosthenes</name> for the killing of <name  type='person'>Polemarchus</name>. The verdict in the trial is unknown; but the speech <name  type='ancientAuthor'>Lysias</name> delivered, <bibl  n='urn:cts:greekLit:tlg0540.tlg012' type='cts-urn'><soCalled >Against Eratosthenes</soCalled> (12)</bibl>, is one of the most important sources we have for the reign of the <term  sortKey='Thirty_Tyrants'>Thirty</term>, as is <bibl  n='urn:cts:greekLit:tlg0540.tlg013' type='cts-urn'><soCalled >Against Agoratus</soCalled> (13)</bibl>, written by <name  type='ancientAuthor'>Lysias</name> for another litigant.</p>
+
+<p >From <date  when='-0403'>403</date> to his death <name  type='ancientAuthor'>Lysias</name> worked as a professional speechwriter. Of the hundreds of speeches ascribed to <name  type='ancientAuthor'>Lysias</name> in antiquity, 35 survive today; in addition we have a number of fragments. <name  type='ancientAuthor'>Lysias</name> composed speeches dealing with a wide variety of issues, ranging from <term  sortKey='homicide'>homicide</term> (<bibl  n='urn:cts:greekLit:tlg0540.tlg001' type='cts-urn'>1</bibl>, <bibl  n='urn:cts:greekLit:tlg0540.tlg012' type='cts-urn'>12</bibl>, <bibl  n='urn:cts:greekLit:tlg0540.tlg013' type='cts-urn'>13</bibl>) to intentional wounding (<bibl  n='urn:cts:greekLit:tlg0540.tlg013' type='cts-urn'>3</bibl>, <bibl  n='urn:cts:greekLit:tlg0540.tlg014' type='cts-urn'>4</bibl>), slander (<bibl  n='urn:cts:greekLit:tlg0540.tlg010' type='cts-urn'>10</bibl>), <term ><term  sortKey='law_glossary@dokimasia'>dokimasiai</term></term> (<bibl  n='urn:cts:greekLit:tlg0540.tlg026' type='cts-urn'>26</bibl>, <bibl  n='urn:cts:greekLit:tlg0540.tlg031' type='cts-urn'>31</bibl>), and a disability pension (<bibl  n='urn:cts:greekLit:tlg0540.tlg024' type='cts-urn'>24</bibl>). <name  type='ancientAuthor'>Lysias</name>’ prose was widely admired in antiquity for its <term >charis</term> (grace, pleasantness) and <term >ethopoiia</term> (portrayal of the speaker’s character). (See also <name  type='ancientGenre'>Oratory</name>.)</p>
+
+<byline >David D. Phillips</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

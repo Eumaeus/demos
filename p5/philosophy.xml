@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Philosophy</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  n='philosophy' type='ancientGenre'>Philosophy</name></head>
+<p >The genre of <name  n='philosophy' type='ancientGenre'>philosophy</name>, in antiquity, was much broader in its scope than the modern discipline of the same name. Ancient philosophy dealt not only in ethics, metaphysics, and logic (the stuff of more recent philosophy), but also in the natural sciences, psychology, and political science (theory and practice). When attempting to use a work of ancient philosophy as a source for Athenian Democracy, it is important to distinguish between speculative works and descriptive ones. Speculative works (like many of <name  type='ancientAuthor'>Plato</name>’s dialogues) describe hypothetical or idealized institutions; descriptive works, like many of <name  type='ancientAuthor'>Aristotle</name>’s, try to describe institutions as they actually were.</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

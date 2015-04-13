@@ -1,0 +1,55 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 17</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg017' type='cts-urn'>Dem. 17</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >On the Treaty with <name  type='person'>Alexander</name></title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech, delivered before the Athenian <term  sortKey='Assembly'>Assembly</term>, on the subject of <name  type='person'>Alexander</name> of <placeName  key='Macedon'>Macedon</placeName> (later known as <name  type='person'>Alexander the Great</name>). After <name  type='person'>Alexander</name>’s father, <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName>, was assasinated in <date  when='-0336'>336 BCE</date>, <name  type='person'>Alexander</name> had to establish himself as his father’s successor, not only in <placeName  key='Macedonia'>Macedonia</placeName>, but in the eyes of the Greeks. <name  type='person'>Philip</name> had forced the Greek cities (including <placeName  key='Athens'>Athens</placeName>, but excepting <placeName  key='Sparta'>Sparta</placeName>) to join in an alliance, with himself as supreme commander of all allied military forces. In <date  when='-0335'>335</date>, <name  type='person'>Alexander</name>, the new Macedonian king re-affirmed the earlier treaty and established himself the leader of the allied Greek cities. This speech, delivered in the Athenian <term  sortKey='Assembly'>Assembly</term> probably very soon after the new treaty was ratified, complains of how <name  type='person'>Alexander</name> abused the terms of the treaty, and calls on <placeName  key='Athens'>Athens</placeName> to go to war with him. The ancient scholar <name  type='ancientAuthor'>Libanius</name> does not think that the speech is actually by <name  type='ancientAuthor'>Demosthenes</name>, but assigns it to <name  type='ancientAuthor'>Hyperides</name> instead: <quote >This speech seems to be falsely attributed. For it does not seem like the other speeches of <name  type='ancientAuthor'>Demosthenes</name> in its style, but seems more like the speeches of <name  type='ancientAuthor'>Hyperides</name>, for a number of reasons, but especially because it has some vocabulary that is more common in <name  type='ancientAuthor'>Hyperides</name> than in <name  type='ancientAuthor'>Demosthenes</name>, words like <soCalled ><foreign  xml:lang='grc'> νεόπλουτοι</foreign></soCalled> and <soCalled ><foreign  xml:lang='grc'>βδελυρεύεσθαις</foreign></soCalled></quote> (<quote  xml:lang='grc'>ὁ δὲ λόγος ψευδεπίγραφος εἶναι δοκεῖ. οὐ γὰρ ἔοικε κατὰ τὴν ἰδέαν τοῖς ἄλλοις τοῖς τοῦ Δημοσθένους, ἀλλὰ τῷ Ὑπερίδου χαρακτῆρι μᾶλλον προσχωρεῖ τά τε ἄλλα καὶ λέξεις τινὰς ἔχει κατ?Ξλοσε-θυοτε-ς??ἐκεῖνον μᾶλλον εἰρημένας ἢ τὸν Δημοσθένην, οἷον νεόπλουτοι καὶ βδελυρεύεσθαι</quote>) (<bibl  n='Lib. Arg. Orat. Dem. 16'>Lib. Arg. Orat. Dem. 16</bibl>; see also <name  n='ancient scholarship' type='ancientGenre'>Ancient Scholarship</name>). (Source for dates: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 463</bibl>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

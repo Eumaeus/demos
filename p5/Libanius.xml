@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Libanius</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><name  type='ancientAuthor'>Libanius</name></head>
+<p ><date  from='-0314' to='-0393'>314 CE - c. 393 CE</date> (Source: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>). An ancient scholar from <placeName  key='Antioch'>Antioch</placeName> who was one of the most renowned literary figures of late antiquity. Of his works, 64 speeches survive, which deal with questions of government and education. As a teacher of rhetoric, his educational works—in addition to the speeches, we have 1600 of his letters and 51 of his school exercises—are interested in purity of language and detailed questions of literary, oratorical style. Libanius also wrote <soCalled >hypotheses</soCalled> or summaries, of all of <name  type='ancientAuthor'>Demosthenes</name>’ orations; these are interesting in their own right, and often provide useful information regarding questions of authorship (did <name  type='ancientAuthor'>Demosthenes</name> really write a particular speech?) and date (see also <name  n='oratory' type='ancientGenre'>Oratory</name>). It is important to remember, when using <name  type='ancientAuthor'>Libanius</name> as a source for anything to do with classical Athenian democracy, that he lived seven hundred years after the fact; even though he is <soCalled >ancient</soCalled>, he was not at all close to the events themselves. (See <name  n='ancient scholarship' type='ancientGenre'>Ancient Scholarship</name>).</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

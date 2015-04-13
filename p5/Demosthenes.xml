@@ -1,0 +1,67 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Aeschin. 1</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher > The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text >
+ <body >
+ <div  n='Description' type='Description'>
+ <head >
+ <name  type='ancientAuthor'>Demosthenes</name>
+ </head>
+ <p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0388'>
+ <figure  n='1997.99.0388.jpeg' rend='left'/>
+ </ref>
+ <date  from='-0384' to='-0322'>384-322 BCE</date> (source: <bibl >
+ <title >OCD</title>
+ <edition >3</edition>
+ </bibl>). <name  type='ancientAuthor'>Demosthenes</name> was one of the most prolific
+ orators of the <date  from='-0399' to='-0300'>4th century BCE</date>, and arguably the
+ greatest (see <name  n='oratory' type='ancientGenre'>Oratory</name>). His earliest speeches
+ are for plaintiffs or defendants in private lawsuits. From the year <date  when='-0355'>355</date> (when he wrote speeches for the prosecution off the politically prominent
+ men <name  type='person'>Androtion</name> and <name  type='person'>Leptines</name>
+ <note  place='inline' rend='bracket' resp='CWB'>see <bibl  n='urn:cts:greekLit:tlg0014.tlg022' type='cts-urn'>Dem. 22</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg020' type='cts-urn'>Dem. 20</bibl></note>), he became increasingly
+ involved in the public business of the Athenian Democracy, writing and delivering speeches
+ in trials with important political implications. After <date  when='-0351'>351</date> many
+ of <name  type='ancientAuthor'>Demosthenes</name>’ speeches are on the subject of
+ <placeName  key='Athens'>Athens</placeName>’ policy toward <placeName  key='Macedonia'>Macedonia</placeName>, concerning which he came into conflict with <name  type='ancientAuthor'>Aeschines</name> on several notable occasions (cf. <bibl  n='urn:cts:greekLit:tlg0014.tlg018' type='cts-urn'>Dem. 18</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg019' type='cts-urn'>Dem. 19</bibl>, <bibl  n='urn:cts:greekLit:tlg0026.tlg002' type='cts-urn'>Aeschin. 2</bibl>, <bibl  n='urn:cts:greekLit:tlg0026.tlg003' type='cts-urn'>Aeschin. 3</bibl>). (See also the genre of <name  n='oratory' type='ancientGenre'>Oratory</name>.)</p>
+ <byline >Christopher Blackwell</byline>
+ </div>
+ </body>
+ </text>
+</TEI>

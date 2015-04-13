@@ -1,0 +1,116 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title  level='m' type='main'> The <placeName  key='Salamis'>Salamis</placeName>
+ Decree</title>
+ <author >Michael Arnush</author>
+ </titleStmt>
+ <editionStmt >
+ <edition >A new edition, with notes, aimed at both scholarly and lay readers. Based
+ on the Diplomatic Text, edited by Michael Arnush, after the work of Wade-Gery,
+ CQ 40 (1946) 101-4; Luria, Kadmos, 3 (1964) 88-107; Meritt, Hesp. 10 (1941)
+ 307-1 </edition>
+ </editionStmt>
+ <publicationStmt >
+ <publisher > The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text  xml:lang='eng'>
+ <body >
+ <div  xml:lang='grc' n='Text' type='section'>
+ 
+ <l  xml:lang='grc' n='1'>ἔδοχσεν το͂ι δέμοι· τ<add >ὸς ἐ Σ</add>αλαμ<add >ῖνι
+ κλερόχ</add>ος</l>
+ <l  xml:lang='grc' n='2'>οἰκε͂ν ἐᾶ σαλαμῖνι <gap  extent='5' reason='lost'/>λεν
+ <gap  extent='7' reason='lost'/>
+ <add >Ἀθέ]νε-</add>
+ </l>
+ <l  xml:lang='grc' n='3'>σι τελε͂ν καὶ στρατ<add >εύεσθ</add>αι ⋮ τ<add >ὰ
+ δ᾽ ἐ Σαλαμῖνι</add> μ-</l>
+ <l  xml:lang='grc' n='4'>ὲ μι<add >σθ</add>ο͂ν, ἐὰ μὲ οἰκ<gap  extent='7' reason='lost'/>ο<gap  extent='1' reason='lost'/>
+ <add >μισθόμενο</add>
+ <gap  extent='1' reason='lost'/>
+ <add >⋮ ἐ</add>ὰ </l>
+ <l  xml:lang='grc' n='5'>ν δὲ μισθο͂ι, ἀποτί<add >νεν τὸ μισθόμενον καὶ
+ τὸ</add> μ-</l>
+ <l  xml:lang='grc' n='6'>ισθο͂ντα Ηεκάτε<add >ρον </add>
+ <gap  extent='19' reason='lost'/>
+ </l>
+ <l  xml:lang='grc' n='7'>ἐς δεμόσιο<add >ν · ἐσπράτενεν δὲ τὸν ἄ</add>-</l>
+ <l  xml:lang='grc' n='8'>ρχο<add >ν</add>τα, ἐὰν <add >δὲ μέ,
+ εὐθ</add>ύ<add >νεσθαι · τ</add>-</l>
+ <l  xml:lang='grc' n='9'>ὰ δὲ <add > Η</add>όπλα π<add >αρέχες</add>αθα<add >ι
+ αὐτὸς · τ</add>-</l>
+ <l  xml:lang='grc' n='10'>
+ <add >ριάκ</add>οντα · δρ<add >αχμο͂ν ⋮</add>
+ Ηο<add >πλισμένο</add>-</l>
+ <l  xml:lang='grc' n='11'>ν δὲ <add >τ</add>ὸν ἄρχοντ<add >α τὰ Ηόπλα
+ κρίν</add>-</l>
+ <l  xml:lang='grc' n='12'>εν ⋮ <add >ἐπ</add>ὶ τε͂ς
+ β<add >ο</add>λε͂<add >ς</add>
+ <gap  extent='11' reason='lost'/>
+ </l>
+ </div>
+ <div  xml:lang='eng' n='Context' type='section'>
+ <head >Context</head>
+ <p >Title: <placeName  key='Salamis'>Salamis</placeName> Decree</p>
+ <p >Find Spot: <placeName  key='Acropolis, Athens'> Acropolis</placeName>
+ </p>
+ <p >Location: Epigraphical Museum, inv. EM 6798+6815+12936, AM 7021</p>
+ <p >Description: Seven marble fragments, five of them conjoined, of a horizontally
+ tapered stele. The text is inscribed on the horizontal face. Min. H. 0.219m.
+ Min. L. 0.976m.</p>
+ <p >Letter Forms: Archaic letters, including tailed rho, three-bar sigma. Stoichedon
+ on ll. 1-6.</p>
+ <p >Images: Kirchner, IIA.2,13; Austin pl.4; Schweigert, Hesp. 7 (1938) 265 (new
+ frag.); Meritt, Hesp. 10 (1941) 305; Matthaiou Horos 8-9 (1990-91) [1993] 11
+ (facsimile); CSAD <ref  target='http://www.csad.ox.ac.uk/CSAD/Images/00/Image07.html'>http://www.csad.ox.ac.uk/CSAD/Images/00/Image07.html</ref>
+ </p>
+ <p >Date: <date  from='-0510' to='-0500'>ca. 510-500 BCE</date> (Raubitschek,
+ <title >DAA</title>, suggests <date  from='-0490' to='-0480'>490-480
+ BCE</date>)</p>
+ </div>
+ <div  xml:lang='eng' n='Bibliography' type='section'>
+ <head >Bibliography</head>
+ <p >
+ <title >IG</title> 1 s p.57; <title >IG</title> 1.2.1 + p.302f.; <title >IG</title>
+ 1.3.1 and fasc. 2, 935; Tod <title >GHI</title> 11; ML 14; <title >SEG</title>
+ x.1; Wilhelm, Sitzb. Wien. 217.5 (1939) 5-11; Meritt, <title >Hesp.</title> 10
+ (1941) 307-1; Wade-Gery, <title >CQ</title> 40 (1946) 101-4; Guarducci,
+ <title >RF</title> 76 (1948) 238-43; Luria, <title >Kadmos</title>, 3 (1964)
+ 88-107; Fornara 1983, no. 44; Hansen, <title >Hermes</title> 115 (1985) 500;
+ Matthaiou <title >Horos</title> 8-9 (1990-91) [1993] 9-14 (new fragment).</p>
+ </div>
+ </body>
+ </text>
+</TEI>

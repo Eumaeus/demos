@@ -1,0 +1,82 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Bibliography</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text  xml:lang='en'>
+<body >
+
+<div  n='Summary' type='Summary' xml:id='Summary'>
+<head >Summary</head>
+
+<p >This is a bibliography of secondary works cited in <title >Dēmos</title> articles.</p>
+
+</div>
+
+<div  n='Bibliography' type='Section' xml:id='Bibliography'><head >Secondary Works Cited</head>
+
+<list  rend='numbered'>
+
+<item ><bibl  type='secondary'>John Boardman, Jasper Griffin, Oswyn Murray, <title >Oxford History of the Classical World</title> (Oxford, 1986) [<title >OHCW</title>]</bibl>.</item>
+
+<item ><bibl  type='secondary'>J.A. Cook, trans., M.H. Hansen, <title >The Athenian democracy in the age of Demosthenes : structure, principles, and ideology</title> 2nd edition (Oxford, 1991)</bibl>.</item> 
+
+<item ><bibl  type='secondary'>G. Crane, ed., Perseus Encyclopedia, <term >s.v.</term> <soCalled ><name  type='person'>Lysias</name></soCalled></bibl>.</item>
+
+<item ><bibl  type='secondary'>Victor Ehrenberg, <title >The Greek State</title>, 2nd English Edition (Methuen, 1969) 31</bibl>.</item>
+
+<item ><bibl  type='secondary'>A.W. Gomme, <title >The Population of <placeName  key='Athens'>Athens</placeName> in the Fifth and Fourth Centuries B.C.</title> (Blackwell, 1933) 26</bibl>.</item>
+
+<item ><bibl  type='secondary'>E. M. Harris, <title >Aeschines and Athenian Politics</title> (Oxford, 1995)</bibl>.</item>
+
+<item ><bibl  type='secondary'>S. Hornblower and A. Spawforth edd., <title >The Oxford Classical Dictionary</title>, 3rd Edition (Oxford, 1996) [<title >OCD</title><edition >3</edition>]</bibl>.</item>
+
+<item ><bibl  type='secondary'>P.J. Rhodes, <title >Aristotle: the Athenian Constitution</title> (Penguin, 1984)</bibl>.</item>
+
+<item ><bibl  type='secondary'>P.J. Rhodes, <title >Commentary on the Aristotelian <title >Athenaion Politeia</title></title> (Oxford, 1993)</bibl>.</item>
+
+
+</list>
+
+</div>
+
+</body>
+</text>
+</TEI>

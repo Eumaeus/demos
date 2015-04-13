@@ -1,0 +1,410 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+		<fileDesc >
+			<titleStmt >
+				<title >Athenian Political Art from the fifth and fourth centuries BCE: Images of Historical Individuals</title>
+				<author >Amy C. Smith</author>
+			</titleStmt>
+		<publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text  xml:lang='en'>
+<body >
+
+<div  n='Summary' type='Summary' xml:id='Summary'>
+<head >Summary</head>
+
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0049&amp;type=sculpture'><figure  n='1997.99.0049.jpeg' rend='right'/></ref>Most portraits of individuals from Classical Greece are best known through copies of the Greek originals, created in late Hellenistic and Roman times, when it became popular to decorate domestic spaces with Greek art works and copies thereof. Intellectuals in these periods particularly enjoyed surrounding themselves with images of their favorite Greek statesmen and writers. Whereas the original Greek portraits, which generally occupied civic spaces, and were often commissioned at public expense, depicted bodies as well as heads, copies more often took the form of busts or <term >herms</term> (rectangular shafts surmounted with the shoulder and head of the depicted individual). In some cases these copies were inscribed with the names of the individuals represented, which has been immeasurably helpful in determining which portraits depict which persons. Some of these inscriptions, however, have been found to be inauthentic, sometimes added in later times. Scholars have looked to the ancient writings as well as to the portraits themselves, for information regarding the ancient contexts and circumstances regarding portraits of historical persons in antiquity.</p>
+
+<p >This article provides basic information about portraits of individuals who played pivotal roles in the Athenian Democracy. The lists of extant portraits are not comprehensive, but include the most useful portraits, whether originals or copies, that represented these individuals:</p>
+
+</div>
+
+<div  n='Aeschines' type='Section' xml:id='Aeschines'>
+<head ><name  type='ancientAuthor'>Aeschines</name></head>
+
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0389'><figure  n='1997.99.0389.jpeg' rend='left'/></ref><emph >Evidence</emph>: The only indication of a statue of <name  type='ancientAuthor'>Aeschines</name> in ancient literature is <name  type='ancientAuthor'>Christodoros</name>’ mention (<bibl  n='Ecphr. in Gr. Anth. 2.13 ff.'><title >Ecphr. in Gr. Anth.</title> 2.13 ff.</bibl>) of a bronze statue of <name  type='ancientAuthor'>Aeschines</name> in the <name  n='Zeuxippos, Constantinople' type='site'>Zeuxippos</name> at <placeName  key='Constantinople'>Constantinople</placeName>. He remarks that the figure seems <quote >… to contract his bearded cheeks as if about to take up the fight in the bustling <term  sortKey='assembly'>assembly</term></quote> (trans. <bibl  n='Richter 1984, 73' type='secondary'>Richter 1984, 73</bibl>). The hollowed cheeks are barely perceptible in the <placeName  key='Naples'>Naples</placeName> portrait of <name  type='ancientAuthor'>Aeschines</name> (the only full portrait of him) [2]. Yet the nine other copies of a portrait type identified as that of <name  type='ancientAuthor'>Aeschines</name> reflect the sober, calm characteristics one might expect of this <date  from='-0399' to='-0300'>fourth century</date> orator. Two herm portraits (in <placeName  key='London'>London</placeName> [1] and the <name  n='Vatican' type='site'>Vatican</name> [3]) are reliably labelled with <name  type='ancientAuthor'>Aeschines</name>’ name (<foreign  xml:lang='grc'>ΑΙΣΧΙΝΗΣ</foreign>).</p>
+
+<p ><emph >Extant portraits</emph>:</p>
+<list  rend='numbered'>
+
+<item ><name  type='sculpture'>London 1839</name>: A marble herm found in <placeName  key='Bitolia Macedonia'>Bitolia</placeName>, <placeName  key='Macedonia'>Macedonia</placeName>.</item>
+
+<item ><name  type='sculpture'>Naples 6018</name>: A marble statue found in the <soCalled ><name  n='Villa of the Papyri' type='site'>Villa of the Papyri</name>,</soCalled> <placeName  key='Herculaneum'>Herculaneum</placeName> (<ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0426'>image</ref>).</item>
+
+<item ><name  type='sculpture'>Vatican 297</name>: A marble herm found in the <soCalled ><name  n='Villa of Cassius' type='site'>Villa of Cassius</name>,</soCalled> near <placeName  key='Tivoli'>Tivoli</placeName> (shown here).</item>
+
+</list>
+
+</div>
+
+<div  n='Alcibiades' type='Section' xml:id='Alcibiades'>
+<head >Alcibiades</head>
+
+<p >(statesman/general, <date  from='-0450' to='-0404'>ca. 450-404 BCE</date>)</p>
+
+<p ><emph >Evidence</emph>:</p>
+
+<p ><name  type='ancientAuthor'>Pausanias</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:6.3.15' type='cts-urn'>Paus. 6.3.15</bibl>) provides the only evidence for a statue of <name  type='person'>Alcibiades</name> set up during his life: he mentions that a bronze statue of <name  type='person'>Alcibiades</name> was dedicated by the <placeName  key='Samos'>Samians</placeName>, <date  from='-0410' to='-0407'>ca. 410-407</date> (when <name  type='person'>Alcibiades</name> had a fleet along the <placeName  key='Ionia, Ionian coast'>Ionian coast</placeName>), in the <name  n='Temple of Hera, Olympia' type='site'>Temple of Hera</name> (probably at <placeName  key='Olympia'>Olympia</placeName>). He was also the subject of several paintings displayed at <placeName  key='Athens'>Athens</placeName>, probably during his lifetime. <name  type='ancientAuthor'>Athenaeus</name> reports that when <name  type='person'>Alcibiades</name> returned to <placeName  key='Athens'>Athens</placeName> from <placeName  key='Olympia'>Olympia</placeName>, he set up two paintings, by <name  type='artist'>Aglaophon</name> of <placeName  key='Thasos'>Thasos</placeName>, on the <name  n='Acropolis Athens' type='site'>Acropolis</name>: (1) personifications of the <soCalled >Olympic Games</soCalled> and the <soCalled >Pythian Games</soCalled> placing wreaths on <name  type='person'>Alcibiades</name>’ head and (2) the personification <name  type='god'>Nemea</name> seated, with beautiful <name  type='person'>Alcibiades</name> on her lap (<bibl  n='urn:cts:greekLit:tlg0008.tlg001:12.534d' type='cts-urn'>Ath. 12.534D</bibl>). The paintings probably celebrated <name  type='person'>Alcibiades</name>’ victory in the chariot race at the 91st Olympiad (in <date  when='-0416'>416 BCE</date>, cf. <bibl  n='urn:cts:greekLit:tlg0003.tlg001:6.16.12' type='cts-urn'>Thuc. 6.16.12</bibl>). The painting with <name  type='god'>Nemea</name> may be that mentioned by <name  type='ancientAuthor'>Plutarch</name> and <name  type='ancientAuthor'>Pausanias</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.22.7' type='cts-urn'>Paus. 1.22.7</bibl>), or perhaps there was more than one painting. <name  type='ancientAuthor'>Plutarch</name> notes that <quote >When <name  type='artist'>Aristophon</name> painted an allegorical picture which showed <name  type='god'>Nemea</name> embracing <name  type='person'>Alcibiades</name> people were delighted and came in crowds to look at it. But the older generation were offended at this too; they thought it a sight fit for a tyrant’s court and an insult to the laws of <placeName  key='Athens'>Athens</placeName></quote> (<bibl  n='urn:cts:greekLit:tlg0007.tlg015:16.7' type='cts-urn'>Plut. <title >Alc.</title> 16.7</bibl>).</p>
+
+<p ><name  type='person'>Alcibiades</name>’ general appearance was well known in antiquity, as he was praised by several writers for his beauty (<bibl  n='urn:cts:latinLit:stoa0232.stoa001:36.28' type='cts-urn'>Pliny <title >HN</title> 36.28</bibl>; <bibl  n='urn:cts:greekLit:tlg0007.tlg015:1.3' type='cts-urn'>Plut. <title >Alc.</title> 1.3</bibl>). Specifics regarding his appearance are noted by <name  type='ancientAuthor'>Plutarch</name> (<bibl  n='urn:cts:greekLit:tlg0007.tlg015:1.4' type='cts-urn'>Plut. Alc. 1.4</bibl>), that his neck was bent, and<name  type='ancientAuthor'> Athenaeus</name> (<bibl  n='urn:cts:greekLit:tlg0008.tlg001:12.534c' type='cts-urn'>Ath. 12.534C</bibl>) that he usually wore his hair long.</p>
+
+<p >Other statues are recorded by <name  type='ancientAuthor'>Dio Chrysostum</name> (<bibl  n='urn:cts:greekLit:tlg0612.tlg001:37.40' type='cts-urn'><title >Orat.</title> 37.40</bibl>), who notes a portrait of <name  type='person'>Alcibiades</name> sculpted by <name  type='person'>Polycles</name>, and a another one that was changed into the portrait of <name  type='person'>Chalkopogon</name> (<name  type='person'>L. Domitius Ahenobarbus</name>), a Roman. <name  type='ancientAuthor'>Pliny</name> records a statue of <name  type='person'>Alcibiades</name> in a chariot, sculpted by <name  type='person'>Phyromachos</name> (or <name  type='person'>Pyromachos</name>) (<bibl  n='urn:cts:latinLit:stoa0232.stoa001:34.80' type='cts-urn'>Plin. <title >HN</title> 34.80</bibl>), and another by <name  type='person'>Nikeratos</name> (<bibl  n='urn:cts:latinLit:stoa0232.stoa001:34.88' type='cts-urn'>Plin. <title >HN</title> 34.88</bibl>). <name  type='person'>Alcibiades</name> was also popular among the Romans. <name  type='ancientAuthor'>Pliny</name> discusses the placement of statues of <name  type='person'>Pythagoras</name> and <name  type='person'>Alcibiades</name> in the corners of the <name  n='Comitium Rome' type='site'>Comitium</name> in <placeName  key='Rome'>Rome</placeName> when, during a Samnite War, <name  type='god'>Pythian Apollo</name> commanded that a portrait of the bravest of the Greeks and one of the wisest men, be erected in a conspicuous place (<bibl  n='urn:cts:latinLit:stoa0232.stoa001:34.26' type='cts-urn'>Plin. <title >HN</title> 34.26</bibl>). <name  type='ancientAuthor'>Pliny</name> also tells a story of the young <name  type='person'>Alcibiades</name>, shown as <name  type='god'>Eros</name> with a thunderbolt, in the <name  n='Portico of Octavia' type='site'>Portico of Octavia</name> in <placeName  key='Rome'>Rome</placeName> (<bibl  n='urn:cts:latinLit:stoa0232.stoa001:36.28' type='cts-urn'>Plin. <title >HN</title> 36.28</bibl>). As <name  type='person'>R.R.R. Smith</name> notes (<bibl  n='Richter 1984, 83' type='secondary'>Richter 1984, 83</bibl>), this story may have been confused with that told by <name  type='ancientAuthor'>Plutarch</name> and <name  type='ancientAuthor'>Athenaeus</name> about <name  type='person'>Alcibiades</name>’ golden shield that depicted <name  type='god'>Eros</name> armed with a thunderbolt (<bibl  n='urn:cts:greekLit:tlg0007.tlg015:16.1' type='cts-urn'>Plut. <title >Alc.</title> 16.1</bibl>; <bibl  n='urn:cts:greekLit:tlg0008.tlg001:13.534e' type='cts-urn'>Ath. 13.534E</bibl>). The emperor <name  type='person'>Hadrian</name> was said to have erected a statue of <name  type='person'>Alcibiades</name> (in Parian marble) on the <name  n='Tomb of Alcibiades Melissa' type='site'>Tomb of Alcibiades</name> at <placeName  key='Melissa Phrygia'>Melissa</placeName>, in <placeName  key='Phrygia'>Phrygia</placeName> (<bibl  n='urn:cts:greekLit:tlg0008.tlg001:13.574f' type='cts-urn'>Ath. 13.574F</bibl>), while <name  type='ancientAuthor'>Christodoros</name> (<bibl  n='Ecphr. in Grk. Anth.'><title >Ecphr. in Grk. Anth.</title></bibl>) mentions a statue of <name  type='person'>Alcibiades</name>, shown as a counsellor, in the <name  n='Zeuxippos Constantinople' type='site'>Zeuxippos</name> at <placeName  key='Constantinople'>Constantinople</placeName>. None of these portraits may be recognized in the extant portraits, nor in a group of eight portraits formerly thought to have been the <name  type='person'>Alcibiades</name> type (<bibl  n='Richter 1965, 106, figs. 499-450' type='secondary'>Richter 1965, 106, figs. 499-450</bibl>).</p>
+
+<p ><emph >Extant portraits</emph>:</p>
+
+<p >A Roman mosaic portrait, labelled <foreign  xml:lang='grc'>ΑΛΚΗΒΕΙΑΔΗΣ</foreign>, found at <placeName  key='Sparta'>Sparta</placeName>, shows a youthful image of a beardless man with long, wavy, black hair, wearing a himation.</p>
+
+<p >A marble tondo, found at <placeName  key='Aphrodisias'>Aphrodisias</placeName> in <date  when='1981'>1981</date>, only preserves the lower part of the face. It depicts a beardless man, consistent with the mosaic image.</p>
+
+</div>
+
+<div  n='Aristotle' type='Section' xml:id='Aristotle'>
+<head ><name  type='ancientAuthor'>Aristotle</name></head>
+
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0385'><figure  n='1997.99.0385.jpeg' rend='left'/></ref>(philosopher/scientist/teacher, <date  from='-0384' to='-0322'>384-322 BCE</date>)</p>
+
+<p ><emph >Evidence</emph>: Ancient written sources attest a variety of statues of <name  type='ancientAuthor'>Aristotle</name> set up in antiquity. That at least one was commissioned during his life time is suggested by <name  type='ancientAuthor'>Aristotle</name>’s own will, which directed his executors to oversee that completion and erection of portraits (perhaps of <name  type='ancientAuthor'>Aristotle</name> and his relatives) commissioned by <name  type='person'>Gryllion</name> (<bibl  n='Diog. Laert 5.15'>Diog. Laert 5.15</bibl>). While a location for <name  type='person'>Gryllion</name>’s works is not noted, <name  type='ancientAuthor'>Theophrastos</name>’ will ordered the replacement of a portrait of <name  type='ancientAuthor'>Aristotle</name> in the sacred enclosure of the <name  n='Lykeion' type='site'>Lykeion</name> (school) (<bibl  n='urn:cts:greekLit:tlg0004.tlg001:5.51' type='cts-urn'>Diog. Laert. 5.51</bibl>). <name  type='person'>Alexander the Great</name>, among <name  type='ancientAuthor'>Aristotle</name>’s other students, honored him with portraits. A headless herm, inscribed <quote ><name  type='person'>Alexander</name> set up this portrait of the divine <name  type='ancientAuthor'>Aristole</name>, the son of <name  type='person'>Nikomachos</name>, fountain of all wisdom</quote> (<bibl  n='IG 2.2, 4261'><title >IG</title> II<edition >2</edition>, 4261</bibl>) was found in the <name  n='Stoa of Attalos' type='site'>Stoa of Attalos</name> in the <name  n='Agora Athens' type='site'>Agora</name> at <placeName  key='Athens'>Athens</placeName>. <name  type='ancientAuthor'>Pausanias</name> describes a statue of <name  type='ancientAuthor'>Aristotle</name> at <placeName  key='Olympia'>Olympia</placeName>, which bore no inscription, although <name  type='ancientAuthor'>Pausanias</name> asserted it was set up by a student or a military man (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:6.4.8' type='cts-urn'>Paus. 6.4.8</bibl>).</p>
+
+<p ><name  type='ancientAuthor'>Aristotle</name>’s portraits were clearly popular among the Romans. <name  type='ancientAuthor'>Juvenal</name> noted that <quote >no garden is perfect unless it contains a portrait of <name  type='ancientAuthor'>Aristotle</name> or one of <name  type='person'>Pittakos</name></quote> (<bibl  n='Juv. Sat. 2.5-6'>Juv. <title >Sat.</title> 2.5-6</bibl>; <bibl  n='trans. Richter 1984, 96' type='secondary'>trans. Richter 1984, 96</bibl>). A bronze portrait of <name  type='ancientAuthor'>Aristotle</name> in the <name  n='Zeuxippos Constantinople' type='site'>Zeuxippos</name> at <placeName  key='Constantinople'>Constantinople</placeName> may have been a Greek original. In <bibl  n='In Ecphr. in Grk. Anth. 2.161 ff.'><title >Ecphr. in Grk. Anth.</title> 2.161 ff.</bibl>, <name  type='ancientAuthor'>Christodoros</name> describes it as near that of <name  type='ancientAuthor'>Aeschines</name>, showing <name  type='ancientAuthor'>Aristotle</name> with clasped hands, puckered face, and mobile eyes, as if he was deliberating. Other portraits of <name  type='ancientAuthor'>Aristotle</name> noted by Roman authors were probably copies of one or several Greek originals: <name  type='ancientAuthor'>Cicero</name> saw one in the house of <name  type='person'>Atticus</name> (<bibl  n='urn:cts:latinLit:stoa0087.stoa024:4.10' type='cts-urn'>Cic. <title >Att.</title> 4.10</bibl>); the followers of <name  type='person'>Karpokrates</name>, a gnostic, noted that he liked portraits of <name  type='ancientAuthor'>Aristotle</name> (<bibl  n='Baronius Annal. Ecclesiast.'>Baronius, <title >Annal. Ecclesiast.</title></bibl>); while <name  type='ancientAuthor'>Sidonius Apollinaris</name> (<bibl  n='Epist. 9.14'><title >Epist.</title> 9.14</bibl>) cited an undraped right arm as a characteristic of <name  type='ancientAuthor'>Aristotle</name>’s portraits.</p>
+
+<p >Several ancient authors, in describing <name  type='ancientAuthor'>Aristotle</name>’s appearance, noted the conspicuousness of his short hair and many rings on his fingers (<name  type='person'>Timotheos</name> in <bibl  n='urn:cts:greekLit:tlg0004.tlg001:5.1' type='cts-urn'>Diogenes Laertius 5.1</bibl> and <name  type='ancientAuthor'>Aelian</name> in <bibl  n='urn:cts:greekLit:tlg0545.tlg002:3.19' type='cts-urn'>Ael. <title >VH</title> 3.19</bibl>). <name  type='person'>Timotheos</name> adds that <name  type='ancientAuthor'>Aristotle</name>’s calves were slim, and <name  type='ancientAuthor'>Aelian</name> that <quote >he had a mocking expression on his face</quote> and spoke with a lisp (<bibl  n='trans. Richter 1984' type='secondary'>trans. Richter 1984</bibl>, 95). An anonymous <term >Vita</term> (biography) describes him as small, bald, paunchy, stuttering, and lustful. Most of these features are imperceptible in the existing head portraits of <name  type='ancientAuthor'>Aristotle</name>. Yet one portrait type of the philosopher was successfully identified by <name  type='person'>F. Studniczka</name>, on the basis of a drawing by <name  type='person'>Rubens</name> of a lost miniature portrait, inscribed <foreign  xml:lang='grc'>ΑΡΙΣΤΟΤΕΛΗΣ</foreign>, that once belonged to <name  type='person'>F. Ursinus</name> (the drawing, in <bibl  n='Codex Capponianus 228'>Codex Capponianus 228</bibl>, is preserved in the <name  n='Vatican, Rome' type='site'>Vatican</name>: see <bibl  n='F. Studniczka, Das Bildnis des Aristoteles [Leipzig 1908] 15 ff., pl. 2.2' type='secondary'>F. Studniczka, Das Bildnis des Aristoteles [Leipzig 1908] 15 ff., pl. 2.2</bibl>). More than twenty copies of this type are now known, of which several follow.</p>
+
+
+<p ><emph >Extant portraits</emph>:</p>
+
+<list  rend='numbered'>
+
+<item ><name  type='sculpture'>Vienna Aristotle</name>: a marble head.</item>
+
+<item ><name  type='sculpture'>Terme 8575</name>: a marble head.</item>
+
+<item ><name  type='sculpture'>Louvre MA 80bis</name>: a marble head variant (shown here).</item>
+
+<item >An inscribed tondo, found at <placeName  key='Aphrodisias'>Aphrodisias</placeName> in <date  when='1981'>1981</date>, is unfortunately headless.</item>
+
+</list>
+
+</div>
+
+<div  n='Aspasia' type='Section' xml:id='Aspasia'>
+<head >Aspasia</head>
+
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0375'><figure  n='1997.99.0375.jpeg' rend='left'/></ref>(courtesan/intellectual, <date  from='-0460' to='-0410'>ca. 460s-410s?</date>)</p>
+
+<p ><emph >Evidence</emph>: No portraits of <name  type='person'>Aspasia</name> are attested by ancient sources. Yet a herm in the <name  n='Vatican, Rome' type='site'>Vatican</name> is inscribed with her name: <foreign  xml:lang='grc'>ΑΣΠΑΣΙΑ</foreign> [1]. The herm is surely a Roman copy, seemingly of a <date  from='-0499' to='-0400'>fifth century</date> original that may have been modified with a <date  from='-0399' to='-0300'>fourth century</date> hairstyle (the so-called <soCalled >melon coiffure</soCalled>). Experts continue to believe that the inscription is original (because of the letters and placement of the inscription, at the bottom of the shaft), and that it refers to the famous <name  type='person'>Aspasia</name> associated with <name  type='person'>Pericles</name> and <name  type='person'>Socrates</name>. Although the simple demeanor of the woman depicted in this expressionless portrait does not correspond to stories about <name  type='person'>Aspasia</name>’s beauty and charm, nor her wit, the general appearance of the portrait, as well as details, such as the prominent lids, suit a <date  from='-0499' to='-0400'>fifth century</date> date for the original which would correspond with the life time of <name  type='person'>Aspasia</name>; this may have been a posthumous portrait that attempted, retrospectively, to evoke the image of a mature woman from the <date  from='-0499' to='-0400'>fifth century BCE</date></p>
+
+
+<p ><emph >Extant portraits</emph>:</p>
+
+<list  rend='numbered'>
+<item ><name  type='sculpture'>Vatican 272</name>: A marble herm, inscribed <foreign  xml:lang='grc'>ΑΣΠΑΣΙΑ</foreign> at the bottom, surmounted with a veiled female head (shown here).</item>
+
+</list>
+
+</div>
+
+<div  n='Demosthenes' type='Section' xml:id='Demosthenes'>
+<head ><name  type='ancientAuthor'>Demosthenes</name></head>
+
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0388'><figure  n='1997.99.0388.jpeg' rend='left'/></ref>
+(orator/speechwriter, ca. <date  from='-0384' to='-0322'>384-322</date>)</p>
+
+<p ><emph >Evidence</emph>: Several written sources attest portraits of <name  type='ancientAuthor'>Demosthenes</name>, of which only one was certainly Greek.<bibl  n='urn:cts:greekLit:tlg0007.tlg121:874a' type='cts-urn'> Ps.-Plut. <title >Vit. X orat.</title>, <title >Demosth.</title> 874a</bibl> mentions a statue of <name  type='ancientAuthor'>Demosthenes</name> sculpted by <name  type='person'>Polyeuktos</name> and commissioned by the Athenians 42 years ago his death (i.e., in <date  when='-0280'>280</date>), in the <name  n='Agora Athens' type='site'>Agora</name> of <placeName  key='Athens'>Athens</placeName>, near the <name  n='Athens, Altar of the Twelve Gods' type='site'>Altar of the Twelve Gods</name>. Even the accompanying inscription, an elegaic couplet, is transcribed in this source: <quote >If thy strength had only been equal to thy purposes, <name  type='ancientAuthor'>Demosthenes</name>, never would the Greeks have been ruled by a Macedonian <name  type='god'>Ares</name></quote> (<bibl  n='trans. R.E. Wycherley, Agora 3, no. 698' type='secondary'>trans. R.E. Wycherley, <title >Agora</title> 3, no. 698</bibl>). <bibl  n='urn:cts:greekLit:tlg0007.tlg054:30.5-31.1' type='cts-urn'>Plut. <title >Dem.</title> 30.5-31.1</bibl> adds that this statue was bronze, that it showed <name  type='ancientAuthor'>Demosthenes</name> with interlaced hands, and tells a story about a soldier who placed gold inside the hands of the statue, and returned later to find the gold intact, hidden by the leaves of a neighboring tree; the people responded that this illustrated the incorruptibility of <name  type='ancientAuthor'>Demosthenes</name> (a comparable story is reported in <bibl  n='urn:cts:greekLit:tlg9010.tlg001:delta.455' type='cts-urn'>Suda <title >s.v.</title> <soCalled >Demosthenes</soCalled> [delta, 455]</bibl>). <name  type='ancientAuthor'>Pausanias</name> also saw this statue, which he noted after those of the <term  sortKey='Eponymous_Heroes'>Eponymous Heroes</term> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.8.2-1.8.4' type='cts-urn'>Paus. 1.8.2-4</bibl>). The original portrait sculpted by <name  type='person'>Polyeuktos</name> is thought to be that copied in at least 50 known examples (most found in <placeName  key='Rome'>Rome</placeName>), three of which include the body. The identification of these monuments as copies of <name  type='ancientAuthor'>Demosthenes</name>’ portrait hinges on a small bronze bust, inscribed <foreign  xml:lang='grc'>ΔΗΜΟΣΘΕΝΗΣ</foreign> (<soCalled >Demosthenes</soCalled>) on the chest, found in <date  when='1753'>1753</date> in the <name  n='Villa of the Papyri, Herculaneum' type='site'>Villa of the Papyri, Herculaneum</name> [1], together with similar busts of <name  type='ancientAuthor'>Zeno</name>, <name  type='ancientAuthor'>Epicurus</name>, and <name  type='ancientAuthor'>Hermarchus</name>. (This and other important copies are listed below.) The copies consistently depict a man in his fifties, with a wrinkled, oval face, a furrowed forehead, bushy eyebrows, thin cheeks, a long, pointed, slightly aquiline nose, deep set eyes, short, curly hair, and a tidy beard, a closed mouth with thin lips crowned by a thick mustache. The worried, tight-lipped visage reflects the severe expression and harsh character that were said to have been part of <name  type='ancientAuthor'>Demosthenes</name>’ appearance (<bibl  n='urn:cts:greekLit:tlg0007.tlg054:1.3.6' type='cts-urn'>Plut. <title >Dem.</title> 1.3.6.</bibl>)</p>
+
+<p >Roman copies of a portrait of <name  type='ancientAuthor'>Demosthenes</name> are attested by Ci<name  type='ancientAuthor'/>cero (<bibl  n='urn:cts:latinLit:stoa0087.stoa034:110' type='cts-urn'>Cic. <title >Orat.</title> 110</bibl>), who saw a bronze portrait in the Villa of <name  type='person'>M. Brutus</name> at <placeName  key='Tusculum'>Tusculum</placeName>. <name  type='person'>Polemon</name> of <placeName  key='Smyrna'>Smyrna</placeName> dedicated a bronze statue of <name  type='ancientAuthor'>Demosthenes</name> in the <name  n='Asklepieion Pergamum' type='site'>Asklepieion</name> at <placeName  key='Pergamum'>Pergamum</placeName> (in the time of <name  type='person'>Hadrian</name>), according to <bibl  n='Phrynichos, Epit. p. 421 ed. Lobeck'>Phrynichos, Epit. p. 421 ed. Lobeck</bibl>). <bibl  n='Christodoros in Ecphr. in Grk. Anth. 2.23 ff.'>Christodoros in <title >Ecphr. in Grk. Anth.</title> 2.23 ff.</bibl>, cites a bronze statue in the <name  n='Zeuxippos, Constantinople' type='site'>Zeuxippos</name> at <placeName  key='Constantinople'>Constantinople</placeName>. He provides no factual description, so it is unclear whether this statue was <name  type='person'>Polyeuktos</name>’ original, a copy thereof, or another statue. <name  type='ancientAuthor'>Pausanias</name> records a monument of <name  type='ancientAuthor'>Demosthenes</name>—he does not specify whether it was a statue, a grave stele, or other—in the enclosure of the <name  n='Sanctuary of Poseidon Kalauria' type='site'>Sanctuary of Poseidon</name> at <placeName  key='Kalauria'>Kalauria</placeName>, where <name  type='ancientAuthor'>Demosthenes</name> took poison to avoid capture by the Macedonians, and consequently met his end (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:2.3.2-2.3.3' type='cts-urn'>Paus. 2.3.2-3</bibl>).</p>
+
+<p ><emph >Extant portraits</emph>:</p>
+
+<list  rend='numbered'>
+<item ><name  type='sculpture'>Naples 5467</name>: a small bronze bust, labelled <foreign  xml:lang='grc'>ΔΗΜΟΣΘΕΝΗΣ</foreign>.</item>
+<item ><name  type='sculpture'>Oxford Demosthenes</name>: a marble head purchased in <placeName  key='Constantinople'>Constantinople</placeName>, said to have come from <placeName  key='Eski-Shehr'>Eski-Shehr</placeName> (<placeName  key='Dorylaion'>Dorylaion</placeName>).</item>
+<item ><name  type='sculpture'>Cyrene Demosthenes</name>: a marble head.</item>
+<item ><name  type='sculpture'>Copenhagen NCG 436A</name>: a marble statue, said to have been found in <placeName  key='Campana'>Campana</placeName>, in the <date  from='1700' to='1799'>18th century</date> (shown here)</item>
+<item ><name  type='sculpture'>Vatican 2255</name>: a marble statue from the <name  n='Villa Aldobrandini' type='site'>Villa Aldobrandini</name> (<ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0409'>image</ref>).</item>
+<item ><name  type='sculpture'>Yale Demosthenes</name>: a marble head.</item>
+</list>
+
+</div>
+
+<div  n='Harmodius' type='Section' xml:id='Harmodius'>
+<head >Harmodius &amp; Aristogeiton</head>
+
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0038'><figure  n='1997.99.0038.jpeg' rend='left'/></ref>(<soCalled >Tyrannicides</soCalled> = slayers of <name  type='person'>Hipparchos</name>, brother of the Athenian tyrant <name  type='person'>Hippias</name>, in <date  when='-0514'>514</date>)</p>
+
+<p ><emph >Background story</emph>: <name  type='person'>Aristogeiton</name> and his youthful lover <name  type='person'>Harmodius</name> catapulted themselves to the status of civic heroes in <date  when='-0514'>514 BCE</date> when they killed <name  type='person'>Hipparchos</name>, brother of the Athenian tyrant <name  type='person'>Hippias</name>. The murder was actually instigated by amorous intrigue: <name  type='person'>Harmodius</name> had been wooed by <name  type='person'>Hipparchos</name>, but had rejected him in favor of <name  type='person'>Aristogeiton</name>, at which point <name  type='person'>Harmodius</name> and <name  type='person'>Aristogeiton</name> planned to kill <name  type='person'>Hipparchos</name> and the tyrant, <name  type='person'>Hippias</name>, during a procession through the <name  n='Agora Athens' type='site'>Agora</name> in <placeName  key='Athens'>Athens</placeName>. Although the lovers failed to kill <name  type='person'>Hippias</name> (thus the tyranny continued) and were caught and killed themselves, they were glorified posthumously, when the tyranny was finally overthrown in <date  from='-0511' to='-0510'>511/10</date>. (For more on this story see <bibl  n='urn:cts:greekLit:tlg0016.tlg001:5.55' type='cts-urn'>Hdt. 5.55</bibl>, <bibl  n='urn:cts:greekLit:tlg0016.tlg001:6.109' type='cts-urn'>6.109</bibl>, and <bibl  n='urn:cts:greekLit:tlg0016.tlg001:6.123' type='cts-urn'>6.123</bibl>, as well as <bibl  n='urn:cts:greekLit:tlg0003.tlg001:1.20' type='cts-urn'>Thuc. 1.20</bibl> and <bibl  n='urn:cts:greekLit:tlg0003.tlg001:6.54-6.59' type='cts-urn'>6.54-6.59</bibl>.)</p>
+
+<p ><emph >Evidence</emph>: After <name  type='person'>Hippias</name>’ tyranny was brought to an end, <date  when='-0510'>ca. 510</date>, <name  type='person'>Antenor</name> was said to have sculpted a statue group of <name  type='person'>Harmodius</name> and <name  type='person'>Aristogeiton</name> that was erected in the <name  n='Agora Athens' type='site'>Agora</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.8.5' type='cts-urn'>Paus. 1.8.5</bibl>, <bibl  n='urn:cts:latinLit:stoa0232.stoa001:34.70' type='cts-urn'>Plin. <title >HN</title> 34.70</bibl>). When this original statue group was stolen by the Persians in <date  when='-0480'>480</date> (but returned later, by <name  type='person'>Alexander the Great</name>, according to <name  type='ancientAuthor'>Arrian</name>, or by <name  type='person'>Seleukos I</name>, according to <name  type='ancientAuthor'>Valerius Maximus</name>), the Athenians comissioned <name  type='person'>Kritios</name> and <name  type='person'>Nesiotes</name> to make new ones, which were duly set up in <date  when='-0477'>477/6</date> (<bibl  n='Marm. Par. Ep. 54.70'><title >Marm. Par. Ep.</title> 54.70</bibl>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.8.5' type='cts-urn'>Paus. 1.8.5</bibl>, <bibl  n='urn:cts:latinLit:stoa0232.stoa001:34.70' type='cts-urn'>Plin. <title >HN</title> 34.70</bibl>). There is no evidence regarding the appearance of the Archaic original, and it seems that it is the second statue group that was copied in later monuments. The extant copies show an active group: nude, clean-shaven <name  type='person'>Harmodius</name> thrusting a sword forward in his upraised left hand, and bearded <name  type='person'>Aristogeiton</name> extended a rock in is left arm, over which a chlamys, or cape, is draped. A composite group in <placeName  key='Naples'>Naples</placeName> [1] preserves almost complete bodies of both figures, and a head of <name  type='person'>Harmodius</name>. It has been restored on the basis of a plaster cast of part of <name  type='person'>Aristogeiton</name>’s head that was found in sculptor’s studios at <placeName  key='Baiae'>Baiae</placeName> (see <bibl  n='G. Richter, AJA 74 [1970] 296, pl. 14' type='secondary'>G. Richter, AJA 74 [1970] 296, pl. 14</bibl>). A good copy of <name  type='person'>Aristogeiton</name>’s head is also to be found in the <name  n='Conservatori Rome' type='site'>Conservatori</name>, <placeName  key='Rome'>Rome</placeName>. Several other marble copies of each figure are also known. The group is also represented in several vase paintings [2] and seems to have been quoted in other battle scenes.</p>
+
+<p ><figure  n='1997.99.0176.jpeg' rend='left'/><emph >Extant portraits</emph>:</p>
+
+<list  rend='numbered'>
+<item ><name  type='sculpture'>Naples 6009/6010</name>: Roman copy (marble, with restorations in plaster) (shown at the top).</item>
+
+<item >Boston ?: Image of <name  type='person'>Harmodius</name> and <name  type='person'>Aristogeiton</name> on a red-figure oinochoe fragment (shown here).</item>
+
+<item >London ?: Image of <name  type='person'>Harmodius</name> and <name  type='person'>Aristogeiton</name> on the shield device of <name  type='god'>Athena Parthenos</name>, from a Panathenaic vase, dated <date  from='-0378' to='-0370'>378-370</date>.</item>
+
+<item >The reverse of an electron stater from <placeName  key='Kyzikos'>Kyzikos</placeName>, dated <date  from='-0477' to='-0476'>477/6</date>, showing the Tyrannicide group, profile to the right.</item>
+</list>
+</div>
+
+<div  n='Isocrates' type='Section' xml:id='Isocrates'>
+<head ><name  type='ancientAuthor'>Isocrates</name></head>
+
+<p >(orator/speechwriter/teacher, <date  from='-0436' to='-0338'>436-338</date>)</p>
+
+<p ><emph >Evidence</emph>: Written sources attest at least three different statues of <name  type='ancientAuthor'>Isocrates</name> that were erected in the <date  from='-0399' to='-0300'>fourth century</date>: two at <placeName  key='Athens'>Athens</placeName>—a victorious equestrian statue on the <name  n='Acropolis Athens' type='site'>Acropolis</name>, which showed him as a boy (<name  type='person'>Heliodoros</name> in <bibl  n='urn:cts:greekLit:tlg0007.tlg121:839c' type='cts-urn'>Ps.-Plut., <title >Vit. X Or.</title> 839c</bibl>) and a standing bronze statue set up by his <name  type='ancientAuthor'>Isocrates</name>’ adopted son, <name  type='person'>Aphareus</name>, on a column in the <name  n='Olympieion' type='site'>Olympieion</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.18.8' type='cts-urn'>Paus. 1.18.8</bibl> and <bibl  n='urn:cts:greekLit:tlg0007.tlg121:839b' type='cts-urn'>Ps.-Plut., <title >Vit. X Or.</title> 839b</bibl>); and one at <placeName  key='Eleusis'>Eleusis</placeName> set up by <name  type='person'>Timotheus</name>, the son of <name  type='person'>Conon</name> (<bibl  n='urn:cts:greekLit:tlg0007.tlg121:838d' type='cts-urn'>Ps.-Plut. <title >Vit. X Or.</title> 838d</bibl>). The latter bore the following inscription: <quote >Timotheus dedicated this statue of Isocrates to the goddesses, as a sign of his affection and his admiration for his friend. It is the work of Leochares</quote> (<bibl  n='trans. Richter 1984, 151' type='secondary'>trans. Richter 1984, 151</bibl>). On the basis of this inscription, the statue may be dated to the period from <date  when='-0370'>370</date> (the onset of <name  type='person'>Leochares</name>’ career) to <date  when='-0356'>356</date> (<name  type='person'>Timotheos</name>’ expulsion from <placeName  key='Athens'>Athens</placeName>). There was also said to have been a painted portrait in the <name  n='Pompeion Athens' type='site'>Pompeion</name> at <placeName  key='Athens'>Athens</placeName> (<bibl  n='urn:cts:greekLit:tlg0007.tlg121:839c' type='cts-urn'>Ps.-Plut. <title >Vit. X Or.</title> 839c</bibl>). Of these portraits only the one attributed to <name  type='person'>Leochares</name> may be certainly ascribed to <name  type='ancientAuthor'>Isocrates</name>’ lifetime.</p>
+
+<p ><name  type='ancientAuthor'>Christodoros</name> mentions a bronze statue that may have been either an original or a Roman copy, in the <name  n='Zeuxippos, Constantinople' type='site'>Zeuxippos</name> at <placeName  key='Constantinople'>Constantinople</placeName> (<bibl  n='Ecphr. in Grk. Anth. 2.256 ff.'><title >Ecphr. in Grk. Anth.</title> 2.256 ff.</bibl>).</p>
+
+<p >Despite the fact that at least three sculpted portraits of <name  type='ancientAuthor'>Isocrates</name> are attested by ancient written sources, the material evidence provides only one certain portrait of <name  type='ancientAuthor'>Isocrates</name> (noted below), which is in the style of the late <date  from='-0399' to='-0300'>fourth century</date>, and therefore might copy the portrait set up by <name  type='person'>Aphareus</name> rather than the presumably earlier one set up by <name  type='person'>Timotheos</name>. It shows <name  type='ancientAuthor'>Isocrates</name> with a receding hairline and a medium-length beard, but at a younger age than he would have been at the time either of these monuments were erected. A portrait in <placeName  key='Berlin'>Berlin</placeName> [2] may represent a loose copy of the same original.</p>
+
+
+
+<p ><emph >Extant portraits</emph>:</p>
+
+<list  rend='numbered'>
+<item ><name  type='sculpture'>Albani 951</name>: a small marble bust, inscribed <foreign  xml:lang='grc'>ΕΙΣΟΚΡΑΤΗ[Σ]</foreign>.</item>
+<item ><name  type='sculpture'>Berlin Isokrates</name>: a marble head.</item>
+</list>
+
+</div>
+
+<div  n='Miltiades' type='Section' xml:id='Miltiades'>
+<head ><name  type='person'>Miltiades</name></head>
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0688'><figure  n='1997.99.0688.jpeg' rend='left'/></ref>
+(statesman/general, before <date  from='-0550' to='-0488'>550-488</date>)</p>
+
+<p ><emph >Evidence</emph>: <name  type='ancientAuthor'>Demosthenes</name> states that the Athenians did not set up a statue of <name  type='person'>Miltiades</name> until long after his death (<bibl  n='urn:cts:greekLit:tlg0014.tlg023:196' type='cts-urn'>Dem. 23.196</bibl>). <name  type='ancientAuthor'>Demosthenes</name> refers only to publicly commissioned statues at <placeName  key='Athens'>Athens</placeName>, yet it is possible that a statue of <name  type='person'>Miltiades</name> may have been privately commissioned during his lifetime. Of the four portraits of <name  type='person'>Miltiades</name> noted in ancient written sources, the posthumous ones to which <name  type='ancientAuthor'>Demosthenes</name> referred are most likely that seen in the <name  n='Prytaneion' type='site'>Prytaneion</name> and/or that seen in the <name  n='Theater of Dionysos' type='site'>Theater of Dionysos</name>. A portrait of <name  type='person'>Miltiades</name> and one of <name  type='person'>Themistocles</name> shown with it in the <name  n='Prytaneion' type='site'>Prytaneion</name> at <placeName  key='Athens'>Athens</placeName> later had their names changed to those of a Roman and a Thracian, according to <name  type='ancientAuthor'>Pausanias</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.18.3' type='cts-urn'>Paus. 1.18.3</bibl>). <name  type='person'>Miltiades</name> was also said to have been paired with <name  type='person'>Themistocles</name> in the <name  n='Theater of Dionysos' type='site'>Theater of Dionysos</name> at <placeName  key='Athens'>Athens</placeName>, where the two were shown with Persian prisoners (<bibl  n='Sch. Ael. Arist.=ex recensione G. Dindorf, vol. 2.46.181 ll. 131 ff., 3.535 f., Sch. to 161.13'><title >Sch.</title> Ael. Arist.=<term >ex recensione</term> G. Dindorf, vol. 2.46.181 ll. 131 ff., 3.535 f., <title >Sch.</title> to 161.13</bibl>).</p>
+
+<p >A portrait of <name  type='person'>Miltiades</name> seems to have been set up at <placeName  key='Delphi'>Delphi</placeName> only a few decades after his death: <name  type='person'>Miltiades</name> was included among other military heroes, <term  sortKey='Eponymous_Heroes'>Eponymous Heroes</term>, and gods/goddesses in the <name  type='sculpture'>Marathon group</name>, by <name  type='person'>Pheidias</name>, dedicated probably in the <date  from='-0469' to='-0460'>460s</date> at <placeName  key='Delphi'>Delphi</placeName> as a tithe from the spoils of <placeName  key='Marathon'>Marathon</placeName> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:10.10.1' type='cts-urn'>Paus. 10.10.1</bibl>). <name  type='ancientAuthor'>Pliny</name> notes also that <name  type='person'>Miltiades</name> appeared with other Athenian generals, <name  type='person'>Callimachus</name> and <name  type='person'>Cynaigeiros</name>, and the Persians <name  type='person'>Datis</name> and <name  type='person'>Artaphernes</name>, on the painting of the <name  type='painting'>Battle of Marathon</name>, by <name  type='artist'>Panainos</name>, in the <name  n='Stoa Poikile' type='site'>Stoa Poikile</name>, <placeName  key='Athens'>Athens</placeName> (<bibl  n='urn:cts:latinLit:stoa0232.stoa001:35.57' type='cts-urn'>Plin. <title >HN</title> 35.57</bibl>). (The painting has elsewhere been attributed to <name  type='artist'>Mikon</name> and <name  type='artist'>Polygnotos</name>: <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.15.3' type='cts-urn'>Paus. 1.15.3</bibl>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:5.11.6' type='cts-urn'>Paus. 5.11.6</bibl>).</p>
+
+<p >Extant portraits of <name  type='person'>Miltiades</name> include an inscribed marble herm, now in <placeName  key='Ravenna'>Ravenna</placeName> [1] (and possible copies after the same original; the herm seems to copy a <date  from='-0425' to='-0323'>late Classical</date> original created in the style of the <date  from='-0475' to='-0425'>early Classical period</date>, i.e. the era in which <name  type='person'>Miltiades</name> died. If, however, it copies an actual early Classical original, that may have been <name  type='person'>Pheidias</name>’ image of the general set up at <placeName  key='Delphi'>Delphi</placeName>) as well images on bronze coins of Roman <placeName  key='Attica'>Attica</placeName> (which seem to illustrate the groups of <name  type='person'>Miltiades</name> and <name  type='person'>Themistocles</name> with Persian prisoners from the <name  n='Theater of Dionysos' type='site'>Theater of Dionysos</name>) [2], and doubtfully a mounted archer on an Attic vase in <placeName  key='Oxford'>Oxford</placeName> [3].</p>
+
+<p ><emph >Extant portraits</emph>:</p>
+
+<list  rend='numbered'>
+
+<item ><name  type='sculpture'>Ravenna Miltiades</name>: a marble herm, inscribed <foreign  xml:lang='grc'>ΜΙΛΤΙΑΔΗΣ</foreign>, with an epigram (in Latin and Greek) (shown here).</item>
+
+<item >Bronze Attic coins from the Roman period: an illustration of <name  type='person'>Miltiades</name>, wearing a crested helmet and a cuirass, with a Persian prisoner and a trophy, facing <name  type='person'>Themistocles</name>, similarly depicted (<bibl  n='Head 1911, 390' type='secondary'>Head 1911, 390</bibl>).</item>
+
+<item ><name  type='vase'>Oxford 310</name>: a depiction of a mounted Oriental archer on a red-figure kylix painted by <name  type='artist'>Paseas</name> (<date  from='-0520' to='-0510'>ca. 520-510</date>) is inscribed <foreign  xml:lang='grc'>Μιλτιάδης καλός</foreign>, <quote >Miltiades is beautiful</quote> (see <bibl  n='ARV2 163.8' type='secondary'><title >ARV</title><edition >2</edition> 163.8</bibl>). As <name  type='person'>Richter</name> points out, while it is possible that <name  type='person'>Miltiades</name> was represented at this time, it is far too early for any image of him to have been an individualized portrait <bibl  n=' Richter 1984, 169' type='secondary'> Richter 1984, 169</bibl>. Such <soCalled >labels,</soCalled> which were commonly added by Attic vase painters to their works in <date  from='-0599' to='-0500'>the sixth century</date>, seem to have designated youths who were admired for their beauty; a younger <name  type='person'>Miltiades</name> might have been the target of this painter’s admiration.</item>
+
+</list>
+</div>
+
+<div  n='Pericles' type='Section' xml:id='Pericles'>
+<head ><name  type='person'>Pericles</name></head>
+
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1992.05.0480&amp;type=sculpture'><figure  n='1997.99.0689.jpeg' rend='left'/></ref>(statesman/general, <date  from='-0500' to='-0429'>ca. 500-429</date>)</p>
+
+
+<p ><emph >Evidence</emph>: <name  type='ancientAuthor'>Plutarch</name> casually notes that several artists created portraits of <name  type='person'>Pericles</name>, but provides no details (<bibl  n='urn:cts:greekLit:tlg0007.tlg012:3.2' type='cts-urn'>Plut. <title >Per.</title> 3.2</bibl>). <bibl  n='urn:cts:latinLit:stoa0232.stoa001:34.74' type='cts-urn'>Plin. <title >HN</title> 34.74</bibl> reports that <name  type='person'>Kresilas</name> created an idealizing portrait of <name  type='person'>Pericles</name>, which is thought to be that copied in extant examples (see extant portraits, below). <name  type='ancientAuthor'>Pausanias</name> saw a statue of <name  type='person'>Pericles</name> on the Athenian <name  n='Acropolis Athens' type='site'>Acropolis</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.25.1' type='cts-urn'>Paus. 1.25.1</bibl>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.28.2' type='cts-urn'>Paus. 1.28.2</bibl>), which scholars have tried to connect with <name  type='person'>Kresilas</name>’ portrait (<name  type='sculpture'>Athens EM 6258</name> is a fragmentary statue base from the Athenian <name  n='Acropolis Athens' type='site'>Acropolis</name> that is signed by <name  type='person'>Kresilas</name>, and has been unconvincingly connected with the portrait of <name  type='person'>Pericles</name>). There is little evidence for the rumor (reported by <bibl  n='urn:cts:greekLit:tlg0612.tlg001:12.6' type='cts-urn'>Dio Chrysost. <title >Orat.</title> 12.6</bibl>) that <name  type='person'>Pheidias</name> secretly included the image of <name  type='person'>Pericles</name>, fighting with an <name  type='person'>Amazon</name>, on the shield of his <name  type='sculpture'>Athena Parthenos type</name>. Yet scholars have wondered if a particular figure fighting an Amazon on the Str<soCalled >angford Shield</soCalled> (<name  type='sculpture'>London 302</name>) might represent <name  type='person'>Pericles</name>, because he holds his hand as if to conceal his image (which is nonetheless clearly visible) as described in <bibl  n='urn:cts:greekLit:tlg0007.tlg012:31.4' type='cts-urn'>Plut. <title >Per.</title> 31.4</bibl> (see <bibl  n='Voutiras 1980, 98-109' type='secondary'>Voutiras 1980, 98-109</bibl>; <bibl  n='Robertson 1975, 316' type='secondary'>Robertson 1975, 316</bibl>; and <bibl  n='Metzler 1971, 213-222' type='secondary'>Metzler 1971, 213-222</bibl>). <bibl  n='urn:cts:latinLit:stoa0232.stoa001:35.137' type='cts-urn'>Pliny, <title >HN</title> 35.137</bibl> includes a painting of <name  type='person'>Pericles</name> among the works of <name  type='person'>Aristolaus</name>, an artist of the <date  from='-0450' to='-0400'>second half of the fourth century BCE</date>.</p>
+
+<p >A high classical portrait type of <name  type='person'>Pericles</name> is known from five copies, of which two (in the <name  n='Vatican' type='site'>Vatican</name> [3] and <placeName  key='London'>London</placeName> [2]) are inscribed with his name. This portrait type is idealizing: it shows <name  type='person'>Pericles</name> with a trim, curly beard, mustache, and lush, curly hair emerging from beneath his Corinthian helmet, which is tilted back on his head. The style of the type matches that of the high classical period, so it probably copies <name  type='person'>Kresilas</name>’ original, which would have dated to the <date  from='-0429' to='-0420'>420s</date>. The image evoked by these copies matches the overall appearance of <name  type='person'>Pericles</name> noted by ancient writers: he was described as austere and aristocratic and his appearance was compared to that of the tyrant <name  type='person'>Pisistratus</name> (<bibl  n='urn:cts:greekLit:tlg0007.tlg012:7.1' type='cts-urn'>Plut. <title >Per.</title> 7.1</bibl>). <name  type='ancientAuthor'>Plutarch</name> (who called <name  type='person'>Pericles</name> <quote >the Olympian</quote>) explains <name  type='person'>Pericles</name>’ customary helmet as follows: <quote >… [he was] in other respects perfectly formed, only his head was somewhat longish and out of proportion. For which reason all the images and statues that were made of him have the head covered with a helmet, the workmen apparently being willing not to expose him. The poets of <placeName  key='Athens'>Athens</placeName> called him <soCalled >Schinocephalos</soCalled>, or squill-head…</quote> (<bibl  n='trans. Dryden' type='secondary'>trans. Dryden</bibl>) (<bibl  n='urn:cts:greekLit:tlg0007.tlg012:3.2' type='cts-urn'>Plut. <title >Per.</title> 3.2</bibl>). <name  type='ancientAuthor'>Plutarch</name>’s story probably developed as a response to portraits of <name  type='person'>Pericles</name> and, particularly as the helmet became a customary accoutrement in images of generals (compare <name  type='sculpture'>Riace Warrior B</name>, for example), it is unlikely that <name  type='person'>Pericles</name>’ anatomy actually sufferred in this manner.</p>
+
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0049&amp;type=sculpture'><figure  n='1997.99.0049.jpeg' rend='right'/></ref><emph >Extant portraits</emph>:</p>
+
+<list  rend='numbered'>
+
+<item ><name  type='sculpture'>Berlin 1530</name>: a marble head (shown above).</item>
+
+<item ><name  type='sculpture'>London 459</name>: a marble bust, inscribed <foreign  xml:lang='grc'>[Π]ΕΡΙΚΛΗΣ</foreign>.</item>
+
+<item ><name  type='sculpture'>Vatican 269</name>: a marble bust, inscribed <foreign  xml:lang='grc'>ΠΕΡΙΚΛΗΣ ΞΑΝΘΙΠΠΟΥ ΑΘΗΝΑΙΟΣ</foreign>, <quote ><name  type='person'>Perikles</name>, son of <name  type='person'>Xanthippos</name>, the Athenian</quote> (shown here).</item>
+
+</list>
+</div>
+
+<div  n='Plato' type='Section' xml:id='Plato'>
+<head ><name  type='ancientAuthor'>Plato</name></head>
+
+<p >(philosopher/teacher, <date  from='-0427' to='-0347'>ca. 427-348/7</date>)</p>
+
+
+<p ><emph >Evidence</emph>: The only reference to a statue of <name  type='ancientAuthor'>Plato</name> that was set up in <date  from='-0399' to='-0300'>the fourth century</date> (but not necessarily during <name  type='person'>Plato</name>’s lifetime) is a quote from <name  type='ancientAuthor'>Favorinus</name>’ <title >Memorabilia</title>, that <name  type='person'>Mithradates</name> set up a statue of <name  type='ancientAuthor'>Plato</name> in the <name  n='Academy' type='site'>Academy</name>, inscribed as follows: "<name  type='person'>Mithradates</name>, the Persian, the son of <name  type='person'>Orontobates</name> (?), dedicated to the <name  type='god'>Muses</name> a statue of <name  type='ancientAuthor'>Plato</name>, made by <name  type='person'>Silanion</name>" (<bibl  n='urn:cts:greekLit:tlg0004.tlg001:3.25' type='cts-urn'>Diog. Laert. 3.25</bibl>). This statue must date some time after the founding of the <name  n='Academy' type='site'>Academy</name> in <date  when='-0386'>386</date>, and <name  type='ancientAuthor'>Pliny</name> dates <name  type='person'>Silanion</name>’s career to the <date  from='-0329' to='-0320'>320s</date> (<bibl  n='Plin. NH 34.81-34.82'>Pliny, <title >HN</title> 34.81-34.82</bibl>). It is likely that the copies mentioned by later writers copied this original: <name  type='ancientAuthor'>Olympiodoros</name> said that portraits of <name  type='ancientAuthor'>Plato</name> were set up everywhere (<bibl  n='Olymp. Vit. Plat. p. 1.32 [ed. Westermann]'>Olympiodoros, <title >Vita Plat.</title> p. 1.32 [ed. Westermann]</bibl>); <name  type='ancientAuthor'>Cicero</name> had a statue of <name  type='ancientAuthor'>Plato</name> in his Villa at <placeName  key='Tusculum'>Tusculum</placeName> (<bibl  n='urn:cts:latinLit:stoa0087.stoa025:6.24' type='cts-urn'>Cic. <title >ad Brut.</title> 6.24</bibl>); and <name  type='ancientAuthor'>Christodoros</name> cited a statue of <name  type='person'>Plato</name> in the <name  n='Zeuxippos, Constantinople' type='site'>Zeuxippos</name> of <placeName  key='Constantinople'>Constantinople</placeName> (<bibl  n='Christ. Ecphr. 97 in Grk. Anth. 2.97 ff.'>Christ. <title >Ecphr.</title> 97 <title >in Grk. Anth.</title> 2.97 ff.</bibl>).</p>
+
+<p >One portrait type of <name  type='ancientAuthor'>Plato</name> has been identified, of which there are at least 20 copies. The type is in the style of the middle of the <date  from='-0399' to='-0300'>fourth century</date> and is conceivably the type created by <name  type='person'>Silanion</name>. The identification of this type as a portrait of <name  type='ancientAuthor'>Plato</name> was made on the basis of an inscribed herm in <placeName  key='Berlin'>Berlin</placeName>, which was purchased in <date  when='1884'>1884</date>; it has been corroborated by a double herm in the <name  n='Vatican' type='site'>Vatican</name>, which pairs the same portrait type with that of <name  type='person'>Socrates</name>. Two headless seated statues of <name  type='ancientAuthor'>Plato</name>, labelled <foreign  xml:lang='grc'>ΠΛΑΤΩΝ</foreign> and <foreign  xml:lang='grc'>ΠΛΑΤΩ</foreign>, have also been found. The seated statue, half life-size, is now lost, although plaster casts remain in <placeName  key='Bonn'>Bonn</placeName>, <placeName  key='Dresden'>Dresden</placeName>, <placeName  key='Strasbourg'>Strasbourg</placeName>, <placeName  key='Leipzig'>Leipzig</placeName>, and <placeName  key='Karlsruhe'>Karlsruhe</placeName>. <name  type='person'>Anton Hekler</name> successfully combined this seated figure with the cast of a head, from <placeName  key='Athens'>Athens</placeName>, of the <name  type='ancientAuthor'>Plato</name> type. The standing statue of <name  type='ancientAuthor'>Plato</name>, from <placeName  key='Memphis'>Memphis</placeName>, may be a Hellenistic invention, a Hellenistic copy of an otherwise unknown type, or a Hellenistic variant of the known <name  type='ancientAuthor'>Plato</name> type.</p>
+
+<p >The portrait of <name  type='ancientAuthor'>Plato</name> copied in the extant examples, conveys the general good looks and some specific characteristics of <name  type='ancientAuthor'>Plato</name>’s appearance noted by ancient writers. The copies of the head share the characteristics of a domed skull, broad forehead, small, closely-set eyes, slightly aquiline nose, and protruding lower chip and rounded chin. <name  type='ancientAuthor'>Simplicius</name> describes <name  type='ancientAuthor'>Plato</name>’s finely shaped nose, the beauty of his eyes, and the breadth of his body (<bibl  n='urn:cts:greekLit:tlg4013.tlg004:4.14' type='cts-urn'>Simp. <title >Phys.</title> 4.14</bibl>), while <name  type='ancientAuthor'>Epictetus</name> simply notes that he was strong and good looking (<bibl  n='urn:cts:greekLit:tlg0557.tlg001:1.8.1' type='cts-urn'>Epict. <title >Diss.</title> 1.8.1</bibl>). Two horizontal and two vertical furrows on the brow of the portrait type convey <name  type='person'>Plato</name>’s serious nature, which might be hinted at in <name  type='person'>Amphis</name>’ note that <name  type='ancientAuthor'>Plato</name> frowned with his eyebrows lifted high, presumably to give him a dignified appearance (<bibl  n='urn:cts:greekLit:tlg0004.tlg001:3.28' type='cts-urn'>Diog. Laert. 3.28</bibl>). Some ancient writers mention that <name  type='ancientAuthor'>Plato</name>’s broad chest gave him his name, and that his original name was <name  type='person'>Aristocles</name> (<bibl  n='Diog. Laert 3.4'>Diog. Laert 3.4</bibl>; <bibl  n='urn:cts:latinLit:stoa0255.stoa-15:59.30' type='cts-urn'>Seneca, <title >Epist.</title> 59.30</bibl>; <bibl  n='Apuleius, De Plat. et eius dogm. 1.1'>Apuleius, <title >De Plat. et eius dogm.</title> 1.1</bibl>; <bibl  n='Olympiodoros, Vita Plat. p. 1.28 [ed. Westermann]'>Olympiodoros, <title >Vita Plat.</title> p. 1.28 [ed. Westermann]</bibl>).</p>
+
+<p ><emph >Extant portraits</emph>:</p>
+
+<list  rend='numbered'>
+
+<item ><name  type='sculpture'>Berlin 300</name>: a herm labelled <foreign  xml:lang='grc'>ΠΛΑΤΩΝ</foreign>.</item>
+
+<item ><name  type='sculpture'>Vatican 128</name>: a double herm (now split) with <name  type='person'>Socrates</name>.</item>
+
+<item ><placeName  key='Geneva'>Geneva</placeName>, private collection: A marble head said to have come from <placeName  key='Athens'>Athens</placeName>.</item>
+
+<item ><name  type='sculpture'>Cambridge, Fitzwilliam 15</name>: a marble head.</item>
+
+<item ><name  type='sculpture'>Thasos 177</name>: a head of <name  type='ancientAuthor'>Plato</name>.</item>
+
+<item >A seated statue (now lost), inscribed <foreign  xml:lang='grc'>[Π]ΛΑΤΩΝ</foreign>.</item>
+
+<item >The lower part of a Hellenistic standing statue from an exedra at the <name  n='Sarapieion Memphis' type='site'>Sarapieion</name>, <placeName  key='Memphis'>Memphis</placeName>, inscribed <foreign  xml:lang='grc'>ΠΛΑΤΩΝ</foreign> on the plinth.</item>
+
+</list>
+
+</div>
+
+<div  n='Socrates' type='Section' xml:id='Socrates'>
+<head ><name  type='person'>Socrates</name></head>
+
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0383'><figure  n='1997.99.0383.jpeg' rend='left'/></ref>
+(philosopher/teacher, <date  from='-0469' to='-0399'>469-399</date>)</p>
+
+<p ><emph >Evidence</emph>: Only one statue of <name  type='person'>Socrates</name> is mentioned in ancient literature. <name  type='ancientAuthor'>Diogenes Laertius</name> (<bibl  n='urn:cts:greekLit:tlg0004.tlg001:2.43' type='cts-urn'>Diog. Laert. 2.43</bibl>) explains that the Athenians immediately felt remorse for having condemned <name  type='person'>Socrates</name> to death, so that they honored him with a bronze statue, created by <name  type='person'>Lysippos</name>, that was placed in the <name  n='Pompeion' type='site'>Pompeion</name>. But <name  type='person'>Lysippos</name>’ career was much later than the death of <name  type='person'>Socrates</name> so this work could not have been erected immediately after <name  type='person'>Socrates</name>’ death, as <name  type='ancientAuthor'>Diogenes</name> suggests; this statue might have dated more realistically to the <date  from='-0375' to='-0325'>middle of the fourth century</date>. A plethora of copies, in the round, in paintings, and in other media, attest at least two definite types. Some, which are classed as <soCalled >Type A,</soCalled> are thought to copy a portrait set up soon after <name  type='person'>Socrates</name>’ death by his friends, as suggested by <name  type='person'>Richter</name> (<bibl  n='Richter 1984, 199' type='secondary'>Richter 1984, 199</bibl>), perhaps for the <name  n='Mouseion' type='site'>Mouseion</name> of <name  type='ancientAuthor'>Plato</name>’s <name  n='Academy Athens' type='site'>Academy</name> at <placeName  key='Athens'>Athens</placeName>. Others, which are classed as <soCalled >Type B,</soCalled> may copy the later, somewhat idealized portrait created later by <name  type='person'>Lysippos</name>. Indeed the latter group (Type B), show stylistic characteristics attributed elsewhere to the style of <name  type='person'>Lysippos</name>. They are securely identified as portraits of <name  type='person'>Socrates</name> on the basis of an inscribed herm in <placeName  key='Naples'>Naples</placeName>. Although no Type A copies are inscribed, they are identified as portraits of <name  type='person'>Socrates</name> on the basis of physiognomic comparison with Type B portraits.</p>
+
+<p >Two painted portraits of <name  type='person'>Socrates</name> are noted by ancient writers: <name  type='ancientAuthor'>Lucian</name>, in the <bibl  n='Lucian, Death of Peregrinus 38'><title >Death of Peregrinus</title> 38</bibl>, mentions that several painters treated the subject of <name  type='person'>Socrates</name> dying among his disciples; and <name  type='ancientAuthor'>Joannes Barboukallos</name> mentions a painted portrait of Socrates in an epigram (<bibl  n='Grk. Anth. 16, no. 327'><title >Grk. Anth.</title> 16, no. 327</bibl>).</p>
+
+<p >Ancient sources, both written and visual, provide a consistent view of <name  type='person'>Socrates</name>’ physical form. His appearance was often compared to that of a <name  type='god'>Silenos</name>, with regard to his stocky, broad-shouldered body (<bibl  n='urn:cts:greekLit:tlg0059.tlg011:215a' type='cts-urn'>Plat. <title >Symp.</title> 215a ff.</bibl>; <bibl  n='urn:cts:greekLit:tlg0032.tlg004:5.7' type='cts-urn'>Xen. <title >Symp.</title> 5.7</bibl>), thick neck (<bibl  n='urn:cts:latinLit:stoa0087.stoa010:5' type='cts-urn'>Cic. <title >De Fato</title> ch. 5</bibl>), protruding belly (<bibl  n='urn:cts:greekLit:tlg0032.tlg004:2.19' type='cts-urn'>Xen. <title >Symp.</title> 2.19</bibl>), baldness (<bibl  n='Sidon. Apoll. Epist. 9.9.14'>Sidon. Apoll. <title >Epist.</title> 9.9.14</bibl>; <bibl  n='Lucian, Dialog. mortuorem 20'>Lucian, <title >Dialog. mortuorem</title> 20</bibl>, <bibl  n='Lucian, Menippi et Aeaci 417'><title >Menippi et Aeaci</title> 417</bibl>), prominent eyeballs (<bibl  n='urn:cts:greekLit:tlg0032.tlg004:5.7' type='cts-urn'>Xen. <title >Symp.</title> 5.7</bibl>), broad nose with wide nostrils and large mouth with thick lips (<bibl  n='urn:cts:greekLit:tlg0032.tlg004:5.7' type='cts-urn'>Xen. <title >Symp.</title> 5.7</bibl>).</p>
+
+<p ><emph >Extant portraits</emph>:</p>
+
+<list  rend='plain'>
+	<item ><p ><emph >Type A</emph>:</p>
+	<list  rend='plain'>
+		<item ><name  type='sculpture'>Naples 6129</name>: a marble bust.</item>
+	</list>
+	</item>
+	<item ><p ><emph >Type B</emph>:</p>
+	<list  rend='plain'>
+		<item >
+		<p ><emph >Heads or herms in the round</emph>:</p>
+		
+			<list  rend='numbered'>
+			<item ><name  type='sculpture'>Naples 6415</name>: an inscribed marble herm.</item>
+			
+			<item ><name  type='sculpture'>Terme 1236</name>: a marble head.</item>
+			
+			<item ><name  type='sculpture'>Boston 60.45</name>: a small marble head, perhaps from a herm (shown here).</item>
+			
+			<item ><name  type='sculpture'>Louvre MA 59</name>: a marble head (<ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0382'>image</ref>).</item>
+			
+			<item >Vatican ?: inscribed marble herm labelled <foreign  xml:lang='grc'>ΣΩΚΡΑΤΗΣ</foreign> (<ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0381'>image</ref>).</item>
+			</list>
+		
+		</item>
+		<item >
+		<p ><emph >Figures in the round</emph>:</p>
+		
+			<list  rend='numbered'>		
+			<item ><name  type='sculpture'>Copenhagen, NCG 415C</name>: (<ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0384'>image</ref>).</item>
+			
+			<item >London ?: a marble statuette.</item>
+			</list>
+		</item>
+		
+		
+		<item >
+		<p ><emph >Mosaics and paintings</emph>:</p>
+			<list  rend='numbered'>
+			<item >Mosaic from <placeName  key='Baalbek'>Baalbek</placeName> (now in the Beyrough Museum): mosaic medallion with a bald, bearded figure, inscribed <foreign  xml:lang='grc'>ΣΩΚΡΑΤΗΣ</foreign>, among the <name  type='person'>seven sages</name> (see <bibl  n='Richter 1965, 118, fig. 571' type='secondary'>Richter 1965, 118, fig. 571</bibl>).</item>
+		
+			<item >Painting at <placeName  key='Ephesos'>Ephesos</placeName> (<date  from='0001' to='0100'>1 c. A.C.</date>): painting found in <date  when='1963'>1963</date> in a Roman house at <placeName  key='Ephesos'>Ephesos</placeName> with a seated figure inscribed <foreign  xml:lang='grc'>ΣΩΚΡΑΤΗΣ</foreign> (see <bibl  n='Richter 1965, 119, fig. 563a' type='secondary'>Richter 1965, 119, fig. 563a</bibl>).</item>
+			</list>
+		</item>
+		
+		<item >
+		<p ><emph >Gems and coins</emph>:</p>
+		
+			<list  rend='numbered'>
+			<item >Roman gemstones, e.g. a carnelian in <placeName  key='Athens'>Athens</placeName>, inscribed <foreign  xml:lang='grc'>ΣΩΚΡΑΤΗΣ</foreign> (see <bibl  n='Richter 1965, 119, fig. 570' type='secondary'>Richter 1965, 119, fig. 570</bibl>).</item>
+		
+			<item >Bronze contorniate, inscribed <foreign  xml:lang='grc'>ΣΩΚΡΑΤΗΣ</foreign>, in <placeName  key='Naples'>Naples</placeName> (once in the collection of <name  type='person'>Fulvius Ursinus</name>).</item>
+			</list>
+		</item>
+	</list>
+	
+	</item>
+</list>
+
+
+<p ><emph >Other variants</emph>:</p>
+
+<list  rend='numbered'>
+<item ><name  type='sculpture'>Naples 6128</name>: Bronze relief of <name  type='person'>Socrates</name> and <name  type='person'>Diotima</name>, from <placeName  key='Pompeii'>Pompeii</placeName> (perhaps a combination of types A and B).</item>
+
+<item >Mosaic from <placeName  key='Apamea'>Apamea</placeName>: mosaic with a bald, bearded figure, inscribed <foreign  xml:lang='grc'>ΣΩΚΡΑΤΗΣ</foreign>, among the <name  type='person'>seven sages</name> (see <bibl  n='Richter 1965, 118, fig. 569' type='secondary'>Richter 1965, 118, fig. 569</bibl>).</item>
+
+<item >Mosaic from <placeName  key='Cologne'>Cologne</placeName> (now in the Römisch-Germanisches Museum, <placeName  key='Cologne'>Cologne</placeName>): mosaic with a figure inscribed <foreign  xml:lang='grc'>ΣΩΚΡΑΤΗΣ</foreign> (see <bibl  n='Richter 1965, 118, fig. 572' type='secondary'>Richter 1965, 118, fig. 572</bibl>).</item>
+
+</list>
+
+</div>
+
+<div  n='Themistocles' type='Section' xml:id='Themistocles'>
+<head >Themistocles</head>
+
+<p ><emph >Evidence</emph>: Several ancient writers mention statues of <name  type='person'>Themistocles</name> at <placeName  key='Athens'>Athens</placeName>. <name  type='ancientAuthor'>Plutarch</name> saw a small statue of <name  type='person'>Themistocles</name> in the <name  n='Temple of Artemis Aristoboule, Athens' type='site'>Temple of Artemis Aristoboule, Athens</name>, which was built by <name  type='person'>Themistocles</name> near his house in the deme of <placeName  key='Melite'>Melite</placeName> (<bibl  n='urn:cts:greekLit:tlg0007.tlg010:22.1-22.2' type='cts-urn'>Plut. <title >Them.</title> 22.1-2</bibl>) . Others refer to a monument (perhaps a tomb) of <name  type='person'>Themistocles</name> in the market place at <placeName  key='Magnesia'>Magnesia</placeName>, where he settled, and eventually died, after his <term  sortKey='ostracism'>ostracism</term> from <placeName  key='Athens'>Athens</placeName> (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:1.138.5' type='cts-urn'>Thuc. 1.138.5</bibl>; <bibl  n='Nepos Them. 10.3'>Nepos <title >Them.</title> 10.3</bibl>; <bibl  n='urn:cts:greekLit:tlg0060.tlg001:11.58.1' type='cts-urn'>Diod. 11.58.1</bibl>; and <bibl  n='urn:cts:greekLit:tlg0007.tlg010:32.3' type='cts-urn'>Plut. <title >Them.</title> 32.3</bibl>). <name  type='ancientAuthor'>Pausanias</name> also mentions a grave of <name  type='person'>Themistocles</name> (not necessarily with a portrait) near the <placeName  key='Piraeus'>Piraeus</placeName> harbor, but in the same context refers to a painting representing <name  type='person'>Themistocles</name>, dedicated by his children, in the <name  n='Parthenon' type='site'>Parthenon</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.1.2' type='cts-urn'>Paus. 1.1.2</bibl>). Another painting of <name  type='person'>Themistocles</name> is mentioned by <name  type='ancientAuthor'>Philostratos the Elder</name> (<bibl  n='Imagines Themistokles 433, ed. Kayser'><title >Imagines Themistokles</title> 433, ed. Kayser</bibl>): it is said to have shown <name  type='person'>Themistocles</name> addressing the Persians. Note also <name  type='ancientAuthor'>Aelius Aristeides</name>’ mention of statues of <name  type='person'>Miltiades</name> and <name  type='person'>Themistocles</name> in the <name  n='Theater of Dionysos, Athens' type='site'>Theater of Dionysos</name> at <placeName  key='Athens'>Athens</placeName>.</p>
+
+<p >Although there are several headless herms inscribed with <name  type='person'>Themistocles</name>’ name, there is only one extant portrait of him, a herm in the Museum of <placeName  key='Ostia'>Ostia</placeName> [1], which is inscribed <foreign  xml:lang='grc'>ΘΕΜΙΣΤΟΚΛΗΣ</foreign>. A <placeName  key='Magnesia'>Magnesian</placeName> coin from the Roman period is thought to represent a statue of <name  type='person'>Themistocles</name> heroized [2]. Ancient writers do not describe <name  type='person'>Themistocles</name>’ appearance but the <placeName  key='Ostia'>Ostia</placeName> portrait convincingly evokes the character of <name  type='person'>Themistocles</name> that they describe. <bibl  n='urn:cts:greekLit:tlg0007.tlg010:2.1' type='cts-urn'>Plut. <title >Them.</title> 2.1</bibl>, <bibl  n='urn:cts:greekLit:tlg0007.tlg010:3.3' type='cts-urn'>3.3</bibl>, for example, describes <name  type='person'>Themistocles</name> as impetuous, sagacious, and enterprising, while <name  type='ancientAuthor'>Thucydides</name> (<bibl  n='urn:cts:greekLit:tlg0003.tlg001:1.138.6' type='cts-urn'>Thuc. 1.138.6</bibl>) describes him as brilliant and shrewd.</p>
+
+
+<p ><emph >Extant portraits</emph>:</p>
+
+<list  rend='numbered'>
+
+<item ><name  type='sculpture'>Ostia Themistokles</name>: an inscribed marble herm portrait.</item>
+
+<item >A Roman coin from <placeName  key='Magnesia'>Magnesia</placeName> with a statue that perhaps represents the heroized <name  type='person'>Themistocles</name> (<bibl  n='Head 1911, 581' type='secondary'>Head 1911, 581</bibl>).</item>
+
+</list>
+
+</div>
+
+<div  n='FurtherReading' type='Section' xml:id='FurtherReading'>
+<head >Further Reading on Portraiture</head>
+
+<list  rend='numbered'>
+
+<item ><bibl  n='John Boardman, Greek Sculpture. The Late Classical Period (Thames &amp; Hudson, London 1995) 103-113' type='secondary'>John Boardman, <title >Greek Sculpture. The Late Classical Period</title> (Thames &amp; Hudson, London 1995) 103-113</bibl>.</item>
+<item ><bibl  n='J.D. Breckenridge, Likeness: A Conceptual History of Ancient Portraiture (Evanston 1968)' type='secondary'>J.D. Breckenridge, <title >Likeness: A Conceptual History of Ancient Portraiture</title> (Evanston 1968)</bibl>.</item>
+<item ><bibl  n='R. Brilliant, Portraiture (Cambridge, Mass. 1991)' type='secondary'>R. Brilliant, <title >Portraiture</title> (Cambridge, Mass. 1991)</bibl>.</item>
+<item ><bibl  n='G.M.A. Richter, The Portraits of the Greeks (New York 1965)' type='secondary'>G.M.A. Richter, <title >The Portraits of the Greeks</title> (New York 1965)</bibl>.</item>
+<item ><bibl  n='G.M.A. Richter, rev. R.R.R. Smith, The Portraits of the Greeks (London 1984)' type='secondary'>G.M.A. Richter, rev. R.R.R. Smith, <title >The Portraits of the Greeks</title> (London 1984)</bibl>.</item>
+<item ><bibl  n='Paul Zanker (Alan Shapiro, trans.), The Mask of Socrates. The Image of the Intellectual in Antiquity (Sather Classical Lectures 59) (Berkeley 1996)' type='secondary'>Paul Zanker (Alan Shapiro, trans.), <title >The Mask of Socrates. The Image of the Intellectual in Antiquity</title> (<title >Sather Classical Lectures</title> 59) (Berkeley 1996)</bibl>.</item>
+</list>
+</div>
+
+
+</body>
+</text>
+</TEI>

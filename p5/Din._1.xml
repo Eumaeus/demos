@@ -1,0 +1,58 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Din. 1</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Din. 1' type='workDescription'>
+
+	
+<head ><bibl  n='urn:cts:greekLit:tlg0029.tlg001' type='cts-urn'>Din. 1</bibl></head>
+<p >(<name  type='ancientAuthor'>Dinarchus</name>’ <title >Against <name  type='person'>Demosthenes</name></title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech written by <name  type='ancientAuthor'>Dinarchus</name> for client (whose name we do not know) prosecuting <name  type='ancientAuthor'>Demosthenes</name> in a case involving bribery. In <date  when='-0324'>324 BCE</date>, <name  type='person'>Harpalus</name>, who was <name  type='person'>Alexander the Great</name>’s treasurer, fled from <placeName  key='Babylon'>Babylon</placeName> and came to <placeName  key='Athens'>Athens</placeName> with a large amount of <name  type='person'>Alexander</name>’s money. He was admitted into the city, taken into custody with the money, but later escaped. Afterwards, it was found that several hundred talents was missing from the money he had brought to the city. The <term  sortKey='Areopagus'>Areopagus</term> investigated the matter, and issued a report, or <term  sortKey='Apophasis'>apophasis</term> (<foreign  xml:lang='grc'>ἀποφάσις</foreign>), saying that certain Athenians had accepted bribes from <name  type='person'>Harpalus</name>. <name  type='ancientAuthor'>Demosthenes</name> was named in the report. Source: <bibl >Ian Worthington, <title >A Historical Commentary on Dinarchus: Rhetoric and Conspiracy in Late Fourth-Century Athens</title> (University of Michigan Press, Ann Arbor, 1992).</bibl></p>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

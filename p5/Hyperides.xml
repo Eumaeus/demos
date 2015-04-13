@@ -1,0 +1,71 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+			<titleStmt >
+				<title >Hypereides</title>
+				<author >David D. Phillips</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+			 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Hypereides</name></head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p ><name  type='ancientAuthor'>Hypereides</name> son of <name  type='person'>Glaucippus</name> of the deme <name  type='deme'>Collytus</name> (<date  from='-0390' to='-0322'>390/89-322</date>) was a wealthy Athenian with a reputation as a trencherman and patron of high-class prostitutes. He was already influential in Athenian politics when he joined forces with <name  type='ancientAuthor'>Demosthenes</name> to resist <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName>. In <date  when='-0343'>343</date> <name  type='ancientAuthor'>Hypereides</name> impeached <name  type='person'>Philocrates</name>, author of the peace of <date  when='-0346'>346</date>, and secured a conviction. In <date  when='-0341'>341</date> he went as ambassador to <placeName  key='Rhodes'>Rhodes</placeName>, and possibly to <placeName  key='Chios'>Chios</placeName>, to drum up support against <name  type='person'>Philip</name>; and in <date  when='-0340'>340</date> and <date  when='-0339'>339</date> he was active in Athenian naval operations.</p>
+
+<p ><name  type='ancientAuthor'>Hypereides</name> continued his hard-line anti-Macedonian stance after the loss at <placeName  key='Chaeroneia'>Chaeroneia</placeName>: his speech <bibl  n='urn:cts:greekLit:tlg0030.tlg002' type='cts-urn'><soCalled >Against Philippides</soCalled> (2)</bibl>, for example, attacks an illegal proposal made by <name  type='person'>Philippides</name> awarding honors to Macedonians. He also found himself repeatedly at odds with <name  type='ancientAuthor'>Lycurgus</name>, who brought numerous impeachments against Athenian citizens. Two of <name  type='ancientAuthor'>Hypereides</name>’ surviving speeches (<bibl  n='urn:cts:greekLit:tlg0030.tlg001' type='cts-urn'>1 <soCalled >For Lycophron</soCalled></bibl> and <bibl  n='urn:cts:greekLit:tlg0030.tlg004' type='cts-urn'>4 <soCalled >For Euxenippus</soCalled></bibl>) were delivered for the defense in impeachments; in both cases <name  type='ancientAuthor'>Lycurgus</name> was involved in the prosecution.</p>
+
+<p ><name  type='ancientAuthor'>Hypereides</name> was appointed one of the special prosecutors in the <name  type='person'>Harpalus</name> affair; fragments of his speech <bibl  n='urn:cts:greekLit:tlg0030.tlg005' type='cts-urn'><soCalled >Against Demosthenes</soCalled> (5)</bibl>, which helped convict his former associate, survive. After the death of <name  type='person'>Alexander the Great</name> in <date  when='-0323'>323</date>, <name  type='ancientAuthor'>Hypereides</name> led the war party in <placeName  key='Athens'>Athens</placeName> and traveled abroad to win allies; accordingly, in <date  when='-0322'>322</date>, he was chosen to deliver the funeral oration (<bibl  n='urn:cts:greekLit:tlg0030.tlg006' type='cts-urn'>6</bibl>) in honor of the Athenian dead in the <placeName  key='Lamia'>Lamian War.</placeName> Later that year, after the rebels were defeated, <name  type='ancientAuthor'>Hypereides</name> was hunted down by order of <name  type='person'>Antipater</name> and executed. (See also <name  type='ancientGenre'>Oratory</name>.)</p>
+
+
+
+<byline >David D. Phillips</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

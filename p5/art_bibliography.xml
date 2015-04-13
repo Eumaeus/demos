@@ -1,0 +1,125 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Bibliography: Athenian Political Art from the fifth and fourth centuries BCE</title>
+ <author >Amy C. Smith</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text  xml:lang='en'>
+<body >
+
+
+<div  n='Summary' type='Summary' xml:id='Summary'>
+<head >Summary</head>
+<p >This article offers suggestions for further reading on the following aspects of Athenian political life that are represented in Athenian art from the democratic period (508-322 BCE):</p>
+
+<list  rend='simple'>
+	<item >Images of historical individuals.</item>
+	<item >Images of tribal heroes.</item>
+	<item >Images of political personifications.</item>
+</list>
+
+</div>
+
+<div  n='biblPortraiture' type='Section' xml:id='biblPortraiture'>
+<head >Further Reading: Portraiture</head>
+
+<figure  n='1997.99.0176.jpeg' rend='right'/>
+
+<list  rend='numbered'>
+<item ><bibl  type='secondary'>John Boardman, <title >Greek Sculpture. The Late Classical Period</title> (Thames &amp; Hudson, London 1995) 103-13</bibl>.</item>
+<item ><bibl  type='secondary'>J.D. Breckenridge, <title >Likeness: A Conceptual History of Ancient Portraiture</title> (Evanston 1968)</bibl>.</item>
+<item ><bibl  type='secondary'>R. Brilliant, <title >Portraiture</title> (Cambridge, Mass. 1991)</bibl>.</item>
+<item ><bibl  type='secondary'>G.M.A. Richter, <title >The Portraits of the Greeks</title> (New York 1965)</bibl>.</item>
+<item ><bibl  type='secondary'>G.M.A. Richter, rev. R.R.R. Smith, <title >The Portraits of the Greeks</title> (London 1984)</bibl>.</item>
+<item ><bibl  type='secondary'>Paul Zanker (Alan Shapiro, trans.), <title >The Mask of Socrates. The Image of the Intellectual in Antiquity (Sather Classical Lectures</title> 59) (Berkeley 1996)</bibl>.</item>
+</list>
+
+</div>
+
+<div  n='biblHeroes' type='Section' xml:id='biblHeroes'>
+<head >Further Reading: Eponymous Heroes</head>
+
+<figure  n='1997.99.0176.jpeg' rend='right'/>
+
+<list  rend='numbered'>
+<item ><bibl  type='secondary'>F. Bourriot, <title >Recherches sur la nature du genos</title> (Lille 1976)</bibl>.</item>
+<item ><bibl  type='secondary'>L. Deubner, <title >Attische Feste</title> (Berlin 1932)</bibl>.</item>
+<item ><bibl  type='secondary'>L. Farnell, Gre<title >ek Hero Cults and Ideas of Immortality</title> (Oxford 1921)</bibl>.</item>
+<item ><bibl  type='secondary'>E. Kearns, <title >The Heroes of Attica. BICS-Suppl.</title> 57 (1989)</bibl>.</item>
+<item ><bibl  type='secondary'>U. Kron, <title >Die zehn attischen Phylenheroen. Geschichte, Mythos, Kult und Darstellungen. AM-BH</title> 5 (Berlin 1976)</bibl>.</item>
+<item ><bibl  type='secondary'>N. Loraux, <title >Les enfants d'Athéna</title> (Paris 1981)</bibl>.</item>
+<item ><bibl  type='secondary'>M.P. Nilsson, <title >Cults, Myths, Oracles and Politics in Ancient Greece. Studies in Mediterranean Archaeology. Pocketbook</title> 44 (Göteborg 1986)</bibl>.</item>
+<item ><bibl  type='secondary'>R.G. Osborne, <title >Demos. The Discovery of Classical Attika</title> (Cambridge 1985)</bibl>.</item>
+<item ><bibl  type='secondary'>T.L. Shear, Jr., <title >The Monument of the Eponymous Heroes in the Athenian Agora. Hesperia</title> 39 (1970) 145 ff.</bibl>.</item>
+<item ><bibl  type='secondary'>J.S. Traill, <title >The Political Organization of Attica: a Study of the Demes, Trittyes and Phylai and their Representation of the Athenian Council. Hesperia Suppl</title>. 14 (Princeton 1975)</bibl>.</item>
+<item ><bibl  type='secondary'>D. Whitehead, <title >The Demes of Attica 508/7-ca 250 B.C. A Political and Social Study</title> (Princeton 1986)</bibl>.</item>
+</list>
+
+</div>
+
+<div  n='biblPersonifications' type='Section' xml:id='biblPersonifications'>
+<head >Further Reading: Personifications</head>
+
+<figure  n='1997.99.0176.jpeg' rend='right'/>
+
+<list  rend='numbered'>
+<item ><bibl  type='secondary'>R.G.A. Buxton, <title >Persuasion in Greek Tragedy</title> (Cambridge 1985)</bibl>.</item>
+<item ><bibl  type='secondary'>J. Frel, “Dike and Adikia,” <title >Geras</title> (Prague 1963)</bibl>.</item>
+<item ><bibl  type='secondary'>A. Kosmopoulou, “The Relief Base of Atarbos, Akropolis Museum 1338,” in K. Hartswick and M. Sturgeon eds., <title >Stephanos. Studies in Honor of Brunilde Sismondo Ridgway</title> (Philadelphia 1998)</bibl>.</item>
+<item ><bibl  type='secondary'>C.L. Lawton, <title >Attic Document Reliefs. Art and Politics in Ancient Athens</title> (Oxford 1995)</bibl>.</item>
+<item ><bibl  type='secondary'>D. Metzler, “Eunomia und Aphrodite. Zur Ikonologie einer attischen Vasengruppe,” <title >Hephaistos</title> 2 (1980) 73-88</bibl>.</item>
+<item ><bibl  type='secondary'>E.B. Harrison, “The Shoulder-Cord of Themis,” in U. Höckmann and A. Krug eds., <title >Festschrift für Frank Brommer</title> (Mainz 1977)</bibl>.</item>
+<item ><bibl  type='secondary'>M. Meyer, <title >Die griechischen Urkundenreliefs. AM-BH</title> 13 (Berlin 1989)</bibl>.</item>
+<item ><bibl  type='secondary'>M.M. Miles, “A Reconstruction of the Temple of Nemesis at Rhamnous,” <title >Hesperia</title> 58 (1989) 226-35</bibl>.</item>
+<item ><bibl  type='secondary'>J. Neils, “A Greek Nativity by the Meidias Painter,” <title >BullClevelandMus</title> 70 (1983) 274-89</bibl>.</item>
+<item ><bibl  type='secondary'>M.P. Nilsson, “Kultische Personifikation,” <title >Eranos</title> 50 (1952) 31-40</bibl>.</item>
+<item ><bibl  type='secondary'>O. Palagia, “A Draped Female Torso in the Ashmolean Museum,” <title >JHS</title> 95 (1975) 180-82</bibl>.</item>
+<item ><bibl  type='secondary'>O. Palagia, “A Colossal Statue of a Personification from the Agora of Athens,” <title >Hesperia</title> 51 (1982) 99-113</bibl>.</item>
+<item ><bibl  type='secondary'>O. Palagia, “No Demokratia,” in O. Palagia, W.D.E. Coulson, T.L. Shear, Jr., H.A. Shapiro, and F.J. Frost eds., <title >The Archaeology of Athens and Attica under the Democracy</title> (Oxford 1994) 113-22</bibl>.</item>
+<item ><bibl  type='secondary'>J.J. Pollitt, “Pots, Politics, and Personifications in Early Classical Athens,” <title >Yale University Art Gallery Bulletin</title> 40 (1987) 9-15</bibl>.</item>
+<item ><bibl  type='secondary'>H.A. Shapiro, <title >Personifications in Greek Art. The Representation of Abstract Concepts. 600-400 B.C.</title> (Zurich 1993)</bibl>.</item>
+<item ><bibl  type='secondary'>E. Simon, “Aphrodite Pandemos auf attischen Münzen,’ <title >SNR</title> 49 (1970)</bibl>.</item>
+<item ><bibl  type='secondary'>E. Simon, “Eirene und Pax. Friedensgöttinnen in der Antike,’ <title >Sitzungsberichte der Wissenschaften Gesellschaft an der Johann-Wolfgang-Goethe-Universität Frankfurt am Main</title> 24 (1988) 55-69</bibl>.</item>
+<item ><bibl  type='secondary'>A.C. Smith, <title >Political Personifications in Classical Athenian Art</title> (Diss. New Haven 1997)</bibl>.</item>
+<item ><bibl  type='secondary'>T.B.L. Webster, <title >Art and Literature in Fourth Century Athens</title> (London 1956)</bibl>.</item>
+</list>
+</div>
+
+</body>
+</text>
+</TEI>

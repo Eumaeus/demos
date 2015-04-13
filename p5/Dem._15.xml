@@ -1,0 +1,58 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 15</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg015' type='cts-urn'>Dem. 15</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >For the Liberty of the People of <placeName  key='Rhodes'>Rhodes</placeName></title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). <placeName  key='Rhodes'>Rhodes</placeName> had been one of <placeName  key='Athens'>Athens</placeName>’ allies before the so-called <soCalled >Social War</soCalled>, in which <placeName  key='Rhodes'>Rhodes</placeName>, <placeName  key='Cos'>Cos</placeName>, and <placeName  key='Chios'>Chios</placeName> revolted against Athenian control. After the war ended, in <date  when='-0355'>355 BCE</date>, <name  type='person'>Mausolus</name> the satrap (governer ruling on behalf of the Persian King) of <placeName  key='Caria'>Caria</placeName>, intervened in Rhodian affairs and established a oligarchic government. The democratic party at <placeName  key='Rhodes'>Rhodes</placeName> appealed to <placeName  key='Athens'>Athens</placeName> to help. In this speech, probably delivered in <date  when='-0351'>351 BCE</date>, <name  type='ancientAuthor'>Demosthenes</name> attempts to convince the Athenian <term  sortKey='Assembly'>Assembly</term> to help reestablish democracy on <placeName  key='Rhodes'>Rhodes</placeName>. The speech was unsuccessful, perhaps because the Athenians did not dare to risk a war with <placeName  key='Caria'>Caria</placeName> and the Persians. (Source for dates: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 411</bibl>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

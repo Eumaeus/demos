@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 40</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg040' type='cts-urn'>Dem. 40</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Boeotus</name> II</title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech attributed to <name  type='ancientAuthor'>Demosthenes</name>’s authorship, written for a man named <name  type='person'>Mantitheus</name>, who was suing his half-brother <name  type='person'>Boeotus</name>. This is the second time <name  type='person'>Mantitheus</name> sued <name  type='person'>Boeotus</name> (see <bibl  n='urn:cts:greekLit:tlg0014.tlg039' type='cts-urn'>Dem. 39</bibl>). The plaintiff was the legitimate son of <name  type='person'>Mantias</name>, who had two other, illegitimate sons, the older one of whom was <name  type='person'>Boeotus</name>, the defendant. After <name  type='person'>Mantias</name> died, all three sons agreed to divide their father’s property three ways. But a dispute arose regarding their mothers' money: the defendant claimed that his mother had brought one talent (see <term  sortKey='Money'>Money</term>) into the marriage, which he did not want to share with his half-brothers. The half-brothers claimed that their mother had given <name  type='person'>Mantias</name> (the father) 100 minae (see <term  sortKey='Money'>Money</term>), which they did not want to share with <name  type='person'>Mantitheus</name>. In the speech, <name  type='person'>Mantitheus</name> says that the case had been in arbitration for eleven years before coming to trial, and he further claims that the half-brothers might try to poison him. Based on the style of this speech, it is generally thought that this speech is not actually by <name  type='ancientAuthor'>Demosthenes</name> (source: <bibl >A.T. Murray, <title >Demosthenes IV</title> [Cambridge, Loeb: 1936] 481</bibl>). The speech was written sometime after <date  when='-0348'>348 BCE</date>, which is the date for the first suit between this plaintiff and defendant (see <bibl  n='urn:cts:greekLit:tlg0014.tlg039' type='cts-urn'>Dem. 39</bibl>) (Source for date: <bibl >R. Sealey, <title >Demosthenes and his Time: a study in defeat</title> [Oxford, 1993] 144</bibl>) </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

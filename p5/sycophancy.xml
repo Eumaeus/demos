@@ -1,0 +1,194 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+		<fileDesc >
+			<titleStmt >
+				<title >Sycophancy and Attitudes to Litigation</title>
+				<author >Matthew R. Christ</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text  xml:lang='en'>
+<body >
+
+<div  n='Summary' type='Summary' xml:id='Summary'>
+<head >Introduction</head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p >Suggested Reading: <bibl  n='urn:cts:greekLit:tlg0019.tlg004' type='cts-urn'>Aristophanes, <title >Wasps</title></bibl></p>
+
+<p ><placeName  key='Athens'>Athens</placeName> gave birth not only to democratic legal process but also to a lively discussion of the proper role of law and litigation in the lives of the <term  sortKey='citizens'>citizens</term> of a democracy. While Athenians were committed to their system of popular <term  sortKey='courts'>courts</term> and understood that litigation could be essential for preserving the <soCalled >rights</soCalled> and property of <term  sortKey='citizens'>citizens</term> and protecting the public interest, they were also acutely conscious that litigation could be abused and exploited for private ends. Like the citizens of modern democracies, Athenians had to come to terms with the fact that the legal process can be used not only as a means of obtaining justice but as a weapon for achieving narrowly selfish ends.</p>
+
+</div>
+
+<div  n='litigiousness' type='section' xml:id='litigiousness'>
+<head >Litigiousness &amp; Sycophancy</head>
+
+<p >A preliminary question relevant to our subject is: <quote >Were Athenians litigious?</quote> This question is a loaded one, however, as the application of the label <soCalled >litigious</soCalled> is highly subjective. Legal anthropologists have observed that the modern discussion of <soCalled >litigiousness</soCalled> in the <placeName  key='United States'>United States</placeName> is highly politicized and reflects often unstated assumptions about the proper role of litigation in society. Ancient assessments of <soCalled >litigiousness</soCalled> in <placeName  key='Athens'>Athens</placeName> likewise depended on the perspective of the evaluator. While ancient critics of <placeName  key='Athens'>Athens</placeName> were ready to label Athenians as a group <quote >overly fond of lawsuits,</quote> Athenians tended to view litigation and adjudication as positive features of democracy. If Athenians were comfortable with litigation as a feature of civic life and Athenian <term  sortKey='courts'>courts</term> had plenty of cases to keep them busy throughout the year, Athenians were well aware that abuse was possible. Their discussion of abuse provides a window not only on Athenian attitudes toward litigation but more generally on Athenian values.</p>
+
+<p >The most colorful feature of the Athenian discussion of legal excess and abuse is the allegation that an individual is a <soCalled >sycophant</soCalled> (<term ><term  sortKey='law_glossary@sukophantai'>sukophantai</term></term>). While this term of invective is freely applied, <soCalled >sycophancy</soCalled> tends to connote malicious and devious legal behavior for personal advantage, including monetary profit. A <soCalled >sycophant</soCalled> brings false charges; blackmails individuals with the threat of litigation; and generally subverts democratic legal process for his own ends. We do not know the origins of this word, and Athenians may not have either. Literally, sycophant seems to mean <soCalled >fig-revealer.</soCalled> While the word may have had sexual associations (<soCalled >fig</soCalled> was slang for <soCalled >genitals</soCalled>), it was not as far as we can tell a <soCalled >dirty</soCalled> word: it appears in courtroom rhetoric, which avoided the obscenities voiced regularly on the comic stage and presumably in everyday life. In any event, <soCalled >sycophant</soCalled> was a powerful word, with a wide range of negative connotations. No Athenian would advertise himself as a <soCalled >sycophant</soCalled>; this was a label hostilely imposed on rivals and enemies. It was up to one’s audience to decide whether or not the label was appropriate.</p>
+
+<p >Just how intrigued Athenians were by the idea of the <soCalled >sycophant</soCalled> can be inferred from how often the comic poet <name  type='ancientAuthor'>Aristophanes</name> brought sycophants on stage as figures of ridicule and universal disdain. In his <title ><bibl  n='Aristoph. Ach.'>Acharnians</bibl></title> (<date  when='-0425'>425</date> B.C.), for example, sycophants appear in two episodes (<bibl  n='urn:cts:greekLit:tlg0019.tlg001:818-829' type='cts-urn'>818-829</bibl>, <bibl  n='urn:cts:greekLit:tlg0019.tlg001:908-959' type='cts-urn'>908-959</bibl>) in the form of marketplace informers, who threaten legal action against <name  type='person'>Dikaiopolis</name>, the comedy’s protagonist, for violating <placeName  key='Athens'>Athens</placeName>’ ban on the import of goods from hostile states. In his <title ><bibl  n='Aristoph. Birds'>Birds</bibl></title> (<date  when='-0414'>414</date> B.C.), <name  type='ancientAuthor'>Aristophanes</name> introduces a hyperactive sycophant who makes his living by harassing members of <placeName  key='Athens'>Athens</placeName>’ subject states in the Athenian <term  sortKey='courts'>courts</term> (<bibl  n='urn:cts:greekLit:tlg0019.tlg006:1410-1469' type='cts-urn'>1410-1469</bibl>). In <name  type='ancientAuthor'>Aristophanes</name>’ <bibl  n='urn:cts:greekLit:tlg0019.tlg011' type='cts-urn'><title >Plutus</title></bibl> (<date  when='-0388'>388</date> B.C.), the intruding sycophant claims to be a model volunteer prosecutor of public suits, protecting the public interest (<bibl  n='urn:cts:greekLit:tlg0019.tlg011:850-958' type='cts-urn'>850-958</bibl>). Each sycophant is mocked and then driven off the stage by <name  type='ancientAuthor'>Aristophanes</name>’ protagonists.</p>
+
+</div>
+
+<div  n='aristogeiton' type='section' xml:id='aristogeiton'>
+<head >Against <name  type='person'>Aristogeiton</name></head>
+
+<p >Litigants in the courts likewise cast the sycophant as an execrable outsider, a common enemy who should be run out of the city. The most colorful attack on an alleged sycophant comes in <name  type='ancientAuthor'>Demosthenes</name>’ prosecution of the politician <name  type='person'>Aristogeiton</name> (<date  when='-0324'>324</date> B.C.). <name  type='ancientAuthor'>Demosthenes</name> casts <name  type='person'>Aristogeiton</name> as a savage beast, who preys upon the citizens of <placeName  key='Athens'>Athens</placeName> with his frivolous and malicious lawsuits. Consistent with this, <name  type='ancientAuthor'>Demosthenes</name> asserts, is <name  type='person'>Aristogeiton</name>’s inhuman savagery when in the city’s jail as a state-debtor:</p>
+
+<p ><quote >Before <name  type='person'>Aristogeiton</name> left <term  sortKey='jail'>jail</term>, a man of <placeName  key='Tanagra'>Tanagra</placeName> was thrown in until he could find bail. With him he brought a document. <name  type='person'>Aristogeiton</name> approached him and, while chatting on some topic or other, stole this document; but when the man blamed him for the theft and made a fuss about it, saying that no one else could have taken it, <name  type='person'>Aristogeiton</name> was so shameless that he tried to strike the fellow. But the Tanagran, a fresh-caught fish, was getting the better of the defendant, who was thoroughly pickled since he had been in <term  sortKey='jail'>jail</term> a long time. So when it came to this, <name  type='person'>Aristogeiton</name> bit off the other man’s nose. At this point, the victim in his distress abandoned the search for the [stolen] document. The other prisoners, however, later found it in a chest of which the defendant possessed the key. After that, the inmates of the <term  sortKey='jail'>jail</term> voted not to share fire or light, drink or food with him, not to receive anything from him, not to give him anything. To prove the truth of my statements, please call the man whose nose this monster bit off and swallowed.</quote> (<bibl  n='urn:cts:greekLit:tlg0014.tlg025:60-62' type='cts-urn'>25.60-62</bibl>)</p>
+
+<p ><name  type='ancientAuthor'>Demosthenes</name> then poses a rhetorical question to his audience: <quote >Is <name  type='person'>Aristogeiton</name> not impious, savage, and unclean? Is he not a sycophant?</quote> (<bibl  n='urn:cts:greekLit:tlg0014.tlg025:63' type='cts-urn'>25.63</bibl>). If <placeName  key='Athens'>Athens</placeName>’ inmate population will have nothing to do with this consummate sycophant, <name  type='ancientAuthor'>Demosthenes</name> suggests, surely Athenians at large should do the same. Near the end of his speech, <name  type='ancientAuthor'>Demosthenes</name> drives this point home with more striking imagery: <quote >Just as physicians, when they detect a cancer or an ulcer or some other incurable evil, cauterize it or cut it away, so you must all unite in sending this monster beyond the frontier, in casting him out of the city, in destroying him</quote> (<bibl  n='urn:cts:greekLit:tlg0014.tlg025:95' type='cts-urn'>25.95</bibl>).</p>
+
+</div>
+
+<div  n='regulating' type='section' xml:id='regulating'>
+<head >Regulating Sycophancy</head>
+
+<p >While Athenians viewed gross abuse of litigation harshly and were apparently receptive to allegations that an individual was a <soCalled >sycophant,</soCalled> they acted rather moderately when it came to regulating the abuse of litigation. Although they implemented numerous measures that might discourage frivolous or false suits, none of these was an absolute obstacle to a creative litigant.</p>
+
+<p >For example, a prosecutor of a public action who failed to win one-fifth of the votes cast by jurors was normally subject to a 1000-drachma fine and partial disfranchisement (<term ><term  sortKey='law_glossary@atimia'>atimia</term></term>). While this made it dangerous to bring a patently ridiculous suit, the risk involved in bringing a somewhat plausible suit was presumably less since one had only to win one-fifth of the votes. A wealthy man, in particular, might be willing to take this gamble, especially if he was seeking to take vengeance on a personal or political enemy as was often the case. He might view the harm he would do his enemy (e.g. through a large fine or exile) as well worth the risk he faced: after all, whereas he only had to win just over half the votes cast to convict his enemy, his opponent had to carry over four-fifths of the jury to make the prosecutor subject to penalty. If a wealthy man was concerned about the financial penalty for unsuccessful public prosecutions, he could agree in advance to share the cost of the fine, if imposed, with other interested parties. If it was the partial <term ><term  sortKey='law_glossary@atimia'>atimia</term></term> imposed on an unsuccessful prosecutor that troubled him, he might hire an agent to initiate the suit in his name. The <soCalled >real</soCalled> prosecutor could join his agent in the prosecution by participating in the trial as a supporting speaker (<term ><term  sortKey='law_glossary@sunegoros'>sunegoros</term></term>); as a supporter, he would not be subject to atimia if the prosecution was disastrously unsuccessful.</p>
+
+<p >While we hear of legal actions specifically available against <soCalled >sycophants,</soCalled> it is interesting that no prosecutions brought under this rubric are attested in our sources. Apparently, Athenian litigants were much more ready to complain about an opponent’s alleged sycophancy than to pursue such complaints through legal actions. One possible reason for this is that a charge of sycophancy would have been difficult to prove, since the nefarious activities involved were best conducted discreetly and out of public view. Another reason for this might be that potential prosecutors feared that they might be perceived as sycophants themselves: a natural line of defense against a prosecution for sycophancy would be for the defendant to argue that this prosecution was itself malicious and contrived. Athenians appear to have been aware that measures to control the abuse of litigation could themselves be abused. Once each year, Athenians allowed preliminary complaints (<term ><term  sortKey='law_glossary@probolai'>probolai</term></term>) against sycophants before the <term  sortKey='Assembly'>Assembly</term>; these complaints were limited, however, to no more than three against <term  sortKey='citizens'>citizens</term>, and three against resident aliens (<term  sortKey='metics'>metics</term>) (<bibl  n='urn:cts:greekLit:tlg0086.tlg003:43.5' type='cts-urn'>[Aristotle], <title >Constitution of Athens</title> 43.5</bibl>).</p>
+
+<p >The fact that Athenians did not take harsher steps against <soCalled >sycophancy</soCalled> suggests that they did not want to discourage litigation unduly. A central part of the democracy was adjudication of private disputes and public actions by large panels of Athenians; stringent measures against the abuse of litigation might, in the Athenian view, have discouraged legitimate suits, as well as frivolous ones.</p>
+
+</div>
+
+<div  n='private' type='section' xml:id='private'>
+<head >Sycophancy in Private Suits</head>
+
+<p >While Athenians were unanimous in condemning sycophancy and provided mechanisms, albeit moderate ones, for pursuing <soCalled >sycophants,</soCalled> in practice the line between the legitimate use of litigation and abuse of it could be quite thin. Because Athenians viewed private suits and public ones in rather different ways, we should consider each type separately for evidence of Athenian attitudes toward proper and improper uses of litigation.</p>
+
+<p >While private suits (<term ><term  sortKey='law_glossary@dike'>dikai</term></term>) could involve questions of assault or even <term  sortKey='homicide'>homicide</term>, they frequently arose from disputes between individuals or groups of individuals over property or other financial interests. While these suits required jurors to evaluate claims and counterclaims concerning concrete matters, they also invited reflection on social relationships and how breaches in them should be handled. Simply put, when was an individual justified in turning a private conflict into a very public lawsuit?</p>
+
+<p >An amusing anecdote from the <bibl  n='Schol. Aristoph. Wasps 191'>scholia to Aristophanes’ <title >Wasps</title> (191)</bibl> suggests that not every quarrel belongs in court:
+
+<quote >Once at <placeName  key='Athens'>Athens</placeName> a man hired a donkey after some bargaining with its driver, just to carry a load to <placeName  key='Megara'>Megara</placeName>. When they had agreed on these terms, they placed the freight upon him and set out. At midday when the summer heat beat down upon them and they could find no shelter, the owner of the freight lifted it off the donkey and used the donkey to shade himself. At this the driver launched into battle, declaring that he had hired out his donkey to carry freight, not to provide shade; to which the other replied that he had hired it to use as he wished. They took this quarrel about nothing into <term  sortKey='court'>court</term>.</quote></p>
+
+<p >If a quarrel over <soCalled >the shadow of an ass</soCalled> (a proverbial phrase) did not belong in <term  sortKey='court'>court</term>, the precise point where it was justifiable to bring a conflict before a public <term  sortKey='court'>court</term> was open to debate. A plaintiff, therefore, had to explain, among other things, why he deemed his suit worthy of a public hearing.</p>
+
+<p >It was incumbent on a plaintiff not only to establish that his case was far from trivial, but also to demonstrate that he was not quarrelsome or contentious in pursuing a private dispute to <term  sortKey='court'>court</term>. While plaintiffs may often have been motivated by rancor or manly outrage at the insulting behavior of their opponents, typically they represent themselves as patient, long-suffering individuals, who had no choice but to bring a lawsuit due to the stubborn resistance of their opponents to reason and fairness. In particular, plaintiffs seek to demonstrate that they actively sought to resolve the dispute before it came to court, for example, through <term  sortKey='law_glossary@diaitetes'>arbitration</term>, private or public. This suggests that Athenian juries were concerned about breaches of social peace, and were interested in determining which litigant was responsible for violating cooperative ideals. Paradoxically, as litigants contested vigorously against one another before a popular court, they invoked ideals of cooperation and sought to show how they did everything they could to keep their disputes from escalating into full-fledged legal battles. If, in fact, they were sometimes involved in <soCalled >feuding</soCalled> behavior with their opponents, they did their best to present themselves as reluctant disputants and litigants.</p>
+
+</div>
+
+<div  n='public' type='section' xml:id='public'>
+<head >Sycophancy in Public Suites</head>
+
+<p >Public Suits (<term ><term  sortKey='law_glossary@graphe'>graphai</term></term>): A hallmark of Athenian democracy was that any willing individual could bring a public action on behalf of the city. In fact, because there was no regular office of public prosecutor in <placeName  key='Athens'>Athens</placeName>, the city relied for the most part on volunteers to initiate suits on its behalf. While volunteer prosecution was central to the democracy, tensions surrounded it. In particular, the public appears to have been concerned about what motivated volunteers to bring public actions: notwithstanding the predictable claims of volunteers that they were patriots serving their city, the public often suspected that they were driven by less attractive—even sycophantic—motivations.</p>
+
+<p ><name  type='ancientAuthor'>Aristophanes</name> provides an engaging and amusing look at the problematic status of the volunteer prosecutor in his <title ><bibl  n='urn:cts:greekLit:tlg0019.tlg011' type='cts-urn'><title >Plutus</title></bibl></title> (<date  when='-0388'>388</date> B.C.). A restless character appears on stage making threats and levelling false charges and is eventually identified as a sycophant. This manifest sycophant, however, argues that he is in fact a patriot, much to the bewilderment of his interlocutor, <name  type='person'>Dikaios</name> (<soCalled >Just Man</soCalled>): </p>
+
+
+<p ><name  type='person'>Dikaios</name>: Are you a good and patriotic citizen? 
+<lb />Sycophant: As no other man. 
+<lb />Dik.: All right, answer a few questions for me. 
+<lb />Syc.: Go ahead. 
+<lb />Dik.: Are you a farmer? 
+<lb />Syc.: Do you think I’m so crazy? 
+<lb />Dik.: A trader? 
+<lb />Syc.: Yes, at least I pretend to be, whenever it suits me. 
+<lb />Dik.: What do you do then? Did you learn some trade? 
+<lb />Syc.: By <name  type='god'>Zeus</name>, no. 
+<lb />Dik.: How then have you been making a living, if, as you say, you do nothing? 
+<lb />Syc.: I am the superintendent of all affairs, public and private. 
+<lb />Dik.: You? How’s that? 
+<lb />Syc.: I volunteer. 
+<lb />Dik.: But how could you be a good <term  sortKey='citizen'>citizen</term>, you thief, when you’re hated for getting involved in what is no concern of yours? 
+<lb />Syc.: You simpleton. Isn’t it my concern to be the benefactor of my own city as best I can? 
+<lb />Dik.: Is meddling in others’ affairs the same as being a benefactor? 
+<lb />Syc.: Coming to the rescue of the established laws certainly is, and not permitting anyone to transgress them. 
+<lb />Dik.: Is it not for that reason that the city puts jurors in office? 
+<lb />Syc.: But who does the prosecuting? 
+<lb />Dik.: Any volunteer. 
+<lb />Syc.: Precisely, and as I said, I am that person, and so the affairs of the city have fallen upon me. 
+<lb />Dik.: By <name  type='god'>Zeus</name>, if that is so, then the city has a base protector. 
+<lb />(<bibl  n='urn:cts:greekLit:tlg0019.tlg011:901-920' type='cts-urn'>Aristoph. <title >Pl.</title> 901-920</bibl>)</p>
+
+<p >While the sycophant’s defense of the institution of volunteer prosecution is compelling—after all, it was a fundamental part of the Athenian democracy—his ability to usurp the role of volunteer prosecutor for his own purposes is troubling. Although the role may be a legitimate one, <name  type='ancientAuthor'>Aristophanes</name> suggests, it may attract meddlesome individuals who wish to exploit it for private ends.</p>
+
+<p >That the concerns raised by <name  type='ancientAuthor'>Aristophanes</name> were very real ones for Athenians is confirmed by surviving forensic orations. <name  type='ancientAuthor'>Lycurgus</name>, for example, confronts directly the public’s misgivings concerning volunteer prosecutors near the beginning of his prosecution of <name  type='person'>Leocrates</name> for treason (<date  when='-0330'>330</date> B.C.):</p>
+ 
+<p ><quote >Gentlemen, I would wish that, since it is beneficial to the city that there are men who bring lawbreakers to judgment here, the people would view this as a benevolent activity. In fact, the opposite is true: anyone who takes on himself personal risk and incurs enmity [of defendants] on behalf of the public appears [to his fellow citizens] to be fond not of the city, but of lawsuits. This is neither just nor advantageous to the city. For three things in particular guard and preserve the democracy and the city’s prosperity: first, the system of laws; second, the vote of jurors; and third, the method of prosecution that hands over crimes to them. The law exists to lay down in advance what must not be done, the accuser to report those who are subject to penalty under the laws, and the juror to punish all who have been exposed by these two. Thus neither the law nor the vote of the jurors has any strength without someone to hand over offenders to them.</quote> (<bibl  n='urn:cts:greekLit:tlg0034.tlg001:3-5' type='cts-urn'>1.3-5</bibl>)</p>
+
+<p >While this is an eloquent defense of a democratic institution, <name  type='ancientAuthor'>Lycurgus</name>’ audience may reasonably have wondered if patriotism was the only motivation behind this prosecution brought by a prominent politician. Athenians were cynical about human nature, and were highly attuned to the fact that self-interests of various sorts could lead individuals to volunteer as prosecutors.</p>
+
+<p >Volunteer prosecutors, aware of jurors’ cynicism concerning their motivations, often choose to disclose their personal motivations for volunteering, but cast these as honorable. Especially striking from a modern perspective is the way volunteers sometimes openly acknowledge that they are personal enemies of defendants. This strategy capitalizes on Athenian views of personal enmity. Athenians viewed it as natural that men should want to do harm to their enemies; if one’s enemy did some harm to the city, this was a golden opportunity to seek vengeance. Athenians were apparently ready to accept, moreover, that an individual acting on the basis of personal enmity was unlikely to be driven as well by corrupt motivations—for example, the base pursuit of financial gain.</p>
+
+<p >Prosecutors who acknowledge the role of personal enmity in inducing them to litigate characteristically present their private interests as fully compatible with public ones. For example, when <name  type='ancientAuthor'>Aeschines</name> prosecutes his personal enemy <name  type='person'>Timarchus</name>, he asserts: <quote >What is so frequently said of public suits is no mistake, namely, that very often private enmities correct public abuses</quote> (<bibl  n='urn:cts:greekLit:tlg0026.tlg001:2' type='cts-urn'>1.2</bibl>). <name  type='ancientAuthor'>Lysias</name>, in his prosecution of <name  type='person'>Eratosthenes</name> (one of the notorious <term  sortKey='Thirty_Tyrants'>Thirty</term> in <date  from='-0404' to='-0403'>404/3</date> B.C.), deftly interweaves his personal enmity for the defendant with the public’s hatred of him:</p>
+
+<p ><quote >It seems to me that our positions will be the reverse of what they were in former times: for previously the prosecutors had to explain their enmity toward the defendants, but in the present case one must inquire of the defendants as to the source of their enmity toward the city in committing such audacious offenses against it. It is not, indeed, from any lack of private enmity and suffering that I make these remarks, but because of the abundant reasons that all of us have for anger on personal or public grounds.</quote> (<bibl  n='urn:cts:greekLit:tlg0540.tlg012:2' type='cts-urn'>12.2</bibl>)</p>
+
+<p >Thus, <name  type='ancientAuthor'>Lysias</name> suggests, conviction of <name  type='person'>Eratosthenes</name> would satisfy the need both for private and public vengeance on him for his crimes.</p>
+
+</div>
+
+<div  n='exploitation' type='section' xml:id='exploitation'>
+<head >Manipulation &amp; Exploitation</head>
+
+<p >While it is common for Athenian prosecutors to speak of their private enmity with a defendant, there was a potential problem here: a defendant could assert that the prosecutor was so bent on personal vengeance that he had brought a false or malicious prosecution. <name  type='ancientAuthor'>Demosthenes</name>, for example, takes this approach in attacking <name  type='ancientAuthor'>Aeschines</name> for prosecuting <name  type='person'>Ctesiphon</name>, who had proposed that the <term  sortKey='assembly'>people</term> honor <name  type='ancientAuthor'>Demosthenes</name> with a crown and vote of thanks. <name  type='ancientAuthor'>Demosthenes</name> attributes the prosecution to mere <quote >private enmity, envy, and pettiness</quote> (<bibl  n='urn:cts:greekLit:tlg0014.tlg018:279' type='cts-urn'>18.279</bibl>), and casts this as utterly disgraceful: <quote >an honorable <term  sortKey='citizen'>citizen</term> should never expect a <term  sortKey='jury'>jury</term> empanelled in the public service to bolster up his own anger or enmity or other passions, and he will not go to court to gratify these</quote> (<bibl  n='urn:cts:greekLit:tlg0014.tlg018:278' type='cts-urn'>18.278</bibl>). Clearly, personal enmity could be cast as a positive or negative dimension of a public prosecution, and it was incumbent upon litigants to exploit whichever view best served their purposes.</p>
+
+<p >Given their widespread concerns about the abuse of litigation in <placeName  key='Athens'>Athens</placeName>, it comes as no surprise that Athenians were on the lookout in both private and public actions for the manipulation of the city’s laws and the exploitation of legal expertise. As the comic writer <name  type='ancientAuthor'>Menander</name> quips: <quote >The laws are a splendid thing; but a man who looks too closely to the laws is clearly a sycophant</quote> (<bibl  n='Menander fr. 545 K-T'>fr. 545 K-T</bibl>).</p>
+
+<p >Athenians held their laws in high regard: after all, these represented the principles by which Athenians collectively agreed to regulate their lives within the city. They represented the will of the people under the democracy and could be said to hold authority over the citizens of <placeName  key='Athens'>Athens</placeName>. In practice, however, the use of laws by litigants could be problematic. To make full use of the city’s laws, which were written and, by the <date  from='-0430' to='-0300'>late fifth century B.C.</date>, publicly archived, one had to be literate. The fact that educated (usually wealthy) Athenians had better access to laws than the average Athenians who dominated juries was the source of some tension. Litigants, therefore, tend to avoid appearing too knowledgeable about the laws before jurors or to be pressing too far an interpretation of the written word. Because jurors were conscious, moreover, that rhetoric could distort the meaning of laws, litigants are careful to show that their claims are consistent not only with the city’s laws but also with general and readily understood notions of justice.</p>
+
+<p >Litigants who presented themselves as average private persons had a special stake in casting themselves as amateurs, unfamiliar with legal process and far from expert in the city’s laws. At the same time, they had good reason to invoke laws that supported their cases. Wealthy litigants, to balance these competing needs, often purchased their lawcourt speeches from skilled speechwriters (<term  sortKey='law_glossary@logographos'>logographers</term>), who could help them make the most of the city’s laws while still maintaining an air of amateurism. One of <name  type='ancientAuthor'>Hyperides</name>’ clients, for example, introduces his discussion of several laws by blaming his opponent for driving him to delve into legal questions: <quote >You have made me so very fearful that I may be ruined by you and your cleverness, that I have been searching the laws night and day and studying them to the neglect of everything else</quote> (<bibl  n='urn:cts:greekLit:tlg0030.tlg003:13' type='cts-urn'>3.13</bibl>). One could also package legal knowledge as derived from oral advice from family and friends, as one of <name  type='ancientAuthor'>Demosthenes</name>’ clients does (<bibl  n='urn:cts:greekLit:tlg0014.tlg054:1' type='cts-urn'>54.1</bibl>). Another clever approach to the problem was to present knowledge of the law as knowledge of one’s opponent’s crimes. Thus, one young prosecutor, after citing a fourth law against his opponent, states: <quote >I admit that I have searched into most of the things that the defendant has done</quote> (<bibl  n='urn:cts:greekLit:tlg0014.tlg058:19' type='cts-urn'>Dem. 58.19</bibl>).</p>
+
+<p >While Athenians assumed that experienced public speakers, including politicians, would be more knowledgeable than average citizens concerning the city’s laws, even these litigants do not seek to dazzle their audiences with their legal virtuosity. One could, in fact, deflate an opponent’s legal claims by asserting that they are overly subtle. Thus, <name  type='ancientAuthor'>Demosthenes</name> in his speech defending <name  type='person'>Ctesiphon</name> dismisses <name  type='ancientAuthor'>Aeschines</name>’ legal claims: <quote >As for <name  type='ancientAuthor'>Aeschines</name>’ confusing jumble of arguments about the laws transcribed for comparison, by the gods, I do not believe that you understand the greater part of them, and I myself was unable to comprehend many of them; I can only offer a plain, straightforward argument, based on what is right</quote> (<bibl  n='urn:cts:greekLit:tlg0014.tlg018:111' type='cts-urn'>18.111</bibl>). <name  type='ancientAuthor'>Demosthenes</name>’ appeal to what is simple and right over what is subtle and confusing clearly plays to a popular <term  sortKey='jury'>jury</term>’s suspicions of legalities and technicalities. His striking victory over <name  type='ancientAuthor'>Aeschines</name> in this trial suggests that he knew his audience well in adopting this approach.</p>
+
+<p >While Athenian concerns about litigation tend to center upon litigants and their abuse of law and legal process, critics of the Athenian democracy blamed the Athenian popular <term  sortKey='courts'>courts</term> not only for providing a venue for legal shenanigans but for actively encouraging them. These critics argued that large panels of jurors collude with sycophantic prosecutors to convict innocent men—especially those rich enough to pay large fines that would go into the public treasury and provide (among other things) a source of funding for jurors’ daily wages. While this verges on a caricature of the Athenian legal system, we should be aware that litigation and its abuse are intimately connected with the popular courts.</p>
+
+</div>
+
+<div  n='conclusion' type='section' xml:id='conclusion'>
+<head >Conclusion</head>
+
+<p >That Athenians were conscious of such criticisms and aware of the complex symbiosis of litigants and jurors is suggested by <name  type='ancientAuthor'>Aristophanes</name>’ <bibl  n='urn:cts:greekLit:tlg0019.tlg004' type='cts-urn'><title >Wasps</title></bibl>, which was presented before a large Athenian audience in <date  when='-0422'>422</date> B.C. This comedy focuses upon on a <soCalled >typical</soCalled> Athenian, an elderly gentleman, <name  type='person'>Philocleon</name>, who is addicted to serving on juries, and the efforts of his son to cure him of this. <name  type='person'>Philocleon</name> and his fellow-jurors relish the discomfitures of the rich and powerful who are brought for judgment before them and delight in exercising power maliciously over defendants. If jury-service is entertaining and satisfying, it is also essential to these jury-addicts, as it provides them with their daily wage. This makes them all too receptive to malicious prosecutions; without these, where would their three-obol wage come from? <name  type='person'>Philocleon</name>’s very name (<soCalled >Lover of <name  type='person'>Cleon</name></soCalled>) attests to his collusion with sycophancy: he (and his fellow jurors) are all too happy to support the popular politician <name  type='person'>Cleon</name> in his false prosecutions.</p>
+
+<p >While <name  type='ancientAuthor'>Aristophanes</name> may well be influenced by critics of the Athenian democracy in satirizing the interdependence of jurors and sycophants in <placeName  key='Athens'>Athens</placeName>, it is fascinating that he presents these views before a popular audience. It is a fair inference that Athenians were aware of such criticisms and were ready to laugh at themselves and their <soCalled >jury-addiction.</soCalled> Some may well have been ready to acknowledge that large jury panels were susceptible to manipulation by prosecutors and were sometimes duped into supporting malicious prosecutions; and no one could deny that jurors’ daily wages depended on a steady stream of lawsuits. If, however, Athenians were aware of problematic features of their legal system, they were not ready to alter this dramatically during the life of the democracy. Access to litigation was fundamental in this democratic society, and adjudication by popular <term  sortKey='courts'>courts</term> the best way for <soCalled >the people</soCalled> to exercise control over the city’s officials and life within the city. Excess and abuse were risks, but necessary ones for the preservation of democracy and a democratic way of life.</p>
+
+
+</div>
+
+</body>
+</text>
+</TEI>

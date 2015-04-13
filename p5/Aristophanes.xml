@@ -1,0 +1,64 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Aristophanes</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><name  type='ancientAuthor'>Aristophanes</name></head>
+<p >Born probably between <date  when='-0457'>457 BCE</date>
+ and <date  when='-0445'>445</date>
+ BCE, he died around <date  when='-0385'>385 BCE</date>
+ (Source for dates: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>). <name  type='person'>Aristophanes</name> was the greatest of the poets of Old Comedy, the comic drama of <date  from='-0499' to='-0400'>5th century</date> <placeName  key='Athens'>Athens</placeName>. He is the only poet of Old Comedy whose works survive intact. The eleven plays that survive are full of references to daily life and politics. <name  type='person'>Aristophanes</name> often parodies prominent Athenians, from the politician <name  type='person'>Cleon</name> (mocked in the <bibl  n='urn:cts:greekLit:tlg0009.tlg010' type='cts-urn'><title >Knights</title></bibl>) to the philosopher <name  type='person'>Socrates</name> (parodied in the <bibl  n='urn:cts:greekLit:tlg0019.tlg003' type='cts-urn'><title >Clouds</title></bibl>), to the famous tragic poets <name  type='ancientAuthor'>Euripides</name> and <name  type='ancientAuthor'>Aeschylus</name> (parodied in the <bibl  n='urn:cts:greekLit:tlg0009.tlg010' type='cts-urn'><title >Frogs</title></bibl>, with <name  type='ancientAuthor'>Euripides</name> also appearing in the <bibl  n='urn:cts:greekLit:tlg0019.tlg008' type='cts-urn'><title >Thesmophoriazusae</title></bibl>). While <name  type='person'>Aristophanes</name>’ plays deal with political issues, he did not seem to advance any particular political agenda. The butts of his jokes come from across the spectrum of Athenian politics from die-hard defenders of the democracy to would-be oligarchs.</p>
+
+<p >Despite his relentless mockery of public figures and the institutions of <placeName  key='Athens'>Athens</placeName>, <name  type='person'>Aristophanes</name> only once, as far as we know, got into trouble for the content of his plays. According to a <soCalled >scholion</soCalled>, or marginal notation, on a manuscript of <name  type='person'>Aristophanes</name>’ <bibl  n='Aristoph. Ach.'><title >Acharnians</title></bibl>, the politician <name  type='person'>Cleon</name> prosecuted the poet for having ridiculed him in an earlier play (the <title >Babylonians</title>, which does not survive). The scholion says, <quote >Before the <bibl  n='Aristoph. Ach.'><title >Acharnians</title></bibl>, <name  type='person'>Aristophanes</name> produced the <title >Babylonians</title>, in which he spoke badly of many people. He makes jokes at the expense of all the chosen and elected offices, and especially at the expense of <name  type='person'>Cleon</name>, and he did so when foreigners were present. For the <title >Babylonians</title> was performed during the festival of the <placeName  key='Dionysia'>Dionysia</placeName>, which is conducted in the spring, and during which the Allies used to bring their tribute. Because of this, then, <name  type='person'>Cleon</name> was angered and indicted him on a charge of crimes against the citizens, on the grounds that he had committed violence against the <term  sortKey='Assembly'>People</term> and the <term  sortKey='Council'>Council</term>, and he idicted him on a charge of usurpation of civic rights, and brought him to trial.</quote>(<foreign  xml:lang='grc'>τούτους γὰρ πρὸ τῶν Ἀχαρνέων Ἀριστοφάνης ἐδίδαξεν, ἐν οἷς πολλοὺς κακῶς εἶπεν. ἐκωμῴδησε γὰρ τάς τε κληρωτὰς καὶ χειροτονητὰς ἀρχὰς καὶ Κλέωνα, παρόντων τῶν ξένων. καθῆκε γὰρ δρᾶμα τοὺς Βαβυλωνίους ἐν τῇ τῶν Διονυσίων ἑορτῇ, ἥτις ἐν τῷ ἔαρι ἐπιτελεῖται, ἐν ᾧ ἔφερον τοὺς φόρους οἱ σύμμαχοι. καὶ διὰ τοῦτο ὀργισθεὶς ὁ Κλέων ἐγράψατο αὐτὸν ἀδικίας εἰς τοὺς πολιτάς, ὡς εἰς ὕβριν τοῦ δήμου καὶ τῆς βουλῆς ταῦτα πεποιηκότα, καὶ ξενίας δὲ αὐτὸν ἐγράψατο καὶ εἰς ἀγῶνα ἐνέβαλεν.</foreign>) (<bibl  n='Schol. in Aristoph. Ach.'>Schol.</bibl> in <bibl  n='urn:cts:greekLit:tlg0019.tlg001:378' type='cts-urn'>Aristoph. <title >Ach.</title>
+ 378</bibl>).</p>
+ <p >(See <name  n='comedy' type='ancientGenre'>Comedy</name>).</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

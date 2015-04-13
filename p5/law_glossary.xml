@@ -1,0 +1,733 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >A Glossary of Athenian Legal Terms</title>
+ <author >S.C. Todd, selections by Michael de Brauw</author>
+ <sponsor >
+ <persName >Adriaan Lanni, ed.</persName>
+ <name >Athenian Law in its Democratic Context</name>
+ <orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+ </sponsor>
+ </titleStmt>
+ <publicationStmt >
+ <publisher > The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text  xml:lang='en'>
+ <body >
+ <div  n='summary' type='Summary' xml:id='summary'>
+ <head >Summary</head>
+ <p >This glossary consists of excerpts from <bibl  type='secondary'>S.C. Todd,
+ <soCalled >Glossary,</soCalled> in P.A. Cartledge <term >et al.</term>, <title >Nomos:
+ Essays Athenian law, politics and society</title> (Cambridge, 1990)</bibl>, selected
+ by Michael de Brauw (University of Texas at Austin). Todd’s complete glossary
+ (with some changes) also appears in <bibl  type='secondary'><title >The Shape of Athenian
+ Law</title> (Oxford, 1993)</bibl>. This excerpted selection was first published
+ electronically as part of the online discussion series <soCalled >Athenian Law in its
+ Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard
+ University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic
+ Studies</ref>.</p>
+ </div>
+ <div  n='agoranomos' type='section' xml:id='agoranomos'>
+ <head >agoranomos</head>
+ <p ><emph >agoranomos</emph>, <term >agoranomoi</term> · Lit. <soCalled ><name  n='agora' type='site'>agora</name>-regulator(s)</soCalled>: public officials attested
+ in a large number of Greek <term >poleis</term>; their duties consisted of supervising the
+ commercial aspects of the <name  n='agora' type='site'>agora</name>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>ἀγορανόμος, ἀγορανόμοι</foreign>.</p>
+ </div>
+ <div  n='aidesis' type='section' xml:id='aidesis'>
+ <head >aidesis</head>
+ <p ><emph >aidesis</emph> · Because homicide in Athenian law was a matter for private
+ prosecution, the relatives of the dead man, as prosecutors, were under certain
+ circumstances permitted or expected to grant pardon (<term >aidesis</term>) to his killer.
+ Once this had been done, the killer was immune from further prosecution. (The derivation
+ of the term is unclear: it is certainly connected with the verb <term >aideomai</term>
+ <soCalled >to feel shame, awe or respect;</soCalled>
+ <bibl  n='LSJ' type='secondary'>LSJ</bibl> notes that the verb can be used to mean <soCalled >to
+ respect another’s misfortune</soCalled> and thus <soCalled >to be reconciled to
+ him;</soCalled> but unlike English <soCalled >reconciliation,</soCalled>
+ <term >aidesis</term> is only used to denote the action of the wronged party.) </p>
+ <p >Greek: <foreign  xml:lang='grc'>αἴδεσις</foreign>.</p>
+ </div>
+ <div  n='anakrisis' type='section' xml:id='anakrisis'>
+ <head >anakrisis</head>
+ <p ><emph >anakrisis</emph> · A preliminary hearing before the public official within
+ whose court a case will later be heard (for the role of the presiding official within a
+ lawcourt, see sv. <term  sortKey='law_glossary@arkhon'>arkhon</term>). Lit.,
+ <soCalled >examination,</soCalled> but it should not be equated with the inquisitorial
+ instruction of civil-law systems: an Athenian public official had very restricted
+ discretion; and unlike an arbitrator (see sv. <term  sortKey='law_glossary@diaitetes'>diaitetes</term>), his function was not to settle the case. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἀνάκρισις</foreign>.</p>
+ </div>
+ <div  n='antidosis' type='section' xml:id='antidosis'>
+ <head >antidosis</head>
+ <p ><emph >antidosis</emph> · Lit. <soCalled >a giving in exchange.</soCalled> A man
+ who was nominated to perform a liturgy could avoid this duty if he could name another
+ citizen who was richer and better qualified to perform the task. If the man challenged
+ agreed that he was richer, he had to take over the liturgy; if he claimed to be poorer,
+ then the challenger could insist on an exchange of all their property to test the
+ claim—in which case the challenger would himself perform the liturgy as the new
+ owner of the (putatively) greater estate. This process of exchange was called
+ <term >antidosis</term>. The advantage of the system from the viewpoint of the democracy
+ was that it encouraged the rich to be suspicious of each other, instead of being hostile
+ towards the state; but although we know of several challenges, there is no attested case
+ in which the exchange was completed. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἀντίδοσις</foreign>.</p>
+ </div>
+ <div  n='apagoge' type='section' xml:id='apagoge'>
+ <head >apagoge</head>
+ <p ><emph >apagoge</emph>, pl. <term >apagogai</term> · Lit. <soCalled >dragging
+ away,</soCalled> i.e., to the appropriate magistrate. Summary arrest was permitted
+ against certain categories of criminal, such as thieves and highwaymen, if they were
+ caught <term >ep’ autophori</term>—red handed. If the accused admitted
+ his guilt before the magistrate he was promptly executed; only if he claimed to be
+ innocent was he put on trial. See also sv. <term  sortKey='law_glossary@ephegesis'>ephegesis</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>ἀπαγωγή</foreign>.</p>
+ </div>
+ <div  n='apographe' type='section' xml:id='apographe'>
+ <head >apographe</head>
+ <p ><emph >apographe</emph> · Lit. <soCalled >a (written) list</soCalled>: a catalogue
+ of some or all of the property of a man in debt to the state. The state took no initiative
+ in the confiscation of property: this was left either to private individuals or else, it
+ appears, to local deme’s officials. The term <term >apographe</term> is used to
+ describe the list itself, the process of denunciation, and any judicial hearing arising
+ out of the case. See also sv. <term  sortKey='law_glossary@phasis'>phasis</term>. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἀπογραφή</foreign>.</p>
+ </div>
+ <div  n='apophasis' type='section' xml:id='apophasis'>
+ <head >apophasis</head>
+ <p ><emph >apophasis</emph> · Lit. <soCalled >a showing forth, declaration.</soCalled>
+ A procedure newly instituted around the middle of the <date  from='-0399' to='-0300'>fourth
+ century</date>: either on the invitation of the <term  sortKey='assembly'>ekklesia</term>
+ or on its own initiative, the <term  sortKey='areopagus'>Areiopagos</term> could
+ investigate any matter involving public security and present a report
+ (<term >apophasis</term>) to the <term  sortKey='assembly'>ekklesia</term>, recommending
+ particular action, for instance the prosecution of a named individual. (<term  sortKey='apophasis'>Apophasis is the subject of a Demos article</term>.) </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἀπόφασις</foreign>.</p>
+ </div>
+ <div  n='apragmon' type='section' xml:id='apragmon'>
+ <head >apragmon</head>
+ <p ><emph >apragmon</emph>, pl. <term >apragmones</term> (adj.); <term >apragmosune</term>
+ (abstract noun) · Lit. <soCalled >one who does not conduct business</soCalled>: a
+ person who refrains from taking part in public affairs. It can be either a positive or a
+ negative characteristic, depending on the attitude of the speaker (<soCalled >philosophical
+ contemplation</soCalled> or <soCalled >political irresponsibility</soCalled>). For the
+ opposite characteristic, see sv. <term  sortKey='law_glossary@polupragmon'>polupragmon</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>ἀπράγμων, ἀπράγμονες; ἀπραγμοσύνη</foreign>.</p>
+ </div>
+ <div  n='areiopagos' type='section' xml:id='areiopagos'>
+ <head >Areiopagos</head>
+ <p ><emph >
+ <term  sortKey='areopagus'>Areiopagos</term>
+ </emph> · The ancient and originally aristocratic council of <placeName  key='Athens'>Athens</placeName>; its membership comprised those who had completed a term
+ as one of the nine <term  sortKey='archons'>archons</term>. Its powers had been severely
+ restricted by the democratic reforms of <name  type='person'>Ephialtes</name> in the <date  from='-0469' to='-0460'>460s BCE</date>, which left it as little more than the main
+ court for cases of homicide; in the <date  from='-0399' to='-0300'>fourth century</date>
+ however other powers were added, most notably <term  sortKey='apophasis'>apophasis</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>Ἄρειος πάγος; Ἄρεος πάγος</foreign>.</p>
+ </div>
+ <div  n='arkhon' type='section' xml:id='arkhon'>
+ <head >arkhon</head>
+ <p ><emph >arkhon</emph>, pl. <term >arkhontes</term> (participle acting as a noun), Eng. <term  sortKey='archons'>archon</term> or arkhon · Lit. <soCalled >one who is in
+ authority.</soCalled> Used in three senses: loosely, to refer to any Athenian public
+ official; more strictly (usually a collective plural) to describe the <soCalled >
+ <term  sortKey='archons'>nine arkhons</term>
+ </soCalled>; specifically, as the title of the senior of the <term  sortKey='archons'>nine
+ arkhonships</term>. These were still the titular chief magistrates of <placeName  key='Athens'>Athens</placeName>, but their real authority had been severely restricted
+ ever since they began to be appointed by lot, apparently in the <date  from='-0489' to='-0480'>480s</date>. They retained however an honorific position, particularly in the
+ administration of justice: or instance, former <term  sortKey='archons'>arkhons</term>
+ became members of the <term  sortKey='areopagus'>Areiopagos</term> for life; and during
+ their year of office they processed the litigation presented to the most important of the <term >
+ <term  sortKey='lawcourts'>dikasteria</term>
+ </term>, and presided over trials held there, although in this capacity they were by now
+ little more than non-voting (and non-speaking) chairmen. The three senior <term  sortKey='archons'>arkhons</term> each had a specific title and competence: the
+ <term >arkhon</term> (the eponymous official of <placeName  key='Athens'>Athens</placeName> who gave his name to the civil year) heard cases involving family
+ and inheritance matters of citizens; the <term >arkhon basileus</term> (lit. <soCalled >king
+ arkhon</soCalled>) presided over religious matters, including sacrilege and homicide;
+ the <term >polemarkhos</term> (lit. <soCalled >war arkhon,</soCalled> but by now all his
+ military functions had been handed over to the <term >strategoi</term>) dealt with family
+ and inheritance cases involving metics and apparently cases involving certain other
+ privileged foreigners also. The other six arkhons were called <term >thesmothetai</term>
+ (sing. <term >thesmothetes</term>: originally perhaps <soCalled >establisher of
+ judgements</soCalled> rather than <soCalled >maker of laws</soCalled>); they heard those
+ public cases, and perhaps also some private ones, which did not fall within the competence
+ of the three senior arkhons or of other named officials. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἄρχων, ἄρχοντες</foreign>.</p>
+ </div>
+ <div  n='astunomos' type='section' xml:id='astunomos'>
+ <head >astunomos</head>
+ <p ><emph >astunomos</emph>, pl. <term >astunomoi</term> · Lit. <soCalled >one who
+ regulates (affairs within) the <term >astu</term> (the built-up area of <placeName  key='Athens'>Athens</placeName>).</soCalled> A board of public officials charged with
+ the general supervisory duties which we associate with the police. Unlike the police,
+ however, they did not undertake the investigation of crime. Nor were they much concerned
+ with the arrest or punishment of accused or convicted criminals: this role was played by
+ the <term  sortKey='law_glossary@eleven'>Eleven</term>. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἀστυνόμος, ἀστυνόμοι</foreign>.</p>
+ </div>
+ <div  n='atimia' type='section' xml:id='atimia'>
+ <head >atimia</head>
+ <p ><emph >atimia</emph> (abstract noun) · Lit. <soCalled >loss of <term >time</term>,
+ honour.</soCalled> In early archaic <placeName  key='Athens'>Athens</placeName>,
+ <term >atimia</term> seems to have meant outlawry, the total deprivation of all rights,
+ such that a citizen could kill an <term >atimos</term> (pl. <term >atimoi</term>: person
+ suffering from <term >atimia</term>) without committing an offence or apparently incurring
+ blood-guilt. Well before the classical period, however, <term >atimia</term> had already
+ been restricted in its scope to mean the loss of some or all of a man’s active
+ rights as a citizen. Such <term >atimia</term> could be partial or total; it could be
+ imposed permanently by a court, or it could be the (theoretically) temporary result of an
+ unpaid debt to the state, a condition which would automatically terminate if the debt were
+ ever paid off. A man subject to total <term >atimia</term> could not appear in certain
+ public places, could not take part in public life, and could not appear in court. If he
+ broke any of these bans, he was liable to <term  sortKey='law_glossary@apagoge'>apagoge</term> and death. But he did retain his private rights as a citizen: to kill
+ him would be murder; he was not formally exiled; and he continued to own his
+ property—though his lack of the capacity to sue may have made it difficult
+ procedurally to defend these rights, and many may have found life under such restrictions
+ so intolerable that voluntary exile seemed preferable. A man subject to partial
+ <term >atimia</term> lost either a particular right or rights, or else the power to
+ exercise his rights in a particular situation: for instance, the ability to bring certain
+ types of prosecution. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἀτιμία</foreign> (loss of <foreign  xml:lang='grc'>τιμή</foreign>).</p>
+ </div>
+ <div  n='basileus' type='section' xml:id='basileus'>
+ <head >basileus</head>
+ <p ><emph >basileus</emph> See sv. arkhon.</p>
+ <p >Greek: <foreign  xml:lang='grc'>βασιλεύς</foreign>.</p>
+ </div>
+ <div  n='boule' type='section' xml:id='boule'>
+ <head >boule</head>
+ <p ><emph >boule</emph> · Lit. <soCalled ><term  sortKey='council'>council</term>.</soCalled> The democratic <term  sortKey='council'>council</term> of 500
+ men, appointed annually by lot from among citizens aged at least thirty, and with severe
+ restrictions on repeated membership. Its chief function was to prepare the agenda for
+ meetings of the <term  sortKey='assembly'>ekklesia</term>, and to undertake certain routine
+ administrative duties, in particular that of co-ordinating the activities of numerous
+ boards of minor officials; but it had also certain independent judicial powers, mainly but
+ not only in cases of limited importance: in some cases of <term  sortKey='law_glossary@eisangelia'>eisangelia</term>, the <term >boule</term> could decide
+ whether to refer the trial to the <term  sortKey='assembly'>ekklesia</term> or to a
+ <term >dikasterion</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>βουλή</foreign>.</p>
+ </div>
+ <div  n='boulomenos' type='section' xml:id='boulomenos'>
+ <head >(ho) boulomenos</head>
+ <p ><emph >(ho) boulomenos</emph> · Lit. <soCalled >anyone who wishes.</soCalled>
+ Whereas prosecution in a <term >
+ <term  sortKey='law_glossary@dike'>dike</term>
+ </term> could only be brought by the aggrieved party, in a <term  sortKey='law_glossary@graphe'>graphe</term> or other public case it could be brought by
+ any qualified person (which normally meant any Athenian citizen who was not himself <term  sortKey='law_glossary@atimia'>atimos</term>). </p>
+ <p >Greek: <foreign  xml:lang='grc'>ὁ βουλόμενος</foreign>.</p>
+ </div>
+ <div  n='diadikasia' type='section' xml:id='diadikasia'>
+ <head >diadikasia</head>
+ <p ><emph >diadikasia</emph> · Lit. <soCalled >judgement (contested)
+ between</soCalled>: a dispute between two people who each claim the same thing, in
+ particular a contested inheritance. </p>
+ <p >Greek: <foreign  xml:lang='grc'>διαδικασία</foreign>.</p>
+ </div>
+ <div  n='diaitetes' type='section' xml:id='diaitetes'>
+ <head >diaitetes</head>
+ <p ><emph >diaitetes</emph>, pl. <term >diaitetai</term> · An arbitrator. Throughout
+ the history of Athenian law, it had always been open for litigants to arrange arbitration
+ (<term >diaita</term>) on a private basis: in theory, the decision of a private
+ arbitrator was binding, presumably because the litigants had voluntarily contracted to
+ accept it. There was also, however, a system of public arbitration, introduced <date  when='-0400'>c. 400 BCE</date>: every hoplite (or possibly every citizen), in the year
+ that he ceased to be eligible for military service at the age of 59, had to serve as
+ public arbitrator; and every <term  sortKey='law_glossary@dike'>dike</term> (private
+ dispute) was allocated by lot to one of them for an attempt at preliminary resolution. In
+ such cases arbitration was compulsory (litigants were obliged to attend) but it was not
+ binding (a dissatisfied litigant could refuse to accept the verdict: see sv. <term  sortKey='law_glossary@ephesis'>ephesis</term>). According to <name  type='ancientAuthor'>Aristotle</name>, the job of the arbitrator (private or public) is unlike that of the
+ <term >dikastes</term> in several respects: he should try to reconcile the parties before
+ imposing a solution; he has the discretion to bring in a decision mid-way between the
+ demands of the litigants; and in his judgement he should look to epieikeia
+ (<soCalled >equity,</soCalled> but see further sv. <term  sortKey='law_glossary@epieikeia'>epieikeia</term>) rather than to <term  sortKey='law_glossary@dike'>dike</term>
+ (<soCalled >justice</soCalled>). </p>
+ <p >Greek: <foreign  xml:lang='grc'>διαιτητής, διαιτηταί</foreign>.</p>
+ </div>
+ <div  n='diamarturia' type='section' xml:id='diamarturia'>
+ <head >diamarturia</head>
+ <p ><emph >diamarturia</emph> · A formal presentation of a witness
+ (<term >martus</term>) whose evidence serves to compel the public official before whom it
+ is presented either to act in a certain way, or (more commonly) to desist from so acting.
+ As a result of the introduction of <term  sortKey='law_glossary@paragraphe'>paragraphe</term> around <date  when='-0400'>400</date> BCE, the scope of
+ <term >diamarturia</term> was soon rapidly restricted: after <date  when='-0380'>380</date> BCE, its only attested use is in inheritance cases, where a legitimate son
+ could have a claim by a more remote relative quashed on the grounds that the case was not
+ actionable; to re-open the case, the rival claimant would have successfully to prosecute
+ the witness by <term  sortKey='law_glossary@pseudomarturion'>dike
+ pseudomarturion</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>διαμαρτυρία</foreign>.</p>
+ </div>
+ <div  n='dike' type='section' xml:id='dike'>
+ <head >dike</head>
+ <p ><emph >dike</emph>, pl. <term >dikai</term> · A concept of wide scope:
+ <soCalled >justice,</soCalled>
+ <soCalled >good order,</soCalled>
+ <soCalled >judgement.</soCalled> But it can also refer to the process by which a just
+ settlement is determined, thus <soCalled >a lawsuit,</soCalled>
+ <soCalled >a trial,</soCalled> and even <soCalled >the case which one pleads</soCalled> or
+ <soCalled >the penalty which one has to pay.</soCalled> In the sence of
+ <soCalled >lawsuit,</soCalled>
+ <term >dike</term> can be used either generically, to refer to any type of indictment, or
+ else (more commonly) in a semi-technical sense, to denote the older <soCalled >private
+ suit</soCalled> (which only the aggrieved party or his immediate or his immediate
+ personal representatives could bring) as opposed to the newer <soCalled >public
+ suit</soCalled> (<term  sortKey='law_glossary@graphe'>graphe</term>), which could be
+ brought by any citizen in good standing; it should however be noted that the category of
+ public procedure was broader than that of <term  sortKey='law_glossary@graphe'>graphe</term>, and included a number of extraordinary procedures which were not
+ themselves <term >graphai</term>, see for instance svv. <term  sortKey='law_glossary@apagoge'>apagoge</term>, <term  sortKey='law_glossary@apophasis'>apophasis</term>, <term  sortKey='law_glossary@eisangelia'>eisangelia</term>, <term  sortKey='law_glossary@euthunai'>euthunai</term>, <term  sortKey='law_glossary@phasis'>phasis</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>δίκη, δίκαι</foreign>.</p>
+ <p >Note: It seems that these indictments in Athenian law were only allowed if use of the
+ dike or <term  sortKey='law_glossary@graphe'>graphe</term> procedure against a particular
+ offence was authorised by statute; whether the defendant’s alleged behavior fell
+ within the terms of this offence could of course be a matter for debate. An indictment was
+ normally described as a dike (or <term  sortKey='law_glossary@graphe'>graphe</term>, as
+ appropriate), qualified by the name of the offence, usually in the genitive case: thus
+ <term >graphe hubreos</term>, a public indictment for <term >hubris</term>. </p>
+ </div>
+ <div  n='diomosia' type='section' xml:id='diomosia'>
+ <head >diomosia</head>
+ <p ><emph >diomosia</emph> · A special oath taken in cases of homicide: in all other
+ cases the litigants alone swore the <term >antimosia</term> (lit. <soCalled >oath [of two
+ people] against each other</soCalled>); in homicide cases all the witnesses had to join
+ in the oath of their principals, which was for this reason known as the
+ <term >diomosia</term> (lit. <soCalled >oath between [more than two people]</soCalled>). </p>
+ <p >Greek: <foreign  xml:lang='grc'>διωμοσία</foreign>.</p>
+ </div>
+ <div  n='dokimasia' type='section' xml:id='dokimasia'>
+ <head >dokimasia</head>
+ <p ><emph >dokimasia</emph>, pl. <term >dokimasiai</term> · An investigation held
+ either by the <term  sortKey='council'>boule</term> or in a court, to test whether a man
+ was formally qualified either to hold the public office to which he had been appointed or
+ else to exercise a privilege to which he was laying claim. <term >Dokimasiai</term> were of
+ various types, and were for the most part held in advance: no public official, whether
+ elected or appointed by lot, could hold office without having passed his
+ <term >dokimasia</term>; and newly enrolled citizens, whether by birth or by
+ naturalisation (uncommon), were among those similarly tested. In these cases a man who was
+ rejected suffered disqualification but no further penalty; a public speaker however (see
+ sv. <term  sortKey='law_glossary@rhetor'>rhetor</term>) could be challenged to undergo a
+ retroactive <term >dokimasia</term> before a court, and this had more of the nature of a
+ regular trial, in that if convicted he would apparently be punished. </p>
+ <p >Greek: <foreign  xml:lang='grc'>δοκιμασία, δοκιμασίαι</foreign>.</p>
+ </div>
+ <div  n='eisangelia' type='section' xml:id='eisangelia'>
+ <head >eisangelia</head>
+ <p ><emph >eisangelia</emph>, pl. <term >eisangeliai</term> · Lit. <soCalled >public
+ announcement, laying of information</soCalled>: a form of public indictment broadly
+ corresponding to impeachment in the USA. It was available for use against any public
+ official during or after his term of office (he would normally be suspended from office
+ for the duration of the trial) or against any political leader who had made a public
+ proposal. It seems that the case could be brought either directly to the <term  sortKey='assembly'>ekklesia</term> or else to the <term  sortKey='council'>boule</term>,
+ and that the final hearing would take place either before the <term  sortKey='assembly'>ekklesia</term> or (more commonly, and in every known case after <date  when='-0360'>360</date> B.C.) before a <term >
+ <term  sortKey='lawcourt'>dikasterion</term>
+ </term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>εἰσαγγελία, εἰσαγγελίαι</foreign>.</p>
+ </div>
+ <div  n='ekdosis' type='section' xml:id='ekdosis'>
+ <head >ekdosis</head>
+ <p ><emph >ekdosis</emph> · Lit. <soCalled >giving forth</soCalled>: the ceremony at
+ which the <term >
+ <term  sortKey='law_glossary@kurios'>kurios</term>
+ </term> of a betrothed bride gave her into the hand of her new husband. Marriage in
+ Athenian law took one of two forms, either by <term >
+ <term  sortKey='law_glossary@engue'>engue</term>
+ </term> and <term >
+ <term  sortKey='law_glossary@ekdosis'>ekdosis</term>
+ </term> or else (if a man died leaving his daughter with no <term >
+ <term  sortKey='law_glossary@kurios'>kurios</term>
+ </term> to give her away, and no heir to his property) by the <term >epidikasia</term> of
+ the <term >epikleros</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>ἔκδοσις</foreign>.</p>
+ </div>
+ <div  n='ekklesia' type='section' xml:id='ekklesia'>
+ <head >ekklesia</head>
+ <p ><emph >
+ <term  sortKey='assembly'>ekklesia</term>
+ </emph> · The public <term  sortKey='assembly'>assembly</term> of <placeName  key='Athens'>Athens</placeName>, held usually on the <name  n='Pnyx' type='site'>Pnyx</name>, at which all adult male citizens were formally entitled to attend, vote,
+ and speak. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἐκκλησία</foreign>.</p>
+ </div>
+ <div  n='eleven' type='section' xml:id='eleven'>
+ <head >(the) Eleven</head>
+ <p ><emph >(the) Eleven</emph>; Gk. <term >hoi hendeka</term> · A board of public
+ officials responsible for the state prison of <placeName  key='Athens'>Athens</placeName>.
+ The majority of <term  sortKey='law_glossary@apagoge'>apagogai</term> were brought before
+ them, and they were in charge of all executions. </p>
+ <p >Greek: <foreign  xml:lang='grc'>οἱ Ἕνδεκα</foreign>.</p>
+ </div>
+ <div  n='emporike' type='section' xml:id='emporike'>
+ <head >emporike</head>
+ <p ><emph >emporike</emph>
+ <term >dike.</term>, pl. <term >emporikai dikai</term> · A case involving
+ <term >emporoi</term>, traders who import goods (especially the extra grain which was
+ needed to feed the population of <placeName  key='Attica'>Attica</placeName>). Because of
+ the urgency of the trade, such cases had rapid and privileged access to the courts; but it
+ is not clear whether the term <term >emmenos</term>, commonly used to describe them, should
+ be interpreted to mean that the case must be completed within a month (the traditional
+ view), or (as has recently been argued) that there was an opportunity every month to
+ initiate such cases; it is uncertain also whether such litigation could take place only
+ during the summer months or only during the winter months. It is possible that other
+ special rules may have applied in these cases. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἐμπορικὴ δίκη, ἐμπορικαὶ δίκαι</foreign>.</p>
+ </div>
+ <div  n='endeixis' type='section' xml:id='endeixis'>
+ <head >endeixis</head>
+ <p ><emph >endeixis</emph>, pl. <term >endeixeis</term> · A procedure closely related
+ to <term  sortKey='law_glossary@apagoge'>apagoge</term>. The precise significance of the
+ term is disputed: traditionally it was thought to be a denunciation made before a public
+ official who would then himself arrest the culprit; but it may instead have been used by
+ the plaintiff in some cases as a voluntary preliminary to <term  sortKey='law_glossary@apagoge'>apagoge</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>ἔνδειξις, ἐνδείξεις</foreign>.</p>
+ </div>
+ <div  n='engue' type='section' xml:id='engue'>
+ <head >engue</head>
+ <p ><emph >engue</emph>, pl. <term >enguai</term>; <term >enguetes</term> · A surety:
+ the <term >engue</term> is the thing which is pledged as security, and the
+ <term >enguetes</term> the person who pledges or commits himself as a pledge. Such
+ sureties were used in a range of legal contexts: to guarantee the payment of a fine or the
+ appearance of a defendant (particularly a foreigner) in court; and as a deposit payable to
+ those who contracted from the state the right to collect taxes or to operate mining
+ concessions. But the most notable use of <term >engue</term> was as the necessary prelude
+ to <term >
+ <term  sortKey='law_glossary@ekdosis'>ekdosis</term>
+ </term> in the regular Athenian form of marriage, corresponding to (but much stronger
+ than) the modern engagement. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἐγγύη, ἐγγύαι; ἐγγυητής</foreign>.</p>
+ </div>
+ <div  n='ephesis' type='section' xml:id='ephesis'>
+ <head >ephesis</head>
+ <p ><emph >ephesis</emph> · Refusal to accept the decision of an official or a court
+ of first instance, combined with a demand for the dispute to be resolved by a higher
+ authority. For instance, <name  type='person'>Solon</name> in the <date  from='-0599' to='-0590'>590s</date> is said to have introduced <soCalled >ephesis to the
+ dikasterion</soCalled> as a curb on the summary jurisdiction of public officials; and
+ from their introduction in c. <date  when='-0400'>400</date> B.C., the decisions of public
+ arbitrators were similarly subject to <term >ephesis</term>. <term >Ephesis</term> is
+ traditionally translated <soCalled >appeal,</soCalled> but this can have misleading
+ connotations. An appeal in English law is brought on the initiative of a dissatisfied
+ litigant (in criminal cases, a convicted defendant) after the court of first instance has
+ decided against him/her; it is his/her duty to persuade the appellate court to reverse the
+ decision, and s/he becomes in a sense the plaintiff in the process. In <placeName  key='Athens'>Athens</placeName>, there were at least some situations in which
+ <term >ephesis</term> could take place before the lower authority had reached a decision;
+ it was the duty of the original plaintiff, not of the dissatisfied litigant, to persuade
+ the court to act (that it, the court was retrying the case from scratch and not reviewing
+ a decision already made); and it is possible that in the case of Solonian
+ <term >ephesis</term>, this referral was automatic and did not depend on an initiative
+ taken by one of the two litigants. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἔφεσις</foreign>.</p>
+ </div>
+ <div  n='epieikeia' type='section' xml:id='epieikeia'>
+ <head >epieikeia</head>
+ <p ><emph >epieikeia</emph> · <name  type='ancientAuthor'>Aristotle</name> says that
+ it is the function of the <term >dikastes</term> (juror/judge) to judge according to <term >
+ <term  sortKey='law_glossary@dike'>dike</term>
+ </term> (<soCalled >justice</soCalled>), but that the <term >
+ <term  sortKey='law_glossary@diaitetes'>diaitetes</term>
+ </term> (arbitrator) should make his decision according to <term >epieikeia</term>. It is
+ conventional therefore to translate <term >epieikeia</term> as <soCalled >equity,</soCalled>
+ since this is a standard and convenient way to describe <soCalled >fairness</soCalled> or
+ <soCalled >natural justice</soCalled> as opposed to the strict application of legal
+ rules. There are however certain problems here. <soCalled >Equity</soCalled> in English law
+ can mean simply <soCalled >fairness,</soCalled> but it is also the name given to the system
+ of law developed originally by the Court of Chancery (the Lord Chancellor’s
+ court), to provide relief in cases where to apply the rules of the common law would have
+ seemed manifestly unfair. <soCalled >Equity</soCalled> in this sense is itself a body of
+ rules; it is found only in countries which base their legal system on the common law; and
+ it is clearly not what <name  type='ancientAuthor'>Aristotle</name> is talking about. It
+ should indeed be noted that <name  type='ancientAuthor'>Aristotle</name>’s
+ statement of theory receives little acknowledgment in Athenian practice: when a litigant
+ in an extant speech pleads for the application of natural justice in his favour, he
+ characteristically describes this as <term >
+ <term  sortKey='law_glossary@dike'>dike</term>
+ </term> and not as <term >epieikeia</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>ἐπιείκεια</foreign>.</p>
+ </div>
+ <div  n='epikleros' type='section' xml:id='epikleros'>
+ <head >epikleros</head>
+ <p ><emph >epikleros</emph> (fem. adj. acting as noun), <term >epiklerote</term> (abstract
+ noun) · An <term >epikleros</term> was the daughter of a man who died leaving no
+ male heir; she was not his heiress, but possession of his estate went together with her
+ hand in marriage. This system of inheritance is described as the <term >epiklerate</term>:
+ for further details, see sv. inheritance; and for comparison, see sv. <term  sortKey='law_glossary@engue'>engue</term> and sv. <term  sortKey='law_glossary@ekdosis'>ekdosis</term>. (The etymology of <term >epikleros</term> is unclear: it may possibly
+ mean <soCalled >one to whom the property pertains,</soCalled> but more likely is
+ <soCalled >one who pertains to the property.</soCalled>) </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἐπίκληρος, ἐπιλκηρώτη</foreign>.</p>
+ </div>
+ <div  n='euthune' type='section' xml:id='euthune'>
+ <head >euthune</head>
+ <p ><emph >euthune</emph>, normally pl. <term >euthunai</term> · Lit. <soCalled >the
+ action of setting straight.</soCalled> Every public official at <placeName  key='Athens'>Athens</placeName> had to undergo at the end of his term an examination of his conduct
+ in office. If he had handled public money, he had to present his accounts
+ (<term >logoi</term>, pl.); in all cases he had to seek approval of the way he had used
+ his powers (<term >euthunai</term> properly so called, but the term <term >euthunai</term>
+ came also to be applied to the whole process of audit, <term >logoi</term> included). The
+ examination was conducted by boards of <term >logistai</term> (pl.) and
+ <term >euthunoi</term> (pl.), as appropriate; but any private citizen could bring a
+ charge at any stage during the proceedings. </p>
+ <p >Greek: <foreign  xml:lang='grc'>εὐθύνη, εὔθυναι</foreign>.</p>
+ </div>
+ <div  n='exegetes' type='section' xml:id='exegetes'>
+ <head >exegetes</head>
+ <p ><emph >exegetes</emph>, pl. <term >exegetai</term> · Lit.
+ <soCalled >interpreter.</soCalled> A group of officials who expound the proper procedure
+ in situations which raise unusual questions of religious law. Their activity is attested
+ in several cases, all of homicide; and in each case they are responding to an inquiry by
+ an individual by an individual rather than as expert witnesses before a court. In one case
+ they offer also to advise a litigant, implying that this was something more than their
+ regular function of interpreting the law. </p>
+ <p >Greek: <foreign  xml:lang='grc'>ἐξηγητής, ἐξηγηταί</foreign>.</p>
+ </div>
+ <div  n='graphe' type='section' xml:id='graphe'>
+ <head >graphe</head>
+ <p ><emph >graphe</emph>, pl. <term >graphai</term> · Lit. <soCalled >a
+ writing</soCalled>; hence, <soCalled >a written indictment,</soCalled> cf. Eng.
+ <soCalled >writ.</soCalled> This was the name given to the new
+ <soCalled >public</soCalled> form of ordinary prosecution introduced apparently by <name  type='person'>Solon</name> in the <date  from='-0599' to='-0590'>590s</date>. Its
+ characteristic was that the indictment could be brought by any qualified citizen (<term >
+ <term  sortKey='law_glossary@boulomenos'>ho boulomenos</term>
+ </term>), whereas the older <term >
+ <term  sortKey='law_glossary@dike'>dike</term>
+ </term> procedure could be brought only by the injured party. <term >Graphai</term> and
+ other public procedures appear to have given rise to higher penalties, and thus to have
+ rewarded a successful plaintiff much more heavily than did <term >dikai</term>; but they
+ were also considerably more risky: a plaintiff in a public suit who failed to obtain 20
+ per cent of the votes of the jury could expect to suffer a heavy fine and possibly also
+ other penalties (e.g. at least partial <term >
+ <term  sortKey='law_glossary@atimia'>atimia</term>
+ </term>). </p>
+ <p >Greek: <foreign  xml:lang='grc'>γραφή, γραφαί</foreign>.</p>
+ </div>
+ <div  n='klepsudra' type='section' xml:id='klepsudra'>
+ <head >klepsudra</head>
+ <p ><emph >klepsudra</emph> · Lt. <soCalled >water-stealer.</soCalled> A water-clock,
+ used to regulate the length of the proceedings in legal cases. It consisted of a bowl of
+ water with a small hole near the base, such that the hole could be stopped or opened as
+ desired: normally two such bowls were used, the one being allowed to empty its contents
+ into the other, and then vice versa, to measure the passage of time. In any category of
+ case, a set number of bowls-full was allocated to each speaker, but the flow of water was
+ stopped for the reading of laws and the testimony of witness. </p>
+ <p >Greek: <foreign  xml:lang='grc'>κλεψύδρα</foreign>.</p>
+ </div>
+ <div  n='kurios' type='section' xml:id='kurios'>
+ <head >kurios</head>
+ <p ><emph >kurios</emph> · Lit. <soCalled >master,</soCalled>
+ <soCalled >lord,</soCalled> or in certain contexts <soCalled >sovereign.</soCalled> An
+ Athenian woman had to be represented in legal transactions by a male relative, who was
+ described as her <term >kurios</term>: in the case of an unmarried girl or widow who had
+ returned to the house of her family, this would normally be her father or (failing him)
+ her brother or paternal uncle, but it could even be her adult son. A married woman was
+ represented by her husband, but it appears that her agnatic <term >kurios</term> did retain
+ certain rights: for instance, the reversion of her dowry. Confusingly, the term
+ <term >kurios</term> was also used to denote the owner of property or the master of a
+ household, and there are contexts in which the two uses might conflict: a married son, for
+ instance, would be <term >kurios</term> of his wife; but his father may still be
+ <term >kurios</term> of his household. </p>
+ <p >Greek: <foreign  xml:lang='grc'>κύριος</foreign>.</p>
+ </div>
+ <div  n='logographos' type='section' xml:id='logographos'>
+ <head >logographos</head>
+ <p ><emph >logographos</emph>, pl. <term >logographoi</term> · Lit.
+ <soCalled >speech-writer</soCalled>: specifically, a professional writer of speeches for
+ litigants to deliver in court. It has recently been argued that the
+ <term >logographos</term> did not normally write the speech so much as help the litigant
+ to prepare it, but this view is contested. </p>
+ <p >Greek: <foreign  xml:lang='grc'>λογογράφος, λογογράφοι</foreign>.</p>
+ </div>
+ <div  n='nomos' type='section' xml:id='nomos'>
+ <head >nomos</head>
+ <p ><emph >nomos</emph>, pl. <term >nomoi</term> · Lit. a <soCalled >norm,</soCalled>
+ in the sense both of <soCalled >custom</soCalled> and of <soCalled >law.</soCalled>
+ <term >Nomos</term> is often contrasted, especially in <date  from='-0499' to='-0400'>fifth-century</date> Greek thought, with <term >phusis</term> (lit.
+ <soCalled >nature</soCalled>); the latter represents underlying reality, and the former
+ denotes the patterns by which men try to shape this. In this sense <term >nomos</term> is
+ normally translated <soCalled >convention.</soCalled>
+ </p>
+ <p >Greek: <foreign  xml:lang='grc'>νόμος, νόμοι</foreign>.</p>
+ </div>
+ <div  n='nomothesia' type='section' xml:id='nomothesia'>
+ <head >nomothesia</head>
+ <p ><emph >nomothesia,</emph>
+ <term >nomothetes</term>, pl. <term >nomothetai</term> · <term >
+ <term  sortKey='legislation'>Nomothesia</term>
+ </term> is the process of enacting laws (of general and/or permanent validity). After
+ <date  when='-0403'>403</date> BCE, this was taken out of the hands of the <term >
+ <term  sortKey='assembly'>ekklesia</term>
+ </term> and given to the <term >nomothetai</term>, in order to provide a check on the
+ passage of reckless <term  sortKey='legislation'>legislation</term>. The precise
+ arrangements for the process seem to have been revised several times during the <date  from='-0399' to='-0300'>fourth century</date>; but it is notable that the
+ <term >nomothetai</term> were a body selected by lot from among the panel of eligible
+ <term >dikastai</term>. Their function was to hear in detail (but not apparently to
+ discuss) the arguments for and against any proposed legislative change, and to make a
+ final and authoritative decision. They could however only act when requested to do so on
+ the initiative of the <term >
+ <term  sortKey='assembly'>ekklesia</term>
+ </term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>νομοθεσία; νομοθέτης, νομοθέται</foreign>.</p>
+ </div>
+ <div  n='nothos' type='section' xml:id='nothos'>
+ <head >nothos</head>
+ <p ><emph >nothos</emph>, pl. <term >nothoi</term> · Lit. <soCalled >a
+ bastard.</soCalled> In the classical period, Athenian <term  sortKey='citizenship'>citizenship</term> was confined to those born of citizen parents on both sides. The
+ child of an unmarried union between citizen and non-citizen was clearly illegitimate, and
+ had rights neither of inheritance nor of <term  sortKey='citizenship'>citizenship</term>.
+ The status of the child of unmarried citizen parents is less clear: such a person was
+ clearly a <term >nothos</term> without rights of inheritance, but it is disputed whether
+ s/he was or was not a citizen. It is possible, though less certain, that the word
+ <term >nothos</term> was used to describe the child of a mixed marriage even in those
+ contexts (e.g. before <date  when='-0450'>450</date> BCE) where such a marriage was legally
+ permissible, even though such a child might have full rights to inheritance as well as to
+ <term  sortKey='citizenship'>citizenship</term>. </p>
+ <p >Greek: <foreign  xml:lang='grc'>νόθος, νόθοι</foreign>.</p>
+ </div>
+ <div  n='oikos' type='section' xml:id='oikos'>
+ <head >oikos</head>
+ <p ><emph >oikos</emph> · A household: the word can be used to describe people or
+ family property or a building, or all three together. The term is rarely used in the
+ formulation of Athenian statutes, but the concept seems to play an important rôle
+ not only in family but in <term  sortKey='citizenship'>citizenship</term> law: see svv. <term >
+ <term  sortKey='law_glossary@kurios'>kurios</term>
+ </term>, <term >
+ <term  sortKey='law_glossary@nothos'>nothos</term>
+ </term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>οἶκος</foreign>.</p>
+ </div>
+ <div  n='paragraphe' type='section' xml:id='paragraphe'>
+ <head >paragraphe</head>
+ <p ><emph >paragraphe</emph> · A counter-indictment, in which the defendant charges
+ the plaintiff with bringing an illegal prosecution. The procedure was invented (or
+ possibly re-organised) around <date  when='-0400'>400</date>, to help those threatened with
+ charges which broke the Amnesty: the latter had been imposed under Spartan supervision to
+ protect former supporters of the <term  sortKey='thirty_tyrants'>Thirty Tyrants</term>, the
+ oligarchic junta of <date  from='-0404' to='-0403'>404/3</date> which had been overthrown
+ by the democratic restoration of <date  from='-0403' to='-0402'>403/2</date>.
+ <term >Paragraphe</term>, however rapidly extended its scope: for the defendant, it seems
+ to have had the advantage that it was itself a prosecution; whereas the older procedure of <term >
+ <term  sortKey='law_glossary@diamarturia'>diamarturia</term>
+ </term> simply served to block a particular claim by the plaintiff,
+ <term >paragraphe</term> enabled the defendant to turn the tables, becoming himself the
+ prosecutor and (if successful) imposing a penalty on his opponent. </p>
+ <p >Greek: <foreign  xml:lang='grc'>παραγραφή</foreign>.</p>
+ </div>
+ <div  n='paranomon' type='section' xml:id='paranomon'>
+ <head >(graphe) paranomon</head>
+ <p ><emph >(graphe) paranomon</emph> · A public indictment against the proposer of a
+ new <term >psephisma</term> (decree), charging that his proposal is unconstitutional (lit.
+ <soCalled >against the law</soCalled>): One of the most extensively documented of all
+ Athenian legal procedures, and one of the most overtly political: the prosecutor might
+ claim for instance that the bill had been proposed without the necessary formalities; but
+ many of the extant <term >graphai paranomon</term> are directed against honorary decrees,
+ and in these the prosecutor regularly bases his case on the claim that the honour is
+ itself undeserved. The procedure could be employed against proposals both before and after
+ they had been voted on by the <term >
+ <term  sortKey='assembly'>ekklesia</term>
+ </term>. Until <date  when='-0403'>403</date> B.C., it was apparently used without
+ discrimination against both <term >nomoi</term> (laws) and <term >psephismata</term>; but in
+ that year a formal distinction was for the first time drawn between the two types of
+ statute (see sv. <term >
+ <term  sortKey='law_glossary@nomos'>nomos</term>
+ </term>, <term  sortKey='legislation'>Legislation</term>). The old procedure of
+ <term >graphi paranomon</term> was retained for use against <term >psephismata</term>; but
+ a new parallel procedure, the <term >graphi nomon me epitedeion theinai</term>, was felt to
+ be required for use against unconstitutional (lit. <soCalled >inexpedient</soCalled>)
+ <term >nomoi</term>.</p>
+ <p >Greek: <foreign  xml:lang='grc'>γραφὴ παρανόνων</foreign>.</p>
+ </div>
+ <div  n='phasis' type='section' xml:id='phasis'>
+ <head >phasis</head>
+ <p ><emph >phasis</emph> · Lit. <soCalled >a showing forth, declaration</soCalled>:
+ denunciation of a man who is illegally withholding property which belongs to the state.
+ Unlike the related (and much better attested) procedure of <term >
+ <term  sortKey='law_glossary@apographe'>apographe</term>
+ </term>, <term >phasis</term> was apparently directed against the person rather than the
+ property. </p>
+ <p >Greek: <foreign  xml:lang='grc'>φάσις</foreign>.</p>
+ </div>
+ <div  n='polupragmon' type='section' xml:id='polupragmon'>
+ <head >polupragmon</head>
+ <p ><emph >polupragmon</emph>, pl. <term >polupragmones</term> (adj.);
+ <term >polupragmosune</term> (abstract noun) · Lit. <soCalled >one who conducts
+ much business,</soCalled> i.e. <soCalled >too much.</soCalled> Usually pejorative in the
+ eyes of the speaker. The <date  from='-0499' to='-0400'>fifth-century</date> Athenian
+ empire was according to its opponents the product of cooperative Athenian
+ <term >polupragmosune</term>; on an individual level, the term has overtones of
+ <soCalled >officious</soCalled> and <soCalled >busybody.</soCalled>
+ </p>
+ <p >Greek: <foreign  xml:lang='grc'>πολυπράγμων, πολυπράγμονες</foreign>.</p>
+ </div>
+ <div  n='probole' type='section' xml:id='probole'>
+ <head >probole</head>
+ <p ><emph >probole</emph>, pl. <term >probolai</term> · Lit. <soCalled >a throwing
+ forward.</soCalled> A preliminary accusation, which an intending plaintiff could bring
+ before the <term >
+ <term  sortKey='assembly'>ekklesia</term>
+ </term> (<term  sortKey='assembly'>Assembly</term>) rather than directly to a <term >
+ <term  sortKey='lawcourt'>dikasterion</term>
+ </term> (<term  sortKey='lawcourt'>court</term>). This vote of the <term >
+ <term  sortKey='assembly'>ekklesia</term>
+ </term> had no formal effect: it did not bind a successful plaintiff to continue his
+ action in court, nor apparently did it prevent him from doing so if unsuccessful; it
+ imposed no penalty either on plaintiff or on defendant. It did however strengthen the hand
+ of the successful plaintiff: after the manner of a straw poll, it showed which way the
+ wind was blowing. We hear of <term >probole</term> being used in disputes which arise at
+ festivals, and also against sycophants and against political leaders (presumably) who have
+ allegedly deceived the people with false promises. </p>
+ <p >Greek: <foreign  xml:lang='grc'>προβολή, προβολαί</foreign>.</p>
+ </div>
+ <div  n='pseudomarturion' type='section' xml:id='pseudomarturion'>
+ <head >(dike) pseudomarturion</head>
+ <p ><emph >(dike) pseudomarturion</emph> · Lit. <soCalled >(prosecution concerning)
+ false witness</soCalled>: a private indictment against a <term >martus</term>
+ (<soCalled >witness</soCalled>). This is by its nature a secondary action, brought
+ against a man who has been a witness in previous legal proceedings, and charging him with
+ having given a false or illegal testimony. </p>
+ <p >Greek: <foreign  xml:lang='grc'>δίκη ψευδομαρτυριῶν</foreign>.</p>
+ </div>
+ <div  n='sukophantes' type='section' xml:id='sukophantes'>
+ <head >sukophantes</head>
+ <p ><emph >sukophantes</emph>, pl. <term >sukophantai</term> (noun); <term >sukophantein</term>
+ (verb) · A term of disputed etymology and disputed meaning, used pejoratively to
+ describe an officious litigant. Conventionally transliterated as
+ <soCalled >sycophant</soCalled> or <soCalled >sykophant,</soCalled> but the English
+ adjective <soCalled >sycophantic</soCalled> derives from a later, post-classical
+ development in the meaning of the word. </p>
+ <p >Greek: <foreign  xml:lang='grc'>συκοφάντης, συκοφάνται; συκοφαντεῖν</foreign>.</p>
+ </div>
+ <div  n='sunegoros' type='section' xml:id='sunegoros'>
+ <head >sunegoros</head>
+ <p ><emph >sunegoros</emph>, pl. <term >sunegoroi</term> · Most commonly, a person who
+ appears in court to speak on behalf of a litigant. Lit <soCalled >speaker together
+ with,</soCalled> thus at least in theory preserving the rule that litigants could not be
+ represented by advocates: the <term >sunegoros</term> was officially the supporting
+ speaker. The word is also used to describe a speaker appointed to represent the state,
+ normally as prosecutor; but the overwhelming majority even of public prosecutions were
+ brought by private individuals. </p>
+ <p >Greek: <foreign  xml:lang='grc'>συνήγορος, συνήγοροι</foreign>.</p>
+ </div>
+ </body>
+ </text>
+</TEI>

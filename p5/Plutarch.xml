@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Plutarch</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Plutarch</name></head>
+<p >Born before <date  when='0050'>50 CE</date>, died after <date  when='0120'>120 CE</date>, from <placeName  key='Chaeronea'>Chaeronea</placeName> in <placeName  key='Greece'>Greece</placeName> (see also <name  n='biography' type='ancientGenre'>Biography</name>). He is most famous for his works of <name  n='biography' type='ancientGenre'>biography</name>. <name  type='ancientAuthor'>Plutarch</name> was an extremely prolific writer—we know the titles of 227 works by him, of which 128 survive. His works fall into two categories. The first are the so-called <title >Moralia</title>, 78 works on subjects of morality, with titles such as <title >Friends and Flatterers</title>, <title >Rules for Politicians</title>, or <title >God’ Slowness to Punish</title>. The second category, the works most useful to the study of political history, are the <title >Parallel Lives</title>. These are 23 pairs of biographical sketches, a famous Greek person matched with a famous Roman; 19 of these pairs also includes an essay comparing the two. For example, <name  type='ancientAuthor'>Plutarch</name> pairs a <name  n='biography' type='ancientGenre'>biography</name> of the Greek <name  n='oratory' type='ancientGenre'>orator</name> <name  type='ancientAuthor'>Demosthenes</name> with a <name  n='biography' type='ancientGenre'>biography</name> of the Roman <name  n='oratory' type='ancientGenre'>orator</name> <name  type='ancientAuthor'>Cicero</name>; he pairs <name  type='person'>Alexander the Great</name> with <name  type='person'>Julius Caesar</name>, and the (mythical) Roman king <name  type='person'>Romulus</name> with the (mythical) Athenian king <name  type='person'>Theseus</name>. These biographies generally follow a pattern: the subject’s family, his education, his entry into public life, the high points of his career, a change in fortune or attitude, and his final years and death. At the beginning of his <title >Life of Alexander</title> (<bibl  n='urn:cts:greekLit:tlg0007.tlg047:1' type='cts-urn'>Plut. Alex. 1</bibl>) <name  type='ancientAuthor'>Plutarch</name> says, explicitly, that his purpose is not to write political <name  n='history' type='ancientGenre'>history</name>, but to bring out the subject’s particular virtues and vices and to illustrate his character. This purpose is worth bearing in mind—<name  type='ancientAuthor'>Plutarch</name>’s lives are not necessarily objective historical accounts, but narrative pictures aiming to convey a particular moral point. (Source <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>).</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

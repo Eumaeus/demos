@@ -1,0 +1,102 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 45</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher > The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text >
+ <body >
+ <div  n='Description' type='Description'>
+ <head >
+ <bibl  n='urn:cts:greekLit:tlg0014.tlg045' type='cts-urn'>Dem. 45</bibl>
+ </head>
+ <p ><name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Stephanus</name> (I)</title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. This is a speech on behalf of <name  type='person'>Apollodorus</name> in
+ a perjury suit that he has brought against <name  type='person'>Stephanus</name>. It is the
+ first of two speeches delivered during this same trial (see also <bibl  n='urn:cts:greekLit:tlg0014.tlg046' type='cts-urn'>Dem. 46</bibl>). <name  type='person'>Stephanus</name> was a friend of <name  type='person'>Phormio</name> (the same <name  type='person'>Phormio</name> of <bibl  n='urn:cts:greekLit:tlg0014.tlg036' type='cts-urn'>Dem. 36</bibl>) who testified on <name  type='person'>Phormio</name>’s behalf
+ in the special plea (<foreign  xml:lang='grc'>παραγραφή</foreign>) at the centre of that
+ trial. The speeches <bibl  n='urn:cts:greekLit:tlg0014.tlg036' type='cts-urn'>Dem. 36</bibl>,
+ <bibl  n='urn:cts:greekLit:tlg0014.tlg045' type='cts-urn'>Dem. 45</bibl> (this speech), and
+ <bibl  n='urn:cts:greekLit:tlg0014.tlg046' type='cts-urn'>Dem. 46</bibl> all concern the
+ estate of <name  type='person'>Pasion</name>, an Athenian banker. According to <name  type='person'>Pasion</name>’s will, <name  type='person'>Phormio</name>, a
+ former slave of <name  type='person'>Pasion</name>, was given <name  type='person'>Pasion</name>’s widow in marriage as well as control over <name  type='person'>Pasion</name>’s business affairs until <name  type='person'>Pasion</name>’s younger son, <name  type='person'>Pasicles</name>, came of age.
+ This arrangement did not work because <name  type='person'>Apollodorus</name>’
+ (the older son of <name  type='person'>Pasion</name>) was constantly spending money from
+ the common family fund. To correct this problem, and to ensure that young <name  type='person'>Pasicles</name> would be left with an inheritance when he came of age,
+ <name  type='person'>Phormio</name> elected to distribute all of <name  type='person'>Pasion</name>’s property equally between the two sons. This did not satisfy
+ <name  type='person'>Apollodorus</name>, who then sued <name  type='person'>Phormio</name>
+ for 3000 drachmas (see also <term  sortKey='Money'>Money</term>). He claimed that <name  type='person'>Phormio</name> had withheld that sum of money when the property was
+ distributed; the matter was submitted to arbitration and was it was decided that <name  type='person'>Phormio</name> did indeed owe the money, which he then paid (<bibl  n='urn:cts:greekLit:tlg0014.tlg036:3' type='cts-urn'>Dem.
+ 36.3</bibl>; <bibl  n='urn:cts:greekLit:tlg0014.tlg036:14' type='cts-urn'>Dem. 36.14-15</bibl>). Twenty years passed, and
+ <name  type='person'>Apollodorus</name> decided that <name  type='person'>Phormio</name>
+ had defrauded him of 20 talents in bank-stock. <name  type='person'>Phormio</name>, on the
+ other hand, asserted that this was preposterous and filed a special plea to have this new
+ suit dismissed, which is the direct concern of <bibl  n='urn:cts:greekLit:tlg0014.tlg036' type='cts-urn'>Dem. 36</bibl>. In that speech, <name  type='person'>Phormio</name> asserts
+ that, since twenty years have passed, the statue of limitations (<foreign  xml:lang='grc'>τὸν τῆς προθεσμίας νόμον</foreign>) (<bibl  n='urn:cts:greekLit:tlg0014.tlg036:26' type='cts-urn'>Dem. 36.26</bibl>) had expired and that <name  type='person'>Apollodorus</name> had released him from any further financial obligations
+ after he paid the 3000 drachmas. We learn in the present speech (<bibl  n='urn:cts:greekLit:tlg0014.tlg045:1' type='cts-urn'>Dem.
+ 45.1</bibl>) that <name  type='person'>Apollodorus</name> suffered an embarrassing defeat
+ in the previous case because, he claims, he has been <cit >
+ <bibl  n='urn:cts:greekLit:tlg0014.tlg045:1' type='cts-urn'/>
+ <quote >overwhelmed by false testimony</quote>
+ </cit> (<bibl  n='urn:cts:greekLit:tlg0014.tlg045:1' type='cts-urn'>Dem. 45.1</bibl>; see also <bibl  n='urn:cts:greekLit:tlg0014.tlg045:6' type='cts-urn'>Dem. 45.6</bibl>). <name  type='person'>Apollodorus</name> now claims that the testimony of <name  type='person'>Phormio</name>’s witnesses (specifically <name  type='person'>Stephanus</name>)
+ was false and that several of the documents produced by <name  type='person'>Phormio</name>
+ (the will of <name  type='person'>Pasion</name>, <name  type='person'>Phormio</name>’s lease of <name  type='person'>Pasion</name>’s
+ property, and <name  type='person'>Apollodorus</name>’ statement releasing <name  type='person'>Phormio</name> of further financial responsibility) were forged and should
+ not be credited as evidence. <name  type='person'>Apollodorus</name> further states that
+ <name  type='person'>Stephanus</name> has merely sided with <name  type='person'>Phormio</name> because of possible monetary gain and that he has ignored a distant
+ family tie to <name  type='person'>Apollodorus</name> (<bibl  n='urn:cts:greekLit:tlg0014.tlg045:53-54' type='cts-urn'>Dem. 45.53-54</bibl>) which,
+ according to <name  type='person'>Apollodorus</name>’ notions of proper social
+ practice (<bibl  n='urn:cts:greekLit:tlg0014.tlg045:65' type='cts-urn'>Dem. 45.65</bibl>), would require that he support <name  type='person'>Apollodorus</name>. Finally, he closes his speech with an attack on the character of
+ <name  type='person'>Phormio</name>, ridiculing his barbarian background and accusing him
+ of carrying on an adulterous relationship with <name  type='person'>Archippe</name>, <name  type='person'>Apollodorus</name>’ mother, which resulted in the birth of <name  type='person'>Pasicles</name>, <name  type='person'>Apollodorus</name>’ younger
+ brother (<bibl  n='urn:cts:greekLit:tlg0014.tlg045:72-74' type='cts-urn'>Dem. 45.72-74</bibl>; also <bibl  n='urn:cts:greekLit:tlg0014.tlg045:83-84' type='cts-urn'>Dem.
+ 45.83-84</bibl>). The speech closely resembles genuine works of <name  type='ancientAuthor'>Demosthenes</name> stylistically. However, its authorship is
+ disputed on the grounds that it would be strange (and perhaps unethical) for <name  type='ancientAuthor'>Demosthenes</name> to write a speech in defence of <name  type='person'>Phormio</name> (<bibl  n='urn:cts:greekLit:tlg0014.tlg036' type='cts-urn'>Dem.
+ 36</bibl>) and then turn to write a speech (<bibl  n='urn:cts:greekLit:tlg0014.tlg045' type='cts-urn'>Dem. 45</bibl>) attacking <name  type='person'>Phormio</name> in the harshest
+ terms. <name  type='ancientAuthor'>Plutarch</name> expressly states that Demosthenes did
+ write the speech (<bibl  n='urn:cts:greekLit:tlg0007.tlg054:15' type='cts-urn'>Plut. Dem. 15</bibl>) . <name  type='ancientAuthor'>Aeschines</name>, a bitter political rival of <name  type='ancientAuthor'>Demosthenes</name>, does accuse him of accepting money from <name  type='person'>Phormio</name> to write a speech and then revealing its contents to <name  type='person'>Apollodorus</name> (<bibl  n='urn:cts:greekLit:tlg0026.tlg002:165' type='cts-urn'>Aeschin. 2.165</bibl>; <bibl  n='urn:cts:greekLit:tlg0026.tlg003:173' type='cts-urn'>Aeschin. 3.173</bibl>).
+ However, were it known that <name  type='ancientAuthor'>Demosthenes</name> had indeed
+ written a speech for <name  type='person'>Apollodorus</name>, we would expect <name  type='ancientAuthor'>Aeschines</name> to mention it. We know that <name  type='person'>Pasion</name>’s death is placed at <date  when='-0370'>370 BCE</date> (source
+ for date: <bibl  n='OCD3'>
+ <title >OCD</title>
+ <edition >3</edition>
+ </bibl>) and that the lawsuit that <bibl  n='urn:cts:greekLit:tlg0014.tlg036' type='cts-urn'>Dem. 36</bibl> is concerned with takes place about 20 years later, around <date  when='-0350'>350 BCE</date>. The present speech can be said to have taken place sometime
+ after that.</p>
+ <byline >Christopher Cotten</byline>
+ </div>
+ </body>
+ </text>
+</TEI>

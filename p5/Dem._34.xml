@@ -1,0 +1,58 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 34</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg034' type='cts-urn'>Dem. 34</bibl></head>
+<p ><name  type='ancientAuthor'>Demosthenes</name>, <title >Against Phormio</title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. This is a speech written by <name  type='ancientAuthor'>Demosthenes</name> on behalf of <name  type='person'>Chrysippus</name> and his partner for a lawsuit that they have filed against <name  type='person'>Phormio</name>, an Athenian merchant (this is not the same <name  type='person'>Phormio</name> who appears in <bibl  n='urn:cts:greekLit:tlg0014.tlg036' type='cts-urn'>Dem. 36</bibl>). <name  type='person'>Chrysippus</name> loaned <name  type='person'>Phormio</name> twenty minae (see also <term  sortKey='Money'>Money</term>) to ship a cargo to <placeName  key='Bosporus'>Bosporus</placeName>, in the <placeName  key='Crimea'>Crimea</placeName>. He did this with the understanding that he would be repaid along with thirty percent interest when <name  type='person'>Phormio</name> returned from the journey. When <name  type='person'>Phormio</name> reached the <placeName  key='Bosporus'>Bosporus</placeName>, he found that he was unable to sell the goods because of a war in the area. So he sent the ship back to <placeName  key='Athens'>Athens</placeName>, but the ship sank on the return journey. This speech was not given as part of an actual trial on the issues, but in response to a special plea (<foreign  xml:lang='grc'>τῆς παραγραφῆς</foreign>; <bibl  n='urn:cts:greekLit:tlg0014.tlg034:3' type='cts-urn'>Dem. 34.3</bibl>) brought by <name  type='person'>Phormio</name> aimed at preventing the matter from going to trial. <name  type='person'>Phormio</name> claims that, because the ship sank, he is not contractually bound to repay the twenty minae and should not be brought to trial. On the other hand, <name  type='person'>Chrysippus</name> asserts that, from the very beginning of their dealings, <name  type='person'>Phormio</name> tried to defraud him and thus should be responsible for the loan (plus interest) and should be brought to trial for his actions. This speech is unusual in that there are two speakers. It seems that <name  type='person'>Chryssipus</name> delivered the first part of the speech, and his partner began speaking at <bibl  n='urn:cts:greekLit:tlg0014.tlg034:21' type='cts-urn'>Dem. 34.21</bibl>; the speaker at <bibl  n='urn:cts:greekLit:tlg0014.tlg035:23' type='cts-urn'>Dem. 35.23</bibl> refers to <name  type='person'>Chrysippus</name> as <quote >my partner here</quote> (<foreign  xml:lang='grc'>οὗτος᾿</foreign> (<bibl  n='urn:cts:greekLit:tlg0014.tlg034:23' type='cts-urn'>Dem. 34.23</bibl>). Because the speech mentions <name  type='person'>Alexander the Great</name>’s capture of the city of <placeName  key='Thebes'>Thebes</placeName>, this speech can be dated to some time after <date  when='-0335'>335 BCE</date>, when that event took place (<bibl  n='urn:cts:greekLit:tlg0014.tlg034:38' type='cts-urn'>Dem. 34.38</bibl>) (source for date: <bibl >A.T. Murray, <title >Demosthenes IV</title> [Cambridge, Mass.; Loeb Classical Library; 1946] 262n.</bibl>).</p>
+<byline >Christopher Cotten</byline>
+</div> 
+
+
+
+</body>
+</text>
+</TEI>

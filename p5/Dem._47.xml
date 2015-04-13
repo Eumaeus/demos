@@ -1,0 +1,94 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 47</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher > The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text >
+ <body >
+ <div  n='Description' type='Description'>
+ <head >
+ <bibl  n='urn:cts:greekLit:tlg0014.tlg047' type='cts-urn'>Dem. 47</bibl>
+ </head>
+ <p ><name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Evergus</name> and <name  type='person'>Mnesibulus</name></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. While this speech comes down to us among
+ the body of <name  type='ancientAuthor'>Demosthenes</name>’ orations, it was
+ probably written by <name  type='ancientAuthor'>Apollodorus</name> on behalf of a plaintiff
+ (whose name we do not know) in his suit against <name  type='person'>Evergus</name> and
+ <name  type='person'>Mnesibulus</name>, whom the plaintiff charges with having given
+ false testimony in a previous suit. This suit is the culmination of a long and somewhat
+ complicated history of acrimony between the plaintiff and <name  type='person'>Theophemus</name>. The tension began when the plaintiff assumed the duties of a
+ trierarch (<foreign  xml:lang='grc'>τριηραρξῶν</foreign>), a liturgy (<foreign  xml:lang='grc'>λειτουργία</foreign>) (or service to the state) that was contracted out
+ from time to time to wealthy citizens. The trierarch was responsible for outfitting a
+ trireme (a warship) in the Athenian fleet, ensuring that the ship was ready for service
+ when called upon. In performing his duties, the trierarch made use of equipment from the
+ public stores, which had to be returned at the end of his period of service. <name  type='person'>Theophemus</name>, who had served as trierarch prior to the plaintiff,
+ ignored the request of the plaintiff for the return of the equipment. Upon his refusal,
+ the plaintiff reported <name  type='person'>Theophemus</name>’ refusal to the
+ <term  sortKey='Council'>Council of the Five Hundred</term> (<foreign  xml:lang='grc'>τῆς
+ βουλῆς τῶν πεντακοσίων</foreign>) (<bibl  n='urn:cts:greekLit:tlg0014.tlg047:18' type='cts-urn'>Dem.
+ 47.18</bibl>), who gave him official permission to use whatever means available to
+ recover the property. When the plaintiff tried to seize other property of <name  type='person'>Theophemus</name> as security, a fist-fight erupted (<bibl  n='urn:cts:greekLit:tlg0014.tlg047:38' type='cts-urn'>Dem. 47.38</bibl>). As a result of this, the
+ plaintiff brought <name  type='person'>Theophemus</name> before the <term  sortKey='Council'>Council</term> because of his non-compliance. The <term  sortKey='Council'>Council</term> was prepared to inflict the highest possible fine (500 drachmas, <bibl  n='urn:cts:greekLit:tlg0014.tlg047:43' type='cts-urn'>Dem. 47.43</bibl>; see also <term  sortKey='Money'>Money</term>), but compromised at the last moment by assessing a fine of 25 drachmas
+ and a promise of arbitration in the question of the fist fight. After a long stint at sea,
+ the plaintiff returned and called arbitrators (<foreign  xml:lang='grc'>διαιτητῶν</foreign>) (<bibl  n='urn:cts:greekLit:tlg0014.tlg047:45' type='cts-urn'>Dem. 47.45</bibl>)
+ to settle the matter but <name  type='person'>Theophemus</name> again refused to co-operate
+ and brought a countersuit against the plaintiff in court. While the charges involved in
+ <name  type='person'>Theophemus</name>’ countersuit are not stated, we do know
+ that he won a judgement against the plaintiff in the amount of 1100 drachmas and forcing
+ the plaintiff to pay the fine for not receiving enough votes (<foreign  xml:lang='grc'>ἐπωβολία</foreign>) (<bibl  n='urn:cts:greekLit:tlg0014.tlg047:64' type='cts-urn'>Dem. 47.64</bibl>).
+ However, because of his duties as trierarch, the plaintiff was not immediately able to pay
+ the judgement of 1100 drachmas and asked for more time. Later, when the plaintiff did
+ attempt to pay the money, he was ignored by <name  type='person'>Theophemus</name>, who
+ went that same day to the plaintiff’s farm and seized property (50 sheep and
+ some household slaves) greatly in excess of the 1100 drachmas that he was owed (<bibl  n='urn:cts:greekLit:tlg0014.tlg047:52-53' type='cts-urn'>Dem. 47.52-53</bibl>). The next day, <name  type='person'>Theophemus</name> accepted the plaintiff’s money but would not
+ return the confiscated property unless the plaintiff would drop all charges against him
+ and his friends, <name  type='person'>Evergus</name> and <name  type='person'>Mnesibulus</name>. The plaintiff refused this offer but on the very next day, after
+ payment had already been made, <name  type='person'>Evergus</name> returned to the
+ plaintiff’s farm and seized additional property (some furniture) (<bibl  n='urn:cts:greekLit:tlg0014.tlg047:56' type='cts-urn'>Dem. 47.56</bibl>). At this point, the plaintiff
+ brought <name  type='person'>Evergus</name> and <name  type='person'>Mnesibulus</name>, two
+ men who had served as witnesses on behalf of <name  type='person'>Theophemus</name>, into
+ court on charges of false testimony. This is the subject of the present trial. In his
+ speech, the plaintiff charges that <name  type='person'>Evergus</name> and <name  type='person'>Mnesibulus</name> lied to the court about <name  type='person'>Theophemus</name>’ role in the fist-fight. He also deplored the violence with
+ which they had come to seize his property. In particular, the plaintiff mentions their
+ rough treatment of his elderly nursemaid (<bibl  n='urn:cts:greekLit:tlg0014.tlg047:81' type='cts-urn'>Dem. 47.81</bibl>). Because the speech mentions the archonship of <name  type='person'>Agathocles</name> (<date  when='-0356'>356 BCE</date>) (source for date: <bibl >A.T.
+ Murray, <title >Demosthenes II</title> [Cambridge, Mass.; Loeb Classical Library; 1930]
+ 303</bibl>), this speech can be said to have taken place sometime after that date.</p>
+ <byline >Christopher Cotten</byline>
+ </div>
+ </body>
+ </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 9</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg009' type='cts-urn'>Dem. 9</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Third Philippic</title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech that <name  type='ancientAuthor'>Demosthenes</name> gave at a meeting of the <term  sortKey='Assembly'>Assembly</term>, and then published later. He delivered this speech sometime in <date  when='-0341'>341 BCE</date>, shortly after the speech <title >On the <placeName  key='Chersonese'>Chersonese</placeName></title> (<bibl  n='urn:cts:greekLit:tlg0014.tlg008' type='cts-urn'>Dem. 8</bibl>) (source for date: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 222</bibl>). In 341 <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName> was waging war in <placeName  key='Thrace'>Thrace</placeName>, and so was the Athenian <term  sortKey='Military'>general</term> <name  type='person'>Diopithes</name>. At <placeName  key='Athens'>Athens</placeName>, the <term  sortKey='Assembly'>Assembly</term> was debating sending reinforcements to <name  type='person'>Diopithes</name>. <name  type='ancientAuthor'>Demosthenes</name>, in this speech, urges <placeName  key='Athens'>Athens</placeName> to oppose <name  type='person'>Philip</name>, noting that the city must form alliances, since <name  type='person'>Philip</name> is too strong, and his territory too extensive, for <placeName  key='Athens'>Athens</placeName> to oppose him alone. The speech succeeded in urging the Athenians to action, and within a year <placeName  key='Byzantium'>Byzantium</placeName>, on the <placeName  key='Hellespont'>Hellespont</placeName>, <placeName  key='Euboea'>Euboea</placeName>, and several other Greek cities allied themselves with <placeName  key='Athens'>Athens</placeName> to oppose <name  type='person'>Philip</name>. (See also, <bibl  n='urn:cts:greekLit:tlg0014.tlg004' type='cts-urn'>Dem. 4</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg006' type='cts-urn'>Dem. 6</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg010' type='cts-urn'>Dem. 10</bibl> — all speeches urging opposition to <name  type='person'>Philip</name>, and <bibl  n='urn:cts:greekLit:tlg0014.tlg008' type='cts-urn'>Dem. 8</bibl>, which deals with the same political developments in <placeName  key='Thrace'>Thrace</placeName>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

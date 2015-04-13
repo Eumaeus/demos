@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Aeschines</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Aeschines</name></head>
+<p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1997.99.0389'><figure  n='1997.99.0389.jpeg' rend='left'/></ref><date  from='-0397' to='-0322'>c.397-c.322 BCE</date> (source: <bibl ><title >OCD</title><edition >3</edition></bibl>). <name  type='ancientAuthor'>Aeschines</name> was an Athenian orator (see <name  n='oratory' type='ancientGenre'>Oratory</name>) who is most famous for his speeches in opposition to <name  type='ancientAuthor'>Demosthenes</name>, beginning with a dispute over the outcome of an embassy to <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName> in <date  when='-0346'>346 BCE</date>. These exchanges provide us with much of what we know about the relationship between <placeName  key='Athens'>Athens</placeName> and <placeName  key='Macedonia'>Macedonia</placeName> during the <date  from='-0350' to='-0335'>middle of the 4th century</date>; they are particularly valuable because they show us two sides of the issues of the day (cf. <bibl  n='urn:cts:greekLit:tlg0014.tlg018' type='cts-urn'>Dem. 18</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg019' type='cts-urn'>Dem. 19</bibl>, <bibl  n='urn:cts:greekLit:tlg0026.tlg02' type='cts-urn'>Aeschin. 2</bibl>, <bibl  n='urn:cts:greekLit:tlg0026.tlg003' type='cts-urn'>Aeschin. 3</bibl>). (See also the genre of <name  n='oratory' type='ancientGenre'>Oratory</name>.)</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

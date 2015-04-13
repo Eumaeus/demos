@@ -1,0 +1,58 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 5</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg005' type='cts-urn'>Dem. 5</bibl></head>
+<p > (<name  type='ancientAuthor'>Demosthenes</name>, <title >On the Peace</title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech that <name  type='ancientAuthor'>Demosthenes</name> composed for delivery at a meeting of the <term  sortKey='Assembly'>Assembly</term>. The subject of the speech is a treaty of peace between <placeName  key='Athens'>Athens</placeName> and <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName>, which was established in <date  when='-0346'>346 BCE</date> after <name  type='person'>Philip</name> had captured <placeName  key='Amphipolis'>Amphipolis</placeName>, a city allied to <placeName  key='Athens'>Athens</placeName>, and the Athenians were eager to prevent his taking more of their possessions (See <bibl  n='urn:cts:greekLit:tlg0026.tlg002' type='cts-urn'>Aeschin. 2</bibl>;<bibl  n='urn:cts:greekLit:tlg0014.tlg019' type='cts-urn'> Dem. 19</bibl>). In this speech <name  type='ancientAuthor'>Demosthenes</name> argues that — although he opposed this treaty earlier, and still thinks that it was a bad idea — <placeName  key='Athens'>Athens</placeName> should accept it as an accomplished fact, do nothing to undermine it for the time being, and look for other ways to advance Athenian interests. There is a problem, though regarding this speech. The speech was written in <date  when='-0346'>346 BCE</date> (source for date: <bibl  n='urn:cts:greekLit:tlg0014.tlg005:14' type='cts-urn'>Dem. 5.14</bibl>; <bibl >Raphael Sealey, <title >Demosthenes and his Time: a study in Defeat</title> (Oxford, 1993) 157-158</bibl>), which makes it earlier than <name  type='ancientAuthor'>Demosthenes</name>’ <title >On the Embassy</title> (<bibl  n='urn:cts:greekLit:tlg0014.tlg019' type='cts-urn'>Dem. 19</bibl>), which was delivered before a <term  sortKey='lawcourt'>jury</term> in <date  when='-0343'>343 BCE</date> (Source for date: <bibl >E. M. Harris, <title >Aeschines and Athenian Politics</title> [Oxford, 1995]</bibl>). In that later speech, <name  type='ancientAuthor'>Demosthenes</name> claims that <name  type='ancientAuthor'>Aeschines</name>, alone, spoke in favor of allowing <name  type='person'>Philip</name> to become a member of the Amphictyonic Council, the body that governed the shrines at <placeName  key='Delphi'>Delphi</placeName> and that was composed of representatives of various states (<bibl  n='urn:cts:greekLit:tlg0014.tlg019:113' type='cts-urn'>Dem. 19.113</bibl>). But here, in <title >On the Peace</title>, <name  type='ancientAuthor'>Demosthenes</name> says that to oppose <placeName  key='Philip'>Philip</placeName> in this would be dangerous. Because of this, <name  type='ancientAuthor'>Libanius</name>, a <date  from='0300' to='0399'>4th century CE </date>scholar who wrote extensively on <name  type='ancientAuthor'>Demosthenes</name>, says: <cit ><bibl  n='Libanius, Hypothesis to the Speech On the Peace 6'/><quote >It seems to me that this speech was composed, but never delivered</quote></cit> (<cit ><bibl  n='Libanius, Hypothesis to the Speech On the Peace 6'/><quote  xml:lang='grc'>οὗτος δὲ ὁ λόγος παρεσκευάσθαι μέν, οὐ μὴν εἰρῆσθαί μοι δοκεῖ</quote></cit>) (<title ><bibl  n='Libanius, Hypothesis to the Speech On the Peace 6'>Hypothesis to the Speech ’On the Peace’</bibl></title><bibl  n='Libanius, Hypothesis to the Speech On the Peace 6'>, 6</bibl>). Would Demosthenes try to get away with such an obvious lie? Modern scholars do not agree on an answer to this question, although Sealey’s recent study assumes that <name  type='ancientAuthor'>Demosthenes</name> did deliver the speech (<bibl >Raphael Sealey, <title >Demosthenes and his Time: a study in Defeat</title> (Oxford, 1993) 157-158</bibl>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

@@ -1,0 +1,829 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Athenian Political Art from the fifth and fourth centuries: Images of Tribal
+ (Eponymous) Heroes</title>
+ <author >Amy C. Smith</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher > The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text  xml:lang='en'>
+ <body >
+ <div  n='1' type='Summary' xml:id='Summary'>
+ <head >Summary</head>
+ <p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1990.20.0509'>
+ <figure  n='th_1990.20.0509.jpg' rend='right'/>
+ </ref>The <term  sortKey='Cleisthenes'>Cleisthenic</term> reforms of <date  when='-0508'>508/7</date>, which firmly established democracy at <placeName  key='Athens'>Athens</placeName>, imposed a new division of <placeName  key='Attica'>Attica</placeName> into ten tribes, each of which constituted a new political and
+ military unit, but included citizens from each of the three geographical regions of
+ <placeName  key='Attica'>Attica</placeName>—the city, the coast, and the
+ inland. Enrollment in a tribe (according to heredity) was a mandatory prerequisite for
+ <term  sortKey='citizenship'>citizenship</term>.</p>
+ <p >As usual in ancient Athenian affairs, politics and religion came hand in hand and, after
+ due consultation with <name  type='god'>Apollo</name>’s oracle at <placeName  key='Delphi'>Delphi</placeName>, each new tribe was assigned to a particular hero after
+ whom the tribe was named; the ten tribal heroes are thus known as the eponymous (or name
+ giving) heroes.</p>
+ </div>
+ <div  n='GroupHistory' type='Section' xml:id='GroupHistory'>
+ <head >The tribal heroes as a group: history</head>
+ <p ><name  type='ancientAuthor'>Aristotle</name> indicates that each hero already received
+ worship by the time of the <term  sortKey='Cleisthenes'>Cleisthenic</term> reforms,
+ although little evidence as to the nature of the worship of each hero is now known (<bibl  n='urn:cts:greekLit:tlg0086.tlg003:21.6' type='cts-urn'>Aristot. <title >Ath. Pol.</title> 21.6</bibl>).
+ Even if the locus of their individual cults is obscure, each hero may be identified,
+ according to his mythology, with a particular part of <placeName  key='Attica'>Attica</placeName> (e.g. <name  type='person'>Ajax</name> of <placeName  key='Salamis'>Salamis</placeName>). Tribal documents seem to have been deposited at the local shrine
+ of each hero, as well as by the statue of the relevant hero in the <ref  target='http://www.perseus.tufts.edu/cgi-bin/architindex?lookup=Athens,+Eponymous+Heroes'>Monument of the Eponymous Heroes</ref> at the <name  n='Agora Athens' type='site'>Agora</name> in <placeName  key='Athens'>Athens</placeName>.</p>
+ <p >The concept of an eponymous hero was an established tradition before the reforms of <name  type='person'>Cleisthenes</name>; the four Ionian tribes, for example, were said by
+ <name  type='ancientAuthor'>Herodotus</name> to have been named after the sons of <name  type='person'>Ion</name> (<bibl  n='urn:cts:greekLit:tlg0016.tlg001:5.66' type='cts-urn'>Hdt.
+ 5.66</bibl>). And the reverence of a hero whose name might be similar or identical to
+ the name of the place where s/he was worshipped is an ancient mode of thought that by the
+ classical period comes quite close to the concept of personification—the
+ representation of a thing, place, or abstraction as a person or by the human
+ form—so that in many cases it is impossible to determine whether the hero was
+ named for the place or <term >vice versa</term>. Either way, however, through the
+ democratic era, each eponymous hero came to be so closely identified with his tribe that
+ his figure served to represent that group of people in a political sense. In the <name  n='Agora Athens' type='site'>Agora</name>—the market and political center of
+ <placeName  key='Athens'>Athens</placeName>—the heroes were commemorated (and
+ worshipped?) together at the <ref  target='http://www.perseus.tufts.edu/cgi-bin/architindex?lookup=Athens,+Eponymous+Heroes'>Monument of the Eponymous Heroes</ref>, attested as early as <bibl  n='urn:cts:greekLit:tlg0019.tlg005:1183' type='cts-urn'>Aristoph. <title >Peace</title> 1183</bibl>, but
+ enshrined in its current form—east of the <ref  target='http://www.perseus.tufts.edu/cgi-bin/architindex?lookup=Athens,+Metroon'>Metroon</ref> on the west side of the <name  n='Agora Athens' type='site'>Agora</name>—in the <date  from='-0349' to='-0340'>340s</date> or <date  from='-0339' to='-0330'>330s</date>.</p>
+ </div>
+ <div  n='GroupMythology' type='Section' xml:id='GroupMythology'>
+ <head >The tribal heroes as a group: mythology</head>
+ <p >Just as politics and religion were inextricably entwined at <placeName  key='Athens'>Athens</placeName>, so were myth and history, which together served to support
+ political and/or religious institutions. So it is no surprise that in a funeral oration
+ <bibl  n='urn:cts:greekLit:tlg0014.tlg060:27' type='cts-urn'>Ps.-Dem. 60.27ff</bibl> chooses first to
+ praise the heroism of the deceased and then to connect some small fragment from the
+ mythology of each tribal hero with the courage and patriotism of the fallen warriors. Thus
+ the frequent appearance of the heroes—individually and particularly
+ together—in mythological contexts dating to the era of the Democracy (from <date  from='-0508' to='-0322'>508 down to 322</date>)—whether as tragic characters
+ on the stage or figures ornamenting vases may be considered politically motivated. Just as
+ personifications symbolize places, institutions, and abstractions, the roles of the
+ eponymous heroes in visual as well as the literary arts—whether or not in
+ mythological contexts—is as symbols of the tribes with which they shared their
+ names. Whether to patriotic tribesmen or to (dis)interested others, they advertise their
+ tribes. It is unsurprising, therefore, that the heroes are always shown in a good light in
+ Athenian visual arts.</p>
+ </div>
+ <div  n='Aiantis' type='Section' xml:id='Aiantis'>
+ <head >The individual heroes: <name  type='person'>Ajax</name></head>
+ <p ><name  type='person'>Ajax</name> (tribe: <name  type='tribe'>
+ <term >Aiantis</term>
+ </name>)</p>
+ <p >Mythology: <ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1990.11.0094'>
+ <figure  n='th_1990.11.0094.jpg' rend='right'/>
+ </ref><name  type='person'>Ajax</name>, son of <name  type='person'>Telamon</name> and of
+ (P)<name  type='person'>eriboia</name>, is attested as a hero from <placeName  key='Salamis'>Salamis</placeName> as early as <name  type='ancientAuthor'>Homer</name>
+ (<bibl  n='urn:cts:greekLit:tlg0012.tlg001:2.257' type='cts-urn'>Hom. <title >Il.</title> 2.257</bibl>,
+ <bibl  n='urn:cts:greekLit:tlg0012.tlg001:7.199' type='cts-urn'>7.199</bibl>; <bibl  n='urn:cts:greekLit:tlg0016.tlg001:5.66' type='cts-urn'>Hdt. 5.66</bibl>). His genealogy is further
+ discussed by archaic and classical authors (<bibl  n='urn:cts:greekLit:tlg0032.tlg014:1.9' type='cts-urn'>Xen. <title >Hunt.</title> 1.9</bibl>, <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.42.4' type='cts-urn'>Paus. 1.42.4</bibl>, and <bibl  n='urn:cts:greekLit:tlg0033.tlg004:6.45' type='cts-urn'>Pind.
+ <title >I.</title> 6.45</bibl>), as are his offspring (<bibl  n='urn:cts:greekLit:tlg0011.tlg003:574-575' type='cts-urn'>Soph. <title >Aj.</title> 574-575</bibl>;
+ <bibl  n='urn:cts:greekLit:tlg0007.tlg007:10' type='cts-urn'>Plut. <title >Sol.</title> 10</bibl>; <bibl  n='urn:cts:greekLit:tlg0016.tlg001:6.35.4' type='cts-urn'>Hdt. 6.35.4</bibl>), and his role as a
+ warrior at <placeName  key='Troy'>Troy</placeName> (<bibl  n='urn:cts:greekLit:tlg0012.tlg001:2.557' type='cts-urn'>Hom. <title >Il.</title> 2.557</bibl>; <bibl  n='urn:cts:greekLit:tlg0011.tlg003:861' type='cts-urn'>Soph. <title >Aj.</title> 861</bibl>; <bibl  n='urn:cts:greekLit:tlg0012.tlg002:11.543-11.560' type='cts-urn'>Hom. <title >Od.</title>
+ 11.543-60</bibl>; <bibl  n='urn:cts:greekLit:tlg0016.tlg001:8.64' type='cts-urn'>Hdt. 8.64</bibl>). </p>
+ <p >Worship: <name  type='person'>Ajax</name> was worshipped primarily at his home, <placeName  key='Salamis'>Salamis</placeName> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.35.3-1.35.4' type='cts-urn'>Paus. 1.35.3-4</bibl> notes a temple
+ with an ebony statue) but also at <placeName  key='Athens'>Athens</placeName> proper
+ (probably in the <name  n='Eurysakeion' type='site'>Eurysakeion</name> in <placeName  key='Melite'>Melite</placeName>, for which see <bibl  type='secondary'><title >Hesperia</title> 7 [1938] 18, 94 no. 15</bibl>; this may be the sanctuary
+ recorded in two inscriptions: <bibl >Agora I 286</bibl> and <bibl ><title >IG</title>
+ II<edition >2</edition>, 1008.87</bibl>). <name  type='ancientAuthor'>Pausanias</name>
+ also mentions a <placeName  key='Megara'>Megarian</placeName> cult of <name  type='god'>Athena Aiantis</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.42.4' type='cts-urn'>Paus.
+ 1.42.4</bibl>)</p>
+ </div>
+ <div  n='Aigeis' type='Section' xml:id='Aigeis'>
+ <head >The individual heroes: <name  type='person'>Aigeus</name></head>
+ <p ><name  type='person'>Aigeus</name> (tribe: <name  type='tribe'>
+ <term >Aigeis</term>
+ </name>)</p>
+ <p >Mythology: <ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1993.01.0664'>
+ <figure  n='1993.01.0664.jpeg' rend='right'/>
+ </ref><name  type='person'>Aigeus</name> was said to be the son of <name  type='person'>Pandion</name> or <name  type='person'>Skyrios</name> (<bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.15.5' type='cts-urn'>Apollod. 3.15.5</bibl>), or perhaps was
+ adopted by <name  type='person'>Pandion</name> (<bibl  n='urn:cts:greekLit:tlg0007.tlg001:13.1' type='cts-urn'>Plut. <title >Thes.</title> 13.1</bibl>) and,
+ despite several marriages (to <name  type='person'>Meta</name> [<name  type='person'>Melite</name>?] and <name  type='person'>Chalkiope</name>), remained childless until he
+ slept with <name  type='person'>Aithra</name> (who subsequently bore <name  type='person'>Theseus</name>) at <placeName  key='Troizen'>Troizen</placeName> (<bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.15.7' type='cts-urn'>Apollod. 3.15.7</bibl>; <bibl  n='urn:cts:greekLit:tlg0007.tlg001:3.5' type='cts-urn'>Plut. <title >Thes.</title> 3.5</bibl>). He later
+ married <name  type='person'>Medea</name> (<bibl  n='urn:cts:greekLit:tlg0006.tlg003:1384' type='cts-urn'>Eur. <title >Med.</title> 1384 ff.</bibl>; <bibl  n='Apollod. E. 1.5'>Apollod.
+ <title >Epit.</title> 1.5</bibl>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:2.3.8' type='cts-urn'>Paus.
+ 2.3.8</bibl>), then was reunited with his son, <name  type='person'>Theseus</name> (<bibl  n='urn:cts:greekLit:tlg0007.tlg001:12.2-6' type='cts-urn'>Plut. <title >Thes.</title> 12.2-6</bibl>),
+ and leapt to his death by jumping off the <name  n='Acropolis Athens' type='site'>Acropolis</name> when he saw black sails on <name  type='person'>Theseus</name>’ ship (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.22.5' type='cts-urn'>Paus.
+ 1.22.5</bibl>; <bibl  n='urn:cts:greekLit:tlg0060.tlg001:4.61.7' type='cts-urn'>Diod. 4.61.7</bibl>). </p>
+ <p >Worship: <name  type='person'>Aigeus</name> received a <title >heroon</title> (that is, a
+ hero-shrine) at <placeName  key='Athens'>Athens</placeName>, according to <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.22.5' type='cts-urn'>Paus. 1.22.5</bibl> (supported by <bibl  n='Harpocration s.v. Aigeion'>Harpocration <title >s.v.</title>
+ <soCalled >Aigeion</soCalled></bibl>); this may have been at the <name  n='Delphinion' type='site'>Delphinion</name>, where he was said to live (<bibl  n='urn:cts:greekLit:tlg0007.tlg001:12.6' type='cts-urn'>Plut. <title >Thes.</title> 12.6</bibl>), or the
+ <placeName  key='Sanctuary of Aphrodite Ourania'>Sanctuary of <name  type='god'>Aphrodite
+ Ourania</name></placeName>, which he founded on account of his childlessness,
+ according to <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.14.7' type='cts-urn'>Paus. 1.14.7</bibl>.</p>
+ <p >Tribal connection: The only tribal detail relevant to <name  type='person'>Aigeus</name>
+ that is known to have been recorded is that <name  type='person'>Aigeus</name>’
+ priest was chosen from among the tribesman of the <name  n='Aigeis' type='tribe'>Aigeis</name> tribe (<bibl ><title >IG</title> II<edition >2</edition>, 952</bibl>). </p>
+ </div>
+ <div  n='Akamantis' type='Section' xml:id='Akamantis'>
+ <head >The individual heroes: <name  type='person'>Akamas</name></head>
+ <p ><name  type='person'>Akamas</name> (tribe: <name  type='tribe'>
+ <term >Akamantis</term>
+ </name>)</p>
+ <p >Mythology: <ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1992.06.0620'>
+ <figure  n='1992.06.0620.jpeg' rend='right'/>
+ </ref><name  type='person'>Akamas</name> was a son of <name  type='person'>Theseus</name>,
+ and brother of <name  type='person'>Demophon</name> (<bibl ><title >Ilias Parva</title> fr.
+ 17 Kinkel</bibl>, <bibl ><title >Iliupersis</title> fr. 3 K</bibl>). His maternity was
+ disputed, however (his mother is said to be <name  type='person'>Phaidra</name> [<bibl  n='urn:cts:greekLit:tlg0060.tlg001:4.62' type='cts-urn'>Diod. 4.62</bibl>; <bibl  n='Apollod. E. 1.18'>Apollod. <title >Epit.</title> 1.18</bibl>], <name  type='person'>Ariadne</name>
+ [<bibl ><title >Schol.</title> Hom. <title >Od.</title> 11.321</bibl>], or <name  type='person'>Antiope</name>, by association). He is associated with colonisations in
+ the <placeName  key='Chersonnese'>Chersonnese</placeName> (with <name  type='person'>Antimachos</name>: <bibl  n='Sch. Thuc. 1.11'><term >Sch.</term> Thuc. 1.11</bibl>), at
+ <placeName  key='Cyprus'>Cyprus</placeName> (<bibl  n='urn:cts:greekLit:tlg0099.tlg001:6.83' type='cts-urn'>Strab. 6.83</bibl>; with <placeName  key='Phaleros'>Phaleros</placeName>: <bibl  n='Lycophron 494 ff.'>Lycophron 494
+ ff.</bibl>).</p>
+ <p >Worship: <name  type='person'>Akamas</name>’ tribal shrine was at <placeName  key='Kallithea'>Kallithea</placeName> (<placeName  key='Xypete'>Xypete</placeName> or
+ <placeName  key='Alopeke'>Alopeke</placeName>): see <bibl >Athens, <title >EM</title>
+ 13354/Athens</bibl>, <bibl ><title >EM</title> 13354a</bibl> (ca. <date  when='-0361'>361/0</date>). He was also worshipped with his siblings (children of <name  type='person'>Theseus</name>) at <placeName  key='Phaleron'>Phaleron</placeName> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.1.4' type='cts-urn'>Paus. 1.1.4</bibl>) and at <placeName  key='Dipylon'>Dipylon</placeName>, with <name  type='god'>Zeus Orkeios</name> and <name  type='god'>Hermes</name> (<bibl ><title >IG</title> II<edition >2</edition>,
+ 4983</bibl>).</p>
+ <p >Tribal connection: A fragmentary inscription, <bibl >Agora XV 128</bibl>
+ (<bibl ><title >IG</title> II<edition >2</edition>, 917</bibl>; published in <bibl  type='secondary'><title >Hesperia</title> 9 [1940] 116</bibl>), may record a tribal
+ priesthood.</p>
+ </div>
+ <div  n='Antiochis' type='Section' xml:id='Antiochis'>
+ <head >The individual heroes: <name  type='person'>Antiochos</name></head>
+ <p ><name  type='person'>Antiochos</name> (tribe: <name  type='tribe'>
+ <term >Antiochis</term>
+ </name>)</p>
+ <p >Mythology: <ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1990.14.0213'>
+ <figure  n='1990.14.0213.jpeg' rend='right'/>
+ </ref><name  type='person'>Antiochos</name> was a son of <name  type='god'>Herakles</name>
+ (<bibl  n='urn:cts:greekLit:tlg0014.tlg060:31' type='cts-urn'>Ps.-Dem. 60.31</bibl>; <bibl  n='Apollod. 1.8.3'>Apollod. 1.8.3</bibl>) and <name  type='person'>Meda</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.5.2' type='cts-urn'>Paus. 1.5.2</bibl>). The descendants of his
+ son <name  type='person'>Phylas</name> led the return of the <name  type='person'>Heracleidae</name> (according to <bibl  n='urn:cts:greekLit:tlg0525.tlg001:2.4.3' type='cts-urn'>Paus.
+ 2.4.3</bibl>; <bibl  n='Apollod. 1.8.3'>Apollod. 1.8.3</bibl>; <bibl  n='urn:cts:greekLit:tlg0060.tlg001:4.37' type='cts-urn'>Diod. 4.37</bibl>), and he had strong ties to
+ <placeName  key='Corinth'>Corinth</placeName> and <placeName  key='Boeotia'>Boeotia</placeName>. His only mythological connection with <placeName  key='Attica'>Attica</placeName> is attested in his appearance on vase imagery, particularly among
+ the boys sent to the <name  type='person'>Minotaur</name> (see the <name  type='other'>Francois Vase</name> [<ref  target='http://www.perseus.tufts.edu/cgi-bin/vaseindex?lookup=Florence+4209'>Florence
+ 4209</ref>]).</p>
+ <p >Worship: <name  type='person'>Antiochos</name>, son of <name  type='person'>Herakles</name>, was worshipped appropriately at the <name  n='Herakleion' type='site'>Herakleion</name> in <placeName  key='Kynosarges'>Kynosarges</placeName> (published by
+ <bibl  type='secondary'>C. Karouzos in <title >ArchDelt</title> 8 [1923] 82-102</bibl>);
+ some <date  from='-0399' to='-0300'>fourth century</date> tribal decrees found there refer
+ to a priest of <name  type='person'>Antiochos</name>); it is highly likely, however, that
+ <name  type='person'>Antiochos</name>’ cult came to <placeName  key='Kynosarges'>Kynosarges</placeName> after the <term  sortKey='Cleisthenes'>Cleisthenic</term> reforms
+ of <date  when='-0508'>508/7</date>, and his cult is not mentioned in <name  type='ancientAuthor'>Pausanias</name>’ discussion of the <name  n='Herakleion' type='site'>Herakleion</name> there (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.19.3' type='cts-urn'>Paus. 1.19.3</bibl>).</p>
+ <p >Tribal connection: A member of the <name  n='Antiochis' type='tribe'>Antiochis</name>
+ tribe held the priesthood of <name  type='person'>Antiochos</name> at <placeName  key='Kynosarges'>Kynosarges</placeName>, according to an inscription dated <date  when='-0169'>169/8</date> (see <ref  target='http://www.perseus.tufts.edu/cgi-bin/sourceindex?lookup=Dow+1937'>Dow 1937,
+ 71</ref>).</p>
+ </div>
+ <div  n='Erechtheis' type='Section' xml:id='Erechtheis'>
+ <head >The individual heroes: <name  type='person'>Erechtheus</name></head>
+ <p ><name  type='person'>Erechtheus</name> (tribe: <name  type='tribe'>
+ <term >Erechtheis</term>
+ </name>)</p>
+ <p >Mythology: <ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1992.04.0187'>
+ <figure  n='1992.04.0187.jpeg' rend='right'/>
+ </ref><name  type='person'>Erechtheus</name>, who is often confused (in ancient as in
+ modern discussions) with <name  type='person'>Erichthonios</name>, was born from the Earth
+ (<bibl  n='urn:cts:greekLit:tlg0012.tlg001:2.546-2.551' type='cts-urn'>Hom. <title >Il.</title>
+ 2.546-51</bibl>; <bibl  n='urn:cts:greekLit:tlg0016.tlg001:8.55' type='cts-urn'>Hdt. 8.55</bibl>; <bibl  n='urn:cts:greekLit:tlg0011.tlg003:202' type='cts-urn'>Soph. <title >Aj.</title> 202</bibl> [<name  type='person'>Erichthonios</name>]). His mother is sometimes reported to have been <name  type='person'>Nemesis</name> at <placeName  key='Rhamnous'>Rhamnous</placeName>, where he
+ was king, and where he founded her temple (<bibl  n='urn:cts:greekLit:tlg9010.tlg001:rho.33' type='cts-urn'>Suda <title >s.v.</title>
+ <soCalled >Ramnousia Nemesis</soCalled> (<term >rho</term>,33)</bibl>). The <name  type='person'>Parian Marble</name> (<bibl ><title >Marm. Par.</title> 28 ff.</bibl>)
+ records that he was the son of <name  type='person'>Pandion</name> and <name  type='person'>Zeuxippe</name>, and twin brother of <name  type='person'>Boutes</name>, who became
+ priest when <name  type='person'>Erechtheus</name> became King of <placeName  key='Athens'>Athens</placeName> (<bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.14.8' type='cts-urn'>Apollod.
+ 3.14.8</bibl>). His marriage to <name  type='person'>Praxithea</name> is recorded in
+ <bibl  n='Eur. Erech.'>Eur. <title >Erech.</title></bibl> His sons <name  type='person'>Kekrops</name> II, <name  type='person'>Pandoros</name>, and <name  type='person'>Metion</name>, are mentioned by <bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.15.1' type='cts-urn'>Apollod. 3.15.1</bibl>, and he had many daughters—<name  type='person'>Kreousa</name>, <name  type='person'>Prokris</name> (by whom he fathered <name  type='person'>Aglauros</name>, according to <bibl  n='urn:cts:latinLit:stoa0155.stoa002:253' type='cts-urn'>Hyg. <title >Fab.</title> 253</bibl>), <name  type='person'>Chthonia</name>, <name  type='person'>Oreithyia</name>, and <name  type='person'>Hyakinthides</name>. When he fought against <placeName  key='Eleusis'>Eleusis</placeName> (<bibl  n='Eur. Erech.'>Eur. <title >Erech.</title></bibl>; <bibl  n='urn:cts:greekLit:tlg0003.tlg001:2.15.1' type='cts-urn'>Thuc. 2.15.1</bibl>) he gained victory by
+ voluntarily sacrificing his daughters. His killing of <name  type='person'>Eumolpos</name>
+ (<bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.15.4' type='cts-urn'>Apollod. 3.15.4</bibl>) was avenged by
+ <name  type='god'>Poseidon</name>’s trident (<bibl  n='Eur. Erech. fr. 65.90'>Eur. <title >Erech.</title> fr. 65.90</bibl>, <bibl  n='Eur. Erech. fr. 92'>92</bibl>?;
+ <bibl  n='urn:cts:greekLit:tlg0006.tlg010:281-282' type='cts-urn'>Eur. <title >Ion</title>
+ 281-282</bibl>) or by <name  type='god'>Zeus</name>’ thunderbolt, at the request
+ of <name  type='god'>Poseidon</name> (<bibl  n='urn:cts:latinLit:stoa0155.stoa002:46' type='cts-urn'>Hyg.
+ <title >Fab.</title> 46</bibl>; see <bibl  type='secondary'>G.W. Elderkin,
+ <title >Hesperia</title> 10 [1941] 113</bibl>).</p>
+ <p >Worship: <name  type='person'>Erechtheus</name> was worshipped at the <name  n='Erechtheion' type='site'>Erechtheion</name>, which is thought to have been part of the <name  n='Temple of Athena Polias' type='site'>Temple of Athena Polias</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.26.5' type='cts-urn'>Paus. 1.26.5</bibl>) or perhaps within the
+ building known now as the <name  n='Erechtheion' type='site'>Erechtheion</name> (see <bibl  type='secondary'>K. Jeppesen, <title >The Theory of the Alternative <name  n='Erechtheion' type='site'>Erechtheion</name></title> [Aarhus 1987]</bibl>). Many sources
+ confirm that he was worshipped on the <name  n='Acropolis Athens' type='site'>Acropolis</name> (<bibl  n='urn:cts:greekLit:tlg0016.tlg001:8.55' type='cts-urn'>Hdt. 8.55</bibl>;
+ <bibl  n='Eur. Erech. fr. 65.90-4 Austin'>Eur. <title >Erech.</title> fr. 65.90-4
+ Austin</bibl>; <bibl ><title >IG</title> I<edition >2</edition>, 580</bibl>) and <bibl  n='urn:cts:greekLit:tlg0012.tlg001:2.546-2.551' type='cts-urn'>Hom. <title >Il.</title> 2.546-51</bibl>
+ attests that he was worshipped in the chief temple of <name  type='god'>Athena</name>.
+ (<bibl  n='urn:cts:greekLit:tlg0016.tlg001:5.82' type='cts-urn'>Hdt. 5.82</bibl> mentions also that he
+ was worshipped in close connection with <name  type='god'>Athena Polias</name>, perhaps at
+ the Panathenaia).</p>
+ <p ><name  type='person'>Erechtheus</name> received worshipped also at <placeName  key='Marathon'>Marathon</placeName> (according to <bibl  n='Nonnus 39.210-13'>Nonnus
+ 39.210-13</bibl> or at <placeName  key='Rhamnous'>Rhamnous</placeName>, in the <name  n='Temple of Nemesis' type='site'>Temple of Nemesis</name> (which he erected: <bibl  n='urn:cts:greekLit:tlg9010.tlg001:rho.33' type='cts-urn'>Suda <term >s.v.</term>
+ <soCalled >Ramnousia Nemesis</soCalled> (<term >rho</term>,33)</bibl>).</p>
+ <p ><name  type='person'>Erechtheus</name> may have shared worship with <name  type='god'>Poseidon</name> (according to <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.26.5' type='cts-urn'>Paus.
+ 1.26.5</bibl> the two shared an altar as dictated by an oracle); he is referred to as
+ <name  type='god'>Poseidon Erechtheus</name> in <bibl  n='Eur. Erech. fr. 65.93-94'>Eur.
+ <title >Erech.</title> fr. 65.93-94</bibl>, and <bibl ><title >IG</title>
+ I<edition >2</edition>, 580</bibl> (see <bibl  type='secondary'>C. Austin,
+ <title >Recherches de Papyrologie</title> 4 [1967] 59-60</bibl>), although
+ <bibl ><title >IG</title> II<edition >2</edition>, 1146</bibl> indicates that their cults
+ were separate). For <name  type='person'>Erechtheus</name>’ connection with the
+ <name  type='person'>Eteoboutadai</name> (family of priests) see <bibl  n='urn:cts:greekLit:tlg0007.tlg121:841b' type='cts-urn'>Plut. <title >Mor.</title> 841b</bibl>, <bibl  n='urn:cts:greekLit:tlg0007.tlg121:843a-843c' type='cts-urn'>843a-843c</bibl>; <bibl  n='Harpoc. s.v. Eteoboutadai'>Harpoc. <term >s.v.</term>
+ <soCalled >Eteoboutadai</soCalled></bibl>.</p>
+ </div>
+ <div  n='Hippothontis' type='Section' xml:id='Hippothontis'>
+ <head >The individual heroes: <name  type='person'>Hippothoon</name></head>
+ <p ><name  type='person'>Hippothoon</name> (tribe: <name  type='tribe'>
+ <term >Hippothontis</term>
+ </name>)</p>
+ <p >Mythology: <ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1990.14.0205'>
+ <figure  n='1990.14.0205.jpeg' rend='right'/>
+ </ref><name  type='person'>Hippothoon</name> was mentioned along with <name  type='person'>Eumolpos</name> and <name  type='person'>Dolichos</name> as an <placeName  key='Eleusis'>Eleusinian</placeName> hero in <bibl  n='Hes. fr. 227 M-W'>Hes. fr. 227 M-W</bibl> (and
+ is shown at the mission of <name  type='person'>Triptolemos</name> on vases). He was the
+ son of <name  type='god'>Poseidon</name> and <name  type='person'>Alope</name> (<bibl  n='Hellanicus FGrH 323a F 6'>Hellanicus <title >FGrH</title> 323a F 6</bibl>; <bibl  n='urn:cts:latinLit:stoa0155.stoa002:187' type='cts-urn'>Hyg. <title >Fab.</title> 187</bibl>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.39.3' type='cts-urn'>Paus. 1.39.3</bibl>); his birth and
+ mother’s subsequent death appeared in several tragedies (<bibl  n='Eur. Alope'>Eur. <title >Alope</title></bibl>; <bibl  n='Choirilos Alope'>Choirilos
+ <title >Alope</title></bibl>; cf. <bibl  n='urn:cts:greekLit:tlg0019.tlg006:559' type='cts-urn'>Aristoph. <title >Birds</title> 559</bibl>). According to <bibl  n='urn:cts:latinLit:stoa0155.stoa002:187' type='cts-urn'>Hyg. <title >Fab.</title> 187</bibl>, <name  type='person'>Hippothoon</name> received <name  type='person'>Theseus</name> into his
+ ancestral lands after he had killed <name  type='god'>Kerkyon</name>.</p>
+ <p >Worship: <name  type='person'>Hippothoon</name> was worshipped at <placeName  key='Eleusis'>Eleusis</placeName>, according to honorary decrees dating to the <date  from='-0399' to='-0300'>fourth century</date> (<bibl ><title >IG</title> II<edition >2</edition>, 1149,
+ 1153</bibl>), and a heroon of <name  type='person'>Hippothoon</name> is attested (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.38.4' type='cts-urn'>Paus. 1.38.4</bibl>; <bibl ><title >IG</title>
+ II<edition >2</edition>, 1163</bibl>).</p>
+ <p >Tribal connection: <name  type='person'>Hippothoon</name>’s priests were
+ connected with the <term  sortKey='Eleusinian_Mysteries'>Eleusinian Mysteries</term> (see,
+ e.g. <name  type='vase'>Palermo V 779</name> [<bibl  type='secondary'><title >ARV</title><edition >2</edition>, 496.5</bibl>]), and were dictated by heredity
+ rather than chosen from among the tribe (<bibl >Agora 15, 132 and 261</bibl>).</p>
+ </div>
+ <div  n='Kekropis' type='Section' xml:id='Kekropis'>
+ <head >The individual heroes: <name  type='person'>Kekrops</name></head>
+ <p ><name  type='person'>Kekrops</name> (tribe: <name  type='tribe'>
+ <term >Kekropis</term>
+ </name>)</p>
+ <p >Mythology: <ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1992.07.0316'>
+ <figure  n='1992.07.0316.jpeg' rend='right'/>
+ </ref><name  type='person'>Kekrops</name>, who was half man and half snake (<bibl  n='urn:cts:greekLit:tlg0019.tlg004:438' type='cts-urn'>Aristoph. <title >Wasps</title> 438</bibl>; <bibl  n='Eur. Ion. 1163-1164'>Eur. <title >Ion.</title> 1163-1164</bibl>; see also <name  type='vase'>Berlin F 2357</name>), has no recorded parentage; his autochthonous nature,
+ noted by <bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.14.1' type='cts-urn'>Apollod. 3.14.1</bibl>,
+ encouraged Athenian pride in their sense of belonging to <placeName  key='Attica'>Attica</placeName>. He was an early King of <placeName  key='Attica'>Attica</placeName>,
+ either the first (<bibl ><title >Marm. Par.</title> A 1</bibl>) or successor to <name  type='person'>Aktaios</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.2.6' type='cts-urn'>Paus.
+ 1.2.6</bibl>). With <name  type='person'>Agraulos</name>, daughter of <name  type='person'>Aktaios</name>, he had three daughters, <name  type='person'>Aglauros</name>, <name  type='person'>Pandrosos</name> and <name  type='person'>Herse</name> (<bibl  n='urn:cts:greekLit:tlg0006.tlg010:270-272' type='cts-urn'>Eur. Ion 270-272</bibl>; <bibl >Philochorus
+ <title >FGrH</title> 328 F 106</bibl>) and a son, <name  type='person'>Erysichthon</name> (<bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.14.1' type='cts-urn'>Apollod.
+ 3.14.1</bibl>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.2.6' type='cts-urn'>Paus. 1.2.6</bibl>).
+ <name  type='person'>Kekrops</name> is said to have introduced several cults, including
+ the cult of <name  type='god'>Kronos</name> and <name  type='god'>Rhea</name> to <placeName  key='Attica'>Attica</placeName> (<bibl >Philochorus <title >FGrH</title> 328 F 97</bibl>),
+ as well as non-animal sacrifice to <name  type='god'>Zeus Hypatos</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:8.2.3' type='cts-urn'>Paus. 8.2.3</bibl>). He is also credited with
+ introducing customs (<bibl  n='urn:cts:greekLit:tlg0019.tlg011:773' type='cts-urn'>Aristoph.
+ <title >Pl.</title> 773</bibl>) and writing (<bibl  n='urn:cts:latinLit:stoa0273.stoa002:11.14' type='cts-urn'>Tac. <title >Ann.</title> 11.14</bibl>), and
+ even presided over the contest between <name  type='god'>Athena</name> and <name  type='god'>Poseidon</name> for the patronage of <placeName  key='Athens'>Athens</placeName> (<bibl  n='urn:cts:greekLit:tlg0032.tlg002:35.10' type='cts-urn'>Xen. <title >Mem.</title> 35.10</bibl>; <bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.14.1' type='cts-urn'>Apollod. 3.14.1</bibl> suggests
+ otherwise).</p>
+ <p >Worship: <name  type='person'>Kekrops</name> was worshipped on the <name  n='Acropolis Athens' type='site'>Acropolis</name> (<bibl ><title >IG</title> II<edition >2</edition>,
+ 1156</bibl>), perhaps in a cave (<bibl  n='urn:cts:greekLit:tlg0006.tlg010:1400' type='cts-urn'>Eur.
+ <title >Ion</title> 1400</bibl>), a tomb (<bibl  n='Clem. Alex. Protr. 3.45'>Clem. Alex.
+ <title >Protr.</title> 3.45</bibl>), or a corner near the south wall of the <name  n='Erechtheion' type='site'>Erechtheion</name> (<bibl ><title >IG</title>
+ I<edition >3</edition>, 474.59-63</bibl>); here his priesthood was hereditary among the
+ <name  type='person'>Amynandridai</name> (<bibl ><title >IG</title> II<edition >2</edition>,
+ 2388</bibl>). By the time of <name  type='person'>Hadrian</name> times <name  type='person'>Kekrops</name> was also worshipped in the <name  n='Thriasian Plain' type='site'>Thriasian Plain</name>. <name  type='person'>Kekrops</name> may also
+ have received worship outside <placeName  key='Attica'>Attica</placeName>: in <placeName  key='Haliartos'>Haliartos</placeName> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:9.33.1' type='cts-urn'>Paus. 9.33.1</bibl>) and in <placeName  key='Megara'>Megara</placeName> (<bibl >Hsych.
+ <term >s.v.</term>
+ <soCalled >
+ <term >En d’Aithuia</term>
+ </soCalled></bibl>).</p>
+ </div>
+ 
+ <div  n='Leontis' type='Section' xml:id='Leontis'>
+ <head >The individual heroes: <name  type='person'>Leos</name></head>
+ <p ><name  type='person'>Leos</name> (tribe: <name  type='tribe'>
+ <term >Leontis</term>
+ </name>)</p>
+ <p >Mythology: Although another Attic hero (<name  type='person'>Leos the herald</name>; see
+ <bibl  n='urn:cts:greekLit:tlg0007.tlg001:13' type='cts-urn'>Plut. <title >Thes.</title> 13</bibl>) is
+ known by this name, <name  type='person'>Leos</name> the eponymous hero has no mythology
+ aside from a mention that he is the son of <name  type='person'>Orpheus</name> (<bibl >Bekk.
+ <title >Anecd.</title> 1.277.14</bibl>), the father of <name  type='person'>Kylanthos</name> (<bibl  n='urn:cts:greekLit:tlg9010.tlg001:lambda.262' type='cts-urn'>Suda, Phot.
+ <title >s.v.</title>
+ <soCalled >Leokorion</soCalled></bibl> [<bibl  n='urn:cts:greekLit:tlg9010.tlg001:lambda.262' type='cts-urn'>lambda,262</bibl>; see also <bibl  n='urn:cts:greekLit:tlg9010.tlg001:lambda.261' type='cts-urn'>lambda,261</bibl>), and three
+ daughters—<name  type='person'>Euboule</name>, <name  type='person'>Phrasithea</name> or <name  type='person'>Praxithea</name>, <name  type='person'>Theope</name> or <name  type='person'>Theopompe</name>—who sacrificed
+ themselves to save <placeName  key='Attica'>Attica</placeName> (<bibl  n='urn:cts:greekLit:tlg0014.tlg060:29' type='cts-urn'>Ps.-Dem. 60.29</bibl>; <bibl  n='urn:cts:greekLit:tlg0545.tlg002:12.28' type='cts-urn'>Ael. <title >VH</title> 12.28</bibl>; <bibl  n='urn:cts:greekLit:tlg0060.tlg001:17.15' type='cts-urn'>Diod. 17.15</bibl>).</p>
+ <p >Worship: <name  type='person'>Leos</name> was worshipped in the deme <name  n='Skambonidai' type='deme'>Skambonidai</name> (<bibl ><title >IG</title> I<edition >3</edition>,
+ 244.C4-5</bibl>) and perhaps in the <name  n='Agora Athens' type='site'>Agora</name> at
+ the <name  n='Leokoreion' type='site'>Leokoreion</name> (discussed by <bibl  type='secondary'>S. Rotroff, <title >Hesperia</title> 47 [1978] 206-207</bibl>).</p>
+ <p >Tribal connection: The priest of <name  type='person'>Leos</name> was chosen from among
+ members of the <name  n='Leontis' type='tribe'>Leontis</name> tribe in <date  when='-0212'>212/1</date> (<bibl ><title >IG</title> II<edition >2</edition>, 847.51-52 = Dow 1937,
+ 36</bibl>). Tribal documents have been found on the <name  n='Acropolis Athens' type='site'>Acropolis</name> (<bibl ><title >IG</title> II<edition >2</edition>,
+ 1742</bibl>) and at <placeName  key='Daphni'>Daphni</placeName> (<bibl  n='IG 2.2, 2818'><title >IG</title> II<edition >2</edition>, 2818</bibl>), as well as in the <name  n='Agora Athens' type='site'>Agora</name> (<bibl  n='Hesperia 9 [1941] 59-66 no. 8' type='secondary'><title >Hesperia</title> 9 [1941] 59-66 no.
+ 8</bibl>).</p>
+ </div>
+ <div  n='Oineis' type='Section' xml:id='Oineis'>
+ <head >The individual heroes: <name  type='person'>Oineus</name></head>
+ <p ><name  type='person'>Oineus</name> (tribe: <name  type='tribe'>
+ <term >Oineis</term>
+ </name>)</p>
+ <p >Mythology: <ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1990.14.0214'>
+ <figure  n='1990.14.0214.jpeg' rend='right'/>
+ </ref><name  type='person'>Oineus</name> was a son of <name  type='god'>Dionysos</name>
+ (<bibl  n='urn:cts:greekLit:tlg0014.tlg060:30' type='cts-urn'>Ps.-Dem. 60.30</bibl>) or an illegitimate
+ son of <name  type='person'>Pandion</name> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.5.2' type='cts-urn'>Paus. 1.5.2</bibl>).</p>
+ <p >Worship: No evidence attests <name  type='person'>Oineus</name>’ individual
+ worship or details of his tribal affiliation.</p>
+ </div>
+ <div  n='Pandionis' type='Section' xml:id='Pandionis'>
+ <head >The individual heroes: <name  type='person'>Pandion</name></head>
+ <p ><name  type='person'>Pandion</name> (tribe: <name  type='tribe'>
+ <term >Pandionis</term>
+ </name>)</p>
+ <p >Mythology: <ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1990.33.0050a'>
+ <figure  n='1990.33.0050a.jpeg' rend='right'/>
+ </ref>There were at least two Attic kings named <name  type='person'>Pandion</name>. The
+ first, successor and son of <name  type='person'>Erichthonios</name> (<bibl  n='Marm. Par. A 11'><title >Marm. Par.</title> A 11</bibl>) and <name  type='person'>Praxithea</name> (<bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.14.6' type='cts-urn'>Apollod.
+ 3.14.6</bibl>) was husband to <name  type='person'>Zeuxippe</name>, with whom he fathered
+ <name  type='person'>Erechtheus</name> (<bibl  n='Marm. Par. A 15'><title >Marm.
+ Par.</title> A 15</bibl>), <name  type='person'>Boutes</name>, <name  type='person'>Prokne</name>, and <name  type='person'>Philomela</name> (<bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.14.8' type='cts-urn'>Apollod. 3.14.8</bibl>; for <name  type='person'>Prokne</name> see <bibl  n='urn:cts:greekLit:tlg0020.tlg002:568' type='cts-urn'>Hes.
+ <title >WD.</title> 568</bibl>; <bibl  n='Sappho 86D'>Sappho 86D</bibl>; and <name  type='vase'>Palermo 12480</name> [<bibl  n='ARV2 1249.21'><title >ARV</title><edition >2</edition> 1249.21</bibl>]; for <name  type='person'>Philomela</name> see also <bibl  n='urn:cts:greekLit:tlg0020.tlg002:566' type='cts-urn'>Hes.
+ <title >WD</title> 566</bibl> [in <bibl  n='urn:cts:greekLit:tlg0012.tlg002:18.518' type='cts-urn'>Hom.
+ <title >Od.</title> 18.518</bibl> she is daughter of <name  type='person'>Pandareos</name>]). The second, son of <name  type='person'>Kekrops</name> II (<bibl  n='Marm. Par. A 17'><title >Marm. Par.</title> A 17</bibl>) and <name  type='person'>Metiadousa</name> (<bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.15.5' type='cts-urn'>Apollod.
+ 3.15.5</bibl>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:9.33.1' type='cts-urn'>Paus. 9.33.1</bibl>) was
+ expelled by <name  type='person'>Metion</name> to <placeName  key='Megara'>Megara</placeName>, where he married a daughter of King <name  type='person'>Pylas</name> (<bibl  n='urn:cts:greekLit:tlg0548.tlg001:3.15.5' type='cts-urn'>Apollod 3.15.5</bibl>;
+ <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.5.3' type='cts-urn'>Paus. 1.5.3</bibl>), and fathered <name  type='person'>Lykos</name>, <name  type='person'>Pallas</name>, <name  type='person'>Nisos</name>, and <name  type='person'>Aigeus</name> (<bibl  n='FGrH 329 F 2'><title >FGrH</title> 329 F 2</bibl>; <bibl  n='Soph. TGrF 4.24'>Soph.
+ <title >TGrF</title> 4.24</bibl>). <name  type='person'>Pandion</name> is elsewhere
+ mentioned as father of <name  type='person'>Teithras</name> (<bibl  n='Sch. Aristoph. Frogs 477'><term >Sch.</term> Aristoph. <title >Frogs</title>
+ 477</bibl>) and <name  type='person'>Kephalos</name> (<bibl  n='urn:cts:latinLit:stoa0155.stoa002:270' type='cts-urn'>Hyg. <title >Fab.</title> 270</bibl>) and is
+ credited with instituting the form of the <name  type='person'>Choes</name> (<bibl  n='Sch. Aristoph. Ach. 961'><term >Sch.</term> Aristoph. <title >Ach.</title> 961</bibl>;
+ <bibl  n='urn:cts:greekLit:tlg0009.tlg010:95' type='cts-urn'>Aristoph. <title >Kn.</title>
+ 95</bibl>).</p>
+ <p >Worship: <name  type='person'>Pandion</name> was worshipped by the <date  from='-0399' to='-0300'>fourth century</date> on the <name  n='Acropolis Athens' type='site'>Acropolis</name> (<bibl  n='IG 2.2, 1138'>IG II<edition >2</edition>, 1138</bibl>, <bibl  n='IG 2.2, 1144'>1144</bibl>, <bibl  n='IG 2.2, 1157'>1157</bibl>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.5.4' type='cts-urn'>Paus. 1.5.4</bibl>). <name  type='person'>Pandion</name> may have been worshipped at <placeName  key='Plotheia'>Plotheia</placeName>, where games in his honor (?), the <name  type='other'>Pandia</name>, were celebrated (<bibl  n='IG 1.3, 258.9'><title >IG</title>
+ I<edition >3</edition>, 258.9</bibl>); he probably also received a sacrifice as founder
+ of the <name  type='other'>Pandia</name> (<ref  target='http://www.perseus.tufts.edu/cgi-bin/sourceindex?lookup=Kearns+1989'>Kearns
+ 1989, 81</ref>). <name  type='person'>Pandion</name> received worship outside <placeName  key='Attica'>Attica</placeName>, at his tomb in the cave Sanctuary of <name  type='god'>Athena Aithyia</name> in <placeName  key='Megara'>Megara</placeName>. He also received a
+ monument in <placeName  key='Megara'>Megara</placeName> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.5.3' type='cts-urn'>Paus. 1.5.3</bibl>, <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.39.4' type='cts-urn'>1.39.4</bibl>, and <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.41.6' type='cts-urn'>Paus. 1.41.6</bibl>).</p>
+ <p ><name  type='person'>G.P. Stevens</name> has identified a Monument of <name  type='person'>Pandion</name> in the <name  n='Agora Athens' type='site'>Agora</name> (see the line
+ drawing above).</p>
+ </div>
+ <div  n='ImagesSculpture' type='Section' xml:id='ImagesSculpture'>
+ <head >Images of the heroes: sculpture</head>
+ <p >
+ <emph >Statues</emph>
+ </p>
+ <list  rend='numbered'>
+ <item ><name  type='sculpture'>Marathon victory group</name> by <name  type='person'>Pheidias</name> at <placeName  key='Delphi'>Delphi</placeName> (with <name  type='god'>Athena</name>, <name  type='god'>Apollo</name>, and <name  type='person'>Miltiades</name>), <date  from='-0460' to='-0450'>ca. 460-450</date>: <bibl  n='urn:cts:greekLit:tlg0525.tlg001:10.10.1' type='cts-urn'>Paus. 10.10.1</bibl> (<name  type='person'>Erechtheus</name>, <name  type='person'>Kekrops</name>, <name  type='person'>Pandion</name>, <name  type='person'>Leos</name>, <name  type='person'>Antiochos</name>, <name  type='person'>Aigeus</name>, and <name  type='person'>Akamas</name>).</item>
+ <item >Battle group of <name  type='person'>Erechtheus</name> and <name  type='person'>Eumolpos</name>, by <name  type='person'>Myron</name>, <date  from='-0460' to='-0450'>ca. 460-450</date>, on the <name  n='Akropolis Athens' type='site'>Akropolis</name> at
+ <placeName  key='Athens'>Athens</placeName>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.27.3' type='cts-urn'>Paus. 1.27.3</bibl>; <bibl  n='urn:cts:greekLit:tlg0525.tlg001:9.30.1.' type='cts-urn'>Paus. 9.30.1.</bibl></item>
+ <item ><name  type='sculpture'>Type of the Munich King</name> (original lost): a nude,
+ mature male figure, possibly by <name  type='person'>Myron</name>, <date  from='-0450' to='-0440'>ca. 450-440</date>.</item>
+ <item >Bronze group of the Trojan horse, by <name  type='person'>Stronglion</name>, <date  when='-0425'>ca. 425</date>, dedicated by <name  type='person'>Chairedemos</name>, son
+ of <name  type='person'>Eueangelos</name> of <name  n='Koile' type='deme'>Koile</name>, on
+ the <name  n='Acropolis Athens' type='site'>Acropolis</name> at <placeName  key='Athens'>Athens</placeName>: <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.23.8' type='cts-urn'>Paus.
+ 1.23.8</bibl>; <bibl  n='urn:cts:greekLit:tlg0019.tlg006:1128-1130' type='cts-urn'>Aristoph.
+ <title >Birds</title> 1128-1130</bibl>; <bibl  n='Sch. Hsch. Suid. s.v. dourios ippos'>Sch. Hsch. Suid. <term >s.v.</term>
+ <soCalled >dourios ippos</soCalled></bibl>. For the base see <bibl  n='IG 1.2, 535'>IG
+ I<edition >2</edition>, 535</bibl>: <bibl  type='secondary'>Stevens 1936, fig.
+ 13</bibl>; <bibl  type='secondary'>Raubitschek 1949, 208 f., no. 176</bibl>.</item>
+ <item >
+ <p >Monument of the Eponymous Heroes: Paus. 1.5.2.</p>
+ <p ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1990.20.0509'>
+ <figure  n='th_1990.20.0509.jpg' rend='right'/>
+ </ref>The earliest <name  type='sculpture'>Monument of the Eponymous Heroes</name>
+ attested by physical evidence may be dated to <date  when='-0330'>ca. 330</date>. At
+ this time it constituted a long limestone statue base which carried ten bronze
+ statues—one of each of the heroes, and tripods at each end (probably in
+ commemoration of the fact that the Delphic oracle was consulted for the choice of the
+ heroes). The entire base was surrounded by a barrier of fence posts (some marble and
+ limestone posts remain), with wooden railings. This monument served as a public notice
+ board for tribal affairs, general notices for the <term  sortKey='Assembly'>Assembly</term>, and the heroes may also have received worship there.</p>
+ </item>
+ <item >Statue of <name  type='person'>Pandion</name> on the <name  n='Akropolis Athens' type='site'>Akropolis</name> at <placeName  key='Athens'>Athens</placeName>:
+ <bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.5.4' type='cts-urn'>Paus. 1.5.4</bibl>.</item>
+ <item >Statue plinth with the name <name  type='person'>Pandion</name> inscribed, in the
+ <name  n='Capitoline' type='site'>Capitoline</name>, <placeName  key='Rome'>Rome</placeName>, from Orto di Panisperna (see <bibl  type='secondary'><title >BullCom</title> 16 [1888] 488</bibl>).</item>
+ <item >Statue of <name  type='person'>Hippothoon</name> in the <name  n='Agora Athens' type='site'>Agora</name> at <placeName  key='Athens'>Athens</placeName> (<bibl  n='urn:cts:greekLit:tlg0525.tlg001:1.39.3' type='cts-urn'>Paus. 1.39.3</bibl>).</item>
+ </list>
+ <p >
+ <emph >Document Reliefs</emph>
+ </p>
+ <list  rend='numbered'>
+ <item ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1992.04.0187'>
+ <figure  n='1992.04.0187.jpeg' rend='right'/>
+ </ref><name  type='sculpture'>Louvre Ma 831</name>: <soCalled >The Choiseul
+ Marble,</soCalled> a relief on an account of the Treasurers of <name  type='god'>Athena</name>, <date  when='-0408'>409/8</date>, with <name  type='person'>Erechtheus</name>.</item>
+ <item ><name  type='sculpture'>Athens NM 1467</name>: relief on an alliance decree, <date  from='-0375' to='-0350'>ca. 375-350</date>, perhaps showing <name  type='person'>Kekrops</name>.</item>
+ <item ><name  type='sculpture'>Athens, NM 2756</name>: relief from a document, <date  from='-0400' to='-0350'>ca. 400-350</date>, honoring a member of a phyle.</item>
+ <item ><name  type='sculpture'>Athens, NM 3492</name>: relief from a decree, <date  from='-0350' to='-0325'>ca. 350-325</date>, honoring a priest, from the <name  n='Herakleion Kynosarges' type='site'>Herakleion</name> at <placeName  key='Kynosarges'>Kynosarges</placeName>.</item>
+ <item ><name  type='sculpture'>Berlin K 113</name>: relief from a document, <date  from='-0350' to='-0300'>ca. 350-300</date>, from <placeName  key='Athens'>Athens</placeName>, honoring a man.</item>
+ <item ><name  type='sculpture'>Athens, NM 2947</name>: relief from a document, <date  from='-0350' to='-0300'>ca. 350-300</date>, honoring an ephebe.</item>
+ <item ><name  type='sculpture'>Athens, NM 3491</name>: relief from a decree, <date  from='-0330' to='-0320'>ca. 330-320</date>, honoring <name  type='person'>Prokleides</name>, from the <name  n='Herakleion Kynosarges' type='site'>Herakleion</name> at <placeName  key='Kynosarges'>Kynosarges</placeName></item>
+ <item ><name  type='sculpture'>Athens, NM 2911</name>: relief from a document, <date  when='-0323'>323/22</date> honoring a man.</item>
+ </list>
+ <p >
+ <emph >Votive Reliefs</emph>
+ </p>
+ <list  rend='numbered'>
+ <item ><name  type='sculpture'>Athens, NM 2995</name>: a relief from a votive (or perhaps a
+ decree), <date  from='-0400' to='-0375'>ca. 400-375</date>.</item>
+ <item ><name  type='sculpture'>Athens, NM 1478</name>: relief showing <name  type='person'>Oineus</name> (?) with worshippers, <date  from='-0350' to='-0325'>ca.
+ 350-325</date>.</item>
+ </list>
+ <p >
+ <emph >Architectural sculpture</emph>
+ </p>
+ <list  rend='numbered'>
+ <item >The <name  type='sculpture'>North Metopes of the Parthenon</name>, <date  from='-0447' to='-0442'>447-442</date> (<name  type='person'>Akamas</name>
+ <term >et al.</term> at the <title >Iliupersis</title> [Sack of <placeName  key='Troy'>Troy</placeName>]).</item>
+ <item >The east side of the <name  type='sculpture'>Parthenon Frieze</name>, <date  from='-0442' to='-0438'>442-438</date>
+ <name  type='sculpture'>Parthenon West Pediment</name>, <date  from='-0438' to='-0432'>438-432</date> (<name  type='person'>Kekrops</name> and possibly <name  type='person'>Erechtheus</name> at the contest between <name  type='god'>Athena</name> and <name  type='god'>Poseidon</name>).</item>
+ </list>
+ </div>
+ <div  n='ImagesPaintings' type='Section' xml:id='ImagesPaintings'>
+ <head >Images of the heroes: paintings</head>
+ <p >
+ <emph >Wall Paintings</emph>
+ </p>
+ <list  rend='plain'>
+ <item >(<term >
+ <name  type='other'>Iliupersis</name>
+ </term> [Sack of <placeName  key='Troy'>Troy</placeName>]) by <name  type='artist'>Polygnotos</name> in the <name  n='Lesche Delphi' type='site'>Lesche</name> of the
+ <placeName  key='Knidos'>Knidians</placeName>, <placeName  key='Delphi'>Delphi</placeName>: <bibl  n='urn:cts:greekLit:tlg0525.tlg001:10.26.2' type='cts-urn'>Paus.
+ 10.26.2</bibl> (<name  type='person'>Akamas</name> and <name  type='person'>Ajax</name>)
+ (note also <name  type='person'>Ajax</name> in the <name  n='Nekyia Delphi' type='site'>Nekyia</name>: <bibl  n='urn:cts:greekLit:tlg0525.tlg001:10.31.1' type='cts-urn'>Paus.
+ 10.31.1</bibl>) </item>
+ </list>
+ <p >
+ <emph >Vase Paintings</emph>
+ </p>
+ <list  rend='numbered'>
+ <item ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1993.01.0664'>
+ <figure  n='1993.01.0664.jpeg' rend='right'/>
+ </ref><name  type='person'>Aigeus</name>: <list  rend='plain'>
+ <item ><name  type='person'>Aigeus</name> at the <placeName  key='Delphic'>Delphi</placeName> oracle: <list  rend='numbered'>
+ <item ><name  type='vase'>Berlin F 2538</name>: tondo of the <name  type='artist'>Kodros Painter</name>’s kylix, <date  from='-0440' to='-0430'>ca.
+ 440-430</date> (<name  type='person'>Aigeus</name> labelled; shown
+ here).</item>
+ </list></item>
+ <item ><name  type='person'>Aigeus</name> greets <name  type='person'>Theseus</name>:
+ <list  rend='numbered'>
+ <item ><name  type='vase'>Louvre G 195</name>: Red-figure skyphos fragments by the
+ <name  type='artist'>Brygos Painter</name>, <date  from='-0480' to='-0470'>ca.
+ 480-470</date>.</item>
+ <item ><name  type='vase'>Paris, Bib. Nat. 571</name>: Red-figure cup fragments in
+ the manner of the <name  type='artist'>Brygos Painter</name>, related to the
+ <name  type='artist'>Castelgiorgio Painter</name>, <date  from='-0480' to='-0470'>ca. 480-470</date>.</item>
+ <item ><name  type='vase'>London E 264</name>: Red-figure squat amphora by the <name  type='artist'>Oinanthe Painter</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>St. Petersburg St. 1692</name>: Red-figure stamnos by
+ <name  type='artist'>Hermonax</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>Fitzwilliam ?</name> [<bibl  type='secondary'><title >CVA</title> 2/1936, pl. 12.1a</bibl>]: Red-figure pelike, <date  from='-0440' to='-0430'>ca. 440-430</date>.</item>
+ <item ><name  type='vase'>St. Petersburg St. 1599</name>: Red-figure neck amphora by
+ the <name  type='artist'>Schuvalov Painter</name>, <date  from='-0430' to='-0420'>ca. 430-420</date>.</item>
+ </list></item>
+ <item ><name  type='person'>Aigeus</name> at the departure of <name  type='person'>Theseus</name> (and <name  type='person'>Ajax</name>): <list  rend='numbered'>
+ <item ><name  type='vase'>Bologna PU 273</name>: Red-figure cup by the <name  type='artist'>Kodros Painter</name>, <date  from='-0440' to='-0430'>ca.
+ 440-430</date> (<name  type='person'>Aigeus</name>, <name  type='person'>Ajax</name>, and <name  type='person'>Theseus</name> labelled).</item>
+ <item ><name  type='vase'>Athens, NM 1185</name>: Red-figure pelike by <name  type='artist'>Aison</name>, <date  from='-0420' to='-0410'>ca. 420-410</date>
+ (<name  type='person'>Aigeus</name> labelled).</item>
+ </list></item>
+ <item >Other scenes of <name  type='person'>Aigeus</name> with <name  type='person'>Theseus</name>: <list  rend='numbered'>
+ <item >Once Rome art market: Red-figure stamnos by the <name  type='artist'>Tyzkiewicz Painter</name>, <date  from='-0480' to='-0470'>ca.
+ 480-470</date>.</item>
+ <item ><name  type='vase'>Bari 1396</name>: Red-figure column krater by the <name  type='artist'>Painter of the Yale Oinochoe</name>, <date  from='-0460' to='-0450'>ca. 460-450</date>.</item>
+ <item ><name  type='vase'>Bologna 364</name>: Red-figure column krater, <date  from='-0440' to='-0430'>ca. 440-430</date>.</item>
+ <item ><name  type='vase'>New York 56.171.48</name>: Red-figure calyx krater by the
+ <name  type='artist'>Group of Polygnotos</name>, <date  from='-0440' to='-0430'>ca. 440-430</date>.</item>
+ <item ><name  type='vase'>Bologna 245</name>: Red-figure column krater by the <name  type='artist'>Painter of the Louvre Centauromachy</name>, <date  from='-0440' to='-0430'>ca. 440-430</date>.</item>
+ <item ><name  type='vase'>Athens, NM 13026</name>: Red-figure pelike by the <name  type='artist'>Painter of the Louvre Centauromachy</name>, <date  from='-0440' to='-0430'>ca. 440-430</date>.</item>
+ <item ><name  type='vase'>Madrid 32.679/a</name>: Red-figure bell krater by the
+ <name  type='artist'>Painter of Munich 2335</name>, <date  from='-0430' to='-0420'>ca. 430-420</date>.</item>
+ <item ><name  type='vase'>Florence 80</name>: Red-figure skyphos fragments, <date  from='-0430' to='-0420'>ca. 430-420</date>.</item>
+ <item ><name  type='vase'>Adolphseck 78</name>: Red-figure calyx krater by the <name  type='artist'>Kekrops Painter</name>, <date  from='-0410' to='-0400'>ca.
+ 410-400</date>.</item>
+ <item ><name  type='vase'>St. Petersburg B 2680</name>: Red-figure bell krater near
+ the <name  type='artist'>Pronomos Painter</name>, <date  from='-0400' to='-0390'>ca. 400-390</date>.</item>
+ <item ><name  type='vase'>Athens, NM 1434</name>: Red-figure bell krater, <date  from='-0390' to='-0380'>ca. 390-380</date>.</item>
+ <item ><name  type='vase'>Ferrara, Spina 238c</name>: Red-figure skyphos, <date  from='-0390' to='-0380'>ca. 390-380</date>.</item>
+ <item ><name  type='vase'>Ancona ?</name> [<bibl  type='secondary'><title >ARV</title><edition >2</edition> 1453.14</bibl>]: Red-figure bell
+ krater by the <name  type='artist'>Filottrano Painter</name>, <date  from='-0350' to='-0340'>ca. 350-340</date>.</item>
+ <item ><name  type='vase'>Thessaloniki 34.359</name>: Red-figure bell krater by the
+ <name  type='artist'>Filottrano Painter</name>, <date  from='-0350' to='-0340'>ca. 350-340</date>.</item>
+ <item ><name  type='vase'>Louvre G 526</name>: Red-figure bell krater by the <name  type='artist'>Filottrano Painter</name>, <date  from='-0350' to='-0340'>ca.
+ 350-340</date>.</item>
+ </list></item>
+ </list></item>
+ <item ><name  type='person'>Ajax</name>: <list  rend='plain'>
+ <item >The departure of <name  type='person'>Ajax</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>London E 16</name>: Red-figure cup from <placeName  key='Vulci'>Vulci</placeName>, by <name  type='artist'>Oltos</name>, <date  from='-0510' to='-0500'>ca. 510-500</date>.</item>
+ </list></item>
+ <item ><name  type='person'>Ajax</name> with an <name  type='person'>Aphlaston</name>:
+ <list  rend='numbered'>
+ <item ><name  type='vase'>Athens, Acropolis 516</name>: Red-figure skyphos fragment,
+ <date  from='-0480' to='-0470'>ca. 480-470</date>.</item>
+ </list></item>
+ </list></item>
+ <item ><name  type='person'>Akamas</name>: <list  rend='plain'>
+ <item ><name  type='person'>Akamas</name> and <name  type='person'>Damophon</name> as
+ children?: <list  rend='numbered'>
+ <item ><name  type='vase'>Vienna 1773</name>: Red-figure skyphos from <placeName  key='Orvietto'>Orvietto</placeName>, attributed to the <name  type='artist'>Lewis Painter</name>, <date  from='-0480' to='-0470'>ca.
+ 480-470</date>.</item>
+ </list></item>
+ <item ><name  type='person'>Akamas</name> founding a city: <list  rend='numbered'>
+ <item >Japanese private collection [<bibl  type='secondary'>Para, 380.5</bibl>]:
+ Red-figure pelike by the <name  type='artist'>Painter of the Birth of
+ Athena</name>, <date  from='-0450' to='-0440'>ca. 450-440</date>, with <name  type='person'>Damophon</name> and <name  type='person'>Akamas</name>
+ labelled.</item>
+ </list></item>
+ <item ><name  type='person'>Akamas</name> at an Amazonomachy: <list  rend='numbered'>
+ <item ><name  type='vase'>London 1899.7-21.5</name>: Dinos from <placeName  key='Agrigento'>Agrigento</placeName>, attributed to the <name  type='artist'>Group of Polygnotos</name>, <date  from='-0440' to='-0430'>ca.
+ 440-430</date>.</item>
+ </list></item>
+ <item ><name  type='person'>Akamas</name> with the <name  type='person'>Herakleidai</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>Berlin 1969.6</name>: Red-figure Lucanian column krater,
+ <date  from='-0420' to='-0410'>ca. 420-410</date>.</item>
+ </list></item>
+ </list></item>
+ <item ><name  type='person'>Erechtheus</name>: <list  rend='plain'>
+ <item ><name  type='person'>Erechtheus</name> at the rape of <name  type='person'>Oreithyia</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>Berlin 2165</name>: Red-figure pointed amphora by the
+ <name  type='artist'>Oreithyia Painter</name>, <date  from='-0480' to='-0470'>ca. 480-470</date>.</item>
+ <item ><name  type='vase'>London E 512</name>: Red-figure oinochoe by the <name  type='artist'>Pan Painter</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>St. Petersburg B 805</name>: Red-figure stamnos by <name  type='artist'>Hermonax</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>Villa Giulia ?</name>: Red-figure pelike by <name  type='artist'>Hermonax</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>Athens, Agora P 8959</name>: Red-figure pelike fragments
+ by <name  type='artist'>Hermonax</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item ><name  type='vase'>Bologna 273</name>: Red-figure volute krater by the <name  type='artist'>Boreas Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item ><name  type='vase'>Munich 2374</name>: Red-figure calyx krater by the <name  type='artist'>Boreas Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item >Munich ? [<bibl  type='secondary'><title >ARV</title><edition >2</edition>
+ 1672</bibl>]: Red-figure cup near the early <name  type='artist'>Sabouroff
+ Painter</name>, <date  from='-0460' to='-0450'>ca. 460-450</date>.</item>
+ <item ><name  type='vase'>Wuerzburg L 511</name>: Red-figure pelike by the <name  type='artist'>Niobid Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item ><name  type='vase'>Bowdoin 08.3</name>: Red-figure hydria by the <name  type='artist'>Niobid Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item >Once Lucerne art market: Red-figure hydria by the <name  type='artist'>Niobid
+ Painter</name>, <date  from='-0460' to='-0450'>ca. 460-450</date>.</item>
+ <item ><name  type='vase'>Boston 1972.850</name>: Red-figure calyx krater by the
+ <name  type='artist'>Niobid Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item ><name  type='vase'>London, V&amp;A 663-1864</name>: Red-figure hydria,
+ <date  from='-0450' to='-0440'>ca. 450-440</date>.</item>
+ <item >Heidelberg ? [<bibl  type='secondary'>Brommer,
+ <title >VL</title><edition >3</edition> 262 B 7</bibl>]: Red-figure fragment,
+ <date  from='-0450' to='-0440'>ca. 450-440</date>.</item>
+ <item >Coll. Ludwig: Red-figure Stamnos by the <name  type='artist'>Christie
+ Painter</name>, <date  from='-0440' to='-0430'>ca. 440-430</date>.</item>
+ <item ><name  type='vase'>Frankfurt VF 406</name>: Red-figure cup by the <name  type='artist'>Euaion Painter</name>, <date  from='-0440' to='-0430'>ca.
+ 440-430</date>.</item>
+ <item ><name  type='vase'>Athens, NM 1586</name>: Red-figure pyxis by the <name  type='artist'>Euaion Painter</name>, <date  from='-0440' to='-0430'>ca.
+ 440-430</date> .</item>
+ </list></item>
+ <item ><name  type='person'>Erechtheus</name> and <name  type='person'>Kekrops</name> at
+ the rape of <name  type='person'>Oreithyia</name> by <name  type='god'>Boreas</name>:
+ <list  rend='numbered'>
+ <item ><name  type='vase'>Munich 2345</name>: Name vase (red-figure pointed amphora)
+ of the <name  type='artist'>Oreithyia Painter</name>, <date  from='-0480' to='-0470'>ca. 480-470</date> (<name  type='person'>Erechtheus</name> and <name  type='person'>Kekrops</name> labelled).</item>
+ <item ><name  type='vase'>Warsaw 142359</name>: Red-figure stamnos in the manner of
+ the <name  type='artist'>Painter of the Yale Oinochoe</name>, <date  from='-0470' to='-0460'>ca. 470-460</date>.</item>
+ <item ><name  type='vase'>Bologna 201</name>: Red-figure column krater near the
+ <name  type='artist'>Boreas Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item ><name  type='vase'>Ferrara T 11 C VP</name>: Red-figure volute krater by the
+ <name  type='artist'>Niobid Painter</name>, <date  from='-0450' to='-0440'>ca.
+ 450-440</date> .</item>
+ </list></item>
+ <item ><name  type='person'>Erechtheus</name> at the death of <name  type='person'>Prokris</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>London E 477</name>: Red-figure column krater by the <name  type='artist'>Hephaistos Painter</name>, <date  from='-0440' to='-0430'>ca.
+ 440-430</date> .</item>
+ </list></item>
+ </list></item>
+ <item >The birth of <name  type='person'>Erichthonios</name>: <list  rend='plain'>
+ <item ><name  type='person'>Kekrops</name> at the birth of <name  type='person'>Erichthonios</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>Palermo 769</name>: White-ground black-figure lekythos by
+ the <name  type='artist'>Ampurias Painter</name>, <date  from='-0500' to='-0490'>ca. 500-490</date>.</item>
+ <item >Kiel [<bibl  n='ARV2 1201.4'><title >ARV</title><edition >2</edition>
+ 1201.4</bibl>]: Red-figure lekythos by the <name  type='artist'>Selinus
+ Painter</name>, <date  from='-0430' to='-0420'>ca. 430-420</date>.</item>
+ <item >Prague [<bibl  n='Brommer, VL3 265 B 9' type='secondary'>Brommer,
+ <title >VL</title><edition >3</edition> 265 B 9</bibl>]: Red-figure calyx
+ krater fragment, <date  from='-0420' to='-0410'>ca. 420-410</date>.</item>
+ <item >Palermo ?: Red-figure calyx krater near the <name  type='artist'>Talos
+ Painter</name>, <date  from='-0410' to='-0400'>ca. 410-400</date>.</item>
+ <item ><name  type='vase'>Athens, NM 1192</name>: Late red-figure loutrophoros
+ fragment, <date  from='-0410' to='-0400'>ca. 410-400</date> .</item>
+ </list></item>
+ <item ><name  type='person'>Aigeus</name> and <name  type='person'>Kekrops</name> at the
+ birth of <name  type='person'>Erichthonios</name>: <list  rend='numbered'>
+ <item ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1992.07.0316'>
+ <figure  n='1992.07.0316.jpeg' rend='right'/>
+ </ref><name  type='vase'>Berlin F 2537</name>: Red-figure cup by the <name  type='artist'>Kodros Painter</name>, <date  from='-0440' to='-0430'>ca.
+ 440-430</date>.</item>
+ </list></item>
+ </list></item>
+ <item ><name  type='person'>Hippothoon</name>: <list  rend='plain'>
+ <item ><name  type='person'>Hippothoon</name> as a child: <list  rend='numbered'>
+ <item ><name  type='vase'>Ferrara T 579</name>: Red-figure volute krater from
+ <placeName  key='Spina'>Spina</placeName>, attributed to the <name  type='artist'>Painter of Bologna 279</name>, <date  from='-0450' to='-0440'>ca.
+ 450-440</date>.</item>
+ <item ><name  type='vase'>Tuebingen 1610</name>: Red-figure Kersch jug, <date  from='-0330' to='-0320'>ca. 330-320</date> .</item>
+ </list></item>
+ <item ><name  type='person'>Hippothoon</name> with <placeName  key='Eleusinis'>Eleusinian</placeName> deities: <list  rend='numbered'>
+ <item ><name  type='vase'>Louvre G 371</name>: Red-figure stamnos from <placeName  key='Etruria'>Etruria</placeName>, by to the <name  type='artist'>Berlin
+ Painter</name>, <date  from='-0470' to='-0460'>ca. 470-460</date>.</item>
+ <item ><name  type='vase'>Palermo V 779</name>: Red-figure bell krater from
+ <placeName  key='Agrigento'>Agrigento</placeName>, by the <name  type='artist'>Oreithyia Painter</name>, <date  from='-0470' to='-0460'>ca. 470-460</date>,
+ with Hippothoon labelled.</item>
+ <item ><name  type='vase'>Copenhagen 3612</name>: Red-figure stamnos by the <name  type='artist'>Deepdene Painter</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>London E 469</name>: Red-figure volute krater from
+ <placeName  key='Altamura'>Altamura</placeName>, by the <name  type='artist'>Altamura Painter</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>St. Petersburg 639</name>: Red-figure volute krater by the
+ <name  type='artist'>Altamura Painter</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>Ferrara T 313</name>: Red-figure calyx krater from
+ <placeName  key='Spina'>Spina</placeName>, by the <name  type='artist'>Niobid
+ Painter</name>, <date  from='-0450' to='-0440'>ca. 450-440</date>.</item>
+ <item >Reggio ? [<bibl  n='ARV 421.32'><title >ARV</title> 421.32</bibl>]: Red-figure
+ volute krater from <placeName  key='Lokri'>Lokri</placeName>, by the <name  type='artist'>Niobid Painter</name>, <date  from='-0450' to='-0440'>ca.
+ 450-440</date>.</item>
+ <item ><name  type='vase'>Louvre G 343</name>: Red-figure volute krater by the <name  type='artist'>Niobid Painter</name>, <date  from='-0450' to='-0440'>ca.
+ 450-440</date>.</item>
+ <item ><name  type='vase'>Munich 2685</name>: Red-figure cup from <placeName  key='Vulci'>Vulci</placeName>, by the <name  type='artist'>Sabouroff
+ Painter</name>, <date  from='-0450' to='-0440'>ca. 450-440</date> .</item>
+ </list></item>
+ </list></item>
+ <item ><name  type='person'>Kekrops</name>: <list  rend='plain'>
+ <item ><name  type='person'>Kekrops</name> with the <name  type='person'>Kekropids</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>Los Angeles A 5933.50.34</name>: Red-figure calyx krater
+ by the <name  type='artist'>Mykonos Painter</name>, <date  from='-0470' to='-0460'>ca. 470-460</date>.</item>
+ <item ><name  type='vase'>Los Angeles A 5933.50.12</name>: Red-figure column krater
+ by the <name  type='artist'>Syracuse Painter</name>, <date  from='-0470' to='-0460'>ca. 470-460</date>.</item>
+ <item ><name  type='vase'>Naples 3045</name>: Red-figure pelike by the <name  type='artist'>Leningrad Painter</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>London E 788</name>: Red-figure rhyton by the <name  type='artist'>Sotades Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date> .</item>
+ </list></item>
+ <item ><name  type='person'>Kekrops</name> and <name  type='person'>Buzyges</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>Harvard 60.345</name>: Red-figure bell krater by the <name  type='artist'>Hephaistos Painter</name>, <date  from='-0430' to='-0420'>ca.
+ 430-420</date> .</item>
+ </list></item>
+ <item ><name  type='person'>Kekrops</name> at the contest between <name  type='god'>Athena</name> and <name  type='god'>Poseidon</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>Athens, NM 594</name>: Red-figure pyxis lid fragments by
+ the <name  type='artist'>Mikion Painter</name>, <date  from='-0400' to='-0390'>ca.
+ 400-390</date>.</item>
+ <item ><name  type='vase'>St. Petersburg KAB 6a</name>: Kertsch hydria by the <name  type='artist'>Painter of the Wedding Procession</name>, <date  from='-0360' to='-0350'>ca. 360-350</date> .</item>
+ </list></item>
+ </list></item>
+ <item ><name  type='person'>Pandion</name>: <list  rend='plain'>
+ <item ><name  type='person'>Pandion</name> with <name  type='god'>Athena</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>Paris, Bib. Nat. 260</name>: Black-figure olpe by the
+ <name  type='artist'>Leagros Group</name>, <date  from='-0510' to='-0500'>ca.
+ 510-500</date> .</item>
+ </list></item>
+ <item ><name  type='person'>Pandion</name> witnessing the deeds of <name  type='person'>Theseus</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>Brussels R 303</name>: Red-figure pointed amphora by the
+ <name  type='artist'>Syleus Painter</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date> (inscribed Paneidon).</item>
+ <item ><name  type='vase'>Ferrara T 18 C VP</name>: Red-figure cup by the <name  type='artist'>Diomedes Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date> .</item>
+ </list></item>
+ </list></item>
+ <item >Phyle heroes in Trojan scenes (see also the <name  type='scuplture'>Parthenon, North
+ Metopes</name>): <list  rend='plain'>
+ <item >Rape of the <name  type='person'>Palladion</name> (<name  type='sculpture'>Statue
+ of Pallas Athena</name>): <list  rend='numbered'>
+ <item ><name  type='vase'>St. Petersburg St. 830</name>: Red-figure plate from
+ <placeName  key='Etruria'>Etruria</placeName>, by <name  type='artist'>Makron</name>, <date  from='-0490' to='-0480'>ca. 490-480</date>, with <name  type='person'>Diomedes</name>, <name  type='person'>Damophon</name>, and <name  type='person'>Akamas</name> labelled.</item>
+ </list></item>
+ <item >The Trojan Horse: <list  rend='numbered'>
+ <item ><name  type='vase'>Wuerzburg H 4695</name>: Red-figure calyx krater, <date  from='-0400' to='-0390'>ca. 400-390</date>.</item>
+ </list></item>
+ <item >The release of <name  type='person'>Aithra</name>: <list  rend='numbered'>
+ <item ><name  type='vase'>London E 458</name>: Red-figure calyx krater from
+ <placeName  key='Vulci'>Vulci</placeName>, by <name  type='artist'>Myson</name>,
+ <date  from='-0500' to='-0490'>ca. 500-490</date>, with <name  type='person'>Akamas</name> and <name  type='person'>Damophon</name> labelled.</item>
+ <item ><name  type='vase'>Naples 2422</name>: Red-figure hydria from <placeName  key='Nola'>Nola</placeName>, by the <name  type='artist'>Kleophrades
+ Painter</name>, <date  from='-0480' to='-0470'>ca. 480-470</date>.</item>
+ <item ><name  type='vase'>Bologna 268</name>: Red-figure volute krater from
+ <placeName  key='Bologna'>Bologna</placeName>, by the <name  type='artist'>Niobid Painter</name>, <date  from='-0470' to='-0460'>ca.
+ 470-460</date>.</item>
+ <item ><name  type='vase'>Bologna 269</name>: Red-figure volute krater from
+ <placeName  key='Bologna'>Bologna</placeName>, by the <name  type='artist'>Niobid Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item ><name  type='vase'>Munich J 341</name>: White-ground plate from <placeName  key='Vulci'>Vulci</placeName>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item ><name  type='vase'>Berlin F 2408</name>: Red-figure oinochoe from <placeName  key='Crete'>Crete</placeName>, by the <name  type='artist'>Nausicaa
+ Painter</name>, <date  from='-0460' to='-0450'>ca. 460-450</date>.</item>
+ <item >Agrigento ?: Red-figure neck amphora, <date  from='-0440' to='-0430'>ca.
+ 440-430</date>.</item>
+ </list></item>
+ <item ><name  type='person'>Akamas</name> at the sacrifice of <name  type='person'>Polyxena</name>: <list  rend='numbered'>
+ <item ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1992.06.0620'>
+ <figure  n='1992.06.0620.jpeg' rend='right'/>
+ </ref><name  type='vase'>Louvre G 152.</name>: Red-figure cup from <placeName  key='Vulci'>Vulci</placeName>, by the <name  type='artist'>Brygos
+ Painter</name>, <date  from='-0490' to='-0480'>ca. 490-480</date>, with <name  type='person'>Akamas</name> labelled.</item>
+ <item ><name  type='vase'>Louvre G 153</name>: Red-figure cup from <placeName  key='Italy'>Italy</placeName>, by <name  type='artist'>Makron</name>, <date  from='-0490' to='-0480'>ca. 490-480</date> .</item>
+ </list></item>
+ </list></item>
+ <item >Phyle heroes at Dithyrambic victories: <list  rend='numbered'>
+ <item ><name  type='vase'>London E 284</name>: Red-figure amphora attributed to the
+ <name  type='artist'>Nausicaa Painter</name>, <date  from='-0460' to='-0450'>ca.
+ 460-450</date>.</item>
+ <item ><name  type='vase'>Munich 2412</name>: Red-figure stamnos from <placeName  key='Vulci'>Vulci</placeName>, attributed to the <name  type='artist'>Hector
+ Painter</name>, <date  from='-0420' to='-0410'>ca. 420-410</date>.</item>
+ <item ><name  type='vase'>Copenhagen Chr. VIII 939</name>: Red-figure bell krater from
+ <placeName  key='Greece'>Greece</placeName>, <date  from='-0420' to='-0410'>ca.
+ 420-410</date>.</item>
+ </list></item>
+ <item >Other appearances of the eponymous heroes: <list  rend='numbered'>
+ <item ><name  type='vase'>Richmond 79.100</name>: Ram’s head rhyton,
+ attributed to the <name  type='artist'>Triptolemos Painter</name>, <date  from='-0480' to='-0470'>ca. 480-470</date>, with <name  type='person'>Kekrops</name>, <name  type='person'>Aigeus</name>, and <name  type='person'>Pandion</name> at a symposium
+ of the <placeName  key='Attica'>Attic</placeName> kings.</item>
+ <item ><name  type='vase'>Palermo 12480</name>: Red-figure oinochoe by the <name  type='artist'>Eretria Painter</name>, <date  from='-0430' to='-0420'>ca.
+ 430-420</date> (Pandion labelled).</item>
+ <item ><name  type='vase'>London 98.7-16.6</name>: Red-figure volute krater from
+ <placeName  key='Greece'>Greece</placeName>, attributed to the <name  type='artist'>Nikias Painter</name>, <date  from='-0420' to='-0410'>ca. 420-410</date>.</item>
+ <item ><name  type='vase'>Naples Stg. 311</name>: Red-figure lekanis by the <name  type='artist'>Meidias Painter</name>, <date  from='-0420' to='-0410'>ca.
+ 420-410</date>, with <name  type='person'>Antiochos</name> and <name  type='person'>Pandion</name> labelled.</item>
+ <item ><ref  target='http://www.perseus.tufts.edu/cgi-bin/image?lookup=1990.14.0214'>
+ <figure  n='1990.14.0214.jpeg' rend='right'/>
+ </ref><name  type='vase'>London E 224</name>: Hydria (name vase) of the <name  type='artist'>Meidias Painter</name> (the <soCalled >Hamilton Hydria</soCalled>),
+ <date  from='-0420' to='-0410'>ca. 420-410</date>, showing <name  type='person'>Akamas</name>, <name  type='person'>Antiochos</name>, <name  type='person'>Hippothoon</name> and <name  type='person'>Oineus</name> in the Gardens of the
+ <name  type='god'>Hesperides</name> (side B, a detail of <name  type='person'>Antiochos</name> and a detail of <name  type='person'>Oineus</name>, shown
+ here).</item>
+ <item ><name  type='vase'>Syracuse 30747</name>: Red-figure bell krater by the <name  type='artist'>Dinos Painter</name>, <date  from='-0410' to='-0400'>ca.
+ 410-400</date>, with <name  type='person'>Akamas</name>, <name  type='person'>Pandion</name>, and <name  type='person'>Oineus</name> labelled.</item>
+ <item >Athens, NM ?: Red-figure oinochoe fragment from the <name  n='Kabeirion Thebes' type='site'>Kabeirion</name> (<placeName  key='Thebes'>Thebes</placeName>), attributed to the <name  type='artist'>Helen Painter</name>,
+ <date  from='-0370' to='-0360'>ca. 370-360</date>.</item>
+ </list></item>
+ </list>
+ </div>
+ <div  n='FurtherReading' type='Section' xml:id='FurtherReading'>
+ <head >Further Reading</head>
+ <p >Below are some suggestions for further reading.</p>
+ <list  rend='numbered'>
+ <item >
+ <bibl  type='secondary'>F. Bourriot, <title >Recherches sur la nature du genos</title>
+ (Lille 1976).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>L. Deubner, <title >Attische Feste</title> (Berlin 1932).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>L. Farnell, <title >Greek Hero Cults and Ideas of
+ Immortality</title> (Oxford 1921).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>T. Gantz, <title >Early Greek Myth: A Guide to Literary and
+ Artistic Sources</title> (Baltimore 1933).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>E. Kearns, <title >The Heroes of Attica.</title>
+ <title >BICS</title>-Suppl. 57 (1989).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>U. Kron, <title >Die zehn attischen Phylenheroen. Geschichte,
+ Mythos, Kult und Darstellungen.</title>
+ <title >AM-BH</title> 5 (Berlin 1976).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'><title >Lexicon Iconographicum Mythologiae Classicae</title>
+ (Zurich and Munich 1981-1997).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>N. Loraux, <title >Les enfants d’Athéna</title>
+ (Paris 1981).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>M.P. Nilsson, <title >Cults, Myths, Oracles and Politics in
+ Ancient Greece. Studies in Mediterranean Archaeology</title>.
+ <title >Pocketbook</title> 44 (Göteborg 1986).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>R.G. Osborne, <title >Demos. The Discovery of Classical
+ Attika</title> (Cambridge 1985).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>T.L. Shear, Jr., <title >The Monument of the Eponymous Heroes in
+ the Athenian Agora. Hesperia</title> 39 (1970) 145 ff.</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>J.S. Traill, <title >The Political Organization of Attica: a Study
+ of the Demes, Trittyes and Phylai and their Representation of the Athenian Council.
+ Hesperia Suppl.</title> 14 (Princeton 1975).</bibl>
+ </item>
+ <item >
+ <bibl  type='secondary'>D. Whitehead, <title >The Demes of Attica 508/7-ca 250 B.C. A
+ Political and Social Study</title> (Princeton 1986).</bibl>
+ </item>
+ </list>
+ </div>
+ </body>
+ </text>
+</TEI>

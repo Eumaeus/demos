@@ -1,0 +1,55 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dinarchus</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Dinarchus</name></head>
+<p ><date  from='-0360' to='-0290'>c.360-c.290 BCE</date> (source: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>). <name  type='ancientAuthor'>Dinarchus</name> was an orator who made his career in <placeName  key='Athens'>Athens</placeName> (see <name  n='oratory' type='ancientGenre'>Oratory</name>). He was born in <placeName  key='Corinth'>Corinth</placeName> and so, as a resident alien or <soCalled >metic</soCalled> (<foreign  xml:lang='grc'>μέτοικος</foreign>), he was not eligible to speak publicly in the <term  sortKey='Assembly'>Assembly</term> or the <term  sortKey='lawcourt'>courts</term>. So, when a speech by <name  type='ancientAuthor'>Dinarchus</name> is cited as evidence, it should be understood that this was a speech he wrote for an Athenian <term  sortKey='citizenship'>citizen</term> to deliver before a jury or in the <term  sortKey='Assembly'>Assembly</term>. He came to prominence in <date  when='-0324'>324</date> or <date  when='-0323'>323</date>, when he wrote a speech prosecuting the orator <name  type='ancientAuthor'>Demosthenes</name> for having allegedly taken bribes from the Macedonian <name  type='person'>Harpalus</name> (see <bibl  n='urn:cts:greekLit:tlg0029.tlg001' type='cts-urn'>Din. 1</bibl>); two other speeches by him also relate to this trial (see <bibl  n='urn:cts:greekLit:tlg0029.tlg002' type='cts-urn'>Din. 2</bibl>, <bibl  n='urn:cts:greekLit:tlg0029.tlg003' type='cts-urn'>Din. 3</bibl>) (source for date: <bibl >J. O. Burtt, <title >Minor Attic Orators</title> [Cambridge, Mass.; Loeb, 1980] 165</bibl>). (See also the genre of <name  n='oratory' type='ancientGenre'>Oratory</name>.)</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+</body>
+</text>
+</TEI>

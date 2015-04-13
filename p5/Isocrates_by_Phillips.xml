@@ -1,0 +1,67 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+			<titleStmt >
+				<title >Isocrates</title>
+				<author >David D. Phillips</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Isocrates</name></head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p ><name  type='ancientAuthor'>Isocrates</name> son of <name  type='person'>Theodorus</name> (<date  from='-0436' to='-0388'>436-338</date>) came from a prosperous Athenian family and studied <name  type='ancientGenre'>philosophy</name> as well as <name  type='ancientGenre'>rhetoric</name> in his youth. For roughly a decade after the Peloponnesian War, which greatly reduced his family’s assets, <name  type='ancientAuthor'>Isocrates</name> worked as a speechwriter; six of his forensic speeches (<bibl  n='urn:cts:greekLit:tlg0010.tlg004' type='cts-urn'>16</bibl>-<bibl  n='urn:cts:greekLit:tlg0010.tlg001' type='cts-urn'>21</bibl>) survive. Around <date  when='-0390'>390</date>, however, he gave up speechwriting (a profession he would later vilify) and turned to teaching. <name  type='ancientAuthor'>Isocrates</name>’ educational program professed to combine the art of <name  type='ancientGenre'>rhetoric</name> with the pursuit of morality; he thus distinguished himself both from pure theoreticians and from those concerned only with persuasion regardless of truth. His students included the historians <name  type='ancientAuthor'>Theopompus</name> of <placeName  key='Chios'>Chios</placeName> and <name  type='ancientAuthor'>Ephorus</name> of <placeName  key='Cyme'>Cyme</placeName>, the orators <name  type='ancientAuthor'>Isaeus</name>, <name  type='ancientAuthor'>Hypereides</name>, and <name  type='ancientAuthor'>Lycurgus</name>, and the general <name  type='person'>Timotheus</name>.</p>
+
+<p ><name  type='ancientAuthor'>Isocrates</name> did not participate in Athenian politics in person; he attempted to influence policy by publishing written pamphlets and letters rather than by delivering speeches in the <term  sortKey='Assembly'>Assembly</term>. Although he was careful to employ the rhetoric of democracy, <name  type='ancientAuthor'>Isocrates</name> displayed marked oligarchic tendencies; for example, in the <bibl  n='urn:cts:greekLit:tlg0010.tlg018' type='cts-urn'><soCalled >Areopagiticus</soCalled> (7)</bibl>. He also made his voice heard regarding foreign policy: he was a strident advocate of panhellenism, and his foremost goal was a united Greek invasion of <placeName  key='Persia'>Persia</placeName>. In the <bibl  n='urn:cts:greekLit:tlg0010.tlg011' type='cts-urn'><soCalled >Panegyricus</soCalled> (4)</bibl>, published in <date  when='-0380'>380</date> after at least ten years of composition, <name  type='ancientAuthor'>Isocrates</name> proposed an expedition under the joint command of <placeName  key='Athens'>Athens</placeName> and <placeName  key='Sparta'>Sparta</placeName>. But the subsequent rise of <name  type='person'>Philip II</name> of <placeName  key='Macedon'>Macedon</placeName> provided <name  type='ancientAuthor'>Isocrates</name> with a new choice of hegemon, and he appealed repeatedly to <name  type='person'>Philip</name> (in the <bibl  n='urn:cts:greekLit:tlg0010.tlg020' type='cts-urn'><soCalled >Philippus</soCalled> (5)</bibl> of <date  when='-0346'>346</date> and in <bibl  n='urn:cts:greekLit:tlg0010.tlg027' type='cts-urn'>Epistles 2</bibl> and <bibl  n='urn:cts:greekLit:tlg0010.tlg030' type='cts-urn'>3</bibl>) to lead the Greeks against <placeName  key='Persia'>Persia</placeName>. Disappointed by the results of the battle of <placeName  key='Chaeroneia'>Chaeroneia</placeName> in <date  when='-0338'>338</date>, <name  type='ancientAuthor'>Isocrates</name> starved himself to death, and thus did not live to see his proposal put into effect by <name  type='person'>Philip</name>’s son and successor, <name  type='person'>Alexander the Great</name>. (See also <name  type='ancientGenre'>Oratory</name>.)</p>
+
+<byline >David D. Phillips</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

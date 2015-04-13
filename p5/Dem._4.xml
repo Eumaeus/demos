@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 4</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg004' type='cts-urn'>Dem. 4</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >First Philippic</title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech that <name  type='ancientAuthor'>Demosthenes</name> gave at a meeting of the <term  sortKey='Assembly'>Assembly</term>, and then published later. He delivered this speech sometime before <date  when='-0351'>351 BCE</date> (source for date: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 67</bibl>). This speech represents the first time that <name  type='ancientAuthor'>Demosthenes</name> spoke first in a debate in the <term  sortKey='Assembly'>Assembly</term> (see <bibl  n='urn:cts:greekLit:tlg0014.tlg004:1' type='cts-urn'>Dem. 4.1</bibl>). The subject of the speech is <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName>, who had been increasingly active in Greek affairs, particularly those of <placeName  key='Thrace'>Thrace</placeName> and <placeName  key='Euboea'>Euboea</placeName>. Macedonian ships had even captured some ships bringing food to <placeName  key='Athens'>Athens</placeName>. Here, <name  type='ancientAuthor'>Demosthenes</name> urges the Athenians not to feel helpless in the face of <name  type='person'>Philip</name>’s strength, but to fight to protect Athenian interests (See also, <bibl  n='urn:cts:greekLit:tlg0014.tlg006' type='cts-urn'>Dem. 6</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg009' type='cts-urn'>Dem. 9</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg010' type='cts-urn'>Dem. 10</bibl>—all speeches urging opposition to <name  type='person'>Philip</name>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

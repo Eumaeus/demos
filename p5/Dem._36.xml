@@ -1,0 +1,92 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 36</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher > The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text >
+ <body >
+ <div  n='Description' type='Description'>
+ <head >
+ <bibl  n='urn:cts:greekLit:tlg0014.tlg036' type='cts-urn'>Dem. 36</bibl>
+ </head>
+ <p ><name  type='ancientAuthor'>Demosthenes</name>, <title >For <name  type='person'>Phormio</name></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. This speech was written by <name  type='ancientAuthor'>Demosthenes</name>
+ on behalf of <name  type='person'>Phormio</name>, a former slave, who is being sued by his
+ adopted son, <name  type='person'>Apollodorus</name>. The occasion of the speech is <name  type='person'>Phormio</name>’s special plea in bar of action (<foreign  xml:lang='grc'>παραγραφή</foreign>), in other words, a plea that the case not be tried
+ before a jury (<bibl  n='urn:cts:greekLit:tlg0014.tlg036:2' type='cts-urn'>Dem. 36.2</bibl>, also, <bibl  n='urn:cts:greekLit:tlg0014.tlg045:5' type='cts-urn'>Dem. 45.5</bibl>; for pleas barring
+ action, see <term  sortKey='lawcourt'>People’s Court</term>). This was in
+ response to <name  type='person'>Apollodorus</name>’ attempt to bring <name  type='person'>Phormio</name> to trial to extract 20 talents (see also <term  sortKey='Money'>Money</term>) that he claims that <name  type='person'>Phormio</name> has
+ fraudulently withheld from him. The history of the case can be traced back almost 20 years
+ prior to this trial, from the death of <name  type='person'>Pasion</name>, the former owner
+ of <name  type='person'>Phormio</name>. <name  type='person'>Pasion</name> had placed great
+ trust in <name  type='person'>Phormio</name>, placing him in charge of his banking
+ operations and his shield factory. <name  type='person'>Pasion</name>’s will
+ provided for <name  type='person'>Phormio</name> to marry <name  type='person'>Pasion</name>’s widow, to assume guardianship of <name  type='person'>Pasion</name>’s ten-year-old son, <name  type='person'>Pasicles</name>, and to
+ retain control of the shield factory and bank until <name  type='person'>Pasicles</name>
+ came of age. But the interests of the young son were threatened by the actions of <name  type='person'>Pasion</name>’s elder son, <name  type='person'>Apollodorus</name>, who continually dipped into the common funds that <name  type='person'>Pasion</name> had left his family (<bibl  n='urn:cts:greekLit:tlg0014.tlg036:8' type='cts-urn'>Dem. 36.8</bibl>). Because the
+ inheritance of the younger son was endangered, <name  type='person'>Phormio</name> elected
+ to distribute all of the property evenly. When <name  type='person'>Pasicles</name> came of
+ age, the bank was given over to <name  type='person'>Pasicles</name> and the shield factory
+ to <name  type='person'>Apollodorus</name>, thus releasing <name  type='person'>Phormio</name> of any further obligation. This, however, did not satisfy <name  type='person'>Apollodorus</name>, who later took an opportunity to sue <name  type='person'>Phormio</name> for three thousand drachmas which he claimed that <name  type='person'>Phormio</name> had withheld out of <name  type='person'>Pasion</name>’s property. This matter was referred to arbitration and the sum
+ was paid by <name  type='person'>Phormio</name> who was granted a new release from all
+ obligations relating to the estate of <name  type='person'>Pasion</name> (<bibl  n='urn:cts:greekLit:tlg0014.tlg036:14' type='cts-urn'>Dem.
+ 36.14-15</bibl>). Now, twenty years later, <name  type='person'>Apollodorus</name> is
+ demanding more money from <name  type='person'>Phormio</name>, in the sum of twenty talents
+ worth of banking stock which he claims that <name  type='person'>Phormio</name>
+ fraudulently withheld (<bibl  n='urn:cts:greekLit:tlg0014.tlg036:4' type='cts-urn'>Dem. 36.4-7</bibl> and <bibl  n='urn:cts:greekLit:tlg0014.tlg036:11' type='cts-urn'>Dem. 36.11-13</bibl>). <name  type='person'>Phormio</name> entered a special plea in bar of action which is the
+ subject of this particular case. His speech gives three reasons for doing so. First, <name  type='person'>Apollodorus</name> is inordinately greedy and an uncontrolled spendthrift
+ (<bibl  n='urn:cts:greekLit:tlg0014.tlg036:41' type='cts-urn'>Dem.
+ 36.41</bibl>). Second, <name  type='person'>Phormio</name> appeals to the fact that <name  type='person'>Apollodorus</name> had released him from all obligations. And, third,
+ since twenty years had passed, the statute of limitations had expired (<foreign  xml:lang='grc'>τὸν τῆς προθεσμίας νόμον</foreign>) (<bibl  n='urn:cts:greekLit:tlg0014.tlg036:26' type='cts-urn'>Dem. 36.26</bibl>). We learn from
+ <bibl  n='urn:cts:greekLit:tlg0014.tlg045:6' type='cts-urn'>Dem.
+ 45.6</bibl> that <name  type='person'>Phormio</name> won this special plea
+ overwhelmingly, with <name  type='person'>Apollodorus</name> not even receiving one-fifth
+ of the votes of the jury, and thus having to pay a fine for bringing a frivolous suit
+ (<foreign  xml:lang='grc'>τὴν ἐπωβελίαν</foreign>; see <bibl  n='urn:cts:greekLit:tlg0014.tlg045:6' type='cts-urn'>Dem. 45.6</bibl>). <name  type='person'>Pasion</name> died in <date  when='-0370'>370 BCE</date> (source for date:
+ <bibl  n='OCD3'>
+ <title >OCD</title>
+ <edition >3</edition>
+ </bibl>) and references in this speech (<bibl  n='urn:cts:greekLit:tlg0014.tlg036:19' type='cts-urn'>Dem. 36.19</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg036:26' type='cts-urn'>Dem. 36.26</bibl>, and <bibl  n='urn:cts:greekLit:tlg0014.tlg036:38' type='cts-urn'>Dem.
+ 36.38</bibl>) allow it to be dated to about twenty years after the death of <name  type='person'>Pasion</name>, to about <date  when='-0350'>350 BCE</date> (source for
+ date: <bibl >A.T. Murray, <title >Demosthenes IV</title> [Cambridge, Mass.; Loeb Classical
+ Library; 1946] 321</bibl>). The feud between <name  type='person'>Phormio</name> and
+ <name  type='person'>Apollodorus</name> was carried on in another lawsuit; see <bibl  n='urn:cts:greekLit:tlg0014.tlg045' type='cts-urn'>Dem. 45</bibl>.</p>
+ <byline >Christopher Cotten</byline>
+ </div>
+ </body>
+ </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+<teiHeader >
+<fileDesc >
+			<titleStmt >
+				<title >Apollodoros</title>
+				<author >Konstantinos Kapparis</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+			<extent >under 1Mb</extent>
+			<publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+				<authority ><name >A. Mahoney and R. Scaife, edd.</name></authority>
+			</publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+			<sourceDesc >
+				<p >File created electronically.</p>
+			</sourceDesc>
+		</fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc></teiHeader>
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Apollodoros</name></head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p ><name  type='ancientAuthor'>Apollodoros</name>, son of <name  type='person'>Pasion</name> of <name  type='deme'>Acharnai</name>. <name  type='ancientAuthor'>Apollodoros</name> was born in <date  when='-0394'>394</date> BC. He was the son of the wealthy banker <name  type='person'>Pasion</name> and his wife <name  type='person'>Archippe</name>. <name  type='ancientAuthor'>Apollodoros</name> was brought up in an affluent household and as a young man he was rather ostentatious, perhaps trying to overcome prejudice among the upper strata of Athenian society for his humble origins (see <bibl  n='J. Trevett Apollodoros, the Son of Pasion, Oxford 1992' type='secondary'>J. Trevett <title >Apollodoros, the Son of Pasion</title>, Oxford 1992</bibl>). He tells us that he walked fast and had a loud voice. He married the daughter of <name  type='person'>Deinias</name> of <name  type='deme'>Athmonon</name>, and had two daughters, one of whom was married to his brother-in-law <name  type='person'>Theomnestos</name>. He had political ambitions, served as a member of the <term  sortKey='council'>Boule</term> in <date  from='-0348' to='-0347'>348/7</date>, introduced a decree seeking to expand the resources available for the campaign against <name  type='person'>Philip</name>, remained a staunch supporter of the anti-Macedonian party, and maintained political alliances with prominent Athenians such as <name  type='ancientAuthor'>Demosthenes</name>, and even <name  type='person'>Euboulos</name> in his final years in office. After the death of his father he engaged in prolonged litigation with his younger brother <name  type='person'>Pasikles</name> over the estate of <name  type='person'>Pasion</name>. Of the speeches delivered in these court cases we only have the second speech <soCalled >Against Stephanos</soCalled> (<bibl  n='urn:cts:greekLit:tlg0014.tlg046' type='cts-urn'>Dem. 46</bibl>) written by the hand of <name  type='ancientAuthor'>Apollodoros</name>. This text is a valuable source of Athenian law because the strategy of <name  type='ancientAuthor'>Apollodoros</name> in this case was to hit the jury with a barrage of statutes governing inheritance and succession in order to suggest that the law was on his side.</p>
+
+<p >Another six speeches transmitted in the manuscripts of <name  type='ancientAuthor'>Demosthenes</name> were written by <name  type='ancientAuthor'>Apollodoros</name> (in chronological order: <bibl  n='urn:cts:greekLit:tlg0014.tlg053' type='cts-urn'>Dem. 53</bibl> <soCalled >Against Nikostratos,</soCalled> <bibl  n='urn:cts:greekLit:tlg0014.tlg052' type='cts-urn'>Dem. 52</bibl> <soCalled >Against <name  type='person'>Kallippos</name>,</soCalled> <bibl  n='urn:cts:greekLit:tlg0014.tlg049' type='cts-urn'>Dem. 49</bibl> <soCalled >Against <name  type='person'>Timotheos</name>,</soCalled> <bibl  n='urn:cts:greekLit:tlg0014.tlg050' type='cts-urn'>Dem. 50</bibl> <soCalled >Against Polycles,</soCalled> <bibl  n='urn:cts:greekLit:tlg0014.tlg047' type='cts-urn'>Dem. 47</bibl> <soCalled >Against <name  type='person'>Euergos</name> and <name  type='person'>Mnesiboulos</name>,</soCalled> <bibl  n='urn:cts:greekLit:tlg0014.tlg059' type='cts-urn'>Dem. 59</bibl> <soCalled >Against <name  type='person'>Neaira</name></soCalled>). The reason why these speeches survived is probably because they were mistaken for speeches of <name  type='ancientAuthor'>Demosthenes</name>. However, for us this was a fortunate mistake, as <name  type='ancientAuthor'>Apollodoros</name> had detailed knowledge of Athenian law and legal procedure, and was always eager to quote laws, decrees, oaths, and other such documents in his speeches. The strengths of <name  type='ancientAuthor'>Apollodoros</name> as an orator lie in his legal expertise, a truly captivating narrative, skillful manipulation of the jury’s prejudices and fears, morally ambiguous, fascinating characters, and an overall richness that has made his speeches popular samples of Attic <name  type='ancientGenre'>oratory</name>. (See also <name  type='ancientGenre'>Oratory</name>.)</p>
+
+<byline >Konstantinos Kapparis</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

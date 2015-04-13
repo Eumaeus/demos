@@ -1,0 +1,68 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+			<titleStmt >
+				<title >Deinarchus</title>
+				<author >David D. Phillips</author>
+				<sponsor >
+				<persName >Adriaan Lanni, ed.</persName>
+					<name >Athenian Law in its Democratic Context</name>
+					<orgName >Center for Hellenic Studies On-line Discussion Series</orgName>
+				</sponsor>
+			</titleStmt>
+			 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Deinarchus</name></head>
+
+<p >This article was originally written for the online discussion series <soCalled >Athenian Law in its Democratic Context,</soCalled> organized by Adriaan Lanni and sponsored by Harvard University’s <ref  target='http://chs.harvard.edu'>Center for Hellenic Studies</ref>.</p>
+
+<p ><name  type='ancientAuthor'>Deinarchus</name> son of <name  type='person'>Sostratus</name> (ca. <date  from='-0360' to='-0291'>360-post 292/1</date>) was a <term  sortKey='metic'>metic</term> from <placeName  key='Corinth'>Corinth</placeName>. After studying <name  type='ancientGenre'>rhetoric</name> under <name  type='ancientAuthor'>Theophrastus</name> at the <name  n='Lyceum' type='site'>Lyceum</name>, he enjoyed a long and successful career as a speechwriter. He composed speeches for one of the special prosecutors in the <name  type='person'>Harpalus</name> affair, a scandal in which many prominent Athenians were prosecuted for corruption. His three surviving orations (<bibl  n='urn:cts:greekLit:tlg0029.tlg001' type='cts-urn'>1 <soCalled >Against Demosthenes</soCalled></bibl>, <bibl  n='urn:cts:greekLit:tlg0029.tlg002' type='cts-urn'>2 <soCalled >Against Aristogeiton</soCalled></bibl>, <bibl  n='urn:cts:greekLit:tlg0029.tlg003' type='cts-urn'>3 <soCalled >Against Philocles</soCalled></bibl>) come from these trials. The last (and, according to many critics, the least) of the canonical Attic orators, <name  type='ancientAuthor'>Deinarchus</name> enjoyed the patronage of <name  type='person'>Demetrius</name> of <placeName  key='Phaleron'>Phaleron</placeName> during his decade in power (<date  from='-0317' to='-0307'>317-307</date>). When <name  type='person'>Demetrius I Poliorcetes</name> captured <placeName  key='Athens'>Athens</placeName> in <date  when='-0307'>307</date>, <name  type='ancientAuthor'>Deinarchus</name> fled to <placeName  key='Chalcis'>Chalcis</placeName>, remaining there until <name  type='ancientAuthor'>Theophrastus</name> arranged his homecoming in <date  from='-0292' to='-0291'>292/1</date>. Soon thereafter he brought suit against <name  type='person'>Proxenus</name>, who hosted him upon his return; the subsequent fate of <name  type='ancientAuthor'>Deinarchus</name> is unknown. (See also <name  type='ancientGenre'>Oratory</name>.)</p>
+
+
+
+
+<byline >David D. Phillips</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

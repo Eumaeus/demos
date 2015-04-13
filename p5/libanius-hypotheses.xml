@@ -1,0 +1,2052 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+ <fileDesc>
+ <titleStmt>
+ <title>Libanius, Hypotheses to the Orations of Demosthenes</title>
+ <author>Craig Gibson, trans.</author>
+ </titleStmt>
+ <publicationStmt>
+ <publisher> The Stoa: a consortium for electronic publication in the humanities
+ (www.stoa.org) </publisher>
+ <authority>
+ <name>A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt>
+ <title>Dēmos: Classical Athenian Democracy</title>
+ <respStmt>
+ <name>Christopher W. Blackwell</name>
+ <resp>Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc>
+ <p>File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc>
+ <langUsage>
+ <language ident="en">English</language>
+ <language ident="la">Latin</language>
+ <language ident="grc">Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc>
+ <change>
+ <date>April 8, 2003</date>
+ <name>Christopher W. Blackwell</name>
+ <desc>Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+ <text xml:lang="en">
+ <body>
+ <div type="Summary" xml:id="Summary">
+ <head>Translator’s Introduction</head>
+ <p><note place="footnote">Text: From <bibl type="secondary"
+ n="R. Foerster, ed., Libanii Opera, vol. VIII (Leipzig, 1915) 575-681">R. Foerster,
+ ed., <title>Libanii Opera</title>, vol. VIII (Leipzig, <date when="-1915">1915</date>)
+ 575-681</bibl>.</note>
+ <name type="ancientAuthor">Libanius</name> (<date from="0314" to="0393">A.D. 314-c.
+ 393</date>) was a well known public speaker, teacher, and writer who studied at
+ <placeName key="Athens">Athens</placeName>, taught <name type="ancientGenre"
+ >rhetoric</name> at <placeName key="Constantinople">Constantinople</placeName> and
+ <placeName key="Nicomedia">Nicomedia</placeName> and <placeName key="Antioch"
+ >Antioch</placeName>, and produced an enormous corpus of extant writings including a
+ very colorful autobiography, 63 other speeches, about 1600 letters, 51 declamations (many
+ on historical and mythological themes), and a large collection of model rhetorical
+ exercises, presumably for use in his own teaching. Among his earliest known writings is a
+ collection of introductions (<term>hypotheseis</term>) to the orations of the Classical
+ Athenian orator <name type="ancientAuthor">Demosthenes</name> (<date from="-0384"
+ to="-0322">384-322 B.C.</date>). The hypotheses treat a corpus of 58 speeches in 57
+ hypotheses, the two speeches <soCalled>Against Aristogeiton</soCalled> (our items <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025">25</bibl> and
+ <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg026">26</bibl>)
+ being treated together under one hypothesis. With this exception, <name
+ type="ancientAuthor">Libanius</name>’ Demosthenic corpus includes the same
+ speeches as ours, but in a different order: <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg001">1</bibl>-<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg011">11</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg013">13</bibl>-<bibl 
+ n="Dem. 21">21</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023">23</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg022">22</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024">24</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025">25</bibl>+<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg026">26</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059">59</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg058">58</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg057">57</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg027">27</bibl>-<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg031">31</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg054">54</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg039">39</bibl>-<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg040">40</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg036">36</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg045">45</bibl>-<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg046">46</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg032">32</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg037">37</bibl>-<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg038">38</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg035">35</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg034">34</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg033">33</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg055">55</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg052">52</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg051">51</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg050">50</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg049">49</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg053">53</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg042">42</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg041">41</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg048">48</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg056">56</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg047">47</bibl>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg043">43</bibl>-<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg044">44</bibl>. He does not give hypotheses for the
+ <soCalled>Letter of <name type="person">Philip</name></soCalled> (our item <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg012">12</bibl>), the
+ <soCalled>Funeral Oration</soCalled> (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg060">60</bibl>), the <soCalled>Essay on Love</soCalled>
+ (<bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg061"
+ >61</bibl>), the letters, or the demegoric prooemia.</p>
+ <p>Several features of the hypotheses are worth noting here. <name type="ancientAuthor"
+ >Libanius</name>’ hypotheses are not simply summaries of <name
+ type="ancientAuthor">Demosthenes</name>’ speeches. Summary does play a major
+ role in the hypotheses to the longer speeches, but <name type="ancientAuthor"
+ >Libanius</name>’ main task was to read each speech and reconstruct the
+ history of events leading up to it. The hypotheses do not pretend to replace the
+ experience of reading the speeches; they are intended simply to serve as introductions for
+ the novice reader. The length of individual hypotheses varies, dictated mostly by the
+ complexity of the case at hand and the amount of background material that <name
+ type="ancientAuthor">Libanius</name> believes needs to be provided in order for someone
+ to read the speech with understanding. The hypotheses contain no point-by-point
+ commentaries on the speeches, no discussions of historical problems or dates, and only a
+ few overt glosses of unfamiliar words and items of Classical Athenian culture (e.g. the
+ <term sortKey="Theoric_Fund">Theoric Fund</term>, cleruchies, the Dionysia, the <term
+ sortKey="Areopagus">Areopagus</term>). Public and private orations are given equal time,
+ a rarity in the ancient scholarship on <name type="ancientAuthor">Demosthenes</name>.
+ Rhetorical and stylistic criticism occur in discussions of authenticity; <name
+ type="ancientAuthor">Libanius</name>, not surprisingly, shows familiarity with
+ Hermogenic stasis theory and stylistic classifications by <soCalled>type</soCalled>
+ (<term>idea</term>) and <soCalled>character</soCalled> (<term>character</term>). Sources
+ used in the hypotheses include the orations of <name type="ancientAuthor"
+ >Demosthenes</name>’ political enemy <name type="ancientAuthor"
+ >Aeschines</name>, <name type="ancientAuthor">Lycurgus</name>’ (now lost)
+ <soCalled>Against Aristogeiton,</soCalled>
+ <name type="ancientAuthor">Aristotle</name>’s <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0086.tlg038">
+ <title>Rhetoric</title>
+ </bibl>, a work called the <term>Philippic Histories</term> (by <name type="ancientAuthor"
+ >Theopompus</name>?), Atticist lexica, earlier commentaries on <name
+ type="ancientAuthor">Demosthenes</name> (including perhaps those by <name
+ type="ancientAuthor">Didymus Chalcenterus</name>), and possibly <name
+ type="ancientAuthor">Anaximenes</name>’ <title>Rhetoric to Alexander</title>
+ and the rhetorical works of <name type="ancientAuthor">Caecilius</name> of <placeName
+ key="Caronia">Caleacte</placeName>. Polemic is generally absent, but on several
+ occasions <name type="ancientAuthor">Libanius</name> challenges the views of earlier,
+ anonymous scholars on the authenticity of speeches and the proper classification of
+ speeches into groups.</p>
+ <p>The collection opens with a dedication to <name type="person">Lucius Caelius
+ Montius</name> (proconsul of <placeName key="Constantinople">Constantinople</placeName>
+ in A.D. <date when="0352">352</date>), a biography similar to the ones found in <name
+ type="ancientAuthor">Plutarch</name> and in the <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0007">
+ <title>Moralia</title>
+ </bibl>, an elementary overview of Classical Greek history, and a lacunose discussion of
+ <name type="ancientAuthor">Demosthenes</name>’ achievements in the three
+ branches of <name type="ancientGenre">oratory</name> (judicial, deliberative, epideictic).
+ The dedication reads as follows:</p>
+ <p>
+ <quote>Most excellent of proconsuls, <name type="person">Montius</name>: Since, like <name
+ type="ancientAuthor">Homer</name>’s character <name type="person"
+ >Asteropaeus</name>,<note place="footnote">The ambidexterous <placeName key="Troy"
+ >Trojan</placeName> warrior of <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0012.tlg001:21.161-21.204"><title>Iliad</title>
+ 21.161-204</bibl>. <name type="ancientAuthor">Libanius</name> borrows this idea from
+ <name type="ancientAuthor">Athenaeus</name>, <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0008.tlg001:1.2c"><title>Deipnosophistae</title>
+ 1.2c</bibl>.</note> you are <soCalled>ambidexterous</soCalled> in your literary
+ studies, hold first place in the Latin language, and by common consent have obtained the
+ privileges of a <placeName key="Rome">Roman</placeName> education, while you have not
+ been neglectful of the Greek language, since you are also able to excel in it due to the
+ greatness of your character, but rather are devoting your time both to other authors and
+ the most accomplished of the Greek orators <name type="ancientAuthor"
+ >Demosthenes</name>, and furthermore wanted me to write up hypotheses of his speeches
+ for you, we gladly accept the task, for we know it brings more honor than labor, but we
+ will begin the book with a biography of the orator, not narrating the whole thing, for
+ that would be excessive, but rather mentioning only those things that also seem to
+ contribute to a more exact knowledge of the speeches.</quote>
+ </p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_1" n="Hypothesis 1, Demosthenes 1">
+ <head>§ 1 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg001">Dem. 1</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <placeName key="Olynthus">Olynthus</placeName> was a city in <placeName key="Thrace"
+ >Thrace</placeName>, but the people who inhabited it were Greeks from <placeName
+ key="Chalcis">Chalcis</placeName> in <placeName key="Euboea">Euboea</placeName>, which
+ was an Athenian colony. <milestone unit="section" n="2"/>
+ <placeName key="Olynthus">Olynthus</placeName> had many notable wars. For it had fought
+ the Athenians long ago, back when they ruled over the Greeks. Later, it made war on the
+ Spartans. In time it became very powerful and surpassed its kinsmen’s cities.
+ (There were a lot of <placeName key="Chalcidice">Chalcidians</placeName> in <placeName
+ key="Thrace">Thrace</placeName>). <milestone unit="section" n="3"/> The Olynthians made
+ an alliance with <name type="person">Philip</name>, king of <placeName key="Macedon"
+ >Macedon</placeName>, initially fought alongside him against the Athenians, and from him
+ received <placeName key="Anthemous">Anthemous</placeName> (a city that was disputed by the
+ Macedonians and Olynthians), as well as <placeName key="Potidaea">Potidaea</placeName>;
+ this latter city <name type="person">Philip</name> forced to surrender, despite the fact
+ that the Athenians held it at the time, and handed over to the Olynthians. But later the
+ Olynthians began to be suspicious of the king, seeing how swiftly and greatly his power
+ grew and believing his intentions to be untrustworthy. <milestone unit="section" n="4"/>
+ Waiting for him to go abroad, they sent envoys to <placeName key="Athens"
+ >Athens</placeName> and broke off the war against them, contrary to their treaty with
+ <name type="person">Philip</name>. (Their treaty stated that they would do everything
+ jointly, whether fighting the Athenians or making treaties about other things that seemed
+ best to them.) <milestone unit="section" n="5"/>
+ <name type="person">Philip</name> had long lacked an excuse to attack <placeName
+ key="Olynthus">Olynthus</placeName>, but he took this action as one and brought war
+ against them for breaking the treaty and concluding a treaty of friendship with his enemy.
+ They sent ambassadors to <placeName key="Athens">Athens</placeName> to ask for help. <name
+ type="ancientAuthor">Demosthenes</name> speaks on their behalf, urging the people to
+ help the Olynthians. <milestone unit="section" n="6"/> He says that rescuing the
+ Olynthians means security for <placeName key="Athens">Athens</placeName>; for if the
+ Olynthians are rescued (he says), <name type="person">Philip</name> will never move
+ against <placeName key="Attica">Attica</placeName>; rather, the Athenians will be able to
+ sail against <placeName key="Macedon">Macedon</placeName> and fight him there. But if this
+ city should come under <name type="person">Philip</name>’s power (he says), the
+ road to <placeName key="Athens">Athens</placeName> will be wide open for the king. By way
+ of encouraging the Athenians against him, <name type="ancientAuthor">Demosthenes</name>
+ says that <name type="person">Philip</name> is not as difficult to defeat as has been
+ assumed. <milestone unit="section" n="7"/> He also discusses the public moneys, advising
+ the people to make them available for military purposes instead of for the <term
+ sortKey="Theoric_Fund">Theoric Fund</term>. It is necessary to clarify the custom that
+ the Athenians practiced, since it has not been done previously. <milestone unit="section"
+ n="8"/> Back when they did not have a stone theater but had only wooden platforms
+ fastened together, and everyone would hurry to find a seat, blows and wounds would occur
+ now and then. In an attempt to prevent this, the Athenian leaders sold seats, and everyone
+ had to pay two obols for a seat. In order that the poor might not seem overly burdened by
+ the expense, it was arranged for each person to receive the two obols from the treasury.
+ <milestone unit="section" n="9"/> This is how the custom originated, but it progressed
+ to such a point that people not only received money for theater seats, but divided up all
+ the public moneys among themselves. As a result, they became hesitant to commit to
+ military expeditions. Traditionally, they would receive pay from the city for serving in
+ the army, but at that time they were remaining at home amidst games and festivals and
+ dividing up the money among themselves. <milestone unit="section" n="10"/> So they were no
+ longer willing to go out and risk danger; rather, they even went so far as to make a law
+ about the <term sortKey="Theoric_Fund">Theoric Fund</term>, which threatened death to
+ anyone who proposed to revert to the old system and let that money be used for military
+ purposes. <milestone unit="section" n="11"/> Therefore, <name type="ancientAuthor"
+ >Demosthenes</name> cautiously enters into deliberation about this subject by posing a
+ question to himself: <quote>Are you proposing that this money be used for military
+ purposes?</quote> He responds: <quote>No, by <name type="god">Zeus</name>, I am
+ not.</quote> So much for the <term sortKey="Theoric_Fund">Theoric Fund</term>.
+ <milestone unit="section" n="12"/> The orator also talks about the city’s
+ military forces, demanding that the people serve in the army themselves and not employ the
+ assistance of foreign mercenaries, as they were accustomed to do. For it is this (he says)
+ that is responsible for the current sad state of affairs.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_2" n="Hypothesis 2, Demosthenes 2">
+ <head>§ 2 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg002">Dem. 2</bibl>)</head>
+ <p>The Athenians received the <placeName key="Olynthus">Olynthian</placeName> embassy and
+ decided to help them, but they have not yet set out to do so. Coming forward to address
+ the people at a time when they are afraid of <name type="person">Philip</name> as
+ &#60;being&#62; hard to fight, <name type="ancientAuthor">Demosthenes</name> tries
+ to encourage them by showing that the <placeName key="Macedonia"
+ >Macedonian</placeName>’s position is weak. For <name type="person"
+ >Philip</name> (he says) is under suspicion by his allies and is not that strong when
+ his forces are considered in isolation, because the Macedonians by themselves are
+ weak.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_3" n="Hypothesis 3, Demosthenes 3">
+ <head>§ 3 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg003">Dem. 3</bibl>)</head>
+ <p><milestone unit="section" n="1"/> The Athenians sent assistance to the <placeName
+ key="Olynthus">Olynthians</placeName> and seemed to accomplish something through it. And
+ when the results were reported to them, the people were overjoyed and orators were calling
+ for the punishment of <name type="person">Philip</name>. <milestone unit="section" n="2"/>
+ So <name type="ancientAuthor">Demosthenes</name> is worried that the Athenians will ignore
+ everything else out of confidence that they have been totally victorious and have already
+ provided sufficient assistance to <placeName key="Olynthus">Olynthus</placeName>.
+ Therefore, when he comes forward to speak, he chastises them for their political
+ foolishness and, in an attempt to make their plans more prudent and cautious, says that
+ the speech he is making to them now is not about punishing <name type="person"
+ >Philip</name>, but about saving their allies. <milestone unit="section" n="3"/> For he
+ knows that the Athenians, like other people elsewhere, pay close to taking care of their
+ own affairs, but are less diligent when it comes to punishing their enemies. <milestone
+ unit="section" n="4"/> In this speech he more overtly engages in deliberation about the
+ <term sortKey="Theoric_Fund">Theoric Fund</term>, demanding that they abolish the laws
+ which impose a penalty on those who propose that it be used for military purposes, so that
+ speakers may advise the best course of action unafraid. <milestone unit="section" n="5"/>
+ He also exhorts them in general to stand up, follow the example of their ancestors, and
+ serve in the army with their own bodies, and he greatly censures the people for being lax
+ and their leaders for not running the city correctly.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_4" n="Hypothesis 4, Demosthenes 4">
+ <head>§ 4 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg004">Dem. 4</bibl>)</head>
+ <p><milestone unit="section" n="1"/> Bearing up badly in the war against <name type="person"
+ >Philip</name>, the Athenians convened in an <term sortKey="assembly">assembly</term>,
+ disheartened. <milestone unit="section" n="2"/> The orator tries to put a stop to their
+ disheartened state, saying that it is not at all surprising that they were defeated while
+ being so lax, and he explains how the best policies might be applied to the war.
+ <milestone unit="section" n="3"/> He urges them to equip two forces: a larger one
+ consisting of citizens, which will remain at home and stand ready for emergencies, and a
+ smaller one consisting of foreign mercenaries, but &#60;with <term sortKey="citizens"
+ >citizens</term> also&#62; mixed in. <milestone unit="section" n="4"/> He urges that
+ &#60;this second&#62; force not remain at <placeName key="Athens"
+ >Athens</placeName> and not render assistance using the city as its base; rather, it
+ should go to <placeName key="Macedonia">Macedonia</placeName> and there make war
+ incessantly, so that <name type="person">Philip</name>—as he waits for the
+ etesian winds to blow or even a winter storm, when it would be impossible to sail from
+ <placeName key="Athens">Athens</placeName> to <placeName key="Macedon"
+ >Macedon</placeName>—might not attack and win due to the absence of all the
+ Athenians, but so that the force marshalled against him might always be nearby.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_5" n="Hypothesis 5, Demosthenes 5">
+ <head>§ 5 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg005">Dem. 5</bibl>)</head>
+ <p><milestone unit="section" n="1"/> Because the war over <placeName key="Amphipolis"
+ >Amphipolis</placeName> had dragged on, <name type="person">Philip</name> and the
+ Athenians were both eager for peace, the Athenians because they were bearing up badly in
+ the war, and <name type="person">Philip</name> because he wanted to do what he had
+ promised for the <placeName key="Thessaly">Thessalians</placeName> and <placeName
+ key="Thebes">Thebans</placeName>. <milestone unit="section" n="2"/> He had promised the
+ Thebans that he would give them back <placeName key="Orchomenos">Orchomenos</placeName>
+ and <placeName key="Coroneia">Coroneia</placeName> (both <placeName key="Boeotia"
+ >Boeotian</placeName> cities), and had promised both of them that he would break off the
+ <placeName key="Phocis">Phocian</placeName> war. It was impossible for him to do this
+ while <placeName key="Athens">Athens</placeName> was his enemy. In fact, when he had
+ previously tried to attack <placeName key="Phocis">Phocis</placeName> while the Athenians
+ were sailing around in their ships to the so-called <soCalled>Gates</soCalled> (which some
+ call <soCalled>
+ <placeName key="Thermopylae">Thermopylae</placeName>
+ </soCalled>), he was beaten back from the approach. <milestone unit="section" n="3"/> So
+ when he had made peace with the Athenians, since there was nobody to prevent him, he
+ passed inside <placeName key="Pylae">Pylae</placeName>, drove the Phocians from their
+ homes, put their territory under the control of the Amphictyons, and took their votes in
+ the Council away from the other Greeks. <milestone unit="section" n="4"/> But he also sent
+ ambassadors to the Athenians, demanding that they, too, go along with this arrangement.
+ And <name type="ancientAuthor">Demosthenes</name> exhorts them to go along with it, not
+ associating himself in the affair as though it were right, and not saying that it is just
+ for this Macedonian to participate in a Greek assembly, but instead saying that he was
+ afraid that they might be forced into conducting a common war against all the Greeks.
+ <milestone unit="section" n="5"/> For he says that some people have taken offense with
+ the Athenians for some reasons, others for others. They will all fight us as a group (he
+ says), if we give them as a group this common reason against us: that we alone oppose the
+ decrees of the Amphictyons. The result (he says) is that it is better to protect the peace
+ than to bring such a great danger down on themselves over such a little thing, even though
+ <name type="person">Philip</name> has committed these crimes inside <placeName
+ key="Pylae">Pylae</placeName> and could easily attack <placeName key="Attica"
+ >Attica</placeName>. <milestone unit="section" n="6"/> This speech seems to me to have
+ been been prepared but not delivered. For in his prosecution of <name type="ancientAuthor"
+ >Aeschines</name>, the orator denounces <name type="ancientAuthor">Aeschines</name> for
+ a number of things, including the fact that he was the only one who advised them to vote
+ that <name type="person">Philip</name> be a member of the Amphictyonic Council, when
+ nobody else would dare propose this—not even <name type="person"
+ >Philocrates</name>, the most shameful man of all.<note place="footnote">Cf. <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg019:111-113">Dem.
+ 19.111-113</bibl>.</note>
+ <milestone unit="section" n="7"/> Therefore, since he himself made this same
+ recommendation, he would not have denounced <name type="ancientAuthor">Aeschines</name>
+ for it; rather, he evidently feared that people would suspect him of being on <name
+ type="person">Philip</name>’s side and of making this recommendation because
+ he had been influenced by the king’s money, because in taking a stand against
+ this sort of suspicion in the speech, he is also trying to portray himself as
+ well-disposed toward the city and incapable of being bribed.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_6" n="Hypothesis 6, Demosthenes 6">
+ <head>§ 6 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg006">Dem. 6</bibl>)</head>
+ <p><milestone unit="section" n="1"/> In this speech, the orator exhorts the Athenians to
+ suspect <name type="person">Philip</name> of being their enemy and not to trust in the
+ peace at all, but to wake up, pay attention to things, and get ready for war. For he
+ charges that <name type="person">Philip</name> is plotting against the Athenians and the
+ rest of the Greeks, and says that his actions bear witness to this against him. <milestone
+ unit="section" n="2"/> But he also announces that he will reply to some ambassadors who
+ have come, since the Athenians were at a loss as to what they should say. It is left
+ unclear in the speech where these men have come from and why, but it is possible to
+ understand it from the <title>Philippic Histories</title>.<note place="footnote">By <name
+ type="ancientAuthor">Theopompus</name>? (<bibl n="FGrH 115 F401"><title>FGrH</title>
+ 115 F401</bibl>, listed there as doubtful).</note>
+ <milestone unit="section" n="3"/> On this occasion, <name type="person">Philip</name> sent
+ ambassadors to the Athenians, charging that they had been falsely slandering him to the
+ rest of the Greeks for promising many wonderful things to them, but lying about it. For he
+ says that he has not promised them anything and has not lied, and he demands proof of
+ their accusations. The <placeName key="Argos">Argives</placeName> and <placeName
+ key="Messenia">Messenians</placeName> sent ambassadors to <placeName key="Athens"
+ >Athens</placeName> along with <name type="person">Philip</name>’s, and they
+ accused the people of being partial toward and even cheering for <placeName key="Sparta"
+ >Sparta</placeName>’s enslavement of the <placeName key="Peloponnese"
+ >Peloponnese</placeName>, while opposing their own struggle for freedom. <milestone
+ unit="section" n="5"/> So the Athenians are at a loss as to how to reply to <name
+ type="person">Philip</name> and these cities: &#60;the cities,&#62; because they
+ are in fact partial toward the Spartans and hate and are suspicious of the alliance
+ between the Argives and Messenians, but are not able to prove that the Spartans are
+ behaving justly; to <name type="person">Philip</name>, &#60;because&#62; they have
+ failed to get what they had hoped for, but do not think that they have been deceived by
+ him. <milestone unit="section" n="6"/> For <name type="person">Philip</name> did not make
+ any promises in his letters, nor did he send any guarantees through his ambassadors, but
+ there were some Athenians who had given the people false hope that <name type="person"
+ >Philip</name> would save the <placeName key="Phocis">Phocians</placeName> and put down
+ the hubris of the <placeName key="Thebes">Thebans</placeName>. <milestone unit="section"
+ n="7"/> Therefore <name type="ancientAuthor">Demosthenes</name> mentions what his
+ answers would be and announces that he would give them, but he says that it is just for
+ answers to be demanded from those who have caused all the fuss, the ones who (he says)
+ deceived the people and opened <placeName key="Pylae">Pylae</placeName> up to <name
+ type="person">Philip</name>. <milestone unit="section" n="8"/> In these statements he is
+ alluding to <name type="ancientAuthor">Aeschines</name>, <quote>making advanced
+ preparations</quote> (as they say) to prosecute him for the mishandled embassy, which he
+ later did,<note place="footnote">In <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg019">Dem. 19</bibl>.</note> and denouncing him in
+ advance to the Athenians.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_7" n="Hypothesis 7, Demosthenes 7">
+ <head>§ 7 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg007">Dem. 7</bibl>)</head>
+ <p><milestone unit="section" n="1"/> This speech is entitled <soCalled>On <placeName
+ key="Halonnesus">Halonnesus</placeName>,</soCalled> but perhaps it should more
+ correctly be entitled <soCalled>Response to <name type="person">Philip</name>’s
+ Letter.</soCalled><note place="footnote">An unusual statement, as the title
+ <soCalled>Response to <name type="person">Philip</name>’s Letter</soCalled>
+ normally refers to <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg011">Dem. 11</bibl>.</note>
+ <milestone unit="section" n="2"/> For he has sent a letter to the Athenians discussing
+ many topics, one of which is the matter of <placeName key="Halonnesus"
+ >Halonnesus</placeName>. <placeName key="Halonnesus">Halonnesus</placeName> was an
+ ancient holding of <placeName key="Athens">Athens</placeName>, but in the time of <name
+ type="person">Philip</name> it was held by pirates. After kicking the pirates out, <name
+ type="person">Philip</name> did not <soCalled>give back</soCalled> the island to the
+ Athenians when they demanded it, because he said that it was his, but he promised that he
+ would <soCalled>give</soCalled> it to them when they asked for it. <milestone
+ unit="section" n="3"/> This speech does not seem to me to be by <name
+ type="ancientAuthor">Demosthenes</name>. The diction and harmony of composition are
+ obviously at great remove from the Demosthenic type, being slack and dissolute, contrary
+ to this orator’s style. <milestone unit="section" n="4"/> Furthermore, the bit
+ spoken at the end is no small indication that the speech is spurious: <quote>if in fact
+ you carry your brains between your temples and not trodden down in your
+ heels.</quote><note place="footnote"><bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg007:45">Dem. 7.45</bibl>.</note> For <name
+ type="ancientAuthor">Demosthenes</name> customarily exercised his freedom of speech, but
+ this is hubris and abuse without measure, and there is a terrible baseness that attaches
+ to him with this expression. In addition, it is also silly to believe that people have
+ brains in their temples. <milestone unit="section" n="5"/> The older critics also
+ suspected this speech as not being by the orator. Some have detected signs that it is by
+ <name type="person">Hegesippus</name>, both from the style of the words (for he uses
+ this sort of style) and from the contents; for the man who wrote this speech says that he
+ indicted <name type="person">Callippus</name> of the deme <name type="deme">Paeanea</name>
+ for an <term sortKey="law_glossary@paranomon">illegal proposal</term>, and it is
+ apparently not <name type="ancientAuthor">Demosthenes</name>, but rather <name
+ type="ancientAuthor">Hegesippus</name> who brought said indictment against <name
+ type="person">Callippus</name>. <milestone unit="section" n="6"/> Right, by <name
+ type="god">Zeus</name>, but the speech advises the Athenians with regard to <placeName
+ key="Halonnesus">Halonnesus</placeName> not to take it, but to take it back, and it
+ quibbles over semantics; and <name type="ancientAuthor">Aeschines</name> says that <name
+ type="ancientAuthor">Demosthenes</name> was the one who gave this advice to the
+ Athenians.<note place="footnote"><bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:83">Aeschin. 3.83</bibl>.</note>
+ <milestone unit="section" n="7"/> Well, what of that? It is entirely possible that <name
+ type="ancientAuthor">Demosthenes</name> and <name type="ancientAuthor">Hegesippus</name>
+ gave the same advice, since in other respects they shared the same policies in governance
+ and spoke against those orators who were on <name type="person">Philip</name>’s
+ side, and <name type="ancientAuthor">Demosthenes</name> also mentions that <name
+ type="ancientAuthor">Hegesippus</name> served as an ambassador with him and was opposed
+ to <name type="person">Philip</name>.<note place="footnote"><bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg009:72">Dem. 9.72</bibl>.</note>
+ <milestone unit="section" n="8"/> Therefore, it is evident that <name type="ancientAuthor"
+ >Demosthenes</name>’ <soCalled>On Halonnesus</soCalled> is not extant, but
+ since it is not, they attributed the one they found to him, taking as their justification
+ the fact that an <soCalled>On Halonnesus</soCalled> was delivered by the orator, but they
+ inquired no further as to whether or not this one is likely to be it.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_8" n="Hypothesis 8, Demosthenes 8">
+ <head>§ 8 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg008">Dem. 8</bibl>)</head>
+ <p><milestone unit="section" n="1"/> This speech was delivered on behalf of <name
+ type="person">Diopeithes</name> and the things for which he was being accused at
+ <placeName key="Athens">Athens</placeName>. The <placeName key="Chersonese"
+ >Chersonese</placeName> was an ancient holding of <placeName key="Athens"
+ >Athens</placeName> near <placeName key="Thrace">Thrace</placeName>, and in the time of
+ <name type="person">Philip</name> they sent their cleruchs to it. <milestone
+ unit="section" n="2"/> It was an ancient Athenian custom to send those of their number
+ who were poor and had no land at home as colonists to their outlying cities, and when they
+ were sent they would receive weapons and supplies from the treasury. <milestone
+ unit="section" n="3"/> Now then, this has happened and they have sent colonists to the
+ <placeName key="Chersonese">Chersonese</placeName> with <name type="person"
+ >Diopeithes</name> for a general. Most of the other people of the <placeName
+ key="Chersonese">Chersonese</placeName> welcomed them when they arrived and shared
+ houses and land with them, but the <placeName key="Cardia">Cardians</placeName> did not,
+ saying that the land belonged to them, not to the Athenians. <milestone unit="section"
+ n="4"/> Because of this, <name type="person">Diopeithes</name> made war on the Cardians,
+ but they fled for refuge to <name type="person">Philip</name>, who ordered the Athenians
+ not to harm them, because they were associated with him, but rather to go to arbitration
+ with them, if they believed that they had been harmed in some way. <milestone
+ unit="section" n="5"/> But when the Athenians did not obey these commands, he sent aid
+ to the Cardians. So while <name type="person">Philip</name> was battling the king of the
+ <placeName key="Odrysia">Odrysians</placeName> in the inland (upper <placeName
+ key="Thrace">Thrace</placeName>), <name type="person">Diopeithes</name> angrily went
+ down to seaward <placeName key="Thrace">Thrace</placeName>, which was subject to <name
+ type="person">Philip</name>, laid waste to it, went back up to the <placeName
+ key="Chersonese">Chersonese</placeName> before <name type="person">Philip</name> could
+ get there, and arrived safely. <milestone unit="section" n="6"/> So then, since he was
+ unable to defend himself with weapons, <name type="person">Philip</name> sent a letter to
+ the Athenians accusing the general and saying that he had openly violated the peace. And
+ those among the orators who were on <name type="person">Philip</name>’s side
+ inveighed against <name type="person">Diopeithes</name> and called for his punishment.
+ <milestone unit="section" n="7"/> In opposition to them, <name type="ancientAuthor"
+ >Demosthenes</name> makes his stand on behalf of <name type="person">Diopeithes</name>
+ in two ways. For he says that <name type="person">Diopeithes</name> has not behaved
+ unjustly, since <name type="person">Philip</name> long ago violated the terms of the peace
+ and in all likelihood is currently committing wrongs against <placeName key="Athens"
+ >Athens</placeName>, and that he was simply carrying out the tasks of war; in addition
+ (he says), it is inexpedient for the Athenians to punish the general and disband the
+ forces under his command, which are now beating <name type="person">Philip</name> back
+ from the <placeName key="Chersonese">Chersonese</placeName>. <milestone unit="section"
+ n="8"/> In short, he calls for war and strongly accuses <name type="person"
+ >Philip</name> of being unjust, breaking treaties, and plotting against both the
+ Athenians and the rest of the Greeks.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_9" n="Hypothesis 9, Demosthenes 9">
+ <head>§ 9 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg009">Dem. 9</bibl>)</head>
+ <p>The hypothesis of this speech is simple. Since <name type="person">Philip</name> is
+ nominally keeping the peace, but in actuality is committing many wrongs against the
+ Athenians, the orator advises them to stand up and defend themselves against the king,
+ since a great danger is threatening them and all the rest of the Greeks in common.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_10" n="Hypothesis 10, Demosthenes 10">
+ <head>§ 10 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg010">Dem. 10</bibl>)</head>
+ <p><milestone unit="section" n="1"/> This speech has the same hypothesis as the preceding
+ one,<note place="footnote">Cf. <bibl 
+ n="Lib. Arg. Orat. Dem. 9"><title>Hyp.</title> to Dem. 9</bibl>.</note> and there is
+ nothing more or peculiar to it except the political recommendation concerning unanimity.
+ <milestone unit="section" n="2"/> Since the rich are in conflict with the poor, <name
+ type="ancientAuthor">Demosthenes</name> tries to put a stop to their discord, advising
+ the people not to confiscate the property of the rich, while advising the rich not to
+ begrudge the needy their public income. He also tries to persuade the Athenians to send an
+ embassy to the Persian king about an alliance.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_11" n="Hypothesis 11, Demosthenes 11">
+ <head>§ 11 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg011">Dem. 11</bibl>)</head>
+ <p><name type="person">Philip</name> has sent a letter to the Athenians accusing them and
+ openly declaring war. Therefore the orator no longer tries to persuade the Athenians to
+ fight, for now they are forced to do so, but he encourages them to face the danger, saying
+ that the Macedonian is easy to conquer.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_13" n="Hypothesis 12, Demosthenes 13">
+ <head>§ 12 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg013">Dem. 13</bibl>)</head>
+ <p>This speech is no longer a Philippic, but is simply a deliberative speech.<note
+ place="footnote">The proper classification of speeches into groups was a matter of great
+ concern for ancient critics.</note> For when the Athenians are holding an assembly about
+ the <term sortKey="Theoric_Fund">Theoric Fund</term>, <name type="ancientAuthor"
+ >Demosthenes</name> comes forward, tries to persuade them to get organized, urges those
+ serving in the army and those Greeks who are fighting in the front lines to restore their
+ ancient honor, and compares the achievements of today to those in the time of their
+ ancestors, showing them that achievements of today are trivial and inconsequential
+ compared to those of ancient times.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_14" n="Hypothesis 13, Demosthenes 14">
+ <head>§ 13 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg014">Dem. 14</bibl>)</head>
+ <p><milestone unit="section" n="1"/> Because a report has come that the Persian king is
+ preparing to march against the Greeks, the Athenian people have gotten stirred up and have
+ rushed to convene the rest of the Greeks and begin a war immediately, but <name
+ type="ancientAuthor">Demosthenes</name> advises them not to be the first to act, but
+ rather to wait for the king to do something. <milestone unit="section" n="2"/> For (as he
+ says) we will not persuade the Greeks to ally with us now when they think they are safe,
+ but when the actual danger comes, that will bring them together. Therefore he exhorts them
+ while they are at peace to get organized and prepare for war, and furthermore, he details
+ how they should get organized. <milestone unit="section" n="3"/> As a result, the speech
+ is entitled <soCalled>On the Symmories.</soCalled> For a <soCalled>symmory</soCalled> in
+ Attic authors is a group of those who are liable to perform <term sortKey="liturgy"
+ >liturgies</term>.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_15" n="Hypothesis 14, Demosthenes 15">
+ <head>§ 14 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg015">Dem. 15</bibl>)</head>
+ <p><milestone unit="section" n="1"/> The peoples of <placeName key="Chios"
+ >Chios</placeName>, <placeName key="Rhodes">Rhodes</placeName>, and <placeName
+ key="Byzantium">Byzantium</placeName> &#60;waged&#62; the so-called
+ <soCalled>War of the Allies</soCalled><note place="footnote">Or
+ <soCalled>Social</soCalled> War, from the Latin word for <soCalled>allies</soCalled>
+ (<foreign xml:lang="la">socii</foreign>) (<date from="-0357" to="-0355">357-355
+ B.C.</date>).</note> against the Athenians; formerly they had been Athenian subjects,
+ but at that time they had made an alliance with each other against <placeName key="Athens"
+ >Athens</placeName>. <milestone unit="section" n="2"/> The Rhodians, since they
+ neighbored on <placeName key="Caria">Caria</placeName>, appeared to be on friendly terms
+ with its viceroy, <name type="person">Mausolus</name>. But having gradually gained their
+ trust, <name type="person">Mausolus</name> organized a plot against the Rhodian people,
+ robbed them of their democracy, and enslaved the city with the help of a few very powerful
+ men. <milestone unit="section" n="3"/> So <name type="ancientAuthor">Demosthenes</name>
+ advises the people not to overlook these events, but to help the people of <placeName
+ key="Rhodes">Rhodes</placeName>, saying that it is expedient for the Athenians that
+ cities be democratically governed. But even if the Rhodians have committed wrongs against
+ us (he says), it is appropriate and customary for us to liberate those Greeks who have
+ suffered in some way and not to bear a grudge against those who commit transgressions
+ against the city.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_16" n="Hypothesis 15, Demosthenes 16">
+ <head>§ 15 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg016">Dem. 16</bibl>)</head>
+ <p><milestone unit="section" n="1"/> When the <placeName key="Sparta">Spartans</placeName>
+ had been beaten by the <placeName key="Thebes">Thebans</placeName> in <placeName
+ key="Leuctra">Leuctra</placeName> of <placeName key="Boeotia">Boeotia</placeName> and
+ once again had come into a dangerous situation, when the <placeName key="Arcadia"
+ >Arcadians</placeName> revolted and allied themselves with the Thebans, the Athenians
+ came to the Spartans’ rescue, since they were allies. <milestone unit="section"
+ n="2"/> But later, when the Spartans had been liberated from danger and had come back
+ into power, they set out against <placeName key="Megalopolis">Megalopolis</placeName> in
+ <placeName key="Arcadia">Arcadia</placeName> and called on the Athenians through an
+ embassy to join them in the war. But the Megalopolitans have also sent ambassadors to
+ <placeName key="Athens">Athens</placeName>, calling on them to join their side.
+ <milestone unit="section" n="3"/> So <name type="ancientAuthor">Demosthenes</name>
+ advises the people not to overlook the destruction of <placeName key="Megalopolis"
+ >Megalopolis</placeName> or the growth of Spartan power, saying that it is expedient for
+ <placeName key="Athens">Athens</placeName> that Sparta not be a source of dread.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_17" n="Hypothesis 16, Demosthenes 17">
+ <head>§ 16 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg017">Dem. 17</bibl>)</head>
+ <p><milestone unit="section" n="1"/> When <name type="person">Alexander</name> of <placeName
+ key="Macedon">Macedon</placeName> restores the sons of the tyrant <name type="person"
+ >Philades</name> to <placeName key="Messene">Messene</placeName>, <name
+ type="ancientAuthor">Demosthenes</name> alleges that this is a violation of the treaties
+ that he had made with the Athenians and the rest of the Greeks. He also says that the
+ Macedonians have violated the treaties in many other ways, and he exhorts the people not
+ to overlook this. <milestone unit="section" n="2"/> But the speech seems to be falsely
+ ascribed. For it does not resemble <name type="ancientAuthor"
+ >Demosthenes</name>’ other speeches in stylistic type <term>(idea)</term>;
+ rather, it closely corresponds to the stylistic character (<term>character</term>) of
+ <name type="ancientAuthor">Hypereides</name>, in that (among other things) it contains
+ some words that sound more like him than like <name type="ancientAuthor"
+ >Demosthenes</name>, such as <soCalled>nouveaux riches</soCalled>
+ (<term>neoploutoi</term>) and <soCalled>act like a brute</soCalled>
+ (<term>bdelureuesthai</term>).<note place="footnote">The words are found in <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg017:23">Dem.
+ 17.23</bibl> and <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg017:11">17.11</bibl>, respectively. Modern critics
+ generally reject this speech.</note></p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_18" n="Hypothesis 17, Demosthenes 18">
+ <head>§ 17 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018">Dem. 18</bibl>)</head>
+ <p><milestone unit="section" n="1"/> In defense of the Athenians, the orator contributed a
+ wall that was sturdier than the usual hand-built ones, goodwill toward the city, and
+ cleverness at speaking, as he himself says: <quote>Not with stones and bricks did I
+ fortify <placeName key="Athens">Athens</placeName>, but with large military forces and a
+ great alliance, part by land and part by sea.</quote><note place="footnote">Cf. <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:299">Dem.
+ 18.299</bibl>.</note>
+ <milestone unit="section" n="2"/> This is not actually the case: he also made a quite
+ significant contribution to the hand-built enclosure around the city. For after he had
+ already labored over many parts of the wall for the Athenians, when it was decided to
+ rebuild it, ten men were appointed to the job (one from each tribe), who were required to
+ provide at their own expense simply for the supervision of the job; for the main cost was
+ a public expense. <milestone unit="section" n="3"/> So when the orator had become one of
+ these men, too, he did not (like the others) simply pay for the supervision as was
+ required; rather, he completed the task in a way with which nobody could find fault, and
+ he donated money to the city out of his own resources. <milestone unit="section" n="4"/>
+ The <term sortKey="Council">Council</term> praised this display of goodwill and repaid his
+ zealous service with a gold crown; for the Athenians readily thanked their benefactors.
+ <milestone unit="section" n="5"/>
+ <name type="person">Ctesiphon</name> was the man who made a proposal that <name
+ type="ancientAuthor">Demosthenes</name> should be crowned at a particular time and
+ place: at the Dionysia, in the <name type="site" n="theater">theater</name> of <name
+ type="god">Dionysus</name>, in front of all the Greek spectators who had come together
+ for the festival. He also said that the herald should proclaim in the presence of these
+ people that the city is crowning <name type="ancientAuthor">Demosthenes</name>, son of
+ <name type="ancientAuthor">Demosthenes</name>, of the deme <name type="deme"
+ >Paeanea</name>, on account of every virtue and display of goodwill that he has shown
+ toward <placeName key="Athens">Athens</placeName>. <milestone unit="section" n="6"/> The
+ honor that then poured in from all sides was amazing. As a result jealousy became attached
+ to the honor, and an indictment for an illegal proposal is entered
+ &#60;against&#62; the decree. For <name type="ancientAuthor">Aeschines</name>, as
+ he was <name type="ancientAuthor">Demosthenes</name>’ enemy, indicts <name
+ type="person">Ctesiphon</name> for an illegal proposal,<note place="footnote"><bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003">Aeschin.
+ 3</bibl>.</note> saying that he is still liable to audit (because he had been a public
+ official and had not yet given an account of his tenure), and that the law orders them not
+ to crown those who are liable to audit.<note place="footnote"><bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:9-31">Aeschin.
+ 3.9-31</bibl>.</note> He also brings up the law which orders that, if the <term
+ sortKey="assembly">People</term> of the Athenians crowns someone, the crown is to be
+ announced publicly in the <name type="site" n="Agora">Agora</name>, but if the <term
+ sortKey="Council">Council</term> crowns someone, it is to be announced in the <name
+ type="site" n="Bouleuterion">Bouleuterion</name>, and that it is not permissible to do
+ it elsewhere.<note place="footnote"><bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:32-48">Aeschin. 3.32-48</bibl>.</note>
+ <milestone unit="section" n="7"/> He furthermore says that the commendations for <name
+ type="ancientAuthor">Demosthenes</name> are all lies.<note place="footnote"><bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003:49-50"
+ >Aeschin. 3.49-50</bibl>.</note> For the orator (he says) has not been an honorable
+ politician; rather, he has accepted bribes and is responsible for many of the disasters
+ that have befallen the city.<note place="footnote">The remainder of <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg003">Aeschin.
+ 3</bibl> is devoted to demonstrating this point.</note>
+ <milestone unit="section" n="8"/>
+ <name type="ancientAuthor">Aeschines</name> used the following order for his accusation:
+ first, he spoke about the law concerning those who are liable to audit; second, about the
+ law concerning public proclamations; and third, about public policy. He expected <name
+ type="ancientAuthor">Demosthenes</name>, too, to make his speech in the same order.
+ <milestone unit="section" n="9"/> But the orator begins with public policy and turns the
+ speech back around to this subject a second time, doing so with technical skill. For one
+ should begin and end a speech with the strongest points. He places his discussion of the
+ laws in the middle section: to the law about those who are liable to audit, he counters
+ with the lawgiver’s intentions; while to the law about public proclamations, he
+ counters with the full text of the law (which differs from a mere selection from the law,
+ according to him), in which it is also permissible to make public proclamations in the
+ <name type="site" n="theater">theater</name>, if the <term sortKey="assembly"
+ >people</term> or the <term sortKey="Council">Council</term> votes to do so.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_19" n="Hypothesis 18, Demosthenes 19">
+ <head>§ 18 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg019">Dem. 19</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="ancientAuthor">Aeschines</name> was an Athenian man, son of <name
+ type="person">Atrometus</name> and <name type="person">Glaucothea</name>. Both of his
+ parents were nobodies, according to <name type="ancientAuthor">Demosthenes</name>; for he
+ says that his father spent his life teaching school, while his mother spent hers
+ performing purifications and carrying out certain unimportant religious rites.<note
+ place="footnote">Cf. <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:130">Dem. 18.130</bibl> and <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg018:259"
+ >259</bibl>.</note>
+ <milestone unit="section" n="2"/> Even <name type="ancientAuthor">Aeschines</name> himself
+ relates that he was a tragic actor and a city secretary, which was an insignificant job.
+ But later, he became one of the orators and served as an ambassador for peace to <name
+ type="person">Philip</name>. For the Athenians decided to send an embassy for peace to
+ <name type="person">Philip</name> when they were fighting him over <placeName
+ key="Amphipolis">Amphipolis</placeName> and suffering terribly but getting nowhere with
+ their efforts. <milestone unit="section" n="3"/> So they sent ten ambassadors, among whom
+ were <name type="ancientAuthor">Aeschines</name> and <name type="ancientAuthor"
+ >Demosthenes</name>. When <name type="person">Philip</name> accepted a truce, the same
+ men conducted a second embassy, so that both sides might take oaths of peace. <milestone
+ unit="section" n="4"/> With regard to these affairs, <name type="ancientAuthor"
+ >Demosthenes</name> lays three accusations against <name type="ancientAuthor"
+ >Aeschines</name>: first, that when <name type="person">Philocrates</name> proposed and
+ carried a disgraceful and inexpedient decree of peace, <name type="ancientAuthor"
+ >Aeschines</name> spoke in his support. Second, that he squandered several
+ opportunities, as result of which affairs in <placeName key="Thrace">Thrace</placeName>
+ came to ruin. Third, that he reported lies to the Athenians, as a result of which the
+ <placeName key="Phocis">Phocians</placeName> perished. For <name type="ancientAuthor"
+ >Aeschines</name> (as <name type="ancientAuthor">Demosthenes</name> relates) said that
+ <name type="person">Philip</name> would not destroy the Phocians, and you believed him
+ and did not help them. In addition, he says that <name type="ancientAuthor"
+ >Aeschines</name> did all these wicked deeds for pay and bribes. <milestone
+ unit="section" n="5"/> The issue (<term>stasis</term>) of the speech is one of existence
+ (<term>peri ousias</term>) [i.e., did the act occur?] and one in which the fact is in
+ doubt (<term>stochastike</term>). The motivation for <name type="ancientAuthor"
+ >Demosthenes</name>’ hatred is said to be <name type="ancientAuthor"
+ >Aeschines</name>’ successful disfranchisement of <name type="person"
+ >Timarchus</name>,<note place="footnote">The result of <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001">Aeschin. 1, <soCalled>Against
+ Timarchus</soCalled></bibl>.</note> a friend of <name type="ancientAuthor"
+ >Demosthenes</name>. <name type="ancientAuthor">Aeschines</name><name
+ type="ancientAuthor">Aeschines</name> accused <name type="person">Timarchus</name> of
+ leading a wicked life, because (as he claimed) this good-looking man <name type="person"
+ >Timarchus</name> went to <name type="person">Pittalacus</name> the
+ bird-dealer’s house to watch cock-fights, a man who is both corrupted and a
+ corrupter.<note place="footnote"><bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0026.tlg001:53-55">Aeschin. 1.53-55</bibl>.</note></p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_20" n="Hypothesis 19, Demosthenes 20">
+ <head>§ 19 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg020">Dem. 20</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <placeName key="Athens">Athens</placeName> honored its benefactors in a number of ways,
+ including granting them exemptions from performing <term sortKey="liturgy"
+ >liturgies</term>. So when a lot of people were obtaining exemptions, it appeared that
+ there was going to be a shortage of people who would be eligible to perform liturgies in
+ the future. Therefore, <name type="person">Leptines</name> proposed a law that nobody be
+ exempted, that it be illegal for the people to grant exemptions from then on, and that
+ anyone asking for an exemption suffer the most extreme penalties. <milestone
+ unit="section" n="2"/> Previously, others had indicted the law. Among these were <name
+ type="person">Bathippus</name>, who did not see the indictment through, either because
+ he was bribed or because he succumbed to disease. But now <name type="person"
+ >Phormio</name>, <name type="person">Ctesippus</name> (son of <name type="person"
+ >Chabrias</name>), and some others along with them are indicting it; <name
+ type="ancientAuthor">Demosthenes</name> is serving as their advocate. <milestone
+ unit="section" n="3"/> Now <name type="person">Leptines</name> has a stronger case in
+ terms of expediency, because he pleads the necessity of his proposal, but <name
+ type="ancientAuthor">Demosthenes</name> has a stronger case in terms of honor and
+ justice: in terms of justice, because it is just that those who do good things should get
+ good things in return, and that those who properly receive something in return for their
+ services should not be robbed of the things given to them; in terms of honor, since,
+ although it may be disgraceful for other people to take back something that they have
+ given, it is especially so for Athenians, whose magnanimity seems to be their defining
+ feature. <milestone unit="section" n="4"/> He also shows that <name type="person"
+ >Leptines</name> proposed the law illegally. For he says that &#60;he broke
+ the&#62; law which orders that they first abolish any contradictory law and then
+ propose the new law, so that no laws that contradict each other may be found on the
+ books.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_21" n="Hypothesis 20, Demosthenes 21">
+ <head>§ 20 (<bibl n="Dem. 21">Dem.
+ 21</bibl>)</head>
+ <p><milestone unit="section" n="1"/> The Athenians used to conduct a festival to <name
+ type="god">Dionysus</name>, which they named the <soCalled>Dionysia</soCalled> after the
+ god. Tragedians, comic poets, and choruses of flute-players competed in it. The ten tribes
+ would appoint the choruses by lot, and the choregus of each tribe was the man who provided
+ for expenditures pertaining to the chorus. <milestone unit="section" n="2"/> Now then,
+ <name type="ancientAuthor">Demosthenes</name> volunteered to take on the job of choregus
+ for the tribe <name type="tribe">Pandionis</name>. With <name type="person">Meidias</name>
+ (one of the rich) as his enemy, <name type="ancientAuthor">Demosthenes</name> says that he
+ had suffered a number of bad things at that man’s hands in addition to those
+ suffered during the course of his job as choregus, but the last straw was when he was
+ punched in the orchestra in front of all the spectators. For this, he accused <name
+ type="person">Meidias</name> before the people of committing impiety against the
+ festival and Dionysus. Such an accusation was called a <term>
+ <term sortKey="law_glossary@probole">probole</term>
+ </term>. <milestone unit="section" n="3"/> So the <term sortKey="assembly">people</term>
+ have found <name type="person">Meidias</name> guilty of impiety, but now <name
+ type="ancientAuthor">Demosthenes</name> and <name type="person">Meidias</name> are
+ contending in <term sortKey="court">court</term> about the <term sortKey="assembly"
+ >people</term>’s vote against <name type="person">Meidias</name>. For when the
+ <term sortKey="assembly">people</term> found someone guilty, it was necessary for a
+ <term sortKey="court">court</term> to hear the case a second time. So the trial is about
+ the penalty to be imposed. For <name type="person">Meidias</name> is not contending about
+ the fact that he has done nothing wrong, but rather is contending about whether he is to
+ pay the penalty for hubris or for impiety. <milestone unit="section" n="4"/> So the issue
+ of the speech is one of definition (<term>horikos</term>), because <name type="person"
+ >Meidias</name> says that what he did was hubris, since he struck a free man, while
+ <name type="ancientAuthor">Demosthenes</name> says that it is impiety, since it was a
+ choregus who was struck both at the Dionysia and in the <name type="site" n="theater"
+ >theater</name>. For he says that <name type="person">Meidias</name>, through these
+ actions, has also committed impiety, so that this is now a matter of double definition by
+ inclusion (<term>diplous horos kata syllepsin</term>). <milestone unit="section" n="5"/>
+ &#60;It is by inclusion&#62; whenever we do not reject the charge proposed by our
+ opponents, but we add another one to it: just as here, when <name type="person"
+ >Meidias</name> says that he has committed hubris, <name type="ancientAuthor"
+ >Demosthenes</name> does not reject the charge of <soCalled>hubris</soCalled> but adds
+ <soCalled>impiety</soCalled> on top of it.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_23" n="Hypothesis 21, Demosthenes 23">
+ <head>§ 21 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg023">Dem. 23</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Charidemus</name> of <placeName key="Oreus">Oreus</placeName>, the
+ leader of a mercenary force and a general alongside <name type="person"
+ >Cersobleptes</name> king of <placeName key="Thrace">Thrace</placeName>, was made a
+ <term sortKey="citizen">citizen</term> of <placeName key="Athens">Athens</placeName>,
+ partly because he had been useful to them, and partly because they expected him to become
+ even more so in the future. <milestone unit="section" n="2"/>
+ <name type="person">Aristocrates</name> proposed a decree about him in the <term
+ sortKey="Council">Council</term> as follows: If anyone kills <name type="person"
+ >Charidemus</name>, let him be liable to seizure and removal from every state allied
+ with <placeName key="Athens">Athens</placeName>. But if anyone rescues someone who is
+ liable to seizure and removal, whether city or private individual, let him be excluded
+ from treaties with <placeName key="Athens">Athens</placeName>. <milestone unit="section"
+ n="3"/> Using a speech by <name type="ancientAuthor">Demosthenes</name>, <name
+ type="person">Euthycles</name> denounces this decree and says, first, that the decree is
+ illegal, because it removes the trial and courts and prescribes a penalty from the mere
+ charge [i.e., rather than from a conviction on that charge], and second that it is
+ inexpedient for the Athenians to bestow such a gift on <name type="person"
+ >Charidemus</name>. For (he says) we will lose the <placeName key="Chersonese"
+ >Chersonese</placeName> because of this. But the speech will show how. <milestone
+ unit="section" n="4"/> He also examines the quality of <name type="person"
+ >Charidemus</name>’ character, saying that he is not worthy of gifts, and such
+ great ones, at that.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_22" n="Hypothesis 22, Demosthenes 22">
+ <head>§ 22 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg022">Dem. 22</bibl>)</head>
+ <p><milestone unit="section" n="1"/> There were two Councils at <placeName key="Athens"
+ >Athens</placeName>: the one that stood on the <term sortKey="Areopagus"
+ >Areopagus</term>, which decided cases of voluntary homicide and wounds and things like
+ that, and the one that conducted city business. The <term sortKey="Council">latter</term>
+ changed every year and consisted of five hundred men who met the age requirement. There
+ was a law enjoining this <term sortKey="Council">Council</term> to have new triremes
+ built, but if it did not do so, the law prevented it from requesting a gift from the
+ people. <milestone unit="section" n="2"/> Now then, the <term sortKey="Council"
+ >Council</term> has not built the triremes, but <name type="person">Androtion</name>
+ proposes before the people a decree to award the <name type="person">Council</name> a
+ crown, anyway. He is brought to trial for this under an indictment for an <term
+ sortKey="law_glossary@paranomon">illegal proposal</term>; two of his enemies, <name
+ type="person">Euctemon</name> and <name type="person">Diodorus</name>, are his accusers.
+ <name type="person">Euctemon</name> has already spoken; <name type="person"
+ >Diodorus</name> joins in next with this speech. <milestone unit="section" n="3"/> The
+ accusers say, first, that the decree was not submitted in advance to the <term
+ sortKey="Council">Council</term>. (Although the law orders that a decree should not be
+ brought before the people until it has been approved in the <term sortKey="Council"
+ >Council</term>, <name type="person">Androtion</name> acted contrary to this law by
+ introducing a motion that was not first submitted to the <term sortKey="Council"
+ >Council</term>.) Second, the accusers say that the decree is contrary to the law which
+ orders a <term sortKey="Council">Council</term> that has not built triremes not to request
+ a gift. For if the <term sortKey="Council">Council</term> is not allowed to ask for a
+ gift, it is clear that the giving of said gift is not allowed, either. <milestone
+ unit="section" n="4"/> &#60;They adduce&#62; the laws that pertain to this
+ matter, but they also adduce two laws against <name type="person"
+ >Androtion</name>’s character, the one about prostitution and the one about
+ those who owe debts to the treasury. And they say that <name type="person"
+ >Androtion</name> is disfranchised on both counts; for he has in fact lived as a
+ prostitute and is liable to the city for his father’s debt.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_24" n="Hypothesis 23, Demosthenes 24">
+ <head>§ 23 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg024">Dem. 24</bibl>)</head>
+ <p><milestone unit="section" n="1"/> Diodorus is also the plaintiff here.<note
+ place="footnote">Cf. <bibl 
+ n="Lib. Arg. Orat. Dem. 22"><title>Hyp.</title> to Dem. 22</bibl> (<term
+ sortKey="libanius@hypothesis_Dem_22">Lib. <title>hyp.</title> 22</term>).</note> He is
+ denouncing a very humane law, so he tries to do so on the basis of the motives and
+ intentions of the man who proposed it. <milestone unit="section" n="2"/>
+ <name type="person">Timocrates</name>’ law is as follows: If an additional
+ penalty of imprisonment has been assessed against any Athenian for a public debt, or is so
+ assessed in the future, he may be released from prison, if he or another man acting on his
+ behalf establishes sureties that the debt will be paid within the stated time, and if the
+ people approves the sureties. But if the debt is not paid on time, the man so covered by
+ the sureties is to be jailed, while the estate of anyone who has given sureties for him is
+ to become public property. <milestone unit="section" n="3"/> The plaintiff charges that
+ this law has not been proposed on behalf of the common good, but on behalf of <name
+ type="person">Androtion</name>, <name type="person">Glaucetus</name>, and <name
+ type="person">Melanopus</name>. For when these men (he says) were sent to <placeName
+ key="Caria">Caria</placeName> as ambassadors and were sailing along in a trireme, they
+ came upon some merchant men of <placeName key="Naucratis">Naucratis</placeName> and took
+ their cargo. Then the Naucratian merchants came to <placeName key="Athens"
+ >Athens</placeName> and supplicated the people, but the people knew that the cargo was
+ to be used for military purposes and must not be returned to them. <milestone
+ unit="section" n="4"/> When this happened, <name type="person">Archebius</name> and
+ <name type="person">Lysitheides</name>, the trierarchs of the ship on which <name
+ type="person">Androtion</name>’s group was sailing, took the cargo for
+ themselves. <milestone unit="section" n="5"/> But when they appeared not to have it, the
+ ambassadors admitted that they had it, and they had to turn it over immediately or else
+ become subject to the laws governing public debtors—it was for this reason, he
+ says, that <name type="person">Timocrates</name> made this law to help those men.
+ <milestone unit="section" n="6"/>
+ <name type="person">Timocrates</name>, however, says that <name type="person"
+ >Androtion</name>’s group has paid for the goods in full and so it is obvious
+ that he was not introducing the law because of them. <milestone unit="section" n="7"/> But
+ <name type="person">Diodorus</name> also denounces the law in another way. For he
+ censures the fact that it was proposed contrary to the laws; he says that it is quite
+ unlike their ancient laws; and he shows that it is inexpedient for the state.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_25-26" n="Hypothesis 24, Demosthenes 25-26">
+ <head>§ 24 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025">Dem. 25</bibl> &#38; <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg026">26</bibl>)</head>
+ <p><milestone unit="section" n="1"/> After seeing <name type="person">Hierocles</name>
+ carrying sacred garments on which there were letters stitched in gold to denote those who
+ had dedicated them as an offering, <name type="person">Pythangelus</name> and <name
+ type="person">Scaphon</name> accused him before the <term sortKey="council"
+ >prytaneis</term> of being a temple-robber, and on the next day the <term
+ sortKey="council">prytaneis</term> took him before the <term sortKey="Assembly"
+ >Assembly</term>. <name type="person">Hierocles</name> said that he had been sent by the
+ priestess to get the garments and was supposed to bring them to the Shrine of the
+ Huntress.<note place="footnote"><bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0525.tlg001:1.23.7">Pausanias 1.23.7</bibl> mentions a shrine
+ to <name type="god">Artemis Brauronia</name> on the <name type="site" n="Acropolis"
+ >Acropolis</name>, though he does not call it <term>hieron kynegesion</term>.</note>
+ <milestone unit="section" n="2"/> Then <name type="person">Aristogeiton</name> proposed a
+ decree that was not submitted to the <term sortKey="Council">Council</term> in advance and
+ was quite dreadful, for it ordered <name type="person">Hierocles</name> to be put to death
+ immediately, if he admitted that he stole the garments, but if he denied it, for the case
+ to go to trial. As a result of which, if he had admitted the truth, he would have been put
+ to death immediately, but if he had denied it, he would have been killed anyway, only a
+ short time later. <milestone unit="section" n="3"/>
+ <name type="person">Phanostratus</name>, father of the endangered <name type="person"
+ >Hierocles</name>, indicted this decree for illegality with <name type="ancientAuthor"
+ >Demosthenes</name> as his co-plaintiff, and won the case. And the <term sortKey="court"
+ >court</term> fined <name type="person">Aristogeiton</name> five talents. <milestone
+ unit="section" n="4"/> This is the first debt that <name type="person"
+ >Aristogeiton</name> owes.<note place="footnote"><name type="ancientAuthor"
+ >Libanius</name> is the only authority for this colorful account of the circumstances
+ behind <name type="person">Aristogeiton</name>’s first debt. His source is
+ most likely <name type="ancientAuthor">Lycurgus</name>’ <soCalled>Against
+ Aristogeiton</soCalled> (now lost); <name type="ancientAuthor">Lycurgus</name> was
+ <name type="ancientAuthor">Demosthenes</name>’ co-prosecutor in this case.
+ In <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025:87">Dem.
+ 25.87</bibl> the speaker mentions that <name type="person">Aristogeiton</name> was
+ fined an unspecified amount for proposing that three citizens be executed without a
+ trial. <bibl type="cts-urn" n="urn:cts:greekLit:tlg0029.tlg002:12"
+ >Deinarchus 2.12</bibl> mentions a fine of five talents assessed against <name
+ type="person">Aristogeiton</name> in a case involving lies told about the priestess of
+ <name type="god">Artemis Brauronia</name>. </note> Then, when he indicted <name
+ type="person">Hegemon</name>, lost the case, and failed to get one-fifth of the votes,
+ he was fined one thousand drachmae.<note place="footnote">This is not mentioned in <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025">Dem. 25</bibl>
+ and <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg026"
+ >26</bibl> or <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0029.tlg002">Din. 2</bibl>. <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025:47">Dem. 25.47</bibl> alleges that
+ <name type="person">Aristogeiton</name> was bought off in an <term
+ sortKey="law_glossary@eisangelia">eisangelia</term> against <name type="person"
+ >Hegemon</name>. </note> When he did not pay up within the allotted time, the fines
+ were doubled in accordance with the law and then totaled ten talents, two thousand
+ drachmae.<note place="footnote">This is not mentioned in <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025">Dem. 25</bibl> and <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg026">26</bibl> or
+ <bibl type="cts-urn" n="urn:cts:greekLit:tlg0029.tlg002">Din.
+ 2</bibl>. </note>
+ <milestone unit="section" n="5"/> To generate this money he signed over a farm of his to
+ the treasury, and his brother <name type="person">Eunomus</name> bought it; <name
+ type="person">Eunomus</name> asked for a payment plan for the fine so as to pay the
+ balance over a period of ten years, each year putting up the portion due.<note
+ place="footnote">This is not mentioned in <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025">Dem. 25</bibl> and <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg026">26</bibl> or <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0029.tlg002">Din.
+ 2</bibl>.</note> He has already paid two installments (two talents, four hundred
+ drachmae) but he still owes the rest (eight talents, sixteen hundred drachmae).<note
+ place="footnote">The hypothetical payment of a mere <soCalled>one or two</soCalled>
+ installments to recover one’s civic status is snidely referred to in <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025:71">Dem.
+ 25.71</bibl>, but no specific amounts are mentioned.</note>
+ <milestone unit="section" n="6"/> So then, because he thought that he had the right to
+ speak in the <term sortKey="Assembly">Assembly</term> and was no longer a debtor, as he
+ had supplied the city with a creditor to take his place, he was both indicting a lot of
+ men and making public speeches, although the laws disfranchise public debtors until they
+ have paid their debts in full. So <name type="ancientAuthor">Lycurgus</name>’
+ group lodged an information against him on the grounds that he was not allowed to speak.
+ <milestone unit="section" n="7"/> Then, because <name type="person"
+ >Aristogeiton</name>’s name has not been removed from the register on the <name
+ type="site" n="Acropolis">Acropolis</name>, an investigation is launched at the instance
+ of the creditor (the man who bought the farm) to decide whether the man who purchased the
+ farm is the sole debtor, or whether the original debtor is also liable until the debt has
+ been paid in full. <milestone unit="section" n="8"/> This inquiry is in fact organized
+ around two debts, but the plaintiffs say that <name type="person">Aristogeiton</name> also
+ owes a third debt to the treasury. In response to this, <name type="person"
+ >Aristogeiton</name> makes his stand, arguing that the third debt had been registered
+ unjustly and that he therefore had sued Ariston, the one who registered it. <milestone
+ unit="section" n="9"/>
+ <name type="ancientAuthor">Demosthenes</name> and <name type="ancientAuthor"
+ >Lycurgus</name> say nothing about whether the registration was just or not, but say
+ only: <quote>When he gets a conviction against <name type="person">Ariston</name>, then
+ <name type="person">Aristogeiton</name>’s name will be removed from the
+ register, and <name type="person">Ariston</name> will be registered in accordance with
+ the law. But before the matter comes to trial, it is not appropriate for <name
+ type="person">Aristogeiton</name> to speak—this man who may in fact have
+ been registered justly and could be falsely accusing <name type="person"
+ >Ariston</name>.</quote><note place="footnote">Cf. <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025:73">Dem. 25.73</bibl>.</note>
+ <milestone unit="section" n="10"/> These are the main matters under investigation, but
+ <name type="ancientAuthor">Lycurgus</name> has already dealt with them because he spoke
+ first. <name type="ancientAuthor">Demosthenes</name>’ speech was very short
+ because these things had already been covered, and his entire speech consists of a
+ denunciation of <name type="person">Aristogeiton</name>’s life. <milestone
+ unit="section" n="11"/>
+ <name type="ancientAuthor">Dionysius of Halicarnassus</name> does not accept these
+ speeches as being by <name type="ancientAuthor">Demosthenes</name>; he adduces their style
+ as evidence.<note place="footnote">Cf. <bibl type="cts-urn" n="urn:cts:greekLit:tlg0081.tlg006:57">Dion.
+ Hal., <title>On Demosthenes</title> 57</bibl>.</note> Some say that the orator
+ purposely used this sort of stylistic character in imitation of <name type="ancientAuthor"
+ >Lycurgus</name>, who at that time was highly esteemed at <placeName key="Athens"
+ >Athens</placeName>; but others say that, since <name type="ancientAuthor"
+ >Lycurgus</name> waited until this point in his life to speak first and so used all the
+ main points himself, <name type="ancientAuthor">Demosthenes</name> was forced to follow up
+ more philosophically and in a highly periodic style. <milestone unit="section" n="12"/>
+ Still others accept the first speech as being by <name type="ancientAuthor"
+ >Demosthenes</name>, but believe that the second one is completely unworthy of the
+ orator.<note place="footnote">Modern scholars are somewhat divided on the authenticity
+ of <bibl type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg025">Dem.
+ 25</bibl>, but most reject <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg026">Dem. 26</bibl>.</note></p>
+ </div>
+ <!-- *** -->
+ <div type="section" xml:id="hypothesis_Dem_59" n="Hypothesis 25, Demosthenes 59">
+ <head>§ 25 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059">Dem. 59</bibl>)</head>
+ <p>
+ <milestone unit="section" n="1"/> They also do not think that this speech is by <name
+ type="ancientAuthor">Demosthenes</name>,<note place="footnote">Cf. the end of <bibl
+ n="Lib. Arg. Orat. Dem. 25"
+ ><title>Hyp.</title> to Dem. 25</bibl> (<term
+ sortKey="libanius@hypothesis_Dem_25-26">Lib. <title>hyp.</title> 24</term>). The
+ author of this speech is <name type="person">Apollodorus</name>.</note> as it is flat
+ and in many ways quite inferior to the orator’s power. Its hypothesis is as
+ follows. <milestone unit="section" n="2"/> There is a law which orders that a foreign
+ woman be sold into slavery if she lives with an Athenian man. So in accordance with this
+ law, <name type="person">Theomnestus</name> has come to <term sortKey="court">court</term>
+ against <name type="person">Neaera</name>, saying that she is living with <name
+ type="person">Stephanus</name>, although she had formerly been a slave of <name
+ type="person">Nicarete</name> and a prostitute and now lives by law with <name
+ type="person">Stephanus</name> and has had children by him. <milestone unit="section"
+ n="3"/>
+ <name type="person">Stephanus</name>, however, does not admit to these charges; rather, he
+ says that he does associate with her, but as a prostitute and not as a wife, and that the
+ children he has are not hers. In opposition to this, the plaintiff makes his stand and
+ presents several pieces of evidence to prove that she is living with him as his wife.
+ <milestone unit="section" n="4"/> So then, the issue (<term>stasis</term>) of the speech
+ is one in which the fact is in doubt (<term>stochastike</term>). For the investigation is
+ about existence (<term>peri ousias</term>) [i.e. did the act occur?] and not about the
+ nature or quality of the act. So <name type="person">Theomnestus</name> delivers the first
+ part of the speech, and then he calls his co-plaintiff <name type="person"
+ >Apollodorus</name>, his brother-in-law, who presents the main case.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_58" n="Hypothesis 26, Demosthenes 58">
+ <head>§ 26 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg058">Dem. 58</bibl>)</head>
+ <p><milestone unit="section" n="1"/> I do not know how most people can list this speech
+ among the private speeches, as it is clearly a public one.<note place="footnote">The
+ proper classification of speeches into groups was a matter of great concern for ancient
+ critics. </note> But this will be obvious from the hypothesis itself. <milestone
+ unit="section" n="2"/> Denunciations had been lodged against merchants or ship captains
+ who had transported grain to other places but not to <placeName key="Athens"
+ >Athens</placeName>. The law was as follows: If someone lodges a denunciation and does
+ not prosecute, or prosecutes but fails to receive one-fifth of the votes, he must pay one
+ thousand drachmae to the treasury, and those who owe this debt but have not paid it may
+ not speak in the <term sortKey="Assembly">Assembly</term>; &#60;second, that anyone
+ convicted of embezzling sacred moneys is to be disfranchised&#62;; and third, if
+ someone unjustly frees someone else from slavery, he owes half the penalty to the
+ treasury. <milestone unit="section" n="3"/>
+ <name type="person">Epichares</name> therefore lodged an information against <name
+ type="person">Theocrines</name> that he was not allowed to speak, on the basis of all
+ three laws. Indeed, he says that <name type="person">Theocrines</name> had lodged a
+ denunciation against <name type="person">Micon</name> for having transported grain
+ elsewhere, but did not go through with it; in addition, as the overseer appointed by his
+ tribesmen, he was convicted in the audit of embezzling the sacred money of the <term
+ sortKey="eponymous_heroes">eponymous heroes</term>; and third, <name type="person"
+ >Theocrines</name>’ father unjustly freed <name type="person"
+ >Cephisodorus</name>’ handmaid and so was indebted by an additional five
+ hundred drachmae. <milestone unit="section" n="4"/> For these reasons, the information and
+ the whole affair are clearly public matters, and most believe that although the speech is
+ not unlike those of <name type="ancientAuthor">Demosthenes</name>, it is actually by <name
+ type="ancientAuthor">Deinarchus</name>.<note place="footnote">Some modern scholars
+ accept the attribution to <name type="ancientAuthor">Deinarchus</name>.</note>
+ </p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_57" n="Hypothesis 27, Demosthenes 57">
+ <head>§ 27 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg057">Dem. 57</bibl>)</head>
+ <p><milestone unit="section" n="1"/> A law is proposed at <placeName key="Athens"
+ >Athens</placeName>: that there be an investigation of everyone enrolled in the deme
+ registers to see whether they are genuine <term sortKey="citizens">citizens</term> or not,
+ that those who were not born of a citizen male and a citizen female be stricken off the
+ rolls, and that the demesmen vote on all of them by ballot. Those who are voted down and
+ abide by the demesmen’s vote are to be stricken off the rolls and become
+ resident aliens. Those who desire an appeal are to be granted one before a jury; if they
+ are convicted in <term sortKey="court">court</term> as well, they are to be sold into
+ slavery, but if they are acquitted, they are to be regarded as citizens. <milestone
+ unit="section" n="2"/> In accordance with this law, when the deme of the Halimousians
+ voted by ballot, a certain <name type="person">Euxitheus</name> was voted down, but he
+ says that he has come to <term sortKey="court">court</term> because he has been a
+ political victim of his enemy <name type="person">Eubulides</name>. He also tries to prove
+ that he was born of a citizen male and a citizen female, saying: <quote>But if my mother
+ worked as a wet-nurse, she did it because of poverty. And my father had a foreign accent
+ because he had been taken as a prisoner of war and sold into slavery.</quote><note
+ place="footnote">Cf. <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg057:35">Dem. 57.35</bibl> and <bibl
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg057:18"
+ >57.18</bibl>.</note> One ought not to dredge up a list of misfortunes, but rather
+ examine the family tree.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_27" n="Hypothesis 28, Demosthenes 27">
+ <head>§ 28 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg027">Dem. 27</bibl>)</head>
+ <p><milestone unit="section" n="1"/> When <name type="ancientAuthor">Demosthenes</name> of
+ <name type="deme">Paeanea</name>, father of <name type="ancientAuthor"
+ >Demosthenes</name> the orator, was about to die, he established guardians over his two
+ children (<name type="ancientAuthor">Demosthenes</name> and a daughter) and the estate.
+ Two of the guardians were relatives, <name type="person">Aphobus</name> and <name
+ type="person">Demophon</name>, and one was a friend from childhood, <name type="person"
+ >Therippides</name>. <milestone unit="section" n="2"/> He gave <name type="person"
+ >Therippides</name> seventy mnae off of which to enjoy the interest until <name
+ type="ancientAuthor">Demosthenes</name> was enrolled among the men [i.e., turned
+ eighteen]; he betrothed his daughter to <name type="person">Demophon</name> and decided
+ that he should receive two talents as a dowry; and he decided that his wife <name
+ type="person">Cleobule</name>, daughter of <name type="person">Gylon</name> and mother
+ of his children, should be married to <name type="person">Aphobus</name>; he gave this man
+ an additional eighty mnae and told him to enjoy the house and the things in it until <name
+ type="ancientAuthor">Demosthenes</name> was enrolled among the men. <milestone
+ unit="section" n="3"/> These men immediately got the money that was willed to them, but
+ <name type="person">Aphobus</name> did not marry the dead man’s wife, nor did
+ <name type="person">Demophon</name> marry his daughter. Although they managed an estate
+ worth fourteen talents, as the orator demonstrates, and were obliged to pay back thirty
+ talents from the interest &#60;and the principal&#62;, they handed over only a
+ very small amount to <name type="ancientAuthor">Demosthenes</name> when he was enrolled
+ among the men. So he has come to <term sortKey="court">court</term> to bring a
+ guardianship suit against <name type="person">Aphobus</name> for ten talents; since <name
+ type="person">Aphobus</name> was one of three guardians, he owes one-third of the money,
+ which the orator totals up from the principal and the interest.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_28" n="Hypothesis 29, Demosthenes 28">
+ <head>§ 29 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg028">Dem. 28</bibl>)</head>
+ <p>This speech deals with some counterstatements introduced by <name type="person"
+ >Aphobus</name>, but it also contains a review of things said previously.<note
+ place="footnote">Cf. <bibl 
+ n="Lib. Arg. Orat. Dem. 27"><title>Hyp.</title> to Dem. 27</bibl> (<term
+ sortKey="libanius@hypothesis_Dem_27">Lib. <title>hyp.</title> 28</term>).</note></p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_29" n="Hypothesis 30, Demosthenes 29">
+ <head>§ 30 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg029">Dem. 29</bibl>)</head>
+ <p><milestone unit="section" n="1"/> While <name type="person">Aphobus</name> was still a
+ defendant in the guardianship case,<note place="footnote">Cf. <bibl 
+ n="Lib. Arg. Orat. Dem. 27"><title>Hyp.</title> to Dem.
+ 27</bibl> (<term sortKey="libanius@hypothesis_Dem_27">Lib. <title>hyp.</title>
+ 28</term>) and <bibl 
+ n="Lib. Arg. Orat. Dem. 28"><title>Hyp.</title> to Dem. 28</bibl> (<term
+ sortKey="libanius@hypothesis_Dem_28">Lib. <title>hyp.</title> 29</term>).</note> he
+ demanded <name type="person">Milyas</name> from <name type="ancientAuthor"
+ >Demosthenes</name> for torture, knowing that <name type="ancientAuthor"
+ >Demosthenes</name> would not give him up. <name type="ancientAuthor">Demosthenes</name>
+ did not give him up, saying that <name type="person">Milyas</name> was not a slave, but
+ rather was a free man who was manumitted by his father upon his death. As proof of this,
+ he offered (among other evidence) the testimony of <name type="person">Phanus</name>, who
+ testified before the jury, saying that <name type="person">Aphobus</name> had admitted
+ before the arbitrator that <name type="person">Milyas</name> was a free man. <milestone
+ unit="section" n="2"/> Convicted in the guardianship case, <name type="person"
+ >Aphobus</name> takes <name type="person">Phanus</name> to <term sortKey="court"
+ >court</term> on a charge of perjury. <name type="ancientAuthor">Demosthenes</name>
+ delivers this speech on behalf of <name type="person">Phanus</name>, saying that <name
+ type="person">Phanus</name> has testified truthfully, and he furthermore shows that
+ <name type="person">Aphobus</name> was in no way harmed because of this testimony, but
+ rather was convicted because of other witnesses, and as he had not successfully prosecuted
+ them, it was clear that he had done wrong.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_30" n="Hypothesis 31, Demosthenes 30">
+ <head>§ 31 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg030">Dem. 30</bibl>)</head>
+ <p><milestone unit="section" n="1"/> When <name type="ancientAuthor">Demosthenes</name> was
+ about to initiate a guardianship suit against <name type="person">Aphobus</name>,<note
+ place="footnote">Cf. <bibl 
+ n="Lib. Arg. Orat. Dem. 27"><title>Hyp.</title> to Dem. 27</bibl> (<term
+ sortKey="libanius@hypothesis_Dem_27">Lib. <title>hyp.</title> 28</term>).</note>
+ <name type="person">Aphobus</name> married <name type="person">Onetor</name>’s
+ sister. She had been given to him by her former husband <name type="person"
+ >Timocrates</name>, since he was about to marry an heiress. <milestone unit="section"
+ n="2"/> Later, when <name type="person">Aphobus</name> was already a defendant in the
+ guardianship case (as the orator shows), <name type="person">Onetor</name> fabricated a
+ story of divorce and took his sister back home. When <name type="person">Aphobus</name>
+ was convicted, <name type="person">Onetor</name> drove the orator off when he came and
+ tried to enter his farm; Onetor claimed that the farm belonged to his sister, as it had
+ been mortgaged toward the dowry. <milestone unit="section" n="3"/> So <name
+ type="ancientAuthor">Demosthenes</name> takes him to <term sortKey="court">court</term>
+ on a charge of exclusion, on the grounds that he has been driven away from what was
+ formerly <name type="person">Aphobus</name>’ property but now belongs to him. He
+ also says that <name type="person">Aphobus</name> did not receive a dowry, only a wife;
+ for <name type="person">Onetor</name> was unwilling to give a dowry, because he saw that
+ <name type="person">Aphobus</name> and the estate were in jeopardy. Now then (he says),
+ the divorce story is pure fiction, and the farm has been mortgaged on behalf of things
+ that Aphobus never in fact received, all for the purpose of depriving me of my property.
+ <milestone unit="section" n="4"/> The word <soCalled>exclusion</soCalled>
+ (<term>exoule</term>) is Attic. For they used to say <soCalled>to exclude</soCalled>
+ (exillein) to mean <soCalled>to throw out</soCalled> and <soCalled>to drive off by
+ force.</soCalled></p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_31" n="Hypothesis 32, Demosthenes 31">
+ <head>§ 32 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg031">Dem. 31</bibl>)</head>
+ <p><milestone unit="section" n="1"/> In this speech he adds some things that were passed
+ over in the previous one,<note place="footnote">Cf. <bibl 
+ n="Lib. Arg. Orat. Dem. 30"><title>Hyp.</title> to Dem.
+ 30</bibl> (<term sortKey="libanius@hypothesis_Dem_30">Lib. <title>hyp.</title>
+ 31</term>).</note> as he himself indicates, and he furthermore makes a stand against
+ certain counterstatements. <milestone unit="section" n="2"/> With regard to these
+ speeches, we have already mentioned<note place="footnote">In the introduction, section 8:
+ <quote>Some say that the guardianship speeches are by <name type="ancientAuthor"
+ >Isaeus</name> and not by <name type="ancientAuthor">Demosthenes</name>, doubting
+ them because of the orator’s age at the time when he took them to <term
+ sortKey="court">court</term>—he was eighteen years old at the
+ time—and because the speeches seem to a certain extent to exhibit <name
+ type="ancientAuthor">Isaeus</name>’ stylistic type. Others think that they
+ were composed by <name type="ancientAuthor">Demosthenes</name> but edited by <name
+ type="ancientAuthor">Isaeus</name>. But it would not be surprising if <name
+ type="ancientAuthor">Demosthenes</name> was able to write this sort of speeches at
+ that age—his later excellence makes this credible—but because his
+ youthful training under the direction of his teacher was still in progress, he quite
+ often imitates his stylistic character.</quote></note> that many people say that they
+ were composed by <name type="ancientAuthor">Isaeus</name>, doubting that they were written
+ by the orator because of his age at the time; but others say that, if this is not the
+ case, then at least they were revised by <name type="ancientAuthor">Isaeus</name>, for
+ they resemble his speeches.<note place="footnote">Modern scholars do not follow these two
+ views. To the extent that the speeches resemble those of <name type="ancientAuthor"
+ >Isaeus</name>, <name type="ancientAuthor">Libanius</name>’ response to the
+ alleged similarity seems more judicious.</note> But it is not at all surprising if <name
+ type="ancientAuthor">Demosthenes</name> imitated his teacher and in the meantime
+ followed his style when he had not yet reached maturity.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_54" n="Hypothesis 33, Demosthenes 54">
+ <head>§ 33 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg054">Dem. 54</bibl>)</head>
+ <p><name type="person">Ariston</name> the Athenian takes <name type="person">Conon</name> to
+ <term sortKey="court">court</term> on a charge of assault, claiming that he has been
+ beaten up by him and his son, and offering witnesses to this. <name type="person"
+ >Conon</name>, however, denies doing it and offers his own witnesses to counter <name
+ type="person">Ariston</name>’s. But <name type="ancientAuthor"
+ >Demosthenes</name> says that these witnesses are not trustworthy; for they have lived
+ their lives basely and are unscrupulous about lying.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_39" n="Hypothesis 34, Demosthenes 39">
+ <head>§ 34 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg039">Dem. 39</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Mantias</name>, a former Athenian politician, legally married a woman
+ and had a son by her; this is the man who is now pleading his case. Out of lustful desire
+ <name type="person">Mantias</name> used to visit a certain <name type="person"
+ >Plangon</name>, an Attic woman. <milestone unit="section" n="2"/> When her two sons
+ reached manhood, they took <name type="person">Mantias</name> to <term sortKey="court"
+ >court</term> claiming that he was their father. But he denied it. Then he acknowledged
+ the boys; he was forced to do so because of a peculiar challenge which he was tricked into
+ making. <milestone unit="section" n="3"/> For he challenged <name type="person"
+ >Plangon</name> to swear that the children were really his, promising, if she so swore,
+ that he would abide by the oath; he challenged the woman with the mistaken understanding
+ that she would refuse the oath, for he had promised her a lot of money to do that.
+ <milestone unit="section" n="4"/> But as the man delivering the speech says, <name
+ type="person">Plangon</name> also secretly swore to <name type="person">Mantias</name>
+ that she would refuse the oath when it was offered. But when he issued the challenge, she
+ broke the agreement and accepted the oath. And thus he was forced to acknowledge the
+ children as his own; he later died. <milestone unit="section" n="5"/> So the son by the
+ lawfully married woman takes one of the two adopted sons to <term sortKey="court"
+ >court</term> over the name, saying that he should rightfully be called <name
+ type="person">Boetus</name>, which was his original name, rather than <name
+ type="person">Mantitheus</name>. For the name <name type="person">Boetus</name>, the
+ speaker claims, had originally been given to him by his father. <milestone unit="section"
+ n="6"/> At first, then, someone might seem overly fond of meddling and quarreling, in
+ disagreeing over names like this, but the speech provides sufficient proof of how
+ identical naming can be harmful both in public and in private life.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_40" n="Hypothesis 35, Demosthenes 40">
+ <head>§ 35 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg040">Dem. 40</bibl>)</head>
+ <p><milestone unit="section" n="1"/> This speech is also delivered by the same man and
+ against the same man.<note place="footnote">Cf. <bibl 
+ n="Lib. Arg. Orat. Dem. 39"><title>Hyp.</title> to Dem.
+ 39</bibl> (<term sortKey="libanius@hypothesis_Dem_30">Lib. <title>hyp.</title>
+ 34</term>).</note> And in other respects everything is the same: <name type="person"
+ >Plangon</name>, the oath, the forced acknowledgement of sons. <milestone unit="section"
+ n="2"/> When <name type="person">Mantias</name> died, his three sons—<name
+ type="person">Mantitheus</name> (the son by the lawfully married woman) and <name
+ type="person">Boetus</name> and <name type="person">Pamphilus</name> (the sons by <name
+ type="person">Plangon</name>)—were dividing up the estate. While <name
+ type="person">Mantitheus</name> claimed that his mother’s dowry belonged to
+ him, <name type="person">Boetus</name> and <name type="person">Pamphilus</name> themselves
+ also disputed the dowry on the grounds that <name type="person">Plangon</name><name
+ type="person"/> had brought one hundred mnae into <name type="person"
+ >Mantias</name>’ house. <milestone unit="section" n="3"/> So they decided to
+ divide up everything on an equal basis except for the house and the slaves: the house, so
+ that the money from its sale could be given to the person or persons whose mother is shown
+ to have brought a dowry into the marriage; the slaves, so that <name type="person"
+ >Boetus</name>’ group might be able to cross-examine them, if they want to
+ make additional inquiries into any of the belongings inside the house. <milestone
+ unit="section" n="4"/> Later they brought countersuits against each other, <name
+ type="person">Mantitheus</name> on behalf of his mother’s estate, but those
+ other men over certain other things. And the arbitrator decided in favor of <name
+ type="person">Mantitheus</name>, ruling against <name type="person">Boetus</name> for
+ failing to appear. <name type="person">Mantitheus</name> now takes him to <term
+ sortKey="court">court</term> on the same charge and demands to have the dowry back.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_36" n="Hypothesis 36, Demosthenes 36">
+ <head>§ 36 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg036">Dem. 36</bibl>)</head>
+ <p><milestone unit="section" n="1"/> When he died, <name type="person">Pasion</name> the
+ banker left behind two sons by <name type="person">Archippe</name>, <name type="person"
+ >Apollodorus</name> and <name type="person">Pasicles</name>. He put <name type="person"
+ >Phormio</name> in charge as a guardian of <name type="person">Pasicles</name>, the
+ younger son. (<name type="person">Phormio</name> was a domestic slave who had belonged to
+ <name type="person">Pasion</name> but who some time earlier had obtained his freedom.)
+ He also gave <name type="person">Phormio</name> the boys’ mother (a concubine
+ who had been his) as a wife, along with a dowry. <milestone unit="section" n="2"/>
+ <name type="person">Apollodorus</name> then divided up his father’s estate with
+ his brother, except for the bank and the shield-workshop; for <name type="person"
+ >Phormio</name> had leased these from <name type="person">Pasion</name> for a prescribed
+ time. <milestone unit="section" n="3"/> In the meantime, each of them received half the
+ rent, but later they divided up these two things, as well; <name type="person"
+ >Apollodorus</name> got the shield-workshop and <name type="person">Pasicles</name> got
+ the bank. Later, when their mother died and they had divided up her estate as well, <name
+ type="person">Apollodorus</name> brought an accusation against <name type="person"
+ >Phormio</name> for having a great deal of money that belonged to him. <milestone
+ unit="section" n="4"/> Then, when <name type="person">Apollodorus</name>’
+ relatives—<name type="person">Nicias</name>, <name type="person"
+ >Deinias</name>, &#60;<name type="person">Lysinus</name>,&#62; and <name
+ type="person">Andromenes</name>—had appointed themselves as arbitrators
+ (according to <name type="person">Phormio</name>), they persuaded <name type="person"
+ >Apollodorus</name> to accept five thousand drachmae and dismiss the complaints against
+ <name type="person">Phormio</name>. <milestone unit="section" n="5"/> Then later, <name
+ type="person">Apollodorus</name> again took <name type="person">Phormio</name> to <term
+ sortKey="court">court</term> over the capital (<term>aphorme</term>)—the Attic
+ Greeks called <term>aphorme</term> what we call <term>entheke</term>—but <name
+ type="person">Phormio</name> indicts him for bringing an illegal prosecution, adducing
+ the law which says that a case cannot come to trial again once someone has been granted a
+ release and discharge. <milestone unit="section" n="6"/> However, the orator also touches
+ on the primary case, showing that the bank did not have <name type="person"
+ >Pasion</name>’s money. He does this so that his indictment for an illegal
+ prosecution might be stronger, the unsoundness of <name type="person"
+ >Apollodorus</name>’ primary case having been demonstrated.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_45" n="Hypothesis 37, Demosthenes 45">
+ <head>§ 37 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg045">Dem. 45</bibl>)</head>
+ <p><milestone unit="section" n="1"/> When <name type="person">Apollodorus</name> sued <name
+ type="person">Phormio</name> for the bank’s capital, and <name type="person"
+ >Phormio</name> indicted him for an illegal prosecution,<note place="footnote">Cf. <bibl
+ n="Lib. Arg. Orat. Dem. 36"
+ ><title>Hyp.</title> to Dem. 36</bibl> (<term sortKey="libanius@hypothesis_Dem_36"
+ >Lib. <title>hyp.</title> 36</term>).</note>
+ <name type="person">Stephanus</name> along with some others testified on <name
+ type="person">Phormio</name>’s behalf that <name type="person">Phormio</name>
+ had issued a challenge to <name type="person">Apollodorus</name>: if <name type="person"
+ >Apollodorus</name> denies that the documents that <name type="person">Phormio</name>
+ presents are copies of his father <name type="person">Pasion</name>’s will, to
+ open the original will which <name type="person">Amphias</name> has and offers to provide.
+ But <name type="person">Apollodorus</name> refused to open them, and they were actually
+ copies of <name type="person">Pasion</name>’s will. <milestone unit="section"
+ n="2"/>
+ <name type="person">Stephanus</name>’s supporters testified to this, while <name
+ type="person">Apollodorus</name> claimed that <name type="person">Phormio</name>
+ fabricated the will and that the whole affair was a fraud. <milestone unit="section" n="3"
+ /> So after losing his case, <name type="person">Apollodorus</name> takes <name
+ type="person">Stephanus</name> to <term sortKey="court">court</term> for giving false
+ testimony.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_46" n="Hypothesis 38, Demosthenes 46">
+ <head>§ 38 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg046">Dem. 46</bibl>)</head>
+ <p>In this speech some of the previous charges are filled out further<note place="footnote"
+ >Cf. <bibl n="Lib. Arg. Orat. Dem. 36"
+ ><title>Hyp.</title> to Dem. 36</bibl> (<term sortKey="libanius@hypothesis_Dem_36"
+ >Lib. <title>hyp.</title> 36</term>) and <bibl 
+ n="Lib. Arg. Orat. Dem. 45"><title>Hyp.</title> to Dem.
+ 45</bibl> (<term sortKey="libanius@hypothesis_Dem_37">Lib. <title>hyp.</title>
+ 37</term>).</note> and other new ones are introduced, including the accusation that
+ the will is illegal.</p>
+ </div>
+ <!-- *** -->
+ <div type="section" xml:id="hypothesis_Dem_32" n="Hypothesis 39, Demosthenes 32">
+ <head>§ 39 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg032">Dem. 32</bibl>)</head>
+ <p><milestone unit="section" n="1"/> After borrowing money from <name type="person"
+ >Demon</name>, one of <name type="ancientAuthor">Demosthenes</name>’
+ relatives, a merchant named <name type="person">Protus</name> used it to buy grain in
+ <placeName key="Syracuse">Syracuse</placeName>, which he conveyed to <placeName
+ key="Athens">Athens</placeName> on a ship that <name type="person">Hegestratus</name>
+ captained. <milestone unit="section" n="2"/>
+ <name type="person">Hegestratus</name> and <name type="person"
+ >Zenothemis</name>—the latter is the man against whom this indictment for an
+ illegal prosecution is directed—were Massaliotes by race, but they did something
+ quite wicked at <placeName key="Syracuse">Syracuse</placeName>, according to the orator.
+ They borrowed money, but rather than putting it on board the ship, they secretly sent it
+ to <placeName key="Massalia">Massalia</placeName>, as they were planning to defraud the
+ lenders. For since it had been written in the contract that they would not have to pay the
+ money back if something bad happened to the ship, they plotted to sink it. <milestone
+ unit="section" n="3"/> So <name type="person">Hegestratus</name> went down during the
+ voyage by night and cut a hole in the bottom of the boat. But when he had been detected
+ and was trying to get away from the passengers, he plunged into the sea and immediately
+ died. <milestone unit="section" n="4"/> So <name type="person"
+ >Zenothemis</name>—who, according to the orator, was the <name type="person"
+ >Hegestratus</name>’ partner—laid claim to the grain when the ship
+ had barely arrived safely at <placeName key="Athens">Athens</placeName>, saying that it
+ was <name type="person">Hegestratus</name>’ grain and that he had borrowed the
+ money from him to purchase it. <milestone unit="section" n="5"/> When <name type="person"
+ >Protus</name> and <name type="person">Demon</name> stood in his way, he took them both
+ to <term sortKey="court">court</term> in a maritime case. Having gotten a conviction
+ against <name type="person">Protus</name> for willingly failing to appear (as <name
+ type="ancientAuthor">Demosthenes</name> says), <name type="person">Zenothemis</name>
+ took <name type="person">Demon</name> and his partner in crime to <term sortKey="court"
+ >court</term> a second time. <milestone unit="section" n="6"/> But <name type="person"
+ >Demon</name> indicts him for an illegal prosecution, saying that the charge is
+ inadmissible; he adduces the law that gives merchants the right to have hearings about
+ contracts concerning things transported to and from <placeName key="Athens"
+ >Athens</placeName>, and says that he had no such contract with Zenothemis. <milestone
+ unit="section" n="7"/> The case is technically a <term>
+ <term sortKey="law_glossary@paragraphe">paragraphe</term>
+ </term> [i.e., an indictment for an illegal prosecution], but the speech is made as if a
+ direct trial of the action had been introduced, and thus concerns itself with the fact
+ that the grain does not belong to <name type="person">Zenothemis</name> but rather to
+ <name type="person">Protus</name>, the man to whom <name type="person">Demon</name> had
+ loaned the money. For <name type="ancientAuthor">Demosthenes</name> does not wish it to
+ seem that he is putting all his trust in the literal wording of the law alone, while
+ unjustly giving short shrift to what actually happened; rather, he shows that he does have
+ confidence in the primary case, although the law also allows him to bring an indictment
+ for an illegal proposal over and beyond that.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_37" n="Hypothesis 40, Demosthenes 37">
+ <head>§ 40 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg037">Dem. 37</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Pantaenetus</name> purchased a mining establishment in <placeName
+ key="Maroneia">Maroneia</placeName> (this is a place in <placeName key="Attica"
+ >Attica</placeName>) and thirty slaves along with it from a man named <name
+ type="person">Telemachus</name>, borrowing a talent from <name type="person"
+ >Mnesicles</name> and forty-five mnae from <name type="person">Phileas</name> and <name
+ type="person">Pleistor</name>. <milestone unit="section" n="2"/>
+ <name type="person">Mnesicles</name> was registered as the buyer and so held the deed.
+ Later, when <name type="person">Pantaenetus</name> was being asked to repay the loan, he
+ obtained a second group of creditors—<name type="person">Nicobulus</name>, the
+ man who is bringing the present indictment for an <term sortKey="law_glossary@paragraphe"
+ >illegal prosecution</term>, and a man named <name type="person"
+ >Euergus</name>—and mortgaged the mining establishment and the slaves to them.
+ No record of the mortgage was made, only of the sale. <milestone unit="section" n="3"/>
+ And <name type="person">Mnesicles</name>, the man who made the first loan and was holding
+ the title, became the seller and guarantor for the second group of creditors. <name
+ type="person">Euergus</name> and <name type="person">Nicobulus</name> rented the slaves
+ and the mining establishment to <name type="person">Pantaenetus</name>, behaving as though
+ they were actually the owners. <milestone unit="section" n="4"/> They rented it at the
+ rate at which the loan was accruing interest. For they had loaned him 105 mnae, and there
+ had to be interest of a drachma per mna. So they agreed that they would get 105 drachmae;
+ this was actually interest, but they called it rent. <milestone unit="section" n="5"/>
+ After all this, <name type="person">Nicobulus</name> went abroad, and during his absence
+ the following took place at <placeName key="Athens">Athens</placeName>. Accusing <name
+ type="person">Pantaenetus</name> of refusing to do any of the things that they had
+ agreed upon, <name type="person">Euergus</name> (<name type="person"
+ >Nicobulus</name>’ partner in the loan) went to the mining establishment and
+ took possession of it. In addition, watching out for the silver that was being transported
+ from the mines to <name type="person">Pantaenetus</name>—silver which <name
+ type="person">Pantaenetus</name> intended to pay as an installment into the
+ treasury—he forcibly took it from the slave who was transporting it. Because of
+ this, <name type="person">Pantaenetus</name> also (as he said) had to pay a double
+ installment into the treasury, failing to meet the appointed deadline because of <name
+ type="person">Euergus</name>. <milestone unit="section" n="6"/> For these things he also
+ took <name type="person">Euergus</name> to <term sortKey="court">court</term> for damages
+ and won a conviction. When <name type="person">Nicobulus</name> returned from his trip and
+ a number of <name type="person">Pantaenetus</name>’ creditors turned up,
+ although at first nobody understood what anybody else was saying, they all finally came to
+ an agreement. The result of this agreement was that <name type="person">Nicobulus</name>
+ and <name type="person">Euergus</name> got back 105 mnae and relinquished the mining
+ establishment and the slaves, which the other creditors purchased. <milestone
+ unit="section" n="7"/> And again, when the creditors were refusing to purchase the
+ property unless <name type="person">Nicobulus</name> and <name type="person"
+ >Euergus</name> should become the actual sellers and guarantors, <name type="person"
+ >Nicobulus</name> was convinced to do so by <name type="person">Pantaenetus</name>
+ himself, who (according to <name type="person">Nicobulus</name>) was insistent on it, but
+ he did not agree until <name type="person">Pantaenetus</name> had first granted him a
+ release from every legal complaint. <milestone unit="section" n="8"/>
+ <name type="person">Pantaenetus</name> granted the release and the property was sold;
+ nevertheless, he took <name type="person">Nicobulus</name> to <term sortKey="court"
+ >court</term> on the same charge as <name type="person">Euergus</name>, bringing a
+ mining suit against him on the grounds that he was actually one of those who worked the
+ mines and had been wronged with regard to the mine. <milestone unit="section" n="9"/> He
+ brings an accusation against <name type="person">Nicobulus</name> concerning the taking of
+ the goods that were being transported by the slave, the selling of the workshop and the
+ slaves (which was done contrary to the contract), and moreover about certain other things.
+ <milestone unit="section" n="10"/> And Nicobulus brings an indictment for an illegal
+ prosecution against the case. First, he says that it is illegal because of the law which
+ orders that a case not be allowed to come to trial again once a discharge and release have
+ been given. Second, in accordance with the law which expressly and clearly defines for
+ what offenses mining suits may be brought, he says that it is inappropriate for <name
+ type="person">Pantaenetus</name>, who has not suffered any such offense, to bring him to
+ <term sortKey="court">court</term> on a mining charge. <milestone unit="section" n="11"
+ /> Morever, he adduces a third law, which defines which courts must judge which complaints
+ and which officials are required to introduce cases. He says that <name type="person"
+ >Pantaenetus</name> is making his multifaceted complaints contrary to this law, by
+ lumping all his complaints together into one case and bringing an accusation before the
+ <term sortKey="court">court</term> about everything that happened &#60;in&#62;
+ the mine. <milestone unit="section" n="12"/> Therefore, he uses the law about releases at
+ the beginning, but uses the other two at the end, so that he opens and closes with the
+ indictment for an illegal prosecution. In the middle he makes the primary case, whose
+ greatest and strongest aspect is that <name type="person">Nicobulus</name> was not
+ actually in the area when <name type="person">Pantaenetus</name>
+ &#60;suffered&#62; the things for which he previously took <name type="person"
+ >Euergus</name> and is now taking <name type="person">Nicobulus</name> to <term
+ sortKey="court">court</term>.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_38" n="Hypothesis 41, Demosthenes 38">
+ <head>§ 41 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg038">Dem. 38</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Nausimachus</name> and <name type="person">Xenopeithes</name> were
+ raised by their guardian <name type="person">Aristaechmus</name>, but when they had been
+ enrolled among the men [i.e., turned eighteen], they took him to <term sortKey="court"
+ >court</term> in a guardianship case. After getting three talents from him, they settled
+ and released him from the charges. <milestone unit="section" n="2"/>
+ <name type="person">Aristaechmus</name> died, leaving behind four children; after a long
+ time <name type="person">Nausimachus</name> and <name type="person">Xenopeithes</name>
+ take them to <term sortKey="court">court</term> for damages and demand money from the
+ guardianship. But the children bring an indictment against them for an <term
+ sortKey="law_glossary@paragraphe">illegal prosecution</term>, adducing the law which
+ forbids a case to come to trial a second time if someone grants a release and
+ discharge.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_35" n="Hypothesis 42, Demosthenes 35">
+ <head>§ 42 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg035">Dem. 35</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Androcles</name> loaned money to <name type="person">Artemon</name>, a
+ Phaselite merchant, but when <name type="person">Artemon</name> died without paying him
+ back, <name type="person">Androcles</name> holds his brother <name type="person"
+ >Lacritus</name> the sophist responsible for the debt. He accuses him in a <term>
+ <term sortKey="law_glossary@probole">probole</term>
+ </term> using two arguments from justice: first, that he loaned <name type="person"
+ >Artemon</name> the money in the presence of <name type="person">Lacritus</name>, who
+ agreed to serve as guarantor; and second, that <name type="person">Lacritus</name> is
+ <name type="person">Artemon</name>’s heir. <milestone unit="section" n="2"/>
+ But <name type="person">Lacritus</name> says that he has relinquished his claim to the
+ inheritance, and he brings an indictment against the case for an <term
+ sortKey="law_glossary@paragraphe">illegal prosecution</term>, saying that he never had a
+ contract or any other agreement with <name type="person">Androcles</name>. <name
+ type="person">Lacritus</name> totally denies that he agreed to serve as guarantor; for
+ if <name type="person">Lacritus</name> never agreed to this, then <name type="person"
+ >Androcles</name> is acting unfairly by demanding that he pay the debt in full.
+ <milestone unit="section" n="3"/> Some incorrectly believed the speech to be spurious,
+ fooled by obscure evidence. For slackness of diction is not inappropriate in private
+ cases; calling on <soCalled>Lord <name type="god">Zeus</name></soCalled> is evidently in
+ keeping with the character of the persona assumed; and his response to the indictment for
+ an <term sortKey="law_glossary@paragraphe">illegal prosecution</term> is rather weak,
+ simply because the case is a bad one.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_34" n="Hypothesis 43, Demosthenes 34">
+ <head>§ 43 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg034">Dem. 34</bibl>)</head>
+ <p><milestone unit="section" n="1"/> A merchant named <name type="person">Phormio</name>
+ borrowed twenty mnae from <name type="person">Chrysippus</name> and sailed to <placeName
+ key="Bosporus">Bosporus</placeName>, but upon arriving there he found that there was no
+ market for the cargo that he was conveying. <milestone unit="section" n="2"/> So when
+ <name type="person">Lampis</name>, the ship’s captain, wanted to sail back to
+ <placeName key="Athens">Athens</placeName> and ordered him to load up the goods bought
+ with <name type="person">Chrysippus</name>’ money—for that is what the
+ contract specified—he did not put any cargo or money on board; rather, he told
+ <name type="person">Lampis</name> that he was unable to do so at the present time, but
+ that he would very soon disembark on another ship with the money. <milestone
+ unit="section" n="3"/> Then <name type="person">Lampis</name>’ overloaded ship
+ sank, and <name type="person">Lampis</name> and a few other men were saved on the
+ lifeboat. Upon arriving at <placeName key="Athens">Athens</placeName> he revealed the
+ story of <name type="person">Phormio</name>’s good luck to <name type="person"
+ >Chrysippus</name>—that he he had stayed behind in <placeName key="Bosporus"
+ >Bosporus</placeName> and had not put anything on board the ship. <milestone
+ unit="section" n="4"/> But later, when <name type="person">Phormio</name> sailed back
+ and was being asked for the money, he at first (according to <name type="person"
+ >Chrysippus</name>) agreed that he owed it and promised to pay it back, but he later
+ claimed that he did not owe anything since he had already paid <name type="person"
+ >Lampis</name> back; for the agreement stated that <name type="person">Phormio</name>
+ should be released from the debt, if the ship suffered some misfortune at sea. <milestone
+ unit="section" n="5"/> Then <name type="person">Chrysippus</name> took him to <term
+ sortKey="court">court</term>. But <name type="person">Phormio</name> brought an
+ indictment against him for an <term sortKey="law_glossary@paragraphe">illegal
+ prosecution</term>. <name type="person">Lampis</name> testified before the arbitrator
+ that he had left <name type="person">Phormio</name>’s money behind in <placeName
+ key="Bosporus">Bosporus</placeName> and that it had been lost along with everything else
+ in the shipwreck. But previously he had said the opposite to <name type="person"
+ >Chrysippus</name>, that <name type="person">Phormio</name> had not put anything on
+ board the ship. When he was questioned on these points, <name type="person">Lampis</name>
+ claimed that he had been out of his mind when he said that to <name type="person"
+ >Chrysippus</name>. When the arbitrator heard all of this, he was unable to come to a
+ decision and so sent the matter to <term sortKey="court">court</term>. <milestone
+ unit="section" n="6"/> The case is technically a <term>
+ <term sortKey="law_glossary@paragraphe">paragraphe</term>
+ </term> [i.e., an indictment for an illegal prosecution], but in fact is directed against
+ the primary case. For the orator does a good job of showing that there cannot be an
+ indictment for an illegal prosecution, if <name type="person">Phormio</name> says that he
+ has done everything in accordance with their agreement and has paid the money back to
+ <name type="person">Lampis</name>, since the written contract prescribes this and
+ releases him from any debt if such a disaster should occur. <milestone unit="section"
+ n="7"/> This kind of argument is characteristic of one who is making his primary case
+ and is trying to counter the complaints brought against him, not of one who is trying to
+ annul a case about those complaints and get a suit declared inadmissible. But the law
+ allows indictments for illegal prosecutions (he says) concerning contracts that have not
+ in general been made at <placeName key="Athens">Athens</placeName> or on the way to
+ <placeName key="Athens">Athens</placeName>. <milestone unit="section" n="8"/> He
+ carefully observes in this speech the same practice as in <bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg059">
+ <soCalled>Against Neaera</soCalled>
+ </bibl>—that the speech should be delivered by more than one
+ person—but &#60;in that speech&#62; there is a clear distinction between
+ the two speakers,<note place="footnote">Cf. <bibl 
+ n="Lib. Arg. Orat. Dem. 59"><title>Hyp.</title> to Dem.
+ 59</bibl> (<term sortKey="libanius@hypothesis_Dem_25-26">Lib. <title>hyp.</title>
+ 25</term>).</note> while here the distinction is blurred. <milestone unit="section"
+ n="9"/> It seems to me that the second speaker begins speaking at this point: <quote>Now
+ after hearing us several times and believing, Athenian gentlemen, that <name
+ type="person">Lampis</name> was committing perjury, Theodotus….</quote><note
+ place="footnote"><bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg034:21">Dem. 34.21</bibl>.</note> It is obvious that
+ <name type="person">Phormio</name>’s opponents in this trial are partners.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_33" n="Hypothesis 44, Demosthenes 33">
+ <head>§ 44 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg033">Dem. 33</bibl>)</head>
+ <p><milestone unit="section" n="1"/> The man who is bringing this indictment against a case
+ for an <term sortKey="law_glossary@paragraphe">illegal prosecution</term> had some private
+ contracts with <name type="person">Apaturius</name>, but he gave a release and discharge
+ for them. Now, however, he is being accused because of his relationship with <name
+ type="person">Parmenon</name>, and money is being demanded from him. <name type="person"
+ >Parmenon </name>was a citizen of <placeName key="Byzantium">Byzantium</placeName>.
+ <name type="person">Apaturius</name> was a merchant from there, but he had been exiled.
+ Though initially enjoying <name type="person">Apaturius</name>’ friendship,
+ <name type="person">Parmenon</name> later took offense at him, went to <term
+ sortKey="court">court</term>, and prosecuted him for blows and damages, and <name
+ type="person">Apaturius</name> in response initiated a countersuit against <name
+ type="person">Parmenon</name>. <milestone unit="section" n="2"/>
+ <name type="person">Apaturius</name> claimed that he had turned the matter over to <name
+ type="person">Aristocles</name>, a single arbitrator, who had passed judgment against
+ <name type="person">Parmenon</name>. <name type="person">So</name>
+ <name type="person">Apaturius</name> has come to <term sortKey="court">court</term> to
+ oppose this man (the one who is now bringing an indictment for an illegal prosecution
+ against the case), saying that he had been <name type="person">Parmenon</name>’s
+ guarantor. <milestone unit="section" n="3"/> But the speaker admits none of these things;
+ rather, he says, first, that he turned the matter over to three arbitrators, not just the
+ one, <name type="person">Aristocles</name>. Second, he says that <name type="person"
+ >Archippus</name> was listed as <name type="person">Parmenon</name>’s
+ guarantor in the agreement, and that this agreement had been destroyed through the
+ wickedness of <name type="person">Apaturius</name>. <name type="person">Apaturius</name>
+ (he says) had persuaded <name type="person">Aristocles</name> (the one who was in
+ possession of the agreement) not to bring it to light, but rather to say that his slave
+ fell asleep and lost it, and that no new agreement had been written nor had the matter
+ been turned over for a new arbitration. (The first arbitration had previously been made
+ void due to the loss of the agreement, and they had never agreed on a second one). The
+ speaker also says that <name type="person">Aristocles</name>, contrary to everything that
+ is just, had given a judgment against <name type="person">Parmenon</name>—this
+ despite the fact that he was no longer the arbitrator and that <name type="person"
+ >Parmenon</name> not only was out of town at the time due to some personal tragedy, but
+ also had forbidden <name type="person">Aristocles</name> to serve as their arbitrator.
+ <milestone unit="section" n="4"/> And so the defendant presents these just objections
+ and brings an indictment against the case for an illegal prosecution, saying that a
+ release had been given for the contracts between himself and <name type="person"
+ >Apaturius</name>, that no new agreement had been drawn up later, and that the laws
+ forbade cases concerning such matters to be tried.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_55" n="Hypothesis 45, Demosthenes 55">
+ <head>§ 45 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg055">Dem. 55</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Callicles</name> (the man against whom this speech is directed) and
+ the man being sued by him were neighbors, with their two farms separated by a road down
+ the middle. When a heavy rain occurred, the water running from the road on to <name
+ type="person">Callicles</name>’ farm completely ruined it. <milestone
+ unit="section" n="2"/> For this reason, he is prosecuting his neighbor for damages; for
+ he says that a watercourse had been made on <name type="person">Tisias</name>’
+ farm to receive water from the road, but now that it has been dammed up, it has become the
+ cause of damage done to his property. <milestone unit="section" n="3"/> But <name
+ type="person">Tisias</name>’ son demonstrates, first, that the dam was very
+ old and was not built by him; he says that the watercourse was dammed up back when <name
+ type="person">Callicles</name>’ father was still alive. Then he proves that
+ the farm is not a watercourse. <milestone unit="section" n="4"/> But he also rips to
+ shreds the alleged <soCalled>damages</soCalled> that occurred to <name type="person"
+ >Callicles</name> as insignificant and not worth such a large trial. He also says that
+ <name type="person">Callicles</name>, in short, has not been wronged at all, but that he
+ has had his heart set on his farm and for this reason is fabricating all these false
+ accusations.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_52" n="Hypothesis 46, Demosthenes 52">
+ <head>§ 46 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg052">Dem. 52</bibl>)</head>
+ <p><milestone unit="section" n="1"/> A certain <placeName key="Heraclea"
+ >Heracleote</placeName> named <name type="person">Lycon</name> used <name type="person"
+ >Pasion</name>’s bank. When he was about to sail off to <placeName key="Libya"
+ >Libya</placeName>, this man left money with <name type="person">Pasion</name>, and one
+ of two things happened. According to what <name type="person">Pasion</name> said when he
+ was still alive and what <name type="person">Apollodorus</name> says now, <name
+ type="person">Lycon</name> instructed <name type="person">Pasion</name> to pay the money
+ to <name type="person">Cephisiades</name>. But according to <name type="person"
+ >Callippus</name>, <name type="person">Lycon</name> freely gave the money to him, as he
+ was both his friend and a proxenos of all the Heracleotes. <milestone unit="section" n="2"
+ /> When <name type="person">Lycon</name> died, the money was paid to <name type="person"
+ >Cephisiades</name>. According to <name type="person">Apollodorus</name>, since it was
+ impossible for <name type="person">Callippus</name> to persuade <name type="person"
+ >Pasion</name> to join him in ganging up on the foreigner, <name type="person"
+ >Callippus</name> attacked <name type="person">Pasion</name> himself by bringing a suit
+ against him for damages and turned the matter over to <name type="person"
+ >Lysitheides</name>, who failed to pronounce a decision while <name type="person"
+ >Pasion</name> was still alive. But when <name type="person">Pasion</name> died, <name
+ type="person">Callippus</name> immediately brought a suit against <name type="person"
+ >Apollodorus</name> for the money and asked that the case be handed over to <name
+ type="person">Lysitheides</name> again. <milestone unit="section" n="3"/>
+ <name type="person">Apollodorus</name> accepted the arbitrator, but he took <name
+ type="person">Lysitheides</name> before the <term sortKey="archon">archon</term> in
+ accordance with the laws, so that (as he says) <name type="person">Lysitheides</name>
+ would have to swear an oath before pronouncing his decision and would be unable to
+ arbitrate the case without doing so (and thereby serving <name type="person"
+ >Callippus</name>’ interests). But <name type="person">Lysitheides</name> gave
+ a decision without swearing an oath, and the decision went against <name type="person"
+ >Apollodorus</name>. So <name type="person">Apollodorus</name> appeals the decision and
+ takes him to <term sortKey="court">court</term>.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_51" n="Hypothesis 47, Demosthenes 51">
+ <head>§ 47 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg051">Dem. 51</bibl>)</head>
+ <p><milestone unit="section" n="1"/> When many momentous affairs were driving the Athenians
+ to fill out their complement of triremes and attend to their naval forces, a decree was
+ passed that whichever trierarch could produce a fully outfitted ship first would receive a
+ crown, and that any trierarch who failed to bring his ship to anchor at the pier before
+ <soCalled>old and new day</soCalled> (which is the last day of the month) would be
+ imprisoned. (The pier was a structure in the harbor which was put there so that sailors
+ could drop anchor and conduct their business.) <milestone unit="section" n="2"/> So <name
+ type="person">Apollodorus</name>, son of <name type="person">Pasion</name>, who was the
+ first to bring his ship to anchor, received the crown. But when a second contest is
+ proposed to crown whoever did the best job of equipping his trireme, <name type="person"
+ >Apollodorus</name> responds by laying claim to that prize, as well.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_50" n="Hypothesis 48, Demosthenes 50">
+ <head>§ 48 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg050">Dem. 50</bibl>)</head>
+ <p>After <name type="person">Apollodorus</name>, son of <name type="person">Pasion</name>,
+ had eagerly served as trierarch for the appointed time, he extended his trierarchy for a
+ not insignificant additional amount of time because his successor <name type="person"
+ >Polycles</name> did not come to the ship immediately, and when he did finally come he
+ did not take over from <name type="person">Apollodorus</name> immediately, but rather gave
+ the excuse that he was waiting for his partner in the trierarchy. Since the time spent in
+ the extension of his trierarchy was so long, <name type="person">Apollodorus</name>
+ demands that his expenses be recouped from <name type="person">Polycles</name>.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_49" n="Hypothesis 49, Demosthenes 49">
+ <head>§ 49 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg049">Dem. 49</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Apollodorus</name> demands that <name type="person">Timotheus</name>
+ the Athenian, a well-respected man and former general of the city, pay his debts. He
+ claims that <name type="person">Timotheus</name>, with the help of his friend <name
+ type="person">Pasion</name>, received money from him and so is listed as a debtor in the
+ bank’s accounts. <milestone unit="section" n="2"/> In fact, there is a total of
+ four debts, and for each one he relates the precise times and reasons for which <name
+ type="person">Timotheus</name> borrowed money. He provides the greatest number of
+ arguments from the so-called <soCalled>inartistic</soCalled> proofs (<term>atechnoi
+ pisteis</term>)—depositions and challenges—but also some artistic
+ proofs (<term>entechnoi pisteis</term>) from probability.<note place="footnote"
+ ><soCalled>Inartistic proofs</soCalled> are proofs that do not have to be invented by
+ the speaker; <soCalled>artistic</soCalled> proofs are those which do. The terms are
+ defined and discussed in <bibl 
+ n="Arist. Rh. 1355b 35-40">Aristotle, <title>Rhetoric</title> 1.2.2 (1355b
+ 35-40)</bibl>.</note>
+ <milestone unit="section" n="3"/>
+ <name type="person">Apollodorus</name> says that <name type="person">Timotheus</name> is
+ the borrower and that money was paid from the bank to the men introduced to him by <name
+ type="person">Timotheus</name>, but <name type="person">Timotheus</name> says that he is
+ not responsible for the debt-those men are.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_53" n="Hypothesis 50, Demosthenes 53">
+ <head>§ 50 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg053">Dem. 53</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Apollodorus</name> indicted <name type="person">Arethusius</name> for
+ falsely claiming that he had witnessed a summons, and he won a conviction against him. But
+ since <name type="person">Arethusius</name> owes the city a talent and is unable to pay it
+ off, and, because of this, his estate is being inventoried for confiscation into the
+ treasury, <name type="person">Apollodorus</name> seeks to get some slaves added to the
+ inventory on the grounds that they belong to <name type="person">Arethusius</name>, but
+ <name type="person">Nicostratus</name> alleges that they are his slaves and do not
+ belong to <name type="person">Arethusius</name> at all. <milestone unit="section" n="2"/>
+ Since the matter is morally disreputable, the orator relates how greatly <name
+ type="person">Apollodorus</name> has suffered at the hands of <name type="person"
+ >Arethusius</name>, so that <name type="person">Apollodorus</name> may seem to be
+ pursuing this case not because he an evil man by nature, but rather because he is taking
+ vengeance on a wrongdoer.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_42" n="Hypothesis 51, Demosthenes 42">
+ <head>§ 51 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg042">Dem. 42</bibl>)</head>
+ <p><milestone unit="section" n="1"/> Some do not ascribe this speech to <name
+ type="ancientAuthor">Demosthenes</name>, but it has the following hypothesis. <milestone
+ unit="section" n="2"/> There was an organization at <placeName key="Athens"
+ >Athens</placeName> of three hundred men selected according to wealth; the more
+ expensive of the liturgies fell to them. But the law allowed any of these men who had
+ labored hard at performing liturgies to get out of the organization, if he could show that
+ there was someone richer than himself who currently had no responsibilities. And if the
+ man so designated admitted that he was richer, he was appointed to take the other
+ man’s place among the three hundred. But if he denied it, they subjected his
+ estate to an exchange (<term sortKey="law_glossary@antidosis">antidosis</term>).
+ <milestone unit="section" n="3"/> Now then, one of the three hundred, saying that he has
+ already labored hard over liturgies and consequently is poor, has named <name
+ type="person">Phaenippus</name>, and they have initiated an exchange of property. But
+ with regard to the exchange, he accuses <name type="person">Phaenippus</name> of not
+ giving the inventory of his estate at the appropriate time, but much later; of breaking
+ the seals on the building for the purpose of carrying off some of the things inside; and
+ of fabricating lies about his being greatly in debt.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_41" n="Hypothesis 52, Demosthenes 41">
+ <head>§ 52 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg041">Dem. 41</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Polyeuctus</name>, an Athenian man, was the father of two daughters.
+ He initially gave the younger one to <name type="person">Leocrates</name>, and later to
+ <name type="person">Spudias</name>, and he gave the older one to the plaintiff in this
+ case against <name type="person">Spudias</name>. <milestone unit="section" n="2"/>
+ <name type="person">Polyeuctus</name> then died, leaving his daughters an estate to share.
+ The husband of the older daughter says that forty mnae were agreed upon for the dowry.
+ However (according to him), the whole amount was not handed over immediately; there was an
+ outstanding debt of ten mnae. While he was still alive, <name type="person"
+ >Polyeuctus</name> agreed that he was responsible for this debt, and when he was about
+ to die, he agreed to separate the house from the rest of the estate and apply it toward
+ the debt. But <name type="person">Spudias</name> demands that the house, just like
+ everything else, be included among their common property. <milestone unit="section" n="3"
+ /> This is the most important of the points in dispute in the speech, but the plaintiff
+ also accuses <name type="person">Spudias</name> of other things. For he says that <name
+ type="person">Spudias</name> owed money to <name type="person">Polyeuctus</name> and the
+ older daughter but did not pay it back as required. <milestone unit="section" n="4"/> But
+ in response to <name type="person">Spudias</name>’ claim that he, too, received
+ thirty mnae as a dowry, the speaker says that it was entirely at <name type="person"
+ >Polyeuctus</name>’ discretion, if he wished, to give a larger dowry to one of
+ the daughters rather than giving an equal dowry to both of them, and then he proves that
+ <name type="person">Spudias</name> is even lying about this; for he says that <name
+ type="person">Spudias</name> received thirty mnae in silver, ten in clothing, and some
+ gold coins which (as he says) are worth more than ten mnae.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_48" n="Hypothesis 53, Demosthenes 48">
+ <head>§ 53 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg048">Dem. 48</bibl>)</head>
+ <p><milestone unit="section" n="1"/> This speech features a colorful turn of events. An
+ Athenian man named <name type="person">Conon</name><note place="footnote">Some manuscripts
+ of <name type="ancientAuthor">Demosthenes</name> call him <soCalled><name type="person"
+ >Comon</name>.</soCalled></note> died childless, so that his estate came into
+ dispute by his relatives. <milestone unit="section" n="2"/>
+ <name type="person">Callistratus</name>, the man who is delivering the present speech,
+ says that the entire estate belongs to him; for he is <name type="person"
+ >Conon</name>’s closest relative. However, he may perhaps be lying about this
+ and simply making it up, based on no real evidence. <milestone unit="section" n="3"/> But
+ <name type="person">Olympiodorus</name> (the man against whom the suit has been brought)
+ and the speaker initially disputed for the estate. <name type="person">Olympiodorus</name>
+ and <name type="person">Callistratus</name> were both relatives; <name type="person"
+ >Callistratus</name>’ wife was <name type="person"
+ >Olympiodorus</name>’ sister. <milestone unit="section" n="4"/> So they decided
+ not to disagree with each other, but rather to divide equally whatever part of the dead
+ man’s estate was visible and granted by both parties, and to investigate the
+ invisible property together and to do everything concerning it together. For they were
+ expecting that other people would come to dispute with them for the estate. They drew up
+ an agreement about this and deposited it with <name type="person">Androcleides</name>, a
+ friend they had in common. <milestone unit="section" n="5"/>
+ <name type="person">Moschion</name> was a slave of <name type="person">Conon</name>, who
+ was believed to be very loyal to him. <name type="person">Olympiodorus</name> took him and
+ along with <name type="person">Callistratus</name> examined him by torture, because he was
+ slanderously said to have stolen a thousand drachmae from <name type="person"
+ >Conon</name>. And when the slave confessed to stealing the money, <name type="person"
+ >Olympiodorus</name> split it, too, with <name type="person">Callistratus</name> in
+ accordance with their agreement. But <name type="person">Olympiodorus</name> suspected
+ that the man had even more money, so he went by himself (without taking <name
+ type="person">Callistratus</name> along), tortured <name type="person">Moschion</name>,
+ and got seventy additional mnae for himself. <milestone unit="section" n="6"/> Around this
+ time a number of others laid claim to <name type="person">Conon</name>’s estate,
+ including <name type="person">Callippus</name>, <name type="person"
+ >Callistratus</name>’ brother by the same father. <name type="person"
+ >Olympiodorus</name> and <name type="person">Callistratus</name> plotted together about
+ the lawsuits and agreed that <name type="person">Olympiodorus</name> would lay claim to
+ the whole estate, while <name type="person">Callistratus</name> would sue for half.
+ <milestone unit="section" n="7"/> When the Athenians were marching to <placeName
+ key="Acarnania">Acarnania</placeName>, <name type="person">Olympiodorus</name> went,
+ too; for he was one of those on the list for service. When the day appointed for the trial
+ arrived, the jury was made to believe that this military campaign was simply a pretext,
+ and so they dismissed his claim to the inheritance. Because of this <name type="person"
+ >Callistratus</name> says that he, too, dropped his suit for half the estate, abiding by
+ their agreement, which compelled them to act on everything jointly. <milestone
+ unit="section" n="8"/> But when <name type="person">Olympiodorus</name> came back from
+ the campaign, he and <name type="person">Callistratus</name> introduced a second action
+ against the winners, as the law allows. And they disputed over the estate, just as they
+ did before: the one seeking half the estate, the other the whole. <milestone
+ unit="section" n="9"/>
+ <name type="person">Olympiodorus</name> spoke first and won the estate. But although he
+ won and obtained the whole estate, he did not abide by the agreement that he had made
+ previously, nor did he give half the estate to <name type="person">Callistratus</name>.
+ <milestone unit="section" n="10"/>
+ <name type="person">Callistratus</name> demands from him half of the seventy mnae that he
+ got from <name type="person">Moschion</name> and half of the estate, basing his claim on
+ their agreement. He says that he had teamed up with <name type="person"
+ >Olympiodorus</name> in the last trial, agreeing to deliver the speeches that <name
+ type="person">Olympiodorus</name> wanted and to provide perjurous witnesses; and unless
+ it had been part of their joint plan to go to <term sortKey="court">court</term> against
+ each other (he says), he could easily have refuted those witnesses and not allowed <name
+ type="person">Olympiodorus</name> to win.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_56" n="Hypothesis 54, Demosthenes 56">
+ <head>§ 54 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg056">Dem. 56</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Dareius</name> and <name type="person">Pamphilus</name> loaned <name
+ type="person">Dionysodorus</name> three thousand drachmae for him to sail to <placeName
+ key="Egypt">Egypt</placeName> and from there back to <placeName key="Athens"
+ >Athens</placeName> again. They took the ship as security, and it was mutually agreed
+ that they would also get back whatever interest was due them when <name type="person"
+ >Dionysodorus</name> returned to <placeName key="Athens">Athens</placeName>. <milestone
+ unit="section" n="2"/>
+ <name type="person">Dionysodorus</name> sailed up from <placeName key="Egypt"
+ >Egypt</placeName>, came to port at <placeName key="Rhodes">Rhodes</placeName>, and
+ there unloaded his cargo, either (according to him) because the ship was wrecked and
+ rotten, or (according to <name type="person">Dareius</name>) because he found out that
+ grain was cheap at <placeName key="Athens">Athens</placeName>; for <name type="person"
+ >Dareius</name> claims that the ship is seaworthy and even now is able to sail.
+ <milestone unit="section" n="3"/> So those who made the loan are accusing <name
+ type="person">Dionysodorus</name> of breaking the contract, since he did not present the
+ security (that is, the ship) where it could easily be seen, and they are demanding back
+ from him the interest that they had agreed upon. However, he does not want to pay the
+ whole amount back, but only an amount proportional to the part of the voyage that he
+ actually sailed.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_47" n="Hypothesis 55, Demosthenes 47">
+ <head>§ 55 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg047">Dem. 47</bibl>)</head>
+ <p><milestone unit="section" n="1"/> Since the Athenians were in a hurry to set out on a
+ naval expedition, trireme equipment was needed. And a decree was passed to exact payment
+ quickly from some of the former trierarchs who owed the city some trireme equipment.
+ <milestone unit="section" n="2"/> So one man would be appointed to exact payment from
+ others; the man delivering the present speech was appointed to do so to <name
+ type="person">Theophemus</name> and <name type="person">Demochares</name>. He brought a
+ suit against them for behaving unfairly, and he won. <name type="person">Demochares</name>
+ paid up, but <name type="person">Theophemus</name> was still craftily trying to get out of
+ it. <milestone unit="section" n="3"/> When the <term sortKey="Council">Council</term>
+ voted to exact payment from debtors by whatever means possible, this man (the one who is
+ now having his case heard) went to <name type="person">Theophemus</name>’ house.
+ They struck each other in the skirmish that ensued, and then they brought actions for
+ assault against each other, each of them claiming that the other one hit him first. (For
+ this was the definition of assault.) <milestone unit="section" n="4"/> So <name
+ type="person">Theophemus</name> went first and offered <name type="person"
+ >Euergus</name> and <name type="person">Mnesibulus</name> as witnesses; one of these men
+ was his brother, the other his brother-in-law. And they testified that <name type="person"
+ >Theophemus</name> was willing to hand over the woman who was present at the fight for
+ examination by torture, so that she could declare under torture which of the two men
+ struck first, but when <name type="person">Theophemus</name> issued a challenge about this
+ and tried to hand over the maid, the speaker did not accept. <milestone unit="section"
+ n="5"/> Finally the jurors were convinced by their testimony and voted in favor of <name
+ type="person">Theophemus</name>, but now the loser is taking the witnesses to <term
+ sortKey="court">court</term> for lying.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_43" n="Hypothesis 56, Demosthenes 43">
+ <head>§ 56 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg043">Dem. 43</bibl>)</head>
+ <p><milestone unit="section" n="1"/>
+ <name type="person">Hagnias</name> and <name type="person">Eubulides</name> were first
+ cousins. <name type="person">Hagnias</name> died childless, but <name type="person"
+ >Eubulides</name> left behind a daughter named <name type="person">Phylomache</name>,
+ who was suing for <name type="person">Hagnias</name>’ estate on the grounds that
+ she was his closest living relative. <milestone unit="section" n="2"/> Some men named
+ <name type="person">Glaucus</name> and <name type="person">Glaucon</name> were disputing
+ with her for it, basing their claim not on a close familial relationship with the
+ deceased, but on his will. But when the will was proved in <term sortKey="court"
+ >court</term> to be a forgery, <name type="person">Phylomache</name> inherited the
+ estate. <milestone unit="section" n="3"/>
+ <name type="person">Theopompus</name> then went to <term sortKey="court">court</term>,
+ teamed up with <name type="person">Eupolemus</name> and the very men who had lost, and
+ summoned <name type="person">Phylomache</name> to an entitlement hearing over the estate.
+ For the law allowed anyone who so desired, to summon the one who had won and who was
+ holding the estate. Because <name type="person">Theopompus</name>’ case had been
+ trumped up to deceive (as <name type="person">Sositheus</name> says), he won. <milestone
+ unit="section" n="4"/>
+ <name type="person">Theopompus</name> died, leaving behind a son named <name type="person"
+ >Macartatus</name>. Meanwhile, a son was born to <name type="person">Phylomache</name>,
+ whom she named <name type="person">Eubulides</name>; she gave him in adoption to her
+ father <name type="person">Eubulides</name>—the first cousin of <name
+ type="person">Hagnias</name>, the man who had left behind the estate. Having given him
+ over for adoption, she introduced him to the clansmen of <name type="person"
+ >Eubulides</name> and <name type="person">Hagnias</name>, and the clansmen accepted the
+ boy as properly introduced. <milestone unit="section" n="5"/> Now that this has been
+ accomplished, the son has summoned <name type="person">Macartatus</name>, son of <name
+ type="person">Theopompus</name>, to an entitlement hearing over the estate. And <name
+ type="person">Sosistheus</name>, the son’s natural father, delivers the
+ speech.</p>
+ </div>
+ <div type="section" xml:id="hypothesis_Dem_44" n="Hypothesis 57, Demosthenes 44">
+ <head>§ 57 (<bibl 
+ type="cts-urn" n="urn:cts:greekLit:tlg0014.tlg044">Dem. 44</bibl>)</head>
+ <p><milestone unit="section" n="1"/> When <name type="person">Archiades</name> died
+ childless, <name type="person">Leocrates</name> took possession of his estate, as he was
+ his relative and said that <name type="person">Archiades</name> had adopted him. Up until
+ a certain point he himself held the estate, and then he made his own son <name
+ type="person">Leostratus</name> into an adopted son of <name type="person"
+ >Archiades</name>, withdrew himself from the family, and went back to his original
+ family, because the law grants indemnity for this. <milestone unit="section" n="2"/> But
+ <name type="person">Leostratus</name> in turn did the same thing; he put his son <name
+ type="person">Leocrates</name> into <name type="person">Archiades</name>’
+ family and went back to the house of his natural father. <milestone unit="section" n="3"/>
+ Now <name type="person">Leocrates</name>, the last one adopted by <name type="person"
+ >Archiades</name>, has died childless. <name type="person">Aristodemus</name> has come
+ to claim the estate, saying that he is the closest living relative of <name type="person"
+ >Archiades</name> (whose estate it was originally) and that through <name type="person"
+ >Archiades</name> he is the closest living relative to <name type="person"
+ >Leocrates</name> (the last of those adopted). <milestone unit="section" n="4"/> But
+ <name type="person">Leochares</name>, the brother of the dead man, disputes with <name
+ type="person">Aristodemus</name> over the estate, basing his claim largely on an
+ adoption, on the grounds that he was the adopted son of <name type="person"
+ >Leocrates</name>, but also claiming that he is related to <name type="person"
+ >Archiades</name>. <milestone unit="section" n="5"/> And the man who is speaking on
+ behalf of <name type="person">Aristodemus</name> demonstrates that the familial
+ relationship awards the estate to <name type="person">Aristodemus</name>, but that the
+ adoption is illegal. For <name type="person">Leocrates</name> (he says) did not adopt
+ <name type="person">Leochares</name> as his son while he was alive, as the laws
+ prescribe; rather, the adoption took place after his death for the purpose of defrauding
+ someone of an estate, contrary to the laws. <name type="person"
+ >Aristodemus</name>’ son delivers the speech.</p>
+ </div>
+ </body>
+ </text>
+</TEI>

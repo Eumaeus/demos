@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Ancient Scholarship</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  n='ancient scholarship' type='ancientGenre'>Ancient Scholarship</name></head>
+<p >Just as modern scholars read and comment on the work of ancient historians, orators, and poets, so too did ancient scholars. Scholars like <name  type='ancientAuthor'>Dionysius</name> of <placeName  key='Halicarnassus'>Halicarnassus</placeName>, <name  type='ancientAuthor'>Libanius</name>, or <name  type='ancientAuthor'>Didymus</name> wrote commentaries on ancient authors and works. These ancient scholars addressed issues of style (<quote >What are the defining characteristics of <name  type='ancientAuthor'>Demosthenes</name>’ rhetorical style?</quote>) authorship (<quote >Did <name  type='ancientAuthor'>Demosthenes</name> actually write the speech <title >On <placeName  key='Halonnesus'>Halonnesus</placeName>?</title>,</quote> see <bibl  n='urn:cts:greekLit:tlg0014.tlg007' type='cts-urn'>Dem. 7</bibl>), or details of content (<quote >When <name  type='ancientAuthor'>Homer</name> mentions a door-lock, what kind of door-lock is he describing?</quote>). While these ancient scholars were just as likely to make mistakes as modern scholars, they did have access to many works that have not survived to the present day. A significant work in this genre is the <rs  n='http://www.stoa.org/sol/' type='uri'><name  type='ancientAuthor'>Suda</name></rs>, a historical encyclopedia from the <date  from='0900' to='0999'>10th century CE</date>, that provides many quotations from lost authors, discussions of word-usage, and historical anecdotes.</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

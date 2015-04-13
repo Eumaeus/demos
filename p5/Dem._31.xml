@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 31</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text >
+<body >
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg031' type='cts-urn'>Dem. 31</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Onetor</name> II</title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). After <name  type='ancientAuthor'>Demosthenes</name> won his suit against <name  type='person'>Aphobus</name> (see <bibl  n='urn:cts:greekLit:tlg0014.tlg027' type='cts-urn'>Dem. 27</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg028' type='cts-urn'>Dem. 28</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg029' type='cts-urn'>Dem. 29</bibl>), <name  type='person'>Aphobus</name> was condemned to pay 10 talents in damages (see <term  sortKey='Money'>Money</term>). But he managed to place most of his property out of the reach of <name  type='ancientAuthor'>Demosthenes</name> or the courts, and move himself to <placeName  key='Megara'>Megara</placeName>. He did own a farm in <placeName  key='Athens'>Athens</placeName>, which <name  type='ancientAuthor'>Demosthenes</name> tried to seize as part of the settlement (the farm was worth one talent). But <name  type='person'>Aphobus</name>’ brother-in-law, <name  type='person'>Onetor</name>, was living on the farm, and claimed that the farm was mortgaged to him. This speech is from a <soCalled >suit for ejectment</soCalled> (<foreign  xml:lang='grc'>δίκη ἐξούλης</foreign>), by which <name  type='ancientAuthor'>Demosthenes</name> tried to remove <name  type='person'>Onetor</name> from the farm and to take possession of the farm himself. <bibl  n='urn:cts:greekLit:tlg0014.tlg030' type='cts-urn'>Dem. 30</bibl> was the first speech <name  type='ancientAuthor'>Demosthenes</name> gave at the trial. <bibl  n='urn:cts:greekLit:tlg0014.tlg031' type='cts-urn'>Dem. 31</bibl>, the present speech, was the speech <name  type='ancientAuthor'>Demosthenes</name> gave in response to <name  type='person'>Onetor</name>’s defense.<name  type='ancientAuthor'> </name></p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

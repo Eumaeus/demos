@@ -1,0 +1,61 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Oratory</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+			 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  n='oratory' type='ancientGenre'>Oratory</name></head>
+<p > There survives, from the <date  from='-0415' to='-0400'>late 5th century</date> through the <date  from='-0399' to='-0300'>4th century BCE</date>, a large body of speeches that were given in public forums, either in the <term  sortKey='Assembly'>Assembly</term> or in <term  sortKey='lawcourt'>law-courts</term> (speeches for the prosecution or defense in a civil or criminal trial). We have speeches from the orators <name  type='ancientAuthor'>Lysias</name>, <name  type='ancientAuthor'>Isaeus</name>, <name  type='ancientAuthor'>Hyperides</name>, <name  type='ancientAuthor'>Isocrates</name>, <name  type='ancientAuthor'>Dinarchus</name>, <name  type='ancientAuthor'>Demades</name>, <name  type='ancientAuthor'>Aeschines</name>, <name  type='ancientAuthor'>Antiphon</name>, <name  type='ancientAuthor'>Lycurgus</name>, <name  type='ancientAuthor'>Andocides</name>, and <name  type='ancientAuthor'>Demosthenes</name>. These are important sources for Athenian Democracy, but must be treated with care; the speechwriters, like modern lawyers, wanted to win their cases, and so we should assume that they would twist the truth to their advantage whenever they could get away with it. Orators were out to win, not to write <name  n='history' type='ancientGenre'>history</name>.</p>
+
+<p >One clear example of the orators’ lack of interest in consistency, when it came to the historical <soCalled >facts</soCalled> that they relate has to do with the <term  sortKey='Assembly'>Assembly</term>’s granting of <term  sortKey='citizenship'>citizenship</term>. <name  type='ancientAuthor'>Demosthenes</name> says, in one speech, that <name  type='person'>Meno</name> of <placeName  key='Pharsalus'>Pharsalus</placeName> and <name  type='person'>Perdiccas</name> of <placeName  key='Macedonia'>Macedonia</placeName> were granted <term  sortKey='citizenship'>citizenship</term> by the <term  sortKey='Assembly'>Assembly</term> (<bibl  n='urn:cts:greekLit:tlg0014.tlg023:199' type='cts-urn'>Dem. 23.199</bibl> - <bibl  n='urn:cts:greekLit:tlg0014.tlg023:200' type='cts-urn'>Dem. 23.200</bibl>), but at another place he says, quite explicitly, that these two were not granted <term  sortKey='citizenship'>citizenship</term> but merely immunity from taxes (<bibl  n='urn:cts:greekLit:tlg0014.tlg013:23' type='cts-urn'>Dem. 13.23</bibl> - <bibl  n='urn:cts:greekLit:tlg0014.tlg013:24' type='cts-urn'>Dem. 13.24</bibl>).
+</p>
+
+<p >Still, oratory gives us most of what we know about the day-to-day working of the Athenian Democracy. A final cautionary word is in order on laws quoted in oratory. When a speech quotes a <soCalled >law</soCalled>, it is very likely that the quotation was not part of the original speech, but was added later (sometimes much later); this means that these quotation are not necessarily as reliable as they might initially seem. </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

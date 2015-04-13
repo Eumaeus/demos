@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 39</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg039' type='cts-urn'>Dem. 39</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Boeotus</name> I</title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech that <name  type='ancientAuthor'>Demosthenes</name> wrote for a man named <name  type='person'>Mantitheus</name>, who was suing his half-brother <name  type='person'>Boeotus</name>. In <placeName  key='Athens'>Athens</placeName>, a man was known by his given name (e.g. <name  type='person'>Mantitheus</name>), plus either his father’s name (e.g. <name  type='person'>Mantitheus</name> son of <name  type='person'>Mantias</name>), and the name of his deme, his local district in <placeName  key='Attica'>Attica</placeName> (e.g. <name  type='person'>Mantitheus</name> son of <name  type='person'>Mantias</name> from <placeName  key='Thoricus'>Thoricus</placeName>). In the case for which this speech was written, <name  type='person'>Mantitheus</name> is suing his half-brother <name  type='person'>Boeotus</name> because, the plaintiff claims, <name  type='person'>Boeotus</name> has tried to assume the name <name  type='person'>Mantitheus</name> himself. Needless to say, if both plaintiff and defendant use the same given name, and both have the same father and both come from the same deme, great confusion is likely to result. The plaintiff here claims that he was his father’s legitimate son and was registered in the deme’s roll under the name <name  type='person'>Mantitheus</name>, thus having claim to the name. Despite the fact that the plaintiff’s case seems clear-cut, it is almost certain that the plaintiff lost the case—in <bibl  n='urn:cts:greekLit:tlg0014.tlg040' type='cts-urn'>Dem. 40</bibl>, this same <name  type='person'>Mantitheus</name> is suing this same <name  type='person'>Boeotus</name> over a different matter, and at <bibl  n='urn:cts:greekLit:tlg0014.tlg040:18' type='cts-urn'>Dem. 40.18</bibl> we find that the suit was officially lodged against <soCalled ><name  type='person'>Mantitheus</name></soCalled>, suggesting that after the first trial, <soCalled ><name  type='person'>Boeotus</name></soCalled> was allowed to continue using the name <soCalled ><name  type='person'>Mantitheus</name></soCalled>. This case should serve as a reminder of the possible problems with using speeches as evidence; in the case of <name  type='person'>Mantitheus</name> vs. <name  type='person'>Boeotus</name>, there were two sides to the argument, and the one we have seems to have been the worse one. The speech was probably written in <date  when='-0348'>348 BCE</date> (Source for date: <bibl >R. Sealey, <title >Demosthenes and his Time: a study in defeat</title> [Oxford, 1993] 144</bibl>) </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

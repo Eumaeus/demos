@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Isaeus</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  type='ancientAuthor'>Isaeus</name></head>
+<p >Born about <date  when='-0420'>420 BCE</date>, died during the <date  from='-0349' to='-0340'>340s BCE</date> (source for date: <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>), thought either to be from <placeName  key='Chalcis'>Chalcis</placeName> in <placeName  key='Euboea'>Euboea</placeName> or from <placeName  key='Athens'>Athens</placeName>. Due to his non-participation in political affairs, it has been asserted that <name  type='ancientAuthor'>Isaeus</name> was a resident alien, or metic (<foreign  xml:lang='grc'>μέτοικος</foreign>). This theory would lend credence to the assertion that he was originally from <placeName  key='Chalcis'>Chalcis</placeName>. Much of our knowledge of <name  type='ancientAuthor'>Isaeus</name> comes from the <bibl  n='urn:cts:greekLit:tlg0081.tlg005' type='cts-urn'>De Isaeo</bibl> (<bibl  n='urn:cts:greekLit:tlg0081.tlg005' type='cts-urn'>On Isaeus</bibl>) of <name  type='ancientAuthor'>Dionysius</name> of <placeName  key='Halicarnassus'>Halicarnassus</placeName>, a literary critic who lived during the reign of the Roman emperor <name  type='person'>Augustus</name> (<date  from='-0031' to='0014'>31 BCE - 14 CE</date>; source for date, <bibl  n='OCD3'><title >OCD</title><edition >3</edition></bibl>). In the <bibl  n='urn:cts:greekLit:tlg0081.tlg005' type='cts-urn'>De Isaeo</bibl>, <name  type='person'>Hermippus</name> of <placeName  key='Smyrna'>Smyrna</placeName> (<date  when='-0200'>c. 200 BCE</date>) (source for date: <bibl >E.S. Forster, <title >Isaeus</title> [Cambridge, Mass.; Loeb Classical Library; 1943] vii</bibl>) is quoted saying that <name  type='ancientAuthor'>Isaeus</name> was a student of <name  type='ancientAuthor'>Isocrates</name> and the teacher of <name  type='ancientAuthor'>Demosthenes</name>. <name  type='ancientAuthor'>Isaeus</name> would have been among the earliest students of <name  type='ancientAuthor'>Isocrates</name>, who opened his academy at <placeName  key='Athens'>Athens</placeName> around <date  when='-0392'>392 BCE</date> (source for date: <bibl >E.S. Forster, <title >Isaeus</title> [Cambridge, Mass.; Loeb Classical Library; 1943] ix</bibl>). According to the <bibl  n='urn:cts:greekLit:tlg0007.tlg121' type='cts-urn'><title >Lives of the Ten Orators</title></bibl>, which is attributed to <name  type='ancientAuthor'>Plutarch</name>, there are a total of 64 speeches and one handbook of <name  n='oratory' type='ancientGenre'>rhetoric</name> that were attributed to <name  type='ancientAuthor'>Isaeus</name>. Eleven of his speeches remain intact today (all of which deal with cases of inheritance), while the titles and some small fragments of 43 others survive as well. (See also the genre of <name  n='oratory' type='ancientGenre'>Oratory</name>.)</p>
+<byline >Christopher Cotten</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

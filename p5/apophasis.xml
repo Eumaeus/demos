@@ -1,0 +1,385 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:math="http://www.w3.org/1998/Math/MathML"
+ xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Apophasis (Special Investigations)</title>
+    <author>Christopher W. Blackwell</author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher> The Stoa: a consortium for electronic publication in the humanities (www.stoa.org) </publisher>
+    <authority>
+     <name>A. Mahoney and R. Scaife, edd.</name>
+    </authority>
+   </publicationStmt>
+   <seriesStmt>
+    <title>Dēmos: Classical Athenian Democracy</title>
+    <respStmt>
+     <name>Christopher W. Blackwell</name>
+     <resp>Editor</resp>
+    </respStmt>
+   </seriesStmt>
+   <sourceDesc>
+    <p>File created electronically.</p>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="en">English</language>
+    <language ident="la">Latin</language>
+    <language ident="grc">Greek</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>April 8, 2003</date>
+    <name>Christopher W. Blackwell</name>
+    <desc>Version 1, published on www.stoa.org</desc>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="en">
+  <body>
+   <div n="Summary" type="Summary" xml:id="Summary">
+    <head>Summary</head>
+    <p><term>Apophasis</term> refers to an investigation into serious threats to the Athenian
+     democracy, especially treason and bribery, although there is some evidence for it being used
+     for lesser offenses. This investigation involved several branches of the Athenian government:
+     the <term sortKey="Assembly">Assembly</term>, the <term sortKey="Areopagus">Areopagus</term>,
+     and the <term sortKey="lawcourt">People’s Court</term>. This procedure, an innovation of the
+      <date from="-0345" to="-0323">later 4th century BCE</date>, began with an investigation
+     conducted by the <term sortKey="Areopagus">Areopagus</term>, which would issue a report. The
+     report was called an <term>apophasis</term> (<foreign xml:lang="grc">ἀπόφασις</foreign>).
+     Eventually, the whole procedure—investigation, report, prosecution—came to be known by this
+     term. When the <term sortKey="Areopagus">Areopagus</term> issued its report on suspected
+     treason or bribery, it included a recommendation, either to prosecute certain parties or not
+     to. If the <term sortKey="Areopagus">Areopagus</term> recommended prosecution, the <term
+      sortKey="Assembly">Assembly</term> would appoint prosecutors, and the matter would be tried
+     before the <term sortKey="lawcourt">People’s Court</term>. The different institutions seem to
+     have served to balance each other, and we hear of several cases in which the <term
+      sortKey="Areopagus">Areopagus</term> recommended conviction, but the <term sortKey="Assembly"
+      >Assembly</term> or <term sortKey="lawcourt">People’s Court</term> acquitted the
+     defendant.</p>
+   </div>
+   <div n="Introduction" type="Section" xml:id="Introduction">
+    <head>Introduction</head>
+    <p><term>Apophasis</term> (<foreign xml:lang="grc">ἀπόφασις</foreign>) refers to a report issued
+     by the <term sortKey="Areopagus">Areopagus</term> after the <term sortKey="Areopagus"
+      >Areopagus</term> had investigated a matter of bribery or treason (see, for example, <bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:1" type="cts-urn">Din. 1.1</bibl>). But this report was
+     merely one part of an involved process of investigation and prosecution that involved the <term
+      sortKey="Areopagus">Areopagus</term>, the <term sortKey="Assembly">Assembly</term>, and the
+      <term sortKey="lawcourt">People’s Court</term>. The best evidence for this procedure comes
+     from <name type="ancientAuthor">Dinarchus</name>’ speech prosecuting <name type="ancientAuthor"
+      >Demosthenes</name> for allegedly having taken bribes from <name type="person"
+     >Harpalus</name>, a Macedonian (<bibl n="urn:cts:greekLit:tlg0029.tlg001:1" type="cts-urn">Din.
+      1.1</bibl>). In this speech, <name type="ancientAuthor">Dinarchus</name> concisely describes
+     the procedure for an <term>apophasis</term>, and describes how the different institutions of
+     the Athenian government worked together. He begins by saying that, <quote>The council of the
+       <term sortKey="Areopagus">Areopagus</term> is bound, gentlemen, to follow one of two methods
+      in making all its reports (<foreign xml:lang="grc">τὰς ἀποφάσεις πάσας</foreign>)</quote>
+      (<bibl n="urn:cts:greekLit:tlg0029.tlg001:50" type="cts-urn">Din. 1.50</bibl>). He spends a
+     couple of sentences criticizing <name type="ancientAuthor">Demosthenes</name>, then returns to
+     characterize the current procedings: <quote>Compare the present case, where you have both a
+      decree <note place="inline" rend="bracket" resp="CWB"><foreign xml:lang="grc"
+        >ψήφισμα</foreign>, passed by the <term sortKey="Assembly">Assembly</term></note> which
+      authorized the <term sortKey="Areopgagus">council</term>’s inquiry <note place="inline"
+       rend="bracket" resp="CWB">the <soCalled>
+        <term sortKey="Areopagus">council</term>
+       </soCalled> here is the Council of the <term sortKey="Areopagus">Areopagus</term></note>, and
+      accusers, elected by the <term sortKey="People">people</term>
+      <note place="inline" rend="bracket" resp="CWB"><foreign xml:lang="grc">χειροτονήσαντος τοῦ
+        δήμου</foreign>, referring again to a vote by show of hands in the <term sortKey="Assembly"
+        >Assembly</term></note>, who are now giving the <term sortKey="lawcourt">jury</term>
+      <note place="inline" rend="bracket" resp="CWB"><foreign xml:lang="grc">οἱ δικασταὶ</foreign>,
+       in the <term sortKey="lawcourt">People’s Court</term></note> an account of the crimes</quote>
+      (<bibl n="urn:cts:greekLit:tlg0029.tlg001:51" type="cts-urn">Din. 1.51</bibl>).</p>
+   </div>
+   <div n="First Appearance" type="Section" xml:id="FirstAppears">
+    <head>Aphophasis First Appears in the later 4th century</head>
+    <p>In a speech delivered in <date when="-0323">323 BCE</date>, <name type="ancientAuthor"
+      >Dinarchus</name> refers to a decree, moved in the <term sortKey="Assembly">Assembly</term> by
+      <name type="ancientAuthor">Demosthenes</name>, that that <term sortKey="Areopagus"
+      >Areopagus</term> should investigate a matter of bribery <quote>as was its traditional
+      right</quote> (<foreign xml:lang="grc">ὡς αὐτῇ πάτριόν ἐστι</foreign>) (<bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:4" type="cts-urn">Din. 1.4</bibl>; source for date: <bibl
+      type="secondary">Hansen, 292</bibl>). But we do not have much other evidence that the <term
+      sortKey="Areopagus">Areopagus</term> regularly investigated matters of bribery. When <name
+      type="ancientAuthor">Aristotle</name> describes the <term sortKey="Areopagus"
+      >Areopagus’</term> duties in the <date from="-0399" to="-0300">4th century</date>, he says
+     that, <quote>Trials for deliberate murder and wounding are held in the <term
+       sortKey="Areopagus">Areopagus</term>, and for causing death by poison, and for arson</quote>
+      (<bibl n="urn:cts:greekLit:tlg0086.tlg003:57.3" type="cts-urn">Aristot. <title>Ath.
+       Pol.</title> 57.3</bibl>; <bibl n="urn:cts:greekLit:tlg0014.tlg023:22" type="cts-urn">Dem.
+      23.22</bibl>).</p>
+    <p>There is however some evidence for the <term sortKey="Areopagus">Areopagus</term> issuing
+     reports to the <term sortKey="Assembly">Assembly</term> apart from the procedure we call
+      <term>apophasis</term>. Sometime before <date when="-0343">343 BCE</date>, we hear of the
+      <term sortKey="Areopagus">Areopagus</term> reporting to the <term sortKey="Assembly"
+      >Assembly</term> on the matter of some dwellings on the <name n="Pnyx, Athens" type="site"
+      >Pnyx</name> (<bibl n="urn:cts:greekLit:tlg0026.tlg001:81" type="cts-urn">Aeschin.
+     1.81</bibl>; source for date: <bibl type="secondary">Harris, <title>Aeschines and Athenian
+       Politics</title></bibl>).</p>
+    <p>But this is not called an <term>apophasis</term>, and does not seem to have been similar to
+     the later procedure. In fact, none of the evidence from <name type="ancientGenre"
+      >oratory</name> before the <date from="-0350" to="-0300">second half of the 4th century</date>
+     mention <term>apophasis</term> (this includes the orators <name type="ancientAuthor"
+      >Andocides</name>, <name type="ancientAuthor">Isaeus</name>, <name type="ancientAuthor"
+      >Antiphon</name>, <name type="ancientAuthor">Lysias</name>, <name type="ancientAuthor"
+      >Isocrates</name>, <name type="ancientAuthor">Lycurgus</name>, and <name type="ancientAuthor"
+      >Aeschines</name>). <name type="ancientAuthor">Demosthenes</name> uses the term several times,
+      (<bibl n="urn:cts:greekLit:tlg0014.tlg018:60" type="cts-urn">Dem. 18.60</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg037:21" type="cts-urn">Dem. 37.21</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg037:34" type="cts-urn">Dem. 37.34</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:1" type="cts-urn">Dem. 41.1</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:2" type="cts-urn">Dem. 41.2</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:11" type="cts-urn">Dem. 41.11</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:12" type="cts-urn">Dem. 41.12</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:14" type="cts-urn">Dem. 41.14</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:17" type="cts-urn">Dem. 41.17</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:25" type="cts-urn">Dem. 41.25</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:26" type="cts-urn">Dem. 41.26</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:27" type="cts-urn">Dem. 41.27</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:28" type="cts-urn">Dem. 41.28</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg041:30" type="cts-urn">Dem. 41.30</bibl>, <bibl
+      n="urn:cts:greekLit:tlg0014.tlg047:45" type="cts-urn">Dem. 47.45</bibl>), but in each case he
+     seems to use the word generically, <soCalled>an account</soCalled>, such as someone might give
+     when returning from a voyage, or (often) when itemizing an estate so the inheritance can be
+     settled.</p>
+    <p>In <name type="ancientAuthor">Demosthenes</name> speech <soCalled>On the Crown,</soCalled>
+     delivered in <date when="-0330">330 BCE</date> (<bibl n="urn:cts:greekLit:tlg0014.tlg018"
+      type="cts-urn">Dem. 18</bibl>; source for date: <bibl type="secondary">
+      <title>OCD</title>
+      <edition>3</edition>
+     </bibl>), he mentions two events that might be the first instances of <term>apophasis</term>,
+     although he does not use the term. <name type="ancientAuthor">Demosthenes</name> mentions a man
+     named <name type="person">Antiphon</name> (not the orator <name type="ancientAuthor"
+      >Antiphon</name>) who had been exiled from <placeName key="Athens">Athens</placeName>, and
+     then apprehended at the port of the <placeName key="Piraeus">Piraeus</placeName>; he was
+     acquitted, either by the <term sortKey="lawcourt">People’s Court</term> or by the <term
+      sortKey="Assembly">Assembly</term>, but the <term sortKey="Areopagus">Areopagus</term>
+     investigated the matter and secured his conviction (<bibl
+      n="urn:cts:greekLit:tlg0014.tlg018:133" type="cts-urn">Dem. 18.133</bibl>). Then, <name
+      type="ancientAuthor">Demosthenes</name> describes how <name type="ancientAuthor"
+      >Aeschines</name>, having been selected to be an ambassador by the <term sortKey="Assembly"
+      >Assembly</term>, was investigated by the <term sortKey="Areopagus">Areopagus</term>, which
+      <quote>rejected him as a traitor</quote> (<foreign xml:lang="grc">ἀπήλασεν ὡς
+      προδότην</foreign>) (<bibl n="urn:cts:greekLit:tlg0014.tlg018:134" type="cts-urn">Dem.
+      18.134</bibl>). There is some reason to think that these might be the first attested instances
+     of the procedure we call <term>apophasis</term>. <name type="ancientAuthor">Dinarchus</name>,
+     in a speech seven years later, mentions the case of <name type="person">Antiphon</name> and
+     says that he was tortured and killed as a result of the <term sortKey="Areopagus"
+      >Areopagus</term>’ <term>apophasis</term> (<foreign xml:lang="grc">ἐστρέβλωσαν Ἀντιφῶντα καὶ
+      ἀπέκτειναν οὗτοι τῇ τῆς βουλῆς ἀποφάσει πεισθέντες</foreign>) (<bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:63" type="cts-urn">Din. 1.63</bibl>). He then says that
+      <name type="ancientAuthor">Demosthenes</name> himself had been instrumental in giving this
+     authority to the <term sortKey="Areopagus">Areopagus</term>, citing the cases not only of <name
+      type="person">Antiphon</name>, but also of a descendant of the hero <name type="person"
+      >Aristogiton</name>, and a man named <name type="person">Charinus</name> (<bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:63" type="cts-urn">Din. 1.63</bibl>). So we can conclude
+     that the procedure probably came into existence before <date when="-0330">330</date>, and came
+     to be referred to as <term>apophasis</term> before <date when="-0323">323 BCE</date> (source
+     for dates: <bibl type="secondary">Hansen, 292</bibl>).</p>
+   </div>
+   <div n="Treason" type="Section" xml:id="Treason">
+    <head><term>Apophasis</term> invoked for cases of treason, bribery, and attempts to overthrow
+     the democracy, but also for lesser crimes</head>
+    <p>In <name type="ancientAuthor">Dinarchus</name>’ speech against <name type="ancientAuthor"
+      >Demosthenes</name>, part of an <term>apophasis</term>, the orator’s rhetoric suggests that
+     the trial was about more than bribery (the actual accusation; see <bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:1" type="cts-urn">Din. 1.1</bibl>), but was about the
+     security of the Athenian democracy. <name type="ancientAuthor">Dinarchus</name> says that
+     anyone who would defend <name type="ancientAuthor">Demosthenes</name> is an enemy of <placeName
+      key="Athens">Athens</placeName>: <quote>And whenever anyone comes forward to speak for him,
+      bear in mind that he who does so, even if not involved in the reports [<foreign xml:lang="grc"
+       >ἀποφάσεσιν</foreign>] we are about to hear, is hostile to the constitution, unwilling to see
+      punished those who take bribes against the <term sortKey="People">people</term> and anxious
+      that the general protection of your persons, for which the <term sortKey="Areopagus"
+       >Areopagus</term> is responsible, should be abolished and every right in the city
+      overwhelmed</quote> (<bibl n="urn:cts:greekLit:tlg0029.tlg001:112" type="cts-urn">Din.
+      1.112</bibl>). According to <name type="ancientAuthor">Dinarchus</name>, the <term
+      sortKey="Areopagus">Areopagus</term> investigated the question of bribery because any case of
+     Macedonians bribing prominent Athenians would put the city in danger (<bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:3-4" type="cts-urn">Din. 1.3-4</bibl>).</p>
+    <p><term>Apophasis</term> was also used in cases when the city itself was thought to be in
+     danger from some external enemy. <name type="person">Antiphon</name> was the subject of
+      <term>apophasis</term> because, after being exiled as a spy and saboteur for the Macedonians,
+     he was caught back in <placeName key="Athens">Athens</placeName> (<bibl
+      n="urn:cts:greekLit:tlg0014.tlg018:132" type="cts-urn">Dem. 18.132</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:63" type="cts-urn">Din. 1.63</bibl>). A man named <name
+      type="person">Polyeuctus</name> of <name n="Cydantidae" type="deme">Cydantidae</name> was the
+     subject of an <term>apophasis</term> because he had made suspicious trips to <placeName
+      key="Megara">Megara</placeName> (although he was cleared of all suspicion when it was
+     discovered that he had relatives there) (<bibl n="urn:cts:greekLit:tlg0029.tlg001:58"
+      type="cts-urn">Din. 1.58</bibl>). And <name type="person">Charinus</name> was exiled, after an
+      <term>apophasis</term>, on a charge of treason (<foreign xml:lang="grc">ἐπὶ
+     προδοσίᾳ</foreign>) (<bibl n="urn:cts:greekLit:tlg0029.tlg001:63" type="cts-urn">Din.
+      1.63</bibl>).</p>
+    <p>In a brief passage, however, <name type="ancientAuthor">Dinarchus</name> mentions some lesser
+     offenses that were first brought before the <term sortKey="Areopagus">Areopagus</term> and then
+     referred to a <term sortKey="lawcourt">jury</term>—a defendant who robbed the captain of a
+     ferry-boat, someone fraudulently collecting five drachmas (a public subsidy for attending the
+      <term sortKey="Theater_of_Dionysus,_Athens">theater</term>), and a member of the <term
+      sortKey="Areopagus">Areopagus</term> who was given a portion of meat from a public sacrifice
+     (a benefit of service on the <term sortKey="Areopagus">Areopagus</term>) who sold the portion
+     illegally (<bibl n="urn:cts:greekLit:tlg0029.tlg001:56" type="cts-urn">Din. 1.56</bibl>). </p>
+   </div>
+   <div n="Procedure" type="Section" xml:id="Procedure">
+    <head>The Procedure</head>
+    <p><name type="ancientAuthor">Dinarchus</name> says that either the <term sortKey="Areopagus"
+      >Areopagus</term> or the <term sortKey="Assembly">Assembly</term> could initiate an
+      <term>apophasis</term>: <quote>The council of the <term sortKey="Areopagus">Areopagus</term>
+      is bound, gentlemen, to follow one of two methods in making all its reports (<foreign
+       xml:lang="grc">τὰς ἀποφάσεις</foreign>). What are these methods? Its inquiry is made either
+      on its own initiative or in obedience to the <term sortKey="People">people</term>’s
+      instructions</quote> (<bibl n="urn:cts:greekLit:tlg0029.tlg001:50" type="cts-urn">Din.
+      1.50</bibl>). In at least one case, that of <name type="person">Antiphon</name>, the <term
+      sortKey="Areopagus">Areopagus</term> initiated an <term>apophasis</term> after the man had
+     been acquitted by the <term sortKey="People">people</term> (<bibl
+      n="urn:cts:greekLit:tlg0014.tlg018:133" type="cts-urn">Dem. 18.133</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:63" type="cts-urn">Din. 1.63</bibl>). In the trial of <name
+      type="ancientAuthor">Demosthenes</name>, the <term sortKey="Assembly">People</term> (<foreign
+      xml:lang="grc">ὁ δῆμος</foreign>) passed a decree asking the <term sortKey="Areopagus"
+      >Areopagus</term> to investigate the question of bribery and to issue an
+      <term>apophasis</term> (<bibl n="urn:cts:greekLit:tlg0029.tlg001:4" type="cts-urn">Din.
+      1.4</bibl>; <bibl n="urn:cts:greekLit:tlg0029.tlg001:7" type="cts-urn">Din. 1.7</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:58" type="cts-urn">Din. 1.58</bibl>); because <bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:4" type="cts-urn">Din. 1.4</bibl> mentions <quote>the <term
+       sortKey="Assembly">People</term> passing a lawful decree</quote> (<foreign xml:lang="grc"
+      >ψηφισαμένου γὰρ τοῦ δήμου δίκαιον ψήφισμα</foreign>), we can be sure that he is speaking of
+     the <term sortKey="Assembly">Assembly</term>.</p>
+    <p>Once an <term>apophasis</term> was begun, the <term sortKey="Areopagus">Areopagus</term>
+     conducted an investigation. In a fragmentary speech by <name type="ancientAuthor"
+      >Hyperides</name>, from the trial of <name type="ancientAuthor">Demosthenes</name>, the orator
+     says, <quote>The reporting of the names of the recipients <note place="inline" rend="bracket"
+       resp="CWB">of bribes</note> it <note place="inline" rend="bracket" resp="CWB"
+        ><term>i.e.</term> the <term sortKey="Assembly">Assembly</term></note> assigned to the <term
+       sortKey="Areopagus">Areopagus</term>, who gave these men’s names to the <term
+       sortKey="People">people</term></quote> (<bibl n="urn:cts:greekLit:tlg0030.tlg005:f9"
+      type="cts-urn">Hyp. 5.f9</bibl>; the text of this speech is badly damaged, and some parts have
+     had to be reconstructed through inference, comparison with other sources, and educated
+     guessing). <name type="ancientAuthor">Dinarchus</name> says that <name type="ancientAuthor"
+      >Demosthenes</name> himself had moved in the <term sortKey="Assembly">Assembly</term> that the
+      <term sortKey="Areopagus">Areopagus</term> investigate the question of bribery: <quote>When,
+      moreover, you, <name type="ancientAuthor">Demosthenes</name>, and many others had proposed in
+      a decree that the <term sortKey="Areopagus">Areopagus</term>, according to its traditional
+      right, should hold an inquiry to discover if any of them had received gold from <name
+       type="person">Harpalus</name>, the <term sortKey="Areopagus">Areopagus</term> began its
+      investigation (<foreign xml:lang="grc">ζητεῖ</foreign>)</quote> (<bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:4" type="cts-urn">Din. 1.4</bibl>). Any subsequent action
+     would then depend on the outcome of the <term sortKey="Areopagus">Areopagus</term>’ report
+      (<bibl n="urn:cts:greekLit:tlg0029.tlg001:1" type="cts-urn">Din. 1.1</bibl>).</p>
+    <p>After the <term sortKey="Areopagus">Areopagus</term> issued its report, the
+      <term>apophasis</term> itself, it could recommend that the defendant be tried before a <term
+      sortKey="lawcourt">jury</term>. <name type="ancientAuthor">Dinarchus</name> describes the
+     sequence of events: <quote>In the case of <name type="person">Polyeuctus</name> of <name
+       n="Cydantidae" type="deme">Cydantidae</name>, when the people instructed the Council of the
+       <term sortKey="Areopagus">Areopagus</term> to inquire whether he was accompanying the exiles
+      to <placeName key="Megara">Megara</placeName> and to report back after the investigation, it
+      reported that he was doing so. You chose accusers as the law prescribes: <name type="person"
+       >Polyeuctus</name> came into court and you acquitted him, on his admitting that he was going
+      to <placeName key="Megara">Megara</placeName> to <name type="person">Nicophanes</name> who, he
+      said, was married to his mother</quote> (<bibl n="urn:cts:greekLit:tlg0029.tlg001:58"
+      type="cts-urn">Din. 1.58</bibl>). Here, the <term sortKey="Areopagus">Areopagus</term>
+     reported that the man had gone to <placeName key="Megara">Megara</placeName> with some exiles,
+     and was thus suspected of treason. Because of this report, accusers were chosen to prosecute
+     the case before a <term sortKey="lawcourt">court</term>.</p>
+    <p>It seems that the <term sortKey="Assembly">Assembly</term> had to vote on whether to take a
+     case to <term sortKey="lawcourt">court</term> as a result of the <term sortKey="Areopagus"
+      >Areopagus</term>’ <term>apophasis</term>. In a speech prosecuting <name type="person"
+      >Aristogiton</name>, in a trial resulting from an <term>apophasis</term> (see <bibl
+      n="urn:cts:greekLit:tlg0029.tlg002:1" type="cts-urn">Din. 2.1</bibl>), <name
+      type="ancientAuthor">Dinarchus</name> says of the defendant that <quote>he has been found by
+      the Council of the <term sortKey="Areopagus">Areopagus</term> to have taken bribes against
+      your interests… and the <term sortKey="People">People</term> have, by a show of hands, handed
+      him over to you <note place="inline" rend="bracket" resp="CWB">the <term sortKey="lawcourt"
+        >jury</term></note> to be punished</quote> (<foreign xml:lang="grc">ὅτι τούτου κατέγνωκεν ἡ
+      βουλὴ δῶρα λαμβάνειν καθ᾽ ὑμῶν</foreign>…<foreign xml:lang="grc"> τούτου καταχειροτονήσας ὁ
+      δῆμος παραδέδωκεν ὑμῖν τιμωρήσασθαι</foreign>) (<bibl n="urn:cts:greekLit:tlg0029.tlg002:20"
+      type="cts-urn">Din. 2.20</bibl>). At the same time that the <term sortKey="Assembly"
+      >Assembly</term> voted on whether to send a defendant to be tried in front of a <term
+      sortKey="lawcourt">jury</term>, it would also elect, by show of hands, one or more prosecuters
+     to present the case against the defendant. <name type="ancientAuthor">Hyperides</name> mentions
+     chosen accusers (<foreign xml:lang="grc">τοῖς ᾑρημένοις κατηγόροις</foreign>) (<bibl
+      n="urn:cts:greekLit:tlg0030.tlg005:f9" type="cts-urn">Hyp. 5.f9</bibl>). At <bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:58" type="cts-urn">Din. 1.58</bibl>, the orator tells the
+     people of <placeName key="Athens">Athens</placeName> that <quote>you chose accusers as the law
+      prescribes</quote> (<foreign xml:lang="grc">κατηγόρους εἵλεσθε κατὰ τὸν νόμον</foreign>); and
+     at <bibl n="urn:cts:greekLit:tlg0029.tlg001:51" type="cts-urn">Din. 1.51</bibl> he mentions
+      <quote>accusers, elected by the <term sortKey="People">people</term>, who are now giving the
+       <term sortKey="lawcourt">jury</term> an account of the crimes</quote> (<foreign
+      xml:lang="grc">καὶ κατήγοροι χειροτονήσαντος τοῦ δήμου, παρ᾽ ὧν νῦν οἱ δικασταὶ τἀδικήματα
+      πυνθάνονται</foreign>).</p>
+    <p>It is clear that the ultimate decision—to punish the defendant or not to—was in the hands of
+     the <term sortKey="lawcourt">jury</term>. <name type="ancientAuthor">Dinarchus</name> mentions
+     many cases of defendants who were found guilty by the <term sortKey="Areopagus"
+      >Areopagus</term>’ <term>apophasis</term>, but subsequently acquitted by a <term
+      sortKey="lawcourt">jury</term> (<bibl n="urn:cts:greekLit:tlg0029.tlg001:57-59" type="cts-urn"
+      >Din. 1.57-59</bibl>). Among them was <name type="person">Polyeuctus</name>, whom the <term
+      sortKey="Areopagus">Areopagus</term> found to have made suspicious trips to <placeName
+      key="Megara">Megara</placeName> to visit some men who had been exiled from <placeName
+      key="Athens">Athens</placeName>. But, <name type="ancientAuthor">Dinarchus</name> reminds the
+     jury, <quote><name type="person">Polyeuctus</name> came into <term sortKey="lawcourt"
+       >court</term> and you acquitted him, on his admitting that he was going to <placeName
+       key="Megara">Megara</placeName> to <name type="person">Nicophanes</name> who, he said, was
+      married to his mother. So you did not consider that he was doing anything strange or
+      reprehensible in keeping in touch with his mother’s husband who was in difficulties, or in
+      assisting him, so far as he could, while he was banished from the country</quote> (<bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:58" type="cts-urn">Din. 1.58</bibl>).</p>
+   </div>
+   <div n="Advantages" type="Section" xml:id="Advantage">
+    <head>The advantage of a complex system of investigation</head>
+    <p>The case of <name type="person">Polyeuctus</name> illustrates the advantage of the complex
+     procedure of investigation that came to be called <term>apophasis</term>. By having the <term
+      sortKey="Areopagus">Areopagus</term> investigate the facts of a case, and a <term
+      sortKey="lawcourt">jury</term> decide on punishment, the Athenians considered themselves to
+     have struck a balance between impersonal judgement and a more personal justice. <name
+      type="ancientAuthor">Dinarchus</name> says this explicitly. In his speech against <name
+      type="ancientAuthor">Demosthenes</name>, he explains why, in other cases, the <term
+      sortKey="lawcourt">jury</term> overrode the findings of the <term sortKey="Areopagus"
+      >Areopagus</term>: <quote>There is an explanation for this which you will easily follow. The
+      council of the <term sortKey="Areopagus">Areopagus</term>, gentlemen, has its own method of
+      inquiring into the cases which you assign to it and the crimes committed within its own body.
+      Unlike yourselves—and you need not take offence at this—who are sometimes apt when judging to
+      give more weight to mercy than to justice, it simply reports anyone who is liable to the
+      charges in question or has broken any traditional rule of conduct, believing that if a person
+      is in the habit of committing small offences he will more easily involve himself in serious
+      crimes</quote> (<bibl n="urn:cts:greekLit:tlg0029.tlg001:54-55" type="cts-urn">Din.
+      1.54-55</bibl>). He mentions a few examples of people found guilty by the <term
+      sortKey="Areopagus">Areopagus</term>, and then turned over to the <term sortKey="lawcourt"
+      >jury</term>: <quote>You tried these men and acquitted them. You were not thereby convicting
+      the <term sortKey="Areopagus">Areopagus</term> of error but you were more concerned with
+      sympathy than justice, and thought the punishment too severe for the offence which the
+      defendants had committed</quote> (<bibl n="urn:cts:greekLit:tlg0029.tlg001:56" type="cts-urn"
+      >Din. 1.56</bibl>). He concludes this explanation with the story of <name type="person"
+      >Polyeuctus</name> (<bibl n="urn:cts:greekLit:tlg0029.tlg001:58" type="cts-urn">Din.
+      1.58</bibl>), which he sums up by saying: <quote>The report of the <term sortKey="Areopagus"
+       >Areopagus</term>… was not proved false; it was quite true, but the <term sortKey="lawcourt"
+       >jury</term> decided to acquit <name type="person">Polyeuctus</name>. The council <note
+       place="inline" rend="bracket" resp="CWB">of the <term sortKey="Areopagus"
+       >Areopagus</term></note> was instructed to discover the truth, yet, as I say, the <term
+       sortKey="lawcourt">court</term> decided whether it was a case for pardon</quote> (<bibl
+      n="urn:cts:greekLit:tlg0029.tlg001:59" type="cts-urn">Din. 1.59</bibl>).</p>
+    <p><name type="ancientAuthor">Dinarchus</name>’s arguments are successful in suggesting that the
+     procedure of <term>apophasis</term>—which involved the less democratic institution of the <term
+      sortKey="Areopagus">Areopagus</term> and the more democratic <term sortKey="Assembly"
+      >Assembly</term> and <term sortKey="lawcourt">People’s Court</term>—was flexible and
+     potentially fair.</p>
+   </div>
+   <div n="Bibliography" type="Section" xml:id="Bibliography">
+    <head>Secondary Works Cited</head>
+    <list rend="numbered">
+     <item><bibl type="secondary">J.A. Cook, trans., M.H. Hansen, <title>The Athenian democracy in
+        the age of Demosthenes : structure, principles, and ideology</title> 2nd edition (Oxford,
+       1991)</bibl>.</item>
+     <item><bibl type="secondary">E. M. Harris, <title>Aeschines and Athenian Politics</title>
+       (Oxford, 1995)</bibl>.</item>
+     <item><bibl type="secondary">S. Hornblower and A. Spawforth edd., <title>The Oxford Classical
+        Dictionary</title>, 3rd Edition (Oxford, 1996)
+       [<title>OCD</title><edition>3</edition>]</bibl>.</item>
+    </list>
+   </div>
+  </body>
+ </text>
+</TEI>

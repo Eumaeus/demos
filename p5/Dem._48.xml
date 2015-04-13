@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 48</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg048' type='cts-urn'>Dem. 48</bibl></head>
+<p ><name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Olympiodorus</name></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. This is a speech written on behalf of the plaintiff, <name  type='person'>Callistratus</name>, who is suing his brother-in-law, <name  type='person'>Olympiodorus</name>. <name  type='person'>Callistratus</name>, upon the death of his relative <name  type='person'>Comon</name> (the family relationship is not specified), agreed with <name  type='person'>Olympiodorus</name> to split the estate in half, each man keeping an equal share. The two men wrote articles of agreement and made oaths binding themselves to this pact (<bibl  n='urn:cts:greekLit:tlg0014.tlg048:9' type='cts-urn'>Dem. 48.9</bibl>). Their agreement held until it was discovered that a slave of <name  type='person'>Comon</name>, <name  type='person'>Moschion</name>, had stolen a portion of <name  type='person'>Comon</name>’s money. <name  type='person'>Moschion</name> had been a trusted servant of <name  type='person'>Comon</name>, but had taken advantage of <name  type='person'>Comon</name>’s trust by stealing first 1000 drachmas (see also <term  sortKey='Money'>Money</term>) and later 70 minas. According to their agreement, when it was discovered that some of the money was missing, <name  type='person'>Callistratus</name> and <name  type='person'>Olympiodorus</name> agreed to put the slave <name  type='person'>Moschion</name> to torture, but he voluntarily admitted to the theft of 1000 drachmas. He did not, however, mention the taking of the 70 minas. <name  type='person'>Moschion</name> was ordered to pay back the money that he had admitted to stealing; in total, he paid back about 600 drachmas (<bibl  n='urn:cts:greekLit:tlg0014.tlg048:17' type='cts-urn'>Dem. 48.17</bibl>), which was divided equally between <name  type='person'>Callistratus</name> and <name  type='person'>Olympiodorus</name> according to their agreement. Later, <name  type='person'>Olympiodorus</name> actually placed the slave under torture, this time without the consent of <name  type='person'>Callistratus</name>. While under torture, the slave <name  type='person'>Moschion</name> admitted to the theft of the seventy minas. He had not spent any of it and so he returned the entire sum to <name  type='person'>Olympiodorus</name>. <name  type='person'>Olympiodorus</name>, though, kept all of the money that he recovered from <name  type='person'>Moschion</name> without splitting it evenly with <name  type='person'>Callistratus</name>, as their agreement had required (<bibl  n='urn:cts:greekLit:tlg0014.tlg048:19' type='cts-urn'>Dem. 48.19-20</bibl>). At the same time that these events were taking place, a flurry of claimants to the estate of <name  type='person'>Comon</name> appeared to press their claims in court. <name  type='person'>Olympiodorus</name> and <name  type='person'>Callistratus</name> went to court and lost the judgement and, consequently, the estate of <name  type='person'>Comon</name> was awarded to other claimants. They then decided to enter separate suits against the other claimants; <name  type='person'>Olympiodorus</name> sued for the entire estate, <name  type='person'>Callistratus</name> for half. The result of these lawsuits was that <name  type='person'>Olympiodorus</name> was awarded the estate. According to the original agreement between he and <name  type='person'>Callistratus</name>, he was to split the estate in half (<bibl  n='urn:cts:greekLit:tlg0014.tlg048:31' type='cts-urn'>Dem. 48.31</bibl>). <name  type='person'>Olympiodorus</name> refused to do this and the present lawsuit was the result of his refusal. This speech, because it takes place during the archonship of <name  type='person'>Pythodotus</name>, can be dated to <date  when='-0343'>343 BCE</date> (source for date: <bibl >A.T. Murray, <title >Demosthenes II</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 349</bibl>).</p>
+<byline >Christopher Cotten</byline>
+</div> 
+
+
+</body>
+</text>
+</TEI>

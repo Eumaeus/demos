@@ -1,0 +1,58 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 14</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg014' type='cts-urn'>Dem. 14</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >On the Navy-Boards</title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). In <date  when='-0354'>354 BCE</date>, a topic of debate in the Athenian <term  sortKey='Assembly'>Assembly</term> was whether or not to go to war against <placeName  key='Persia'>Persia</placeName>. <placeName  key='Athens'>Athens</placeName> had recently settled a war, the so-called <soCalled >Social War</soCalled>, in which <placeName  key='Rhodes'>Rhodes</placeName>, <placeName  key='Cos'>Cos</placeName>, and <placeName  key='Chios'>Chios</placeName> revolted against Athenian control. During this war, rumors came to <placeName  key='Athens'>Athens</placeName> that <placeName  key='Persia'>Persia</placeName> was making naval preparations. This news caused a great deal of concern, and led to talk of a Greek alliance, organized by <placeName  key='Athens'>Athens</placeName>, waging war against <placeName  key='Persia'>Persia</placeName>. This speech, <name  type='ancientAuthor'>Demosthenes</name>’ first speech before the <term  sortKey='Assembly'>Assembly</term>, argues against an immediate declaration of war, but proposes a program of military preparation. His particular suggestion was a reform of the <term  sortKey='Money'>trierarchy</term>, the means by which individual Athenians (or small groups of citizens) undertook the maintance of a warship on the city’s behalf (see the article on <term  sortKey='Liturgies'>Liturgies</term>). <placeName  key='Athens'>Athens</placeName> did not declare war on <placeName  key='Persia'>Persia</placeName>, but did not adopt <name  type='ancientAuthor'>Demosthenes</name> ’ suggestions either. (Source: <bibl >J.H. Vince, <title >Demosthenes I</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 380-81</bibl>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

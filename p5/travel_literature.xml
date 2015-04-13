@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Travel Literature</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  n='travel literature' type='ancientGenre'>Travel Literature</name></head>
+<p >In a speech from the <date  from='-0399' to='-0300'>4th century BCE</date>, the speaker says: <quote >Having heard reports both of this state and of the other lands where Greeks live, I desired to travel abroad. And so my father loaded two ships with grain, gave me money, and sent me off on a trading expedition and at the same time to see the world</quote> (<bibl  n='urn:cts:greekLit:tlg0010.tlg005:4' type='cts-urn'>Isoc. 17.4</bibl>). Travel for the sake of seeing the sights back to the very beginning of our sources. <name  type='person'>Solon</name>, one of the earliest historical Athenians about whom we know anything, was a famous sightseer in the <date  from='-0599' to='-0500'>6th century BCE</date> (<bibl  n='urn:cts:greekLit:tlg0016.tlg001:1.30' type='cts-urn'>Hdt. 1.30</bibl>). Just like tourists today, ancient tourists wanted guidebooks to help them in their own travels, and travel literature to enjoy when they were not travelling. The genre of <name  n='travel literature' type='ancientGenre'>travel literature</name>, technically known as <soCalled >periegetic literature</soCalled>, arose in the <date  from='-0299' to='-0100'>3rd century BCE</date>. The only extensive example of it that survives is the work of <name  type='ancientAuthor'>Pausanias</name> of <placeName  key='Magnesia'>Magnesia</placeName>. (Source for all dates: <bibl  n='OCD3' type='secondary'><title >OCD</title><edition >3</edition></bibl>).</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

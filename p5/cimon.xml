@@ -1,0 +1,699 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:math="http://www.w3.org/1998/Math/MathML"
+ xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Cimon</title>
+    <author>Christopher W. Blackwell</author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher> The Stoa: a consortium for electronic publication in the humanities (www.stoa.org) </publisher>
+    <authority>
+     <name>A. Mahoney and R. Scaife, edd.</name>
+    </authority>
+   </publicationStmt>
+   <seriesStmt>
+    <title>Dēmos: Classical Athenian Democracy</title>
+    <respStmt>
+     <name>Christopher W. Blackwell</name>
+     <resp>Editor</resp>
+    </respStmt>
+   </seriesStmt>
+   <sourceDesc>
+    <p>File created electronically.</p>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="en">English</language>
+    <language ident="la">Latin</language>
+    <language ident="grc">Greek</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>April 8, 2003</date>
+    <name>Christopher W. Blackwell</name>
+    <desc>Version 1, published on www.stoa.org</desc>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="en">
+  <body>
+   <div type="Summary">
+    <head>Summary</head>
+    <p><name type="person">Cimon</name>, son of <name type="person">Miltiades</name> (father) and
+      <name type="person">Hegesipyle</name> (mother), was a prominent Athenian in the <date
+      from="-0499" to="-0450">first half of the 5th century BCE</date>. He was instrumental in
+     leading <placeName key="Athens">Athens</placeName> to a dominant position in the Greek world
+     after the <term sortKey="Persian_Wars">Persian Wars</term>, and he opposed the more radical
+     democratic reforms of <name type="person">Ephialtes</name> and <name type="person"
+      >Pericles</name>, particularly their reform of the <term sortKey="Areopagus">Court of the
+      Areopagus</term>.</p>
+   </div>
+   <div n="Introduction" type="Section" xml:id="Introduction">
+    <head>Introduction: Cimon’s Family and Character</head>
+    <p>In the <date from="-0499" to="-0475">early 5th century BCE</date>
+     <placeName key="Athens">Athens</placeName> became increasingly more democratic as the older
+     institutions, which were dominated by the wealthy, lost power to newer institutions that were
+     in the hands of the <term sortKey="People">People</term>. This change was not welcomed by
+     everyone, and even a hundred years later, an aristocratic Athenian like <name
+      type="ancientAuthor">Isocrates</name> could complain of how, after the <term
+      sortKey="Persian_Wars">Persian Wars</term>, <quote>the city grew powerful and seized the
+      empire of the Greeks, and our fathers, growing more self-assured than was proper for them,
+      began to look with disfavor on those good men and true who had made <placeName key="Athens"
+       >Athens</placeName> great, envying them their power, and growing to look instead to men who
+      were low-born and full of insolence</quote> (<bibl n="urn:cts:greekLit:tlg0010.tlg019:316"
+      type="cts-urn">Isoc. 15.316</bibl>). When he outlines the history of the government of
+      <placeName key="Athens">Athens</placeName>, <name type="ancientAuthor">Aristotle</name> notes
+     that at this critical point in the history of the democracy, the leadership of the <term
+      sortKey="People">People</term> was held by <name type="person">Ephialtes</name>, while the
+     wealthy Athenians followed <name type="person">Cimon</name> (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:28.2" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      28.2</bibl>).</p>
+    <p>Cimon’s deme, the district in <placeName key="Attica">Attica</placeName> where he was
+     registered as a citizen, was <name n="Laciadae" type="deme">Laciadae</name> (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:27.3" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      27.3</bibl>), and he was of the tribe (<foreign xml:lang="grc">φυλή</foreign>) <name
+      n="Oineis" type="tribe">Oineis</name> (<bibl n="urn:cts:greekLit:tlg0007.tlg035:17.3-17.6"
+      type="cts-urn">Plut. <title>Cim.</title> 17.3-6</bibl>).</p>
+    <p><name type="person">Cimon</name>’s father was <name type="person">Miltiades</name>, a famous
+     Athenian, and his mother was <name type="person">Hegesipyle</name>, who was not an Athenian but
+     the daughter of <name type="person">Olorus</name>, king of <placeName key="Thrace"
+      >Thrace</placeName> (<bibl n="urn:cts:greekLit:tlg0007.tlg035:4.1" type="cts-urn">Plut.
+       <title>Cim.</title> 4.1</bibl>; <bibl n="urn:cts:greekLit:tlg0086.tlg003:26.1" type="cts-urn"
+      >Aristot. <title>Ath. Pol.</title> 26.1</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0016.tlg001:6.39.2" type="cts-urn">Hdt. 6.39.2</bibl>). The family was
+     very wealthy. His father, <name type="person">Miltiades</name>, had been <term
+      sortKey="Military">general</term> on a failed military expedition to <placeName key="Paros"
+      >Paros</placeName> in <date when="-0490">490</date> or <date when="-0489">489 BCE</date>
+     (source for date: <bibl type="secondary">Rhodes, 324-325</bibl>), and had been fined for that
+     failure. When <name type="person">Miltiades</name> died, his son <name type="person"
+      >Cimon</name> paid the fine, which was 50 talents, a vast sum of money (<bibl
+      n="urn:cts:greekLit:tlg0016.tlg001:6.136.3" type="cts-urn">Hdt. 6.136.3</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:4.4" type="cts-urn">Plut. <title>Cim.</title> 4.4</bibl>).
+      <name type="ancientAuthor">Aristotle</name> says that <name type="person">Cimon</name>
+     <quote>had an estate large enough for a tyrant,</quote> but adds this comment on his reputation
+     for generosity: <quote>anyone of the <name n="Laciadae" type="deme">Laciadae</name> who liked
+      could come to his house every day and have a moderate supply, and also all his farms were
+      unfenced, to enable anyone who liked to avail himself of the harvest.</quote> (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:27.2-27.3" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      27.2-3</bibl>; Plutarch tells the same story at <bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:10.1 " type="cts-urn">Plut. <title>Cim.</title> 10.1
+     </bibl>-2). <name type="ancientAuthor">Demosthenes</name>, writing in the <date from="-0399"
+      to="-0300">4th century BCE</date>, suggests that <name type="person">Cimon</name> had a
+     reputation for modesty, citing him as an example of how, in the <soCalled>old days</soCalled>
+     of the <date from="-0499" to="-0475">early 5th century</date>, the houses of wealthy and famous
+     Athenians were no different from those of ordinary citizens (<bibl
+      n="urn:cts:greekLit:tlg0014.tlg013:29" type="cts-urn">Dem. 13.29</bibl>). It is possible that
+      <name type="person">Cimon</name> had also been a victor in the games at <placeName
+      key="Olympia">Olympia</placeName> (<bibl n="urn:cts:greekLit:tlg0027.tlg004:33" type="cts-urn"
+      >Andoc. 4.33</bibl>).</p>
+   </div>
+   <div n="Early Career" type="Section" xml:id="EarlyCareer">
+    <head>Cimon’s Early Career</head>
+    <p><name type="person">Cimon</name> came to public prominence for the first time, it seems, in
+      <date when="-0480">480 BCE</date>, when the army from <placeName key="Susa, Persepolis"
+      >Persia</placeName> was marching toward <placeName key="Athens">Athens</placeName> (source for
+     date: <bibl type="secondary">
+      <title>OCD</title>
+      <edition>3</edition>
+     </bibl>). Faced with an invasion of <placeName key="Attica">Attica</placeName>, the politician
+      <name type="person">Themistocles</name> urged the Athenians to abandon the territory of
+      <placeName key="Attica">Attica</placeName> to the enemy, take refuge on the island of
+      <placeName key="Salamis">Salamis</placeName> and in the <placeName key="Peloponnese"
+      >Peloponnese</placeName>, and trust in <placeName key="Athens">Athens</placeName>’ fleet of
+     warships. <name type="person">Cimon</name> made a flamboyant and effective gesture of support
+     for this proposal: he marched up to the <name n="Acropolis, Athens" type="site"
+      >Acropolis</name> and gave his horse’s bridle as a gift to the goddess <name type="god"
+      >Athene</name>, thus indicating that he would not need his cavalry equipment, since he would
+     trust in the navy. In the ensuing naval battle off the island of <placeName key="Salamis"
+      >Salamis</placeName> he performed bravely, and from those events became well known in
+      <placeName key="Athens">Athens</placeName> (<bibl n="urn:cts:greekLit:tlg0007.tlg035:5.2-5.3"
+      type="cts-urn">Plut. <title>Cim.</title> 5.2-3</bibl>).</p>
+    <p>Many ancient writers, often unsympathetic or actively hostile toward the idea of democracy,
+     describe the history of <placeName key="Athens">Athens</placeName> in the <date from="-0499"
+      to="-0400">5th</date> and <date from="-0399" to="-0300">4th centuries</date> as an ongoing
+     struggle between the rich and the poor (who were often referred to as the <term
+      sortKey="People">People</term>)—or between <soCalled>aristocracy</soCalled> (after
+      <emph>aristoi</emph>, <soCalled>the best people,</soCalled> a euphemism for the rich) and
+      <soCalled>democracy</soCalled> (after the <term>demos</term>, the <term sortKey="People"
+      >People</term>)—with prominent Athenians championing one side or the other. <name
+      type="ancientAuthor">Aristotle</name>, for example, summarizes Athenian history in terms of
+     this struggle, saying that at the <date from="-0530" to="-0500">end of the 6th century</date>
+     <name type="person">Cleisthenes</name> took the side of the <term sortKey="People"
+      >People</term>, while <name type="person">Isagoras</name> represented the rich; later, <name
+      type="person">Xanthippus</name> took the side of the <term sortKey="People">People</term>, and
+      <name type="person">Miltiades</name> took the side of the rich; and then, after the <term
+      sortKey="Persian_Wars">Persian Wars</term>, <name type="person">Themistocles</name> and <name
+      type="person">Ephialtes</name> took the side of the <term sortKey="People">People</term>,
+     while <name type="person">Aristides</name> and <name type="person">Cimon</name> took the side
+     of the rich (<bibl n="urn:cts:greekLit:tlg0086.tlg003:28.2" type="cts-urn">Aristot. <title>Ath.
+       Pol.</title> 28.2</bibl>). <name type="ancientAuthor">Plutarch</name> tells the same story of
+      <soCalled>party politics</soCalled> (<bibl n="urn:cts:greekLit:tlg0007.tlg035:5.4"
+      type="cts-urn">Plut. <title>Cim.</title> 5.4</bibl>), and goes so far as to say that <name
+      type="person">Cimon</name> restored <placeName key="Athens">Athens</placeName> to a <quote>the
+      legendary community of <name type="god">Cronus</name></quote> (<foreign xml:lang="grc">τὴν ἐπὶ
+      Κρόνου μυθολογουμένην κοινωνίαν</foreign>) by resisting <name type="person"
+      >Themistocles</name> and <name type="person">Ephialtes</name> as they tried to enact
+     democratic reforms (<bibl n="urn:cts:greekLit:tlg0007.tlg035:10.6-10.8" type="cts-urn">Plut.
+       <title>Cim.</title> 10.6-8</bibl>).</p>
+   </div>
+   <div n="Successes" type="Section" xml:id="Successes">
+    <head>Cimon’s Successes</head>
+    <p><name type="person">Cimon</name> enjoyed this influence over affairs because he was a very
+     successful general, politician, and perhaps self-promoter. After the <term
+      sortKey="Persian_Wars">Persian Wars</term>, when the Athenians were rebuilding their city (it
+     had been sacked by the Persians in <date when="-0480">480</date>
+     <note place="inline" rend="bracket" resp="CWB">source for date: <bibl type="secondary">
+       <title>OCD</title>
+       <edition>3</edition>
+      </bibl>, see also <bibl n="urn:cts:greekLit:tlg0016.tlg001:8.50.2" type="cts-urn">Hdt.
+       8.50.2</bibl></note>), <name type="person">Cimon</name> acted on a message from the god <name
+      type="god">Apollo</name>, delivered to the Athenians through the oracle at <placeName
+      key="Delphi">Delphi</placeName>; the message urged <placeName key="Athens">Athens</placeName>
+     to find the bones of their legendary king <name type="person">Theseus</name> and return them
+     for burial in <placeName key="Attica">Attica</placeName>. <name type="person">Cimon</name>
+     found a large skeleton on the island of <placeName key="Scyros">Scyros</placeName> and returned
+     with it, triumphantly, to <placeName key="Athens">Athens</placeName> (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg001:36.1" type="cts-urn">Plut. <title>Thes.</title>
+     36.1</bibl>-3; <bibl n="urn:cts:greekLit:tlg0007.tlg035:8.3" type="cts-urn">Plut.
+       <title>Cim.</title> 8.3</bibl>-7; <bibl n="urn:cts:greekLit:tlg0525.tlg001:1.17.6"
+      type="cts-urn">Paus. 1.17.6</bibl>; <bibl n="urn:cts:greekLit:tlg0525.tlg001:3.3.7"
+      type="cts-urn">Paus. 3.3.7</bibl>; <bibl n="urn:cts:greekLit:tlg0003.tlg001:1.98.2"
+      type="cts-urn">Thuc. 1.98.2</bibl>; <bibl n="urn:cts:greekLit:tlg0060.tlg001:11.60.2"
+      type="cts-urn">Diod. 11.60.2</bibl>). We also hear of <name type="person">Cimon</name> and
+      <name type="person">Aristides</name>—both advocates of an aristocratic government (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:28.2" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      28.2</bibl>; <bibl n="urn:cts:greekLit:tlg0007.tlg035:10.7" type="cts-urn">Plut.
+       <title>Cim.</title> 10.7</bibl>)—sent as an embassy to <placeName key="Sparta"
+      >Sparta</placeName> in <date when="-0479">479</date>, just after <placeName key="Athens"
+      >Athens</placeName> and <placeName key="Sparta">Sparta</placeName> had led the Greeks in
+     driving the Persians from <placeName key="Greece">Greece</placeName> (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg024:10.10" type="cts-urn">Plut. <title>Arist.</title>
+      10.10</bibl>; source for date: <bibl type="secondary">Rhodes, 293</bibl>). According to <name
+      type="ancientAuthor">Pausanias</name>, <name type="person">Cimon</name> was instrumental in
+     fortifying the newly rebuilt <name n="Acropolis, Athens" type="site">Acropolis</name> with
+     walls (<bibl n="urn:cts:greekLit:tlg0525.tlg001:1.28.3" type="cts-urn">Paus.
+     1.28.3</bibl>).</p>
+    <p>In the years <date from="-0478" to="-0477">478-477</date>, when the Persians has left the
+     Greek mainland but were still a threat to the Greek islands in the <placeName key="Aegean"
+      >Aegean</placeName>, the Spartans held leadership of a coalition of Greek states united for
+     protection from <placeName key="Persia">Persia</placeName> (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:6.1" type="cts-urn">Plut. <title>Cim.</title> 6.1</bibl>;
+     source for date: <bibl type="secondary">
+      <title>OHCW</title>
+     </bibl>). But the Spartan king <name type="person">Pausanias</name> mismanaged the alliance,
+     while <name type="person">Cimon</name>, who was in the <placeName key="Aegean"
+      >Aegean</placeName> as an Athenian <term sortKey="Military">general</term> (<foreign
+      xml:lang="grc">στρατηγός</foreign>), acted fairly, thus helping to bring many island-states
+     into alliance with <placeName key="Athens">Athens</placeName> (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:6.2" type="cts-urn">Plut. <title>Cim.</title>
+     6.2</bibl>).</p>
+    <p>Those years also marked the beginning of a series of naval battles between <placeName
+      key="Persia">Persia</placeName> and <placeName key="Athens">Athens</placeName>, under the
+     command of <name type="person">Cimon</name>, that would, by <date when="-0467">467</date>,
+     eliminate the Persian threat to the Greeks in the <placeName key="Aegean">Aegean</placeName>;
+     the first of these battles was in the north, in <placeName key="Thrace">Thrace</placeName>,
+     where <name type="person">Cimon</name> attacked the Persians and liberated the city of
+      <placeName key="Eion">Eion</placeName> (<bibl n="urn:cts:greekLit:tlg0007.tlg035:7.1"
+      type="cts-urn">Plut. <title>Cim.</title> 7.1</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0003.tlg001:1.98.1" type="cts-urn">Thuc. 1.98.1</bibl>; source for
+     date: <bibl type="secondary">
+      <title>OHCW</title>
+     </bibl>). <name type="ancientAuthor">Pausanias</name> (the writer from the <date from="0100"
+      to="0199">2nd century CE</date>, no relation to the Spartan king of the same name) reports
+     that <name type="person">Cimon</name> pioneered the use of running water to undermine brick
+     walls (which resist battering rams better than stone, he says) during the siege of <placeName
+      key="Eion">Eion</placeName> (<bibl n="urn:cts:greekLit:tlg0525.tlg001:8.8.9" type="cts-urn"
+      >Paus. 8.8.9</bibl>). <name type="person">Cimon</name>’s victory at <placeName key="Eion"
+      >Eion</placeName> in <placeName key="Thrace">Thrace</placeName> opened the way for <placeName
+      key="Athens">Athens</placeName> to control territory in northern <placeName key="Greece"
+      >Greece</placeName>, including the city of <placeName key="Amphipolis">Amphipolis</placeName>
+      (<bibl n="urn:cts:greekLit:tlg0007.tlg035:8.2" type="cts-urn">Plut. <title>Cim.</title>
+      8.2</bibl>).</p>
+    <p><name type="person">Cimon</name>’s greatest moment, however, was in <date when="-0467"
+      >467</date>, when he commanded the Athenian fleet in a battle against the Persians near the
+     mouth of the river <placeName key="Eurymedon">Eurymedon</placeName> (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:12.1" type="cts-urn">Plut. <title>Cim.</title>
+     12.1</bibl>-6; <bibl n="urn:cts:greekLit:tlg0003.tlg001:1.100.1" type="cts-urn">Thuc.
+      1.100.1</bibl>; source for date: <bibl type="secondary">
+      <title>OHCW</title>
+     </bibl>). After his fleet had beaten the Persian fleet, it landed troops which another victory
+     on land (<bibl n="urn:cts:greekLit:tlg0007.tlg035:13.1" type="cts-urn">Plut.
+       <title>Cim.</title> 13.1</bibl>-2). <name type="person">Cimon</name> won yet another victory
+     immediately afterwards against a fleet of Phoenician ships that were part patrolling near
+      <placeName key="Hydrus">Hydrus</placeName> on behalf of <placeName key="Persia"
+      >Persia</placeName> (<bibl n="urn:cts:greekLit:tlg0007.tlg035:13.3" type="cts-urn">Plut.
+       <title>Cim.</title> 13.3</bibl>). He became famous as the one general who won a victory on
+     land and on sea on the same day (<bibl n="urn:cts:greekLit:tlg0525.tlg001:1.29.14"
+      type="cts-urn">Paus. 1.29.14</bibl>). The result of these victories was a treaty between the
+     Greeks and the <name type="person">Great King</name> of <placeName key="Persia"
+      >Persia</placeName>, ending the Persian threat to the Greeks, at least for the moment (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:13.4" type="cts-urn">Plut. <title>Cim.</title>
+     13.4</bibl>).</p>
+    <p><placeName key="Athens">Athens</placeName> was still the leading city of the defensive
+     alliance of Greek states, many of which grew tired of providing ships for the common defense;
+     according to <name type="ancientAuthor">Plutarch</name>, <name type="person">Cimon</name>
+     allowed them to pay money instead of contributing ships, money that the Athenians used to
+     expand their own fleet, which would provide protection to all the allies. Thus, <quote>before
+      they knew it, they were tribute-paying subject rather than allies</quote> (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:11.1" type="cts-urn">Plut. <title>Cim.</title>
+     11.1</bibl>-3; compare <bibl n="urn:cts:greekLit:tlg0003.tlg001:1.99" type="cts-urn">Thuc.
+      1.99</bibl>, which tells the same story without mentioning <name type="person">Cimon</name>).
+     This was the birth of the Athenian <soCalled>empire</soCalled> (<foreign xml:lang="grc"
+      >ἀρχή</foreign>) that would shape the city’s history in the <date from="-0499" to="-0400">5th
+      century</date> (for the term, see <bibl n="urn:cts:greekLit:tlg0003.tlg001:1.67.4"
+      type="cts-urn">Thuc. 1.67.4</bibl>; <bibl n="urn:cts:greekLit:tlg0003.tlg001:1.75"
+      type="cts-urn">Thuc. 1.75</bibl>).</p>
+    <p><name type="ancientAuthor">Plutarch</name> tells the following story to illustrate <name
+      type="person">Cimon</name>’s prestige during these years when he was one of the ten <term
+      sortKey="Military">generals</term> elected by the Athenians. On the occasion when the
+     tragedian <name type="ancientAuthor">Sophocles</name> was producing his first tragedies in the
+      <term sortKey="Theater_of_Dionysus,_Athens">Theater of Dionysus</term>, putting them in
+     competition with some tragedies of <name type="ancientAuthor">Aeschylus</name>, the crowd was
+     in an uproar, excited by the young poet’s challenge to the old master. When <name type="person"
+      >Cimon</name> and his fellow <term sortKey="Military">generals</term> entered the theater, the
+      <term sortKey="Archons">archon</term> chose them to judge the competition, rather than
+     selecting ten judges at random. <name type="person">Cimon</name>’s reputation calmed the crowd
+     and prevented a riot when the <soCalled>upstart</soCalled>
+     <name type="ancientAuthor">Sophocles</name> won the competition (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:8.7" type="cts-urn">Plut. <title>Cim.</title>
+     8.7</bibl>-8). This happened in <date when="-0468">468 BCE</date> (source for date: <bibl
+      type="secondary">
+      <title>OHCW</title>
+     </bibl>).</p>
+   </div>
+   <div n="Beginning of Conflict" type="Section" xml:id="BeginningOfConflict">
+    <head>The Beginning of Conflict with the Democrats</head>
+    <p><name type="ancientAuthor">Plutarch</name> praises <name type="person">Cimon</name> for his
+     opposition to the democratic reforms of <name type="person">Themistocles</name> and <name
+      type="person">Ephialtes</name> (<bibl n="urn:cts:greekLit:tlg0007.tlg035:10.7" type="cts-urn"
+      >Plut. <title>Cim.</title> 10.7</bibl>). The beginnings of this opposition, as far as we can
+     tell, arose from an incident on one of<name type="person"> Cimon</name>’s military campaigns in
+     the north. While the Persians had been mostly driven from the <placeName key="Aegean"
+      >Aegean</placeName> sea, they remained in the <placeName key="Chersonese"
+      >Chersonese</placeName>, a peninsula in the northern <placeName key="Aegean"
+      >Aegean</placeName>, and allied themselves with some of the people of <placeName key="Thrace"
+      >Thrace</placeName>; the Athenians dispatched <name type="person">Cimon</name> to wage war
+     against them (<bibl n="urn:cts:greekLit:tlg0007.tlg035:14.1" type="cts-urn">Plut.
+       <title>Cim.</title> 14.1</bibl>). <name type="person">Cimon</name> won a victory in
+      <placeName key="Thrace">Thrace</placeName>, which allowed him, had he wished to, to invade
+      <placeName key="Macedonia">Macedonia</placeName>. When he failed to do this, he was brought to
+     trial in <placeName key="Athens">Athens</placeName>, accused of accepting bribes to leave
+      <placeName key="Macedonia">Macedonia</placeName> alone; one of the prosecutors at his trial
+     was <name type="person">Pericles</name> (<bibl n="urn:cts:greekLit:tlg0007.tlg035:14.2"
+      type="cts-urn">Plut. <title>Cim.</title> 14.2</bibl>-3). <name type="person">Cimon</name>
+     spoke well in his own defense (<bibl n="urn:cts:greekLit:tlg0007.tlg035:14.3" type="cts-urn"
+      >Plut. <title>Cim.</title> 14.3</bibl>) and was acquitted, but this trial, at least as <name
+      type="ancientAuthor">Plutarch</name> narrates <name type="person">Cimon</name>’s career,
+     marked the beginning of a period of confrontation between him and the democratic reformers
+      (<bibl n="urn:cts:greekLit:tlg0007.tlg035:15.1" type="cts-urn">Plut. <title>Cim.</title>
+      15.1</bibl>-2; <bibl n="urn:cts:greekLit:tlg0007.tlg035:10.7" type="cts-urn">Plut.
+       <title>Cim.</title> 10.7</bibl>).</p>
+    <p>Cimon was the <term>proxenos</term> (<foreign xml:lang="grc">πρόξενος</foreign>) or
+      <soCalled>official representative</soCalled> of <placeName key="Sparta">Sparta</placeName> in
+      <placeName key="Athens">Athens</placeName>, a position similar to that of an ambassador,
+     except that the <term>proxenus</term> was a citizen of the foreign city, not of the city he
+     represented (<bibl n="urn:cts:greekLit:tlg0007.tlg035:14.3" type="cts-urn">Plut.
+       <title>Cim.</title> 14.3</bibl>; <bibl n="urn:cts:greekLit:tlg0525.tlg001:4.24.6"
+      type="cts-urn">Paus. 4.24.6</bibl>). <name type="person">Cimon</name>’s relationship with
+      <placeName key="Sparta">Sparta</placeName> was close; he cited that relationship, as evidence
+     of his good character, in his own defense at his trial (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:14.3" type="cts-urn">Plut. <title>Cim.</title>
+     14.3</bibl>), and even named one of his sons <name type="person">Lacedaemonius</name>, or
+      <soCalled>Spartan</soCalled> (<bibl n="urn:cts:greekLit:tlg0003.tlg001:1.45.2" type="cts-urn"
+      >Thuc. 1.45.2</bibl>; <bibl n="urn:cts:greekLit:tlg0007.tlg035:16.1" type="cts-urn">Plut.
+       <title>Cim.</title> 16.1</bibl>; <name type="ancientAuthor">Aristotle</name> makes some
+     unflattering comments about <name type="person">Cimon</name>’s children at <bibl
+      n="urn:cts:greekLit:tlg0086.tlg038:1390b" type="cts-urn">Aristot. <title>Rh.</title>
+      1390b</bibl>). This relationship was helpful to <placeName key="Athens">Athens</placeName>,
+     and reflected well on <name type="person">Cimon</name> in the eyes of his fellow citizens,
+     while <placeName key="Sparta">Sparta</placeName> and <placeName key="Athens">Athens</placeName>
+     were allies in the struggle against <placeName key="Persia">Persia</placeName>, but as the two
+     cities became rivals, <placeName key="Sparta">Sparta</placeName>’s <term>proxenus</term> came
+     to be regarded with some suspicion (<bibl n="urn:cts:greekLit:tlg0007.tlg035:16.4"
+      type="cts-urn">Plut. <title>Cim.</title> 16.4</bibl>-6).</p>
+    <p>In <date when="-0464">464 BCE</date>, an earthquake struck the <placeName key="Peloponnese"
+      >Peloponnese</placeName> in the area around <placeName key="Sparta">Sparta</placeName>, and
+     the <emph>helots</emph> (<foreign xml:lang="grc">εἵλως</foreign>, <foreign xml:lang="grc"
+      >εἱλώτης</foreign>), a large population of serfs controlled by the Spartans, took the disaster
+     as an opportunity to revolt from their masters; the Spartans send messages to <placeName
+      key="Athens">Athens</placeName> asking for help in putting down this rebellion (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:16.4" type="cts-urn">Plut. <title>Cim.</title>
+     16.4</bibl>-7; <bibl n="urn:cts:greekLit:tlg0525.tlg001:1.29.8" type="cts-urn">Paus.
+      1.29.8</bibl>; source for date: <bibl type="secondary">
+      <title>OHCW</title>
+     </bibl>). <name type="ancientAuthor">Aristophanes</name> makes a joking reference to this event
+     in his play <title>Lysistrata</title>, where <name type="person">Lysistrata</name> chides some
+     Spartans, saying: <quote>You must remember, not so long ago, you sent a man to <placeName
+       key="Athens">Athens</placeName> begging us, on bended knee and whiter than a ghost, to sent
+      an army? All your slaves were up in arms when that big earthquake hit you. We send you help,
+      four thousand infantry</quote> (<bibl n="urn:cts:greekLit:tlg0019.tlg007:1138" type="cts-urn"
+      >Aristoph. <title>Lys.</title> 1138</bibl>)—<quote>not so long ago</quote> is misleading,
+     since <bibl n="urn:cts:greekLit:tlg0019.tlg007" type="cts-urn">
+      <title>Lysistrata</title>
+     </bibl> was produced in <date when="-0411">411 BCE</date>, fifty three years after the
+     helot-uprising (source for date: <bibl type="secondary">
+      <title>OHCW</title>
+     </bibl>).</p>
+    <p><name type="person">Ephialtes</name> opposed sending help to <placeName key="Sparta"
+      >Sparta</placeName>, but <name type="person">Cimon</name> argued in favor of doing so and
+     persuaded the Athenians (<bibl n="urn:cts:greekLit:tlg0007.tlg035:16.8" type="cts-urn">Plut.
+       <title>Cim.</title> 16.8</bibl>). After this successful intervention, the Spartans called for
+     help from <placeName key="Athens">Athens</placeName> a second time, in <date when="-0462">462
+      BCE</date>, when they were besieging a group of rebellious helots in the town of <placeName
+      key="Ithome">Ithome</placeName>, in <placeName key="Messenia">Messenia</placeName> (source for
+     date: <bibl type="secondary">
+      <title>OHCW</title>
+     </bibl>). Again the Athenians sent a military force, under <name type="person">Cimon</name>’s
+     command, but once the army arrived in <placeName key="Messenia">Messenia</placeName>, the
+     Spartans sent them back again (<bibl n="urn:cts:greekLit:tlg0007.tlg035:17.2" type="cts-urn"
+      >Plut. <title>Cim.</title> 17.2</bibl>; <bibl n="urn:cts:greekLit:tlg0003.tlg001:1.102"
+      type="cts-urn">Thuc. 1.102</bibl>; <bibl n="urn:cts:greekLit:tlg0525.tlg001:1.29.8"
+      type="cts-urn">Paus. 1.29.8</bibl>). Plutarch says, <quote>the army came back home in a rage,
+      and at once took open measures of hostility against the pro-Spartan people, and above all
+      against <name type="person">Cimon</name></quote> (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:17.2" type="cts-urn">Plut. <title>Cim.</title>
+     17.2</bibl>); <name type="person">Cimon</name> was <term sortKey="Ostracism">ostracized</term>,
+     a process by which the people of <placeName key="Athens">Athens</placeName> voted to expel him
+     from the city for a period of ten years (<bibl n="urn:cts:greekLit:tlg0007.tlg035:17.2"
+      type="cts-urn">Plut. <title>Cim.</title> 17.2</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0027.tlg004:33" type="cts-urn">Andoc. 4.33</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0027.tlg003:3" type="cts-urn">Andoc. 3.3</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0007.tlg012:9.4" type="cts-urn">Plut. <title>Per.</title>
+     9.4</bibl>).</p>
+    <p>When <name type="ancientAuthor">Plutarch</name> describes <name type="person">Cimon</name>’s
+      <term sortKey="ostracism">ostracism</term> at <bibl n="urn:cts:greekLit:tlg0007.tlg035:17.2"
+      type="cts-urn">Plut. <title>Cim.</title> 17.2</bibl>, he suggests that it was motivated by
+      <placeName key="Athens">Athens</placeName>’ anger at their humiliating dismissal by the
+      Spartans—<name type="person">Cimon</name>, the <term>proxenus</term> of <placeName
+      key="Sparta">Sparta</placeName> would have been a natural target for that anger. But there may
+     have been more to it than that. We have reason to think that while <name type="person"
+      >Cimon</name> was away in <placeName key="Messenia">Messenia</placeName> with an Athenian
+     army, the people in <placeName key="Athens">Athens</placeName>, under the leadership of <name
+      type="person">Ephialtes</name> and <name type="person">Pericles</name>, enacted a radical
+     democratic reform by limiting the powers of the <term sortKey="Areopagus">Court of the
+      Areopagus</term>.</p>
+   </div>
+   <div n="Reforms Behind Hi Back" type="Section" xml:id="ReformsBehindBack">
+    <head>Democratic Reforms Behind Cimon’s Back</head>
+    <p>First there is the question of why the Spartans, after summoning the Athenians to help,
+     suddenly changed their minds and dismissed them. <name type="ancientAuthor">Plutarch</name>
+     says that the Spartans saw the Athenians as <quote>revolutionaries</quote> (<foreign
+      xml:lang="grc">νεωτεριστάς</foreign>) (<bibl n="urn:cts:greekLit:tlg0007.tlg035:17.2"
+      type="cts-urn">Plut. <title>Cim.</title> 17.2</bibl>). <name type="ancientAuthor"
+      >Thucydides</name> expands on this, saying that the Spartans, <quote>apprehensive of the
+      enterprising and revolutionary character of the Athenians, and further looking upon them as
+      foreigners, began to fear that if they remained, they might be tempted by the besieged in
+       <placeName key="Ithome">Ithome</placeName> to attempt some political changes. They
+      accordingly dismissed them alone of the allies, without declaring their suspicions, but merely
+      saying that they had now no need of them</quote> (<foreign xml:lang="grc">δείσαντες τῶν
+      Ἀθηναίων τὸ τολμηρὸν καὶ τὴν νεωτεροποιίαν, καὶ ἀλλοφύλους ἅμα ἡγησάμενοι, μή τι, ἢν
+      παραμείνωσιν, ὑπὸ τῶν ἐν Ἰθώμῃ πεισθέντες νεωτερίσωσι, μόνους τῶν ξυμμάχων ἀπέπεμψαν, τὴν μὲν
+      ὑποψίαν οὐ δηλοῦντες, εἰπόντες δὲ ὅτι οὐδὲν προσδέονται αὐτῶν ἔτι</foreign>) (<bibl
+      n="urn:cts:greekLit:tlg0003.tlg001:1.102" type="cts-urn">Thuc. 1.102</bibl>).</p>
+    <p>Second, there are several passages from ancient authors that say that democratic reforms were
+     passed in <placeName key="Athens">Athens</placeName> while <name type="person">Cimon</name> was
+     away. <name type="ancientAuthor">Plutarch</name> suggests this, in very general terms, in his
+     biography of <name type="person">Pericles</name>. Once <name type="person">Aristides</name> was
+     dead, <name type="ancientAuthor">Plutarch</name> says, and <name type="person"
+      >Themistocles</name> was banished and <name type="person">Cimon</name> was generally absent on
+     campaigns, <quote><name type="person">Pericles</name> decided to devote himself to the people,
+      espousing the cause of the poor and the many instead of the few and the rich, contrary to his
+      own nature, which was anything but popular</quote> (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg012:7.2" type="cts-urn">Plut. <title>Per.</title> 7.2</bibl>).
+     In his biography of <name type="person">Cimon</name> he is more specific, saying that after
+      <name type="person">Cimon</name>’s trial and acquittal, he opposed any democratic reforms,
+      <quote>but when he sailed away again on military service, the <term sortKey="People"
+       >People</term> got completely beyond control. They confounded the established political order
+      of things and the ancestral practices which they had formerly observed, and under the lead of
+       <name type="person">Ephialtes</name> they robbed the <term sortKey="Areopagus">Council of the
+       Areopagus</term> of all but a few of the cases in its jurisdiction</quote> (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:15.1" type="cts-urn">Plut. <title>Cim.</title>
+     15.1</bibl>).</p>
+    <p>Third, there is evidence to suggest that democratic reforms, and particularly a reform of the
+      <term sortKey="Areopagus">Court of the Areopagus</term>, were enacted specifically by the
+      <term sortKey="People">People</term> generally, the dēmos (<foreign xml:lang="grc"
+      >δῆμος</foreign>), in the absence of <name type="person">Cimon</name> and the wealthier
+     Athenians. <name type="ancientAuthor">Diodorus</name> says that it was the <term
+      sortKey="Assembly">Assembly</term> (<foreign xml:lang="grc">ἐκκλησία</foreign>), the most
+     democratic institution in <placeName key="Athens">Athens</placeName>, that reformed the <term
+      sortKey="Areopagus">Court of the Areopagus</term> (<bibl
+      n="urn:cts:greekLit:tlg0060.tlg001:11.77.6" type="cts-urn">Diod. 11.77.6</bibl>). More
+     interesting still, <name type="ancientAuthor">Aristotle</name> attributes the democratic
+     reforms after the <term sortKey="Persian_Wars">Persian Wars</term>, and particularly the
+     changes to the <term sortKey="Areopagus">Court of the Areopagus</term>, to the <quote>naval
+      multitude</quote> (<foreign xml:lang="grc">ὁ ναυτικὸς ὄχλος</foreign>) (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1304a" type="cts-urn">Aristot. <title>Pol.</title>
+      1304a</bibl>). This <quote>naval multitude</quote> refers to the citizens who were not wealthy
+     enough to provide themselves with bronze armor, but could nevertheless serve as rowers on
+     warships.</p>
+    <p>Fourth, and finally,<name type="ancientAuthor"> Plutarch</name>’s biography of <name
+      type="person">Pericles</name>, unlike his biography of <name type="person">Cimon</name>,
+     explicitly connects <name type="person">Cimon</name>’s ostracism with <name type="person"
+      >Ephialtes</name>’ reform of the <term sortKey="Areopagus">Court of the Areopagus</term>,
+     which he calls here the <soCalled>
+      <term sortKey="Areopagus">Council of the Areopagus</term>
+     </soCalled>: <quote> Not only was the Council robbed of most of its jurisdiction by <name
+       type="person">Ephialtes</name>, but <name type="person">Cimon</name> also, on the charge of
+      being a lover of <placeName key="Sparta">Sparta</placeName> and a hater of the <term
+       sortKey="People">people</term>, was <term sortKey="Ostracism">ostracized</term></quote>
+      (<bibl n="urn:cts:greekLit:tlg0007.tlg012:9.4" type="cts-urn">Plut. <title>Per.</title>
+      9.4</bibl>).</p>
+    <p>If we put these four categories of evidence together, we might (tentatively) reconstruct
+     events as follows: In <date when="-0462">462 BCE</date> the Spartans sent for Athenian help
+     during the siege of <placeName key="Ithome">Ithome</placeName> in <placeName key="Messenia"
+      >Messenia</placeName>. <name type="person">Cimon</name> marched south with an army that
+     consisted of those Athenians wealthy enough to afford the bronze armor necessary for fighting
+     on land. While this army was gone, the <term sortKey="Assembly">Assembly</term> at <placeName
+      key="Athens">Athens</placeName>, with a smaller-than-usual number of wealthy citizens
+     participating, passed democratic reforms, including a reform of the <term sortKey="Areopagus"
+      >Court of the Areopagus</term>. Word of this reached <placeName key="Sparta"
+      >Sparta</placeName>, and the Spartans (who did not look kindly on reform, certainly not
+     democratic reform) decided that the Athenians were dangerous to have around and so dismissed
+     them. Upon returning to <placeName key="Athens">Athens</placeName>, <name type="person"
+      >Cimon</name>, who was known for his good relationship with <placeName key="Sparta"
+      >Sparta</placeName> and for opposing reforms such as had just been passed, was <term
+      sortKey="Ostracism">ostracized</term>.</p>
+    <p>It is important to note that the preceding paragraph is one possible interpretation of a few
+     pieces of evidence. The evidence, by itself, does not give a full, or consistent, picture of
+     events.</p>
+   </div>
+   <div n="Opposition to Reforms" type="Section" xml:id="OpposedReforms">
+    <head>The Reforms that Cimon Opposed</head>
+    <p>For a full description of the <term sortKey="Areopagus">Court of the Areopagus</term>
+     (sometimes called the <soCalled>Council of the <term sortKey="Areopagus"
+      >Areopagus</term>,</soCalled> and sometimes simply <soCalled>the <term sortKey="Areopagus"
+       >Areopagus</term></soCalled>, after the <name n="Areopagus, Athens" type="site">Hill of the
+      Areopagus</name>, where it convened) and the reforms of <date when="-0462">462 BCE</date>, see
+     the entries under <term sortKey="Areopagus">Court of the Areopagus</term> and <name
+      type="person">Ephialtes</name>. What follows is a very condensed account, to illustrate the
+     democratic changes to the government of <placeName key="Athens">Athens</placeName> that <name
+      type="person">Cimon</name> opposed.</p>
+    <p>In the earliest stages of the Athenian government that our sources describe, the <term
+      sortKey="Areopagus">Court of the Areopagus</term> was the most important governing body. It
+     was also a very aristocratic body. <name type="ancientAuthor">Aristotle</name> says that before
+     the <date from="-0499" to="-0400">fifth century</date>, <quote>The <term sortKey="Areopagus"
+       >Council of the Areopagus</term> had the official function of guarding the laws, but actually
+      it administered the greatest number and the most important of the affairs of state, inflicting
+      penalties and fines upon offenders against public order without appeal; for the elections of
+      the <term sortKey="Archons">Archons</term> went by birth and wealth, and the members of the
+       <term sortKey="Areopagus">Areopagus</term> were appointed from them, owing to which this
+      alone of the offices has remained even to the present day tenable for life</quote> (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:3.6" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      3.6</bibl>). In the time of <name type="person">Draco</name>, who (according to legend) first
+     gave <placeName key="Athens">Athens</placeName> a code of laws, <quote>The <term
+       sortKey="Areopagus">Council of the Areopagus</term> was guardian of he laws, and kept a watch
+      on the magistrates (<foreign xml:lang="grc">τὰς ἀρχάς</foreign>) to make them govern in
+      accordance with the laws. A person unjustly treated might lay a complaint before the <term
+       sortKey="Areopagus">Council of the Areopagus</term>, stating the law in contravention of
+      which he was treated unjustly</quote> (<bibl n="urn:cts:greekLit:tlg0086.tlg003:4.4"
+      type="cts-urn">Aristot. <title>Ath. Pol.</title> 4.4</bibl>). Both of these passages are
+     rather vague as to the details of the functions of the <term sortKey="Areopagus">Court of the
+      Areopagus</term>, but its importance is clear.</p>
+    <p>As <placeName key="Athens">Athens</placeName> became gradually more democratic, in the years
+     leading up to the <term sortKey="Persian_Wars">Persian Wars</term> (c. <date from="-0481"
+      to="-0479">481-479 BCE</date>: source <bibl type="secondary">
+      <title>OHCW</title>
+     </bibl>), the <term sortKey="Areopagus">Areopagus</term> seems to have lost some of its
+     authority. <name type="ancientAuthor">Aristotle</name> says in his <title>Politics</title> that
+      <name type="person">Solon</name>—the partly legendary, partly historical Athenian lawgiver of
+     the <date from="-0599" to="-0550">early 6th century BCE</date> (source: <bibl type="secondary">
+      <title>OCD</title>
+      <edition>3</edition>
+     </bibl>)—reformed the Athenian constitution by mixing democratic elements (the <term
+      sortKey="lawcourt">law-courts</term>), aristocratic elements (the <term sortKey="archons"
+      >elected offices</term>) and oligarchic elements (the <term sortKey="Areopagus">Council of the
+      Areopagus</term>) (<bibl n="urn:cts:greekLit:tlg0086.tlg035:1273b" type="cts-urn">Aristot.
+       <title>Pol.</title> 1273b</bibl>). However, during the chaos of the Persian invasion in <date
+      when="-0480">480 BCE</date>, the <term sortKey="Areopagus">Council of the Areopagus</term>
+     took a leading role in organizing, and financing, the evacuation of all Athenians to <placeName
+      key="Salamis">Salamis</placeName> and the <placeName key="Peloponnese"
+     >Peloponnese</placeName>, which raised the body’s status considerably (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:23.1" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      23.1</bibl>).</p>
+    <p>While the evacuation of <placeName key="Athens">Athens</placeName> raised the prestige of the
+      <term sortKey="Areopagus">Areopagus</term>, the ensuing battle in the sea by <placeName
+      key="Salamis">Salamis</placeName> may have helped bring about its later fall from power. The
+     victory at <placeName key="Salamis">Salamis</placeName> was won by Athens’ fleet, which was
+     manned by the general population who may have assumed that their role in the defense of
+      <placeName key="Athens">Athens</placeName> entitled them to a greater role in the city’s
+     governance. <name type="ancientAuthor">Aristotle</name> explicitly contrasts this
+      <soCalled>naval crowd</soCalled> with the <term sortKey="Areopagus">Council of the
+      Areopagus</term>: <quote>…as for example the <term sortKey="Areopagus">Council of the
+       Areopagus</term> having risen in reputation during the <term sortKey="Persian_Wars">Persian
+       Wars</term> was believed to have made the constitution more rigid, and then again the naval
+      multitude, having been the cause of the victory off <placeName key="Salamis"
+       >Salamis</placeName> and thereby of the leadership of <placeName key="Athens"
+       >Athens</placeName> due to her power at sea, made the democracy stronger</quote> (<foreign
+      xml:lang="grc">οἷον ἡ ἐν Ἀρείῳ πάγῳ βουλὴ εὐδοκιμήσασα ἐν τοῖς Μηδικοῖς ἔδοξε συντονωτέραν
+      ποιῆσαι τὴν πολιτείαν, καὶ πάλιν ὁ ναυτικὸς ὄχλος γενόμενος αἴτιος τῆς περὶ Σαλαμῖνα νίκης καὶ
+      διὰ ταύτης τῆς ἡγεμονίας διὰ τὴν κατὰ θάλατταν δύναμιν τὴν δημοκρατίαν ἰσχυροτέραν
+      ἐποίησεν</foreign>) (<bibl n="urn:cts:greekLit:tlg0086.tlg0351304a" type="cts-urn">Aristot.
+       <title>Pol.</title> 1304a</bibl>).</p>
+    <p>In the years following the <term sortKey="Persian_Wars">Persian Wars</term>, we know of two
+     events, particularly, that may have motivated the advocates of democracy to try to limit the
+     authority of the <term sortKey="Areopagus">Council of the Areopagus</term>. First, <name
+      type="person">Themistocles</name>, who was a leader of those who favored democracy (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:28.2" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      28.2</bibl>; <bibl n="urn:cts:greekLit:tlg0007.tlg035:5.4" type="cts-urn">Plut.
+       <title>Cim.</title> 5.4</bibl>; <bibl n="urn:cts:greekLit:tlg0007.tlg035:10.6" type="cts-urn"
+      >Plut. <title>Cim.</title> 10.6</bibl>), was brought to trial before the <term
+      sortKey="Areopagus">Council of the Areopagus</term> on charges that he had improper dealings
+     with <placeName key="Persia">Persia</placeName> (<bibl n="urn:cts:greekLit:tlg0086.tlg003:25.3"
+      type="cts-urn">Aristot. <title>Ath. Pol.</title> 25.3</bibl>). Second, <name type="person"
+      >Cimon</name>, who as we have seen was an opponent of democratic reforms (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:28.2" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      28.2</bibl>; <bibl n="urn:cts:greekLit:tlg0007.tlg035:5.4" type="cts-urn">Plut.
+       <title>Cim.</title> 5.4</bibl>; <bibl n="urn:cts:greekLit:tlg0007.tlg035:10.6" type="cts-urn"
+      >Plut. <title>Cim.</title> 10.6</bibl>), was acquitted by the <term sortKey="Areopagus"
+      >Areopagus</term> when he was charged with failing to invade <placeName key="Macedonia"
+      >Macedonia</placeName> (<bibl n="urn:cts:greekLit:tlg0007.tlg035:15.1" type="cts-urn">Plut.
+       <title>Cim.</title> 15.1</bibl>-2; <bibl n="urn:cts:greekLit:tlg0007.tlg035:10.7"
+      type="cts-urn">Plut. <title>Cim.</title> 10.7</bibl>).</p>
+    <p>The ancient sources are in agreement that in <date when="-0462">462 BCE</date>
+     <name type="person">Cimon</name> was the principle opponent of reform to the powers of the
+      <term sortKey="Areopagus">Council of the Areopagus</term> (see, for example <bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:26.1" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      26.1</bibl>; <bibl n="urn:cts:greekLit:tlg0007.tlg012:9.4" type="cts-urn">Plut.
+       <title>Per.</title> 9.4</bibl>; <bibl n="urn:cts:greekLit:tlg0007.tlg035:15.1" type="cts-urn"
+      >Plut. <title>Cim.</title> 15.1</bibl>; source for date: <bibl type="secondary">
+      <title>OCD</title>
+      <edition>3</edition>
+     </bibl>). The sources do not agree, however, as to who initiated that reform. <name
+      type="ancientAuthor">Plutarch</name> says that it was <name type="person">Ephialtes</name>
+     who, <quote>broke down the power of the <term sortKey="Areopagus">Council of the
+       Areopagus</term></quote> (<bibl n="urn:cts:greekLit:tlg0007.tlg012:7.6" type="cts-urn">Plut.
+       <title>Per.</title> 7.6</bibl>). At one point in the <title>Constitution of the
+      Athenians</title>
+     <name type="ancientAuthor">Aristotle</name> says <quote>But as the population increased, <name
+       type="person">Ephialtes</name> son of <name type="person">Sophonides</name>, having become
+      head of the <term sortKey="People">People</term> and having the reputation of being
+      incorruptible and just in regard to the constitution, attacked the <term sortKey="Areopagus"
+       >Council of the Areopagus</term></quote> (<bibl n="urn:cts:greekLit:tlg0086.tlg003:25.1"
+      type="cts-urn">Aristot. <title>Ath. Pol.</title> 25.1</bibl>). But elsewhere in the same work
+     he says that the reform was organized by <name type="person">Ephialtes</name> and <name
+      type="person">Themistocles</name> (<bibl n="urn:cts:greekLit:tlg0086.tlg003:25.3"
+      type="cts-urn">Aristot. <title>Ath. Pol.</title> 25.3</bibl>), and elsewhere still, he
+     mentions <name type="person">Pericles</name> attacking the <term sortKey="Areopagus">Council of
+      the Areopagus</term> (<bibl n="urn:cts:greekLit:tlg0086.tlg003:27.1" type="cts-urn">Aristot.
+       <title>Ath. Pol.</title> 27.1</bibl>). <name type="ancientAuthor">Plutarch</name> also
+     mentions <name type="person">Pericles</name> at <bibl n="urn:cts:greekLit:tlg0007.tlg012:9.3"
+      type="cts-urn">Plut. <title>Per.</title> 9.3</bibl>. We should probably conclude, although
+     cautiously, that <name type="person">Ephialtes</name> was the principle reformer, but that he
+     acted with the advice and support of <name type="person">Pericles</name>. <name type="person"
+      >Ephialtes</name> is the name most often associated with the reforms, and the following
+     passage from <name type="ancientAuthor">Plutarch</name> suggests that, while <name
+      type="person">Pericles</name> was a leader of the democratic movement, it was <name
+      type="person">Ephialtes</name> who enacted this particular reform: <quote>For this reason all
+      the more did <name type="person">Pericles</name>, strong in the affections of the <term
+       sortKey="People">people</term>, lead a successful party against the <term sortKey="Areopagus"
+       >Council of the Areopagus</term>. Not only was the Council robbed of most of its jurisdiction
+      by <name type="person">Ephialtes</name>, but <name type="person">Cimon</name> also, on the
+      charge of being a lover of <placeName key="Sparta">Sparta</placeName> and a hater of the <term
+       sortKey="People">people</term>, was <term sortKey="Ostracism">ostracized</term>.</quote>
+      (<bibl n="urn:cts:greekLit:tlg0007.tlg012:9.4" type="cts-urn">Plut. <title>Per.</title>
+      9.4</bibl>).</p>
+    <p>What were the reforms? They are discussed at length in the articles on <name type="person"
+      >Ephialtes</name> and on the <term sortKey="Areopagus">Court of the Areopagus</term>, but they
+     can be summarized briefly here. <name type="ancientAuthor">Plutarch</name> says that the <term
+      sortKey="Areopagus">Council of the Areopagus</term> lost jurisdiction over almost all
+      <emph>kriseis</emph>, <quote>judgements</quote> (<foreign xml:lang="grc">κρίσεις</foreign>)
+      (<bibl n="urn:cts:greekLit:tlg0007.tlg035:15.2" type="cts-urn">Plut. <title>Cim.</title>
+      15.2</bibl>; <bibl n="urn:cts:greekLit:tlg0007.tlg012:9.5" type="cts-urn">Plut.
+       <title>Per.</title> 9.5</bibl>). <name type="ancientAuthor">Aristotle</name> is vague, saying
+     that the <term sortKey="Areopagus">Council of the Areopagus</term> was <quote>deprived of
+      superintendence of affairs</quote> (<foreign xml:lang="grc">ἀπεστερήθη τῆς
+      ἐπιμελείας</foreign>) (<bibl n="urn:cts:greekLit:tlg0086.tlg003:26.1" type="cts-urn">Aristot.
+       <title>Ath. Pol.</title> 26.1</bibl>). Our best evidence for what authority remained in the
+     hands of the <term sortKey="Areopagus">Council of the Areopagus</term> comes from subsequent
+     trials that appeared before it. These include trials for homicide, assault and battery, certain
+     religious offenses, and arson (<bibl n="urn:cts:greekLit:tlg0540.tlg007:22" type="cts-urn">Lys.
+      7.22</bibl>; <bibl n="urn:cts:greekLit:tlg0014.tlg023:22" type="cts-urn">Dem. 23.22</bibl>;
+      <bibl n="urn:cts:greekLit:tlg0014.tlg059:79" type="cts-urn">Dem. 59.79</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:57.3" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      57.3</bibl>; <bibl n="urn:cts:greekLit:tlg0086.tlg003:60.2" type="cts-urn">Aristot.
+       <title>Ath. Pol.</title> 60.2</bibl>).</p>
+    <p>Immediately after describing the reform of the <term sortKey="Areopagus">Court of the
+      Areopagus</term>, <name type="ancientAuthor">Aristotle</name> mentions that <name
+      type="person">Pericles</name> first introduced pay for citizens who served on juries in the
+     court of the <term sortKey="lawcourt">Heliaia</term> (<bibl
+      n="urn:cts:greekLit:tlg0086.tlg003:27.2" type="cts-urn">Aristot. <title>Ath. Pol.</title>
+      27.2</bibl>). This might indicate that, with many kinds of court cases no longer appearing
+     before the <term sortKey="Areopagus">Areopagus</term>, there was greater need for citizen
+     jurors.</p>
+   </div>
+   <div n="Death" type="Section" xml:id="Death">
+    <head>Cimon’s Last Years and Death</head>
+    <p><name type="person">Cimon</name> had been <term sortKey="Ostracism">ostracized</term> in
+      <date when="-0462">462</date>, which meant that he was exiled from <placeName key="Athens"
+      >Athens</placeName> for ten years (<bibl n="urn:cts:greekLit:tlg0007.tlg035:17.2"
+      type="cts-urn">Plut. <title>Cim.</title> 17.2</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0027.tlg004:33" type="cts-urn">Andoc. 4.33</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0027.tlg003:3" type="cts-urn">Andoc. 3.3</bibl>; <bibl
+      n="urn:cts:greekLit:tlg0007.tlg012:9.4" type="cts-urn">Plut. <title>Per.</title> 9.4</bibl>).
+     In <date when="-0458">458 BCE</date>, however, when <placeName key="Sparta">Sparta</placeName>
+     and <placeName key="Athens">Athens</placeName> were at war and facing each other for battle at
+      <placeName key="Tanagra">Tanagra</placeName>, <name type="person">Cimon</name> volunteered
+     himself to fight for the city. The Athenians refused his services, but when his tribe, the
+      <name n="Oeneidae" type="tribe">Oeneidae</name>, fought well (though they died to the last
+     man), the Athenians had a change of heart, and <name type="person">Pericles</name> himself
+     persuaded them to bring <name type="person">Cimon</name> back from exile (<bibl
+      n="urn:cts:greekLit:tlg0007.tlg035:17.3" type="cts-urn">Plut. <title>Cim.</title>
+     17.3</bibl>-6; source for date: <bibl type="secondary">
+      <title>OCD</title>
+      <edition>3</edition>
+     </bibl>).</p>
+    <p>Around <date when="-0450">450 BCE</date>, <name type="person">Cimon</name> negotiated a
+     treaty between <placeName key="Athens">Athens</placeName> and <placeName key="Sparta"
+      >Sparta</placeName>, thus (temporarily) bringing an end to the war (<bibl
+      n="urn:cts:greekLit:tlg0003.tlg001:1.112.1" type="cts-urn">Thuc. 1.112.1</bibl>; see also the
+     comments at <bibl n="urn:cts:greekLit:tlg0026.tlg002:172" type="cts-urn">Aeschin. 2.172</bibl>
+     and <bibl n="urn:cts:greekLit:tlg0027.tlg003:3" type="cts-urn">Andoc. 3.3</bibl>, which are not
+     consistent).</p>
+    <p><name type="person">Cimon</name>’s last years saw him return to the calling in which he had
+     his greatest success, leading Athenian warships against Persian enemies. He led an Athenian
+     military expedition to fight against the Persians in <placeName key="Egypt">Egypt</placeName>
+      (<bibl n="urn:cts:greekLit:tlg0007.tlg035:18.1" type="cts-urn">Plut. <title>Cim.</title>
+      18.1</bibl>-7). He died at <placeName key="Citium">Citium</placeName>, either from an illness
+     or from a wound (<bibl n="urn:cts:greekLit:tlg0007.tlg035:19.1" type="cts-urn">Plut.
+       <title>Cim.</title> 19.1</bibl>; <bibl n="urn:cts:greekLit:tlg0003.tlg001:1.112.4"
+      type="cts-urn">Thuc. 1.112.4</bibl>).</p>
+   </div>
+   <div n="Bibliography" type="Section" xml:id="Bibliography">
+    <head>Secondary Works Cited</head>
+    <list rend="numbered">
+     <item><bibl type="secondary">John Boardman, Jasper Griffin, Oswyn Murray, <title>Oxford History
+        of the Classical World</title> (Oxford, 1986) [<title>OHCW</title>]</bibl>.</item>
+     <item><bibl type="secondary">S. Hornblower and A. Spawforth edd., <title>The Oxford Classical
+        Dictionary</title>, 3rd Edition (Oxford, 1996)
+       [<title>OCD</title><edition>3</edition>]</bibl>.</item>
+     <item><bibl type="secondary">P.J. Rhodes, <title>Commentary on the Aristotelian
+         <title>Athenaion Politeia</title></title> (Oxford, 1993)</bibl>.</item>
+    </list>
+   </div>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,61 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 32</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg032' type='cts-urn'>Dem. 32</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Zenothemis</name></title>; see also <name  n='oratory' type='ancientGenre'>Oratory</name>). <name  type='ancientAuthor'>Demosthenes</name> wrote this speech for <name  type='person'>Demo</name> (his uncle). <name  type='person'>Demo</name> had been sued by <name  type='person'>Zenothemis</name>, and this speech was delivered as part of the trial. We do not have any of the other speeches from this trial, so the following reconstruction of events is based on only one point of view. <name  type='person'>Demo</name> had invested a large amount of money with <name  type='person'>Protus</name>, who was a grain-merchant. <name  type='person'>Protus</name> was supposed to take <name  type='person'>Demo</name>’s money to <placeName  key='Sicily'>Sicily</placeName>, buy a shipment of grain with it, transport the grain back to <placeName  key='Athens'>Athens</placeName>, and sell it. <name  type='person'>Demo</name> would have a share in the profit and could expect to make a huge profit (of course, if the ship sank, he would lose all of his investment).</p>
+<p ><name  type='person'>Protus</name> hired a ship that was owned by a man named <name  type='person'>Hegestratus</name>. The ship sailed to <placeName  key='Sicily'>Sicily</placeName> with <name  type='person'>Protus</name> and <name  type='person'>Hegestratus</name> on board, and also a man named <name  type='person'>Zenothemis</name>. When the ship reached <placeName  key='Syracuse'>Syracuse</placeName>, a city in <placeName  key='Sicily'>Sicily</placeName>, <name  type='person'>Protus</name> bought the grain and loaded it on board the ship.</p>
+<p >But <name  type='person'>Hegestratus</name> and <name  type='person'>Zenothemis</name> had devised a scheme between themselves: they persuaded people in <placeName  key='Syracuse'>Syracuse</placeName> to invest in the shipment of grain, just as <name  type='person'>Demo</name> had done. These investors thought that <name  type='person'>Hegestratus</name> and <name  type='person'>Zenothemis</name> would use their money to buy a load of grain. But since <name  type='person'>Demo</name> had already paid for the grain, the two con-men could keep the money. In order to avoid getting caught, they planned to sink the ship once it was at sea, and escape in the lifeboat. They could tell their investors that the grain was lost, and their investment with it. Thus they would be free to keep all the money, and their investors would never learn that the cargo had belonged to someone else all along.</p>
+<p >When the ship was on its way back to <placeName  key='Athens'>Athens</placeName>, <name  type='person'>Hegestratus</name> tried to cut a hole in its bottom. He was caught in the act, however, jumped overboard to escape, and drowned.</p>
+<p >When the ship arrived in <placeName  key='Athens'>Athens</placeName>, <name  type='person'>Protus</name> and <name  type='person'>Demo</name> (who owned the cargo of grain) went to unload the ship. But <name  type='person'>Zenothemis</name> was also trying to unload the ship, claiming that the grain belonged to him. <name  type='person'>Protus</name> and <name  type='person'>Demo</name> prevented him from taking the grain, but <name  type='person'>Zenothemis</name> sued them in court.</p>
+<p >Again, it is important to remember that we have only one side of this story. <name  type='person'>Zenothemis</name>’ speeches in this trial might well have told a very different story. Two other speeches by <name  type='ancientAuthor'>Demosthenes</name> have to do with investments in ships cargoes (often called <soCalled >bottomry loans</soCalled> or <soCalled >maritime loans</soCalled>); see <bibl  n='urn:cts:greekLit:tlg0014.tlg034' type='cts-urn'>Dem. 34</bibl> and <bibl  n='urn:cts:greekLit:tlg0014.tlg035' type='cts-urn'>Dem. 35</bibl>.</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

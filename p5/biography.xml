@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Biography</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><name  n='biography' type='ancientGenre'>Biography</name></head>
+<p > Biography was not a clearly defined genre in antiquity; there were many authors who wrote works that we could call <soCalled >biographical</soCalled>, and these differ greatly from one another. Some focus on the upbringing of and early influences on historical figures, such as <name  type='ancientAuthor'>Xenophon</name>’s <title >Cyropaedia</title> (<title >The Education of Cyrus</title>) (<bibl  n='urn:cts:greekLit:tlg0032.tlg007:1.1.1' type='cts-urn'>Xen. Cyrop. 1.1.1</bibl>); others focus on political or military exploits, such as <name  type='ancientAuthor'>Arrian</name>'’ <title ><foreign  xml:lang='la'>Anabasis Alexandri</foreign></title> (<title >The Expedition of <name  type='person'>Alexander</name></title>). Biographical sketches can appear in other genres—in <name  n='oratory' type='ancientGenre'>oratory</name>, such as the description of the Athenian general <name  type='person'>Leosthenes</name> in <name  type='ancientAuthor'>Hyperides</name>’ <title >Funeral Oration</title> (<bibl  n='urn:cts:greekLit:tlg0030.tlg006:1' type='cts-urn'>Hyp. 6.1</bibl>), or in works of <name  n='history' type='ancientGenre'>history</name>, such as the descriptions of the Spartan <name  type='person'>Pausanias</name> and the Athenian <name  type='person'>Themistocles</name> in <name  type='ancientAuthor'>Thucydides</name>’ history (see <bibl  n='urn:cts:greekLit:tlg0003.tlg001:1.95.1' type='cts-urn'>Thuc. 1.95.1</bibl>; <bibl  n='urn:cts:greekLit:tlg0003.tlg001:1.14.3' type='cts-urn'>Thuc. 1.14.3</bibl>; <bibl  n='urn:cts:greekLit:tlg0003.tlg001:1.74.1' type='cts-urn'>Thuc. 1.74.1</bibl>). The most extensive surviving body of biographical works is <name  type='ancientAuthor'>Plutarch</name>’s <title >Parallel Lives</title>, biographies of famous Greeks and Romans, which focus on the moral character of their subjects but also provide valuable evidence for political <name  n='history' type='ancientGenre'>history</name>.</p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Aeschin. 2</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0026.tlg002' type='cts-urn'>Aeschin. 2</bibl></head><p > (<name  type='ancientAuthor'>Aeschines</name>, <title >On the Embassy</title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This is a speech that <name  type='ancientAuthor'>Aeschines</name> composed and delivered in a trial before a <term  sortKey='lawcourt'>jury</term>. In <date  when='-0346'>346 BCE</date>, <name  type='ancientAuthor'>Aeschines</name> and <name  type='ancientAuthor'>Demosthenes</name> served together on an embassy to <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName>. The subject of the embassy was an alliance between <placeName  key='Athens'>Athens</placeName> and <name  type='person'>Philip</name>, and protection for <placeName  key='Phocis'>Phocis</placeName>, an ally of <placeName  key='Athens'>Athens</placeName> that was at war with <placeName  key='Thebes'>Thebes</placeName>. The embassy was not a success -- <placeName  key='Phocis'>Phocis</placeName> was defeated, and <name  type='person'>Philip</name> became stronger. When the embassy returned to <placeName  key='Athens'>Athens</placeName>, <name  type='ancientAuthor'>Demosthenes</name> and <name  type='person'>Timarchus</name> accused <name  type='ancientAuthor'>Aeschines</name> of treason, saying that <name  type='ancientAuthor'>Aeschines</name> had been in a conspiracy with <name  type='person'>Philocrates</name> to betray the interests of <placeName  key='Athens'>Athens</placeName>, in exchange for bribes from <name  type='person'>Philip</name>. <name  type='ancientAuthor'>Aeschines</name> delayed his trial by bringing his own charges against <name  type='person'>Timarchus</name> (see <bibl  n='urn:cts:greekLit:tlg0026.tlg001' type='cts-urn'>Aeschin. 1</bibl>), but the matter came to trial in <date  when='-0343'>343 BCE</date> (Source for date: <bibl >E. M. Harris, Aeschines and Athenian Politics [Oxford, 1995]</bibl>). In the prosecuting speech, <name  type='ancientAuthor'>Demosthenes</name> claims that <name  type='ancientAuthor'>Aeschines</name> had been one of the loudest opponents of <name  type='person'>Philip</name>, but changed his position abruptly to support the idea of a treaty between <name  type='person'>Philip</name> and <placeName  key='Athens'>Athens</placeName>. <name  type='ancientAuthor'>Demosthenes</name> also argued that <name  type='ancientAuthor'>Aeschines</name> delayed the embassy's travel to <name  type='person'>Philip</name>, and that upon his return he gave a false report to the <term  sortKey='Assembly'>Assembly</term>. <name  type='ancientAuthor'>Aeschines</name>, of course, offers a different interpretation of events in this speech, and we know that the jury acquitted him of the charge (see also <bibl  n='urn:cts:greekLit:tlg0026.tlg001' type='cts-urn'>Aeschin. 1</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg019' type='cts-urn'>Dem. 19</bibl>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

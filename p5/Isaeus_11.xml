@@ -1,0 +1,59 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+<fileDesc >
+ <titleStmt >
+ <title >Isaeus 11</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0017.tlg011' type='cts-urn'>Isaeus 11</bibl></head>
+<p ><name  type='ancientAuthor'>Isaeus</name>, <title >On The Estate of <name  type='person'>Hagnias</name></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. This is a speech composed by <name  type='ancientAuthor'>Isaeus</name> for <name  type='person'>Theopompus</name>, who is being sued by the plaintiff on behalf of <name  type='person'>Theopompus</name>' nephew. The lawsuit for which this speech was written is an outgrowth of the conflict over the estate of the deceased <name  type='person'>Hagnias</name> and deals with many of the same issues that are addressed in <bibl  n='urn:cts:greekLit:tlg0014.tlg043' type='cts-urn'>Dem. 43</bibl> (<title >Against <name  type='person'>Macartatus</name></title>). According to the <title >Hellenica Oxyrhynchia</title>, <name  type='person'>Hagnias</name> and his travelling companion, <name  type='person'>Telesegorus</name>, were sent to <placeName  key='Persia'>Persia</placeName> as ambassadors from <placeName  key='Athens'>Athens</placeName> (<bibl  n='Hell. Oxy. 2.1'><title >Hell. Oxy.</title> 2.1</bibl>). While on their way, they were captured by the Spartan commander <name  type='person'>Pharax</name>, who sent them off to <placeName  key='Sparta'>Sparta</placeName> to be killed. References to other events in the passage from the <title >Hellenica Oxyrhynchia</title> allow the date of <name  type='person'>Hagnias</name>' death to be placed at <date  when='-0396'>396 BCE</date> (source for date: <bibl >E.S. Forster, <title >Isaeus</title> [Cambridge, Mass.; Loeb Classical Library; 1943] 382</bibl>) during the Corinthian War. (For an ancient account of the Corinthian War, see <bibl  n='urn:cts:greekLit:tlg0032.tlg001:3-5' type='cts-urn'>Xen. <title >Hell.</title> 3-5</bibl>.) The Corinthian War, erupting less than a decade after the end of the Peloponnesian War, pitted <placeName  key='Sparta'>Sparta</placeName>, on one side, against <placeName  key='Athens'>Athens</placeName>, <placeName  key='Argos'>Argos</placeName>, <placeName  key='Corinth'>Corinth</placeName>, and <placeName  key='Thebes'>Thebes</placeName>, on the other.</p>
+<p ><name  type='person'>Hagnias</name> left no appointed heirs and immediately after his death a great dispute arose over who would inherit his estate. In the first lawsuit involving <name  type='person'>Hagnias</name>' estate, <name  type='person'>Glaucus</name> and <name  type='person'>Glaucon</name>, half-brothers of <name  type='person'>Hagnias</name>, claimed inheritance based upon the supposed will that <name  type='person'>Hagnias</name> left. However, this will was deemed spurious and was rejected by the court and the estate was awarded to <name  type='person'>Phylomache</name>, the daughter of <name  type='person'>Hagnias</name>' first cousin. The second suit was brought by <name  type='person'>Theopompus</name>, <name  type='person'>Glaucus</name> and <name  type='person'>Glaucon</name>, and <name  type='person'>Eupolemus</name>, against <name  type='person'>Phylomache</name>. The judgement in this case was for <name  type='person'>Theopompus</name>, who apparently proved to the satisfaction of the court that <name  type='person'>Phylomache</name>'s lineage was false and that her grandmother, also named <name  type='person'>Phylomache</name>, never existed and could not, consequently, have been the sister of Polemon (Hagnias' father). It was apparently of no concern to the court that <name  type='person'>Theopompus</name> was so distantly related to <name  type='person'>Hagnias</name> that he could only claim kinship through a brother of his grandfather. The suit in <bibl  n='urn:cts:greekLit:tlg0017.tlg011' type='cts-urn'>Isaeus 11</bibl> concerning <name  type='person'>Theopompus</name> and his nephew occurs shortly after this case and before <bibl  n='urn:cts:greekLit:tlg0014.tlg043' type='cts-urn'>Dem. 43</bibl>. In this suit, <name  type='person'>Theopompus</name>, who was a guardian of his deceased brother's son, has been sued by a fellow guardian who claims that <name  type='person'>Theopompus</name> must split the estate settlement with his nephew. In the speech, <name  type='person'>Theopompus</name> spends much time arguing that, since the nephew is not related to <name  type='person'>Hagnias</name> according to the established legal standards (<bibl  n='urn:cts:greekLit:tlg0017.tlg011:1-4' type='cts-urn'>Isaeus 11.1-4</bibl>), he cannot inherit any money from his estate. This he does quite well while skillfully evading the fact that he himself is outside the limits of kinship established by the law. In the end, <name  type='person'>Theopompus</name> is acquitted, retaining possession of the estate for the rest of his life.</p>
+<p >Based upon the mention of the archonship of <name  type='person'>Nicophemus</name> (<date  from='-0361' to='-0360'>361-360 BCE</date>) in a deposition at <bibl  n='urn:cts:greekLit:tlg0014.tlg043:31' type='cts-urn'>Dem. 43.31</bibl>, this speech has traditionally been dated to a few years later (<date  from='-0358' to='-0352'>middle 350s BCE</date>). Three major factors seem to call this date into question. First, when a speech quotes a <soCalled >law</soCalled> or a <soCalled >deposition</soCalled>, it is very likely that the quotation was not part of the original speech, but was added later (sometimes much later); this means that these quotations are not necessarily as reliable as they might initially seem (see also <name  n='oratory' type='ancientGenre'>Oratory</name>). Second, it might seem unlikely that the settlement of an estate would drag on for over 40 years (then again, estates can be the most difficult affairs to settle legally). Third, in <bibl  n='urn:cts:greekLit:tlg0017.tlg011:48' type='cts-urn'>Isaeus 11.48</bibl>, there is a mention of <name  type='person'>Macartatus</name> (the brother-in-law of <name  type='person'>Theopompus</name>) outfitting a trireme and sailing it to <placeName  key='Crete'>Crete</placeName>. This caused a disturbance in <placeName  key='Athens'>Athens</placeName> because it was thought that such an action would lead to war with <placeName  key='Sparta'>Sparta</placeName>. Although there is no corroboration of this event in outside sources, historians believe that this would fit the period of Spartan naval domination prior to <date  when='-0378'>378 BCE</date> (source for date: <bibl >E.S. Forster, <title >Isaeus</title> [Cambridge, Mass.; Loeb Classical Library; 1943] 387</bibl>). For these reasons, scholars have confidently been able to suggest a much earlier date for this speech.</p>
+<byline >Christopher Cotten</byline>
+</div> 
+
+
+</body>
+</text>
+</TEI>

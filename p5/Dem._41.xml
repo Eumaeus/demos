@@ -1,0 +1,56 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 41</title>
+ <author >Christopher Cotten</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg041' type='cts-urn'>Dem. 41</bibl></head>
+<p ><name  type='ancientAuthor'>Demosthenes</name>, <title >Against <name  type='person'>Spudias</name></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>. This is a speech composed by <name  type='ancientAuthor'>Demosthenes</name> on behalf of a plaintiff (whose name we do not know) who is suing his brother-in-law, <name  type='person'>Spudias</name>. The particulars of the case are these: <name  type='person'>Polyeuctus</name>, an Athenian citizen, has wed his two daughters to two men; the older daughter was married to the plaintiff and the younger daughter to a man named <name  type='person'>Leocrates</name>. The plaintiff, in addition to receiving the woman to wed, was also to receive a dowry of 40 minae (see also <term  sortKey='Money'>Money</term>). At the time of the wedding, he was to receive 30 minae with an agreement that the remaining ten will be paid to him upon <name  type='person'>Polyeuctus</name>’ death. <name  type='person'>Leocrates</name>, the plaintiff’s new brother-in-law, signed on as the guarantor of this agreement. In the course of time, however, <name  type='person'>Leocrates</name> had a falling-out with his father-in-law. He divorced his wife and cut all ties with his ex-wife’s family. <name  type='person'>Polyeuctus</name>’ daughter was soon remarried to a man by the name of <name  type='person'>Spudias</name>. But, after <name  type='person'>Leocrates</name> left, <name  type='person'>Polyeuctus</name> did not have the money available to cover the additional 10 minae that he owed to the plaintiff. He solved this problem by mortgaging his house to the plaintiff only five days before his death (<bibl  n='urn:cts:greekLit:tlg0014.tlg041:18' type='cts-urn'>Dem. 41.18</bibl>); according to <bibl  n='urn:cts:greekLit:tlg0014.tlg041:5' type='cts-urn'>Dem. 41.5</bibl>, the arrangement appears to be that the plaintiff would collect any money made by the estate of <name  type='person'>Polyeuctus</name> in the form of rents, debts paid, etc. The money that was collected would be used to pay off the debt of 10 minae that was still owed the plaintiff. The mortgage, however, would not be necessary if <name  type='person'>Spudias</name> would simply pay the money that he owes the estate of <name  type='person'>Polyeuctus</name>. The plaintiff is suing <name  type='person'>Spudias</name> on behalf of <name  type='person'>Polyeuctus</name>’ widow and daughter for money that <name  type='person'>Spudias</name> owed to <name  type='person'>Polyeuctus</name>. This includes: 1) half a mina to cover funeral expenses for <name  type='person'>Polyeuctus</name>, 2) eighteen minae that <name  type='person'>Spudias</name> borrowed from <name  type='person'>Polyeuctus</name>’ widow, 3) two minae for a slave that <name  type='person'>Spudias</name> <soCalled >bought</soCalled> from <name  type='person'>Polyeuctus</name> but never paid for, and 4) certain material goods including a bowl, some jewelry, and some hangings, which <name  type='person'>Spudias</name> later pawned (<bibl  n='urn:cts:greekLit:tlg0014.tlg041:11' type='cts-urn'>Dem. 41.11</bibl>). With the money that the estate would receive from <name  type='person'>Spudias</name>, the plaintiff could be paid and <name  type='person'>Polyeuctus</name>’ house could be taken out of mortgage. According to the plaintiff, all of these matters have already been brought to arbitration (<foreign  xml:lang='grc'>πρὸς τῷ διαιτητῇ</foreign>) (<bibl  n='urn:cts:greekLit:tlg0014.tlg041:12' type='cts-urn'>Dem. 41.12</bibl>; also <bibl  n='urn:cts:greekLit:tlg0014.tlg041:28' type='cts-urn'>Dem. 41.28</bibl>) without a satisfactory conclusion. The plaintiff wants to make it clear that Spudias is of no account and that legal action was forced upon him because of <name  type='person'>Spudias</name>’ stubbornness. The speech is generally agreed to be an early work of <name  type='ancientAuthor'>Demosthenes</name> (perhaps before <date  when='-0355'>355 BCE</date>) (source for date: <bibl >A.T. Murray, <title >Demosthenes II</title> [Cambridge, Mass.; Loeb Classical Library; 1930] 3</bibl>). Interestingly, archaeologists have found an inscription mentioning <quote ><name  type='person'>Kleiokrateia</name>, daughter of <name  type='person'>Polyeuctus</name> of <name  type='person'>Teithras</name>, and wife of <name  type='person'>Spudias</name></quote> in the Athenian <placeName  key='agora'>agora</placeName> (see <bibl ><title >Hesperia</title>, vi. [1937], pg. 341</bibl>).</p>
+<byline >Christopher Cotten</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

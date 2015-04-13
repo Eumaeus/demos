@@ -1,0 +1,66 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+		<fileDesc >
+			<titleStmt >
+				<title >To Do List</title>
+				<author >Christopher W. Blackwell</author>
+			</titleStmt>
+		 <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text  xml:lang='en'>
+<body >
+
+<div  n='toDo' type='Section' xml:id='toDo'>
+<head >Things Planned for the Project</head>
+
+<p >Better (i.e. more thorough) tagging of secondary sources.</p>
+
+<p >An explicit article on the status of women in Athens.</p>
+
+<p >Other big articles: Archons and Military come to mind. Thirty Tyrants would be nice, too.</p>
+
+<p >Other Biographies: Draco, Solon, Cleisthenes, Themistocles, Pericles, Theramenes, Alcibiades, and Lycurgus.</p>
+
+<p >Re-doing the whole citation scheme, including all 'bibl' tags, to take advantage of Neel Smith’s proposed centralized registry of ancient sources.</p>
+
+<p >Better normalization of place-name and personal-names. Hook up with John Trail for Athenian people, and the Registry of Ancient Geographic Entities for place-names.</p>
+
+
+</div>
+
+</body>
+</text>
+</TEI>

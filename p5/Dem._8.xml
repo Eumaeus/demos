@@ -1,0 +1,55 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 8</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+<text >
+<body >
+
+<div  n='Description' type='Description'>
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg008' type='cts-urn'>Dem. 8</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >On the <placeName  key='Chersonese'>Chersonese</placeName></title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). The <placeName  key='Chersonese'>Chersonese</placeName> is a large peninsula extending into the <placeName  key='Aegean Sea'>Aegean Sea</placeName> from the north, in the territory of <placeName  key='Thrace'>Thrace</placeName>. <placeName  key='Athens'>Athens</placeName> had been interested in this area since the <date  from='-0530' to='-0500'>late 6th century</date>, because of its position on sailing route taken by ships bringing grain from the <placeName  key='Black Sea'>Black Sea</placeName> to <placeName  key='Athens'>Athens</placeName>. In the <date  from='-0360' to='-0330'>middle of the 4th century</date>, when <name  type='person'>Cotys</name>, the chief king of <placeName  key='Thrace'>Thrace</placeName>, died, the territory was divided between <name  type='person'>Amadocus</name> and <name  type='person'>Cersobleptes</name>, the son of <name  type='person'>Cotys</name>. <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName> supported <name  type='person'>Amadocus</name>, and the Athenians supported <name  type='person'>Cersobleptes</name>. In the years before <date  when='-0346'>346 BCE</date> (the year of the <soCalled >Peace of Philocrates</soCalled>, see <bibl  n='urn:cts:greekLit:tlg0014.tlg018' type='cts-urn'>Dem. 18</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg019' type='cts-urn'>Dem. 19</bibl>, <bibl  n='urn:cts:greekLit:tlg0026.tlg002' type='cts-urn'>Aeschin. 2</bibl>, <bibl  n='urn:cts:greekLit:tlg0026.tlg003' type='cts-urn'>Aeschin. 3</bibl>) <name  type='person'>Philip</name> and <name  type='person'>Amadocus</name> had defeated <name  type='person'>Cersobleptes</name>, who became a vassal of <name  type='person'>Philip</name>. Sometime around <date  when='-0342'>342</date>, <placeName  key='Athens'>Athens</placeName> send a <term  sortKey='Military'>general</term> <name  type='person'>Diopithes</name> to wage war in the <placeName  key='Chersonese'>Chersonese</placeName>, who captured some territory under <name  type='person'>Philip</name>'s control. <name  type='person'>Philip</name> retaliated, leading to a minor war in <placeName  key='Thrace'>Thrace</placeName>. In <date  when='-0341'>341</date>, <name  type='person'>Philip</name> sent an embassy to <placeName  key='Athens'>Athens</placeName> to complain of <placeName  key='Athens'>Athens</placeName>' aggression. <name  type='ancientAuthor'>Demosthenes</name> delivered this speech in the <term  sortKey='Assembly'>Assembly</term> and succeeded in persuading his fellow citizens to continue to support their <term  sortKey='Military'>general</term> <name  type='person'>Diopithes</name>. </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+
+</body>
+</text>
+</TEI>

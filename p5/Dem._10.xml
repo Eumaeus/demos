@@ -1,0 +1,57 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?><TEI  xmlns='http://www.tei-c.org/ns/1.0' xmlns:math='http://www.w3.org/1998/Math/MathML' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xi='http://www.w3.org/2001/XInclude'>
+ <teiHeader >
+ <fileDesc >
+ <titleStmt >
+ <title >Dem. 10</title>
+ <author >Christopher W. Blackwell</author>
+ </titleStmt>
+ <publicationStmt >
+ <publisher >
+ The Stoa: a consortium for electronic publication in the humanities (www.stoa.org)
+ </publisher>
+ <authority >
+ <name >A. Mahoney and R. Scaife, edd.</name>
+ </authority>
+ </publicationStmt>
+ <seriesStmt >
+ <title >Dēmos: Classical Athenian Democracy</title>
+ <respStmt >
+ <name >Christopher W. Blackwell</name>
+ <resp >Editor</resp>
+ </respStmt>
+ </seriesStmt>
+ <sourceDesc >
+ <p >File created electronically.</p>
+ </sourceDesc>
+ </fileDesc>
+ <profileDesc >
+ <langUsage >
+ <language  ident='en'>English</language>
+ <language  ident='la'>Latin</language>
+ <language  ident='grc'>Greek</language>
+ </langUsage>
+ </profileDesc>
+ <revisionDesc >
+ <change >
+ <date >April 8, 2003</date>
+ <name >Christopher W. Blackwell</name>
+ <desc >Version 1, published on www.stoa.org</desc>
+ </change>
+ </revisionDesc>
+ </teiHeader>
+
+<text >
+<body >
+
+
+<div  n='Description' type='Description'>
+
+<head ><bibl  n='urn:cts:greekLit:tlg0014.tlg010' type='cts-urn'>Dem. 10</bibl></head>
+<p >(<name  type='ancientAuthor'>Demosthenes</name>, <title >Fourth Philippic</title>, see also <name  n='oratory' type='ancientGenre'>Oratory</name>). This speech, if it was ever actually delivered, would have been given at the meeting of the Athenian <term  sortKey='Assembly'>Assembly</term> sometime in <date  when='-0341'>341 BCE</date> or shortly thereafter (after, at least, <bibl  n='urn:cts:greekLit:tlg0014.tlg009' type='cts-urn'>Dem. 9</bibl>). But there is good reason to think that this speech is not genuine, but a speech made up in the style of <name  type='ancientAuthor'>Demosthenes</name> by an imitator or student. The topic is <name  type='person'>Philip</name> of <placeName  key='Macedon'>Macedon</placeName>’s ongoing aggression against the interests of <placeName  key='Athens'>Athens</placeName> in <placeName  key='northern Greece'>northern Greece</placeName>, particularly <placeName  key='Thrace'>Thrace</placeName>. Several of the passages seem suspiciously similar to passages from other speeches by <name  type='ancientAuthor'>Demosthenes</name>, especially <bibl  n='urn:cts:greekLit:tlg0014.tlg010:11' type='cts-urn'>Dem. 10.11</bibl>-<bibl  n='urn:cts:greekLit:tlg0014.tlg010:27' type='cts-urn'>Dem. 10.27</bibl>, which resembles passages from <bibl  n='urn:cts:greekLit:tlg0014.tlg006' type='cts-urn'>Dem. 6</bibl> and <bibl  n='urn:cts:greekLit:tlg0014.tlg008' type='cts-urn'>Dem. 8</bibl>, and <bibl  n='urn:cts:greekLit:tlg0014.tlg010:55' type='cts-urn'>Dem. 10.55</bibl>-<bibl  n='urn:cts:greekLit:tlg0014.tlg010:70' type='cts-urn'>Dem. 10.70</bibl>, which resembles passages from <bibl  n='urn:cts:greekLit:tlg0014.tlg008' type='cts-urn'>Dem. 8</bibl>. It is possible that the orator simply repeated himself, if he was giving yet another speech on a similar topic, but this close repetition might suggest that someone was consciously trying to write a speech in the style of <name  type='ancientAuthor'>Demosthenes</name>, perhaps as a school exercise (see the genre of <name  type='ancientGenre'>Ancient Scholarship</name>. (See also, <bibl  n='urn:cts:greekLit:tlg0014.tlg004' type='cts-urn'>Dem. 4</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg006' type='cts-urn'>Dem. 6</bibl>, <bibl  n='urn:cts:greekLit:tlg0014.tlg009' type='cts-urn'>Dem. 9</bibl>—all speeches urging opposition to <name  type='person'>Philip</name>, and <bibl  n='urn:cts:greekLit:tlg0014.tlg008' type='cts-urn'>Dem. 8</bibl>, which deals with the same political developments in <placeName  key='Thrace'>Thrace</placeName>). </p>
+<byline >Christopher Blackwell</byline>
+</div>
+
+
+</body>
+</text>
+</TEI>

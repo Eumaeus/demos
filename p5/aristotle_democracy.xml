@@ -1,0 +1,1332 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:math="http://www.w3.org/1998/Math/MathML"
+ xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Democracy in the Politics of Aristotle </title>
+    <author>Thomas R. Martin, with Neel Smith &amp; Jennifer F.Stuart</author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher> The Stoa: a consortium for electronic publication in the humanities (www.stoa.org) </publisher>
+    <authority>
+     <name>A. Mahoney and R. Scaife, edd.</name>
+    </authority>
+   </publicationStmt>
+   <seriesStmt>
+    <title>Dēmos: Classical Athenian Democracy</title>
+    <respStmt>
+     <name>Christopher W. Blackwell</name>
+     <resp>Editor</resp>
+    </respStmt>
+   </seriesStmt>
+   <sourceDesc>
+    <p>File created electronically.</p>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="en">English</language>
+    <language ident="la">Latin</language>
+    <language ident="grc">Greek</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>April 8, 2003</date>
+    <name>Christopher W. Blackwell</name>
+    <desc>Version 1, published on www.stoa.org</desc>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="en">
+  <body>
+   <div type="Summary">
+    <head>Summary</head>
+    <p>Ancient Greek democracy has regularly attracted the attention of modern political scientists
+     as part of the discussion of the theory and practice of democratic systems of government. By
+     far the most important ancient text for this discussion is the <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl> of <name type="ancientAuthor">Aristotle</name>. Studying what <name
+      type="ancientAuthor">Aristotle</name> has to say about democracy in the <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl> is challenging for several reasons. First of all, his remarks on the subject are spread
+     widely throughout this extended work. The challenge is further increased by the discursive
+     character of <name type="ancientAuthor">Aristotle</name>’s arguments in the
+      <bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl>, which for one thing mix discussions of theoretical principles for systems of
+     government with observations about actual Greek states of <name type="ancientAuthor"
+      >Aristotle</name>’s time (and before it). Finally, there is the strong
+     possibility that the traditionally accepted order of the eight <soCalled>Books</soCalled> or
+     chapters of the <bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl> is not the order in which <name type="ancientAuthor">Aristotle</name> meant his
+     arguments to be presented.</p>
+   </div>
+   <div n="Introduction" type="Section" xml:id="Introduction">
+    <head>Introduction</head>
+    <p>The goal of this article is to provide one possible aid for those wishing to meet this
+     challenge. It therefore offers a series of topical headings under which selected passages
+     relevant to the study of democracy in the <bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a"
+      type="cts-urn">
+      <title>Politics</title>
+     </bibl> are rearranged. That is, under each topic the passages are listed not in the order in
+     which they occur in the <bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl>, but are instead arranged in an order that attempts to suggest connections in thought
+     between <name type="ancientAuthor">Aristotle</name>’s various remarks on
+     democracy. The passages are paraphrased rather than translated word for word, although the
+     paraphrases of the shorter excerpts attempt to stay as close to the Greek wording as is
+     practical. Since the paraphrased passages are meant to serve as jumping-off points for
+     consideration of the full text of the <bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a"
+      type="cts-urn">
+      <title>Politics</title>
+     </bibl>, each passage has an active link to the full text of the <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl>. A <term sortKey="aristotle_democracy@Glossary">glossary of Greek terms</term> and a
+     very selective <term sortKey="aristotle_democracy@Bibliography">bibliography</term> of
+     recommended print readings are also included.</p>
+    <p>Since the approach adopted for this site rearranges the order of material on democracy from
+     the <bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl>, it necessarily removes each passage from its context in order to suggest connections
+     in thought that might not be easy to grasp when the text is read serially from beginning to
+     end. This displacement of the passages suggests an interpretation of the connections in <name
+      type="ancientAuthor">Aristotle</name>’s thought on democracy in the <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl>. The potential danger of this method, of course, is that reading excerpted and
+     paraphrased passages without considering their full context can be seriously misleading. It
+     must be strongly emphasized, therefore, that reading the <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl> thoroughly from beginning to end (and more than once!) is the only way to try to
+     understand fully its complex and interwoven arguments. With this caution firmly in mind, users
+     can consider the arrangement of excerpted passages as a guide to further study of <name
+      type="ancientAuthor">Aristotle</name>’s reflections on ancient Greek
+     democracy.</p>
+    <p>In the environment provided by electronic publication, all readers can immediately confront
+     our implied interpretation with the underlying evidence and offer suggestions for improvement
+     by electronic response to the <ref target="mailto:tmartin@holycross.edu">author</ref> and <ref
+      target="mailto:cwb@stoa.org">contributors</ref>. In this way the collaborative work that
+     produced this article can continue as a scholarly conversation on a wide scale.</p>
+   </div>
+   <div n="Glossary" type="Section" xml:id="Glossary">
+    <head>Glossary</head>
+    <p>Every attempt has been made to be consistent in the translation of crucial Greek terms, such
+     as <foreign xml:lang="xgrc">polis</foreign>, but the flexibility of meaning of some of them makes
+     absolute consistency impossible. The following translations are used as consistently as
+     possible:</p>
+    <p><soCalled>Polity</soCalled> for <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="politei/a">politeia</w>
+     </foreign> when <name type="ancientAuthor">Aristotle</name> uses the word in its particular
+     sense to indicate rule by the many in what he defines as the <foreign xml:lang="xgrc"
+      >straight</foreign> or correct system of government of this type. (By contrast, he refers to
+     rule by the many in a diverging and thus <soCalled>erroneous</soCalled> system as
+      <soCalled>democracy.</soCalled>) (<ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Any&amp;lookup=politeia&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=plhqos&amp;alts=1&amp;extern=1&amp;doc=Perseus%3Atext%3A1999.01.0045%3B2246%3B153318&amp;doc=Perseus%3Atext%3A1999.01.0047%3B2395%3B58301&amp;doc=Perseus%3Atext%3A1999.01.0049%3B2235%3B226496&amp;doc=Perseus%3Atext%3A1999.01.0051%3B2186%3B650314&amp;doc=Perseus%3Atext%3A1999.01.0053%3B2241%3B455713&amp;doc=Perseus%3Atext%3A1999.01.0055%3B2208%3B92661&amp;doc=Perseus%3Atext%3A1999.01.0057%3B2221%3B580566&amp;doc=Perseus%3Atext%3A1999.01.0059%3B2228%3B392364&amp;doc=Perseus%3Atext%3A1999.01.0061%3B2115%3B14875&amp;group=collcat&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern&amp;.cgifields=type"
+      >See this word in selections from Aristotle</ref>, courtesy of the <ref
+      target="http://www.perseus.tufts.edu">Perseus Digital Library</ref>; <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Perseus%3Acollection%3AGreco-Roman&amp;lookup=politeia&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;group=collcat&amp;.cgifields=type&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern"
+      >see this word in all Perseus texts</ref>.) </p>
+    <p><soCalled>System of government</soCalled> for <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="politei/a">politeia</w>
+     </foreign> when <name type="ancientAuthor">Aristotle</name> uses the word in its generic sense,
+     which is conventionally translated into English as <soCalled>constitution.</soCalled> (This
+     departure from convention is to avoid the potential ambiguity of the term
+      <soCalled>constitution,</soCalled> which as a familiar term in the <placeName
+      key="United States">United States</placeName> today is usually taken to mean a formal, written
+     document prescribing the structure of government. The <soCalled>constitutions</soCalled> of
+     ancient Greek city-states were often not written down, a tradition found today, for example, in
+     the <placeName key="United Kingdom">United Kingdom</placeName>.) (<ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Any&amp;lookup=politeia&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=plhqos&amp;alts=1&amp;extern=1&amp;doc=Perseus%3Atext%3A1999.01.0045%3B2246%3B153318&amp;doc=Perseus%3Atext%3A1999.01.0047%3B2395%3B58301&amp;doc=Perseus%3Atext%3A1999.01.0049%3B2235%3B226496&amp;doc=Perseus%3Atext%3A1999.01.0051%3B2186%3B650314&amp;doc=Perseus%3Atext%3A1999.01.0053%3B2241%3B455713&amp;doc=Perseus%3Atext%3A1999.01.0055%3B2208%3B92661&amp;doc=Perseus%3Atext%3A1999.01.0057%3B2221%3B580566&amp;doc=Perseus%3Atext%3A1999.01.0059%3B2228%3B392364&amp;doc=Perseus%3Atext%3A1999.01.0061%3B2115%3B14875&amp;group=collcat&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern&amp;.cgifields=type"
+      >See this word in Perseus selections from Aristotle</ref>; <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Perseus%3Acollection%3AGreco-Roman&amp;lookup=politeia&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;group=collcat&amp;.cgifields=type&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern"
+      >see this word in all Perseus texts</ref>.) </p>
+    <p><soCalled>Diverging system of government</soCalled> for <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="parekba/sis">parekbasis</w>
+     </foreign>. The diverging systems are tyranny, oligarchy, and democracy, which are those
+     systems that <soCalled>diverge</soCalled> (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="parekbai/nw">parekbaino</w>
+     </foreign>) from the three <soCalled>straight systems of government</soCalled> (<foreign
+      xml:lang="xgrc">
+      <w xml:lang="xgrc" n="orthai/">orthai</w>
+      <w xml:lang="xgrc" n="politei=ai">politeiai</w>
+     </foreign>), which are kingship, aristocracy, and polity. (See <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="parekba/sis">parekbasis</w>
+     </foreign>
+     <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Any&amp;lookup=parekbasis&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=plhqos&amp;alts=1&amp;extern=1&amp;doc=Perseus%3Atext%3A1999.01.0045%3B2246%3B153318&amp;doc=Perseus%3Atext%3A1999.01.0047%3B2395%3B58301&amp;doc=Perseus%3Atext%3A1999.01.0049%3B2235%3B226496&amp;doc=Perseus%3Atext%3A1999.01.0051%3B2186%3B650314&amp;doc=Perseus%3Atext%3A1999.01.0053%3B2241%3B455713&amp;doc=Perseus%3Atext%3A1999.01.0055%3B2208%3B92661&amp;doc=Perseus%3Atext%3A1999.01.0057%3B2221%3B580566&amp;doc=Perseus%3Atext%3A1999.01.0059%3B2228%3B392364&amp;doc=Perseus%3Atext%3A1999.01.0061%3B2115%3B14875&amp;group=collcat&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern&amp;.cgifields=type"
+      >in Perseus selections from Aristotle</ref>; see <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="parekba/sis">parekbasis</w>
+     </foreign>
+     <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Perseus%3Acollection%3AGreco-Roman&amp;lookup=parekbasis&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;group=collcat&amp;.cgifields=type&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern"
+      >in all Perseus texts</ref>. See occurences of <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="ortho/s">orthos</w>
+     </foreign> within five words of <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="politei/a">politeia</w>
+     </foreign>
+     <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Any&amp;lookup=orqos+politeia&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;doc=Perseus%3Atext%3A1999.01.0045%3B2246%3B153318&amp;doc=Perseus%3Atext%3A1999.01.0047%3B2395%3B58301&amp;doc=Perseus%3Atext%3A1999.01.0049%3B2235%3B226496&amp;doc=Perseus%3Atext%3A1999.01.0051%3B2186%3B650314&amp;doc=Perseus%3Atext%3A1999.01.0053%3B2241%3B455713&amp;doc=Perseus%3Atext%3A1999.01.0055%3B2208%3B92661&amp;doc=Perseus%3Atext%3A1999.01.0057%3B2221%3B580566&amp;doc=Perseus%3Atext%3A1999.01.0059%3B2228%3B392364&amp;doc=Perseus%3Atext%3A1999.01.0061%3B2115%3B14875&amp;group=collcat&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern&amp;.cgifields=type"
+      >in Perseus selections from Aristotle</ref>; <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Perseus%3Acollection%3AGreco-Roman&amp;lookup=orqos+politeia&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;group=collcat&amp;.cgifields=type&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern"
+      >in all Perseus texts</ref>.) </p>
+    <p><soCalled>Excellence</soCalled> for <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="a)reth/">arete</w>
+     </foreign>, which is conventionally translated <soCalled>virtue.</soCalled> Excellence in the
+     Greek sense can and often does pertain to ethical qualities and morality, but it can also
+     pertain to, for example, physical strength or courage. (<ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Any&amp;lookup=areth&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=plhqos&amp;alts=1&amp;extern=1&amp;doc=Perseus%3Atext%3A1999.01.0045%3B2246%3B153318&amp;doc=Perseus%3Atext%3A1999.01.0047%3B2395%3B58301&amp;doc=Perseus%3Atext%3A1999.01.0049%3B2235%3B226496&amp;doc=Perseus%3Atext%3A1999.01.0051%3B2186%3B650314&amp;doc=Perseus%3Atext%3A1999.01.0053%3B2241%3B455713&amp;doc=Perseus%3Atext%3A1999.01.0055%3B2208%3B92661&amp;doc=Perseus%3Atext%3A1999.01.0057%3B2221%3B580566&amp;doc=Perseus%3Atext%3A1999.01.0059%3B2228%3B392364&amp;doc=Perseus%3Atext%3A1999.01.0061%3B2115%3B14875&amp;group=collcat&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern&amp;.cgifields=type "
+      >See this word in Perseus selections from Aristotle</ref>; <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Perseus%3Acollection%3AGreco-Roman&amp;lookup=areth&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;group=collcat&amp;.cgifields=type&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern"
+      >see this word in all Perseus texts</ref>.) </p>
+    <p><soCalled>Partnership</soCalled> for <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="koinoni/a">koinonia</w>
+     </foreign>, literally <soCalled>a sharing or taking part in a thing with others.</soCalled>
+      (<ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Any&amp;lookup=koinonia&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=plhqos&amp;alts=1&amp;extern=1&amp;doc=Perseus%3Atext%3A1999.01.0045%3B2246%3B153318&amp;doc=Perseus%3Atext%3A1999.01.0047%3B2395%3B58301&amp;doc=Perseus%3Atext%3A1999.01.0049%3B2235%3B226496&amp;doc=Perseus%3Atext%3A1999.01.0051%3B2186%3B650314&amp;doc=Perseus%3Atext%3A1999.01.0053%3B2241%3B455713&amp;doc=Perseus%3Atext%3A1999.01.0055%3B2208%3B92661&amp;doc=Perseus%3Atext%3A1999.01.0057%3B2221%3B580566&amp;doc=Perseus%3Atext%3A1999.01.0059%3B2228%3B392364&amp;doc=Perseus%3Atext%3A1999.01.0061%3B2115%3B14875&amp;group=collcat&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern&amp;.cgifields=type"
+      >See this word in Perseus selections from Aristotle</ref>; <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Perseus%3Acollection%3AGreco-Roman&amp;lookup=koinonia&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;group=collcat&amp;.cgifields=type&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern"
+      >see this word in all Perseus texts</ref>.) </p>
+    <p><soCalled>Goal</soCalled> for <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="te/los">telos</w>
+     </foreign>, literally <soCalled>end, purpose.</soCalled> (<ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Any&amp;lookup=telos&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=plhqos&amp;alts=1&amp;extern=1&amp;doc=Perseus%3Atext%3A1999.01.0045%3B2246%3B153318&amp;doc=Perseus%3Atext%3A1999.01.0047%3B2395%3B58301&amp;doc=Perseus%3Atext%3A1999.01.0049%3B2235%3B226496&amp;doc=Perseus%3Atext%3A1999.01.0051%3B2186%3B650314&amp;doc=Perseus%3Atext%3A1999.01.0053%3B2241%3B455713&amp;doc=Perseus%3Atext%3A1999.01.0055%3B2208%3B92661&amp;doc=Perseus%3Atext%3A1999.01.0057%3B2221%3B580566&amp;doc=Perseus%3Atext%3A1999.01.0059%3B2228%3B392364&amp;doc=Perseus%3Atext%3A1999.01.0061%3B2115%3B14875&amp;group=collcat&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern&amp;.cgifields=type"
+      >See this word in Perseus selections from Aristotle</ref>; <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Perseus%3Acollection%3AGreco-Roman&amp;lookup=telos&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;group=collcat&amp;.cgifields=type&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern"
+      >see this word in all Perseus texts</ref>.) </p>
+    <p><soCalled>Multitude</soCalled> for <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="plh=qos">plethos</w>
+     </foreign>, which can also mean <soCalled>majority</soCalled> or, by extension,
+      <soCalled>democracy.</soCalled> (<ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Any&amp;lookup=plhqos&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=plhqos&amp;alts=1&amp;extern=1&amp;doc=Perseus%3Atext%3A1999.01.0045%3B2246%3B153318&amp;doc=Perseus%3Atext%3A1999.01.0047%3B2395%3B58301&amp;doc=Perseus%3Atext%3A1999.01.0049%3B2235%3B226496&amp;doc=Perseus%3Atext%3A1999.01.0051%3B2186%3B650314&amp;doc=Perseus%3Atext%3A1999.01.0053%3B2241%3B455713&amp;doc=Perseus%3Atext%3A1999.01.0055%3B2208%3B92661&amp;doc=Perseus%3Atext%3A1999.01.0057%3B2221%3B580566&amp;doc=Perseus%3Atext%3A1999.01.0059%3B2228%3B392364&amp;doc=Perseus%3Atext%3A1999.01.0061%3B2115%3B14875&amp;group=collcat&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern&amp;.cgifields=type"
+      >See this word in Perseus selections from Aristotle</ref>; <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Perseus%3Acollection%3AGreco-Roman&amp;lookup=plhqos&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;group=collcat&amp;.cgifields=type&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern"
+      >see this word in all Perseus texts</ref>.) </p>
+    <p><soCalled>People</soCalled> for <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="dh=mos">demos</w>
+     </foreign>, which can also, by extension, mean <soCalled>democracy.</soCalled> (<ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Any&amp;lookup=dhmos&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=plhqos&amp;alts=1&amp;extern=1&amp;doc=Perseus%3Atext%3A1999.01.0045%3B2246%3B153318&amp;doc=Perseus%3Atext%3A1999.01.0047%3B2395%3B58301&amp;doc=Perseus%3Atext%3A1999.01.0049%3B2235%3B226496&amp;doc=Perseus%3Atext%3A1999.01.0051%3B2186%3B650314&amp;doc=Perseus%3Atext%3A1999.01.0053%3B2241%3B455713&amp;doc=Perseus%3Atext%3A1999.01.0055%3B2208%3B92661&amp;doc=Perseus%3Atext%3A1999.01.0057%3B2221%3B580566&amp;doc=Perseus%3Atext%3A1999.01.0059%3B2228%3B392364&amp;doc=Perseus%3Atext%3A1999.01.0061%3B2115%3B14875&amp;group=collcat&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern&amp;.cgifields=type"
+      >See this word in Perseus selections from Aristotle</ref>; <ref
+      target="http://www.perseus.tufts.edu/cgi-bin/vor?target=greek%2C1&amp;collection=Perseus%3Acollection%3AGreco-Roman&amp;lookup=dhmos&amp;formentry=1&amp;template=&amp;.submit=Search&amp;searchText=&amp;alts=1&amp;extern=1&amp;group=collcat&amp;.cgifields=type&amp;.cgifields=alts&amp;.cgifields=group&amp;.cgifields=extern"
+      >see this word in all Perseus texts</ref>.) </p>
+   </div>
+   <div n="Instructions" type="Section" xml:id="Instructions">
+    <head>Instructions for reading passages</head>
+    <p>
+     <emph>Important information on links</emph>
+    </p>
+    <p>The links from each passage are to the full text of the <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl> in both an on-line Greek text and an accompanying English translation maintained by the
+      <ref target="http://www.perseus.tufts.edu">Perseus Digital Library at Tufts University</ref>.
+     Passages are cited, following the most precise standard form of reference to the <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl>, as a four-digit number followed by the letter <soCalled>a</soCalled> or
+      <soCalled>b</soCalled> (that is, <bibl n="urn:cts:greekLit:tlg0086.tlg035:1253a"
+      type="cts-urn">1253a</bibl>, <bibl n="urn:cts:greekLit:tlg0086.tlg035:1274b" type="cts-urn"
+      >1274b</bibl>, and so on) to indicate a particular section of the work. The precise location
+     of the cited passage within a section is indicated by the line numbers that follow the citation
+     of the section. (This reference system is derived from the Greek edition of the <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl> published by Immanuel Bekker in <placeName key="Berlin">Berlin</placeName> in <date
+      when="1831">1831</date>.) </p>
+    <p>
+     <emph>Two crucial warnings</emph>
+    </p>
+    <p>Each section (e.g., <bibl n="urn:cts:greekLit:tlg0086.tlg035:1253a" type="cts-urn"
+      >1253a</bibl>, <bibl n="urn:cts:greekLit:tlg0086.tlg035:1274b" type="cts-urn">1274b</bibl>,
+     etc.) is presented as continuous text. The line numbers following the section designation are
+     indicated in the on-line Greek text in multiples of five, while the corresponding line numbers
+     in the accompanying English translation appear every twenty lines in brackets, but the line
+     divisions as represented in your Web browser may not correspond exactly to this numeration. </p>
+    <p>Since, for technical reasons, the links must go to the first line of a section and therefore
+     usually not to the first line of the cited reference itself, the particular lines referred to
+     may appear rather far down from the beginning of the section. In some cases, the particular
+     lines may be far enough from the beginning of the section that they will not be on the screen
+     when the section is first displayed, and it will then be necessary to scroll until they appear.
+     Please be sure to note the precise line number within the section to which you are linking
+     before following that link so that you can locate that line by scrolling. </p>
+    <p>
+     <emph>Introduction to the groups of excerpted passages</emph>
+    </p>
+    <p>The first three groups of excerpted passages provide context for the remaining groups. The
+     first of the three concerns elements of the definition of the ancient Greek city-state
+      (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="po/lis">polis</w>
+     </foreign>) in the <bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl> because <name type="ancientAuthor">Aristotle</name>’s discussion of
+     democracy pertains to this type of political state. The next group concerns the definition of
+     the citizen because it took citizens to constitute a system of government in the city-state, of
+     which democracy was one. The third concerns the definition of different systems of government
+     in the city-state, especially the notion that democracy is, in <name type="ancientAuthor"
+      >Aristotle</name>’s view, a <soCalled>diverging</soCalled> system of
+     government. The remaining groups of passages concern democracy itself. In the paraphrases of
+     the passages, square brackets [ ] indicate editorial additions to the ancient text. </p>
+    <p>The text of the <bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">
+      <title>Politics</title>
+     </bibl> is conventionally divided into eight <soCalled>Books,</soCalled> whose proper order is
+     disputed. These book divisions do not appear in the continuous text to which the passages are
+     linked. For those who wish to correlate the passages cited below to the book in which they
+     appear, the following list indicates the division of sections in the books as traditionally
+     numbered. Since the links go to the beginnings of sections, they will not go to the part of the
+     section at which a particular book begins. For example, Book 4 begins at <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1288b10" type="cts-urn">1288b10</bibl>, but the link goes
+     to the beginning of <bibl n="urn:cts:greekLit:tlg0086.tlg035:1288b" type="cts-urn"
+     >1288b</bibl>, from which point it is necessary to scroll forward to reach line 10. </p>
+    <list>
+     <item>Book 1 = <bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a1" type="cts-urn">1252a1</bibl> to
+       <bibl n="urn:cts:greekLit:tlg0086.tlg035:1260b24" type="cts-urn">1260b24</bibl>
+     </item>
+     <item>Book 2 = <bibl n="urn:cts:greekLit:tlg0086.tlg035:1260b27" type="cts-urn">1260b27</bibl>
+      to <bibl n="urn:cts:greekLit:tlg0086.tlg035:1274b28" type="cts-urn">1274b28</bibl>
+     </item>
+     <item>Book 3 = <bibl n="urn:cts:greekLit:tlg0086.tlg035:1274b32" type="cts-urn">1274b32</bibl>
+      to <bibl n="urn:cts:greekLit:tlg0086.tlg035:1288b6" type="cts-urn">1288b6</bibl>
+     </item>
+     <item>Book 4 = <bibl n="urn:cts:greekLit:tlg0086.tlg035:1288b10" type="cts-urn">1288b10</bibl>
+      to <bibl n="urn:cts:greekLit:tlg0086.tlg035:1301a15" type="cts-urn">1301a15</bibl>
+     </item>
+     <item>Book 5 = <bibl n="urn:cts:greekLit:tlg0086.tlg035:1301a19" type="cts-urn">1301a19</bibl>
+      to <bibl n="urn:cts:greekLit:tlg0086.tlg035:1316b27" type="cts-urn">1316b27</bibl>
+     </item>
+     <item>Book 6 = <bibl n="urn:cts:greekLit:tlg0086.tlg035:1316b31" type="cts-urn">1316b31</bibl>
+      to <bibl n="urn:cts:greekLit:tlg0086.tlg035:1323a10" type="cts-urn">1323a10</bibl>
+     </item>
+     <item>Book 7 = <bibl n="urn:cts:greekLit:tlg0086.tlg035:1323a14" type="cts-urn">1323a14</bibl>
+      to <bibl n="urn:cts:greekLit:tlg0086.tlg035:1337a7" type="cts-urn">1337a7</bibl>
+     </item>
+     <item>Book 8 = <bibl n="urn:cts:greekLit:tlg0086.tlg035:1337a11" type="cts-urn">1337a11</bibl>
+      to <bibl n="urn:cts:greekLit:tlg0086.tlg035:1342b34" type="cts-urn">1342b34</bibl>
+     </item>
+    </list>
+   </div>
+   <div n="PassagesPolis" type="Section" xml:id="PassagesPolis">
+    <head>Passages: Defining the City State</head>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1253a" type="cts-urn">1253a</bibl>: 2-3: Human
+     beings are, by nature, creatures who live in a city-state (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="po/lis">polis</w>
+     </foreign>). [The same remark occurs at <bibl n="urn:cts:greekLit:tlg0086.tlg035:1278b19"
+      type="cts-urn">1278b19</bibl>.] <bibl n="urn:cts:greekLit:tlg0086.tlg035:1274b" type="cts-urn"
+      >1274b</bibl>: 33-34: It is a disputed question what exactly the city-state is. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1279a" type="cts-urn">1279a</bibl>: 21: A city-state
+     is a partnership of the free. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1255b" type="cts-urn">1255b</bibl>: 16-20: Rule in a
+     city-state is the rule of those who are free and equal. This is not the same as mastery, where
+     one is a <term sortKey="slavery">slave</term> and the other is a ruler. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1276b" type="cts-urn">1276b</bibl>: 1-2: A
+     city-state is a partnership of <term sortKey="citizenship">citizens</term> in a system of
+     government. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1252a" type="cts-urn">1252a</bibl>: 1-7: Every
+     city-state is a kind of partnership, and every partnership is created for the sake of something
+     good. Political partnership, which is called the city-state, aims at the most authoritative
+     good of all. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1275b" type="cts-urn">1275b</bibl>: 17-21: Given the
+     definition of a <term sortKey="citizenship">citizen</term> in <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1275a" type="cts-urn">1275a</bibl>: 22-23, a city-state is
+     a multitude of such persons large enough for self-sufficiency of life. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1252b" type="cts-urn">1252b</bibl>: 29-30: The
+     city-state comes into being for the sake of living, but it exists for the sake of living
+      <quote>well</quote> (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="to\">to</w>
+      <w xml:lang="xgrc" n="eu)">eu</w>
+      <w xml:lang="xgrc" n="zh=n">zen</w>
+     </foreign>). [This phrase implies more than what is usually meant by <soCalled>living
+      well</soCalled> in English, which is to say <soCalled>being prosperous.</soCalled> The Greek
+     phrase implies above all a life lived in accordance with excellence (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="a)reth/">arete</w>
+     </foreign>). Living a prosperous life is not necessarily in conflict with this notion but is
+     certainly not the principal implication of living <soCalled>well</soCalled> in Greek. See the
+     next passage.] </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1280b" type="cts-urn">1280b</bibl>: 29-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1281a8" type="cts-urn">1281a8</bibl>: A city-state is
+     clearly not just living together in a shared territory for mutual defense and the exchange of
+     goods. It is rather a partnership among households, clans, and villages for living
+      <soCalled>well,</soCalled> for the sake of a fully developed and self-sufficient life. Those
+     who contribute most to a partnership of this sort have a greater part in the city than those
+     who are equal or greater in freedom or family, but unequal in political excellence, or those
+     who outdo them in wealth, but are outdone in excellence. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1278b" type="cts-urn">1278b</bibl>: 21-25: The goal
+     or purpose (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="te/los">telos</w>
+     </foreign>) of the city-state certainly encompasses physical existence and survival, but it is
+     also more than that, namely, living <quote>finely</quote> (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="to\">to</w>
+      <w xml:lang="xgrc" n="zh=n">zen</w>
+      <w xml:lang="xgrc" n="kalw=s">kalos</w>
+     </foreign>). </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1280b" type="cts-urn">1280b</bibl>: 6-8: The
+     city-state that is truly a city-state must be concerned with excellence (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="a)reth/">arete</w>
+     </foreign>). </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1323b" type="cts-urn">1323b</bibl>: 30-34: The best
+     city-state is happy and acts finely. It is impossible for those who do not do fine things to
+     act finely. There is no fine action of man or city-state apart from excellence and thinking. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1253a" type="cts-urn">1253a</bibl>: 37: Justice is a
+     thing of the city-state. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1282b" type="cts-urn">1282b</bibl>: 16-18: The
+     political good is justice, and justice is the common advantage. </p>
+   </div>
+   <div n="PassagesCitizen" type="Section" xml:id="PassagesCitizen">
+    <head>Passages: Defining the Citizen</head>
+    <p>
+     <bibl n="urn:cts:greekLit:tlg0086.tlg035:1275a" type="cts-urn">1275a</bibl>: 22-23: A <term
+      sortKey="citizen">citizen</term> defined in simple terms is someone who can participate in
+     judging [that is, serve as a <term sortKey="juror">juror</term> in the <term
+      sortKey="court_system">court system</term>] and in governing [that is, serve in public office,
+     which here means not just <term sortKey="archons">magistracies</term> but also serving in the
+      <term sortKey="assembly">assembly</term> and on the <term sortKey="council">council</term> in
+     systems of government that have these institutions]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1275b" type="cts-urn">1275b</bibl>: 5-7: The
+     definition of <term sortKey="citizen">citizen</term> just given in <bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1275a" type="cts-urn">1275a</bibl>: 22-23 applies
+     especially to democracy and possibly, though not necessarily, to other systems of government
+     because different definitions would apply in different systems. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1275a" type="cts-urn">1275a</bibl>: 2-5: Who is
+     entitled to be a <term sortKey="citizen">citizen</term>? No agreement exists; someone who would
+     be a <term sortKey="citizen">citizen</term> in a democracy would often not be a <term
+      sortKey="citizen">citizen</term> in an oligarchy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1278a" type="cts-urn">1278a</bibl>: 8-25: In the
+     best city-state, craftsmen (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="ba/nausoi">banausoi</w>
+     </foreign>) will not be allowed to be <term sortKey="citizens">citizens</term>, since they are
+     not really able to live freely, because they are not free from <soCalled>necessary
+      tasks</soCalled> [that is, they have to do physical work for a living] and therefore do not
+     have the time to devote themselves to the activities in which excellence is manifested. This
+     does not mean that they are poor; craftsmen in fact can be rich, but they still have to engage
+     in making things with their own hands, [an activity seen as demeaning by <term
+      sortKey="citizens">citizens</term> in the social elite]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1278a" type="cts-urn">1278a</bibl>: 26-29: In many
+     systems of government, <term sortKey="citizens">citizens</term> are legally drawn from the
+     ranks of foreigners [that is, both of their parents do not have to be <term sortKey="citizens"
+      >citizens</term>]. In some democracies, citizens need only have a <term sortKey="citizen"
+      >citizen</term> mother, and even illegitimate children (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="no/qoi">nothoi</w>
+     </foreign>) can be <term sortKey="citizens">citizens</term> in many places. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1275b" type="cts-urn">1275b</bibl>: 35-37: <name
+      type="person">Cleisthenes</name> of <placeName key="Athens">Athens</placeName> made <term
+      sortKey="citizens">citizens</term> of <term sortKey="metics">metics</term> [resident
+     foreigners], who had been foreigners or <term sortKey="slaves">slaves</term>, following the
+     expulsion of the tyrants from <placeName key="Athens">Athens</placeName> [near the end of the
+      <date from="-0599" to="-0500">sixth century</date>]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1283b" type="cts-urn">1283b</bibl>: 42-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1284a4" type="cts-urn">1284a4</bibl>: The <term
+      sortKey="citizen">citizen</term> in common parlance is the person who has a share in ruling
+     and being ruled; in the best system of government [namely, a polity, on which see under <soCalled>
+      <term sortKey="aristotle_democracy@PassagesSystem">Defining Systems of Government</term>
+     </soCalled>] a <term sortKey="citizen">citizen</term> is both able and willing to rule and be
+     ruled in accordance with a life lived with excellence as its aim. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1277a" type="cts-urn">1277a</bibl>: 26-27: The
+     excellence of a <term sortKey="citizen">citizen</term> consists of being able to rule and be
+     ruled well. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1277b" type="cts-urn">1277b</bibl>: 13-18: The good
+      <term sortKey="citizen">citizen</term> must have ability and knowledge concerning both ruling
+     free men and also being ruled. A good <term sortKey="citizen">citizen</term> must possess
+     moderation and prudence (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="swfrosu/nh">sophrosyne</w>
+     </foreign>) and justice (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="dikaiosu/nh">dikaiosyne</w>
+     </foreign>) with respect to ruling. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1276b" type="cts-urn">1276b</bibl>: 28-29: The task
+     of citizens is the preservation (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="sothri/a">soteria</w>
+     </foreign>) of the partnership that is their system of government. [Also under <soCalled>
+      <term sortKey="aristotle_democracy@PassagesPreservingDemocracy">Preserving Democracy</term>
+     </soCalled>] </p>
+   </div>
+   <div n="PassagesSystem" type="Section" xml:id="PassagesSystem">
+    <head>Passages: Defining the System of Government</head>
+    <p>
+     <bibl n="urn:cts:greekLit:tlg0086.tlg035:1323a" type="cts-urn">1323a</bibl>: 14-16: To seek out
+     what is the best system of government, it is first necessary to define what is the most
+     desirable life. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1323b" type="cts-urn">1323b</bibl>: 1-4: Living
+     happily, whether for human beings it comes from enjoyment or from excellence or from both,
+     exists for those persons excessively adorned with character and purpose but moderate in the
+     acquisition of external goods. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1295a" type="cts-urn">1295a</bibl>: 25-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1295b" type="cts-urn">1295b</bibl>: Like the best life, the
+     best system of government is conducted in accordance with excellence. If excellence is the
+     mean, as argued in the <title>
+      <bibl n="urn:cts:greekLit:tlg0086.tlg010" type="cts-urn">Nicomachean Ethics</bibl>
+     </title> [for example, at <bibl n="urn:cts:greekLit:tlg0086.tlg010:1101a" type="cts-urn"
+      >1101a</bibl>: 14-16], then a life and a system of government that is <quote>in the
+      middle</quote> is best. A city-state has three elements in its population: the rich, the poor,
+     and those in the middle. The political partnership that is constituted from those in the middle
+     is the best. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1293a" type="cts-urn">1293a</bibl>: 35-42: In
+     addition to the four systems of government that [other] people usually bring up in discussing
+     systems of government (namely, monarchy, oligarchy, democracy, and aristocracy), there is a
+     fifth one called polity (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="politei/a">politeia</w>
+     </foreign>), which is also the term used to mean <soCalled>system of government</soCalled> in
+     general or in a generic sense. This fifth system of government is sometimes overlooked in
+     discussions of the types of systems of government since it does not come into existence very
+     often. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1289a" type="cts-urn">1289a</bibl>: 26-28: As was
+     established previously in the first book of the <bibl n="urn:cts:greekLit:tlg0086.tlg035"
+      type="cts-urn">
+      <title>Politics</title>
+     </bibl>, there are three <soCalled>straight</soCalled> or <soCalled>upright</soCalled> [and
+     therefore correct and good] systems of government (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="orthai/">orthai</w>
+      <w xml:lang="xgrc" n="politei=ai">politeiai</w>
+     </foreign>): kingship, aristocracy, and polity. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1265b" type="cts-urn">1265b</bibl>: 26-28: The
+     system of government called polity is midway between democracy and oligarchy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1293b" type="cts-urn">1293b</bibl>: 33-37: Polity
+     is, to put it simply, a mixture of oligarchy and democracy. The kinds of polities that tend
+     towards democracy are customarily referred to by the name of polity, while those that tend
+     towards oligarchy are called aristocracies. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1307a" type="cts-urn">1307a</bibl>: 15-16: The
+     systems of government inclining more toward oligarchy are called aristocracies, while those
+     inclining more toward the multitude (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="plh=qos">plethos</w>
+     </foreign>) [which can also mean <soCalled>democracy</soCalled>] are called polities. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1297b" type="cts-urn">1297b</bibl>: 22-25: As
+     city-states increased in size and grew stronger in the heavy-infantry [<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="o(pli/ths">hoplite</w>
+     </foreign>] section of the <term sortKey="citizen">citizen</term> body, more men gained a share
+     in the system of government. For this reason what are now called polities were previously
+     called democracies. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1279a" type="cts-urn">1279a</bibl>: 37-39: When the
+     multitude governs according to the common advantage, then this system of government is called
+     by the term also used to designate systems of government in general, namely, polity. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1288a" type="cts-urn">1288a</bibl>: 12-15: The
+     multitude suitable for a polity is one capable of military service that has the natural ability
+     to rule and be ruled in accordance with law that distributes offices to wealthier citizens on
+     the basis of merit. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1307a" type="cts-urn">1307a</bibl>: 5-8: Polities
+     and aristocracies are undone by diverging from that which constitutes justice in the two
+     different systems of government, [which is not necessarily the same thing in each system]. The
+     starting point in a polity is when democracy and oligarchy have been not mixed appropriately
+     [literally, <quote>finely</quote>]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1275b" type="cts-urn">1275b</bibl>: 1-3: Diverging
+     and erroneous systems of government are necessarily subsequent, not prior to correct [straight]
+     systems. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1279b" type="cts-urn">1279b</bibl>: 4-10: There are
+     three systems of government diverging from the three <soCalled>straight</soCalled> systems:
+     tyranny diverging from kingship, oligarchy diverging from aristocracy, and democracy diverging
+     from polity. Each diverging system (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="parekba/sis">parekbasis</w>
+     </foreign>) is structured to operate to the advantage of the ruler(s); for example, democracy
+     is rule to the advantage of the poor. None of the diverging systems aims at the profit of every
+     type of <term sortKey="citizen">citizen</term> in common. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1289a" type="cts-urn">1289a</bibl>: 28-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1289b5" type="cts-urn">1289b5</bibl>: Of these three
+     diverging systems of government, tyranny is the worst (which is to say the furthest from
+     polity), oligarchy the next worst, and democracy the most moderate. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1279a" type="cts-urn">1279a</bibl>: 17-21: While
+     straight systems of government are concerned with the common advantage according to what is
+     quite simply just, diverging forms of government are those that in error serve the interest of
+     the ruler(s). Diverging forms of government tend to have an element of despotism, because a
+     city-state is a partnership of the free. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1290a" type="cts-urn">1290a</bibl>: 13-29: Some
+     people claim that, just as there are two main kinds of wind or of musical harmonies, and the
+     other winds and harmonies are regarded as divergences from these, there are also two sorts of
+     systems of government, rule by the people and oligarchy. On this view, the, polity diverges
+     from democracy and aristocracy diverges from oligarchy. But it is better to postulate instead
+     that there are <soCalled>straight</soCalled> systems of government and systems of government
+     diverging from them. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1259a" type="cts-urn">1259a</bibl>: 39-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1259b10" type="cts-urn">1259b10</bibl>: The rule that a
+      <term sortKey="women_and_family">husband has over his wife</term>, a free person, is the same
+     sort of rule that exists over free persons in a polity. Since the male is more fit to rule by
+     nature, he will rule continuously in the household, unless he is somehow unnatural. In
+     contrast, when citizens are equals and do not differ, then the roles of ruler and ruled will
+     alternate. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1325b" type="cts-urn">1325b</bibl>: 7-8: For those
+     who are alike, the fine and the just is [to rule and be ruled] in turn, for this is equal and
+     alike. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1282b" type="cts-urn">1282b</bibl>: 10-13: Since
+     laws align with the system of government, the laws of straight systems of government are
+     necessarily just, but those of diverging systems are necessarily not just. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1309a" type="cts-urn">1309a</bibl>: 36-39: Justice
+     and the excellence associated with it are not the same in different systems of government. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1309b" type="cts-urn">1309b</bibl>: 19-35: Diverging
+     types of government fail to pay attention to the middle. Institutions suitable to a certain
+     type of government can be the downfall of that type of government if they become too extreme.
+     Just as a nose [on a statue] can still be appealing to look at if it diverges from the
+     straightness that is beautiful but can become not even a nose if an artist pushes it too far in
+     the direction of the extremes, so, too, a system of government such as democracy that diverges
+     from the best system can still be adequate if it is not pushed to an extreme. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1287b" type="cts-urn">1287b</bibl>: 39-41: There is
+     no such thing as a person being naturally fitted for any of the diverging systems of
+     governments, for they have come into being contrary to nature (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="fu/sis">physis</w>
+     </foreign>). </p>
+   </div>
+   <div n="PassagesDemocracy" type="Section" xml:id="PassagesDemocracy">
+    <head>Passages: Defining Democracy</head>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1294a" type="cts-urn">1294a</bibl>: 11: Freedom is
+     the defining principle of democracy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1317a" type="cts-urn">1317a</bibl>: 40-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1317b13" type="cts-urn">1317b13</bibl>: The underlying
+     principle of democracy is freedom, and it is customary to say that only in democracies do men
+     have a share in freedom, for that is what every democracy makes its aim. There are two main
+     aspects of freedom: 1) being ruled and ruling in turn, since everyone is equal according to
+     number, not merit, and 2) to be able to live as one pleases. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1280a" type="cts-urn">1280a</bibl>: 7-11: Justice as
+     understood in democracy is equality, but this considers only part of what is just; the same is
+     true of the notion of justice in oligarchy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1330b" type="cts-urn">1330b</bibl>: 19-20: A level
+     location is suitable for a democratic city-state, an acropolis for an oligarchy or a monarchy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1321a" type="cts-urn">1321a</bibl>: 5-14: A
+     multitude (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="plh=qos">plethos</w>
+     </foreign>) has four divisions: farmers, craftsmen, merchants, and laborers. There are four
+     [divisions of the population] useful for the military: those who own horses [cavalrymen],
+     heavy-armed infantry [hoplites], light-armed infantry, and those who row warships in the navy.
+     Light-armed infantry and rowers are wholly democratic [sections of the <term sortKey="citizen"
+      >citizen</term> body]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1278b" type="cts-urn">1278b</bibl>: 8-12: The system
+     of government of a city-state is the arrangement of its various institutions, especially those
+     having authority. In a democracy, the people (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="dh=mos">demos</w>
+     </foreign>) have authority. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1281a" type="cts-urn">1281a</bibl>: 40-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1281b6" type="cts-urn">1281b6</bibl>: That the multitude
+      (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="plh=qos">plethos</w>
+     </foreign>) should have authority rather than those who are best and few in number [is a
+     defensible position]. Even though none of the many is individually a man of excellence,
+     nevertheless they can be better when they are all together, just as a dinner to which many
+     people contribute can be better than one furnished from a single source. With each of the many
+     having a part of excellence and intelligence, when they join together they become like a single
+     person. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1286a" type="cts-urn">1286a</bibl>: 28-37: Any one
+     man [of the many] may be inferior [to a man of excellence], but the city-state is made up of
+     many men. Just as a meal done by many is better than a single and simple one, for this reason a
+     mass (ochlos) can judge many things better than any one man. In addition, that which is many is
+     less likely to be corrupted. So, although an individual’s judgment can be
+     corrupted when he is overcome by anger or some other emotion, it is difficult for all to become
+     angry and make erroneous judgments simultaneously. If all the men are good men and good
+     citizens, they are less corruptible than one man. But the multitude must be free men and do
+     nothing contrary to law, except in cases where the law necessarily falls short. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1281b" type="cts-urn">1281b</bibl>: 23-36: What
+     authority should belong to the multitude (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="plh=qos">plethos</w>
+     </foreign>) of free <term sortKey="citizens">citizens</term>, who are not rich and have not a
+     single claim to excellence? They should not have a share in the highest offices because their
+     injustice and imprudence would make this unsafe. States are unstable, however, that are filled
+     with those who have no share of political power and are poor. Therefore, it is left for them to
+     share in the deliberative and judicial functions of government [namely, the <term
+      sortKey="assembly">assembly</term> and the <term sortKey="courts">courts</term>]. For when
+     they have all come together, their perception [of political issues] is sufficient, and when
+     they are mixed with the <soCalled>better</soCalled>
+     <term sortKey="citizens">citizens</term>, they benefit city-states. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1282a" type="cts-urn">1282a</bibl>: 25-32: In some
+     systems of government, authority is given to the people (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="dh=mos">demos</w>
+     </foreign>) over great matters, such as overseeing the audits of the conduct and accounts of
+      <term sortKey="archons">magistrates</term> and choosing them, for this power is given to the
+      <term sortKey="assembly">assembly</term>. Thus, <term sortKey="citizens">citizens</term> of
+     whatever age and required to meet only a low financial requirement can participate in the <term
+      sortKey="assembly">assembly</term> and deliberate [on political issues] and serve in the <term
+      sortKey="courts">courts</term>, while those meeting a high financial requirement serve as
+     treasurers and generals [the chief civic <term sortKey="archons">magistrates</term>] and in the
+     highest <term sortKey="archons">magistracies</term>. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1279b" type="cts-urn">1279b</bibl>: 18-19: Democracy
+     is when those who do not own much property, but are poor, have authority in the system of
+     government. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1279b" type="cts-urn">1279b</bibl>: 20-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1280a6" type="cts-urn">1280a6</bibl>: The definitions of
+     democracy and oligarchy according to whether the many or the few have authority in the system
+     of government appear problematic if one supposes that it might happen that the majority in a
+     state were wealthy or that the poor would be few in number but still have authority. In fact,
+     it is only a contingent factor whether the few or the many have authority in a state. The real
+     difference between democracy and oligarchy is between poverty and wealth. Wherever the rulers,
+     whether they be a minority or a majority, owe their power to wealth, that is an oligarchy.
+     Wherever the poor rule, that is a democracy. Usually, where the rulers hold power by wealth,
+     they are few, but where the poor rule, they are many, because few men are rich but all are free
+     [if they are citizens in a city-state], and wealth and freedom are the grounds on which the two
+     groups lay claim to government. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1290a" type="cts-urn">1290a</bibl>: 30-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1290b2" type="cts-urn">1290b2</bibl>: Democracy is not
+     necessarily only wherever the multitude has authority. Oligarchy is not necessarily wherever a
+     minority has power over the system of government. If the majority of a city-state were wealthy
+     and had authority, nobody would call it a democracy, just as if a small group of poor men had
+     control over a larger rich population, nobody would call it an oligarchy. Rather, democracy is
+     when every free <term sortKey="citizen">citizen</term> has authority and oligarchy is when the
+     rich have it. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1290b" type="cts-urn">1290b</bibl>: 17-20: Democracy
+     is when there is a majority of free, poor men who have authority to rule, while oligarchy is
+     when it is in the hands of the wealthy and well-born, who are a minority. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1328b" type="cts-urn">1328b</bibl>: 32-33: In
+     democracies, everyone has a share in everything. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1297b" type="cts-urn">1297b</bibl>: 37-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1298a33" type="cts-urn">1298a33</bibl>: There are three
+     parts to all systems of government for which a good law maker must try to find the best
+     arrangement: deliberating about matters common to all, <term sortKey="archons"
+      >magistracies</term>, and the <term sortKey="lawcourt">judicial system</term>. It is democracy
+     when all the <term sortKey="citizens">citizens</term> can deliberate about everything, for the
+     people seek this kind of equality. There are different ways of doing this. One way is by taking
+     turns rather than all together. Another is to have all citizens meet together but only for the
+     election of <term sortKey="archons">magistrates</term>, <term sortKey="legislation">law
+      making</term>, declarations of war and peace, and audits of <term sortKey="archons"
+      >magistrates</term>, but to have all other matters decided by <term sortKey="archons"
+      >magistrates</term> chosen from the entire citizen body either by election or by lot. Another
+     is just like this, except the <term sortKey="archons">magistrates</term> are chosen to the
+     extent possible by election from those who are knowledgeable. A fourth way is when all citizens
+     meet to deliberate on all matters, while the <term sortKey="archons">magistrates</term> render
+     only preliminary decisions, not final ones. The so-called final type of democracy [on which see
+     under <soCalled><term sortKey="aristotle_democracy@PassagesTypesOfDemocracy">Types of
+       Democrac</term>y</soCalled>], the type of democracy that is analogous to dynastic oligarchy
+     and tyrannical monarchy and exists now [in <name type="ancientAuthor"
+     >Aristotle</name>’s time], is arranged in this fourth way. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1317b" type="cts-urn">1317b</bibl>: 17-41: The
+     following arrangements are usually considered consistent with democracy:</p>
+    <list rend="numbered">
+     <item>Election to all offices from among all the <term sortKey="citizens"
+      >citizens</term>.</item>
+     <item>Rule of all over each and of each over all in turn filling <term sortKey="archons"
+       >magistrates</term> by lot, or at least those not requiring knowledge and technical skill not
+      having a financial requirement for holding <term sortKey="archons">magistracies</term>, or at
+      least the smallest possible requirement.</item>
+     <item>The same person not repeating the same <term sortKey="archons">magistracy</term>, or only
+      rarely, except for military offices.</item>
+     <item>Having the terms of <term sortKey="archons">magistracies</term> be short, wherever
+      possible.</item>
+     <item>Choosing <term sortKey="jurors">jurors</term> from all <term sortKey="citizens"
+       >citizens</term> to adjudicate all matters, or most matters, especially the most important
+      ones.</item>
+     <item>The <term sortKey="assembly">assembly</term> having authority over all matters or the
+      most important matters, while <term sortKey="archons">magistrates</term> have authority over
+      none, or as few as possible.</item>
+     <item>Providing pay for all service in government, or for all functions that exercise
+      authority.</item>
+     <item>Making no distinctions according to a <term sortKey="citizen"
+      >citizen</term>’s birth, poverty, or occupation no public offices held for
+      life.</item>
+    </list>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1294b" type="cts-urn">1294b</bibl>: 3-4: Democracy
+     allows men to participate in the <term sortKey="assembly">assembly</term> with either no
+     property qualification or a small one. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1297a" type="cts-urn">1297a</bibl>: 35-38: To
+     promote democracy, one can use these legislative devices: providing payment for the poor for
+     attending the <term sortKey="assembly">assembly</term> and for <term sortKey="jury">jury</term>
+     service and not levying fines on the rich for not participating. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1301a" type="cts-urn">1301a</bibl>: 11-12: The
+     democratic way to arrange a <term sortKey="lawcourt">judicial system</term> is to have all
+      <term sortKey="juries">juries</term> drawn from all the <term sortKey="citizens"
+      >citizens</term> and hear all cases. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1294a" type="cts-urn">1294a</bibl>: 39-40: In a
+     democracy the poor receive pay for serving on <term sortKey="juries">juries</term> and the rich
+     are not penalized for failing to serve. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1323a" type="cts-urn">1323a</bibl>: 6-9: Having a
+      <term sortKey="council">council</term> oversee the election to <term sortKey="archons"
+      >magistracies</term> that carry authority is democratic. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1300a" type="cts-urn">1300a</bibl>: 31-34: It is
+     democratic for all <term sortKey="citizens">citizens</term> to select <term sortKey="archons"
+      >magistrates</term> from all <term sortKey="citizens">citizens</term> by election or by lot or
+     by both methods. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1299b" type="cts-urn">1299b</bibl>: 24-27: In a
+     democracy, <term sortKey="archons">magistracies</term> are filled from the ranks of the free,
+     while in an oligarchy from the rich and in an aristocracy from the educated. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1294b" type="cts-urn">1294b</bibl>: 7-10: Democracy
+     fills <term sortKey="archons">magistracies</term> by lot and does not require men to possess a
+     minimum amount of wealth to be eligible to serve. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1273b" type="cts-urn">1273b</bibl>: 12-13: It is
+     more democratic—indeed more <soCalled>polity-like</soCalled>—to have a
+     larger number of people hold public office and not to have one person hold multiple <term
+      sortKey="archons">magistracies</term> simultaneously, if the city-state is not small. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1287a" type="cts-urn">1287a</bibl>: 4-5: There can
+     be an office of general (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="strathgi/a">strategia</w>
+     </foreign>) without limit of time in all systems of government, even in a democracy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1300a" type="cts-urn">1300a</bibl>: 6-7: It is not
+     democratic, but aristocratic, to have a <term sortKey="archons">magistrate</term> to oversee
+     children, or one to oversee women, or any other one to exercise this sort of oversight. For it
+     is not possible [as practical matter] to prevent the wives of poor men from going out of their
+     homes [because they have to work outside the home to earn money to help support their
+     families]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1294b" type="cts-urn">1294b</bibl>: 19-39: Many try
+     to talk about <placeName key="Sparta">Sparta</placeName> as a democracy because it has many
+     democratic elements in the arrangement [of its system of government]. For example, the children
+     of rich and poor are raised and educated in the same way. So, too, adults eat and dress the
+     same way, whether rich or poor. As for their top two offices, one is elected by the people
+     [that is, ordinary <term sortKey="citizens">citizens</term>], and the people can be elected to
+     the other. Others call <placeName key="Sparta">Sparta</placeName> an oligarchy because it has
+     oligarchic elements also. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1271a" type="cts-urn">1271a</bibl>: 32-37: The
+      <placeName key="Sparta">Spartan</placeName> common messes were intended to be a democratic
+     institution, but they did not work out that way. Everyone is required to contribute [to the
+     shared meals], but some of them are too poor to do so. The very poorest cannot easily share in
+     the common messes, yet this is the ancestral defining principal of their system of government.
+     Thus the very poor do not have a share in it. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1265b" type="cts-urn">1265b</bibl>: 35-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1266a2" type="cts-urn">1266a2</bibl>: Some see democratic
+     elements in the system of government at <placeName key="Sparta">Sparta</placeName>. Some of
+     these think the board of overseers (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="e)/foroi">ephors</w>
+     </foreign>) is democratic because it is drawn from all the <term sortKey="citizens"
+      >citizens</term>. Others, however, call the board tyrannical and think the system of
+     government is run democratically through the common messes and the rest of the everyday way of
+     life at <placeName key="Sparta">Sparta</placeName>. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1270b" type="cts-urn">1270b</bibl>: 13-17: Since the
+      <placeName key="Sparta">Spartan</placeName> board of overseers is too powerful, the kings must
+     attempt to win their support. This has done additional injury to the system of government,
+     which has changed from aristocracy to democracy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1284a" type="cts-urn">1284a</bibl>: 3-37: A man who
+     is clearly superior in excellence to all the rest of the city-state would be like a god among
+     men. Democratic states instituted ostracism to banish such men for a fixed amount of time to
+     prevent them from taking over the city-state because they were preeminent in their wealth,
+     their large number of supporters, or some other source of political strength. </p>
+   </div>
+   <div n="PassagesTypesOfDemocracy" type="Section" xml:id="PassagesTypesOfDemocracy">
+    <head>Passages: Types of Democracy</head>
+    <p>
+     <bibl n="urn:cts:greekLit:tlg0086.tlg035:1289a" type="cts-urn">1289a</bibl>: 8-10: Multiple
+     types of democracy happen to exist, despite some people saying there is only one type. [The
+     same remark occurs at <bibl n="urn:cts:greekLit:tlg0086.tlg035:1289a" type="cts-urn"
+      >1289a</bibl>: 22-25, <bibl n="urn:cts:greekLit:tlg0086.tlg035:1291b" type="cts-urn"
+      >1291b</bibl>: 15-16, and <bibl n="urn:cts:greekLit:tlg0086.tlg035:1316b" type="cts-urn"
+      >1316b</bibl>: 36.] </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1317a" type="cts-urn">1317a</bibl>: 22-33: There are
+     two reasons why there are several different types of democracy: their majorities or
+      <soCalled>peoples</soCalled> are of different kinds (for example, farmers as opposed to
+     craftsmen or laborers), and they can have different combinations of the institutions that make
+     them democratic. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1289a" type="cts-urn">1289a</bibl>: 22-23: The same
+     laws cannot be advantageous for every type of democracy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1291b" type="cts-urn">1291b</bibl>: 30-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1292a13" type="cts-urn">1292a13</bibl>: [This passage
+     appears to list five types of democracy, but the next two passages list only four.]</p>
+    <list>
+     <item>The first type of democracy is particularly based on equality, where neither the rich nor
+      the poor has pre-eminent authority, but both are similar [in their authority]. Still, since
+      the majority rules and the <soCalled>people</soCalled> will be in the majority, this is a
+      democracy.</item>
+     <item>Another type is when <term sortKey="citizens">citizens</term> have to meet a financial
+      assessment to qualify for service in public offices, but the amount is low and any citizen
+      possessing the required amount can have a share.</item>
+     <item>Another type is when anyone whose <term sortKey="citizenship">citizenship</term> is not
+      open to dispute [because they are descended from a family of <term sortKey="citizens"
+       >citizens</term> whose <term sortKey="citizenship">citizenship</term> has never been
+      questioned?] can have a share, and the law rules.</item>
+     <item>Another type is when absolutely everyone, so long as they are <term sortKey="citizens"
+       >citizens</term> [and even if they became citizens in a special way, such as being made <term
+       sortKey="citizens">citizens</term> in political revolution, and did not inherit their <term
+       sortKey="citizenship">citizenship</term>], can have a share in public offices, and law
+      rules.</item>
+     <item>Another type is the same in the other ways [as in type no. 4?] but the multitude rules,
+      not law. This happens when decrees [passed by the multitude] have authority rather than the
+      law having authority. Here demagogues arise, and the multitude becomes a monarch.</item>
+    </list>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1292b" type="cts-urn">1292b</bibl>: 22-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1293a12" type="cts-urn">1293a12</bibl>: [There are only
+     four types of democracy listed in this passage.]</p>
+    <list>
+     <item>One type of democracy is when farmers and those possessing a moderate amount of property
+      have authority. They govern themselves in accordance with law because their work leaves them
+      little leisure time. They therefore meet in the <term sortKey="assembly">assembly</term> only
+      as absolutely necessary [to make decisions on matters not covered by the code of law]. A share
+      [in the system of government] is open to anyone as soon as they meet the financial assessment
+      set by law. They cannot be at leisure [for public service in governing] unless there is public
+      revenue [to subsidize their participation].</item>
+     <item>A second type is when anyone whose <term sortKey="citizenship">citizenship</term> is
+      beyond question by his descent is entitled to have a share but only those with leisure [for
+      public service in governing] actually have a share. The laws rule because there is no public
+      revenue.</item>
+     <item>A third type is when all who are free are entitled to a share in the system of
+      government, but they do not in fact take part for the reason previously stated. Therefore, law
+      necessarily rules.</item>
+     <item>A fourth type is the last type to arise in cities. Since cities have become far larger
+      than before and have public revenue from which to pay subsidies for public service, everyone
+      is now able to participate. Even the poor have the leisure for public service thanks to the
+      payments. Their private business and affairs are not an impediment for their public service,
+      but such things are an impediment for the rich, who therefore frequently avoid service in the
+       <term sortKey="assembly">assembly</term> or the <term sortKey="courts">courts</term>. In this
+      way the multitude of the poor wins authority over the system of government, not the
+      laws.</item>
+    </list>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1296b" type="cts-urn">1296b</bibl>: 24-31: Where the
+     quantity of the multitude of the poor is so large as to overbalance the quality of the rich,
+     according to the formula just explained [in the text preceding this passage], there democracy
+     springs up naturally. What type of democracy it is will depend on what type of population is
+     preeminent. For example, if it is a multitude of farmers, then it will be the first type of
+     democracy it is the first kind. If it is a multitude of craftsmen and wage-earners, then it
+     will be the final type, and so on with the types in between. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1318b" type="cts-urn">1318b</bibl>: 6-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1319a3" type="cts-urn">1319a3</bibl>: There being four
+     types of democracy, the best is the first in the arrangement previously mentioned [namely, in
+      <bibl n="urn:cts:greekLit:tlg0086.tlg035:1292b22-1293" type="cts-urn"
+      >1292b22-1293</bibl>-<bibl n="urn:cts:greekLit:tlg0086.tlg035:1293a12" type="cts-urn"
+      >1293a12</bibl>, as listed above]. This type of democracy has a multitude that is mostly
+     farmers or herders, whose work keeps them too busy to meet frequently in the assembly. They do
+     not wish to serve in offices, where there is no great profit in it. Everyone will elect <term
+      sortKey="archons">magistrates</term> and conduct audits of them and serve in the <term
+      sortKey="courts">courts</term>, but those elected to office will meet financial assessments
+     or, if there is no such requirement, will be capable people. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1319a" type="cts-urn">1319a</bibl>: 4-19: This is
+     the best democracy because of what sort of people (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="dh=mos">demos</w>
+     </foreign>) it has. If one would like to institute a farming <foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="dh=mos">demos</w>
+     </foreign>, one should look to the law of the <placeName key="Aphytis">Aphyteans</placeName>,
+     who divide their little amount of land into very small plots so that everyone, even the poor,
+     has enough land to meet the financial requirement for sharing in <term sortKey="citizenship"
+      >citizenship</term>. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1319a" type="cts-urn">1319a</bibl>: 20-38: Next best
+     to having a multitude consisting of farmers is to have a herding people. The herding class have
+     strong bodies and dispositions fit for military service. The other sorts of multitudes from
+     which democracies are constituted are far worse. For craftsmen, merchants, and laborers lead
+     lives devoid of excellence, and they are always in the marketplace and in the city and thus
+     able to attend <term sortKey="assembly">assemblies</term>. It is easier to create a good
+     democracy in a place where the fields of the city-state are located at some distance from the
+     city and the multitude must dwell out in the country [to work in the fields and are thus not
+     easily able to come to the urban center to attend meetings]. Even where there is a crowd of
+     merchants, <term sortKey="assembly">assemblies</term> should not be held without the multitude
+     from the country. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1319b" type="cts-urn">1319b</bibl>: 1-32: The final
+     type of democracy, in which everyone is in the partnership, is not easy for every city to
+     maintain, nor is it easy for this type to endure because its laws and its habits are not well
+     composed. Demagogues expand its citizen body by allowing in those of illegitimate birth or born
+     to only one citizen parent. If the rabble grow too numerous, they create disorder and can
+     provoke the notable members of the population to resistance against the democracy. This type of
+     democracy is made stronger by introducing institutions to mix everyone up together, as <name
+      type="person">Cleisthenes</name> did at <placeName key="Athens">Athens</placeName>. This type
+     of democracy promotes disorderly living, with a lack of control over women, children, and
+     slaves, and a toleration for everyone living as he pleases, for the many prefer living like
+     this to living with prudence and moderation. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1298b" type="cts-urn">1298b</bibl>: 13-19: The
+     democracy today considered the most democratic—namely, the type in which the people
+      (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="dh=mos">demos</w>
+     </foreign>) has authority even over the laws—arranges things to serve its own
+     advantage in the deliberative body: they pay the poor to attend. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1305a" type="cts-urn">1305a</bibl>: 28-32: A change
+     from ancestral democracy to the newest democracy can occur. If the people elect the <term
+      sortKey="archons">magistrates</term> and there is no minimum financial requirement, then those
+     eager for office act as demagogues to accomplish this and give the people authority over the
+     laws. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1266b" type="cts-urn">1266b</bibl>: 21-24: The
+     system of government at <placeName key="Leucas">Leucas</placeName> became excessively
+     democratic when offices were no longer filled according to the established minimum property
+     requirement based on <soCalled>old allotments</soCalled> of land [but instead the requirement
+     was lowered]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1312b" type="cts-urn">1312b</bibl>: 4-6: The final
+     type of democracy is a tyranny. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1313b" type="cts-urn">1313b</bibl>: 32-41 The final
+     form of democracy has characteristics of tyranny: women dominate in the household so that they
+     can denounce their husbands, slaves lack discipline, and
+     flatterers—demagogues—are held in honor. The people wish to be a monarch. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1295b" type="cts-urn">1295b</bibl>: 39-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1296a5" type="cts-urn">1296a5</bibl>: It is best for
+     citizens in a city-state to possess a moderate amount of wealth because where some have a lot
+     and some have none the result is the ultimate democracy or unmixed oligarchy. Tyranny can
+     result from both these extremes. It is much less likely to spring from moderate systems of
+     government. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1311a" type="cts-urn">1311a</bibl>: 15-16: Taking
+     after democracy, tyranny makes war on the notables in the <term sortKey="citizen"
+      >citizen</term> body. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1276a" type="cts-urn">1276a</bibl>: 12-14: Some
+     democracies, like tyrannies, rest on force and are not directed toward the common advantage. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1277b" type="cts-urn">1277b</bibl>: 1-3: In some
+     places in the old days, before the development of <soCalled>ultimate</soCalled> democracy,
+     craftsmen were barred from office. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1312b" type="cts-urn">1312b</bibl>: 35-38: Ultimate
+     democracy, like unmixed and final oligarchy, is really a tyranny divided [among a multitude of
+     persons]. </p>
+   </div>
+   <div n="PassagesCreatingDemocracy" type="Section" xml:id="PassagesCreatingDemocracy">
+    <head>Passages: Creating Democracy</head>
+    <p>
+     <bibl n="urn:cts:greekLit:tlg0086.tlg035:1286b" type="cts-urn">1286b</bibl>: 11-22: When there
+     came to be many men alike in their excellence, they ceased to put up with kingship and instead,
+     seeking something shared, established a polity. As they became [morally] worse and began to
+     make a profit from common affairs [or <soCalled>resources</soCalled>], oligarchies arose, for
+     they made wealth something honorable. Then these oligarchies changed first into tyrannies, and
+     from tyrannies into democracies. For by always bringing power to ever fewer people in search of
+     base profit, they made the multitude stronger, which attacked [the ruler(s)], and democracies
+     arose. Now that city-states have become even larger than before, it is not very easy for any
+     system of government but a democracy to come into existence. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1301a" type="cts-urn">1301a</bibl>: 28-31: [Rule by
+     the] people developed because those who are equal in whatever way suppose that they are quite
+     simply equal [in all ways]. Since they are all free in like manner, they think they are quite
+     simply equal. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1292b" type="cts-urn">1292b</bibl>: 11-14: It
+     happens that a system of government may not be democratic in terms of its laws but is still
+     governed democratically on account of the habit and upbringing of the <term sortKey="citizens"
+      >citizens</term>. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1296a" type="cts-urn">1296a</bibl>: 22-36: When
+     there is factional strife between rich and poor because there is not a strong
+      <soCalled>middle</soCalled> [in the citizen body], the conflict leads to either democracy or
+     oligarchy, depending on who wins. Once the fight is decided, the victors do not establish a
+     shared or equal system of government; rather, they establish one to their own advantage. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1305a" type="cts-urn">1305a</bibl>: 37-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1305b11" type="cts-urn">1305b11</bibl>: Mistreating the
+     people can lead to the overthrow of oligarchy and the establishment of [the rule of] the
+     people, as at <placeName key="Istros">Istros</placeName>. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1303a" type="cts-urn">1303a</bibl>: 1-10: A system
+     of government can be changed into a democracy when the size of the multitude of the poor
+     increases, as occurred at <placeName key="Tarentum">Tarentum</placeName>, <placeName
+      key="Argos">Argos</placeName>, and <placeName key="Athens">Athens</placeName>. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1273b" type="cts-urn">1273b</bibl>: 35-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1274a15" type="cts-urn">1274a15</bibl>: Some people say
+     that <name type="person">Solon</name> did away with an excessively unmixed oligarchy [at
+      <placeName key="Athens">Athens</placeName>] and ended the enslavement of the people (<foreign
+      xml:lang="xgrc">
+      <w xml:lang="xgrc" n="dh=mos">demos</w>
+     </foreign>), thus founding the ancestral democracy, which had a mixture of oligarchic,
+     aristocratic, and democratic elements. In fact, what he did was to create [the rule of the]
+     people by founding <term sortKey="courts">courts</term> whose <term sortKey="juries"
+      >juries</term> were drawn from the entire <term sortKey="citizen">citizen</term> body. Later
+     leaders continued [to increase the power of the people], leading to the present [more
+     democratic] democracy. It really was not <name type="person">Solon</name>’s
+     intention for this to happen. But because the people were the source of Athenian naval strength
+     in the wars against <placeName key="Persia">Persia</placeName>, they began to have high
+     aspirations [for political power] and to choose unworthy demagogues as leaders when socially
+     more respectable citizens opposed this development. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1304a" type="cts-urn">1304a</bibl>: 17-34: Changes
+     towards democracy (or another type of government) can come about when a <term sortKey="archons"
+      >magistracy</term> or some part of the city-state grows in power. This led to greater
+     democracy at <placeName key="Athens">Athens</placeName> after the war with <placeName
+      key="Persia">Persia</placeName>, when those who rowed in the fleet became the cause of the
+     victory at <placeName key="Salamis">Salamis</placeName> and of the leadership [over its Greek
+     allies] that <placeName key="Athens">Athens</placeName> earned from its naval strength. So,
+     too, at <placeName key="Syracuse">Syracuse</placeName>, <placeName key="Chalcis"
+      >Chalcis</placeName>, and <placeName key="Ambracia">Ambracia</placeName> the people set up
+     democracies after their participation in battle was the crucial element enabling their
+     city-state to be victorious in war. </p>
+   </div>
+   <div n="PassagesPreservingDemocracy" type="Section" xml:id="PassagesPreservingDemocracy">
+    <head>Passages: Preserving Democracy</head>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1276b" type="cts-urn">1276b</bibl>: 28-29: The task
+     of citizens is the preservation (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="swthri/a">soteria</w>
+     </foreign>) of the partnership that is their system of government. [Also under <soCalled>
+      <term sortKey="aristotle_democracy@PassagesCitizen">Defining the Citizen</term>
+     </soCalled>] </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1309b" type="cts-urn">1309b</bibl>: 35-37: The
+     lawmaker and the political man must know what kind of democratic institutions preserve and what
+     kinds destroy democracy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1308a" type="cts-urn">1308a</bibl>: 11-16: The
+     equality that supporters of democracy seek is just and advantageous for people who are alike.
+     Where there are many people in government, legal rules of a democratic cast are advantageous,
+     such as limiting term in office to six months so that everyone who is alike can have a share in
+     filling public posts. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1321a" type="cts-urn">1321a</bibl>: 1-2: Democracies
+     are generally preserved by having a large <term sortKey="citizen">citizen</term> body. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1326b" type="cts-urn">1326b</bibl>: 2-7: A
+     city-state must be populous enough to be self-sufficient, but too large a state cannot be a
+     city-state because it is not easy to have a system of government in it. It is too large to be
+     effectively managed militarily, and no herald can shout loud enough [to conduct the <term
+      sortKey="assembly">assembly</term> meetings of a large population]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1296a" type="cts-urn">1296a</bibl>: 13-16:
+     Democracies are more secure than oligarchies and more enduring since they have more
+      <soCalled>middle</soCalled> people with a greater share in [political] prerogatives. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1309b" type="cts-urn">1309b</bibl>: 37-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1310a6" type="cts-urn">1310a6</bibl>: To endure, a
+     democracy, like an oligarchy, needs both the rich and the poor. A democracy that destroys the
+     well-off becomes unstable. Where the people have authority over the laws, demagogues tear the
+     city in two by fighting with the rich. Instead, they should do the opposite and appear to speak
+     on the behalf of the rich. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1309a" type="cts-urn">1309a</bibl>: 1-9: It is
+     democratic for all to be eligible to hold public office. The policy of not allowing office
+     holders to profit from their office will mean that the poor will not desire to hold office, but
+     rather they will prefer to tend to their own affairs. Thus, they will become more prosperous by
+     working, while the notable and wealthy members of the citizen body will hold office because
+     they have no need to earn money from public service. In this way the notables will not be
+     governed by just anyone. Both groups will then have what they want [and therefore the state
+     will be stable]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1299b" type="cts-urn">1299b</bibl>: 32-34: A <term
+      sortKey="council">council</term> (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="boulh/">boule</w>
+     </foreign>) with a large number of members is supportive of democracy because it does
+     preliminary deliberation for the people so that they can have time for their occupations. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1309a" type="cts-urn">1309a</bibl>: 27-31: In
+     democracy, as in oligarchy, it is advantageous to give equality or precedence in all aspects of
+     the government except the highest offices to that group which has the least share in the system
+     of government. In a democracy, that group would be the rich. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1319b" type="cts-urn">1319b</bibl>: 33-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1320b17" type="cts-urn">1320b17</bibl>: To preserve a
+     democracy, one should strive not for measures that will make it absolutely as democratic as
+     possible but rather that will preserve it for the longest time. The following measures are
+     recommended: any confiscations of property imposed as punishment in a legal judgment should
+     become property of the gods, not of the public, to prevent corrupt court judgments meant to
+     secure a distribution to the population from the confiscated property; large penalties should
+     be imposed for frivolous prosecutions to prevent harassment of the rich; if there are no
+     [additional] sources of public revenues besides taxes [on individuals], confiscations, and
+     corrupt court judgments to pay subsidies to the multitude for attending the <term
+      sortKey="assembly">assembly</term>, then only infrequent <term sortKey="assembly"
+      >assembly</term> meetings and brief <term sortKey="court">court</term> sessions should be held
+     [to minimize the need to take money from the rich to pay the subsidies]; if there are
+     [additional] public revenues, no surplus from them should be distributed to the poor, for this
+     practice stimulates more demand for this sort of distribution; at the same time, the multitude
+     should be kept from becoming overly poor, since this development creates wretched [and thus
+     excess] democracy; money should be provided from public revenues to the poor so that they can
+     acquire land for farming or learn a craft and become better off over time; the rich should be
+     taxed to provide pay [to ordinary <term sortKey="citizens">citizens</term> to enable them to
+     attend] necessary meetings, but the rich should be released from unnecessary public service;
+     the rich should divide the poor <term sortKey="citizens">citizens</term> among themselves and
+     then give them enough money [for necessary tools, etc.] so that they can start to work; <term
+      sortKey="archons">magistracies</term> should be chosen some by election and some by lot. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1309a" type="cts-urn">1309a</bibl>: 14-20: In
+     democracies, the rich should be spared and not have their property or their incomes redivided
+     [for distribution to the poor]. They should also be prohibited from spending money on expensive
+     but useless sponsorships of public occasions (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="leitourgi/ai">liturgies</w>
+     </foreign>) such as leading choral groups for musical and dramatic festivals or officiating at
+     torch races, even if they want to pay for such sponsorships. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1308b" type="cts-urn">1308b</bibl>: 10-19: In all
+     systems of government no one is allowed to become overly great [so as to threaten the stability
+     of the state]. Acquiring great prerogatives quickly tends to corrupt people, for not everyone
+     can stand good fortune. Above all, the laws should prevent anyone from becoming especially
+     preeminent in the power derived from his supporters or his wealth; if the laws cannot prevent
+     this, then such persons should be sent to spend time abroad. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1308b" type="cts-urn">1308b</bibl>: 31-33: It is of
+     the greatest importance in all systems of government to have laws and the rest of governmental
+     administration so arranged that <term sortKey="archons">magistrates</term> cannot profit
+     financially from their offices. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1310a" type="cts-urn">1310a</bibl>: 12-36: The
+     greatest thing of everything that has been mentioned for preserving a system of government,
+     although this is the thing everyone slights, is providing education in accordance with the
+     system of government. For even the most beneficial and widely approved laws bring no benefit if
+     they are not going to be inculcated through education and the habits of the <term
+      sortKey="citizens">citizens</term>. Education appropriate for a democratic system of
+     government is not to be guided by what brings enjoyment to the partisans of democracy but
+     rather by what makes it possible to run a system of government democratically. In the
+     democracies that seem to be the most democratic, they do what is not advantageous because they
+     define freedom badly. For democracy is thought to be defined by two things: by the majority
+     having authority and by freedom. Justice is then thought of as equality, and equality as that
+     whatever the multitude decides is what is authoritative. Freedom and equality are doing
+     whatever one wishes. So in this sort of democracy everybody lives as he wants and for whatever
+     goal he craves. This is a contemptible thing. Living according to one’s
+     system of government should not be thought of as slavery, but rather as preservation. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1337a" type="cts-urn">1337a</bibl>: 11-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1337b3" type="cts-urn">1337b3</bibl>: Everyone would agree
+     that law makers should make the education of the young a special priority. City-states that
+     fail to do this injure their systems of government. The education must suit the system of
+     government, for this preserves it. Since a city-state has a single goal (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="te/los">telos</w>
+     </foreign>), education must, of necessity, be the same and be given to everyone. Its oversight
+     should be a public matter, not as it is now, with everyone overseeing his own
+     children’s education privately and having them taught what he believes best.
+     Training for things that are shared should be a shared activity done in common. The <placeName
+      key="Sparta">Spartans</placeName> might well deserve praise on this score, since they, more
+     than anyone, devote effort to their children, and as a shared task. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1260b" type="cts-urn">1260b</bibl>: 15-20: It is
+     necessary to educate women and children with an eye to the system of government, if the state
+     is to be worthy. For women make up half of the free population, and from the children will come
+     the partners in the system of government. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1342b" type="cts-urn">1342b</bibl>: 34: There are
+     three defining principles for education: the middle, the possible, and the appropriate. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1266b" type="cts-urn">1266b</bibl>: 29-31: There is
+     a greater need to level people’s desires rather than their property (by <term
+      sortKey="legislation">legislation</term> redividing property holdings or limiting them), and
+     this can be done only when people are sufficiently educated by the laws. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1313a" type="cts-urn">1313a</bibl>: 41-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1313b6" type="cts-urn">1313b6</bibl>: Education, debate,
+     and social groups dedicated to inquiry and discussion are enemies of tyranny, since they
+     encourage intelligent thought and trust [among citizens]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1263b" type="cts-urn">1263b</bibl>: 36-37: Since a
+     city-state is a multitude, it is necessary to use education to make it into a partnership and a
+     unity. </p>
+   </div>
+   <div n="PassagesDestroyingDemocracy" type="Section" xml:id="PassagesDestroyingDemocracy">
+    <head>Passages: Destroying Democracy</head>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1304b" type="cts-urn">1304b</bibl>: 20-<bibl
+      n="urn:cts:greekLit:tlg0086.tlg035:1305a7" type="cts-urn">1305a7</bibl>: The main cause of the
+     overthrow of democracies is the outrageous behavior of demagogues. By attacking [rich] property
+     owners they motivate them to band together out of fear, and they also spur on the people [to
+     try to bleed the rich]. In this way democracy has been overthrown at numerous places:
+      <placeName key="Cos">Cos</placeName>, <placeName key="Rhodes">Rhodes</placeName>, <placeName
+      key="Heracleia">Heracleia</placeName>, <placeName key="Megara">Megara</placeName>, <placeName
+      key="Cyme">Cyme</placeName>. This is more or less the way democracies are destroyed. To win
+     popular support, demagogues propose unjust treatment for the notables and thus force them to
+     band together, by making them give up their property for redivision, or by having them expend
+     their resources on public service, or by slandering them to force confiscations of their
+     property. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1311a" type="cts-urn">1311a</bibl>: 22-26: The same
+     beginnings lead to the overthrow of polities and monarchies alike. For those who are ruled
+     attack monarchies on account of injustice, fear, and contempt. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1301b" type="cts-urn">1301b</bibl>: 26-29: Factional
+     conflict (<foreign xml:lang="xgrc">
+      <w xml:lang="xgrc" n="sta/sis">stasis</w>
+     </foreign>) erupts everywhere on account of inequality, or at least it does if no proportion
+     exists between those who are unequal. In general, people engage in factional conflict seeking
+     equality. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1303b" type="cts-urn">1303b</bibl>: 6-7: In
+     democracies, the notables cause factional conflict because they have [only] an equal share in
+     things even though [in their own eyes] they are not equal [to everybody else but feel superior
+     and therefore feel they should possess more political power, etc. than those whom they see as
+     their inferiors]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1302a" type="cts-urn">1302a</bibl>: 31-34: Factional
+     conflict is the result of fighting to gain profit and honor and to avoid their opposites,
+     dishonor and penalties. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1302b" type="cts-urn">1302b</bibl>: 21-24: Fear
+     causes factional conflict, both when men fear punishment for injustice they have committed and
+     also when they fear being treated unjustly. At <placeName key="Rhodes">Rhodes</placeName>, for
+     example, the notables rebelled against the people on account of legal prosecutions that were
+     being brought against them. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1302b" type="cts-urn">1302b</bibl>: 27-33: Factional
+     conflict occurs in democracies when the rich feel contempt for the disorder and anarchy [of the
+     government], as at <placeName key="Thebes">Thebes</placeName> and <placeName key="Megara"
+      >Megara</placeName> following defeats in battle and on <placeName key="Rhodes"
+      >Rhodes</placeName> preceding the rebellion [of the notables]. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1302b" type="cts-urn">1302b</bibl>: 15-18: Factional
+     conflict can arise when there is a person or a group whose power exceeds that of the city-state
+     or its government. The institution of <term sortKey="ostracism">ostracism</term> came into
+     being to prevent this. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1308b" type="cts-urn">1308b</bibl>: 20-22: Since
+     men’s private lives can lead them to seek the overthrow of the system of
+     government, a <term sortKey="archons">magistracy</term> is needed to oversee those living
+     against the common advantage of the city-state, for example, in a democracy those living lives
+     disadvantageous for democracy. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1303b" type="cts-urn">1303b</bibl>: 7-12:
+     City-states sometimes fall into factions on account of their topography. At <placeName
+      key="Athens">Athens</placeName>, for example, the <term sortKey="citizens">citizens</term>
+     ones living in the <placeName key="Piraeus">Piraeus</placeName> [the harbor district] are more
+     democratic than those in the urban center. </p>
+    <p><bibl n="urn:cts:greekLit:tlg0086.tlg035:1302a" type="cts-urn">1302a</bibl>: 8-13: Democracy
+     is more stable and less prone to factional conflict than oligarchy. In an oligarchy there are
+     two types of possible conflict, namely, conflict between the oligarchs themselves and conflict
+     between the oligarchs and the people. In a democracy, however, there is only conflict between
+     citizens favoring democracy and <term sortKey="citizens">citizens</term> favoring oligarchy, as
+     no serious factional conflict arises in the people [that is, those favoring democracy] against
+     themselves. </p>
+   </div>
+   <div n="Bibliography" type="Section" xml:id="Bibliography">
+    <head>Selective Bibliography</head>
+    <p>
+     <emph>Translation and Commentary</emph>
+    </p>
+    <p><bibl type="secondary"><title level="m">Aristotle, The Politics.</title> Translated with an
+      introduction by <author>Carnes Lord</author>. (Chicago, 1984).</bibl> An admirable
+     translation, remarkably close to the Greek but still very readable. </p>
+    <p><bibl type="secondary"><author>W. L. Newman</author>, <title level="m">The Politics of
+       Aristotle</title>, 4 vols. (Oxford, 1887-1902).</bibl> A massive critical commentary that has
+     never been equaled. See especially his discussion of Aristotle and Greek democracy in vol. 4,
+     pages xxxvi-lxi. </p>
+    <p>
+     <emph>Interpretative Studies</emph>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Pierre Aubenque</author>, <title level="a">Aristote et la
+       démocratie,</title> in <title level="m">Individu et
+       société. L’influence d’Aristote
+       dans le monde méditerranéen. Actes du Colloque
+       d’Istanbul Palais de France, 5-9 Janvier 1986.</title> ed. Thierry Zarcone
+       (<placeName key="Istanbul">Istanbul</placeName>, <date when="1988">1988</date> = <title
+       level="m">Varia Turcica</title> X), pp. 31-38.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Jonathan Barnes</author>, <title level="a">Aristotle and
+       Political Liberty,</title> in <title level="m">Aristoteles’ Politik. Akten
+       des XI. Symposium Aristotelicum. Friedrichshafen/Bodensee 25.8-3.9.1987</title>, ed. G.
+      Patzig (Göttingen, 1990), pages 249-263, with comments by R. Sorabji, pages
+      264-76.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Mortimer Chambers</author>, <title level="a"
+       >Aristotle’s <soCalled>Forms of Democracy,</soCalled></title>
+      <title level="j">Transactions of the American Philological Association</title> vol. 92 (1961),
+      pages 20-36.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Abraham Edel</author>, <title level="m">Aristotle and his
+       Philosophy</title> (Chapel Hill, 1982), pages 325-328.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Christoph Eucken</author>, <title level="a">Der aristotelische
+       Demokratiebegriff und sein historisches Umfeld,</title> in <title level="m">Aristoteles'
+       Politik. Akten des XI. Symposium Aristotelicum. Friedrichshafen/Bodensee</title>
+      25.8-3.9.1987, ed. G. Patzig (Göttingen, 1990), pages 277-291, with comments by
+      T. H. Irwin, pages 292-95.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Robert A. Goldberg</author>, <title level="m">Democracy and
+       Justice in Aristotle’s Politics</title>, University of Toronto
+      dissertation, 1990; summary in <title level="m">Dissertation Abstracts</title> 51 (1990-91)
+      1369A.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Andrew Lintott</author>, <title level="a">Aristotle and
+       Democracy,</title>
+      <title level="j">Classical Quarterly</title> 42 (1992), pages 114-128.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Claude Mossé</author>, <title level="a"
+       >égalité democratique et inégalité sociales.
+       Le Débat à Athènes au IVème
+       Siècle,</title>
+      <title level="j">Metis</title> 2 (1987), pages 165-176, 195-206 (esp. pages 201-206 on the
+       <title level="m">Politics</title>).</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>R. G. Mulgan</author>, <title level="m"
+       >Aristotle’s Political Theory. An Introduction for Students of Political
+       Theory</title> (Oxford, 1977), pages 73-75, and <title level="a"
+       >Aristotle’s analysis of democracy and oligarchy,</title> in <title
+       level="m">A Companion to Aristotle’s Politics</title>, ed. David Keyt and
+      Fred D, Miller, Jr. (Blackwell, Oxford, 1991), pages 307-322.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Oswyn Murray</author>, <title level="a"><foreign xml:lang="xgrc"
+        >Polis</foreign> and <foreign xml:lang="xgrc">Politeia</foreign> in Aristotle,</title> in <title
+       level="m">The Ancient Greek City State</title>, edited Mogens Herman Hansen (Copenhagen,
+      1993), pages 197-210.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Martha Nussbaum</author>, <title level="a">Aristotelian Social
+       Democracy,</title> in <title level="m">Liberalism and the Good</title>, edited R. Bruce
+      Douglas (New York, 1990), pages 203-252.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Josiah Ober</author>, <title level="a"
+       >Aristotle’s Political Sociology: Class, Status, and Order in the
+       Politics,</title> in <title level="m">Essays on the Foundations of Aristotelian Political
+       Science</title>, edited Carnes Lord and David K. O'Connor (Berkeley and Los Angeles, 1991),
+      pages 112-135.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Demetris Papadis</author>, <title level="a">Il concetto di
+       democrazia in Aristotele,</title>
+      <title level="j">Discorsi</title> 9 (1989), pages 326-340.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>C. I. Papageorgiou</author>, <title level="a">Four or five types
+       of democracy in Aristotle?,</title>
+      <title level="j">History of Political Thought</title> vol. 11 (1990), pages 1-8.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>David Ross</author>, <title level="m">Aristotle</title>, 5th
+      edition (London, 1949), pages 250-263.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Arlene W. Saxenhouse</author>, <title level="m">Fear of
+       Diversity. The Birth of Political Science in Ancient Greek Thought</title> (Chicago, 1992),
+      pages 189-232 (<title level="a">Aristotle: Diversity and the Birth of Political
+       Science</title>).</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Paul Schollmeier</author>, <title level="a">The democracy most
+       in accordance with equality,</title>
+      <title level="j">History of Political Thought</title> 9 (1988), pages 205-209.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>Barry S. Strauss</author>, <title level="a">On Aristotle's
+       Critique of Athenian Democracy,</title> in <title level="m">Essays on the Foundations of
+       Aristotelian Political Science</title>, ed. Carnes Lord and David K. O'Connor (Berkeley and
+      Los Angeles, 1991), pages 212-233.</bibl>
+    </p>
+    <p>
+     <bibl type="secondary"><author>J. Touloumakos</author>, <title level="m">Die theoretische
+       Begründung der Demokratie in der klassischen Zeit Griechenlands (Die
+       demokratische Argumentation in der <soCalled>Politik</soCalled> des Aristoteles)</title>
+      (Athens, 1985).</bibl>
+    </p>
+   </div>
+  </body>
+ </text>
+</TEI>
